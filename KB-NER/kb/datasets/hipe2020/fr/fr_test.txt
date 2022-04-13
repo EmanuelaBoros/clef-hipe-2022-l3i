@@ -1,0 +1,2148 @@
+Munich	loc	faisaient
+Munich	loc.adm.town	faisaient
+célèbre marchand d ' animaux de Hambourg	comp.function	faisaient
+Hambourg	loc.adm.town	faisaient
+wigsstrasse	loc	enfoncèrent
+wigsstrasse	loc.oro	enfoncèrent
+M . Hagenbeck	pers	déclaré
+M . Hagenbeck	pers.ind	déclaré
+Hagenbeck	comp.name	déclaré
+ville de Berne	loc	va
+ville de Berne	loc.adm.town	va
+Berne	comp.name	va
+quartier de la _ Laaoggasse	loc	voir
+quartier de la _ Laaoggasse	loc.adm.town	voir
+_ Laaoggasse	comp.name	voir
+canton de Vaud	loc	viennent
+canton de Vaud	loc	viennent
+canton de Vaud	loc.adm.reg	viennent
+canton de Vaud	loc.adm.reg	viennent
+Vaud	comp.name	viennent
+Vaud	comp.name	viennent
+M Capré	pers	né
+M Capré	pers.ind	né
+M	comp.title	né
+Capré	comp.name	né
+Finges	loc	étendue
+Chippis	loc	étendue
+Finges	loc.adm.town	étendue
+Chippis	loc.adm.town	étendue
+canton de Fribourg	loc	décidé
+canton de Fribourg	loc.adm.reg	décidé
+Fribourg	comp.name	décidé
+Chambres fédérales	org	chapitre
+Chambres fédérales	org.adm	chapitre
+Conseil de l ' Ecole polytechnique de Zurich	org	délivré
+Conseil de l ' Ecole polytechnique de Zurich	org.ent	délivré
+Ecole polytechnique de Zurich	org.ent	délivré
+département de l ' industrie et de l ' agriculture	org	croit
+département de l ' industrie et de l ' agriculture	org.adm	croit
+vice - président du Conseil général , M . Louis Thorens	pers	admis
+vice - président du Conseil général , M . Louis Thorens	pers.ind	admis
+vice - président du Conseil général	comp.function	admis
+Louis Thorens	comp.name	nommé
+Jean Dardel	pers	composée
+Otto de Dardel	pers	composée
+Fritz Honegger	pers	composée
+Jean Dardel	pers.ind	composée
+Otto de Dardel	pers.ind	composée
+Fritz Honegger	pers.ind	composée
+Emile Schaeffer	comp.name	composée
+Chable	loc	procède
+MM ; F . Honegger	pers	savoir
+Chable	loc.adm.town	procède
+MM ; F . Honegger	pers.ind	savoir
+MM ;	comp.title	savoir
+Vaud	loc	déclare
+Vaud	loc.adm.reg	déclare
+Dind	comp.name	déclare
+Confédération	loc	demande
+Confédération	org	demande
+Confédération	loc.adm.nat	demande
+Confédération	org.adm	demande
+Conseil fédéral	org	estime
+Conseil fédéral	org.adm	estime
+Suisse	loc	consentira
+Suisse	org	consentira
+Suisse	loc.adm.nat	consentira
+Suisse	org.adm	consentira
+M . Ador , conseiller fédéral	pers	reconnaît
+M . Ador , conseiller fédéral	pers.ind	reconnaît
+Ador	comp.name	reconnaît
+conseiller fédéral	comp.function	reconnaît
+M . Boïiliôte	pers	rapporte
+M . Boïiliôte	pers.ind	rapporte
+Boïiliôte	comp.name	rapporte
+du 14 avril 1915	time	déposent
+du 14 avril 1915	time.date.abs	déposent
+agence Reuter	org	annonçait
+Suisse	loc	aveo
+Suisse	org	aveo
+agence Reuter	org.ent.pressagency	annonçait
+Suisse	loc.adm.nat	aveo
+Suisse	org.adm	aveo
+Reuter	comp.name	annonçait
+Suisse	loc	entretenait
+Shanghai	loc	possédait
+Suisse	org	entretenait
+Suisse	loc.adm.nat	entretenait
+Shanghai	loc.adm.town	possédait
+Suisse	org.adm	entretenait
+Chine	loc	manifesté
+Suisse	loc	engager
+Chine	org	manifesté
+Suisse	org	engager
+Chine	loc.adm.nat	manifesté
+Suisse	loc.adm.nat	engager
+Chine	org.adm	manifesté
+Suisse	org.adm	engager
+Dernières Nouvelles de zig	prod	croient
+Académie française	org	décidé
+président Wilson	pers	décidé
+Dernières Nouvelles de zig	prod.media	croient
+Académie française	org.ent	décidé
+président Wilson	pers.ind	décidé
+président	comp.function	décidé
+Wilson	comp.name	décidé
+zig	loc.adm.town	croient
+Dernières Nouvelles de Leipzig	prod	rappellent
+Dernières Nouvelles de Leipzig	prod	ajoute
+Dernières Nouvelles de Leipzig	prod	acquis
+Allemagne	loc	rappellent
+M . Ador	pers	ajoute
+M . Ador	pers	ajoute
+Dernières Nouvelles de Leipzig	prod.media	rappellent
+Dernières Nouvelles de Leipzig	prod.media	ajoute
+Dernières Nouvelles de Leipzig	prod.media	acquis
+Allemagne	loc.adm.nat	rappellent
+M . Ador	pers.ind	ajoute
+M . Ador	pers.ind	ajoute
+Ador	comp.name	ajoute
+Ador	comp.name	ajoute
+Leipzig	loc.adm.town	rappellent
+outre - Rhin	loc	réserve
+outre - Rhin	loc.adm.reg	réserve
+Rhin	loc.phys.hydro	réserve
+rue de la rassiers	loc	domicilié
+Jules Page	pers	expliquait
+rue de la rassiers	loc.oro	domicilié
+Jules Page	pers.ind	expliquait
+jeune Page	pers	atteignit
+jeune Page	pers.ind	atteignit
+jeune	comp.qualifier	atteignit
+Page	comp.name	atteignit
+jeune	comp.qualifier	Conduit
+maréchal Haig	pers	rendu
+maréchal Haig	pers.ind	rendu
+maréchal	comp.title	rendu
+Haig	comp.name	rendu
+maréchal Foch	pers	comptait
+Hindenbourg	pers	considérait
+Ecosse	loc	repose
+cathédrale de Saint - Paul	loc	repose
+maréchal Foch	pers.ind	comptait
+Hindenbourg	pers.ind	considérait
+Ecosse	loc.adm.nat	repose
+cathédrale de Saint - Paul	loc.fac	repose
+maréchal	comp.title	comptait
+maréchal	comp.title	comptait
+Foch	comp.name	comptait
+Saint - Paul	comp.name	repose
+Saint - Paul	pers.ind	repose
+maréchal Haig	pers	eu
+maréchal Haig	pers	eu
+M » Ramsay Mac Donald , chef dé l ' opposition	pers	jugea
+M » Ramsay Mac Donald , chef dé l ' opposition	pers	laisser
+M » Ramsay Mac Donald , chef dé l ' opposition	pers	enlever
+maréchal Haig	pers.ind	eu
+maréchal Haig	pers.ind	eu
+M » Ramsay Mac Donald , chef dé l ' opposition	pers.ind	jugea
+M » Ramsay Mac Donald , chef dé l ' opposition	pers.ind	laisser
+M » Ramsay Mac Donald , chef dé l ' opposition	pers.ind	enlever
+maréchal	comp.title	eu
+Haig	comp.name	eu
+maréchal	comp.title	eu
+Haig	comp.name	eu
+Majesté	comp.title	coutume
+reine	comp.title	laisser
+Ramsay Mac Donald	comp.name	jugea
+Ramsay Mac Donald	comp.name	laisser
+chef dé l ' opposition	comp.function	jugea
+chef dé l ' opposition	comp.function	laisser
+chef dé l ' opposition	comp.function	enlever
+comité de la campagne pour l ' égalité des droits politiques de la femme	org	suivie
+comité de la campagne pour l ' égalité des droits politiques de la femme	org.ent	suivie
+Journal	prod	apprend
+PARIS	loc	détruit
+PARIS	loc	eu
+PARIS	loc	A
+Havas	org	eu
+Havas	org	A
+Londres	loc	songerait
+Londres	loc	jetée
+Petit Parisien	prod	apprend
+Rangoon	loc	songerait
+Brésil	loc	posé
+PARIS	loc	détruit
+PARIS	loc	eu
+PARIS	loc	A
+Havas	org	eu
+Havas	org	A
+Matin	prod	publie
+Londres	loc	songerait
+Londres	loc	jetée
+PARIS	loc	détruit
+PARIS	loc	eu
+PARIS	loc	A
+Havas	org	eu
+Havas	org	A
+Petit Journal	prod	apprend
+docteur Vogelwald	pers	rendu
+PARIS	loc	détruit
+PARIS	loc	eu
+PARIS	loc	A
+Havas	org	eu
+Havas	org	A
+Journal	prod	apprend
+Paris	loc	apprend
+Mme Pelletier , femme du propriétaire d ' un hôtel à Annet	pers	voulut
+Mme Desjaux , belle - mère de l ' hôtelier	pers	accomplir
+M . Pelletier	pers	voulut
+M . Pelletier	pers	voulut
+PARIS	loc	détruit
+PARIS	loc	eu
+PARIS	loc	A
+Havas	org	eu
+Havas	org	A
+Petit Parisien	prod	apprend
+Toulon	loc	songerait
+village de la Môle	loc	posé
+Londres	loc	songerait
+Londres	loc	jetée
+Journal	prod.media	apprend
+PARIS	loc.adm.town	détruit
+PARIS	loc.adm.town	eu
+PARIS	loc.adm.town	A
+Havas	org.ent.pressagency	eu
+Havas	org.ent.pressagency	A
+Londres	loc.adm.town	songerait
+Londres	loc.adm.town	jetée
+Petit Parisien	prod.media	apprend
+Rangoon	loc.adm.town	songerait
+Brésil	loc.adm.nat	posé
+PARIS	loc.adm.town	détruit
+PARIS	loc.adm.town	eu
+PARIS	loc.adm.town	A
+Havas	org.ent.pressagency	eu
+Havas	org.ent.pressagency	A
+Matin	prod.media	publie
+Londres	loc.adm.town	songerait
+Londres	loc.adm.town	jetée
+PARIS	loc.adm.town	détruit
+PARIS	loc.adm.town	eu
+PARIS	loc.adm.town	A
+Havas	org.ent.pressagency	eu
+Havas	org.ent.pressagency	A
+Petit Journal	prod.media	apprend
+docteur Vogelwald	pers.ind	rendu
+PARIS	loc.adm.town	détruit
+PARIS	loc.adm.town	eu
+PARIS	loc.adm.town	A
+Havas	org.ent.pressagency	eu
+Havas	org.ent.pressagency	A
+Journal	prod.media	apprend
+Paris	loc.adm.town	apprend
+Mme Pelletier , femme du propriétaire d ' un hôtel à Annet	pers.ind	voulut
+Mme Desjaux , belle - mère de l ' hôtelier	pers.ind	accomplir
+M . Pelletier	pers.ind	voulut
+M . Pelletier	pers.ind	voulut
+PARIS	loc.adm.town	détruit
+PARIS	loc.adm.town	eu
+PARIS	loc.adm.town	A
+Havas	org.ent.pressagency	eu
+Havas	org.ent.pressagency	A
+Petit Parisien	prod.media	apprend
+Toulon	loc.adm.town	songerait
+village de la Môle	loc.adm.town	posé
+Londres	loc.adm.town	songerait
+Londres	loc.adm.town	jetée
+Vogelwald	comp.name	rendu
+docteur	comp.title	rendu
+Vogelwald	comp.name	rendu
+Pelletier	comp.name	voulut
+Pelletier	comp.name	désespéré
+belle - mère de l ' hôtelier	comp.function	accomplir
+Pelletier	comp.name	voulut
+Pelletier	comp.name	désespéré
+Pelletier	comp.name	voulut
+Pelletier	comp.name	désespéré
+JOhn Smith	comp.name	jetée
+PARIS	loc	attribué
+PARIS	loc.adm.town	attribué
+Kellogg	comp.name	attribué
+comité Nobel	org	décidé
+de 1928	time	conférer
+comité Nobel	org.ent	décidé
+de 1928	time.date.abs	conférer
+Nobel	comp.name	décidé
+LONDRES	loc	crée
+LONDRES	loc.adm.town	crée
+Berne	loc	écrit
+Conseil national	org	vient
+Berne	loc.adm.town	écrit
+Conseil national	org.adm	vient
+Confédération	loc	proposé
+Confédération	org	proposé
+Confédération	loc.adm.nat	proposé
+Confédération	org.adm	proposé
+du 25 septembre 1936	time	devient
+Banque nationale	org	augmenté
+du 25 septembre 1936	time.date.abs	devient
+Banque nationale	org.ent	augmenté
+Banque nationale	org	a
+Banque nationale	org.ent	a
+M . Grimm	pers	développait
+Conseil national	org	sait
+Conseil national	org	peut
+Banque nationale	org	développait
+Banque nationale	org	sait
+Confédération	loc	développait
+Confédération	loc	sait
+Conseil fédéral	org	présenté
+Conseil fédéral	org	sait
+Conseil fédéral	org	peut
+Confédération	org	développait
+Confédération	org	sait
+M . Grimm	pers.ind	développait
+Conseil national	org.adm	sait
+Conseil national	org.adm	peut
+Banque nationale	org.ent	développait
+Banque nationale	org.ent	sait
+Confédération	loc.adm.nat	développait
+Confédération	loc.adm.nat	sait
+Conseil fédéral	org.adm	présenté
+Conseil fédéral	org.adm	sait
+Conseil fédéral	org.adm	peut
+Confédération	org.adm	développait
+Confédération	org.adm	sait
+Grimm	comp.name	développait
+Conseil fédéral	org	écrivait
+Conseil fédéral	org	demande
+Suisse	loc	dépend
+Conseil fédéral	org.adm	écrivait
+Conseil fédéral	org.adm	demande
+Suisse	loc.adm.nat	dépend
+Conseil fédéral	org	exposait
+Conseil fédéral	org	priverait
+Conseil fédéral	org.adm	exposait
+Conseil fédéral	org.adm	priverait
+Berne	loc	écrit
+outre - Rhin	loc	doit
+Berne	loc.adm.town	écrit
+outre - Rhin	loc.adm.reg	doit
+Rhin	loc.phys.hydro	doit
+ConseU fédéral	org	prît
+Suisse	loc	renforcées
+Université de Fribourq	org	sévissait
+ConseU fédéral	org.adm	prît
+Suisse	loc.adm.nat	renforcées
+Université de Fribourq	org.ent	sévissait
+Fribourq	loc.adm.town	sévissait
+Reich	loc	croire
+Reich	loc	croire
+Reich	org	croire
+Reich	org	croire
+Reich	loc.adm.nat	croire
+Reich	loc.adm.nat	croire
+Reich	org.adm	croire
+Reich	org.adm	croire
+Hitler	pers	croire
+Hitler	pers.ind	croire
+Berne	loc	devînt
+Reich	loc	attendre
+Reich	org	attendre
+Berne	loc.adm.town	devînt
+Reich	loc.adm.nat	attendre
+Reich	org.adm	attendre
+Shertok	comp.name	déclaré
+ministre des affaires étrangères d ' Israël	comp.function	déclaré
+Israël	loc.adm.nat	déclaré
+Tel - Aviv	loc	confirmé
+Tel - Aviv	loc.adm.town	confirmé
+Jérusalem	loc	annonce
+Jérusalem	loc.adm.town	annonce
+hôtel Salvia	org	bâillonné
+hôtel Salvia	org.ent	bâillonné
+Salvia	comp.name	bâillonné
+M . Paro	pers	remis
+M . Paro	pers.ind	remis
+Paro	comp.name	remis
+M . Paro	pers	protesté
+bande « Stern	org	essayé
+M . Paro	pers.ind	protesté
+bande « Stern	org.ent	essayé
+Paro	comp.name	protesté
+Turquie	loc	fournira
+Turquie	org	fournira
+Turquie	loc.adm.nat	fournira
+Turquie	org.adm	fournira
+commandant en chef de l ' armée transjordanienne , Glubb Pacha	pers	proposé
+Israël	loc	fournisse
+Israël	org	fournisse
+commandant en chef de l ' armée transjordanienne , Glubb Pacha	pers.ind	proposé
+Israël	loc.adm.nat	fournisse
+Israël	org.adm	fournisse
+commandant en chef de l ' armée transjordanienne	comp.function	proposé
+Glubb Pacha	comp.name	proposé
+général de Gaulle	pers	allait
+général de Gaulle	pers.ind	allait
+général	comp.title	allait
+Gaulle	comp.name	allait
+général de Gaulle	pers	eut
+Paris	loc	eut
+général de Gaulle	pers.ind	eut
+Paris	loc.adm.town	eut
+général	comp.title	eut
+Gaulle	comp.name	eut
+Entente cordiale	org	donne
+Entente cordiale	org.adm	donne
+Londres	loc	devenu
+Londres	loc	devenu
+France	loc	rendre
+France	loc	rendre
+France	org	rendre
+France	org	rendre
+Londres	loc.adm.town	devenu
+Londres	loc.adm.town	devenu
+France	loc.adm.nat	rendre
+France	loc.adm.nat	rendre
+France	org.adm	rendre
+France	org.adm	rendre
+Angleterre	loc	mettre
+France	loc	vis
+Angleterre	org	mettre
+Angleterre	loc.adm.nat	mettre
+France	loc.adm.nat	vis
+Angleterre	org.adm	mettre
+néral de Gaulle	pers	revenu
+néral de Gaulle	pers.ind	revenu
+néral	comp.title	revenu
+Gaulle	comp.name	revenu
+Paris	loc	avoir
+Paris	loc.adm.town	avoir
+France	loc	entend
+France	org	entend
+France	loc.adm.nat	entend
+France	org.adm	entend
+Paris	loc	paraissent
+Londres	loc	paraissent
+Paris	org	paraissent
+Londres	org	paraissent
+Paris	loc.adm.town	paraissent
+Londres	loc.adm.town	paraissent
+Paris	org.adm	paraissent
+Londres	org.adm	paraissent
+France	loc	entend
+France	org	entend
+France	loc.adm.nat	entend
+France	org.adm	entend
+Tunisie	loc	donnent
+Tunisie	org	donnent
+Tunisie	loc.adm.nat	donnent
+Tunisie	org.adm	donnent
+Liban	loc	manifester
+Liban	loc.adm.nat	manifester
+totalitarisme soviétique	prod	élaborer
+totalitarisme soviétique	prod.doctr	élaborer
+Marie - Antoinette	pers	envoyait
+Marie - Antoinette	pers.ind	envoyait
+Paris	loc	reprend
+Paris	loc.adm.town	reprend
+de 1940	time	vient
+de 1940	time.date.abs	vient
+Jacques Fath	pers	montrent
+Balenciaga	pers	montrent
+Emmanuelle Khanh	pers	montrent
+Jacques Fath	pers.ind	montrent
+Balenciaga	pers.ind	montrent
+Emmanuelle Khanh	pers.ind	montrent
+championne de France de ski nautique , Sylvie Maurial	pers	revêtu
+championne de France de ski nautique , Sylvie Maurial	pers.ind	revêtu
+championne de France de ski nautique	comp.function	revêtu
+Sylvie Maurial	comp.name	revêtu
+France	loc.adm.nat	revêtu
+Pierre Balmain	pers	viennent
+Pierre Balmain	pers.ind	viennent
+Christian Dior	pers	laissé
+Christian Dior	pers.ind	laissé
+Mlle Chanel	pers	rouvrait
+Mlle Chanel	pers.ind	rouvrait
+Mlle	comp.title	rouvrait
+Chanel	comp.name	rouvrait
+Courrèges	pers	régna
+Mademoiselle Chanel	pers	régna
+Courrèges	org	régna
+Courrèges	pers.ind	régna
+Mademoiselle Chanel	pers.ind	régna
+Courrèges	org.ent	régna
+Mademoiselle	comp.title	régna
+Chanel	comp.name	régna
+André Courrèges	pers	présente
+écurie Balenciaga	org	présente
+avenue Kléber	loc	avenue
+André Courrèges	pers.ind	présente
+écurie Balenciaga	org.ent	présente
+avenue Kléber	loc.oro	avenue
+Balenciaga	comp.name	présente
+Kléber	comp.name	avenue
+Balenciaga	pers.ind	présente
+Kléber	pers.ind	avenue
+Carven	org	présenté
+Carven	org.ent	présenté
+Alcudia	loc	dominée
+compatriote Melchior Mauri	pers	avance
+Allemand Uwe Peschel	pers	avance
+Alcudia	loc.adm.town	dominée
+compatriote Melchior Mauri	pers.ind	avance
+Allemand Uwe Peschel	pers.ind	avance
+compatriote	comp.function	avance
+Melchior Mauri	comp.name	avance
+Allemand	comp.demonym	avance
+Uwe Peschel	comp.name	avance
+Olano	pers	explique
+Olano	pers	peuvent
+vainqueur Olano	pers	explique
+Olano	pers	explique
+Olano	pers	peuvent
+petite équipe espagnole Estepona - Brcpac	org	explique
+petite équipe espagnole Estepona - Brcpac	org	confirmait
+petite équipe espagnole Estepona - Brcpac	org	terminé
+Olano	pers	explique
+Olano	pers	peuvent
+Melchior Mauri	pers	peuvent
+Olano	pers	explique
+Olano	pers	peuvent
+Mauri	pers	peuvent
+Olano	pers	explique
+Olano	pers	peuvent
+en 1993	time	superbe
+Oslo	loc	superbe
+Miguel Indurain	pers	superbe
+Olano	pers.ind	explique
+Olano	pers.ind	peuvent
+vainqueur Olano	pers.ind	explique
+Olano	pers.ind	explique
+Olano	pers.ind	peuvent
+petite équipe espagnole Estepona - Brcpac	org.ent	explique
+petite équipe espagnole Estepona - Brcpac	org.ent	confirmait
+petite équipe espagnole Estepona - Brcpac	org.ent	terminé
+Olano	pers.ind	explique
+Olano	pers.ind	peuvent
+Melchior Mauri	pers.ind	peuvent
+Olano	pers.ind	explique
+Olano	pers.ind	peuvent
+Mauri	pers.ind	peuvent
+Olano	pers.ind	explique
+Olano	pers.ind	peuvent
+en 1993	time.date.abs	superbe
+Oslo	loc.adm.town	superbe
+Miguel Indurain	pers.ind	superbe
+vainqueur	comp.function	explique
+Olano	comp.name	explique
+Olano	comp.name	peuvent
+Estepona - Brcpac	comp.name	confirmait
+Zulle	pers	reste
+Zulle	pers	confiant
+Alex Zulle	pers	reste
+Alex Zulle	pers	confiant
+Zulle	pers.ind	reste
+Zulle	pers.ind	confiant
+Alex Zulle	pers.ind	reste
+Alex Zulle	pers.ind	confiant
+Abraham Olano	pers	laissé
+Abraham Olano	pers.ind	laissé
+Suisse	loc	fait
+Chirac	pers	fait
+Berne	loc	fait
+Suisse	loc.adm.nat	fait
+Chirac	pers.ind	fait
+Berne	loc.adm.town	fait
+République française	loc	reçu
+République française	loc.adm.nat	reçu
+président Flavio Cotti	pers	eu
+président Flavio Cotti	pers.ind	eu
+président	comp.function	eu
+président Chirac	pers	a
+président Chirac	pers.ind	a
+président	comp.function	a
+Chirac	comp.name	a
+France	loc	va
+France	org	va
+France	loc.adm.nat	va
+France	org.adm	va
+Chirac	pers	accompagnait
+Chirac	pers.ind	accompagnait
+Chirac	pers	affirme
+Chirac	pers.ind	affirme
+Suisse	loc	ignorés
+Tessin	loc	ignorés
+Suisse	loc.adm.nat	ignorés
+Tessin	loc.adm.reg	ignorés
+Suisse	loc.adm.nat	ignorés
+Chirac	pers	voulu
+Chirac	pers	infructueuses
+Cotti	pers	voulu
+conseillers fédéraux Adolf Ogi	pers	juger
+Flavio Cotti	pers	juger
+président français Jacques Chirac	pers	infructueuses
+Chirac	pers.ind	voulu
+Chirac	pers.ind	infructueuses
+Cotti	pers.ind	voulu
+conseillers fédéraux Adolf Ogi	pers.ind	juger
+Flavio Cotti	pers.ind	juger
+président français Jacques Chirac	pers.ind	infructueuses
+conseillers fédéraux	comp.function	juger
+Adolf Ogi	comp.name	juger
+président français	comp.function	infructueuses
+Jacques Chirac	comp.name	infructueuses
+Cotti	pers	dirigées
+Cotti	pers.ind	dirigées
+Ruth Dreifuss	pers	repérait
+Kaspar Villiger	pers	repérait
+Pascal Couchepin	pers	repérait
+Ruth Dreifuss	pers.ind	repérait
+Kaspar Villiger	pers.ind	repérait
+Pascal Couchepin	pers.ind	repérait
+Conseil national	org	poursuivies
+Conseil national	org.adm	poursuivies
+Union péenne	org	compte
+Union péenne	org.adm	compte
+Jacques Chirac	pers	plaide
+Jacques Chirac	pers.ind	plaide
+Genève	loc	confirmera
+Genève	loc.adm.town	confirmera
+New York	loc	vécu
+Cindy Santos	pers	croit
+Cindy Santos	pers	vécu
+New York	loc	vécu
+Cindy Santos	pers	croit
+Cindy Santos	pers	vécu
+New York	loc.adm.town	vécu
+Cindy Santos	pers.ind	croit
+Cindy Santos	pers.ind	vécu
+New York	loc.adm.town	vécu
+Cindy Santos	pers.ind	croit
+Cindy Santos	pers.ind	vécu
+TSR	prod	’
+TSR	prod.media	’
+PASCAL HOFER	pers	PASCAL
+Cindy Santos	pers	Brooklyn
+PASCAL HOFER	pers.ind.articleauthor	PASCAL
+Cindy Santos	pers.ind	Brooklyn
+producteur et musicien suisse David Wehren	pers	prend
+producteur et musicien suisse David Wehren	pers.ind	prend
+David Wehren	comp.name	prend
+Brésil	loc	travaille
+Brésil	loc.adm.nat	travaille
+Cindy Santos	pers	enregistré
+Prince	pers	côtoyé
+Cindy Santos	pers.ind	enregistré
+Prince	pers.ind	côtoyé
+Paris	loc	voir
+Cindy Santos	pers	va
+Paris	loc.adm.town	voir
+Cindy Santos	pers.ind	va
+agent	comp.function	répond
+Cindy	pers	fasse
+Cindy	pers	retombée
+Cindy	pers	crois
+Cindy Santos	pers	fasse
+Cindy Santos	pers	retombée
+Cindy Santos	pers	crois
+PHO	pers	»
+Cindy	pers.ind	fasse
+Cindy	pers.ind	retombée
+Cindy	pers.ind	crois
+Cindy Santos	pers.ind	fasse
+Cindy Santos	pers.ind	retombée
+Cindy Santos	pers.ind	crois
+PHO	pers.ind.articleauthor	»
+Guy Bovet	pers	donnera
+Guy Bovet	pers	orgue
+Organiste depuis 20 ans à la collégiale à Neuchâtel , Guy Bovet	pers	donnera
+Organiste depuis 20 ans à la collégiale à Neuchâtel , Guy Bovet	pers	orgue
+Guy Bovet	pers.ind	donnera
+Guy Bovet	pers.ind	orgue
+Organiste depuis 20 ans à la collégiale à Neuchâtel , Guy Bovet	pers.ind	donnera
+Organiste depuis 20 ans à la collégiale à Neuchâtel , Guy Bovet	pers.ind	orgue
+Organiste depuis 20 ans à la collégiale à Neuchâtel	comp.function	orgue
+Guy Bovet	comp.name	donnera
+Guy Bovet	comp.name	orgue
+Neuchâtel	loc.adm.town	orgue
+Guy Bovet	pers	reçoit
+Guy Bovet	pers.ind	reçoit
+Guy Bovet	pers	fait
+Guy Bovet	pers.ind	fait
+Guy Bovet	pers	passe
+Guy Bovet	pers	passe
+Guy Bovet	pers.ind	passe
+Guy Bovet	pers.ind	passe
+Japon	loc	organiste
+Japon	loc.adm.nat	organiste
+Guy Bovet	comp.name	organiste
+Neuchâtel	loc.adm.town	envisage
+Guy Bovet	pers	explique
+Guy Bovet	pers.ind	explique
+M . le comte de Metternich	pers	informé
+M . le comte de Metternich	pers.ind	informé
+comte	comp.title	informé
+de Metternich	comp.name	informé
+Ruffie	loc	défendre
+Ruffie	loc	délivrés
+dus Avril 1793	time	défendre
+Angleterre	loc	défendre
+Angleterre	loc	doivent
+Ruffie	loc	défendre
+Ruffie	loc	délivrés
+Ruffie	loc	défendre
+Ruffie	loc	délivrés
+Turquie	loc	fuit
+Turquie	loc	conftatent
+Turquie	loc	excepte
+Afie	loc	excepte
+mer Noire	loc	excepte
+} i Juill . 1808	time	défendre
+ALBXANDBLE	pers	Signé
+Finlande	loc	défendre
+Ruffie	org	défendre
+Ruffie	org	délivrés
+Ruffie	org	défendre
+Ruffie	org	délivrés
+Ruffie	loc.adm.nat	défendre
+Ruffie	loc.adm.nat	délivrés
+dus Avril 1793	time.date.abs	défendre
+Angleterre	loc.adm.nat	défendre
+Angleterre	loc.adm.nat	doivent
+Ruffie	loc.adm.nat	défendre
+Ruffie	loc.adm.nat	délivrés
+Ruffie	loc.adm.nat	défendre
+Ruffie	loc.adm.nat	délivrés
+Turquie	loc.adm.nat	fuit
+Turquie	loc.adm.nat	conftatent
+Turquie	loc.adm.nat	excepte
+Afie	loc.adm.sup	excepte
+mer Noire	loc.phys.hydro	excepte
+} i Juill . 1808	time.date.abs	défendre
+ALBXANDBLE	pers.ind.articleauthor	Signé
+Finlande	loc.adm.nat	défendre
+Ruffie	org.adm	défendre
+Ruffie	org.adm	délivrés
+Ruffie	org.adm	défendre
+Ruffie	org.adm	délivrés
+Finlande	org.adm	défendre
+Kimito	loc	extrait
+Kimito	loc.phys.geo	extrait
+tal - major Schepeleweut	pers	«
+tal - major Schepeleweut	pers	Schepeleweut
+Lanford	loc	retirer
+amiral Chamkow	pers	détaché
+isles d ' Aland	loc	couper
+Suède	loc	couper
+lieutenant - général prince Galizyn	pers	«
+TawasftehHS	loc	dirigé
+isles d ' Aland	org	couper
+Suède	org	couper
+tal - major Schepeleweut	pers.ind	«
+tal - major Schepeleweut	pers.ind	Schepeleweut
+Lanford	loc.adm.town	retirer
+amiral Chamkow	pers.ind	détaché
+isles d ' Aland	loc.phys.geo	couper
+Suède	loc.adm.nat	couper
+lieutenant - général prince Galizyn	pers.ind	«
+TawasftehHS	loc.adm.town	dirigé
+isles d ' Aland	org.adm	couper
+Suède	org.adm	couper
+tal - major	comp.title	Schepeleweut
+Schepeleweut	comp.name	«
+amiral	comp.title	détaché
+Chamkow	comp.name	détaché
+Aland	comp.name	couper
+prince	comp.title	«
+mer Baltique	loc	efeadre
+mer Baltique	loc.phys.hydro	efeadre
+Pologne	loc	supporte
+Pologne	loc	jouit
+Autriche	loc	continue
+Illyrie	loc	supporte
+Illyrie	loc	s
+Bade	loc	recommande
+Bade	loc	attend
+Bade	loc	viennent
+Bade	loc	cause
+Bade	loc	principauté
+Venise	loc	prépare
+Venise	loc	retiré
+Venise	loc	porterau
+Dalmatie	loc	supporte
+Dalmatie	loc	prépare
+Amérique méridionale	loc	recommande
+Amérique méridionale	loc	supporte
+Amérique méridionale	loc	attend
+Amérique méridionale	loc	publiées
+Amérique méridionale	loc	viennent
+Amérique méridionale	loc	cause
+Amérique méridionale	loc	cherché
+Amérique méridionale	loc	principauté
+St . Thomas	loc	retiré
+Bolivar	pers	supporte
+Bolivar	pers	retiré
+Augustura	loc	retiré
+ïCalabozo	loc	supporte
+ïCalabozo	loc	défait
+amiral Bryon	pers	supporte
+amiral Bryon	pers	attend
+amiral Bryon	pers	arrêter
+amiral Bryon	pers	cherché
+Augustara	loc	retiré
+Augustara	loc	arrêter
+Venezuela	loc	supporte
+Venezuela	loc	arrêter
+Prusse	loc	retiré
+Prusse	loc	viennent
+Prusse	loc	porterau
+Saxe	loc	viennent
+Saltzbourg	loc	supporte
+Salza	loc	supporte
+Salza	loc	dépassé
+libraire Zaunrieth	pers	supporte
+place Mirabell	loc	supporte
+Munster	loc	retiré
+duché du Das . Rhin	loc	recommande
+duché du Das . Rhin	loc	retiré
+duché du Das . Rhin	loc	viennent
+duché du Das . Rhin	loc	cause
+duché du Das . Rhin	loc	principauté
+Erff	loc	déborda
+princd Eugène	pers	recommande
+princd Eugène	pers	viennent
+princd Eugène	pers	cause
+princd Eugène	pers	principauté
+Munich	loc	repoussent
+principauté d ' Eichstett	loc	recommande
+principauté d ' Eichstett	loc	retiré
+principauté d ' Eichstett	loc	viennent
+principauté d ' Eichstett	loc	cause
+principauté d ' Eichstett	loc	principauté
+Pologne	org	supporte
+Pologne	org	jouit
+Venise	org	prépare
+Venise	org	retiré
+Venise	org	porterau
+Prusse	org	retiré
+Prusse	org	viennent
+Prusse	org	porterau
+Saxe	org	viennent
+Pologne	loc.adm.nat	supporte
+Pologne	loc.adm.nat	jouit
+Autriche	loc.adm.nat	continue
+Illyrie	loc.adm.reg	supporte
+Illyrie	loc.adm.reg	s
+Bade	loc.adm.town	recommande
+Bade	loc.adm.town	attend
+Bade	loc.adm.town	viennent
+Bade	loc.adm.town	cause
+Bade	loc.adm.town	principauté
+Venise	loc.adm.town	prépare
+Venise	loc.adm.town	retiré
+Venise	loc.adm.town	porterau
+Dalmatie	loc.adm.reg	supporte
+Dalmatie	loc.adm.reg	prépare
+Amérique méridionale	loc.adm.reg	recommande
+Amérique méridionale	loc.adm.reg	supporte
+Amérique méridionale	loc.adm.reg	attend
+Amérique méridionale	loc.adm.reg	publiées
+Amérique méridionale	loc.adm.reg	viennent
+Amérique méridionale	loc.adm.reg	cause
+Amérique méridionale	loc.adm.reg	cherché
+Amérique méridionale	loc.adm.reg	principauté
+St . Thomas	loc.add.phys	retiré
+Bolivar	pers.ind	supporte
+Bolivar	pers.ind	retiré
+Augustura	loc.adm.town	retiré
+ïCalabozo	loc.adm.town	supporte
+ïCalabozo	loc.adm.town	défait
+amiral Bryon	pers.ind	supporte
+amiral Bryon	pers.ind	attend
+amiral Bryon	pers.ind	arrêter
+amiral Bryon	pers.ind	cherché
+Augustara	loc.adm.town	retiré
+Augustara	loc.adm.town	arrêter
+Venezuela	loc.adm.nat	supporte
+Venezuela	loc.adm.nat	arrêter
+Prusse	loc.adm.nat	retiré
+Prusse	loc.adm.nat	viennent
+Prusse	loc.adm.nat	porterau
+Saxe	loc.adm.nat	viennent
+Saltzbourg	loc.adm.town	supporte
+Salza	loc.phys.hydro	supporte
+Salza	loc.phys.hydro	dépassé
+libraire Zaunrieth	pers.ind	supporte
+place Mirabell	loc.oro	supporte
+Munster	loc.adm.town	retiré
+duché du Das . Rhin	loc.adm.reg	recommande
+duché du Das . Rhin	loc.adm.reg	retiré
+duché du Das . Rhin	loc.adm.reg	viennent
+duché du Das . Rhin	loc.adm.reg	cause
+duché du Das . Rhin	loc.adm.reg	principauté
+Erff	loc.phys.hydro	déborda
+princd Eugène	pers.ind	recommande
+princd Eugène	pers.ind	viennent
+princd Eugène	pers.ind	cause
+princd Eugène	pers.ind	principauté
+Munich	loc.adm.town	repoussent
+principauté d ' Eichstett	loc.adm.reg	recommande
+principauté d ' Eichstett	loc.adm.reg	retiré
+principauté d ' Eichstett	loc.adm.reg	viennent
+principauté d ' Eichstett	loc.adm.reg	cause
+principauté d ' Eichstett	loc.adm.reg	principauté
+Pologne	org.adm	supporte
+Pologne	org.adm	jouit
+Venise	org.adm	prépare
+Venise	org.adm	retiré
+Venise	org.adm	porterau
+Prusse	org.adm	retiré
+Prusse	org.adm	viennent
+Prusse	org.adm	porterau
+Saxe	org.adm	viennent
+amiral	comp.title	supporte
+amiral	comp.title	arrêter
+Bryon	comp.name	attend
+Bryon	comp.name	arrêter
+Bryon	comp.name	cherché
+libraire	comp.function	supporte
+Mirabell	comp.name	supporte
+Das . Rhin	loc.phys.hydro	retiré
+Eichstett	loc.adm.town	retiré
+Vienne	loc	<
+Mad . Murât	pers	doit
+Mad . Murât	pers	rendre
+M . Joseph Bonaparte	pers	obtenu
+M . Joseph Bonaparte	pers	quitter
+M . Joseph Bonaparte	pers	rendre
+Mad ; Bonaparte	pers	obtenu
+Mad ; Bonaparte	pers	quitter
+Mad ; Bonaparte	pers	rendre
+Fouché	pers	va
+Prague	loc	quitter
+Prague	loc	établi
+M . Thibaudeau	pers	rendre
+M . Thibaudeau	pers	établi
+Prague	loc	quitter
+Prague	loc	établi
+MlEVILLB Rédacteur	pers	rendre
+Vienne	loc.adm.town	<
+Mad . Murât	pers.ind	doit
+Mad . Murât	pers.ind	rendre
+M . Joseph Bonaparte	pers.ind	obtenu
+M . Joseph Bonaparte	pers.ind	quitter
+M . Joseph Bonaparte	pers.ind	rendre
+Mad ; Bonaparte	pers.ind	obtenu
+Mad ; Bonaparte	pers.ind	quitter
+Mad ; Bonaparte	pers.ind	rendre
+Fouché	pers.ind	va
+Prague	loc.adm.town	quitter
+Prague	loc.adm.town	établi
+M . Thibaudeau	pers.ind	rendre
+M . Thibaudeau	pers.ind	établi
+Prague	loc.adm.town	quitter
+Prague	loc.adm.town	établi
+MlEVILLB Rédacteur	pers.ind.articleauthor	rendre
+Mad .	comp.title	rendre
+Murât	comp.name	doit
+Murât	comp.name	rendre
+M .	comp.title	rendre
+Joseph Bonaparte	comp.name	trouve
+Joseph Bonaparte	comp.name	obtenu
+Joseph Bonaparte	comp.name	quitter
+M .	comp.title	rendre
+Thibaudeau	comp.name	établi
+MlEVILLB	comp.name	rendre
+M . lé ministre Barbey d ' Echallens	pers	vend
+Lausanne	loc	batz
+M . lé ministre Barbey d ' Echallens	pers.ind	vend
+Lausanne	loc.adm.town	batz
+ministre	comp.function	vend
+Barbey d ' Echallens	comp.name	vend
+ministre	comp.function	vend
+Echallens	loc.adm.town	vend
+Schumla	loc	observer
+Schumla	loc	prendre
+Schumla	loc.adm.town	observer
+Schumla	loc.adm.town	prendre
+Varna	loc	fait
+Varna	loc.adm.town	fait
+Orient	loc	connaissait
+Orient	loc.adm.sup	connaissait
+Varna	loc	paraît
+Varna	loc.adm.town	paraît
+général Stubbs	pers	publié
+général Stubbs	pers.ind	publié
+général	comp.title	publié
+Portugal	loc	devoir
+Portugal	loc.adm.nat	devoir
+Plymputh	loc	reste
+Plymputh	loc.adm.town	reste
+empereur don Pedro	pers	remarque
+empereur don Pedro	pers.ind	remarque
+don	comp.title	remarque
+Portugal	loc	viendront
+don Miguel	pers	semblent
+île de Terceira	loc	semblent
+don Pedro	pers	renforcée
+Portugal	loc	viendront
+Portugal	loc.adm.nat	viendront
+don Miguel	pers.ind	semblent
+île de Terceira	loc.phys.geo	semblent
+don Pedro	pers.ind	renforcée
+Portugal	loc.adm.nat	viendront
+don	comp.title	semblent
+don	comp.title	renforcée
+Miguel	comp.name	semblent
+Terceira	comp.name	semblent
+don	comp.title	semblent
+don	comp.title	renforcée
+Pedro	comp.name	renforcée
+jeune reine de Portugal , D . Maria da Gloria	pers	continue
+Portugal	loc	écrit
+jeune reine de Portugal , D . Maria da Gloria	pers.ind	continue
+Portugal	loc.adm.nat	écrit
+Maria da Gloria	comp.name	continue
+Portugal	loc.adm.nat	écrit
+Lord Strangford	pers	arrivé
+Lord Strangford	pers.ind	arrivé
+Lord	comp.title	arrivé
+Strangford	comp.name	arrivé
+don Miguel	pers	accéder
+don Miguel	pers.ind	accéder
+don	comp.title	accéder
+Miguel	comp.name	accéder
+Luxembourg	loc	va
+Cologne	loc	extrait
+baron Borstel , commandant supérieur des provinces rhénanes et général en chef du 8 corps de l ' armée prussienne	pers	reçu
+baron Borstel , commandant supérieur des provinces rhénanes et général en chef du 8 corps de l ' armée prussienne	pers	prétend
+Berlin	loc	reçu
+Luxembourg	loc.adm.nat	va
+Cologne	loc.adm.town	extrait
+baron Borstel , commandant supérieur des provinces rhénanes et général en chef du 8 corps de l ' armée prussienne	pers.ind	reçu
+baron Borstel , commandant supérieur des provinces rhénanes et général en chef du 8 corps de l ' armée prussienne	pers.ind	prétend
+Berlin	loc.adm.town	reçu
+baron	comp.title	reçu
+baron	comp.title	prétend
+Borstel	comp.name	reçu
+commandant supérieur des provinces rhénanes	comp.function	reçu
+général en chef du 8 corps de l ' armée prussienne	comp.function	reçu
+Cologne	loc	quitter
+général Borstet	pers	passé
+Cologne	loc.adm.town	quitter
+général Borstet	pers.ind	passé
+général	comp.title	passé
+Borstet	comp.name	passé
+Cologne	loc	vont
+Dusseldorf	loc	vont
+Belgique	loc	jugé
+Cologne	loc.adm.town	vont
+Dusseldorf	loc.adm.town	vont
+Belgique	loc.adm.nat	jugé
+général san Miguel	pers	parti
+général san Miguel	pers.ind	parti
+général	comp.title	parti
+san Miguel	comp.name	parti
+Sarragosse	loc	doivent
+Sarragosse	loc.adm.town	doivent
+Aragon	loc	battues
+Aragon	loc.adm.reg	battues
+Aragon	loc	agir
+Aragon	loc	agir
+Aragon	loc.adm.reg	agir
+Aragon	loc.adm.reg	agir
+Estella	loc	décidée
+Estella	org	décidée
+Estella	loc.adm.town	décidée
+Estella	org.adm	décidée
+don Carlos	pers	nommé
+don Carlos	pers.ind	nommé
+don	comp.title	nommé
+Carlos	comp.name	nommé
+général Villaréal	pers	promu
+général Villaréal	pers.ind	promu
+général	comp.title	promu
+Villaréal	comp.name	promu
+Zariategui	pers	rappelés
+Eflio	pers	rappelés
+Torre	pers	rappelés
+Madrazo	pers	rappelés
+Vargas	pers	rappelés
+Zariategui	pers.ind	rappelés
+Eflio	pers.ind	rappelés
+Torre	pers.ind	rappelés
+Madrazo	pers.ind	rappelés
+Vargas	pers.ind	rappelés
+Vérone	loc	font
+Vérone	loc.adm.town	font
+général en chef Radetzky	pers	renforcé
+général en chef Radetzky	pers.ind	renforcé
+général en chef	comp.title	renforcé
+Radetzky	comp.name	renforcé
+Vicence	loc	couverte
+Vérone	loc	couverte
+Udine	loc	arriventcontinuellement
+Udine	loc	arriventcontinuellement
+Codroipo	loc	arriventcontinuellement
+Codroipo	loc	arriventcontinuellement
+Vicence	loc.adm.town	couverte
+Vérone	loc.adm.town	couverte
+Udine	loc.adm.town	arriventcontinuellement
+Udine	loc.adm.town	arriventcontinuellement
+Codroipo	loc.adm.town	arriventcontinuellement
+Codroipo	loc.adm.town	arriventcontinuellement
+Modène	loc	dit
+Modène	loc.adm.town	dit
+Villafrancaà	loc	jetée
+Villafrancaà	loc.adm.town	jetée
+Venise	loc	tenté
+fort Malghera	loc	tenté
+Venise	loc.adm.town	tenté
+fort Malghera	loc.fac	tenté
+général Ferrari	pers	attaqué
+général Ferrari	pers.ind	attaqué
+général	comp.title	attaqué
+Ferrari	comp.name	attaqué
+Charles - Albert	pers	commencé
+Charles - Albert	pers.ind	commencé
+M . Pinard	pers	mettre
+M . Pinard	pers	remplacerait
+M . Baroche	pers	mettre
+M . Baroche	pers	remplacerait
+M . Baroche	pers	remplacerait
+M . Baroche	pers	mettre
+M . Baroche	pers	remplacerait
+M . Baroche	pers	remplacerait
+M . Pinard	pers	mettre
+M . Pinard	pers	remplacerait
+M . Pinard	pers.ind	mettre
+M . Pinard	pers.ind	remplacerait
+M . Baroche	pers.ind	mettre
+M . Baroche	pers.ind	remplacerait
+M . Baroche	pers.ind	remplacerait
+M . Baroche	pers.ind	mettre
+M . Baroche	pers.ind	remplacerait
+M . Baroche	pers.ind	remplacerait
+M . Pinard	pers.ind	mettre
+M . Pinard	pers.ind	remplacerait
+M .	comp.title	mettre
+M .	comp.title	remplacerait
+M .	comp.title	mettre
+M .	comp.title	remplacerait
+Baroche	comp.name	remplacerait
+M .	comp.title	mettre
+M .	comp.title	remplacerait
+Baroche	comp.name	remplacerait
+M .	comp.title	mettre
+M .	comp.title	remplacerait
+M . Rouher	pers	cesserait
+M . Rouher	pers.ind	cesserait
+Rouher	comp.name	cesserait
+M . de Moustier	pers	remplacé
+M . de Moustier	pers.ind	remplacé
+de Moustier	comp.name	remplacé
+M . Drouyn de Lhuys	pers	rattacherait
+M . Drouyn de Lhuys	pers.ind	rattacherait
+Drouyn	comp.name	rattacherait
+général Fleury	pers	dispose
+général Fleury	pers.ind	dispose
+général	comp.title	dispose
+Fleury	comp.name	dispose
+Suisse	loc	rencontré
+Suisse	loc.adm.nat	rencontré
+M . Walewski	pers	vu
+M . Walewski	pers.ind	vu
+Walewski	comp.name	vu
+Espagne	loc	savons
+Cour des Tuileries	org	confirmer
+général Prim	pers	confirmer
+Espagne	loc.adm.nat	savons
+Cour des Tuileries	org.adm	confirmer
+général Prim	pers.ind	confirmer
+général	comp.title	confirmer
+Prim	comp.name	confirmer
+Cour des Tuileries	loc.fac	confirmer
+journal le Pays	prod	ven
+journal le Pays	prod.media	ven
+Pays	comp.name	ven
+Pays	prod	abonnés
+Pays	prod.media	abonnés
+Mercier	comp.name	rendu
+maréchal Serrano	pers	donné
+maréchal Serrano	pers.ind	donné
+maréchal	comp.title	donné
+Serrano	comp.name	donné
+France	loc	souscrit
+France	loc	établir
+Londres	loc	va
+Société générale	org	avance
+Turquie	loc	vqjr
+Le Gaulois	prod	dit
+général Prim	pers	adressé
+prince Napoléon	pers	va
+France	loc	souscrit
+France	loc	établir
+France	loc	souscrit
+France	loc	établir
+Opinion nationale	prod	va
+Andriveau et Gougeon	pers	va
+Andriveau et Gougeon	pers	commander
+Londres	org	va
+Turquie	org	vqjr
+France	org	souscrit
+France	org	établir
+France	org	souscrit
+France	org	établir
+France	loc.adm.nat	souscrit
+France	loc.adm.nat	établir
+Londres	loc.adm.town	va
+Société générale	org.ent	avance
+Turquie	loc.adm.nat	vqjr
+Le Gaulois	prod.media	dit
+général Prim	pers.ind	adressé
+prince Napoléon	pers.ind	va
+France	loc.adm.nat	souscrit
+France	loc.adm.nat	établir
+France	loc.adm.nat	souscrit
+France	loc.adm.nat	établir
+Opinion nationale	prod.media	va
+Andriveau et Gougeon	pers.ind	va
+Andriveau et Gougeon	pers.ind	commander
+Londres	org.adm	va
+Turquie	org.adm	vqjr
+France	org.adm	souscrit
+France	org.adm	établir
+France	org.adm	souscrit
+France	org.adm	établir
+général	comp.title	avance
+général	comp.title	adressé
+Prim	comp.name	adressé
+Napoléon	comp.name	va
+Presse	prod	dit
+Presse	prod.media	dit
+Times	prod	résuma
+Times	prod.media	résuma
+M . Gladstone	pers	fera
+M . Gladstone	pers	aboli
+Irlande	loc	fera
+Irlande	org	fera
+M . Gladstone	pers.ind	fera
+M . Gladstone	pers.ind	aboli
+Irlande	loc.adm.nat	fera
+Irlande	org.adm	fera
+Gladstone	comp.name	fera
+Gladstone	comp.name	aboli
+M . Gladstone	pers	s
+M . Gladstone	pers.ind	s
+Gladstone	comp.name	s
+Prusse	loc	vendu
+Prusse	org	vendu
+Prusse	loc.adm.reg	vendu
+Prusse	org.adm	vendu
+Stetlin	loc	dirige
+Hong - Kong	loc	dirige
+Stetlin	loc.adm.town	dirige
+Hong - Kong	loc.adm.reg	dirige
+Vienne	loc	arrivées
+Vienne	loc.adm.town	arrivées
+Orient	loc	connaître
+Orient	loc.adm.sup	connaître
+Ecoles des Terreaux	org	produit
+Ecoles des Terreaux	org.ent	produit
+Musée industriel	org	accorder
+Musée industriel	loc	accorder
+Musée industriel	org.ent	accorder
+Musée industriel	loc.fac	accorder
+la Tour de Peilz	loc	donnera
+la Tour de Peilz	loc.adm.town	donnera
+Wirz	comp.name	donnera
+prolesseur	comp.function	donnera
+sergent	comp.title	Foerster
+Roggenbach	pers	arrive
+Roggenbach	pers.ind	arrive
+Allemagne du Sud	loc	donné
+Allemagne du Sud	loc.adm.reg	donné
+Allemagne	loc.adm.nat	donné
+Mac - Mahon	pers	appelle
+Napoléon	pers	appelle
+Mac - Mahon	pers.ind	appelle
+Napoléon	pers.ind	appelle
+Mac Mahon	pers	pris
+Mac Mahon	pers.ind	pris
+Gaulois	prod	faits
+Figaro	prod	faits
+Gaulois	prod.media	faits
+Figaro	prod.media	faits
+Vosges	loc	marche
+Vosges	loc.phys.geo	marche
+Allemagne	loc	vaincue
+Allemagne	org	vaincue
+Allemagne	loc.adm.nat	vaincue
+Allemagne	org.adm	vaincue
+Ollivier	pers	devraient
+Ollivier	pers.ind	devraient
+Mac - Mahon	pers	trouvait
+Vosges	loc	trouvait
+Mac - Mahon	pers.ind	trouvait
+Vosges	loc.adm.reg	trouvait
+Jeanne d ' Arc	pers	intéresser
+Jeanne d ' Arc	pers.ind	intéresser
+Steinmelz	pers	parait
+Steinmelz	pers.ind	parait
+Moltke	pers	croit
+Moltke	pers	pouvoir
+Moltke	pers.ind	croit
+Moltke	pers.ind	pouvoir
+Galliffet	pers	écrit
+Galliffet	pers.ind	écrit
+Benedetti	pers	nuit
+Benedetti	pers.ind	nuit
+Benedetti	pers	permis
+Benedetti	pers.ind	permis
+Frédéric III	pers	trouvé
+Frédéric III	pers.ind	trouvé
+Frédéric	comp.name	trouvé
+III	comp.title	trouvé
+San - Remo	loc	dit
+Mme Zirio	pers	dit
+Mme Zirio	pers	occupée
+San - Remo	loc.adm.town	dit
+Mme Zirio	pers.ind	dit
+Mme Zirio	pers.ind	occupée
+Mme	comp.title	dit
+Mme	comp.title	occupée
+Zirio	comp.name	occupée
+Berlin	loc	annonçant
+Berlin	loc.adm.town	annonçant
+impératrice Victoria	pers	détenue
+Frédéric III	pers	rendu
+impératrice Victoria	pers.ind	détenue
+Frédéric III	pers.ind	rendu
+impératrice	comp.function	détenue
+Victoria	comp.name	détenue
+Frédéric	comp.name	rendu
+III	comp.title	rendu
+Times	prod	croit
+Berlin	loc	croit
+Frédéric III	pers	va
+Deutsche Rundschau	prod	va
+Times	prod.media	croit
+Berlin	loc.adm.town	croit
+Frédéric III	pers.ind	va
+Deutsche Rundschau	prod.media	va
+Roggenbach	comp.name	va
+Frédéric	comp.name	va
+III	comp.title	va
+Gazette de la Bourse	prod	assure
+en 4873	time	fil
+Gazette de la Bourse	prod.media	assure
+en 4873	time.date.abs	fil
+Bismarck	pers	prié
+Bismarck	pers.ind	prié
+Gazette de VAllemagne du Nord	prod	autorisée
+de 4870	time	disant
+Gazette de VAllemagne du Nord	prod.media	autorisée
+de 4870	time.date.abs	disant
+VAllemagne du Nord	loc.adm.reg	autorisée
+ASSEMBLÉE FÉDÉRALE	org	féliciter
+M . Deucher	pers	féliciter
+ASSEMBLÉE FÉDÉRALE	org.adm	féliciter
+M . Deucher	pers.ind	féliciter
+M .	comp.title	féliciter
+Argovie	loc	développe
+Argovie	loc.adm.reg	développe
+SCHULTHESS	comp.name	développe
+Conseil des Etats	org	pris
+Schulthess	pers	pris
+Conseil des Etats	org.adm	pris
+Schulthess	pers.ind	pris
+Conseil national	org	prévu
+Conseil fédéral	org	déposé
+Conseil fédéral	org	arrêté
+Conseil fédéral	org	prévu
+Conseil fédéral	org	prévu
+Conseil fédéral	org	déposé
+Conseil fédéral	org	arrêté
+Conseil fédéral	org	prévu
+Conseil fédéral	org	prévu
+Conseil fédéral	org	déposé
+Conseil fédéral	org	arrêté
+Conseil fédéral	org	prévu
+Conseil fédéral	org	prévu
+Conseil national	org.adm	prévu
+Conseil fédéral	org.adm	déposé
+Conseil fédéral	org.adm	arrêté
+Conseil fédéral	org.adm	prévu
+Conseil fédéral	org.adm	prévu
+Conseil fédéral	org.adm	déposé
+Conseil fédéral	org.adm	arrêté
+Conseil fédéral	org.adm	prévu
+Conseil fédéral	org.adm	prévu
+Conseil fédéral	org.adm	déposé
+Conseil fédéral	org.adm	arrêté
+Conseil fédéral	org.adm	prévu
+Conseil fédéral	org.adm	prévu
+Lugano	loc	Va
+Lugano	loc	Va
+Lugano	loc.adm.town	Va
+Lugano	loc.adm.town	Va
+National Zeiturtg	prod	écrit
+Conseil fédéral	org	impose
+Conseil fédéral	org	imputer
+Conseil fédéral	org	impose
+Conseil fédéral	org	imputer
+National Zeiturtg	prod.media	écrit
+Conseil fédéral	org.adm	impose
+Conseil fédéral	org.adm	imputer
+Conseil fédéral	org.adm	impose
+Conseil fédéral	org.adm	imputer
+Conseil fédéral	org	paraît
+Conseil fédéral	org	présenter
+Conseil fédéral	org.adm	paraît
+Conseil fédéral	org.adm	présenter
+Conseil fédéral	org	compte
+Conseil fédéral	org	compte
+Conseil fédéral	org.adm	compte
+Conseil fédéral	org.adm	compte
+Serbie	loc	proclamée
+Yougoslavie	loc	proclamée
+Serbie	loc.adm.nat	proclamée
+Yougoslavie	loc.adm.nat	proclamée
+Autriche	loc	retenus
+Autriche	loc.adm.nat	retenus
+Danube	loc	trouve
+Save	loc	trouve
+Danube	loc.phys.hydro	trouve
+Save	loc.phys.hydro	trouve
+Banat	loc	trouve
+Banat	loc.adm.reg	trouve
+Podgoritsa	loc	occupé
+Podgoritsa	loc.adm.town	occupé
+Aiguille du Midi	loc	atteint
+Aimé Scheller , 36 ans , sertisseur	pers	atteint
+Aiguille du Midi	loc.phys.geo	atteint
+Aimé Scheller , 36 ans , sertisseur	pers.ind	atteint
+Aimé Scheller	comp.name	atteint
+sertisseur	comp.function	atteint
+M . François Savoy	pers	jeté
+Bossonens	loc	jeté
+Bossonens	loc	jeté
+Èribourg	loc	jeté
+M . Max Veraaud , pasteur à Mézières ( Vaud )	pers	jeté
+M . François Savoy	pers.ind	jeté
+Bossonens	loc.adm.town	jeté
+Bossonens	loc.adm.town	jeté
+Èribourg	loc.adm.reg	jeté
+M . Max Veraaud , pasteur à Mézières ( Vaud )	pers.ind	jeté
+François Savoy	comp.name	jeté
+François Savoy	comp.name	jeté
+pasteur à Mézières ( Vaud )	comp.function	jeté
+Mézières	loc.adm.town	jeté
+Lungern	loc	fait
+Lungern	loc.adm.town	fait
+Lungern	loc	transporter
+Lungern	loc.adm.town	transporter
+Vuitobœuf	loc	accroché
+Vuitobœuf	loc.adm.town	accroché
+Grisons	loc	recrutait
+France	loc	recrutait
+Epoque	prod	consacré
+Grisons	loc.adm.reg	recrutait
+France	loc.adm.nat	recrutait
+Epoque	prod.media	consacré
+de Mont	pers	trouve
+de Mont	pers	rempli
+de Mont	pers	quittait
+de Mont	pers	trouve
+de Mont	pers	rempli
+de Mont	pers	quittait
+en 1798	time	résulte
+Ulrich von Sprecher	pers	trouve
+général Bonaparte	pers	trouve
+France	loc	retrouver
+France	loc	servi
+en 1574	time	résulte
+noble cavalier Pior de Mont	pers	trouve
+noble cavalier Pior de Mont	pers	quittait
+Montauban	loc	trouve
+Montauban	loc	signé
+France	loc	retrouver
+France	loc	servi
+baron Jean - Henri	pers	trouve
+baron Jean - Henri	pers	distingue
+baron Jean - Henri	pers	résulte
+de Mont	pers	trouve
+de Mont	pers	rempli
+de Mont	pers	quittait
+France	loc	retrouver
+France	loc	servi
+Sartrouville	loc	revient
+Sartrouville	loc	joue
+Sartrouville	loc	nommé
+Sartrouville	loc	reprend
+en 1768	time	résulte
+Joseph - Laurent de Mont	pers	trouve
+Joseph - Laurent de Mont	pers	résulte
+en 1796	time	résulte
+Grisons	loc	trouve
+Austerlilz	loc	revient
+Austerlilz	loc	joue
+Austerlilz	loc	nommé
+Austerlilz	loc	reprend
+en 1806	time	résulte
+Restauration	time	trouve
+France	loc	retrouver
+France	loc	servi
+France	loc	retrouver
+France	loc	servi
+en 1814	time	résulte
+en 1826	time	résulte
+M . Gaston Liger	pers	trouve
+San Mufjzzan	loc	dirai
+Saint - Moritz	loc	dirai
+Hollande	loc	distingue
+France	loc	retrouver
+France	loc	servi
+de Mont	pers.coll	trouve
+de Mont	pers.coll	rempli
+de Mont	pers.coll	quittait
+de Mont	pers.coll	trouve
+de Mont	pers.coll	rempli
+de Mont	pers.coll	quittait
+en 1798	time.date.abs	résulte
+Ulrich von Sprecher	pers.ind	trouve
+général Bonaparte	pers.ind	trouve
+France	loc.adm.nat	retrouver
+France	loc.adm.nat	servi
+en 1574	time.date.abs	résulte
+noble cavalier Pior de Mont	pers.ind	trouve
+noble cavalier Pior de Mont	pers.ind	quittait
+Montauban	loc.adm.town	trouve
+Montauban	loc.adm.town	signé
+France	loc.adm.nat	retrouver
+France	loc.adm.nat	servi
+baron Jean - Henri	pers.ind	trouve
+baron Jean - Henri	pers.ind	distingue
+baron Jean - Henri	pers.ind	résulte
+de Mont	pers.coll	trouve
+de Mont	pers.coll	rempli
+de Mont	pers.coll	quittait
+France	loc.adm.nat	retrouver
+France	loc.adm.nat	servi
+Sartrouville	loc.adm.nat	revient
+Sartrouville	loc.adm.nat	joue
+Sartrouville	loc.adm.nat	nommé
+Sartrouville	loc.adm.nat	reprend
+en 1768	time.date.abs	résulte
+Joseph - Laurent de Mont	pers.ind	trouve
+Joseph - Laurent de Mont	pers.ind	résulte
+en 1796	time.date.abs	résulte
+Grisons	loc.adm.reg	trouve
+Austerlilz	loc.adm.town	revient
+Austerlilz	loc.adm.town	joue
+Austerlilz	loc.adm.town	nommé
+Austerlilz	loc.adm.town	reprend
+en 1806	time.date.abs	résulte
+Restauration	time.date.abs	trouve
+France	loc.adm.nat	retrouver
+France	loc.adm.nat	servi
+France	loc.adm.nat	retrouver
+France	loc.adm.nat	servi
+en 1814	time.date.abs	résulte
+en 1826	time.date.abs	résulte
+M . Gaston Liger	pers.ind	trouve
+San Mufjzzan	loc.adm.town	dirai
+Saint - Moritz	loc.adm.town	dirai
+Hollande	loc.adm.nat	distingue
+France	loc.adm.nat	retrouver
+France	loc.adm.nat	servi
+Bonaparte	comp.name	trouve
+noble cavalier	comp.function	quittait
+Pior de Mont	comp.name	trouve
+Pior de Mont	comp.name	quittait
+baron	comp.title	trouve
+Jean - Henri	comp.name	distingue
+Jean - Henri	comp.name	résulte
+Gaston Liger	comp.name	trouve
+en 1798	time	nommé
+Bonaparte	pers	ambassadeur
+Valteline	loc	sauver
+1802 - jjto	time	nommé
+1757	time	nommé
+leshach	pers	mandait
+en 1759	time	nommé
+en 1798	time.date.abs	nommé
+Bonaparte	pers.ind	ambassadeur
+Valteline	loc.phys.geo	sauver
+1802 - jjto	time.date.abs	nommé
+1757	time.date.abs	nommé
+leshach	pers.ind	mandait
+en 1759	time.date.abs	nommé
+Sjfgerier de Planta	pers	restée
+Sjfgerier de Planta	pers.ind	restée
+Union des entreprises suisses de transport	org	automne
+Union des entreprises suisses de transport	org.ent	automne
+Petits chanteurs de Montana	org	formuler
+Petits chanteurs de Montana	org	prolonger
+M . le Dr Fritz Ehrensberger , président du Conseil d ' administration du Chemin dé fer de la Jungfrau	pers	formuler
+M . le Dr Fritz Ehrensberger , président du Conseil d ' administration du Chemin dé fer de la Jungfrau	pers	prolonger
+Zurich	loc	permet
+Zurich	loc	permet
+de 1939	time	permet
+de 1939	time	formuler
+de 1939	time	prolonger
+prés . M . Kesselring , dir . à St - Gall	pers	formuler
+prés . M . Kesselring , dir . à St - Gall	pers	prolonger
+Dr Zehnder , dir . M . O . B .	pers	formuler
+Dr Zehnder , dir . M . O . B .	pers	prolonger
+prés . M . Ré my , dir . C . E . G .	pers	entendit
+prés . M . Ré my , dir . C . E . G .	pers	formuler
+prés . M . Ré my , dir . C . E . G .	pers	prolonger
+M . le président Piétra	pers	rappelle
+M . le président Piétra	pers	formuler
+M . le président Piétra	pers	prolonger
+M . le président Piétra	pers	désigné
+M . Payot , dir . V . M . C . V . , à Montreux	pers	entendit
+M . Payot , dir . V . M . C . V . , à Montreux	pers	formuler
+M . Payot , dir . V . M . C . V . , à Montreux	pers	prolonger
+Petits chanteurs de Montana	org.ent	formuler
+Petits chanteurs de Montana	org.ent	prolonger
+M . le Dr Fritz Ehrensberger , président du Conseil d ' administration du Chemin dé fer de la Jungfrau	pers.ind	formuler
+M . le Dr Fritz Ehrensberger , président du Conseil d ' administration du Chemin dé fer de la Jungfrau	pers.ind	prolonger
+Zurich	loc.adm.town	permet
+Zurich	loc.adm.town	permet
+de 1939	time.date.abs	permet
+de 1939	time.date.abs	formuler
+de 1939	time.date.abs	prolonger
+prés . M . Kesselring , dir . à St - Gall	pers.ind	formuler
+prés . M . Kesselring , dir . à St - Gall	pers.ind	prolonger
+Dr Zehnder , dir . M . O . B .	pers.ind	formuler
+Dr Zehnder , dir . M . O . B .	pers.ind	prolonger
+prés . M . Ré my , dir . C . E . G .	pers.ind	entendit
+prés . M . Ré my , dir . C . E . G .	pers.ind	formuler
+prés . M . Ré my , dir . C . E . G .	pers.ind	prolonger
+M . le président Piétra	pers.ind	rappelle
+M . le président Piétra	pers.ind	formuler
+M . le président Piétra	pers.ind	prolonger
+M . le président Piétra	pers.ind	désigné
+M . Payot , dir . V . M . C . V . , à Montreux	pers.ind	entendit
+M . Payot , dir . V . M . C . V . , à Montreux	pers.ind	formuler
+M . Payot , dir . V . M . C . V . , à Montreux	pers.ind	prolonger
+président du Conseil d ' administration du Chemin dé fer de la Jungfrau	comp.function	formuler
+président du Conseil d ' administration du Chemin dé fer de la Jungfrau	comp.function	prolonger
+dir . à St - Gall	comp.function	formuler
+dir . à St - Gall	comp.function	prolonger
+Zehnder	comp.name	formuler
+Zehnder	comp.name	prolonger
+dir . M . O . B .	comp.function	formuler
+dir . M . O . B .	comp.function	prolonger
+Ré my	comp.name	entendit
+dir . C . E . G .	comp.function	formuler
+dir . C . E . G .	comp.function	prolonger
+président	comp.function	rappelle
+président	comp.function	formuler
+président	comp.function	renseigne
+président	comp.function	prolonger
+président	comp.function	désigné
+Piétra	comp.name	désigné
+Payot	comp.name	entendit
+dir . V . M . C . V . , à Montreux	comp.function	formuler
+dir . V . M . C . V . , à Montreux	comp.function	prolonger
+Chemin dé fer de la Jungfrau	org.ent	formuler
+Chemin dé fer de la Jungfrau	org.ent	prolonger
+Caisse d ' épargne et de prêts	org	épargne
+Caisse d ' épargne et de prêts	org.ent	épargne
+accusé Hirter	pers	défendu
+accusé Hirter	pers.ind	défendu
+accusé	comp.function	défendu
+Hirter	comp.name	défendu
+accusé Vogel	pers	dit
+accusé Vogel	pers.ind	dit
+accusé	comp.function	dit
+Vogel	comp.name	dit
+tribunal cantonal de Schaffhouse	org	condamné
+tribunal cantonal de Schaffhouse	org.adm	condamné
+Schaffhouse	loc.adm.reg	condamné
+M . Henri Bolli , ancien conseiller aux Etats	pers	mort
+M . Henri Bolli , ancien conseiller aux Etats	pers.ind	mort
+Henri Bolli	comp.name	mort
+ancien conseiller aux Etats	comp.function	mort
+Lugano	loc	procédé
+citoyen allemand mé Fritz Engel	pers	procédé
+Lugano	loc	procédé
+Lugano	loc.adm.town	procédé
+citoyen allemand mé Fritz Engel	pers.ind	procédé
+Lugano	loc.adm.town	procédé
+citoyen allemand	comp.function	procédé
+Fritz Engel	comp.name	procédé
+M . Georges Bidault	pers	pouvait
+M . Georges Bidault	pers.ind	pouvait
+Georges Bidault	comp.name	pouvait
+gouvernement Franco	org	atteindre
+gouvernement Franco	org.adm	atteindre
+Franco	pers.ind	atteindre
+Espagne	loc	valoir
+Afrique	loc	valoir
+Europe	loc	valoir
+Espagne	loc.adm.nat	valoir
+Afrique	loc.adm.sup	valoir
+Europe	loc.adm.sup	valoir
+Amérique	loc	représente
+Vieux Monde	loc	représente
+Amérique	loc.adm.sup	représente
+Vieux Monde	loc.adm.sup	représente
+France	loc	cédait
+France	org	cédait
+France	loc.adm.nat	cédait
+France	org.adm	cédait
+Gestapo	org	rendus
+forces françaises libres	org	rendus
+Afrique du Nord	loc	rendus
+Gestapo	org.adm	rendus
+forces françaises libres	org.ent	rendus
+Afrique du Nord	loc.adm.sup	rendus
+France	loc	remtslacé
+France	org	remtslacé
+France	loc.adm.nat	remtslacé
+France	org.adm	remtslacé
+Belgique	loc	paralysé
+Espagne	loc	paralysé
+France	loc	perdre
+France	org	perdre
+Belgique	loc.adm.nat	paralysé
+Espagne	loc.adm.nat	paralysé
+France	loc.adm.nat	perdre
+France	org.adm	perdre
+ministre d ' Etal Mac Neil	pers	déclaré
+ministre d ' Etal Mac Neil	pers.ind	déclaré
+Mac Neil	comp.name	déclaré
+ministre Mac Neil	pers	abstenu
+ministre Mac Neil	pers.ind	abstenu
+ministre	comp.function	abstenu
+Autriche	loc	voilà
+Autriche	loc.adm.nat	voilà
+Conseil national	org	décidé
+Conseil national	org.adm	décidé
+M . Paul Miiller	pers	vit
+M . Paul Miiller	pers.ind	vit
+Paul Miiller	comp.name	vit
+Samuel Ducommun	pers	choisissant
+Samuel Ducommun	pers	relever
+Will Eisenmann	pers	choisissant
+Will Eisenmann	pers	peut
+Will Eisenmann	pers	relever
+Will Eisenmann	pers	permis
+Max Knhn	pers	féliciter
+Reinhold Laquai	pers	choisissant
+Reinhold Laquai	pers	relever
+Carlo Florindo Semini	pers	choisissant
+Carlo Florindo Semini	pers	relever
+Rudolf Semmler	pers	choisissant
+Rudolf Semmler	pers	relever
+M " Edith Mathis	pers	féliciter
+Friedel Kurz , alto	pers	choisissant
+Friedel Kurz , alto	pers	relever
+M ° Clara Laquai	pers	féliciter
+M ° Clara Laquai	pers	choisissant
+M ° Clara Laquai	pers	relever
+MM . Olivier Eisenmann	pers	féliciter
+MM . Olivier Eisenmann	pers	choisissant
+MM . Olivier Eisenmann	pers	peut
+MM . Olivier Eisenmann	pers	relever
+Alfred Baum	pers	choisissant
+Alfred Baum	pers	relever
+M . Richard Sturzenegger	pers	féliciter
+M . Richard Sturzenegger	pers	peut
+M . Willy Tappolet	pers	féliciter
+M . Willy Tappolet	pers	choisissant
+M . Willy Tappolet	pers	relever
+M . Willy Tappolet	pers	permis
+AMS	org	féliciter
+jeune compositeur genevois : Michel Wiblé	pers	féliciter
+jeune compositeur genevois : Michel Wiblé	pers	solo
+jeune compositeur genevois : Michel Wiblé	pers	choisissant
+jeune compositeur genevois : Michel Wiblé	pers	peut
+jeune compositeur genevois : Michel Wiblé	pers	relever
+OSR	org	solo
+Edith Mathis , soprano	pers	féliciter
+Barbara ser - Peyer , alto	pers	choisissant
+Barbara ser - Peyer , alto	pers	relever
+Albert Jenny	pers	choisissant
+Albert Jenny	pers	peut
+Albert Jenny	pers	relever
+Caspar Diethelm	pers	choisissant
+Caspar Diethelm	pers	placé
+Caspar Diethelm	pers	relever
+Diethelm	pers	choisissant
+Diethelm	pers	placé
+Diethelm	pers	relever
+SUTERMEISTER	pers	féliciter
+Heinrich Sutermeister	pers	parait
+Heinrich Sutermeister	pers	parait
+Adrian Aeschbacher , l ' excellent pianiste	pers	choisissant
+Adrian Aeschbacher , l ' excellent pianiste	pers	peut
+Adrian Aeschbacher , l ' excellent pianiste	pers	relever
+M " " Barbara Gèiser - Peyer , alto	pers	féliciter
+M " " Barbara Gèiser - Peyer , alto	pers	choisissant
+M " " Barbara Gèiser - Peyer , alto	pers	relever
+Samuel Ducommun	pers.ind	choisissant
+Samuel Ducommun	pers.ind	relever
+Will Eisenmann	pers.ind	choisissant
+Will Eisenmann	pers.ind	peut
+Will Eisenmann	pers.ind	relever
+Will Eisenmann	pers.ind	permis
+Max Knhn	pers.ind	féliciter
+Reinhold Laquai	pers.ind	choisissant
+Reinhold Laquai	pers.ind	relever
+Carlo Florindo Semini	pers.ind	choisissant
+Carlo Florindo Semini	pers.ind	relever
+Rudolf Semmler	pers.ind	choisissant
+Rudolf Semmler	pers.ind	relever
+M " Edith Mathis	pers.ind	féliciter
+Friedel Kurz , alto	pers.ind	choisissant
+Friedel Kurz , alto	pers.ind	relever
+M ° Clara Laquai	pers.ind	féliciter
+M ° Clara Laquai	pers.ind	choisissant
+M ° Clara Laquai	pers.ind	relever
+MM . Olivier Eisenmann	pers.ind	féliciter
+MM . Olivier Eisenmann	pers.ind	choisissant
+MM . Olivier Eisenmann	pers.ind	peut
+MM . Olivier Eisenmann	pers.ind	relever
+Alfred Baum	pers.ind	choisissant
+Alfred Baum	pers.ind	relever
+M . Richard Sturzenegger	pers.ind	féliciter
+M . Richard Sturzenegger	pers.ind	peut
+M . Willy Tappolet	pers.ind	féliciter
+M . Willy Tappolet	pers.ind	choisissant
+M . Willy Tappolet	pers.ind	relever
+M . Willy Tappolet	pers.ind	permis
+AMS	org.ent	féliciter
+jeune compositeur genevois : Michel Wiblé	pers.ind	féliciter
+jeune compositeur genevois : Michel Wiblé	pers.ind	solo
+jeune compositeur genevois : Michel Wiblé	pers.ind	choisissant
+jeune compositeur genevois : Michel Wiblé	pers.ind	peut
+jeune compositeur genevois : Michel Wiblé	pers.ind	relever
+OSR	org.ent	solo
+Edith Mathis , soprano	pers.ind	féliciter
+Barbara ser - Peyer , alto	pers.ind	choisissant
+Barbara ser - Peyer , alto	pers.ind	relever
+Albert Jenny	pers.ind	choisissant
+Albert Jenny	pers.ind	peut
+Albert Jenny	pers.ind	relever
+Caspar Diethelm	pers.ind	choisissant
+Caspar Diethelm	pers.ind	placé
+Caspar Diethelm	pers.ind	relever
+Diethelm	pers.ind	choisissant
+Diethelm	pers.ind	placé
+Diethelm	pers.ind	relever
+SUTERMEISTER	pers.ind	féliciter
+Heinrich Sutermeister	pers.ind	parait
+Heinrich Sutermeister	pers.ind	parait
+Adrian Aeschbacher , l ' excellent pianiste	pers.ind	choisissant
+Adrian Aeschbacher , l ' excellent pianiste	pers.ind	peut
+Adrian Aeschbacher , l ' excellent pianiste	pers.ind	relever
+M " " Barbara Gèiser - Peyer , alto	pers.ind	féliciter
+M " " Barbara Gèiser - Peyer , alto	pers.ind	choisissant
+M " " Barbara Gèiser - Peyer , alto	pers.ind	relever
+M "	comp.title	féliciter
+Edith Mathis	comp.name	féliciter
+alto	comp.function	choisissant
+alto	comp.function	relever
+M °	comp.title	féliciter
+Clara Laquai	comp.name	choisissant
+Clara Laquai	comp.name	relever
+MM .	comp.title	féliciter
+Olivier Eisenmann	comp.name	choisissant
+Olivier Eisenmann	comp.name	peut
+Olivier Eisenmann	comp.name	relever
+M .	comp.title	féliciter
+Richard Sturzenegger	comp.name	exprimer
+Richard Sturzenegger	comp.name	peut
+M .	comp.title	féliciter
+Willy Tappolet	comp.name	choisissant
+Willy Tappolet	comp.name	relever
+Willy Tappolet	comp.name	permis
+jeune	comp.qualifier	sympathiquement
+jeune	comp.qualifier	solo
+compositeur	comp.function	sympathiquement
+compositeur	comp.function	solo
+compositeur	comp.function	comprendre
+genevois	comp.qualifier	solo
+genevois	comp.qualifier	peut
+Michel Wiblé	comp.name	féliciter
+Michel Wiblé	comp.name	solo
+Michel Wiblé	comp.name	choisissant
+Michel Wiblé	comp.name	relever
+Edith Mathis	comp.name	féliciter
+alto	comp.function	choisissant
+alto	comp.function	relever
+excellent pianiste	comp.function	choisissant
+excellent pianiste	comp.function	peut
+excellent pianiste	comp.function	relever
+M "	comp.title	féliciter
+alto	comp.function	choisissant
+alto	comp.function	relever
+Pierre Biner	pers	écrit
+Living Théâtre	org	écrit
+Pierre Biner	pers.ind	écrit
+Living Théâtre	org.ent	écrit
+Franck Jotterand	pers	présentera
+Franck Jotterand	pers.ind	présentera
+Jean Vuilleumier	pers	publie
+Tribune de Genève	prod	publie
+Jean Vuilleumier	pers.ind	publie
+Tribune de Genève	prod.media	publie
+Genève	loc.adm.town	publie
+Yves Velan	pers	consacrera
+Yves Velan	pers.ind	consacrera
+Ecosse	loc	produise
+Ecosse	loc.adm.nat	produise
+Lausanne	loc	contiennent
+Lausanne	loc.adm.town	contiennent
+Mme Licitra - Ponti	pers	remarquer
+Mme Licitra - Ponti	pers.ind	remarquer
+Mme	comp.title	remarquer
+Bob Dylan	pers	trône
+Bob Dylan	pers.ind	trône
+Mme Licitra - Ponti	pers	souligné
+Mme Licitra - Ponti	pers.ind	souligné
+Mme	comp.title	souligné
+Gio Ponti	pers	travaillé
+Gio Ponti	pers.ind	travaillé
+pays Scandinaves	loc	participent
+Amérique	loc	participent
+Japon	loc	participent
+pays Scandinaves	loc.adm.sup	participent
+Amérique	loc.adm.nat	participent
+Japon	loc.adm.nat	participent
+Olivier Mourgue	pers	imaginé
+Olivier Mourgue	pers.ind	imaginé
+Danemark	loc	serpent
+Danemark	loc.adm.nat	serpent
+Angleterre	loc	découvert
+Suède	loc	découvert
+France	loc	découvert
+Angleterre	loc.adm.nat	découvert
+Suède	loc.adm.nat	découvert
+France	loc.adm.nat	découvert
+Mme Licitra - Ponti	pers	souligné
+Mme Licitra - Ponti	pers.ind	souligné
+Mme	comp.title	souligné
+Parthénon	loc	emprisonné
+Parthénon	loc	plaquées
+Parthénon	loc.fac	emprisonné
+Parthénon	loc.fac	plaquées
+Italie	loc	SPORTS
+Muynck	pers	SPORTS
+Italie	loc	SPORTS
+Italie	loc.adm.nat	SPORTS
+Muynck	pers.ind	SPORTS
+Italie	loc.adm.nat	SPORTS
+Espagne	loc	porté
+Ilinault	pers	porté
+Belge Hendryck Van den Brande	pers	porté
+Espagne	loc	porté
+Espagne	loc.adm.nat	porté
+Ilinault	pers.ind	porté
+Belge Hendryck Van den Brande	pers.ind	porté
+Espagne	loc.adm.nat	porté
+Belge	comp.demonym	porté
+Hendryck Van den Brande	comp.name	porté
+Français Bernard Ilinault	pers	conserve
+Français Bernard Ilinault	pers.ind	conserve
+Français	comp.demonym	conserve
+Bernard Ilinault	comp.name	conserve
+Autriche	loc	rend
+Autriche	loc	rend
+Autriche	loc.adm.nat	rend
+Autriche	loc.adm.nat	rend
+Gmuenden	loc	aura
+Salzbourg	loc	aura
+Zurich	loc	prévue
+Gmuenden	loc.adm.town	aura
+Salzbourg	loc.adm.town	aura
+Zurich	loc.adm.town	prévue
+Suisse	loc	rendue
+Suisse	loc	affrontera
+Suisse	loc	affrontera
+Luxembourg	loc	affrontera
+Luxembourg	loc	affrontera
+Suisse	loc	rendue
+Suisse	loc	affrontera
+Suisse	loc	affrontera
+Luxembourg	loc	affrontera
+Luxembourg	loc	affrontera
+Portugal	loc	affrontera
+Portugal	loc	affrontera
+Suisse	loc	rendue
+Suisse	loc	affrontera
+Suisse	loc	affrontera
+Luxembourg	loc	affrontera
+Luxembourg	loc	affrontera
+Portugal	loc	affrontera
+Portugal	loc	affrontera
+Suisse	org	rendue
+Suisse	org	affrontera
+Suisse	org	affrontera
+Luxembourg	org	affrontera
+Luxembourg	org	affrontera
+Portugal	org	affrontera
+Portugal	org	affrontera
+Suisse	org	rendue
+Suisse	org	affrontera
+Suisse	org	affrontera
+Luxembourg	org	affrontera
+Luxembourg	org	affrontera
+Portugal	org	affrontera
+Portugal	org	affrontera
+Suisse	loc.adm.nat	rendue
+Suisse	loc.adm.nat	affrontera
+Suisse	loc.adm.nat	affrontera
+Luxembourg	loc.adm.nat	affrontera
+Luxembourg	loc.adm.nat	affrontera
+Suisse	loc.adm.nat	rendue
+Suisse	loc.adm.nat	affrontera
+Suisse	loc.adm.nat	affrontera
+Luxembourg	loc.adm.nat	affrontera
+Luxembourg	loc.adm.nat	affrontera
+Portugal	loc.adm.nat	affrontera
+Portugal	loc.adm.nat	affrontera
+Suisse	loc.adm.nat	rendue
+Suisse	loc.adm.nat	affrontera
+Suisse	loc.adm.nat	affrontera
+Luxembourg	loc.adm.nat	affrontera
+Luxembourg	loc.adm.nat	affrontera
+Portugal	loc.adm.nat	affrontera
+Portugal	loc.adm.nat	affrontera
+Suisse	org.ent	rendue
+Suisse	org.ent	affrontera
+Suisse	org.ent	affrontera
+Luxembourg	org.ent	affrontera
+Luxembourg	org.ent	affrontera
+Portugal	org.ent	affrontera
+Portugal	org.ent	affrontera
+Suisse	org.ent	rendue
+Suisse	org.ent	affrontera
+Suisse	org.ent	affrontera
+Luxembourg	org.ent	affrontera
+Luxembourg	org.ent	affrontera
+Portugal	org.ent	affrontera
+Portugal	org.ent	affrontera
+Suisse	loc	Voici
+Suisse	loc	Voici
+Berne	loc	Voici
+Steffisbourg	loc	Voici
+Portugal	loc	Voici
+Luxembourg	loc	Voici
+Suisse	loc	Voici
+Suisse	loc	Voici
+Portugal	org	Voici
+Luxembourg	org	Voici
+Suisse	org	Voici
+Suisse	org	Voici
+Suisse	loc.adm.nat	Voici
+Suisse	loc.adm.nat	Voici
+Berne	loc.adm.town	Voici
+Steffisbourg	loc.adm.town	Voici
+Portugal	loc.adm.nat	Voici
+Luxembourg	loc.adm.nat	Voici
+Suisse	loc.adm.nat	Voici
+Suisse	loc.adm.nat	Voici
+Portugal	org.ent	Voici
+Luxembourg	org.ent	Voici
+Suisse	org.ent	Voici
+Suisse	org.ent	Voici
+Département militaire fédéral	org	remercier
+chef de l ' information , M . Ernst Môrgeli	pers	remercier
+M . Aldo Vêla	pers	remercier
+Département militaire fédéral	org.adm	remercier
+chef de l ' information , M . Ernst Môrgeli	pers.ind	remercier
+M . Aldo Vêla	pers.ind	remercier
+chef de l ' information	comp.function	remercier
+M .	comp.title	remercier
+Ernst Môrgeli	comp.name	remercier
+M .	comp.title	remercier
+armée suisse	org	exposés
+armée suisse	org	faire
+armée suisse	org.ent	exposés
+armée suisse	org.ent	faire
+Action nationale	org	attendre
+président , Rudolf Keller	pers	attendre
+Action nationale	org.ent	attendre
+président , Rudolf Keller	pers.ind	attendre
+Rudolf Keller	comp.name	attendre
+Action nationale	org	commenté
+Action nationale	org.ent	commenté
+député au Grand conseil de Bâle - campagne Rudolf Keller	pers	confirmé
+député au Grand conseil de Bâle - campagne Rudolf Keller	pers.ind	confirmé
+Rudolf Keller	comp.name	confirmé
+RJR Nabisco	org	reçu
+RJR Nabisco	org.ent	reçu
+RJR Nabisco	org	indiqué
+RJR Nabisco	org.ent	indiqué
+New York	loc	décidé
+New York	loc.adm.town	décidé
+Salomon Brothers	org	offert
+Nabisco	org	offert
+Salomon Brothers	org.ent	offert
+Nabisco	org.ent	offert
+Hutton	pers.ind	offert
+Salomon	pers.ind	offert
+Continental Illinois Corporation	org	annoncé
+Securities and Exchange Commission	org	déposer
+Fédéral Deposit Insurance Corporation	org	annoncé
+Fédéral Deposit Insurance Corporation	org	déposer
+FDIC	org	déposer
+Continental Illinois Corporation	org.ent	annoncé
+Securities and Exchange Commission	org.adm	déposer
+Fédéral Deposit Insurance Corporation	org.ent	annoncé
+Fédéral Deposit Insurance Corporation	org.ent	déposer
+FDIC	org.ent	déposer
+FDIC	org	déposé
+FDIC	org.adm	déposé
+FDIC	org	converti
+fin 1986	time	converti
+FDIC	org.adm	converti
+fin 1986	time.date.abs	converti
+La Chaux - de - Fonds	loc	imposés
+La Chaux - de - Fonds	loc.adm.town	imposés
+Lausanne	loc	ordre
+Lausanne	loc	ordre
+Lausanne	org	ordre
+Lausanne	org	ordre
+Lausanne	loc.adm.town	ordre
+Lausanne	loc.adm.town	ordre
+Lausanne	org.ent	ordre
+Lausanne	org.ent	ordre
+Roger Muller	pers	dit
+H . C . Chx - de - Fonds	org	A
+H . C . Chx - de - Fonds	org	vient
+arrière Roger Muller	pers	dit
+H . C . Chaux - de - Fonds	org	A
+H . C . Chaux - de - Fonds	org	vient
+Roger Muller	pers.ind	dit
+H . C . Chx - de - Fonds	org.ent	A
+H . C . Chx - de - Fonds	org.ent	vient
+arrière Roger Muller	pers.ind	dit
+H . C . Chaux - de - Fonds	org.ent	A
+H . C . Chaux - de - Fonds	org.ent	vient
+arrière	comp.qualifier	A
+Roger Muller	comp.name	dit
+Chx - de - Fonds	loc.adm.town	A
+Chx - de - Fonds	loc.adm.town	vient
+Chaux - de - Fonds	loc.adm.town	A
+Chaux - de - Fonds	loc.adm.town	vient

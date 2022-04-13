@@ -1,0 +1,169 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+predictions_dev	NE-FINE-COMP-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0	0.0	0				0	0	724
+predictions_dev	NE-FINE-COMP-micro-fuzzy-TIME-ALL-LED-ALL	COMP.DEMONYM	0	0.0	0				0	0	7
+predictions_dev	NE-FINE-COMP-micro-fuzzy-TIME-ALL-LED-ALL	COMP.FUNCTION	0	0.0	0				0	0	117
+predictions_dev	NE-FINE-COMP-micro-fuzzy-TIME-ALL-LED-ALL	COMP.NAME	0	0.0	0				0	0	343
+predictions_dev	NE-FINE-COMP-micro-fuzzy-TIME-ALL-LED-ALL	COMP.QUALIFIER	0	0.0	0				0	0	9
+predictions_dev	NE-FINE-COMP-micro-fuzzy-TIME-ALL-LED-ALL	COMP.TITLE	0	0.0	0				0	0	248
+predictions_dev	NE-FINE-COMP-micro-strict-TIME-ALL-LED-ALL	ALL	0	0.0	0				0	0	724
+predictions_dev	NE-FINE-COMP-micro-strict-TIME-ALL-LED-ALL	COMP.DEMONYM	0	0.0	0				0	0	7
+predictions_dev	NE-FINE-COMP-micro-strict-TIME-ALL-LED-ALL	COMP.FUNCTION	0	0.0	0				0	0	117
+predictions_dev	NE-FINE-COMP-micro-strict-TIME-ALL-LED-ALL	COMP.NAME	0	0.0	0				0	0	343
+predictions_dev	NE-FINE-COMP-micro-strict-TIME-ALL-LED-ALL	COMP.QUALIFIER	0	0.0	0				0	0	9
+predictions_dev	NE-FINE-COMP-micro-strict-TIME-ALL-LED-ALL	COMP.TITLE	0	0.0	0				0	0	248
+predictions_dev	NE-FINE-COMP-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL		0.0				0.0			
+predictions_dev	NE-FINE-COMP-macro_doc-fuzzy-TIME-ALL-LED-ALL	COMP.DEMONYM		0.0				0.0			
+predictions_dev	NE-FINE-COMP-macro_doc-fuzzy-TIME-ALL-LED-ALL	COMP.FUNCTION		0.0				0.0			
+predictions_dev	NE-FINE-COMP-macro_doc-fuzzy-TIME-ALL-LED-ALL	COMP.NAME		0.0				0.0			
+predictions_dev	NE-FINE-COMP-macro_doc-fuzzy-TIME-ALL-LED-ALL	COMP.QUALIFIER		0.0				0.0			
+predictions_dev	NE-FINE-COMP-macro_doc-fuzzy-TIME-ALL-LED-ALL	COMP.TITLE		0.0				0.0			
+predictions_dev	NE-FINE-COMP-macro_doc-strict-TIME-ALL-LED-ALL	ALL		0.0				0.0			
+predictions_dev	NE-FINE-COMP-macro_doc-strict-TIME-ALL-LED-ALL	COMP.DEMONYM		0.0				0.0			
+predictions_dev	NE-FINE-COMP-macro_doc-strict-TIME-ALL-LED-ALL	COMP.FUNCTION		0.0				0.0			
+predictions_dev	NE-FINE-COMP-macro_doc-strict-TIME-ALL-LED-ALL	COMP.NAME		0.0				0.0			
+predictions_dev	NE-FINE-COMP-macro_doc-strict-TIME-ALL-LED-ALL	COMP.QUALIFIER		0.0				0.0			
+predictions_dev	NE-FINE-COMP-macro_doc-strict-TIME-ALL-LED-ALL	COMP.TITLE		0.0				0.0			
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0	0.0	0				0	0	1729
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC.ADD.PHYS	0	0.0	0				0	0	1
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.NAT	0	0.0	0				0	0	258
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.REG	0	0.0	0				0	0	73
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.SUP	0	0.0	0				0	0	27
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.TOWN	0	0.0	0				0	0	352
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC.FAC	0	0.0	0				0	0	11
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC.ORO	0	0.0	0				0	0	10
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC.PHYS.GEO	0	0.0	0				0	0	21
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC.PHYS.HYDRO	0	0.0	0				0	0	18
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC.UNK	0	0.0	0				0	0	3
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ORG.ADM	0	0.0	0				0	0	54
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ORG.ENT	0	0.0	0				0	0	81
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ORG.ENT.PRESSAGENCY	0	0.0	0				0	0	24
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PERS.COLL	0	0.0	0				0	0	10
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PERS.IND	0	0.0	0				0	0	655
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PERS.IND.ARTICLEAUTHOR	0	0.0	0				0	0	14
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PROD.DOCTR	0	0.0	0				0	0	2
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PROD.MEDIA	0	0.0	0				0	0	47
+predictions_dev	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	TIME.DATE.ABS	0	0.0	0				0	0	68
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	ALL	0	0.0	0				0	0	1729
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC.ADD.PHYS	0	0.0	0				0	0	1
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC.ADM.NAT	0	0.0	0				0	0	258
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC.ADM.REG	0	0.0	0				0	0	73
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC.ADM.SUP	0	0.0	0				0	0	27
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC.ADM.TOWN	0	0.0	0				0	0	352
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC.FAC	0	0.0	0				0	0	11
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC.ORO	0	0.0	0				0	0	10
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC.PHYS.GEO	0	0.0	0				0	0	21
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC.PHYS.HYDRO	0	0.0	0				0	0	18
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC.UNK	0	0.0	0				0	0	3
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	ORG.ADM	0	0.0	0				0	0	54
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	ORG.ENT	0	0.0	0				0	0	81
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	ORG.ENT.PRESSAGENCY	0	0.0	0				0	0	24
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	PERS.COLL	0	0.0	0				0	0	10
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	PERS.IND	0	0.0	0				0	0	655
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	PERS.IND.ARTICLEAUTHOR	0	0.0	0				0	0	14
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	PROD.DOCTR	0	0.0	0				0	0	2
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	PROD.MEDIA	0	0.0	0				0	0	47
+predictions_dev	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	TIME.DATE.ABS	0	0.0	0				0	0	68
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.ADD.PHYS		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.NAT		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.REG		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.SUP		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.TOWN		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.FAC		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.ORO		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.PHYS.GEO		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.PHYS.HYDRO		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.UNK		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ORG.ADM		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ORG.ENT		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ORG.ENT.PRESSAGENCY		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PERS.COLL		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PERS.IND		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PERS.IND.ARTICLEAUTHOR		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PROD.DOCTR		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PROD.MEDIA		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	TIME.DATE.ABS		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ALL		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC.ADD.PHYS		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC.ADM.NAT		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC.ADM.REG		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC.ADM.SUP		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC.ADM.TOWN		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC.FAC		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC.ORO		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC.PHYS.GEO		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC.PHYS.HYDRO		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC.UNK		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ORG.ADM		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ORG.ENT		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ORG.ENT.PRESSAGENCY		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PERS.COLL		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PERS.IND		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PERS.IND.ARTICLEAUTHOR		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PROD.DOCTR		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PROD.MEDIA		0.0				0.0			
+predictions_dev	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	TIME.DATE.ABS		0.0				0.0			
+predictions_dev	NE-FINE-METO-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0	0.0	0				0	0	108
+predictions_dev	NE-FINE-METO-micro-fuzzy-TIME-ALL-LED-ALL	LOC.FAC	0	0.0	0				0	0	2
+predictions_dev	NE-FINE-METO-micro-fuzzy-TIME-ALL-LED-ALL	LOC.ORO	0	0.0	0				0	0	1
+predictions_dev	NE-FINE-METO-micro-fuzzy-TIME-ALL-LED-ALL	ORG.ADM	0	0.0	0				0	0	79
+predictions_dev	NE-FINE-METO-micro-fuzzy-TIME-ALL-LED-ALL	ORG.ENT	0	0.0	0				0	0	26
+predictions_dev	NE-FINE-METO-micro-strict-TIME-ALL-LED-ALL	ALL	0	0.0	0				0	0	108
+predictions_dev	NE-FINE-METO-micro-strict-TIME-ALL-LED-ALL	LOC.FAC	0	0.0	0				0	0	2
+predictions_dev	NE-FINE-METO-micro-strict-TIME-ALL-LED-ALL	LOC.ORO	0	0.0	0				0	0	1
+predictions_dev	NE-FINE-METO-micro-strict-TIME-ALL-LED-ALL	ORG.ADM	0	0.0	0				0	0	79
+predictions_dev	NE-FINE-METO-micro-strict-TIME-ALL-LED-ALL	ORG.ENT	0	0.0	0				0	0	26
+predictions_dev	NE-FINE-METO-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL		0.0				0.0			
+predictions_dev	NE-FINE-METO-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.FAC		0.0				0.0			
+predictions_dev	NE-FINE-METO-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.ORO		0.0				0.0			
+predictions_dev	NE-FINE-METO-macro_doc-fuzzy-TIME-ALL-LED-ALL	ORG.ADM		0.0				0.0			
+predictions_dev	NE-FINE-METO-macro_doc-fuzzy-TIME-ALL-LED-ALL	ORG.ENT		0.0				0.0			
+predictions_dev	NE-FINE-METO-macro_doc-strict-TIME-ALL-LED-ALL	ALL		0.0				0.0			
+predictions_dev	NE-FINE-METO-macro_doc-strict-TIME-ALL-LED-ALL	LOC.FAC		0.0				0.0			
+predictions_dev	NE-FINE-METO-macro_doc-strict-TIME-ALL-LED-ALL	LOC.ORO		0.0				0.0			
+predictions_dev	NE-FINE-METO-macro_doc-strict-TIME-ALL-LED-ALL	ORG.ADM		0.0				0.0			
+predictions_dev	NE-FINE-METO-macro_doc-strict-TIME-ALL-LED-ALL	ORG.ENT		0.0				0.0			
+predictions_dev	NE-NESTED-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0	0.0	0				0	0	91
+predictions_dev	NE-NESTED-micro-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.NAT	0	0.0	0				0	0	15
+predictions_dev	NE-NESTED-micro-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.REG	0	0.0	0				0	0	5
+predictions_dev	NE-NESTED-micro-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.TOWN	0	0.0	0				0	0	37
+predictions_dev	NE-NESTED-micro-fuzzy-TIME-ALL-LED-ALL	LOC.FAC	0	0.0	0				0	0	1
+predictions_dev	NE-NESTED-micro-fuzzy-TIME-ALL-LED-ALL	LOC.PHYS.GEO	0	0.0	0				0	0	2
+predictions_dev	NE-NESTED-micro-fuzzy-TIME-ALL-LED-ALL	LOC.PHYS.HYDRO	0	0.0	0				0	0	5
+predictions_dev	NE-NESTED-micro-fuzzy-TIME-ALL-LED-ALL	ORG.ADM	0	0.0	0				0	0	3
+predictions_dev	NE-NESTED-micro-fuzzy-TIME-ALL-LED-ALL	ORG.ENT	0	0.0	0				0	0	8
+predictions_dev	NE-NESTED-micro-fuzzy-TIME-ALL-LED-ALL	PERS.IND	0	0.0	0				0	0	14
+predictions_dev	NE-NESTED-micro-fuzzy-TIME-ALL-LED-ALL	PROD.MEDIA	0	0.0	0				0	0	1
+predictions_dev	NE-NESTED-micro-strict-TIME-ALL-LED-ALL	ALL	0	0.0	0				0	0	91
+predictions_dev	NE-NESTED-micro-strict-TIME-ALL-LED-ALL	LOC.ADM.NAT	0	0.0	0				0	0	15
+predictions_dev	NE-NESTED-micro-strict-TIME-ALL-LED-ALL	LOC.ADM.REG	0	0.0	0				0	0	5
+predictions_dev	NE-NESTED-micro-strict-TIME-ALL-LED-ALL	LOC.ADM.TOWN	0	0.0	0				0	0	37
+predictions_dev	NE-NESTED-micro-strict-TIME-ALL-LED-ALL	LOC.FAC	0	0.0	0				0	0	1
+predictions_dev	NE-NESTED-micro-strict-TIME-ALL-LED-ALL	LOC.PHYS.GEO	0	0.0	0				0	0	2
+predictions_dev	NE-NESTED-micro-strict-TIME-ALL-LED-ALL	LOC.PHYS.HYDRO	0	0.0	0				0	0	5
+predictions_dev	NE-NESTED-micro-strict-TIME-ALL-LED-ALL	ORG.ADM	0	0.0	0				0	0	3
+predictions_dev	NE-NESTED-micro-strict-TIME-ALL-LED-ALL	ORG.ENT	0	0.0	0				0	0	8
+predictions_dev	NE-NESTED-micro-strict-TIME-ALL-LED-ALL	PERS.IND	0	0.0	0				0	0	14
+predictions_dev	NE-NESTED-micro-strict-TIME-ALL-LED-ALL	PROD.MEDIA	0	0.0	0				0	0	1
+predictions_dev	NE-NESTED-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.NAT		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.REG		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.ADM.TOWN		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.FAC		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.PHYS.GEO		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC.PHYS.HYDRO		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-fuzzy-TIME-ALL-LED-ALL	ORG.ADM		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-fuzzy-TIME-ALL-LED-ALL	ORG.ENT		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-fuzzy-TIME-ALL-LED-ALL	PERS.IND		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-fuzzy-TIME-ALL-LED-ALL	PROD.MEDIA		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-strict-TIME-ALL-LED-ALL	ALL		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-strict-TIME-ALL-LED-ALL	LOC.ADM.NAT		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-strict-TIME-ALL-LED-ALL	LOC.ADM.REG		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-strict-TIME-ALL-LED-ALL	LOC.ADM.TOWN		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-strict-TIME-ALL-LED-ALL	LOC.FAC		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-strict-TIME-ALL-LED-ALL	LOC.PHYS.GEO		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-strict-TIME-ALL-LED-ALL	LOC.PHYS.HYDRO		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-strict-TIME-ALL-LED-ALL	ORG.ADM		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-strict-TIME-ALL-LED-ALL	ORG.ENT		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-strict-TIME-ALL-LED-ALL	PERS.IND		0.0				0.0			
+predictions_dev	NE-NESTED-macro_doc-strict-TIME-ALL-LED-ALL	PROD.MEDIA		0.0				0.0			
