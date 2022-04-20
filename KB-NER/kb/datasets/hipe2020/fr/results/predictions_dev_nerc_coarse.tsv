@@ -1,0 +1,37 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+predictions_dev	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0.927	0.874	0.9				1511	119	218
+predictions_dev	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC	0.945	0.903	0.923				699	41	75
+predictions_dev	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ORG	0.811	0.755	0.782				120	28	39
+predictions_dev	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PERS	0.938	0.873	0.905				593	39	86
+predictions_dev	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PROD	0.812	0.796	0.804				39	9	10
+predictions_dev	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	TIME	0.968	0.882	0.923				60	2	8
+predictions_dev	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	ALL	0.871	0.821	0.845				1420	210	309
+predictions_dev	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC	0.918	0.877	0.897				679	61	95
+predictions_dev	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	ORG	0.743	0.692	0.717				110	38	49
+predictions_dev	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	PERS	0.869	0.809	0.838				549	83	130
+predictions_dev	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	PROD	0.708	0.694	0.701				34	14	15
+predictions_dev	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	TIME	0.774	0.706	0.738				48	14	20
+predictions_dev	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL	0.927	0.874	0.9	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC	0.945	0.903	0.923	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ORG	0.811	0.755	0.782	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PERS	0.938	0.873	0.905	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PROD	0.812	0.796	0.804	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	TIME	0.968	0.882	0.923	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ALL	0.871	0.821	0.845	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC	0.918	0.877	0.897	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ORG	0.743	0.692	0.717	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PERS	0.869	0.809	0.838	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PROD	0.708	0.694	0.701	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	TIME	0.774	0.706	0.738	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-METO-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0.6	0.694	0.644				75	50	33
+predictions_dev	NE-COARSE-METO-micro-fuzzy-TIME-ALL-LED-ALL	LOC	0	0.0	0				0	0	3
+predictions_dev	NE-COARSE-METO-micro-fuzzy-TIME-ALL-LED-ALL	ORG	0.6	0.714	0.652				75	50	30
+predictions_dev	NE-COARSE-METO-micro-strict-TIME-ALL-LED-ALL	ALL	0.576	0.667	0.618				72	53	36
+predictions_dev	NE-COARSE-METO-micro-strict-TIME-ALL-LED-ALL	LOC	0	0.0	0				0	0	3
+predictions_dev	NE-COARSE-METO-micro-strict-TIME-ALL-LED-ALL	ORG	0.576	0.686	0.626				72	53	33
+predictions_dev	NE-COARSE-METO-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL	0.6	0.694	0.644	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-METO-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC		0.0				0.0			
+predictions_dev	NE-COARSE-METO-macro_doc-fuzzy-TIME-ALL-LED-ALL	ORG	0.6	0.714	0.652	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-METO-macro_doc-strict-TIME-ALL-LED-ALL	ALL	0.576	0.667	0.618	0.0	0.0	0.0			
+predictions_dev	NE-COARSE-METO-macro_doc-strict-TIME-ALL-LED-ALL	LOC		0.0				0.0			
+predictions_dev	NE-COARSE-METO-macro_doc-strict-TIME-ALL-LED-ALL	ORG	0.576	0.686	0.626	0.0	0.0	0.0			

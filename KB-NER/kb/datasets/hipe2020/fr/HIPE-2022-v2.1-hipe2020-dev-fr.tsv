@@ -1675,6 +1675,7 @@ les	O	O	O	O	O	O	_	_	_
 Chambres	B-org	O	B-org.adm	O	O	O	Q684719	_	_
 fédérales	I-org	O	I-org.adm	O	O	O	Q684719	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 L	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 arrêté	O	O	O	O	O	O	_	_	_
@@ -1693,6 +1694,7 @@ er	I-time	O	I-time.date.abs	O	O	O	NIL	_	_
 mai	I-time	O	I-time.date.abs	O	O	O	NIL	_	_
 1918	I-time	O	I-time.date.abs	O	O	O	NIL	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Bavitai	O	O	O	O	O	O	_	_	_
 11	O	O	O	O	O	O	_	_	_
 ement	O	O	O	O	O	O	_	_	_
@@ -1721,6 +1723,7 @@ suit	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Le	O	O	O	O	O	O	_	_	_
 fromage	O	O	O	O	O	O	_	_	_
 fabriqué	O	O	O	O	O	O	_	_	_
@@ -1732,6 +1735,7 @@ canton	O	O	O	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
 séquestré	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 La	O	O	O	O	O	O	_	_	_
 fourniture	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -1771,6 +1775,7 @@ de	O	O	O	O	O	O	_	_	_
 fromage	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
 ¦	O	O	O	O	O	O	_	_	EndOfLine
+
 En	O	O	O	O	O	O	_	_	_
 règle	O	O	O	O	O	O	_	_	_
 générale	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -1789,6 +1794,7 @@ de	O	O	O	O	O	O	_	_	_
 250	O	O	O	O	O	O	_	_	EndOfLine
 grammes	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 La	O	O	O	O	O	O	_	_	_
 carte	O	O	O	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
@@ -1802,6 +1808,7 @@ Vs	O	O	O	O	O	O	_	_	_
 grammes	O	O	O	O	O	O	_	_	_
 chacun	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Il	O	O	O	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
 créé	O	O	O	O	O	O	_	_	_
@@ -1814,6 +1821,7 @@ carte	O	O	O	O	O	O	_	_	EndOfLine
 de	O	O	O	O	O	O	_	_	_
 fromage	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 L	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 office	O	O	O	O	O	O	_	_	_
@@ -1826,6 +1834,7 @@ de	O	O	O	O	O	O	_	_	_
 ce	O	O	O	O	O	O	_	_	_
 service	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Un	O	O	O	O	O	O	_	_	_
 office	O	O	O	O	O	O	_	_	_
 communal	O	O	O	O	O	O	_	_	_
@@ -1841,6 +1850,7 @@ chaque	O	O	O	O	O	O	_	_	EndOfLine
 localité	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
 ¦	O	O	O	O	O	O	_	_	EndOfLine
+
 Les	O	O	O	O	O	O	_	_	_
 enfants	O	O	O	O	O	O	_	_	_
 âgés	O	O	O	O	O	O	_	_	_
@@ -1904,6 +1914,7 @@ dans	O	O	O	O	O	O	_	_	_
 une	O	O	O	O	O	O	_	_	_
 commune	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Toutes	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
 autres	O	O	O	O	O	O	_	_	_
@@ -1916,6 +1927,7 @@ carte	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 fromage	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Les	O	O	O	O	O	O	_	_	_
 personnes	O	O	O	O	O	O	_	_	_
 astreintes	O	O	O	O	O	O	_	_	_
@@ -1930,6 +1942,7 @@ deux	O	O	O	O	O	O	_	_	_
 cartes	O	O	O	O	O	O	_	_	_
 _	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Les	O	O	O	O	O	O	_	_	_
 hôtels	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
@@ -1956,6 +1969,7 @@ des	O	O	O	O	O	O	_	_	_
 coupons	O	O	O	O	O	O	_	_	EndOfLine
 correspondants	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Quiconque	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
@@ -2001,6 +2015,7 @@ de	O	O	O	O	O	O	_	_	_
 3	O	O	O	O	O	O	_	_	_
 kilos	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 L	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 arrêté	O	O	O	O	O	O	_	_	_
@@ -2012,6 +2027,7 @@ ler	O	O	O	O	O	O	_	_	_
 juin	O	O	O	O	O	O	_	_	EndOfLine
 prochain	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Hautes	O	O	O	O	O	O	_	_	_
 études	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
@@ -2066,6 +2082,7 @@ Sauvons	O	O	O	O	O	O	_	_	_
 nos	O	O	O	O	O	O	_	_	_
 choux	O	O	O	O	O	O	_	_	_
 î	O	O	O	O	O	O	_	_	_
+
 —	O	O	O	O	O	O	_	_	_
 Le	O	O	O	O	O	O	_	_	_
 département	B-org	O	B-org.adm	O	O	O	NIL	_	_
@@ -2120,6 +2137,7 @@ des	O	O	O	O	O	O	_	_	_
 jeunes	O	O	O	O	O	O	_	_	_
 choux	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Comme	O	O	O	O	O	O	_	_	_
 ces	O	O	O	O	O	O	_	_	_
 œufs	O	O	O	O	O	O	_	_	_
@@ -2157,6 +2175,7 @@ avant	O	O	O	O	O	O	_	_	_
 leur	O	O	O	O	O	O	_	_	_
 éclosion	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Il	O	O	O	O	O	O	_	_	_
 ne	O	O	O	O	O	O	_	_	_
 faut	O	O	O	O	O	O	_	_	EndOfLine
@@ -2181,6 +2200,7 @@ de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 piéride	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Une	O	O	O	O	O	O	_	_	_
 aspersion	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -2190,6 +2210,7 @@ est	O	O	O	O	O	O	_	_	_
 aussi	O	O	O	O	O	O	_	_	EndOfLine
 recommandée	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 On	O	O	O	O	O	O	_	_	_
 prétend	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
@@ -2218,6 +2239,7 @@ plantation	O	O	O	O	O	O	_	_	NoSpaceAfter
 les	O	O	O	O	O	O	_	_	_
 papillons	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Certaines	O	O	O	O	O	O	_	_	_
 personnes	O	O	O	O	O	O	_	_	_
 ont	O	O	O	O	O	O	_	_	EndOfLine
@@ -2251,6 +2273,7 @@ papillons	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	EndOfLine
 chou	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Quoi	O	O	O	O	O	O	_	_	_
 qu	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -2282,6 +2305,7 @@ l	O	O	O	O	O	O	_	_	NoSpaceAfter
 année	O	O	O	O	O	O	_	_	_
 dernière	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Cressier	B-loc	O	B-loc.adm.town	O	O	O	Q70139	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
 —	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -2326,6 +2350,7 @@ M	I-pers	O	I-pers.ind	O	B-comp.title	O	NIL	_	NoSpaceAfter
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	NIL	_	_
 Wey	I-pers	O	I-pers.ind	O	B-comp.name	O	NIL	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Lo	O	O	O	O	O	O	_	_	_
 coût	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -2353,6 +2378,7 @@ le	O	O	O	O	O	O	_	_	_
 remaniement	O	O	O	O	O	O	_	_	_
 parcellaire	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Saint	B-loc	O	B-loc.adm.town	O	O	O	Q70424	_	NoSpaceAfter
 -	I-loc	O	I-loc.adm.town	O	O	O	Q70424	_	NoSpaceAfter
 Biaise	I-loc	O	I-loc.adm.town	O	O	O	Q70424	_	_
@@ -2396,6 +2422,7 @@ nous	O	O	O	O	O	O	_	_	EndOfLine
 avons	O	O	O	O	O	O	_	_	_
 relaté	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Des	O	O	O	O	O	O	_	_	_
 pourparlers	O	O	O	O	O	O	_	_	_
 ont	O	O	O	O	O	O	_	_	_
@@ -2461,6 +2488,7 @@ tour	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 scrutin	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Le	O	O	O	O	O	O	_	_	_
 Conseil	O	O	O	O	O	O	_	_	_
 général	O	O	O	O	O	O	_	_	_
@@ -2513,6 +2541,7 @@ Meyer	I-pers	O	I-pers.ind	O	I-comp.name	O	NIL	_	NoSpaceAfter
 ,	I-pers	O	I-pers.ind	O	O	O	NIL	_	_
 questeurs	I-pers	O	I-pers.ind	O	B-comp.function	O	NIL	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Le	O	O	O	O	O	O	_	_	_
 Conseil	O	O	O	O	O	O	_	_	_
 communal	O	O	O	O	O	O	_	_	_
@@ -2584,6 +2613,7 @@ membres	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 nommer	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Or	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
 il	O	O	O	O	O	O	_	_	EndOfLine
@@ -2622,6 +2652,7 @@ chacun	O	O	O	O	O	O	_	_	_
 18	O	O	O	O	O	O	_	_	_
 voix	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Comme	O	O	O	O	O	O	_	_	EndOfLine
 on	O	O	O	O	O	O	_	_	_
 allait	O	O	O	O	O	O	_	_	_
@@ -2678,6 +2709,7 @@ l	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 élu	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Le	O	O	O	O	O	O	_	_	_
 président	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
@@ -2752,6 +2784,7 @@ Montandon	I-pers	O	I-pers.ind	O	O	O	NIL	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
 ~	O	O	O	O	O	O	_	_	NoSpaceAfter
 ~	O	O	O	O	O	O	_	_	EndOfLine
+
 La	O	O	O	O	O	O	_	_	_
 commission	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
