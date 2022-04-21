@@ -13842,6 +13842,7 @@ Anlaß	O	O	O	O	O	O	_	_	_
 zu	O	O	O	O	O	O	_	_	_
 finden	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Diese	O	O	O	O	O	O	_	_	_
 Veränderung	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
@@ -13873,6 +13874,7 @@ Unhaltbaren	O	O	O	O	O	O	_	_	_
 Zuständen	O	O	O	O	O	O	_	_	_
 gehört	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 In	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 Stadt	B-loc	O	B-loc.adm.town	O	O	O	Q69007	_	_
@@ -13883,6 +13885,7 @@ Auebruch	O	O	O	O	O	O	_	_	_
 schon	O	O	O	O	O	O	_	_	_
 erfolgt	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Seit	O	O	O	O	O	O	_	_	_
 Jahren	O	O	O	O	O	O	_	_	_
 mußte	O	O	O	O	O	O	_	_	EndOfLine
@@ -13934,6 +13937,7 @@ ausgefüllt	O	O	O	O	O	O	_	_	EndOfLine
 werden	O	O	O	O	O	O	_	_	_
 konnte	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Der	O	O	O	O	O	O	_	_	_
 Rath	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
@@ -13991,6 +13995,7 @@ bewerkstelligt	O	O	O	O	O	O	_	_	_
 werden	O	O	O	O	O	O	_	_	EndOfLine
 sollen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Der	O	O	O	O	O	O	_	_	_
 alte	O	O	O	O	O	O	_	_	_
 Organismus	O	O	O	O	O	O	_	_	_
@@ -14011,6 +14016,7 @@ Reform	O	O	O	O	O	O	_	_	_
 ertragen	O	O	O	O	O	O	_	_	_
 können	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Die	O	O	O	O	O	O	_	_	_
 Krise	O	O	O	O	O	O	_	_	_
 mußte	O	O	O	O	O	O	_	_	_
@@ -14030,6 +14036,7 @@ Anspruch	O	O	O	O	O	O	_	_	_
 genommen	O	O	O	O	O	O	_	_	_
 werden	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Sie	O	O	O	O	O	O	_	_	_
 werden	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
@@ -14066,6 +14073,7 @@ immer	O	O	O	O	O	O	_	_	_
 mehr	O	O	O	O	O	O	_	_	_
 häufen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Und	O	O	O	O	O	O	_	_	_
 wie	O	O	O	O	O	O	_	_	_
 könnte	O	O	O	O	O	O	_	_	_
@@ -14132,6 +14140,7 @@ allgemeiner	O	O	O	O	O	O	_	_	_
 Anstoß	O	O	O	O	O	O	_	_	_
 kömmt	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Diesen	O	O	O	O	O	O	_	_	_
 erwartet	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
@@ -14157,6 +14166,7 @@ holfen	O	O	O	O	O	O	_	_	_
 werden	O	O	O	O	O	O	_	_	_
 kann	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Und	O	O	O	O	O	O	_	_	_
 wer	O	O	O	O	O	O	_	_	_
 weiß	O	O	O	O	O	O	_	_	_
@@ -14198,6 +14208,7 @@ Bewegungspartei	O	O	O	O	O	O	_	_	_
 erwarten	O	O	O	O	O	O	_	_	_
 läßt	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Söhne	O	O	O	O	O	O	_	_	_
 vornehmer	O	O	O	O	O	O	_	_	_
 Fa	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -14239,6 +14250,7 @@ Weise	O	O	O	O	O	O	_	_	_
 bearbeiten	O	O	O	O	O	O	_	_	_
 könnten	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 „	O	O	O	O	O	O	_	_	NoSpaceAfter
 Solche	O	O	O	O	O	O	_	_	_
 Felder	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -14262,6 +14274,7 @@ nur	O	O	O	O	O	O	_	_	_
 wenig	O	O	O	O	O	O	_	_	_
 darbieten	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Darum	O	O	O	O	O	O	_	_	_
 werden	O	O	O	O	O	O	_	_	EndOfLine
 weitaus	O	O	O	O	O	O	_	_	_
@@ -23496,6 +23509,7 @@ schätzen	O	O	O	O	O	O	_	_	EndOfLine
 zu	O	O	O	O	O	O	_	_	_
 dürfen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Juni	O	O	O	O	O	O	_	_	_
 datirten	O	O	O	O	O	O	_	_	_
 Schreibens	O	O	O	O	O	O	_	_	_
@@ -23656,6 +23670,7 @@ Rechtes	O	O	O	O	O	O	_	_	_
 zu	O	O	O	O	O	O	_	_	_
 stellen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Wir	O	O	O	O	O	O	_	_	_
 erklären	O	O	O	O	O	O	_	_	_
 uns	O	O	O	O	O	O	_	_	_
@@ -23709,6 +23724,7 @@ möchten	O	O	O	O	O	O	_	_	NoSpaceAfter
 zu	O	O	O	O	O	O	_	_	_
 betheiligen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Dabei	O	O	O	O	O	O	_	_	EndOfLine
 „	O	O	O	O	O	O	_	_	NoSpaceAfter
 verfehlen	O	O	O	O	O	O	_	_	_
@@ -69722,6 +69738,7 @@ die	O	O	O	O	O	O	_	_	_
 Fenster	O	O	O	O	O	O	_	_	_
 schauen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Menn	O	O	O	O	O	O	_	_	EndOfLine
 Bevin	B-pers	O	B-pers.ind	O	O	O	Q332365	_	_
 zu	O	O	O	O	O	O	_	_	_
@@ -69821,6 +69838,7 @@ diesein	O	O	O	O	O	O	_	_	EndOfLine
 Phema	O	O	O	O	O	O	_	_	_
 befalte	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Wie	O	O	O	O	O	O	_	_	_
 immer	O	O	O	O	O	O	_	_	_
 demn	O	O	O	O	O	O	_	_	_
@@ -69852,6 +69870,7 @@ Bevins	B-pers	O	B-pers.ind	O	O	O	Q332365	_	_
 zusmmmengekommen	O	O	O	O	O	O	_	_	_
 sind	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Bei	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 Beratungen	O	O	O	O	O	O	_	_	_
@@ -69895,6 +69914,7 @@ genommen	O	O	O	O	O	O	_	_	EndOfLine
 werdlen	O	O	O	O	O	O	_	_	_
 kann	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Während	O	O	O	O	O	O	_	_	_
 Bevin	B-pers	O	B-pers.ind	O	O	O	Q332365	_	_
 und	O	O	O	O	O	O	_	_	_
@@ -69953,6 +69973,7 @@ Unterschei	O	O	O	O	O	O	_	_	NoSpaceAfter
 dung	O	O	O	O	O	O	_	_	_
 herausgearbeitet	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Sie	O	O	O	O	O	O	_	_	_
 sind	O	O	O	O	O	O	_	_	_
 zu	O	O	O	O	O	O	_	_	_
@@ -70007,6 +70028,7 @@ sie	O	O	O	O	O	O	_	_	_
 es	O	O	O	O	O	O	_	_	_
 möciite	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Völlig	O	O	O	O	O	O	_	_	_
 Klar	O	O	O	O	O	O	_	_	_
 ist	O	O	O	O	O	O	_	_	_
@@ -70057,6 +70079,7 @@ nicht	O	O	O	O	O	O	_	_	_
 beteiligen	O	O	O	O	O	O	_	_	_
 wollen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Vie	O	O	O	O	O	O	_	_	NoSpaceAfter
 !	O	O	O	O	O	O	_	_	EndOfLine
 senwieniger	O	O	O	O	O	O	_	_	_
@@ -70182,6 +70205,7 @@ gilt	O	O	O	O	O	O	_	_	_
 für	O	O	O	O	O	O	_	_	_
 Griechenland	B-loc	B-org	B-loc.adm.nat	B-org.adm	O	O	Q41	Q41	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Des	O	O	O	O	O	O	_	_	NoSpaceAfter
 ¬	O	O	O	O	O	O	_	_	EndOfLine
 wegen	O	O	O	O	O	O	_	_	_
@@ -70229,6 +70253,7 @@ genau	O	O	O	O	O	O	_	_	EndOfLine
 geprüft	O	O	O	O	O	O	_	_	_
 werden	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Bis	O	O	O	O	O	O	_	_	_
 zu	O	O	O	O	O	O	_	_	_
 einem	O	O	O	O	O	O	_	_	_
@@ -70240,6 +70265,7 @@ gleiche	O	O	O	O	O	O	_	_	EndOfLine
 für	O	O	O	O	O	O	_	_	_
 Shandinavien	B-loc	B-org	B-loc.adm.sup	B-org.adm	O	O	Q21195	Q21195	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Die	O	O	O	O	O	O	_	_	_
 Kandinavischen	O	O	O	O	O	O	_	_	_
 Stan	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -70277,6 +70303,7 @@ Aubenpolitik	O	O	O	O	O	O	_	_	_
 gewahrt	O	O	O	O	O	O	_	_	_
 wurde	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Diese	O	O	O	O	O	O	_	_	_
 zwar	O	O	O	O	O	O	_	_	_
 vorsiehtige	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -70303,6 +70330,7 @@ Westlichen	B-org	O	B-org.adm	O	O	O	Q7988404	_	_
 Union	I-org	O	I-org.adm	O	O	O	Q7988404	_	_
 dar	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Pür	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	EndOfLine
 Angelsachsen	O	O	O	O	O	O	_	_	_
@@ -70365,6 +70393,7 @@ stür	O	O	O	O	O	O	_	_	NoSpaceAfter
 ¬	O	O	O	O	O	O	_	_	EndOfLine
 ken	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Den	O	O	O	O	O	O	_	_	_
 Stanten	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
@@ -70438,6 +70467,7 @@ maten	O	O	O	O	O	O	_	_	_
 behutsam	O	O	O	O	O	O	_	_	_
 auftreten	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Die	O	O	O	O	O	O	_	_	_
 militärische	O	O	O	O	O	O	_	_	_
 Zeite	O	O	O	O	O	O	_	_	_
@@ -70508,6 +70538,7 @@ zu	O	O	O	O	O	O	_	_	_
 Rüstungszwecken	O	O	O	O	O	O	_	_	EndOfLine
 ausgeben	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Weil	O	O	O	O	O	O	_	_	_
 sie	O	O	O	O	O	O	_	_	_
 nicht	O	O	O	O	O	O	_	_	_
@@ -70578,6 +70609,7 @@ einem	O	O	O	O	O	O	_	_	_
 Kompromiss	O	O	O	O	O	O	_	_	_
 geswungen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Die	O	O	O	O	O	O	_	_	_
 westlichen	O	O	O	O	O	O	_	_	_
 Demokratien	O	O	O	O	O	O	_	_	_
@@ -70600,6 +70632,7 @@ aus	O	O	O	O	O	O	_	_	NoSpaceAfter
 ¬	O	O	O	O	O	O	_	_	EndOfLine
 kommen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Wie	O	O	O	O	O	O	_	_	_
 viele	O	O	O	O	O	O	_	_	_
 Männer	O	O	O	O	O	O	_	_	_
@@ -70643,6 +70676,7 @@ fest	O	O	O	O	O	O	_	_	NoSpaceAfter
 ¬	O	O	O	O	O	O	_	_	EndOfLine
 stellen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Pür	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 ständige	O	O	O	O	O	O	_	_	_
@@ -70685,6 +70719,7 @@ Wirkung	O	O	O	O	O	O	_	_	_
 zu	O	O	O	O	O	O	_	_	_
 erzielen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Das	O	O	O	O	O	O	_	_	EndOfLine
 kann	O	O	O	O	O	O	_	_	_
 aber	O	O	O	O	O	O	_	_	_
@@ -70713,6 +70748,7 @@ gut	O	O	O	O	O	O	_	_	_
 ausgenützt	O	O	O	O	O	O	_	_	_
 werden	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Daraus	O	O	O	O	O	O	_	_	_
 ergibt	O	O	O	O	O	O	_	_	_
 sich	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -73843,6 +73879,7 @@ Rechnungskammer	O	O	O	O	O	O	_	_	_
 Franken	O	O	O	O	O	O	_	_	_
 kostet	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Hr	B-pers	O	B-pers.ind	O	B-comp.title	O	Q13103823	_	NoSpaceAfter
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	Q13103823	_	_
 Richard	I-pers	O	I-pers.ind	O	B-comp.name	O	Q13103823	_	_
@@ -73870,6 +73907,7 @@ gestellt	O	O	O	O	O	O	_	_	_
 werden	O	O	O	O	O	O	_	_	EndOfLine
 könne	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Die	O	O	O	O	O	O	_	_	_
 Debatte	O	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
@@ -73904,6 +73942,7 @@ Tage	O	O	O	O	O	O	_	_	_
 gebracht	O	O	O	O	O	O	_	_	_
 hätten	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 —	O	O	O	O	O	O	_	_	_
 Der	O	O	O	O	O	O	_	_	_
 Antrag	O	O	O	O	O	O	_	_	_
@@ -73924,6 +73963,7 @@ gegen	O	O	O	O	O	O	_	_	_
 24	O	O	O	O	O	O	_	_	_
 verworfen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Ein	O	O	O	O	O	O	_	_	_
 Antrag	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
@@ -73964,6 +74004,7 @@ und	O	O	O	O	O	O	_	_	NoSpaceAfter
 wirb	O	O	O	O	O	O	_	_	_
 angenommen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Ebenso	O	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
 ein	O	O	O	O	O	O	_	_	_
@@ -74008,6 +74049,7 @@ neuen	O	O	O	O	O	O	_	_	_
 Fassung	O	O	O	O	O	O	_	_	_
 angenommen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Ein	O	O	O	O	O	O	_	_	_
 Antrag	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
@@ -74054,6 +74096,7 @@ der	O	O	O	O	O	O	_	_	_
 Centralsektion	O	O	O	O	O	O	_	_	EndOfLine
 überwiesen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Hr	B-pers	O	B-pers.ind	O	B-comp.title	O	Q1956419	_	NoSpaceAfter
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	Q1956419	_	_
 Würth	I-pers	O	I-pers.ind	O	B-comp.name	O	Q1956419	_	_
@@ -74081,6 +74124,7 @@ Druck	O	O	O	O	O	O	_	_	_
 dieses	O	O	O	O	O	O	_	_	_
 Berichtes	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Die	O	O	O	O	O	O	_	_	_
 Diskussion	O	O	O	O	O	O	_	_	EndOfLine
 darüber	O	O	O	O	O	O	_	_	_
@@ -74091,6 +74135,7 @@ Uhr	O	O	O	O	O	O	_	_	_
 Nachmittags	O	O	O	O	O	O	_	_	_
 beginnen	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Die	O	O	O	O	O	O	_	_	_
 Sitzung	O	O	O	O	O	O	_	_	_
 wird	O	O	O	O	O	O	_	_	_
@@ -74102,6 +74147,7 @@ vom	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Juni	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Die	O	O	O	O	O	O	_	_	_
 Sitzung	O	O	O	O	O	O	_	_	_
 beginnt	O	O	O	O	O	O	_	_	_
@@ -74111,6 +74157,7 @@ fünf	O	O	O	O	O	O	_	_	_
 Uhr	O	O	O	O	O	O	_	_	EndOfLine
 Nachmittags	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Der	O	O	O	O	O	O	_	_	_
 Generalsekretär	O	O	O	O	O	O	_	_	_
 verliest	O	O	O	O	O	O	_	_	_
@@ -74137,6 +74184,7 @@ NerfassungsentwurfcS	O	O	O	O	O	O	_	_	_
 die	O	O	O	O	O	O	_	_	_
 Incompatibililätcn	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Hr	B-pers	O	B-pers.ind	O	B-comp.title	O	NIL	_	NoSpaceAfter
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	NIL	_	_
 Krem	I-pers	O	I-pers.ind	O	B-comp.name	O	NIL	_	_
@@ -74211,6 +74259,7 @@ Hr	B-pers	O	B-pers.ind	O	B-comp.title	O	Q13103823	_	NoSpaceAfter
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	Q13103823	_	_
 Richard	I-pers	O	I-pers.ind	O	B-comp.name	O	Q13103823	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Was	O	O	O	O	O	O	_	_	_
 euch	O	O	O	O	O	O	_	_	_
 so	O	O	O	O	O	O	_	_	_
@@ -74237,6 +74286,7 @@ nicht	O	O	O	O	O	O	_	_	_
 gutgeheißen	O	O	O	O	O	O	_	_	_
 hat	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Drauf	O	O	O	O	O	O	_	_	_
 bringt	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
