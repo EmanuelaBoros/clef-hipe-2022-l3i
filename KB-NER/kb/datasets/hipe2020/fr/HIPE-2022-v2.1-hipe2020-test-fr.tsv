@@ -4686,6 +4686,7 @@ soit	O	O	O	O	O	O	_	_	_
 en	B-time	O	B-time.date.abs	O	O	O	NIL	_	_
 1940	I-time	O	I-time.date.abs	O	O	O	NIL	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Ce	O	O	O	O	O	O	_	_	_
 manuscrit	O	O	O	O	O	O	_	_	EndOfLine
 _	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -4793,6 +4794,7 @@ la	O	O	O	O	O	O	_	_	_
 grande	O	O	O	O	O	O	_	_	_
 guerre	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Le	O	O	O	O	O	O	_	_	EndOfLine
 secret	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -4868,6 +4870,7 @@ des	O	O	O	O	O	O	_	_	_
 armées	O	O	O	O	O	O	_	_	_
 alliées	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Ouverture	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 session	O	O	O	O	O	O	_	_	EndOfLine
@@ -4921,6 +4924,7 @@ de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 reine	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Cette	O	O	O	O	O	O	_	_	_
 dernière	O	O	O	O	O	O	_	_	_
 ayant	O	O	O	O	O	O	_	_	_
@@ -5015,6 +5019,7 @@ maladie	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	EndOfLine
 reine	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Le	O	O	O	O	O	O	_	_	_
 formalisme	O	O	O	O	O	O	_	_	_
 traditionnel	O	O	O	O	O	O	_	_	EndOfLine
@@ -5539,6 +5544,7 @@ croître	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
 nombre	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Le	O	O	O	O	O	O	_	_	_
 s	O	O	O	O	O	O	_	_	_
 commis	O	O	O	O	O	O	_	_	_
@@ -5579,6 +5585,7 @@ de	O	O	O	O	O	O	_	_	_
 lundi	O	O	O	O	O	O	_	_	_
 prochain	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Un	O	O	O	O	O	O	_	_	_
 cyclone	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
@@ -5590,6 +5597,7 @@ PARIS	B-loc	O	B-loc.adm.town	O	O	O	Q90	_	NoSpaceAfter
 Havas	B-org	O	B-org.ent.pressagency	O	O	O	Q516033	_	NoSpaceAfter
 )	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 —	O	O	O	O	O	O	_	_	_
 On	O	O	O	O	O	O	_	_	_
 mande	O	O	O	O	O	O	_	_	_
@@ -5629,6 +5637,7 @@ de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 mousson	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 La	O	O	O	O	O	O	_	_	_
 tempête	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
@@ -5716,6 +5725,7 @@ ont	O	O	O	O	O	O	_	_	_
 été	O	O	O	O	O	O	_	_	_
 blessés	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Est	O	O	O	O	O	O	_	_	NoSpaceAfter
 -	O	O	O	O	O	O	_	_	NoSpaceAfter
 ce	O	O	O	O	O	O	_	_	_
@@ -5725,6 +5735,7 @@ de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 folie	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	EndOfLine
+
 Le	O	O	O	O	O	O	_	_	_
 crime	O	O	O	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -5739,6 +5750,7 @@ PARIS	B-loc	O	B-loc.adm.town	O	O	O	Q90	_	NoSpaceAfter
 Havas	B-org	O	B-org.ent.pressagency	O	O	O	Q516033	_	NoSpaceAfter
 )	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 —	O	O	O	O	O	O	_	_	_
 Le	O	O	O	O	O	O	_	_	_
 «	O	O	O	O	O	O	_	_	_
@@ -5803,6 +5815,7 @@ expiré	O	O	O	O	O	O	_	_	_
 presque	O	O	O	O	O	O	_	_	EndOfLine
 aussitôt	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Après	O	O	O	O	O	O	_	_	_
 son	O	O	O	O	O	O	_	_	_
 forfait	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -5834,6 +5847,7 @@ est	O	O	O	O	O	O	_	_	EndOfLine
 vengé	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
 >	O	O	O	O	O	O	_	_	EndOfLine
+
 Il	O	O	O	O	O	O	_	_	_
 n	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -5924,6 +5938,7 @@ hôtel	I-pers	O	I-pers.ind	O	I-comp.function	O	NIL	_	_
 à	I-pers	O	I-pers.ind	O	I-comp.function	O	NIL	_	_
 Annet	I-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.town	NIL	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Celleci	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
 âgée	O	O	O	O	O	O	_	_	_
@@ -5953,6 +5968,7 @@ ensuite	O	O	O	O	O	O	_	_	_
 son	O	O	O	O	O	O	_	_	_
 ami	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Jeudi	O	O	O	O	O	O	_	_	_
 dernier	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
@@ -5979,6 +5995,7 @@ du	O	O	O	O	O	O	_	_	_
 mari	O	O	O	O	O	O	_	_	_
 trompé	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Sur	O	O	O	O	O	O	_	_	EndOfLine
 les	O	O	O	O	O	O	_	_	_
 instances	O	O	O	O	O	O	_	_	_
@@ -6016,6 +6033,7 @@ l	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 assassinat	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Hier	O	O	O	O	O	O	_	_	_
 matin	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
@@ -6050,6 +6068,7 @@ l	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 hôtelier	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Grièvement	O	O	O	O	O	O	_	_	_
 blessée	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
@@ -6068,6 +6087,7 @@ appeler	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
 secours	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 M	B-pers	O	B-pers.ind	O	B-comp.title	O	NIL	_	NoSpaceAfter
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	NIL	_	_
 Pelletier	I-pers	O	I-pers.ind	O	B-comp.name	O	NIL	_	NoSpaceAfter
@@ -6089,6 +6109,7 @@ hôpital	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 Dreux	B-loc	O	B-loc.adm.town	O	O	O	Q142410	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Sa	O	O	O	O	O	O	_	_	_
 femme	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
@@ -18057,6 +18078,7 @@ jouit	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 Pologne	B-loc	B-org	B-loc.adm.nat	B-org.adm	O	O	Q36	Q36	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 L	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 empereur	O	O	O	O	O	O	_	_	_
@@ -18125,6 +18147,7 @@ fêtes	O	O	O	O	O	O	_	_	_
 son	O	O	O	O	O	O	_	_	_
 souverain	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Les	O	O	O	O	O	O	_	_	_
 nouvelles	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -18207,6 +18230,7 @@ pouvoir	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 royalistes	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Ces	O	O	O	O	O	O	_	_	_
 nouvelles	O	O	O	O	O	O	_	_	_
 sont	O	O	O	O	O	O	_	_	_
@@ -18244,6 +18268,7 @@ fille	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
 tems	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 La	O	O	O	O	O	O	_	_	_
 Prusse	B-loc	B-org	B-loc.adm.nat	B-org.adm	O	O	Q38872	Q38872	_
 et	O	O	O	O	O	O	_	_	_
@@ -18267,6 +18292,7 @@ ces	O	O	O	O	O	O	_	_	_
 deux	O	O	O	O	O	O	_	_	_
 puissances	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Il	O	O	O	O	O	O	_	_	EndOfLine
 ne	O	O	O	O	O	O	_	_	_
 s	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -18285,6 +18311,7 @@ peuvent	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
 renouveller	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 En	O	O	O	O	O	O	_	_	_
 Bivièrëj	B-loc	O	B-loc.adm.reg	O	O	O	Q980	_	_
 le	O	O	O	O	O	O	_	_	_
@@ -18351,6 +18378,7 @@ constitution	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
 royaume	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	EndOfLine
+
 L	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 incendie	O	O	O	O	O	O	_	_	_
@@ -18372,6 +18400,7 @@ d	O	O	O	O	O	O	_	_	NoSpaceAfter
 horribles	O	O	O	O	O	O	_	_	_
 desastres	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Plus	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 I	O	O	O	O	O	O	_	_	_
@@ -18394,6 +18423,7 @@ que	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 ruines	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Heureusement	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 feu	O	O	O	O	O	O	_	_	_
@@ -18415,6 +18445,7 @@ eut	O	O	O	O	O	O	_	_	_
 été	O	O	O	O	O	O	_	_	_
 brûlée	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 On	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 retrouvé	O	O	O	O	O	O	_	_	_
@@ -18545,6 +18576,7 @@ florins	O	O	O	O	O	O	_	_	NoSpaceAfter
 :	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	EndOfLine
+
 La	O	O	O	O	O	O	_	_	_
 ville	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -18586,6 +18618,7 @@ sur	O	O	O	O	O	O	_	_	_
 cette	O	O	O	O	O	O	_	_	_
 ville	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 L	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 Erff	B-loc	O	B-loc.phys.hydro	O	O	O	Q871560	_	NoSpaceAfter
@@ -18603,6 +18636,7 @@ dans	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
 rues	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Dès	O	O	O	O	O	O	_	_	_
 ce	O	O	O	O	O	O	_	_	_
 moment	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -18637,6 +18671,7 @@ en	O	O	O	O	O	O	_	_	_
 recevoir	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	EndOfLine
+
 Cette	O	O	O	O	O	O	_	_	_
 affrtsbse	O	O	O	O	O	O	_	_	_
 innondation	O	O	O	O	O	O	_	_	_
@@ -18692,6 +18727,7 @@ dans	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
 eaux	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Depuis	O	O	O	O	O	O	_	_	_
 ce	O	O	O	O	O	O	_	_	_
 jour	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -18715,6 +18751,7 @@ et	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 ruines	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Quelques	O	O	O	O	O	O	_	_	_
 journaux	O	O	O	O	O	O	_	_	_
 avaient	O	O	O	O	O	O	_	_	_
@@ -18747,6 +18784,7 @@ ce	O	O	O	O	O	O	_	_	_
 faux	O	O	O	O	O	O	_	_	_
 bruit	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Depuis	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
 ce	O	O	O	O	O	O	_	_	_
@@ -18791,6 +18829,7 @@ taire	O	O	O	O	O	O	_	_	_
 ou	O	O	O	O	O	O	_	_	_
 civile	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Toutes	O	O	O	O	O	O	_	_	_
 ses	O	O	O	O	O	O	_	_	_
 occupations	O	O	O	O	O	O	_	_	_
@@ -18825,6 +18864,7 @@ arts	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Aujourd	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 hui	O	O	O	O	O	O	_	_	_
@@ -29316,6 +29356,7 @@ nuit	O	O	O	O	O	O	_	_	EndOfLine
 des	O	O	O	O	O	O	_	_	_
 temps	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Dès	O	O	O	O	O	O	_	_	_
 340	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
@@ -29336,6 +29377,7 @@ de	O	O	O	O	O	O	_	_	EndOfLine
 la	O	O	O	O	O	O	_	_	_
 lignée	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 A	O	O	O	O	O	O	_	_	_
 partir	O	O	O	O	O	O	_	_	_
 de	B-time	O	B-time.date.abs	O	O	O	NIL	_	_
@@ -29358,6 +29400,7 @@ jusqu	O	O	O	O	O	O	_	_	NoSpaceAfter
 nos	O	O	O	O	O	O	_	_	_
 jours	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Dans	O	O	O	O	O	O	_	_	_
 cette	O	O	O	O	O	O	_	_	EndOfLine
 vallée	B-loc	O	B-loc.phys.geo	O	O	O	NIL	_	_
@@ -29375,6 +29418,7 @@ les	O	O	O	O	O	O	_	_	_
 hautes	O	O	O	O	O	O	_	_	EndOfLine
 fonctions	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Certaines	O	O	O	O	O	O	_	_	_
 branches	O	O	O	O	O	O	_	_	_
 s	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -29389,6 +29433,7 @@ d	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 église	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Pour	O	O	O	O	O	O	_	_	_
 certains	O	O	O	O	O	O	_	_	EndOfLine
 noms	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -29413,6 +29458,7 @@ une	O	O	O	O	O	O	_	_	EndOfLine
 véritable	O	O	O	O	O	O	_	_	_
 bibliographie	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 La	O	O	O	O	O	O	_	_	_
 plupart	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	EndOfLine
@@ -29427,6 +29473,7 @@ carrière	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 armes	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Quelques	O	O	O	O	O	O	_	_	NoSpaceAfter
 -	O	O	O	O	O	O	_	_	NoSpaceAfter
 uns	O	O	O	O	O	O	_	_	_
@@ -29457,6 +29504,7 @@ du	O	O	O	O	O	O	_	_	EndOfLine
 général	B-pers	O	B-pers.ind	O	B-comp.title	O	Q517	_	_
 Bonaparte	I-pers	O	I-pers.ind	O	B-comp.name	O	Q517	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Mais	O	O	O	O	O	O	_	_	_
 j	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -29475,6 +29523,7 @@ servi	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 France	B-loc	O	B-loc.adm.nat	O	O	O	Q142	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Dans	O	O	O	O	O	O	_	_	_
 une	O	O	O	O	O	O	_	_	_
 seule	O	O	O	O	O	O	_	_	_
@@ -29580,6 +29629,7 @@ suisses	O	O	O	O	O	O	_	_	_
 était	O	O	O	O	O	O	_	_	_
 signé	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Après	O	O	O	O	O	O	_	_	_
 quarante	O	O	O	O	O	O	_	_	EndOfLine
 jnnées	O	O	O	O	O	O	_	_	_
@@ -29669,6 +29719,7 @@ blessé	O	O	O	O	O	O	_	_	_
 son	O	O	O	O	O	O	_	_	_
 tour	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Tous	O	O	O	O	O	O	_	_	_
 sont	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
@@ -29728,6 +29779,7 @@ Ypres	B-loc	O	B-loc.adm.town	O	O	O	Q102728	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
 .	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Ses	O	O	O	O	O	O	_	_	_
 trois	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
@@ -29760,6 +29812,7 @@ plus	O	O	O	O	O	O	_	_	_
 hautes	O	O	O	O	O	O	_	_	EndOfLine
 destinées	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Né	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 Sartrouville	B-loc	O	B-loc.adm.nat	O	O	O	Q209101	_	_
@@ -29778,6 +29831,7 @@ régiment	O	O	O	O	O	O	_	_	EndOfLine
 suisse	O	O	O	O	O	O	_	_	_
 Vigier	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Il	O	O	O	O	O	O	_	_	_
 devient	O	O	O	O	O	O	_	_	_
 général	O	O	O	O	O	O	_	_	_
@@ -29845,6 +29899,7 @@ ral	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 division	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Il	O	O	O	O	O	O	_	_	_
 entre	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
@@ -29854,6 +29909,7 @@ rial	O	O	O	O	O	O	_	_	_
 en	B-time	O	B-time.date.abs	O	O	O	NIL	_	_
 1806	I-time	O	I-time.date.abs	O	O	O	NIL	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 A	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 Restauration	B-time	O	B-time.date.abs	O	O	O	NIL	_	NoSpaceAfter
@@ -29875,6 +29931,7 @@ rois	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 France	B-loc	O	B-loc.adm.nat	O	O	O	Q142	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Il	O	O	O	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
 créé	O	O	O	O	O	O	_	_	_
@@ -29899,6 +29956,7 @@ d	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 honneur	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Son	O	O	O	O	O	O	_	_	_
 nom	O	O	O	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
@@ -29915,6 +29973,7 @@ Triomphe	I-loc	O	I-loc.fac	O	O	O	Q64436	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
 »	O	O	O	O	O	O	_	_	EndOfLine
 ooo	O	O	O	O	O	O	_	_	EndOfLine
+
 Passant	O	O	O	O	O	O	_	_	_
 ensuite	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
@@ -29970,6 +30029,7 @@ Saint	B-loc	O	B-loc.adm.town	O	O	O	Q68986	_	NoSpaceAfter
 Moritz	I-loc	O	I-loc.adm.town	O	O	O	Q68986	_	NoSpaceAfter
 )	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Ses	O	O	O	O	O	O	_	_	_
 édifices	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
@@ -30005,6 +30065,7 @@ tas	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 construction	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Ce	O	O	O	O	O	O	_	_	_
 ne	O	O	O	O	O	O	_	_	_
 sont	O	O	O	O	O	O	_	_	_
@@ -30051,6 +30112,7 @@ coiffé	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 neige	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Les	O	O	O	O	O	O	_	_	_
 mai	O	O	O	O	O	O	_	_	EndOfLine
 ^	O	O	O	O	O	O	_	_	_
@@ -30065,6 +30127,7 @@ grandes	O	O	O	O	O	O	_	_	NoSpaceAfter
 richement	O	O	O	O	O	O	_	_	_
 décorées	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Une	O	O	O	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -30100,6 +30163,7 @@ en	O	O	O	O	O	O	_	_	_
 pierre	O	O	O	O	O	O	_	_	_
 sculptée	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 C	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 est	O	O	O	O	O	O	_	_	_
@@ -30637,6 +30701,7 @@ révélation	O	O	O	O	O	O	_	_	_
 pour	O	O	O	O	O	O	_	_	_
 chacun	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 La	O	O	O	O	O	O	_	_	_
 séance	O	O	O	O	O	O	_	_	_
 plénière	O	O	O	O	O	O	_	_	_
@@ -30708,6 +30773,7 @@ année	O	O	O	O	O	O	_	_	NoSpaceAfter
 à	O	O	O	O	O	O	_	_	_
 Zurich	B-loc	O	B-loc.adm.town	O	O	O	Q72	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 De	O	O	O	O	O	O	_	_	_
 fréquentes	O	O	O	O	O	O	_	_	_
 plaintes	O	O	O	O	O	O	_	_	_
@@ -30809,6 +30875,7 @@ d	O	O	O	O	O	O	_	_	NoSpaceAfter
 intéressantes	O	O	O	O	O	O	_	_	EndOfLine
 discussions	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Le	O	O	O	O	O	O	_	_	_
 budget	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -30874,6 +30941,7 @@ d	O	O	O	O	O	O	_	_	NoSpaceAfter
 opportunes	O	O	O	O	O	O	_	_	EndOfLine
 considérations	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 La	O	O	O	O	O	O	_	_	_
 conférence	O	O	O	O	O	O	_	_	_
 entend	O	O	O	O	O	O	_	_	_
@@ -30979,6 +31047,7 @@ G	I-pers	O	I-pers.ind	O	I-comp.function	I-org.ent	NIL	_	NoSpaceAfter
 .	I-pers	O	I-pers.ind	O	I-comp.function	I-org.ent	NIL	_	NoSpaceAfter
 )	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Le	O	O	O	O	O	O	_	_	_
 président	O	O	O	O	O	O	_	_	_
 renseigne	O	O	O	O	O	O	_	_	_
@@ -31007,6 +31076,7 @@ ses	O	O	O	O	O	O	_	_	_
 divers	O	O	O	O	O	O	_	_	_
 services	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 En	O	O	O	O	O	O	_	_	EndOfLine
 attendant	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
@@ -31092,6 +31162,7 @@ suisse	O	O	O	O	O	O	_	_	EndOfLine
 des	O	O	O	O	O	O	_	_	_
 électriciens	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 L	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 an	O	O	O	O	O	O	_	_	_
@@ -31113,6 +31184,7 @@ de	O	O	O	O	O	O	_	_	_
 sa	O	O	O	O	O	O	_	_	_
 fondation	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Après	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 banquet	O	O	O	O	O	O	_	_	_
@@ -35196,6 +35268,7 @@ et	O	O	O	O	O	O	_	_	_
 musicale	O	O	O	O	O	O	_	_	_
 >	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Ayant	O	O	O	O	O	O	_	_	_
 choisi	O	O	O	O	O	O	_	_	NoSpaceAfter
 ,	O	O	O	O	O	O	_	_	_
@@ -35356,6 +35429,7 @@ présida	O	O	O	O	O	O	_	_	EndOfLine
 les	O	O	O	O	O	O	_	_	_
 débats	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 LE	O	O	O	O	O	O	_	_	_
 CONCERT	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
@@ -35434,6 +35508,7 @@ l	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 OSR	B-org	O	B-org.ent	O	O	O	Q176392	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Nous	O	O	O	O	O	O	_	_	EndOfLine
 connaissions	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -35570,6 +35645,7 @@ d	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 éloges	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 En	O	O	O	O	O	O	_	_	_
 choisissant	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	NoSpaceAfter
@@ -35624,6 +35700,7 @@ toute	O	O	O	O	O	O	_	_	_
 sa	O	O	O	O	O	O	_	_	_
 nudité	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Certes	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
 deux	O	O	O	O	O	O	_	_	_
@@ -35690,6 +35767,7 @@ authentique	O	O	O	O	O	O	_	_	_
 musicien	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 SUTERMEISTER	B-pers	O	B-pers.ind	O	O	O	Q123588	_	_
 ET	O	O	O	O	O	O	_	_	_
 BECK	B-pers	O	B-pers.ind	O	O	O	Q671783	_	EndOfLine
@@ -35742,6 +35820,7 @@ d	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 éclosion	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 En	O	O	O	O	O	O	_	_	_
 revanche	O	O	O	O	O	O	_	_	_
 cet	O	O	O	O	O	O	_	_	_
@@ -35809,6 +35888,7 @@ Concerto	O	O	O	O	O	O	_	_	EndOfLine
 pour	O	O	O	O	O	O	_	_	_
 piano	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	_
+
 Le	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 mouvement	O	O	O	O	O	O	_	_	_
@@ -35868,6 +35948,7 @@ de	O	O	O	O	O	O	_	_	_
 aon	O	O	O	O	O	O	_	_	_
 oeuvre	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Adrian	B-pers	O	B-pers.ind	O	B-comp.name	O	Q372293	_	_
 Aeschbacher	I-pers	O	I-pers.ind	O	I-comp.name	O	Q372293	_	NoSpaceAfter
 ,	I-pers	O	I-pers.ind	O	O	O	Q372293	_	_
@@ -35947,6 +36028,7 @@ samedi	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 dimanche	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Conrad	B-pers	O	B-pers.ind	O	O	O	Q671783	_	_
 Beck	I-pers	O	I-pers.ind	O	O	O	Q671783	_	_
 a	O	O	O	O	O	O	_	_	_
@@ -35982,6 +36064,7 @@ l	O	O	O	O	O	O	_	_	NoSpaceAfter
 '	O	O	O	O	O	O	_	_	NoSpaceAfter
 auditeur	O	O	O	O	O	O	_	_	NoSpaceAfter
 .	O	O	O	O	O	O	_	_	EndOfLine
+
 Profondément	O	O	O	O	O	O	_	_	_
 austère	O	O	O	O	O	O	_	_	_
 dans	O	O	O	O	O	O	_	_	_
