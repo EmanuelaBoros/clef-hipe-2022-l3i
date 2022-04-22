@@ -8,14 +8,26 @@ from sentence_transformers import SentenceTransformer
 import time
 import argparse
 
-ST_MODEL = 'paraphrase-multilingual-MiniLM-L12-v2'
+# model is in ["minilm", "mpnet"]
+modele = "minilm"
+MODEL = {
+    "minilm": {
+        "name": "paraphrase-multilingual-MiniLM-L12-v2",
+        "dim": 384
+    },
+    "mpnet": {
+        "name": "paraphrase-multilingual-mpnet-base-v2",
+        "dim": 768
+    }
+}
+
 ES = "http://localhost:9200"
 HEADERS = {"content-type": "application/json;charset=UTF-8"}
 LAN = "fr"
-INDEX_NAME = "wiki_v1"
+INDEX_NAME = "wk5m_corpus"
 
-print(f"Loading Sentence transformer {ST_MODEL}...")
-embedder = SentenceTransformer(ST_MODEL)
+print(f"Loading Sentence transformer {MODEL[modele]}...")
+embedder = SentenceTransformer(MODEL[modele])
 print("Sentence transformer loaded !")
 
 
@@ -38,17 +50,20 @@ def parse_arguments():
     parser.add_argument("-l", "--lan",
                         default=LAN,
                         type=str)
+    parser.add_argument("-m", "--modele",
+                        default="minilm",
+                        type=str)
 
     return parser.parse_args()
 
 
-def search_batch(queries, lan, k):
+def search_batch(queries, lan, model, k):
     vectors = vectorize_batch(queries).tolist()
     responses = []
     print("Searching batch")
     s_t = time.time()
     for i, sentence in tqdm(enumerate(queries)):
-        responses.append(search_sentence(vectors[i], lan, k))
+        responses.append(search_sentence(vectors[i], lan, model, k))
     e_t = time.time()
     print(f"**TIME search batch: {e_t - s_t} [s]")
 
@@ -64,9 +79,9 @@ def vectorize_batch(sentences):
     return vectors
 
 
-def search_sentence(vector, lan, k=10):
+def search_sentence(vector, lan, model, k=10):
 
-    url = f"{ES}/{lan+INDEX_NAME}/_knn_search"
+    url = f"{ES}/{lan + INDEX_NAME + model}/_knn_search"
 
     query = {
         "knn": {
@@ -76,10 +91,9 @@ def search_sentence(vector, lan, k=10):
             "num_candidates": 100
         },
         "fields": [
-            "text",
-            "paragraph",
-            "title",
-            "url"
+            "entity_id",
+            "entity_text",
+            "entity_text_vector"
         ]
     }
     query_txt = json.dumps(query, ensure_ascii=False) + "\n"
@@ -152,6 +166,7 @@ def write_kb(queries, responses, out_file):
 def main():
     args = parse_arguments()
     lan = args.lan
+    model = args.model
     with open(args.in_file, 'r') as f:
         lines = f.readlines()
 
@@ -161,7 +176,7 @@ def main():
     k = 10
     for i, queries in tqdm(enumerate(batch_iter(sentences, batch_size))):
         print(f"{i*batch_size}/{len(sentences)}")
-        queries, responses = search_batch(queries, lan, k)
+        queries, responses = search_batch(queries, lan, model, k)
         write_kb(queries, responses, out_file)
 
 
