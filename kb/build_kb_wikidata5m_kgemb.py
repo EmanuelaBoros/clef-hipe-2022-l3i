@@ -4,30 +4,17 @@ import time
 from tqdm import tqdm
 import requests
 import argparse
-from sentence_transformers import SentenceTransformer
-
+import pickle
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--lan", default="en", type=str)
-parser.add_argument("--model", default="minilm", type=str)
 args = parser.parse_args()
-
-MODEL = {
-    "minilm": {
-        "name": "paraphrase-multilingual-MiniLM-L12-v2",
-        "dim": 384
-    },
-    "mpnet": {
-        "name": "paraphrase-multilingual-mpnet-base-v2",
-        "dim": 768
-    }
-}
 
 LAN = args.lan
 ES = "http://localhost:9200"
-INDEX_NAME = f"{LAN}wk5m_corpus{args.model}"
+INDEX_NAME = f"{LAN}wk5m_kgemb"
 HEADERS = {'Accept': 'application/json', 'Content-type': 'application/json'}
-WIKIDATA5M_CORPUS = "./graphvite_data/wikidata5m_text.txt"
+WIKIDATA5M_MODEL = "./graphvite_data/rotate_wikidata5m.pkl"
 
 
 analyzer = 'standard'
@@ -39,32 +26,29 @@ CONFIG = {
     },
     "mappings": {
         "properties": {
-            "entity_id": {"type": "text", "index": False},
-            "entity_text": {"type": "text", "index": False},
-            "entity_text_vector": {"type": "dense_vector",
-                                   "dims": MODEL[args.model]["dim"],
+            "entity_id": {"type": "text", "analyzer": analyzer, "search_analyzer": search_analyzer},
+            "entity_vector": {"type": "dense_vector",
+                                   "dims": 512,
                                    "index": True,
                                    "similarity": "cosine"
-                                   }
+                              }
         }
     }
 }
 
-embedder = SentenceTransformer(MODEL[args.model]["name"])
-
 
 def batch_iter(size=10000) -> Iterable[List[Dict]]:
     batch = list()
-    with open(WIKIDATA5M_CORPUS, mode="r") as file:
-        for i, line in enumerate(file):
-            entity_id = line.split("\t")[0]
-            entity_text = "".join(line.split("\t")[1:])
-            entity_vector = embedder.encode([entity_text])
+    with open(WIKIDATA5M_MODEL, mode="rb") as file:
+        model = pickle.load(file)
+        id2entity = model.graph.id2entity
+        for i, entity_embeddings in enumerate(model.solver.entity_embeddings):
+            entity_id = id2entity[i]
+            entity_vector = entity_embeddings
             batch.append('{"index":{}}')
             batch.append(json.dumps(
                 {'entity_id': entity_id,
-                 "entity_text": entity_text,
-                 'entity_text_vector': entity_vector[0].tolist()
+                 'entity_vector': entity_vector.tolist()
                  },
                 ensure_ascii=False
             ))
@@ -77,12 +61,13 @@ def batch_iter(size=10000) -> Iterable[List[Dict]]:
 
 def add_copus():
 
-    """
+
     res = requests.put(f"{ES}/{INDEX_NAME}", json=CONFIG, headers=HEADERS)
     if res.status_code != 200:
         print(json.dumps(res.json(), indent=2))
         raise RuntimeError("failed to create index mapping!")
-    """
+
+
     def add_batch(batch: List):
         content = "\n".join(batch) + "\n"
         res = requests.post(url, data=content.encode("utf-8"), headers=HEADERS)
