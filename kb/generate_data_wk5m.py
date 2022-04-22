@@ -23,11 +23,11 @@ MODEL = {
 
 ES = "http://localhost:9200"
 HEADERS = {"content-type": "application/json;charset=UTF-8"}
-LAN = "fr"
+LAN = "en"
 INDEX_NAME = "wk5m_corpus"
 
 print(f"Loading Sentence transformer {MODEL[modele]}...")
-embedder = SentenceTransformer(MODEL[modele])
+embedder = SentenceTransformer(MODEL[modele]["name"])
 print("Sentence transformer loaded !")
 
 
@@ -46,7 +46,7 @@ def parse_arguments():
                         dest="in_file",
                         help="""Path to tsv file.""",
                         type=str,
-                        default="/home/cgonzale/clef-hipe-2022-l3i/KB-NER/kb/datasets/hipe2020/fr/HIPE-2022-v2.1-hipe2020-dev-fr.tsv")
+                        default="/home/cgonzale/clef-hipe-2022-l3i/KB-NER/kb/datasets/hipe2020/en/HIPE-2022-v2.1-hipe2020-dev-en.tsv")
     parser.add_argument("-l", "--lan",
                         default=LAN,
                         type=str)
@@ -85,7 +85,7 @@ def search_sentence(vector, lan, model, k=10):
 
     query = {
         "knn": {
-            "field": "text_vector",
+            "field": "entity_text_vector",
             "query_vector": vector,
             "k": k,
             "num_candidates": 100
@@ -153,26 +153,22 @@ def write_kb(queries, responses, out_file):
             for hit in responses[i]['hits']['hits']:
                 score = hit['_score']
                 fields = hit['fields']
-                title = fields['title'][0]
-                text = fields['text'][0]
-                url = fields['url'][0]
-                paragraph = fields['paragraph'][0]
-                paragraph = parse_paragraph(paragraph)
-                register = f"{text}\t{score}\t{title}\t{paragraph}\n"
-                #register = f"{text}\t{paragraph}\t{title}\t{score}\t{url}\n"
+                entity_id = fields['entity_id'][0]
+                entity_text = fields['entity_text'][0]
+                register = f"{entity_id}\t{score}\t{entity_text}\n"
                 f.write(register)
 
 
 def main():
     args = parse_arguments()
     lan = args.lan
-    model = args.model
+    model = args.modele
     with open(args.in_file, 'r') as f:
         lines = f.readlines()
 
     out_file = args.in_file.replace(".tsv", ".kb")
     sentences = process_sentences(lines)
-    batch_size = 10
+    batch_size = 25
     k = 10
     for i, queries in tqdm(enumerate(batch_iter(sentences, batch_size))):
         print(f"{i*batch_size}/{len(sentences)}")

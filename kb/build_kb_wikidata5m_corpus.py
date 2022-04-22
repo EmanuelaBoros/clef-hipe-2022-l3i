@@ -39,7 +39,7 @@ CONFIG = {
     },
     "mappings": {
         "properties": {
-            "entity_id": {"type": "text", "index": False},
+            "entity_id": {"type": "text", "index": True},
             "entity_text": {"type": "text", "index": False},
             "entity_text_vector": {"type": "dense_vector",
                                    "dims": MODEL[args.model]["dim"],
