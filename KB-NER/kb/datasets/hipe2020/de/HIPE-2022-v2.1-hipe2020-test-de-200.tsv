@@ -25558,8 +25558,8 @@ Herren	B-pers	O	B-pers.ind	O	B-comp.title	O	Q15431204	_	_
 Fré	I-pers	O	I-pers.ind	O	B-comp.name	O	Q15431204	_	NoSpaceAfter
 ¬	I-pers	O	I-pers.ind	O	I-comp.name	O	Q15431204	_	EndOfLine
 méry	I-pers	O	I-pers.ind	O	I-comp.name	O	Q15431204	_	NoSpaceAfter
-.	O	O	O	O	O	O	_	_
-	_
+.	O	O	O	O	O	O	_	_	_
+
 Bronnert	B-pers	O	B-pers.ind	O	O	O	NIL	_	_
 und	O	O	O	O	O	O	_	_	_
 Thiele	B-pers	O	B-pers.ind	O	O	O	NIL	_	NoSpaceAfter
