@@ -445,7 +445,6 @@ el	O	O	O	O	O	O	O	O	O
 )	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0066.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -1317,7 +1316,6 @@ Teubner	I-pers	O	I-pers.other	O	O	B-pers.other	NIL	O	NoSpaceAfter|LED0.00
 )	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0069.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -1655,7 +1653,6 @@ yxp	O	O	O	O	O	O	O	O	O
 μήτηρ	O	O	O	O	O	O	O	O	O
 γένηται	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0070.xmi
 # hipe2022:license = CC-BY
@@ -2511,7 +2508,6 @@ Wunder	B-pers	O	B-pers.author	O	O	O	Q15438962	O	NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	NoSpaceAfter
 ]	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0074.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -2876,7 +2872,6 @@ quyév	O	O	O	O	O	O	O	O	O
 Schneidewin	B-pers	O	B-pers.author	O	O	O	Q70043	O	NoSpaceAfter|LED0.00
 ]	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0075.xmi
 # hipe2022:license = CC-BY
@@ -3386,7 +3381,6 @@ fragment	B-work	O	B-work.fragm	O	O	O	NIL	O	LED0.00
 )	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0077.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -3589,8 +3583,8 @@ p	B-scope	O	B-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.06
 1183	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|LED0.06
 et	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|LED0.06
 saiv	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.06
-.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence
-|InSecondaryReference|LED0.06
+.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence|InSecondaryReference|LED0.06
+
 282	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 Mpocézraro	O	O	O	O	O	O	O	O	NoSpaceAfter
@@ -3875,7 +3869,6 @@ est	O	O	O	O	O	O	O	O	O
 le	O	O	O	O	O	O	O	O	O
 déve	O	O	O	O	O	O	O	O	NoSpaceAfter
 -	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0078.xmi
 # hipe2022:license = CC-BY
@@ -4182,7 +4175,6 @@ son	O	O	O	O	O	O	O	O	O
 délire	O	O	O	O	O	O	O	O	NoSpaceAfter
 )	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0083.xmi
 # hipe2022:license = CC-BY
@@ -4509,7 +4501,6 @@ Exveyvéuntas	O	O	O	O	O	O	O	O	O
 *	O	O	O	O	O	O	O	O	O
 ἐξῆλθεν	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0085.xmi
 # hipe2022:license = CC-BY
@@ -4861,7 +4852,6 @@ pour	O	O	O	O	O	O	O	O	O
 moi	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 »	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0086.xmi
 # hipe2022:license = CC-BY
@@ -5256,7 +5246,6 @@ mains	O	O	O	O	O	O	O	O	NoSpaceAfter
 φω	O	O	O	O	O	O	O	O	NoSpaceAfter
 -	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0087.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -5500,8 +5489,8 @@ taë	O	O	O	O	O	O	O	O	NoSpaceAfter
 :	O	O	O	O	O	O	O	O	O
 du	O	O	O	O	O	O	O	O	O
 vers	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|LED0.00
-459	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence
-|InPrimaryReference|NoSpaceAfter|LED0.00
+459	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence|InPrimaryReference|NoSpaceAfter|LED0.00
+
 Tel	O	O	O	O	O	O	O	O	O
 est	O	O	O	O	O	O	O	O	O
 aussi	O	O	O	O	O	O	O	O	O
@@ -5569,7 +5558,6 @@ dessu	O	O	O	O	O	O	O	O	NoSpaceAfter
 vers	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|LED0.00
 386	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0090.xmi
 # hipe2022:license = CC-BY
@@ -6119,7 +6107,6 @@ et	O	O	O	O	O	O	O	O	O
 la	O	O	O	O	O	O	O	O	O
 note	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0091.xmi
 # hipe2022:license = CC-BY
@@ -6757,7 +6744,6 @@ d	O	O	O	O	O	O	O	O	NoSpaceAfter
 Athènes	B-loc	O	B-loc	O	O	O	Q1524	O	NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0092.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -7141,7 +7127,6 @@ pages	B-scope	O	B-scope	O	O	O	O	O	InSecondaryReference|LED0.14
 4085	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.14
 .	O	O	O	O	O	O	O	O	NoSpaceAfter
 )	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0093.xmi
 # hipe2022:license = CC-BY
@@ -7576,7 +7561,6 @@ VI	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.14
 εἴη	O	O	O	O	O	O	O	O	NoSpaceAfter
 }	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0094.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -8007,7 +7991,6 @@ vers	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|LED0.00
 .	O	O	O	O	O	O	O	O	NoSpaceAfter
 )	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0095.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -8409,7 +8392,6 @@ Sur	O	O	O	O	O	O	O	O	O
 cette	O	O	O	O	O	O	O	O	O
 accep	O	O	O	O	O	O	O	O	NoSpaceAfter
 -	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0098.xmi
 # hipe2022:license = CC-BY
@@ -8837,7 +8819,6 @@ o	O	O	O	O	O	O	O	O	NoSpaceAfter
 Schneidewin	B-pers	O	B-pers.other	O	O	O	Q70043	O	NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	O
 |	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0099.xmi
 # hipe2022:license = CC-BY
@@ -9291,7 +9272,6 @@ Grenouilles	B-work	O	B-work.primlit	O	O	O	Q815376	O	InPrimaryReference|NoSpaceAf
 ἀρέσκει	O	O	O	O	O	O	O	O	NoSpaceAfter
 ;	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0100.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -9477,7 +9457,6 @@ Scholiaste	O	O	O	O	O	O	O	O	O
 αὐτὴν	O	O	O	O	O	O	O	O	O
 ἀποκλείειν	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0101.xmi
 # hipe2022:license = CC-BY
@@ -9722,7 +9701,6 @@ un	O	O	O	O	O	O	O	O	O
 dernier	O	O	O	O	O	O	O	O	O
 fléau	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0102.xmi
 # hipe2022:license = CC-BY
@@ -10223,7 +10201,6 @@ Lobeck	B-pers	O	B-pers.other	O	O	O	Q84734	O	NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	NoSpaceAfter
 ]	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0103.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -10420,7 +10397,6 @@ xai	O	O	O	O	O	O	O	O	O
 Lobeck	B-pers	O	B-pers.other	O	O	O	Q84734	O	NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	NoSpaceAfter
 ]	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0106.xmi
 # hipe2022:license = CC-BY
@@ -10754,7 +10730,6 @@ regarde	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 τελεῖσθαι	O	O	O	O	O	O	O	O	NoSpaceAfter
 ,	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0107.xmi
 # hipe2022:license = CC-BY
@@ -11263,7 +11238,6 @@ le	O	O	O	O	O	O	O	O	O
 possède	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0108.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -11314,8 +11288,8 @@ Cf	O	O	O	O	O	O	O	O	NoSpaceAfter
 OEd	B-work	O	B-work.primlit	O	O	O	Q148643	O	InPrimaryReference|NoSpaceAfter|LED0.00
 .	I-work	O	I-work.primlit	O	O	O	Q148643	O	InPrimaryReference|LED0.00
 R	I-work	O	I-work.primlit	O	O	O	Q148643	O	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-work	O	I-work.primlit	O	O	O	Q148643	O	EndOfSentence
-|InPrimaryReference|LED0.00
+.	I-work	O	I-work.primlit	O	O	O	Q148643	O	EndOfSentence|InPrimaryReference|LED0.00
+
 «	O	O	O	O	O	O	O	O	InPrimaryReference
 490	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.33
 ,	O	O	O	O	O	O	O	O	O
@@ -11508,7 +11482,6 @@ constructions	O	O	O	O	O	O	O	O	O
 suivantes	O	O	O	O	O	O	O	O	O
 3	O	O	O	O	O	O	O	O	O
 "AyudAfc	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0109.xmi
 # hipe2022:license = CC-BY
@@ -11869,7 +11842,6 @@ Wunder	B-pers	O	B-pers.other	O	O	O	Q15438962	O	NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	NoSpaceAfter
 ]	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0110.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -12152,7 +12124,6 @@ xôdov	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 La	O	O	O	O	O	O	O	O	O
 significae	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0111.xmi
 # hipe2022:license = CC-BY
@@ -12579,7 +12550,6 @@ TEGŸ	O	O	O	O	O	O	O	O	NoSpaceAfter
 βλαστών	O	O	O	O	O	O	O	O	NoSpaceAfter
 ,	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0114.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -12739,7 +12709,6 @@ Agam	B-work	O	B-work.primlit	O	O	O	Q3320792	O	InPrimaryReference|NoSpaceAfter|LE
 μαθεῖϊν	O	O	O	O	O	O	O	O	NoSpaceAfter
 )	O	O	O	O	O	O	O	O	NoSpaceAfter
 -	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0115.xmi
 # hipe2022:license = CC-BY
@@ -13164,7 +13133,6 @@ Alc	B-work	O	B-work.primlit	O	O	O	Q1246408	O	InPrimaryReference|NoSpaceAfter|LED
 897	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	NoSpaceAfter
 ]	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0116.xmi
 # hipe2022:license = CC-BY
@@ -13616,7 +13584,6 @@ Construisez	O	O	O	O	O	O	O	O	O
 )	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0117.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -13837,7 +13804,6 @@ le	O	O	O	O	O	O	O	O	O
 vers	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|LED0.00
 30	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0118.xmi
 # hipe2022:license = CC-BY
@@ -14323,7 +14289,6 @@ TI	B-scope	O	B-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.14
 προγχανδῶ	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0119.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -14722,7 +14687,6 @@ Wunder	B-pers	O	B-pers.other	O	O	O	Q15438962	O	NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	NoSpaceAfter
 ]	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0122.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -15003,7 +14967,6 @@ pertinax	O	O	O	O	O	O	O	O	O
 ϑοδιποίἀοννίε	B-pers	O	B-pers.other	O	O	O	Q70043	O	NoSpaceAfter|LED1.00
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0123.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -15158,7 +15121,6 @@ Ellendt	B-pers	O	B-pers.other	O	O	O	Q18411557	O	NoSpaceAfter|LED0.00
 ,	O	O	O	O	O	O	O	O	InPrimaryReference
 699	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|LED0.00
 :	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0124.xmi
 # hipe2022:license = CC-BY
@@ -15384,7 +15346,6 @@ le	O	O	O	O	O	O	O	O	O
 vers	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|LED0.75
 860	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.75
 ,	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0125.xmi
 # hipe2022:license = CC-BY
@@ -15677,7 +15638,6 @@ préférable	O	O	O	O	O	O	O	O	NoSpaceAfter
 de	O	O	O	O	O	O	O	O	O
 xaxoi	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0126.xmi
 # hipe2022:license = CC-BY
@@ -16127,7 +16087,6 @@ archer	O	O	O	O	O	O	O	O	O
 qui	O	O	O	O	O	O	O	O	O
 acteint	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0129.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -16574,7 +16533,6 @@ I	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.25
 1	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.25
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0130.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -16787,8 +16745,8 @@ XXII	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.00
 ,	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|LED0.00
 361	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|LED0.00
 sqq	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence
-|InPrimaryReference|LED0.00
+.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence|InPrimaryReference|LED0.00
+
 1034	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 ’	O	O	O	O	O	O	O	O	NoSpaceAfter
@@ -16908,7 +16866,6 @@ Agam	B-work	O	B-work.primlit	O	O	O	Q3320792	O	InPrimaryReference|NoSpaceAfter|LE
 Aéxtvoy	O	O	O	O	O	O	O	O	O
 Ἅιδον	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0131.xmi
 # hipe2022:license = CC-BY
@@ -17171,7 +17128,6 @@ vers	O	O	O	O	O	O	O	O	O
 293	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.33
 ,	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0132.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -17391,7 +17347,6 @@ flavam	O	O	O	O	O	O	O	O	NoSpaceAfter
 «	O	O	O	O	O	O	O	O	O
 Die	O	O	O	O	O	O	O	O	NoSpaceAfter
 -	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0133.xmi
 # hipe2022:license = CC-BY
@@ -17821,7 +17776,6 @@ page	B-scope	O	B-scope	O	O	O	O	O	InSecondaryReference|LED0.00
 608	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0136.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -18070,7 +18024,6 @@ XIV	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.00
 λέγειν	O	O	O	O	O	O	O	O	O
 νοσεράν	O	O	O	O	O	O	O	O	NoSpaceAfter
 ;	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0139.xmi
 # hipe2022:license = CC-BY
@@ -18534,7 +18487,6 @@ Cf	O	O	O	O	O	O	O	O	NoSpaceAfter
 ἐλενθέρον	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0140.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -18913,7 +18865,6 @@ esse	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 »	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0141.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -19247,7 +19198,6 @@ Meineke	B-pers	O	B-pers.author	O	O	O	Q77628	O	NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	NoSpaceAfter
 ]	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0143.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -19524,7 +19474,6 @@ une	O	O	O	O	O	O	O	O	O
 lucution	O	O	O	O	O	O	O	O	O
 indivisible	O	O	O	O	O	O	O	O	NoSpaceAfter
 ,	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0144.xmi
 # hipe2022:license = CC-BY
@@ -19908,7 +19857,6 @@ Trach	B-work	O	B-work.primlit	O	O	O	Q945342	O	InPrimaryReference|NoSpaceAfter|LE
 898	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.33
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0146.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -20287,7 +20235,6 @@ dans	O	O	O	O	O	O	O	O	O
 un	O	O	O	O	O	O	O	O	O
 casque	O	O	O	O	O	O	O	O	O
 ;	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0147.xmi
 # hipe2022:license = CC-BY
@@ -20759,7 +20706,6 @@ furieux	I-work	O	I-work.primlit	O	O	O	Q1233835	O	InPrimaryReference|NoSpaceAfter
 διαφθοράν	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0148.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -21064,7 +21010,6 @@ crimen	O	O	O	O	O	O	O	O	O
 contrahere	O	O	O	O	O	O	O	O	NoSpaceAfter
 ,	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0149.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -21358,7 +21303,6 @@ Estienue	I-pers	O	I-pers.author	O	O	O	Q664748	O	NoSpaceAfter|LED0.07
 .	O	O	O	O	O	O	O	O	NoSpaceAfter
 )	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0150.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -21535,7 +21479,6 @@ Achille	O	O	O	O	O	O	O	O	O
 secundus	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 »	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0151.xmi
 # hipe2022:license = CC-BY
@@ -21789,7 +21732,6 @@ est	O	O	O	O	O	O	O	O	NoSpaceAfter
 ,	O	O	O	O	O	O	O	O	O
 se	O	O	O	O	O	O	O	O	NoSpaceAfter
 -	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0155.xmi
 # hipe2022:license = CC-BY
@@ -22061,7 +22003,6 @@ Agamemπον,	B-work	O	B-work.primlit	O	O	O	Q3320792	O	InPrimaryReference|NoSpac
 μένος	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0156.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -22150,7 +22091,6 @@ moderne	O	O	O	O	O	O	O	O	O
 ἢ	O	O	O	O	O	O	O	O	O
 δνσπραγήσει	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0014.xmi
 # hipe2022:license = CC-BY
@@ -22489,7 +22429,6 @@ de	O	O	O	O	O	O	O	O	O
 ces	O	O	O	O	O	O	O	O	O
 sources	O	O	O	O	O	O	O	O	O
 sont	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0017.xmi
 # hipe2022:license = CC-BY
@@ -22977,7 +22916,6 @@ que	O	O	O	O	O	O	O	O	O
 la	O	O	O	O	O	O	O	O	O
 présente	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0018.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -23427,7 +23365,6 @@ ailleurs	O	O	O	O	O	O	O	O	NoSpaceAfter
 ,	O	O	O	O	O	O	O	O	O
 on	O	O	O	O	O	O	O	O	O
 cherche	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0019.xmi
 # hipe2022:license = CC-BY
@@ -23898,7 +23835,6 @@ paru	O	O	O	O	O	O	O	O	O
 recommander	O	O	O	O	O	O	O	O	O
 une	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0021.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -24313,7 +24249,6 @@ l	O	O	O	O	O	O	O	O	NoSpaceAfter
 importance	O	O	O	O	O	O	O	O	O
 de	O	O	O	O	O	O	O	O	O
 cet	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0023.xmi
 # hipe2022:license = CC-BY
@@ -24785,7 +24720,6 @@ un	O	O	O	O	O	O	O	O	O
 passage	O	O	O	O	O	O	O	O	O
 altéré	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0055.xmi
 # hipe2022:license = CC-BY
@@ -25277,7 +25211,6 @@ bas	O	O	O	O	O	O	O	O	NoSpaceAfter
 )	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0057.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -25723,7 +25656,6 @@ Schneidewin	B-pers	O	B-pers.other	O	O	O	Q70043	O	NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	NoSpaceAfter
 ]	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0059.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -26012,7 +25944,6 @@ Muis	O	O	O	O	O	O	O	O	O
 les	O	O	O	O	O	O	O	O	O
 illasions	O	O	O	O	O	O	O	O	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0065.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -26043,8 +25974,8 @@ cupio	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 »	O	O	O	O	O	O	O	O	O
 [	O	O	O	O	O	O	O	O	NoSpaceAfter
-Lobeckl	B-pers	O	B-pers.editor	O	O	O	Q84734	O	EndOfSentence
-|Partial-0:6|LED0.00
+Lobeckl	B-pers	O	B-pers.editor	O	O	O	Q84734	O	EndOfSentence|Partial-0:6|LED0.00
+
 444	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 Ἐπειδὴ	O	O	O	O	O	O	O	O	NoSpaceAfter

@@ -303,7 +303,6 @@ participes	O	_	O	_	_	O	_	_	_
 eus	O	_	O	_	_	O	_	_	_
 esse	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0080.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -775,7 +774,6 @@ fatex	O	_	O	_	_	O	_	_	NoSpaceAfter
 )	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0082.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -1159,7 +1157,6 @@ n	O	_	O	_	_	O	_	_	NoSpaceAfter
 y	O	_	O	_	_	O	_	_	_
 a	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0084.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -1523,7 +1520,6 @@ Roi	I-work	_	I-work.primlit	_	_	O	Q148643	_	InPrimaryReference|NoSpaceAfter|LED0
 ,	O	_	O	_	_	O	_	_	InPrimaryReference
 146	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0088.xmi
 # hipe2022:license = CC-BY
@@ -1897,7 +1893,6 @@ xapi	O	_	O	_	_	O	_	_	_
 τινὲ	O	_	O	_	_	O	_	_	_
 κράτος	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0096.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -2232,7 +2227,6 @@ mots	O	_	O	_	_	O	_	_	_
 couverts	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0104.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -2495,7 +2489,6 @@ XX	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.38
 μισγέμεναι	O	_	O	_	_	O	_	_	NoSpaceAfter
 καχότητι	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0105.xmi
 # hipe2022:license = CC-BY
@@ -2981,8 +2974,8 @@ note	O	_	O	_	_	O	_	_	_
 sur	O	_	O	_	_	O	_	_	_
 le	O	_	O	_	_	O	_	_	_
 vers	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|LED0.00
-616	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence
-|InPrimaryReference|NoSpaceAfter|LED0.00
+616	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence|InPrimaryReference|NoSpaceAfter|LED0.00
+
 764	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Aürèv	O	_	O	_	_	O	_	_	_
@@ -3339,7 +3332,6 @@ XIV	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.25
 ἡμᾶς	O	_	O	_	_	O	_	_	_
 θάλασσα	O	_	O	_	_	O	_	_	_
 ἰ5	O	_	O	_	_	O	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0113.xmi
 # hipe2022:license = CC-BY
@@ -3761,7 +3753,6 @@ agit	O	_	O	_	_	O	_	_	_
 τινά	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0120.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -4017,7 +4008,6 @@ pasδῶρα	O	_	O	_	_	O	_	_	NoSpaceAfter
 ἐπι	O	_	O	_	_	O	_	_	NoSpaceAfter
 -	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0128.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -4244,7 +4234,6 @@ Agamemnon	B-work	_	B-work.primlit	_	_	O	Q3320792	_	InPrimaryReference|NoSpaceAft
 ἰδόντα	O	_	O	_	_	O	_	_	_
 τοῦτον	O	_	O	_	_	O	_	_	_
 τῆς	O	_	O	_	_	O	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0137.xmi
 # hipe2022:license = CC-BY
@@ -4612,7 +4601,6 @@ lec	O	_	O	_	_	O	_	_	NoSpaceAfter
 —	O	_	O	_	_	O	_	_	NoSpaceAfter
 —	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0145.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -4949,7 +4937,6 @@ Hermana	B-pers	_	B-pers.author	_	_	O	Q77616	_	NoSpaceAfter|LED0.14
 ]	O	_	O	_	_	O	_	_	NoSpaceAfter
 '	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0153.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = fr
@@ -5117,7 +5104,6 @@ profiteor	O	_	O	_	_	O	_	_	NoSpaceAfter
 Schneidewin	B-pers	_	B-pers.author	_	_	O	Q70043	_	NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	NoSpaceAfter
 ]	O	_	O	_	_	O	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0062.xmi
 # hipe2022:license = CC-BY
@@ -5497,7 +5483,6 @@ aujourd	O	_	O	_	_	O	_	_	NoSpaceAfter
 ’	O	_	O	_	_	O	_	_	NoSpaceAfter
 hui	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/fr/retokenized/lestragdiesdeso00tourgoog_0063.xmi
 # hipe2022:license = CC-BY
