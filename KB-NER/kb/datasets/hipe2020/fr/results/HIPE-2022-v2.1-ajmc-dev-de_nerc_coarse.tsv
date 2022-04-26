@@ -1,0 +1,25 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ALL	1.0	1.0	1.0				403	0	0
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC	1.0	1.0	1.0				10	0	0
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	OBJECT	1.0	1.0	1.0				4	0	0
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PERS	1.0	1.0	1.0				162	0	0
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	SCOPE	1.0	1.0	1.0				157	0	0
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	WORK	1.0	1.0	1.0				70	0	0
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	ALL	1.0	1.0	1.0				403	0	0
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC	1.0	1.0	1.0				10	0	0
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	OBJECT	1.0	1.0	1.0				4	0	0
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	PERS	1.0	1.0	1.0				162	0	0
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	SCOPE	1.0	1.0	1.0				157	0	0
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	WORK	1.0	1.0	1.0				70	0	0
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL	1.0	1.0	1.0	0.0	0.0	0.0			
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC	1.0	1.0	1.0	0.0	0.0	0.0			
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	OBJECT	1.0	1.0	1.0	0.0	0.0	0.0			
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PERS	1.0	1.0	1.0	0.0	0.0	0.0			
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	SCOPE	1.0	1.0	1.0	0.0	0.0	0.0			
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	WORK	1.0	1.0	1.0	0.0	0.0	0.0			
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ALL	1.0	1.0	1.0	0.0	0.0	0.0			
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC	1.0	1.0	1.0	0.0	0.0	0.0			
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	OBJECT	1.0	1.0	1.0	0.0	0.0	0.0			
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PERS	1.0	1.0	1.0	0.0	0.0	0.0			
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	SCOPE	1.0	1.0	1.0	0.0	0.0	0.0			
+hipe-2022-v2.1-ajmc-dev-de	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	WORK	1.0	1.0	1.0	0.0	0.0	0.0			

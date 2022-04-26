@@ -336,7 +336,6 @@ gedacht	_	_	_	_	_	_	_	_	_
 hat	_	_	_	_	_	_	_	_	NoSpaceAfter
 .	_	_	_	_	_	_	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0022.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -725,7 +724,6 @@ nicht	_	_	_	_	_	_	_	_	_
 Ge	_	_	_	_	_	_	_	_	NoSpaceAfter
 -	_	_	_	_	_	_	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0023.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -1066,7 +1064,6 @@ Fragm	_	_	_	_	_	_	_	_	NoSpaceAfter
 μικρὰ	_	_	_	_	_	_	_	_	_
 τὰ	_	_	_	_	_	_	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0031.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -1327,7 +1324,6 @@ V	_	_	_	_	_	_	_	_	_
 ,	_	_	_	_	_	_	_	_	_
 —	_	_	_	_	_	_	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0039.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -1431,8 +1427,8 @@ iſt	_	_	_	_	_	_	_	_	NoSpaceAfter
 vgl	_	_	_	_	_	_	_	_	NoSpaceAfter
 .	_	_	_	_	_	_	_	_	_
 316	_	_	_	_	_	_	_	_	NoSpaceAfter
-)	_	_	_	_	_	_	_	_	EndOfSentence
-|NoSpaceAfter
+)	_	_	_	_	_	_	_	_	EndOfSentence|NoSpaceAfter
+
 340	_	_	_	_	_	_	_	_	NoSpaceAfter
 .	_	_	_	_	_	_	_	_	_
 ἀμφί	_	_	_	_	_	_	_	_	_
@@ -1686,7 +1682,6 @@ des	_	_	_	_	_	_	_	_	_
 Kommos	_	_	_	_	_	_	_	_	_
 beſteht	_	_	_	_	_	_	_	_	_
 wie	_	_	_	_	_	_	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0047.xmi
 # hipe2022:license = CC-BY
@@ -1959,7 +1954,6 @@ Hom	_	_	_	_	_	_	_	_	NoSpaceAfter
 .	_	_	_	_	_	_	_	_	
 I	_	_	_	_	_	_	_	_	
 437	_	_	_	_	_	_	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0049.xmi
 # hipe2022:license = CC-BY
@@ -2347,7 +2341,6 @@ wie	_	_	_	_	_	_	_	_	_
 ἀπόρῳ	_	_	_	_	_	_	_	_	_
 εἶχον	_	_	_	_	_	_	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0051.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -2652,7 +2645,6 @@ ngebend	_	_	_	_	_	_	_	_	_
 hinzu	_	_	_	_	_	_	_	_	NoSpaceAfter
 .	_	_	_	_	_	_	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0055.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -2773,8 +2765,8 @@ Hom	_	_	_	_	_	_	_	_	NoSpaceAfter
 σὺν	_	_	_	_	_	_	_	_	_
 ἔντεσι	_	_	_	_	_	_	_	_	_
 δαιδαλέοισι	_	_	_	_	_	_	_	_	NoSpaceAfter
-.	_	_	_	_	_	_	_	_	EndOfSentence
-|NoSpaceAfter
+.	_	_	_	_	_	_	_	_	EndOfSentence|NoSpaceAfter
+
 Ἡ	_	_	_	_	_	_	_	_	_
 579	_	_	_	_	_	_	_	_	NoSpaceAfter
 .	_	_	_	_	_	_	_	_	_
@@ -2961,7 +2953,6 @@ niht	_	_	_	_	_	_	_	_	NoSpaceAfter
 Der	_	_	_	_	_	_	_	_	_
 Erregung	_	_	_	_	_	_	_	_	NoSpaceAfter
 ,	_	_	_	_	_	_	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0063.xmi
 # hipe2022:license = CC-BY
@@ -3263,7 +3254,6 @@ Tanzliedes	_	_	_	_	_	_	_	_	_
 iſt	_	_	_	_	_	_	_	_	_
 logaödiſch	_	_	_	_	_	_	_	_	NoSpaceAfter
 :	_	_	_	_	_	_	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0067.xmi
 # hipe2022:license = CC-BY
@@ -3620,7 +3610,6 @@ Moχϑου	_	_	_	_	_	_	_	_	NoSpaceAfter
 παρελθόντος	_	_	_	_	_	_	_	_	_
 λόγος	_	_	_	_	_	_	_	_	NoSpaceAfter
 .	_	_	_	_	_	_	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0075.xmi
 # hipe2022:license = CC-BY
@@ -4059,7 +4048,6 @@ gegenseitig	_	_	_	_	_	_	_	_	_
 entspre	_	_	_	_	_	_	_	_	NoSpaceAfter
 -	_	_	_	_	_	_	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0083.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -4457,7 +4445,6 @@ ianrwv	_	_	_	_	_	_	_	_	NoSpaceAfter
 con	_	_	_	_	_	_	_	_	NoSpaceAfter
 -	_	_	_	_	_	_	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0092.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -4852,7 +4839,6 @@ Ant	_	_	_	_	_	_	_	_	NoSpaceAfter
 468	_	_	_	_	_	_	_	_	NoSpaceAfter
 .	_	_	_	_	_	_	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0108.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -5119,7 +5105,6 @@ von	_	_	_	_	_	_	_	_	_
 Aias	_	_	_	_	_	_	_	_	NoSpaceAfter
 ,	_	_	_	_	_	_	_	_	_
 so	_	_	_	_	_	_	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0116.xmi
 # hipe2022:license = CC-BY

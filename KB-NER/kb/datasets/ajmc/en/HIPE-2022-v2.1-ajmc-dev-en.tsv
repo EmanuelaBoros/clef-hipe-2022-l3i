@@ -53,9 +53,8 @@ on	O	_	O	_	_	O	_	_	_
 thee	O	_	O	_	_	O	_	_	_
 «ἸΟῪ	O	_	O	_	_	O	_	_	_
 mien	O	_	O	_	_	O	_	_	NoSpaceAfter
-.	O	_	O	_	_	O	_	_	EndOfSentence
+.	O	_	O	_	_	O	_	_	EndOfSentence|NoSpaceAfter
 
-|NoSpaceAfter
 The	O	_	O	_	_	O	_	_	_
 middle	O	_	O	_	_	O	_	_	_
 voice	O	_	O	_	_	O	_	_	_
@@ -1244,9 +1243,8 @@ of	O	_	O	_	_	O	_	_	_
 Lesches	B-pers	_	B-pers.author	_	_	O	Q2486846	_	InPrimaryReference|NoSpaceAfter|LED0.00
 ,	O	_	O	_	_	O	_	_	InPrimaryReference
 ibid	B-work	_	B-work.primlit	_	_	O	NIL	_	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-work	_	I-work.primlit	_	_	O	NIL	_	EndOfSentence
+.	I-work	_	I-work.primlit	_	_	O	NIL	_	EndOfSentence|InPrimaryReference|LED0.00
 
-|InPrimaryReference|LED0.00
 ΤῊΣ	O	_	O	_	_	O	_	_	_
 loss	O	_	O	_	_	O	_	_	_
 of	O	_	O	_	_	O	_	_	_
@@ -3918,9 +3916,8 @@ in	O	_	O	_	_	O	_	_	_
 .	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 407	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 foll	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence
+.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence|InPrimaryReference|LED0.00
 
-|InPrimaryReference|LED0.00
 Tis	O	_	O	_	_	O	_	_	_
 ἀναγκαίας	O	_	O	_	_	O	_	_	_
 τύχης	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -6213,9 +6210,8 @@ of	O	_	O	_	_	O	_	_	_
 a	O	_	O	_	_	O	_	_	_
 king	O	_	O	_	_	O	_	_	NoSpaceAfter
 )	O	_	O	_	_	O	_	_	NoSpaceAfter
-.	O	_	O	_	_	O	_	_	EndOfSentence
+.	O	_	O	_	_	O	_	_	EndOfSentence|NoSpaceAfter
 
-|NoSpaceAfter
 —	O	_	O	_	_	O	_	_	_
 ἐπενθύνουτα,	O	_	O	_	_	O	_	_	NoSpaceAfter
 lit	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -6393,9 +6389,8 @@ him	O	_	O	_	_	O	_	_	_
 (	O	_	O	_	_	O	_	_	NoSpaceAfter
 1336	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 )	O	_	O	_	_	O	_	_	NoSpaceAfter
-.	O	_	O	_	_	O	_	_	EndOfSentence
+.	O	_	O	_	_	O	_	_	EndOfSentence|NoSpaceAfter
 
-|NoSpaceAfter
 —	O	_	O	_	_	O	_	_	NoSpaceAfter
 μηδαμῶς	O	_	O	_	_	O	_	_	_
 σ	O	_	O	_	_	O	_	_	_
