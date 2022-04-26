@@ -7,7 +7,7 @@ import requests
 from sentence_transformers import SentenceTransformer
 import time
 import argparse
-
+import utils
 ST_MODEL = 'paraphrase-multilingual-MiniLM-L12-v2'
 ES = "http://localhost:9200"
 HEADERS = {"content-type": "application/json;charset=UTF-8"}
@@ -90,58 +90,6 @@ def search_sentence(vector, lan, k=10):
 
     return response.json()
 
-def process_sentences_base(lines):
-    #for the base format of datasets with "EndOfSentence" indicating the EOS
-    sentences = []
-    sentence = ""
-    for line in lines[1:]:
-        if line[0] == "#" or line[0] == "\n":
-            continue
-        fields = line.split("\t")
-        #print(fields)
-        word = fields[0]
-        ne_c_l = fields[1]
-        ne_f_l = fields[3]
-        ne_n = fields[6]
-        ne_l = fields[7]
-        comment = fields[-1]
-
-        sentence += word
-        if "NoSpaceAfter" not in comment:
-            sentence += " "
-        if "EndOfSentence" in comment:
-            sentence += "\n"
-            sentences.append(sentence)
-            sentence = ""
-
-    return sentences
-
-def process_sentences(lines):
-
-    sentences = []
-    sentence = ""
-    for line in lines[1:]:
-        if line[0] == "#":
-            continue
-        fields = line.split("\t")
-        if len(fields) > 1:
-            word = fields[0]
-            ne_c_l = fields[1]
-            ne_f_l = fields[3]
-            ne_n = fields[6]
-            ne_l = fields[7]
-            comment = fields[-1]
-
-            sentence += word
-            if "NoSpaceAfter" not in comment:
-                sentence += " "
-        elif len(sentence) > 0:
-            sentence += "\n"
-            sentences.append(sentence)
-            sentence = ""
-
-    return sentences
-
 def batch_iter(sentences, size=50):
     batch = list()
     for i, sentence in enumerate(sentences):
@@ -183,7 +131,7 @@ def main():
         lines = f.readlines()
 
     out_file = args.in_file.replace(".tsv", ".kb")
-    sentences = process_sentences(lines)
+    sentences = utils.process_sentences(lines)
     batch_size = 10
     k = 10
     for i, queries in tqdm(enumerate(batch_iter(sentences, batch_size))):
