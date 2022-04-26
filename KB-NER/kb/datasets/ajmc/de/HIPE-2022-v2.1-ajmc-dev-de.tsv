@@ -25,6 +25,7 @@ Richterspruch	O	_	O	_	_	O	_	_	_
 verkündigt	O	_	O	_	_	O	_	_	_
 hatte	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Glaubte	O	_	O	_	_	O	_	_	_
 Aias	B-pers	_	B-pers.myth	_	_	O	Q172725	_	LED0.00
 schon	O	_	O	_	_	O	_	_	_
@@ -64,6 +65,7 @@ grössere	O	_	O	_	_	O	_	_	_
 Raserei	O	_	O	_	_	O	_	_	_
 versetzte	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Die	O	_	O	_	_	O	_	_	_
 dem	O	_	O	_	_	O	_	_	_
 Odysseus	B-pers	_	B-pers.myth	_	_	O	Q47231	_	LED0.00
@@ -86,6 +88,7 @@ zur	O	_	O	_	_	O	_	_	_
 Besinnung	O	_	O	_	_	O	_	_	_
 zurückkehrt	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 238	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 γλῶσσαν	O	_	O	_	_	O	_	_	_
@@ -107,6 +110,7 @@ Phil	B-work	_	B-work.primlit	_	_	O	Q1415903	_	InPrimaryReference|NoSpaceAfter|LE
 ἄκρον	O	_	O	_	_	O	_	_	_
 πόδα	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 240	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -114,6 +118,7 @@ Vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
 zu	O	_	O	_	_	O	_	_	_
 108	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 241	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Sebol	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -137,6 +142,7 @@ R	I-work	_	I-work.primlit	_	_	O	Q148643	_	InPrimaryReference|NoSpaceAfter|LED0.2
 .	I-work	_	I-work.primlit	_	_	O	Q148643	_	InPrimaryReference|LED0.20
 809	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 243	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Tekmessa	B-pers	_	B-pers.myth	_	_	O	Q10796858	_	LED0.00
@@ -154,6 +160,7 @@ der	O	_	O	_	_	O	_	_	_
 Chor	O	_	O	_	_	O	_	_	_
 186	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Im	O	_	O	_	_	O	_	_	_
 0	B-work	_	B-work.primlit	_	_	O	Q148643	_	InPrimaryReference|NoSpaceAfter|LED0.20
 .	I-work	_	I-work.primlit	_	_	O	Q148643	_	InPrimaryReference|LED0.20
@@ -175,6 +182,7 @@ und	O	_	O	_	_	O	_	_	_
 ἂν	O	_	O	_	_	O	_	_	_
 οῶν	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Aesch	B-pers	_	B-pers.author	_	_	O	Q40939	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	I-pers	_	I-pers.author	_	_	O	Q40939	_	InPrimaryReference|LED0.00
 Ag	B-work	_	B-work.primlit	_	_	O	Q3320792	_	InPrimaryReference|NoSpaceAfter|LED0.00
@@ -198,6 +206,7 @@ El	B-work	_	B-work.primlit	_	_	O	Q733444	_	InPrimaryReference|NoSpaceAfter|LED0.
 .	I-work	_	I-work.primlit	_	_	O	Q733444	_	InPrimaryReference|LED0.00
 199	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 246	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Homer	B-pers	_	B-pers.author	_	_	O	Q6691	_	InPrimaryReference|LED0.00
@@ -215,6 +224,7 @@ Od	B-work	_	B-work.primlit	_	_	O	Q35160	_	InPrimaryReference|NoSpaceAfter|LED0.0
 καλυψάμενος	O	_	O	_	_	O	_	_	NoSpaceAfter
 γοάασχεν	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Bei	O	_	O	_	_	O	_	_	_
 grossem	O	_	O	_	_	O	_	_	_
 Leid	O	_	O	_	_	O	_	_	_
@@ -276,6 +286,7 @@ Sat	B-work	_	B-work.primlit	_	_	O	Q1226154	_	InPrimaryReference|NoSpaceAfter|LED
 ,	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 37	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 249	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Jetzt	O	_	O	_	_	O	_	_	_
@@ -320,6 +331,7 @@ zu	O	_	O	_	_	O	_	_	_
 Schiffe	O	_	O	_	_	O	_	_	_
 geht	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Der	O	_	O	_	_	O	_	_	_
 Chor	O	_	O	_	_	O	_	_	_
 konnte	O	_	O	_	_	O	_	_	_
@@ -390,6 +402,7 @@ lange	O	_	O	_	_	O	_	_	_
 feriata	O	_	O	_	_	O	_	_	_
 gestilatur	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Weil	O	_	O	_	_	O	_	_	_
 aber	O	_	O	_	_	O	_	_	_
 dem	O	_	O	_	_	O	_	_	_
@@ -432,6 +445,7 @@ denken	O	_	O	_	_	O	_	_	_
 ist	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
 
+
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0074.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -456,6 +470,7 @@ Begriff	O	_	O	_	_	O	_	_	NoSpaceAfter
 ἀνήρ	O	_	O	_	_	O	_	_	_
 bezogen	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 360	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Die	O	_	O	_	_	O	_	_	_
@@ -464,6 +479,7 @@ Häschrr	O	_	O	_	_	O	_	_	NoSpaceAfter
 ποιμένων	O	_	O	_	_	O	_	_	_
 ἐπαρχέσοντ᾽	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Allein	O	_	O	_	_	O	_	_	_
 der	O	_	O	_	_	O	_	_	_
 Genitiv	O	_	O	_	_	O	_	_	_
@@ -487,6 +503,7 @@ als	O	_	O	_	_	O	_	_	_
 λαῶν	O	_	O	_	_	O	_	_	_
 bezeichnen	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Daher	O	_	O	_	_	O	_	_	_
 habe	O	_	O	_	_	O	_	_	_
 ich	O	_	O	_	_	O	_	_	_
@@ -513,6 +530,7 @@ Hom	B-pers	_	B-pers.author	_	_	O	Q6691	_	NoSpaceAfter|LED0.00
 λυγρὸν	O	_	O	_	_	O	_	_	_
 ὄλεϑρον	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Der	O	_	O	_	_	O	_	_	_
 Chor	O	_	O	_	_	O	_	_	_
 ist	O	_	O	_	_	O	_	_	_
@@ -535,6 +553,7 @@ folgende	O	_	O	_	_	O	_	_	_
 Aufforderung	O	_	O	_	_	O	_	_	_
 angiebt	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 362	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Gewöhnlich	O	_	O	_	_	O	_	_	_
@@ -555,6 +574,7 @@ vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 591	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Das	O	_	O	_	_	O	_	_	_
 von	O	_	O	_	_	O	_	_	_
 schlimmen	O	_	O	_	_	O	_	_	_
@@ -586,6 +606,7 @@ Stobäus	B-pers	_	B-pers.author	_	_	O	Q444079	_	InPrimaryReference|LED0.00
 ἰᾶσϑαι	O	_	O	_	_	O	_	_	_
 καχά	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Herod	B-pers	_	B-pers.author	_	_	O	Q26825	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	I-pers	_	I-pers.author	_	_	O	Q26825	_	InPrimaryReference|LED0.00
 3	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
@@ -598,6 +619,7 @@ Herod	B-pers	_	B-pers.author	_	_	O	Q26825	_	InPrimaryReference|NoSpaceAfter|LED0
 χαχὸν	O	_	O	_	_	O	_	_	NoSpaceAfter
 ἰῶ	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 363	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 τὸ	O	_	O	_	_	O	_	_	_
@@ -619,6 +641,7 @@ Phil	B-work	_	B-work.primlit	_	_	O	Q1415903	_	InPrimaryReference|NoSpaceAfter|LE
 .	I-work	_	I-work.primlit	_	_	O	Q1415903	_	InPrimaryReference|LED0.00
 765	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 366	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Gegen	O	_	O	_	_	O	_	_	_
@@ -652,6 +675,7 @@ vergreilen	O	_	O	_	_	O	_	_	NoSpaceAfter
 ist	O	_	O	_	_	O	_	_	_
 unehrenhaft	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 367	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ὑβρίσϑην	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -682,12 +706,14 @@ dem	O	_	O	_	_	O	_	_	_
 Zelte	O	_	O	_	_	O	_	_	_
 hinausgewiesen	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 374	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 χερί	O	_	O	_	_	O	_	_	_
 gehört	O	_	O	_	_	O	_	_	_
 dem	O	_	O	_	_	O	_	_	_
 Sinne	O	_	O	_	_	O	_	_	EndOfSentence
+
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0082.xmi
 # hipe2022:license = CC-BY
@@ -720,6 +746,7 @@ sprachliche	O	_	O	_	_	O	_	_	_
 Form	O	_	O	_	_	O	_	_	_
 gegeben	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 480	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Die	O	_	O	_	_	O	_	_	_
@@ -742,6 +769,7 @@ El	B-work	_	B-work.primlit	_	_	O	Q733444	_	InPrimaryReference|NoSpaceAfter|LED0.
 .	I-work	_	I-work.primlit	_	_	O	Q733444	_	InPrimaryReference|LED0.00
 73	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 485	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἀναγκαία	O	_	O	_	_	O	_	_	_
@@ -752,6 +780,7 @@ Loos	O	_	O	_	_	O	_	_	_
 der	O	_	O	_	_	O	_	_	_
 Sklaverei	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Hektor	B-pers	_	B-pers.myth	_	_	O	Q159666	_	LED0.00
 wehrt	O	_	O	_	_	O	_	_	_
 1	B-work	_	B-work.primlit	_	_	O	Q8275	_	InPrimaryReference|NoSpaceAfter|LED0.67
@@ -770,6 +799,7 @@ Gegensatze	O	_	O	_	_	O	_	_	_
 zu	O	_	O	_	_	O	_	_	_
 ἐλεύϑερον	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Bei	O	_	O	_	_	O	_	_	_
 dieser	O	_	O	_	_	O	_	_	_
 den	O	_	O	_	_	O	_	_	_
@@ -791,7 +821,9 @@ D	B-work	_	B-work.primlit	_	_	O	Q8275	_	InPrimaryReference|NoSpaceAfter|LED0.67
 ,	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 407	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 ff	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence|InPrimaryReference|LED0.00
+.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence
+
+|InPrimaryReference|LED0.00
 487	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἐγὼ	O	_	O	_	_	O	_	_	_
@@ -807,6 +839,7 @@ Trach	B-work	_	B-work.primlit	_	_	O	Q945342	_	InPrimaryReference|NoSpaceAfter|LE
 .	I-work	_	I-work.primlit	_	_	O	Q945342	_	InPrimaryReference|LED0.00
 252	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 488	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -842,6 +875,7 @@ Genitiv	O	_	O	_	_	O	_	_	_
 Φρυγῶν	O	_	O	_	_	O	_	_	_
 hinzutritt	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 0	B-work	_	B-work.primlit	_	_	O	Q294001	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	I-work	_	I-work.primlit	_	_	O	Q294001	_	InPrimaryReference|LED0.00
 C	I-work	_	I-work.primlit	_	_	O	Q294001	_	InPrimaryReference|NoSpaceAfter|LED0.00
@@ -856,6 +890,7 @@ C	I-work	_	I-work.primlit	_	_	O	Q294001	_	InPrimaryReference|NoSpaceAfter|LED0.0
 ,	O	_	O	_	_	O	_	_	_
 μέγα	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 490	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 καὶ	O	_	O	_	_	O	_	_	_
@@ -881,6 +916,7 @@ Göttern	O	_	O	_	_	O	_	_	_
 verfolgt	O	_	O	_	_	O	_	_	_
 glaubte	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Durch	O	_	O	_	_	O	_	_	_
 μάλιστα	O	_	O	_	_	O	_	_	_
 zeichnet	O	_	O	_	_	O	_	_	_
@@ -892,6 +928,7 @@ den	O	_	O	_	_	O	_	_	_
 Achäern	O	_	O	_	_	O	_	_	NoSpaceAfter
 aus	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Die	O	_	O	_	_	O	_	_	_
 Zusammenstellung	O	_	O	_	_	O	_	_	_
 der	O	_	O	_	_	O	_	_	_
@@ -928,6 +965,7 @@ El	B-work	_	B-work.primlit	_	_	O	Q733444	_	InPrimaryReference|NoSpaceAfter|LED0.
 .	I-work	_	I-work.primlit	_	_	O	Q733444	_	InPrimaryReference|LED0.00
 528	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 491	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 τὸ	O	_	O	_	_	O	_	_	_
@@ -961,7 +999,9 @@ Homerische	O	_	O	_	_	O	_	_	_
 vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Trach	B-work	_	B-work.primlit	_	_	O	Q945342	_	NoSpaceAfter|LED0.00
-.	I-work	_	I-work.primlit	_	_	O	Q945342	_	EndOfSentence|LED0.00
+.	I-work	_	I-work.primlit	_	_	O	Q945342	_	EndOfSentence
+
+|LED0.00
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0091.xmi
 # hipe2022:license = CC-BY
@@ -1002,6 +1042,7 @@ Schol	O	_	O	_	_	O	_	_	NoSpaceAfter
 μήλων	O	_	O	_	_	O	_	_	_
 ἄν	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 αἰὲν	O	_	O	_	_	O	_	_	_
 εὖγνώμᾳ	O	_	O	_	_	O	_	_	NoSpaceAfter
 (	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -1020,6 +1061,7 @@ A	I-object	_	I-object.manuscr	_	_	O	_	_	LED0.00
 χθόνῳ	O	_	O	_	_	O	_	_	_
 τρυχόμενος	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Nach	O	_	O	_	_	O	_	_	_
 dem	O	_	O	_	_	O	_	_	_
 Homerischen	O	_	O	_	_	O	_	_	_
@@ -1054,6 +1096,7 @@ daher	O	_	O	_	_	O	_	_	_
 cum	O	_	O	_	_	O	_	_	_
 accus	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Dann	O	_	O	_	_	O	_	_	_
 verb	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
@@ -1092,6 +1135,7 @@ R	I-work	_	I-work.primlit	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.20
 .	I-work	_	I-work.primlit	_	_	O	_	_	InSecondaryReference|LED0.20
 119	B-scope	_	B-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.33
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Statt	O	_	O	_	_	O	_	_	_
 der	O	_	O	_	_	O	_	_	_
 Vulg	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -1136,6 +1180,7 @@ wie	O	_	O	_	_	O	_	_	_
 .	I-work	_	I-work.primlit	_	_	O	_	_	InSecondaryReference|LED0.40
 1606	B-scope	_	B-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.50
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Endlich	O	_	O	_	_	O	_	_	_
 dürfte	O	_	O	_	_	O	_	_	_
 nach	O	_	O	_	_	O	_	_	_
@@ -1170,6 +1215,7 @@ f	O	_	O	_	_	O	_	_	NoSpaceAfter
 τεγγόμενος	O	_	O	_	_	O	_	_	_
 κόμας	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Aesch	B-pers	_	B-pers.author	_	_	O	Q40939	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	I-pers	_	I-pers.author	_	_	O	Q40939	_	InPrimaryReference|LED0.00
 gan	B-work	_	B-work.primlit	_	_	O	Q3320792	_	InPrimaryReference|NoSpaceAfter|LED0.40
@@ -1190,6 +1236,7 @@ Ke	O	_	O	_	_	O	_	_	_
 πρὸς	O	_	O	_	_	O	_	_	_
 τείχεσιν	O	_	O	_	_	O	_	_	_
 -	O	_	O	_	_	O	_	_	EndOfSentence
+
 BE	O	_	O	_	_	O	_	_	_
 οὐρανοῦ	O	_	O	_	_	O	_	_	_
 δὲ	O	_	O	_	_	O	_	_	_
@@ -1209,6 +1256,7 @@ E	O	_	O	_	_	O	_	_	NoSpaceAfter
 ἔνϑηρον	O	_	O	_	_	O	_	_	_
 τρίχα	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 (	O	_	O	_	_	O	_	_	NoSpaceAfter
 Hermann	B-pers	_	B-pers.editor	_	_	O	Q77616	_	NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	_
@@ -1238,6 +1286,7 @@ Herm	B-pers	_	B-pers.editor	_	_	O	Q77616	_	NoSpaceAfter|LED0.00
 μηνῶν	O	_	O	_	_	O	_	_	_
 ἄν	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Er	O	_	O	_	_	O	_	_	_
 vergleicht	O	_	O	_	_	O	_	_	NoSpaceAfter
 Rhianos	B-pers	_	B-pers.author	_	_	O	NIL	_	LED0.00
@@ -1260,6 +1309,7 @@ TE	O	_	O	_	_	O	_	_	_
 πάσας	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	NoSpaceAfter
 )	O	_	O	_	_	O	_	_	EndOfSentence
+
 606	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Schol	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -1276,6 +1326,7 @@ Schol	O	_	O	_	_	O	_	_	NoSpaceAfter
 πολέμῳ	O	_	O	_	_	O	_	_	_
 ἐλπίζων	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Mit	O	_	O	_	_	O	_	_	_
 ἀνύσειν	O	_	O	_	_	O	_	_	NoSpaceAfter
 vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -1290,6 +1341,7 @@ Ant	B-work	_	B-work.primlit	_	_	O	Q241077	_	InPrimaryReference|NoSpaceAfter|LED0
 .	I-work	_	I-work.primlit	_	_	O	Q241077	_	InPrimaryReference|LED0.00
 808	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.33
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 Die	O	_	O	_	_	O	_	_	_
 ungewöhnliche	O	_	O	_	_	O	_	_	_
@@ -1348,6 +1400,7 @@ unsichtbare	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	_
 dunkle	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 BeideWörter	O	_	O	_	_	O	_	_	NoSpaceAfter
 gleichen	O	_	O	_	_	O	_	_	_
 Stammes	O	_	O	_	_	O	_	_	_
@@ -1375,6 +1428,7 @@ R	I-work	_	I-work.primlit	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.00
 .	I-work	_	I-work.primlit	_	_	O	_	_	InSecondaryReference|LED0.00
 70	B-scope	_	B-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 609f	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Zu	O	_	O	_	_	O	_	_	_
@@ -1413,6 +1467,7 @@ Wahnsinn	O	_	O	_	_	O	_	_	NoSpaceAfter
 verfallen	O	_	O	_	_	O	_	_	_
 ist	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 611	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ξύναυλος	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -1422,6 +1477,7 @@ ist	O	_	O	_	_	O	_	_	NoSpaceAfter
 συνὦν,	O	_	O	_	_	O	_	_	NoSpaceAfter
 συζυγείς	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 ϑείᾳ	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	_
@@ -1434,6 +1490,7 @@ Bela	O	_	O	_	_	O	_	_	_
 νόσος	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ς	O	_	O	_	_	O	_	_	EndOfSentence
+
 612	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἐξεπέμθψψω	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -1487,6 +1544,7 @@ C	I-work	_	I-work.primlit	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.20
 1549	B-scope	_	B-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
 
+
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0123.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -1522,6 +1580,7 @@ Vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 1315	B-scope	_	B-scope	_	_	O	_	_	NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Die	O	_	O	_	_	O	_	_	_
 Wendung	O	_	O	_	_	O	_	_	_
 vße	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -1530,6 +1589,7 @@ vße	O	_	O	_	_	O	_	_	NoSpaceAfter
 wegen	O	_	O	_	_	O	_	_	_
 1088	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1094	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ὃς	O	_	O	_	_	O	_	_	_
@@ -1548,6 +1608,7 @@ Trach	B-work	_	B-work.primlit	_	_	O	Q945342	_	InPrimaryReference|NoSpaceAfter|LE
 61	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 ἀγέννητοι	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1096	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἔπη	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -1570,6 +1631,7 @@ irrige	O	_	O	_	_	O	_	_	_
 Anwendung	O	_	O	_	_	O	_	_	_
 machte	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Mit	O	_	O	_	_	O	_	_	_
 ἅμ	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
@@ -1584,13 +1646,16 @@ Ant	B-work	_	B-work.primlit	_	_	O	Q241077	_	InPrimaryReference|NoSpaceAfter|LED0
 .	I-work	_	I-work.primlit	_	_	O	Q241077	_	InPrimaryReference|LED0.00
 743	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1097	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 1052	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 ff	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence|InPrimaryReference|LED0.00
+.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence
+
+|InPrimaryReference|LED0.00
 1100	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ποῦ	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -1625,7 +1690,9 @@ Phil	B-work	_	B-work.primlit	_	_	O	Q1415903	_	InPrimaryReference|NoSpaceAfter|LE
 .	I-work	_	I-work.primlit	_	_	O	Q148643	_	InPrimaryReference|LED0.20
 R	I-work	_	I-work.primlit	_	_	O	Q148643	_	InPrimaryReference|NoSpaceAfter|LED0.20
 .	I-work	_	I-work.primlit	_	_	O	Q148643	_	InPrimaryReference|LED0.20
-390	B-scope	_	B-scope	_	_	O	_	_	EndOfSentence|InPrimaryReference|NoSpaceAfter|LED0.00
+390	B-scope	_	B-scope	_	_	O	_	_	EndOfSentence
+
+|InPrimaryReference|NoSpaceAfter|LED0.00
 1104	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἀρχῆς	O	_	O	_	_	O	_	_	_
@@ -1643,6 +1710,7 @@ Recht	O	_	O	_	_	O	_	_	_
 des	O	_	O	_	_	O	_	_	_
 Gebietens	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1105	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ὅλων	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -1666,6 +1734,7 @@ u	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἃ	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Vielleicht	O	_	O	_	_	O	_	_	_
 sind	O	_	O	_	_	O	_	_	_
 1105	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
@@ -1704,6 +1773,7 @@ C	I-work	_	I-work.primlit	_	_	O	Q294001	_	InPrimaryReference|NoSpaceAfter|LED0.2
 .	I-work	_	I-work.primlit	_	_	O	Q294001	_	InPrimaryReference|LED0.20
 839	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 Statt	O	_	O	_	_	O	_	_	_
 des	O	_	O	_	_	O	_	_	_
@@ -1761,12 +1831,14 @@ Phil	B-work	_	B-work.primlit	_	_	O	Q1415903	_	InPrimaryReference|NoSpaceAfter|LE
 .	I-work	_	I-work.primlit	_	_	O	Q1415903	_	InPrimaryReference|LED0.00
 66	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1109	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἅτερος	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	_
 Agamemnon	B-pers	_	B-pers.myth	_	_	O	Q128176	_	NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0140.xmi
 # hipe2022:license = CC-BY
@@ -1795,6 +1867,7 @@ Spruch	O	_	O	_	_	O	_	_	_
 1345	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 zurück	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1353	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ,	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -1822,6 +1895,7 @@ Herrscherwürde.‘“	O	_	O	_	_	O	_	_	NoSpaceAfter
 ἥσσων	O	_	O	_	_	O	_	_	_
 ὧν	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1357	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 νιχᾷ	O	_	O	_	_	O	_	_	_
@@ -1837,6 +1911,7 @@ Herrscherwürde.‘“	O	_	O	_	_	O	_	_	NoSpaceAfter
 ἀρετή	O	_	O	_	_	O	_	_	_
 ἔστιν	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 -	O	_	O	_	_	O	_	_	NoSpaceAfter
 -	O	_	O	_	_	O	_	_	NoSpaceAfter
 -	O	_	O	_	_	O	_	_	_
@@ -1875,6 +1950,7 @@ Phil	B-work	_	B-work.primlit	_	_	O	Q1415903	_	InPrimaryReference|NoSpaceAfter|LE
 .	I-work	_	I-work.primlit	_	_	O	Q1415903	_	InPrimaryReference|LED0.00
 1100	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1358	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 τοιοίδε	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -1903,6 +1979,7 @@ Leuten	O	_	O	_	_	O	_	_	_
 für	O	_	O	_	_	O	_	_	_
 unzuverlässig	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Agamemnon	B-pers	_	B-pers.myth	_	_	O	Q128176	_	LED0.00
 macht	O	_	O	_	_	O	_	_	_
 dem	O	_	O	_	_	O	_	_	_
@@ -1923,6 +2000,7 @@ Aias	B-pers	_	B-pers.myth	_	_	O	Q172725	_	LED0.00
 gestanden	O	_	O	_	_	O	_	_	_
 habe	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 (	O	_	O	_	_	O	_	_	NoSpaceAfter
 Laur	B-object	_	B-object.manuscr	_	_	O	_	_	NoSpaceAfter|LED0.00
 .	I-object	_	I-object.manuscr	_	_	O	_	_	LED0.00
@@ -1953,6 +2031,7 @@ u	O	_	O	_	_	O	_	_	NoSpaceAfter
 ä	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	NoSpaceAfter
 )	O	_	O	_	_	O	_	_	EndOfSentence
+
 1359	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Odysseus	B-pers	_	B-pers.myth	_	_	O	Q47231	_	NoSpaceAfter|LED0.00
@@ -1980,6 +2059,7 @@ unangenehm	O	_	O	_	_	O	_	_	NoSpaceAfter
 werden	O	_	O	_	_	O	_	_	_
 könne	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 678	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|LED0.00
@@ -2006,6 +2086,7 @@ besten	O	_	O	_	_	O	_	_	_
 Freund	O	_	O	_	_	O	_	_	_
 genannt	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/sophokle1v3soph_0017.xmi
 # hipe2022:license = CC-BY
@@ -2034,6 +2115,7 @@ stolz	O	_	O	_	_	O	_	_	_
 verbessernd	O	_	O	_	_	O	_	_	_
 ausruft	O	_	O	_	_	O	_	_	NoSpaceAfter
 :	O	_	O	_	_	O	_	_	EndOfSentence
+
 ἠὲ	O	_	O	_	_	O	_	_	_
 καὶ	O	_	O	_	_	O	_	_	_
 aupadinv	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -2072,6 +2154,7 @@ aupadinv	O	_	O	_	_	O	_	_	NoSpaceAfter
 τραφέμεν	O	_	O	_	_	O	_	_	_
 τε	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Man	O	_	O	_	_	O	_	_	_
 vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
@@ -2095,6 +2178,7 @@ dafür	O	_	O	_	_	O	_	_	_
 Bovyatog	O	_	O	_	_	O	_	_	_
 schilt	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Den	O	_	O	_	_	O	_	_	_
 ungemessenen	O	_	O	_	_	O	_	_	NoSpaceAfter
 Heldenstolz	O	_	O	_	_	O	_	_	_
@@ -2112,7 +2196,9 @@ Aias	B-work	_	B-work.primlit	_	_	O	Q412341	_	NoSpaceAfter|LED0.00
 zu	O	_	O	_	_	O	_	_	_
 423	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 f	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence|InPrimaryReference|LED0.00
+.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence
+
+|InPrimaryReference|LED0.00
 Er	O	_	O	_	_	O	_	_	_
 selbst	O	_	O	_	_	O	_	_	_
 hält	O	_	O	_	_	O	_	_	_
@@ -2138,6 +2224,7 @@ vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	InPrimaryReference
 1415	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Darin	O	_	O	_	_	O	_	_	_
 hatten	O	_	O	_	_	O	_	_	_
 die	O	_	O	_	_	O	_	_	_
@@ -2177,6 +2264,7 @@ angewiesenen	O	_	O	_	_	O	_	_	NoSpaceAfter
 Schranken	O	_	O	_	_	O	_	_	_
 veranschaulichten	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Wenn	O	_	O	_	_	O	_	_	_
 nun	O	_	O	_	_	O	_	_	_
 die	O	_	O	_	_	O	_	_	_
@@ -2217,6 +2305,7 @@ Ai	B-work	_	B-work.primlit	_	_	O	Q412341	_	InPrimaryReference|NoSpaceAfter|LED0.
 .	I-work	_	I-work.primlit	_	_	O	Q412341	_	InPrimaryReference|LED0.00
 777	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Nach	O	_	O	_	_	O	_	_	_
 Sophokles	B-pers	_	B-pers.author	_	_	O	Q11950683	_	LED0.00
 hatte	O	_	O	_	_	O	_	_	_
@@ -2275,7 +2364,9 @@ Ai	B-work	_	B-work.primlit	_	_	O	Q412341	_	InPrimaryReference|NoSpaceAfter|LED0.
 .	I-work	_	I-work.primlit	_	_	O	Q412341	_	InPrimaryReference|LED0.00
 760	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 ff	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence|InPrimaryReference|LED0.00
+.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence
+
+|InPrimaryReference|LED0.00
 Als	O	_	O	_	_	O	_	_	_
 nun	O	_	O	_	_	O	_	_	_
 nach	O	_	O	_	_	O	_	_	_
@@ -2337,6 +2428,7 @@ freien	O	_	O	_	_	O	_	_	_
 wagen	O	_	O	_	_	O	_	_	_
 durfte	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Aber	O	_	O	_	_	O	_	_	_
 gerade	O	_	O	_	_	O	_	_	_
 da	O	_	O	_	_	O	_	_	_
@@ -2369,6 +2461,7 @@ zu	O	_	O	_	_	O	_	_	_
 Theil	O	_	O	_	_	O	_	_	_
 wird	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 2	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Sehen	O	_	O	_	_	O	_	_	_
@@ -2406,6 +2499,7 @@ vorgefunden	O	_	O	_	_	O	_	_	_
 habe	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
 
+
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0054.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -2433,6 +2527,7 @@ p	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 Lobeck	B-pers	_	B-pers.editor	_	_	O	Q84734	_	InPrimaryReference|NoSpaceAfter|LED0.00
 )	O	_	O	_	_	O	_	_	InPrimaryReference|NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 559	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 γαρμονήν	O	_	O	_	_	O	_	_	_
@@ -2468,6 +2563,7 @@ Hom	B-pers	_	B-pers.author	_	_	O	Q6691	_	InPrimaryReference|NoSpaceAfter|LED0.00
 φρένα	O	_	O	_	_	O	_	_	_
 μήτηρ	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 560	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 οὐ	O	_	O	_	_	O	_	_	_
@@ -2476,6 +2572,7 @@ Hom	B-pers	_	B-pers.author	_	_	O	Q6691	_	InPrimaryReference|NoSpaceAfter|LED0.00
 zu	O	_	O	_	_	O	_	_	_
 83	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 ϑαυμαστῶς	O	_	O	_	_	O	_	_	_
 πρὸς	O	_	O	_	_	O	_	_	_
@@ -2496,6 +2593,7 @@ zu	O	_	O	_	_	O	_	_	_
 ποιητοῦ	O	_	O	_	_	O	_	_	_
 κτὲ	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	EndOfSentence
+
 So	O	_	O	_	_	O	_	_	_
 bezieht	O	_	O	_	_	O	_	_	_
 ſich	O	_	O	_	_	O	_	_	_
@@ -2504,7 +2602,9 @@ auch	O	_	O	_	_	O	_	_	_
 auf	O	_	O	_	_	O	_	_	_
 506	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 ff	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence|InPrimaryReference|LED0.00
+.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence
+
+|InPrimaryReference|LED0.00
 Dieſe	O	_	O	_	_	O	_	_	_
 indirekte	O	_	O	_	_	O	_	_	_
 Widerlegung	O	_	O	_	_	O	_	_	_
@@ -2513,6 +2613,7 @@ charakteriſtiſch	O	_	O	_	_	O	_	_	_
 für	O	_	O	_	_	O	_	_	_
 Aias	B-pers	_	B-pers.myth	_	_	O	Q172725	_	NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 563	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 τροφῆς	O	_	O	_	_	O	_	_	_
@@ -2541,12 +2642,14 @@ II	B-scope	_	B-scope	_	_	O	_	_	InSecondaryReference|LED0.07
 ,	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|LED0.07
 9	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.07
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 ἔμπα	O	_	O	_	_	O	_	_	_
 wie	O	_	O	_	_	O	_	_	_
 ἔμπας	O	_	O	_	_	O	_	_	_
 122	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 566	O	_	O	_	_	O	_	_	_
 f	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
@@ -2577,6 +2680,7 @@ Meldung	O	_	O	_	_	O	_	_	_
 zu	O	_	O	_	_	O	_	_	_
 ſetzen	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 ἐντολή	O	_	O	_	_	O	_	_	_
 bezeichnet	O	_	O	_	_	O	_	_	_
@@ -2585,6 +2689,7 @@ den	O	_	O	_	_	O	_	_	_
 Auftrag	O	_	O	_	_	O	_	_	_
 Sterbender	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Gern	O	_	O	_	_	O	_	_	_
 wird	O	_	O	_	_	O	_	_	_
 davon	O	_	O	_	_	O	_	_	_
@@ -2600,6 +2705,7 @@ $	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|LED0.14
 und	O	_	O	_	_	O	_	_	InPrimaryReference
 92	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 ἐντολήν	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	_
@@ -2628,6 +2734,7 @@ direkten	O	_	O	_	_	O	_	_	_
 entſprechend	O	_	O	_	_	O	_	_	NoSpaceAfter
 )	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 568	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -2665,6 +2772,7 @@ Zl	B-work	_	B-work.primlit	_	_	O	Q8275	_	InPrimaryReference|NoSpaceAfter|LED0.33
 μέγα	O	_	O	_	_	O	_	_	_
 δῶμα	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 569	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 λέγω	O	_	O	_	_	O	_	_	_
@@ -2699,6 +2807,7 @@ $	B-scope	_	B-scope	_	_	O	_	_	InSecondaryReference|LED0.14
 ,	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|LED0.14
 3	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.14
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Eriboia	B-pers	_	B-pers.myth	_	_	O	Q1295435	_	LED0.00
 war	O	_	O	_	_	O	_	_	_
 die	O	_	O	_	_	O	_	_	_
@@ -2714,6 +2823,7 @@ IV	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 72	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 )	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 570	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Die	O	_	O	_	_	O	_	_	_
@@ -2728,6 +2838,7 @@ der	O	_	O	_	_	O	_	_	_
 Enkel	O	_	O	_	_	O	_	_	_
 übernehmen	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 571	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Der	O	_	O	_	_	O	_	_	_
@@ -2778,6 +2889,7 @@ niht	O	_	O	_	_	O	_	_	_
 vor	O	_	O	_	_	O	_	_	NoSpaceAfter
 )	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 572	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 καὶ	O	_	O	_	_	O	_	_	_
@@ -2788,9 +2900,11 @@ vor	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ϑήσουσι	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 ἀγωνάρχαι	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	EndOfSentence
+
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0062.xmi
 # hipe2022:license = CC-BY
@@ -2834,6 +2948,7 @@ et	O	_	O	_	_	O	_	_	_
 dona	O	_	O	_	_	O	_	_	_
 ferentis	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 666	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 τοιγὰρ	O	_	O	_	_	O	_	_	_
@@ -2868,6 +2983,7 @@ gebrochen	O	_	O	_	_	O	_	_	_
 werden	O	_	O	_	_	O	_	_	_
 muß	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 τὸ	O	_	O	_	_	O	_	_	_
 λοιπόν	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -2879,6 +2995,7 @@ Aias	B-pers	_	B-pers.myth	_	_	O	Q172725	_	LED0.00
 nicht	O	_	O	_	_	O	_	_	_
 gibt	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 668	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 τί	O	_	O	_	_	O	_	_	_
@@ -2899,6 +3016,7 @@ u	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ὃ	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 670	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 τιμαῖς	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -2922,6 +3040,7 @@ und	O	_	O	_	_	O	_	_	_
 Rang	O	_	O	_	_	O	_	_	_
 hat	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 τοῦτο	O	_	O	_	_	O	_	_	_
 μέν	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -2935,6 +3054,7 @@ ein	O	_	O	_	_	O	_	_	_
 einfaches	O	_	O	_	_	O	_	_	_
 δέ	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 νιφοστιβεῖς	O	_	O	_	_	O	_	_	_
 :	O	_	O	_	_	O	_	_	_
@@ -2967,6 +3087,7 @@ Vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
 zu	O	_	O	_	_	O	_	_	_
 144	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 672f	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἐξίσταται	O	_	O	_	_	O	_	_	_
@@ -3003,7 +3124,9 @@ Kr	B-pers	_	B-pers.author	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.00
 ,	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|LED0.15
 2	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.15
 ,	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|LED0.15
-20	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence|InSecondaryReference|NoSpaceAfter|LED0.15
+20	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence
+
+|InSecondaryReference|NoSpaceAfter|LED0.15
 —	O	_	O	_	_	O	_	_	_
 κύκλος	O	_	O	_	_	O	_	_	_
 αἰανὴς	O	_	O	_	_	O	_	_	_
@@ -3023,6 +3146,7 @@ Perſ	B-work	_	B-work.primlit	_	_	O	Q788458	_	InPrimaryReference|NoSpaceAfter|LE
 νυκτὸς	O	_	O	_	_	O	_	_	_
 ὄμμα	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 λευκόπωλος	O	_	O	_	_	O	_	_	_
 ἡμέρα	O	_	O	_	_	O	_	_	_
@@ -3049,6 +3173,7 @@ Hom	B-pers	_	B-pers.author	_	_	O	Q6691	_	InPrimaryReference|NoSpaceAfter|LED0.00
 πῶλοι	O	_	O	_	_	O	_	_	_
 ἄγουσιν	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 674	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Für	O	_	O	_	_	O	_	_	_
@@ -3098,6 +3223,7 @@ ponere	O	_	O	_	_	O	_	_	_
 vult	O	_	O	_	_	O	_	_	_
 freta	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 675	O	_	O	_	_	O	_	_	_
 f	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
@@ -3113,6 +3239,7 @@ a	O	_	O	_	_	O	_	_	NoSpaceAfter
 ἐκλύει	O	_	O	_	_	O	_	_	_
 πεδῶν	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 678	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 λέγω	O	_	O	_	_	O	_	_	_
@@ -3152,6 +3279,7 @@ Ag	B-work	_	B-work.primlit	_	_	O	Q3320792	_	InPrimaryReference|NoSpaceAfter|LED0
 ἐξεπίσταμαι	O	_	O	_	_	O	_	_	_
 xré	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 679	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Ein	O	_	O	_	_	O	_	_	_
@@ -3183,6 +3311,7 @@ beſtimmte	O	_	O	_	_	O	_	_	_
 ein	O	_	O	_	_	O	_	_	_
 Geſetz	O	_	O	_	_	O	_	_	EndOfSentence
 
+
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0096.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -3201,6 +3330,7 @@ hin	O	_	O	_	_	O	_	_	_
 fahrend	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	NoSpaceAfter
 “	O	_	O	_	_	O	_	_	EndOfSentence
+
 1221f	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Wenn	O	_	O	_	_	O	_	_	_
@@ -3220,6 +3350,7 @@ er	O	_	O	_	_	O	_	_	_
 zuhauſe	O	_	O	_	_	O	_	_	_
 fühlen	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Auch	O	_	O	_	_	O	_	_	_
 wußte	O	_	O	_	_	O	_	_	_
 er	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -3245,6 +3376,7 @@ aus	O	_	O	_	_	O	_	_	_
 ſichtbar	O	_	O	_	_	O	_	_	_
 iſt	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Die	O	_	O	_	_	O	_	_	_
 Angabe	O	_	O	_	_	O	_	_	_
 des	O	_	O	_	_	O	_	_	_
@@ -3294,6 +3426,7 @@ der	O	_	O	_	_	O	_	_	_
 Fahrt	O	_	O	_	_	O	_	_	_
 denkt	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 προσείποιμεν	O	_	O	_	_	O	_	_	_
 (	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -3341,6 +3474,7 @@ socii	O	_	O	_	_	O	_	_	_
 clamore	O	_	O	_	_	O	_	_	_
 salutant	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1223	O	_	O	_	_	O	_	_	_
 ff	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
@@ -3358,6 +3492,7 @@ Teukros	B-pers	_	B-pers.myth	_	_	O	Q878184	_	LED0.00
 und	O	_	O	_	_	O	_	_	_
 Agamemnon	B-pers	_	B-pers.myth	_	_	O	Q128176	_	NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 2	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Schlichtung	O	_	O	_	_	O	_	_	_
@@ -3366,12 +3501,14 @@ Streites	O	_	O	_	_	O	_	_	_
 durch	O	_	O	_	_	O	_	_	_
 Odyſſeus	B-pers	_	B-pers.myth	_	_	O	Q47231	_	NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 3	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Anordnung	O	_	O	_	_	O	_	_	_
 des	O	_	O	_	_	O	_	_	_
 Begräbniſſes	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1225	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 στόμα	O	_	O	_	_	O	_	_	_
@@ -3382,6 +3519,7 @@ nah	O	_	O	_	_	O	_	_	_
 κλϑοα	O	_	O	_	_	O	_	_	_
 λύειν	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 σκαιὸν	O	_	O	_	_	O	_	_	_
 wie	O	_	O	_	_	O	_	_	_
@@ -3390,6 +3528,7 @@ de	O	_	O	_	_	O	_	_	_
 male	O	_	O	_	_	O	_	_	_
 ominato	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1226	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Agamemnon	B-pers	_	B-pers.myth	_	_	O	Q128176	_	LED0.00
@@ -3400,6 +3539,7 @@ begleitet	O	_	O	_	_	O	_	_	_
 von	O	_	O	_	_	O	_	_	_
 δοουφόροι	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1227	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ὧδ᾽	O	_	O	_	_	O	_	_	_
@@ -3417,6 +3557,7 @@ ganz	O	_	O	_	_	O	_	_	_
 zu	O	_	O	_	_	O	_	_	_
 bleiben	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 χανεῖν	O	_	O	_	_	O	_	_	_
 gehäſſig	O	_	O	_	_	O	_	_	_
@@ -3442,6 +3583,7 @@ est	O	_	O	_	_	O	_	_	_
 captivum	O	_	O	_	_	O	_	_	_
 hiscere	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1230	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἐπ	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -3453,12 +3595,14 @@ hiscere	O	_	O	_	_	O	_	_	NoSpaceAfter
 Zehen	O	_	O	_	_	O	_	_	NoSpaceAfter
 )	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1231	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ὅτε	O	_	O	_	_	O	_	_	NoSpaceAfter
 :	O	_	O	_	_	O	_	_	_
 1095	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 τοῦ	O	_	O	_	_	O	_	_	_
 μηδέν	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -3482,6 +3626,7 @@ Vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
 μηδὲν	O	_	O	_	_	O	_	_	_
 ὄντας	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Kr	B-pers	_	B-pers.author	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.00
 .	I-pers	_	I-pers.author	_	_	O	_	_	InSecondaryReference|LED0.00
 Il	B-scope	_	B-scope	_	_	O	_	_	InSecondaryReference|LED0.15
@@ -3500,6 +3645,7 @@ abſtrakten	O	_	O	_	_	O	_	_	NoSpaceAfter
 reinen	O	_	O	_	_	O	_	_	_
 Nichts	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 1234	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 An	O	_	O	_	_	O	_	_	_
@@ -3508,6 +3654,7 @@ Stelle	O	_	O	_	_	O	_	_	_
 des	O	_	O	_	_	O	_	_	_
 von	O	_	O	_	_	O	_	_	_
 ὅτε	O	_	O	_	_	O	_	_	EndOfSentence
+
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0006.xmi
 # hipe2022:license = CC-BY
@@ -3576,6 +3723,7 @@ der	O	_	O	_	_	O	_	_	_
 größten	O	_	O	_	_	O	_	_	_
 Bedrängnis	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Da	O	_	O	_	_	O	_	_	_
 nun	O	_	O	_	_	O	_	_	_
 nach	O	_	O	_	_	O	_	_	_
@@ -3601,6 +3749,7 @@ Ehrenpreiſes	O	_	O	_	_	O	_	_	NoSpaceAfter
 für	O	_	O	_	_	O	_	_	_
 würdig	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Aber	O	_	O	_	_	O	_	_	_
 Odyſjeus	B-pers	_	B-pers.myth	_	_	O	Q47231	_	LED0.12
 tritt	O	_	O	_	_	O	_	_	_
@@ -3652,6 +3801,7 @@ ff	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 1135	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 )	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Tief	O	_	O	_	_	O	_	_	_
 gekränkt	O	_	O	_	_	O	_	_	_
 durch	O	_	O	_	_	O	_	_	_
@@ -3694,6 +3844,7 @@ er	O	_	O	_	_	O	_	_	_
 nächtlicherweile	O	_	O	_	_	O	_	_	_
 aufmacht	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Da	O	_	O	_	_	O	_	_	_
 tritt	O	_	O	_	_	O	_	_	_
 die	O	_	O	_	_	O	_	_	_
@@ -3751,6 +3902,7 @@ jein	O	_	O	_	_	O	_	_	_
 Zelt	O	_	O	_	_	O	_	_	_
 ſchleift	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Sofort	O	_	O	_	_	O	_	_	_
 verbreitet	O	_	O	_	_	O	_	_	_
 ſich	O	_	O	_	_	O	_	_	_
@@ -3781,6 +3933,7 @@ iſt	O	_	O	_	_	O	_	_	_
 als	O	_	O	_	_	O	_	_	NoSpaceAfter
 -	O	_	O	_	_	O	_	_	EndOfSentence
 
+
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0030.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = de
@@ -3801,6 +3954,7 @@ als	O	_	O	_	_	O	_	_	NoSpaceAfter
 490	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 ff	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 200	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἕστηκε	O	_	O	_	_	O	_	_	_
@@ -3809,6 +3963,7 @@ eines	O	_	O	_	_	O	_	_	_
 proſaiſchen	O	_	O	_	_	O	_	_	_
 ἐστί	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 201	O	_	O	_	_	O	_	_	NoSpaceAfter
 -	O	_	O	_	_	O	_	_	NoSpaceAfter
 -	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -3854,6 +4009,7 @@ der	O	_	O	_	_	O	_	_	_
 Handlung	O	_	O	_	_	O	_	_	_
 gibt	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Die	O	_	O	_	_	O	_	_	_
 Handlung	O	_	O	_	_	O	_	_	_
 ſelbſt	O	_	O	_	_	O	_	_	_
@@ -3897,6 +4053,7 @@ f	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 entwickelt	O	_	O	_	_	O	_	_	_
 wird	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Die	O	_	O	_	_	O	_	_	_
 erſte	O	_	O	_	_	O	_	_	_
 Scene	O	_	O	_	_	O	_	_	_
@@ -3929,6 +4086,7 @@ und	O	_	O	_	_	O	_	_	_
 )	O	_	O	_	_	O	_	_	_
 an	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 Das	O	_	O	_	_	O	_	_	_
 Auftreten	O	_	O	_	_	O	_	_	_
@@ -3940,6 +4098,7 @@ wird	O	_	O	_	_	O	_	_	_
 beſonders	O	_	O	_	_	O	_	_	_
 motiviert	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 201	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἀοωγοί	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -3952,6 +4111,7 @@ dem	O	_	O	_	_	O	_	_	_
 Schiffe	O	_	O	_	_	O	_	_	_
 beſtimmt	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 202	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 γενεᾶς	O	_	O	_	_	O	_	_	_
@@ -3978,6 +4138,7 @@ Ant	B-work	_	B-work.primlit	_	_	O	Q241077	_	InPrimaryReference|NoSpaceAfter|LED0
 ’	O	_	O	_	_	O	_	_	_
 Οἰδίπου	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Der	O	_	O	_	_	O	_	_	_
 erdgeborne	O	_	O	_	_	O	_	_	_
 Erechtheus	B-pers	_	B-pers.myth	_	_	O	Q301219	_	LED0.00
@@ -4005,6 +4166,7 @@ Athener	O	_	O	_	_	O	_	_	NoSpaceAfter
 ſtolz	O	_	O	_	_	O	_	_	_
 waren	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Der	O	_	O	_	_	O	_	_	_
 Dichter	O	_	O	_	_	O	_	_	_
 läßt	O	_	O	_	_	O	_	_	_
@@ -4033,6 +4195,7 @@ Vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 861	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 204	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 „	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -4046,6 +4209,7 @@ der	O	_	O	_	_	O	_	_	_
 Ferne	O	_	O	_	_	O	_	_	NoSpaceAfter
 “	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 205	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ὠμοκρατὴς	O	_	O	_	_	O	_	_	_
@@ -4065,6 +4229,7 @@ Weſen	O	_	O	_	_	O	_	_	_
 des	O	_	O	_	_	O	_	_	_
 Helden	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 206	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ϑολερῷ	O	_	O	_	_	O	_	_	_
@@ -4117,6 +4282,7 @@ Prom	B-work	_	B-work.primlit	_	_	O	Q846870	_	InPrimaryReference|NoSpaceAfter|LED
 κύμασιν	O	_	O	_	_	O	_	_	_
 ἄτης	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Die	O	_	O	_	_	O	_	_	_
 Erregung	O	_	O	_	_	O	_	_	_
 des	O	_	O	_	_	O	_	_	_
@@ -4130,6 +4296,7 @@ erregten	O	_	O	_	_	O	_	_	_
 Meere	O	_	O	_	_	O	_	_	_
 verglichen	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 208	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 τῆς	O	_	O	_	_	O	_	_	_
@@ -4156,6 +4323,7 @@ am	O	_	O	_	_	O	_	_	_
 —	O	_	O	_	_	O	_	_	_
 vorhergehenden	O	_	O	_	_	O	_	_	_
 —	O	_	O	_	_	O	_	_	EndOfSentence
+
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0038.xmi
 # hipe2022:license = CC-BY
@@ -4232,6 +4400,7 @@ wie	O	_	O	_	_	O	_	_	_
 ἄφωνος	O	_	O	_	_	O	_	_	_
 ἀρᾶς	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Dieſe	O	_	O	_	_	O	_	_	_
 Ausdrucksweiſe	O	_	O	_	_	O	_	_	_
 entſpricht	O	_	O	_	_	O	_	_	_
@@ -4263,6 +4432,7 @@ intellegendum	O	_	O	_	_	O	_	_	_
 Hermann	B-pers	_	B-pers.author	_	_	O	Q77616	_	NoSpaceAfter|LED0.00
 )	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Indes	O	_	O	_	_	O	_	_	_
 fragt	O	_	O	_	_	O	_	_	_
 es	O	_	O	_	_	O	_	_	_
@@ -4280,6 +4450,7 @@ nachträglich	O	_	O	_	_	O	_	_	_
 zugeſetzt	O	_	O	_	_	O	_	_	_
 ſind	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Denn	O	_	O	_	_	O	_	_	_
 nach	O	_	O	_	_	O	_	_	_
 dieſen	O	_	O	_	_	O	_	_	_
@@ -4294,6 +4465,7 @@ früheren	O	_	O	_	_	O	_	_	_
 Zeit	O	_	O	_	_	O	_	_	_
 bezeichnen	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 323	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Über	O	_	O	_	_	O	_	_	_
@@ -4316,6 +4488,7 @@ II	B-scope	_	B-scope	_	_	O	_	_	InSecondaryReference|LED0.08
 ,	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|LED0.08
 1	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.08
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 324	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἄσιτος	O	_	O	_	_	O	_	_	_
@@ -4339,6 +4512,7 @@ zeir	O	_	O	_	_	O	_	_	NoSpaceAfter
 788	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 )	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 325	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ϑακεῖ	O	_	O	_	_	O	_	_	_
@@ -4358,6 +4532,7 @@ zu	O	_	O	_	_	O	_	_	_
 er	O	_	O	_	_	O	_	_	_
 da	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 So	O	_	O	_	_	O	_	_	_
 erſcheint	O	_	O	_	_	O	_	_	_
 nachher	O	_	O	_	_	O	_	_	_
@@ -4376,6 +4551,7 @@ des	O	_	O	_	_	O	_	_	_
 Selbſtmordes	O	_	O	_	_	O	_	_	_
 ausgeſprochen	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Über	O	_	O	_	_	O	_	_	_
 δῆλός	O	_	O	_	_	O	_	_	_
 ἐστιν	O	_	O	_	_	O	_	_	_
@@ -4395,6 +4571,7 @@ $	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|LED0.15
 ,	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|LED0.15
 4	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.15
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 273	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Der	O	_	O	_	_	O	_	_	_
@@ -4418,6 +4595,7 @@ gemacht	O	_	O	_	_	O	_	_	_
 zu	O	_	O	_	_	O	_	_	_
 ſein	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 εἰσελϑόντες	O	_	O	_	_	O	_	_	_
 :	O	_	O	_	_	O	_	_	_
 ebenſo	O	_	O	_	_	O	_	_	_
@@ -4447,6 +4625,7 @@ Ekkyklem	O	_	O	_	_	O	_	_	_
 ſichtbar	O	_	O	_	_	O	_	_	_
 wird	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 332	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἡμῖν	O	_	O	_	_	O	_	_	_
@@ -4458,6 +4637,7 @@ eth	O	_	O	_	_	O	_	_	NoSpaceAfter
 wie	O	_	O	_	_	O	_	_	_
 216	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 διαπεφοιβάσϑαι	O	_	O	_	_	O	_	_	NoSpaceAfter
 :	O	_	O	_	_	O	_	_	_
@@ -4482,6 +4662,7 @@ Bezeihnung	O	_	O	_	_	O	_	_	_
 für	O	_	O	_	_	O	_	_	_
 ἐκμεμηνέναι	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 333	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Man	O	_	O	_	_	O	_	_	_
@@ -4496,6 +4677,7 @@ Innern	O	_	O	_	_	O	_	_	_
 des	O	_	O	_	_	O	_	_	_
 Zeltes	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Ebenſo	O	_	O	_	_	O	_	_	_
 ertönen	O	_	O	_	_	O	_	_	_
 Eur	B-pers	_	B-pers.author	_	_	O	Q48305	_	InPrimaryReference|NoSpaceAfter|LED0.00
@@ -4521,6 +4703,7 @@ ihrem	O	_	O	_	_	O	_	_	_
 Auftreten	O	_	O	_	_	O	_	_	_
 erkennen	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 334	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 μᾶλλον	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -4528,6 +4711,7 @@ erkennen	O	_	O	_	_	O	_	_	NoSpaceAfter
 λέξω	O	_	O	_	_	O	_	_	_
 δεινά	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 
 # hipe2022:original_source = data/preparation/corpus/de/retokenized/Wecklein1894_0046.xmi
 # hipe2022:license = CC-BY
@@ -4563,6 +4747,7 @@ iſt	O	_	O	_	_	O	_	_	_
 ἄτιμον	O	_	O	_	_	O	_	_	_
 προκείμενον	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	EndOfSentence
+
 4801	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 τίς	O	_	O	_	_	O	_	_	_
@@ -4593,6 +4778,7 @@ et	O	_	O	_	_	O	_	_	_
 omen	O	_	O	_	_	O	_	_	_
 iſt	O	_	O	_	_	O	_	_	NoSpaceAfter
 ?	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 ἐπώνυμον	O	_	O	_	_	O	_	_	_
 wie	O	_	O	_	_	O	_	_	_
@@ -4612,6 +4798,7 @@ Fragm	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 δυσμενεῖς	O	_	O	_	_	O	_	_	_
 ἐμοί	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	EndOfSentence
+
 Denn	O	_	O	_	_	O	_	_	_
 τοῖς	O	_	O	_	_	O	_	_	_
 ἐμοῖς	O	_	O	_	_	O	_	_	_
@@ -4622,6 +4809,7 @@ Beziehung	O	_	O	_	_	O	_	_	_
 zu	O	_	O	_	_	O	_	_	_
 ἐτώνυμον	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Da	O	_	O	_	_	O	_	_	_
 ἐπώνυμος	O	_	O	_	_	O	_	_	_
 bedeutet	O	_	O	_	_	O	_	_	_
@@ -4676,6 +4864,7 @@ ou	O	_	O	_	_	O	_	_	NoSpaceAfter
 τ᾽	O	_	O	_	_	O	_	_	_
 ἐπώνυμον	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 -	O	_	O	_	_	O	_	_	NoSpaceAfter
 -	O	_	O	_	_	O	_	_	NoSpaceAfter
 -	O	_	O	_	_	O	_	_	_
@@ -4716,6 +4905,7 @@ von	O	_	O	_	_	O	_	_	_
 συμφέροι	O	_	O	_	_	O	_	_	_
 tritt	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 432f	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 Aias	B-pers	_	B-pers.myth	_	_	O	Q172725	_	LED0.00
@@ -4737,11 +4927,13 @@ unterſchiebend	O	_	O	_	_	O	_	_	_
 xai	O	_	O	_	_	O	_	_	_
 τρίς	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 —	O	_	O	_	_	O	_	_	_
 ἐντυγχάνω	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	_
 πεοιπίπτω	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 434	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ὅτου	O	_	O	_	_	O	_	_	_
@@ -4768,6 +4960,7 @@ I	B-scope	_	B-scope	_	_	O	_	_	InSecondaryReference|LED0.08
 ,	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|LED0.08
 2	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.08
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Das	O	_	O	_	_	O	_	_	_
 κακόν	O	_	O	_	_	O	_	_	_
 liegt	O	_	O	_	_	O	_	_	_
@@ -4783,6 +4976,7 @@ Parataxis	O	_	O	_	_	O	_	_	_
 gegeben	O	_	O	_	_	O	_	_	_
 wird	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 435	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 καλλιστεῖα	O	_	O	_	_	O	_	_	_
@@ -4810,6 +5004,7 @@ Vgl	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 1300	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Telamon	B-pers	_	B-pers.myth	_	_	O	Q331327	_	LED0.00
 zog	O	_	O	_	_	O	_	_	_
 mit	O	_	O	_	_	O	_	_	_
@@ -4837,6 +5032,7 @@ II	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 ,	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|LED0.00
 4	I-scope	_	I-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 )	O	_	O	_	_	O	_	_	EndOfSentence
+
 437	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἐγὼ	O	_	O	_	_	O	_	_	_
@@ -4848,6 +5044,7 @@ Konſtruktion	O	_	O	_	_	O	_	_	_
 wird	O	_	O	_	_	O	_	_	_
 verlaſſen	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 Ebenſo	O	_	O	_	_	O	_	_	_
 458	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 ,	O	_	O	_	_	O	_	_	InPrimaryReference
@@ -4873,6 +5070,7 @@ Ku	B-pers	_	B-pers.author	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.00
 8	B-scope	_	B-scope	_	_	O	_	_	InSecondaryReference|LED0.20
 211	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.20
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 438	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 τόπον	O	_	O	_	_	O	_	_	_
@@ -4893,6 +5091,7 @@ Tyr	I-work	_	I-work.primlit	_	_	O	Q148643	_	InPrimaryReference|NoSpaceAfter|LED0
 Κιϑαιρῶνος	O	_	O	_	_	O	_	_	_
 τόπον	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
+
 439	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 ἀο	O	_	O	_	_	O	_	_	NoSpaceAfter
@@ -4910,3 +5109,5 @@ infolge	O	_	O	_	_	O	_	_	_
 des	O	_	O	_	_	O	_	_	_
 erweiterten	O	_	O	_	_	O	_	_	_
 Gebrauchs	O	_	O	_	_	O	_	_	EndOfSentence
+
+

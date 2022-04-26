@@ -22,6 +22,7 @@ TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NEST
 (	O	_	_	_	_	_	_	_	NoSpaceAfter
 LATF	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 DtiliANT	O	_	_	_	_	_	_	_	
 t	O	_	_	_	_	_	_	_	
 COI	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -29,8 +30,10 @@ COI	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 TIMER	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 DEAL	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 AND	O	_	_	_	_	_	_	_	
 SLATE	O	_	_	_	_	_	_	_	
 INVITES	O	_	_	_	_	_	_	_	
@@ -77,6 +80,7 @@ considerably	O	_	_	_	_	_	_	_
 REDUCED	O	_	_	_	_	_	_	_	
 PRICES	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 HERALD	O	_	_	_	_	_	_	_	
 OFFICE	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -164,6 +168,7 @@ AND	O	_	_	_	_	_	_	_
 BOOKSELLING	O	_	_	_	_	_	_	_	
 DEPARTMENT	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 And	O	_	_	_	_	_	_	_	
 trust	O	_	_	_	_	_	_	_	
 by	O	_	_	_	_	_	_	_	
@@ -181,6 +186,7 @@ of	O	_	_	_	_	_	_	_
 public	O	_	_	_	_	_	_	_	
 support	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 T	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
@@ -206,6 +212,7 @@ STATIONERY	O	_	_	_	_	_	_	_	NoSpaceAfter
 &	O	_	_	_	_	_	_	_	NoSpaceAfter
 c	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 A	O	_	_	_	_	_	_	_	
 SELECTION	O	_	_	_	_	_	_	_	
 OF	O	_	_	_	_	_	_	_	
@@ -233,6 +240,7 @@ in	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Metropolis	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 10714680_Dorchester1820
 # hipe2022:date = 1829-07-30
@@ -275,9 +283,11 @@ Egg	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 STEWARD	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 FIRST	O	_	_	_	_	_	_	_	
 DAY	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 First	O	_	_	_	_	_	_	_	
 Prize	O	_	_	_	_	_	_	_	NoSpaceAfter
 :	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -312,10 +322,12 @@ property	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Gentlemen	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Entrance	O	_	_	_	_	_	_	_	
 Two	O	_	_	_	_	_	_	_	
 Sovereigns	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Second	O	_	_	_	_	_	_	_	
 Pkize	O	_	_	_	_	_	_	_	
 A	O	_	_	_	_	_	_	_	
@@ -346,6 +358,7 @@ property	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Gentlemen	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Entrance	O	_	_	_	_	_	_	_	
 One	O	_	_	_	_	_	_	_	
 Sovereign	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -380,10 +393,12 @@ property	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Gentlemen	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Entrance	O	_	_	_	_	_	_	_	
 Ten	O	_	_	_	_	_	_	_	
 Shillings	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Fourth	O	_	_	_	_	_	_	_	
 Prize	O	_	_	_	_	_	_	_	NoSpaceAfter
 :	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -432,12 +447,14 @@ Boat	O	_	_	_	_	_	_	_	NoSpaceAfter
 One	O	_	_	_	_	_	_	_	
 Sovereign	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Entrance	O	_	_	_	_	_	_	_	
 Two	O	_	_	_	_	_	_	_	
 Shillings	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Sixpence	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 SECOND	O	_	_	_	_	_	_	_	
 DAY	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
@@ -478,10 +495,12 @@ properly	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Gentlemen	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Entrance	O	_	_	_	_	_	_	_	
 Two	O	_	_	_	_	_	_	_	
 Sovereigns	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Second	O	_	_	_	_	_	_	_	
 Prize	O	_	_	_	_	_	_	_	
 A	O	_	_	_	_	_	_	_	
@@ -506,10 +525,12 @@ property	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Gentlemen	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Entrance	O	_	_	_	_	_	_	_	
 One	O	_	_	_	_	_	_	_	
 Sovereign	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Third	O	_	_	_	_	_	_	_	
 Prize	O	_	_	_	_	_	_	_	NoSpaceAfter
 :	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -550,10 +571,12 @@ Vessel	O	_	_	_	_	_	_	_	NoSpaceAfter
 Ten	O	_	_	_	_	_	_	_	
 Shillings	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Entrance	O	_	_	_	_	_	_	_	
 Five	O	_	_	_	_	_	_	_	
 Shillings	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Founni	O	_	_	_	_	_	_	_	
 Prize—A	O	_	_	_	_	_	_	_	
 PURSE	O	_	_	_	_	_	_	_	
@@ -581,12 +604,14 @@ feet	O	_	_	_	_	_	_	_
 in	O	_	_	_	_	_	_	_	
 length	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Entrance	O	_	_	_	_	_	_	_	
 Two	O	_	_	_	_	_	_	_	
 Shillings	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Sixpence	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 ROWING	O	_	_	_	_	_	_	_	
 MATCHES	O	_	_	_	_	_	_	_	
 on	O	_	_	_	_	_	_	_	
@@ -603,6 +628,7 @@ in	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Cards	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 All	O	_	_	_	_	_	_	_	
 Yachts	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
@@ -681,10 +707,13 @@ to	O	_	_	_	_	_	_	_
 be	O	_	_	_	_	_	_	_	
 returned	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 THOS	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 S	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 SCRIVEN	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Honorary	O	_	_	_	_	_	_	_	
@@ -718,6 +747,7 @@ Royal	B-BUILDING	_	_	_	_	_	NIL	_
 Hotel	I-BUILDING	_	_	_	_	_	NIL	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 10733489_Dorchester1830
 # hipe2022:date = 1838-09-27
 # hipe2022:language = en
@@ -746,8 +776,10 @@ AND	O	_	_	_	_	_	_	_
 SOMERSETSHIRE	B-LOC	_	_	_	_	_	Q23157	_	
 GAZETTE	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 IRELAND	B-LOC	_	_	_	_	_	Q22890	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Archbishop	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -768,6 +800,7 @@ New	O	_	_	_	_	_	_	_
 Tithe	O	_	_	_	_	_	_	_	
 Bill	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 His	O	_	_	_	_	_	_	_	
 Grace	O	_	_	_	_	_	_	_	
 only	O	_	_	_	_	_	_	_	
@@ -783,6 +816,7 @@ of	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 arrangement	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 All	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 recent	O	_	_	_	_	_	_	_	
@@ -803,8 +837,10 @@ of	O	_	_	_	_	_	_	_
 every	O	_	_	_	_	_	_	_	
 description	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 OTonnell	O	_	_	_	_	_	_	_	
 has	O	_	_	_	_	_	_	_	
 just	O	_	_	_	_	_	_	_	
@@ -813,6 +849,7 @@ a	O	_	_	_	_	_	_	_
 third	O	_	_	_	_	_	_	_	
 letter	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 It	O	_	_	_	_	_	_	_	
 is	O	_	_	_	_	_	_	_	
 unusually	O	_	_	_	_	_	_	_	
@@ -853,6 +890,7 @@ outrage	O	_	_	_	_	_	_	_
 and	O	_	_	_	_	_	_	_	
 rebellion	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 He	O	_	_	_	_	_	_	_	
 says	O	_	_	_	_	_	_	_	
 that	O	_	_	_	_	_	_	_	
@@ -881,8 +919,10 @@ O	O	_	_	_	_	_	_	_	NoSpaceAfter
 Connell	O	_	_	_	_	_	_	_	
 alliance	O	_	_	_	_	_	_	_	NoSpaceAfter
 !	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 O	O	_	_	_	_	_	_	_	NoSpaceAfter
 ’	O	_	_	_	_	_	_	_	NoSpaceAfter
 C	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -985,6 +1025,7 @@ United	O	_	_	_	_	_	_	_
 Parliament	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 ”	O	_	_	_	_	_	_	_	EndOfSentence
+
 Four	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -1006,6 +1047,7 @@ Poor	O	_	_	_	_	_	_	_
 Law	O	_	_	_	_	_	_	_	
 Commission	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 It	O	_	_	_	_	_	_	_	
 is	O	_	_	_	_	_	_	_	
 intended	O	_	_	_	_	_	_	_	
@@ -1045,6 +1087,7 @@ will	O	_	_	_	_	_	_	_
 be	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Nugent	O	_	_	_	_	_	_	_	
 Vaughan	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -1077,6 +1120,7 @@ feature	O	_	_	_	_	_	_	_
 in	O	_	_	_	_	_	_	_	
 Ireland	B-LOC	_	_	_	_	_	Q22890	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 It	O	_	_	_	_	_	_	_	
 is	O	_	_	_	_	_	_	_	
 intended	O	_	_	_	_	_	_	_	
@@ -1113,6 +1157,7 @@ system	O	_	_	_	_	_	_	_
 in	O	_	_	_	_	_	_	_	
 England	B-LOC	_	_	_	_	_	Q21	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Jesuit	O	_	_	_	_	_	_	_	
 Dan	O	_	_	_	_	_	_	_	
 an	O	_	_	_	_	_	_	_	
@@ -1139,6 +1184,7 @@ Tranouillity	O	_	_	_	_	_	_	_
 under	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 O	O	_	_	_	_	_	_	_	NoSpaceAfter
 ’	O	_	_	_	_	_	_	_	NoSpaceAfter
 Connell	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -1162,6 +1208,7 @@ Physician	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Dr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Meyler	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 a	O	_	_	_	_	_	_	_	
@@ -1170,6 +1217,7 @@ convert	O	_	_	_	_	_	_	_
 Irom	O	_	_	_	_	_	_	_	
 Popery	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 This	O	_	_	_	_	_	_	_	
 work	O	_	_	_	_	_	_	_	
 not	O	_	_	_	_	_	_	_	
@@ -1249,6 +1297,7 @@ of	O	_	_	_	_	_	_	_
 Orange	O	_	_	_	_	_	_	_	
 atrocities	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 It	O	_	_	_	_	_	_	_	
 appears	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
@@ -1303,6 +1352,7 @@ joined	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 yeomanry	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 In	O	_	_	_	_	_	_	_	
 a	O	_	_	_	_	_	_	_	
 violent	O	_	_	_	_	_	_	_	
@@ -1310,6 +1360,7 @@ notice	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Dr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Meyler	O	_	_	_	_	_	_	_	NoSpaceAfter
 ’	O	_	_	_	_	_	_	_	NoSpaceAfter
 s	O	_	_	_	_	_	_	_	
@@ -1323,6 +1374,7 @@ of	O	_	_	_	_	_	_	_
 which	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 O	O	_	_	_	_	_	_	_	NoSpaceAfter
 ’	O	_	_	_	_	_	_	_	NoSpaceAfter
 Connell	O	_	_	_	_	_	_	_	
@@ -1355,9 +1407,11 @@ even	O	_	_	_	_	_	_	_
 there	O	_	_	_	_	_	_	_	
 denied	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 THE	O	_	_	_	_	_	_	_	
 CHURCH	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 10734843_Dorchester1820
 # hipe2022:date = 1825-10-06
@@ -1387,8 +1441,10 @@ TURNER	O	_	_	_	_	_	_	_	NoSpaceAfter
 S	O	_	_	_	_	_	_	_	
 BLACKING	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 NOTICE	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 How	O	_	_	_	_	_	_	_	
 delightful	O	_	_	_	_	_	_	_	
@@ -1416,6 +1472,7 @@ TURNERS	O	_	_	_	_	_	_	_
 UNRIVALLED	O	_	_	_	_	_	_	_	
 BLACKING	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 This	O	_	_	_	_	_	_	_	
 invaluable	O	_	_	_	_	_	_	_	
 composition	O	_	_	_	_	_	_	_	
@@ -1456,9 +1513,11 @@ JBd	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 each	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 A	O	_	_	_	_	_	_	_	
 CHALLENGE	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 I	O	_	_	_	_	_	_	_	
 challenge	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -1492,6 +1551,7 @@ softens	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 leather	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 And	O	_	_	_	_	_	_	_	
 makes	O	_	_	_	_	_	_	_	
 your	O	_	_	_	_	_	_	_	
@@ -1505,6 +1565,7 @@ and	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 weather	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Why	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 praises	O	_	_	_	_	_	_	_	
@@ -1517,6 +1578,7 @@ should	O	_	_	_	_	_	_	_
 1	O	_	_	_	_	_	_	_	
 tell	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 When	O	_	_	_	_	_	_	_	
 those	O	_	_	_	_	_	_	_	
 who	O	_	_	_	_	_	_	_	
@@ -1529,6 +1591,7 @@ it	O	_	_	_	_	_	_	_
 so	O	_	_	_	_	_	_	_	
 well	O	_	_	_	_	_	_	_	
 ?	O	_	_	_	_	_	_	_	EndOfSentence
+
 Why	O	_	_	_	_	_	_	_	
 should	O	_	_	_	_	_	_	_	
 coachmen	O	_	_	_	_	_	_	_	
@@ -1550,6 +1613,7 @@ fresh	O	_	_	_	_	_	_	_
 lustre	O	_	_	_	_	_	_	_	
 again	O	_	_	_	_	_	_	_	NoSpaceAfter
 ?	O	_	_	_	_	_	_	_	EndOfSentence
+
 For	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 without	O	_	_	_	_	_	_	_	
@@ -1584,6 +1648,7 @@ up	O	_	_	_	_	_	_	_
 on	O	_	_	_	_	_	_	_	
 parade	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Which	O	_	_	_	_	_	_	_	
 glitters	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -1595,6 +1660,7 @@ or	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 blade	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Gentlemen	O	_	_	_	_	_	_	_	
 too	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -1605,6 +1671,7 @@ boast	O	_	_	_	_	_	_	_
 their	O	_	_	_	_	_	_	_	
 attire	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 And	O	_	_	_	_	_	_	_	
 feel	O	_	_	_	_	_	_	_	
 for	O	_	_	_	_	_	_	_	
@@ -1614,6 +1681,7 @@ profound	O	_	_	_	_	_	_	_
 a	O	_	_	_	_	_	_	_	
 desire	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 May	O	_	_	_	_	_	_	_	
 hear	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -1637,6 +1705,7 @@ manners	O	_	_	_	_	_	_	_
 and	O	_	_	_	_	_	_	_	
 shoes	O	_	_	_	_	_	_	_	NoSpaceAfter
 ?	O	_	_	_	_	_	_	_	EndOfSentence
+
 Ye	O	_	_	_	_	_	_	_	
 Authors	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
@@ -1652,6 +1721,7 @@ this	O	_	_	_	_	_	_	_
 degenerate	O	_	_	_	_	_	_	_	
 age	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Use	O	_	_	_	_	_	_	_	
 Turner	O	_	_	_	_	_	_	_	NoSpaceAfter
 ’	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -1675,6 +1745,7 @@ as	O	_	_	_	_	_	_	_
 your	O	_	_	_	_	_	_	_	
 boot	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Though	O	_	_	_	_	_	_	_	
 Davy	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
@@ -1684,6 +1755,7 @@ astonished	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 world	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 And	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 chemical	O	_	_	_	_	_	_	_	
@@ -1694,6 +1766,7 @@ unfurl	O	_	_	_	_	_	_	_	NoSpaceAfter
 ’	O	_	_	_	_	_	_	_	NoSpaceAfter
 d	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Vet	O	_	_	_	_	_	_	_	
 in	O	_	_	_	_	_	_	_	
 chemistry	O	_	_	_	_	_	_	_	
@@ -1712,6 +1785,7 @@ his	O	_	_	_	_	_	_	_
 wonderful	O	_	_	_	_	_	_	_	
 Blacking	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Who	O	_	_	_	_	_	_	_	
 do	O	_	_	_	_	_	_	_	
 not	O	_	_	_	_	_	_	_	
@@ -1724,6 +1798,7 @@ Wellington	O	_	_	_	_	_	_	_	NoSpaceAfter
 s	O	_	_	_	_	_	_	_	
 name	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 When	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 whole	O	_	_	_	_	_	_	_	
@@ -1742,6 +1817,7 @@ Wellington	O	_	_	_	_	_	_	_
 famous	O	_	_	_	_	_	_	_	
 afar	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 One	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 hero	O	_	_	_	_	_	_	_	
@@ -1754,6 +1830,7 @@ of	O	_	_	_	_	_	_	_
 War	O	_	_	_	_	_	_	_	NoSpaceAfter
 !	O	_	_	_	_	_	_	_	NoSpaceAfter
 !	O	_	_	_	_	_	_	_	EndOfSentence
+
 Gentlemen	O	_	_	_	_	_	_	_	
 may	O	_	_	_	_	_	_	_	
 observe	O	_	_	_	_	_	_	_	
@@ -1800,9 +1877,11 @@ of	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 leather	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 HICJiARU	O	_	_	_	_	_	_	_	
 TLHNER	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 10760616_Dorchester1820
 # hipe2022:date = 1826-03-30
@@ -1832,6 +1911,7 @@ the	O	_	_	_	_	_	_	_
 ANTEJL	O	_	_	_	_	_	_	_	
 I.OPF	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 HOTEL	O	_	_	_	_	_	_	_	
 AND	O	_	_	_	_	_	_	_	
 TAVERN	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -1870,6 +1950,7 @@ o	O	_	_	_	_	_	_	_	NoSpaceAfter
 ’	O	_	_	_	_	_	_	_	NoSpaceAfter
 clock	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 MAGNET	O	_	_	_	_	_	_	_	
 LIGHT	O	_	_	_	_	_	_	_	
@@ -1928,6 +2009,7 @@ the	O	_	_	_	_	_	_	_
 same	O	_	_	_	_	_	_	_	
 evening	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 WELLINGTON	O	_	_	_	_	_	_	_	
 or	O	_	_	_	_	_	_	_	
@@ -1972,6 +2054,7 @@ in	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 afternoon	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Not	O	_	_	_	_	_	_	_	
 accountable	O	_	_	_	_	_	_	_	
 for	O	_	_	_	_	_	_	_	
@@ -1991,6 +2074,7 @@ paid	O	_	_	_	_	_	_	_
 for	O	_	_	_	_	_	_	_	
 accordingly	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 JAMES	O	_	_	_	_	_	_	_	
 S	O	_	_	_	_	_	_	_	
 TENT	O	_	_	_	_	_	_	_	
@@ -2048,6 +2132,7 @@ their	O	_	_	_	_	_	_	_
 favors	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 10772674_Dorchester1860
 # hipe2022:date = 1863-02-26
 # hipe2022:language = en
@@ -2071,9 +2156,11 @@ favors	O	_	_	_	_	_	_	_	NoSpaceAfter
 CORFE	B-LOC	_	_	_	_	_	Q985769	_	
 MULLEN	I-LOC	_	_	_	_	_	Q985769	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 DISASTROUS	O	_	_	_	_	_	_	_	
 Fire	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 Between	O	_	_	_	_	_	_	_	
 one	O	_	_	_	_	_	_	_	
@@ -2106,13 +2193,16 @@ estate	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 St	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 John	O	_	_	_	_	_	_	_	
 Coventry	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 William	O	_	_	_	_	_	_	_	
 Perbani	O	_	_	_	_	_	_	_	
 was	O	_	_	_	_	_	_	_	
@@ -2134,6 +2224,7 @@ lease	O	_	_	_	_	_	_	_
 to	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Jesty	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -2152,6 +2243,7 @@ completed	O	_	_	_	_	_	_	_	NoSpaceAfter
 although	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Jesty	O	_	_	_	_	_	_	_	
 has	O	_	_	_	_	_	_	_	
 been	O	_	_	_	_	_	_	_	
@@ -2178,6 +2270,7 @@ on	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 latter	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 It	O	_	_	_	_	_	_	_	
 appears	O	_	_	_	_	_	_	_	
 that	O	_	_	_	_	_	_	_	
@@ -2187,6 +2280,7 @@ and	O	_	_	_	_	_	_	_
 10oclock	O	_	_	_	_	_	_	_	
 Mrs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Perham	O	_	_	_	_	_	_	_	
 smelt	O	_	_	_	_	_	_	_	
 something	O	_	_	_	_	_	_	_	
@@ -2211,8 +2305,10 @@ but	O	_	_	_	_	_	_	_
 discovered	O	_	_	_	_	_	_	_	
 nothing	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Perham	O	_	_	_	_	_	_	_	
 came	O	_	_	_	_	_	_	_	
 home	O	_	_	_	_	_	_	_	
@@ -2235,8 +2331,10 @@ all	O	_	_	_	_	_	_	_
 appeared	O	_	_	_	_	_	_	_	
 safe	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mrs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Perham	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 it	O	_	_	_	_	_	_	_	
@@ -2271,6 +2369,7 @@ glare	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 light	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Upon	O	_	_	_	_	_	_	_	
 getting	O	_	_	_	_	_	_	_	
 up	O	_	_	_	_	_	_	_	
@@ -2311,6 +2410,7 @@ the	O	_	_	_	_	_	_	_
 devouring	O	_	_	_	_	_	_	_	
 element	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 stable	O	_	_	_	_	_	_	_	
 adjoining	O	_	_	_	_	_	_	_	
@@ -2341,6 +2441,7 @@ of	O	_	_	_	_	_	_	_
 them	O	_	_	_	_	_	_	_	
 perished	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 barn	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -2395,6 +2496,7 @@ unfit	O	_	_	_	_	_	_	_
 for	O	_	_	_	_	_	_	_	
 food	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 It	O	_	_	_	_	_	_	_	
 appears	O	_	_	_	_	_	_	_	
 to	O	_	_	_	_	_	_	_	
@@ -2483,8 +2585,10 @@ is	O	_	_	_	_	_	_	_
 quite	O	_	_	_	_	_	_	_	
 unknown	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Perham	O	_	_	_	_	_	_	_	
 allowed	O	_	_	_	_	_	_	_	
 his	O	_	_	_	_	_	_	_	
@@ -2504,6 +2608,7 @@ fall	O	_	_	_	_	_	_	_
 on	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Jesty	O	_	_	_	_	_	_	_	
 or	O	_	_	_	_	_	_	_	
 himself	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -2515,6 +2620,7 @@ at	O	_	_	_	_	_	_	_
 about	O	_	_	_	_	_	_	_	
 £250	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 buildings	O	_	_	_	_	_	_	_	
 are	O	_	_	_	_	_	_	_	
@@ -2525,10 +2631,13 @@ office	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 I	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 O	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Chislett	O	_	_	_	_	_	_	_	
 being	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -2541,6 +2650,7 @@ of	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 estate	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 fire	O	_	_	_	_	_	_	_	
 must	O	_	_	_	_	_	_	_	
@@ -2570,6 +2680,7 @@ oclock	O	_	_	_	_	_	_	_	NoSpaceAfter
 nor	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Perham	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 on	O	_	_	_	_	_	_	_	
@@ -2582,6 +2693,7 @@ anything	O	_	_	_	_	_	_	_
 ;	O	_	_	_	_	_	_	_	
 Mrs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Perham	O	_	_	_	_	_	_	_	
 only	O	_	_	_	_	_	_	_	
 having	O	_	_	_	_	_	_	_	
@@ -2601,6 +2713,7 @@ the	O	_	_	_	_	_	_	_
 ash	O	_	_	_	_	_	_	_	
 heap	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 10809593_Dorchester1830
 # hipe2022:date = 1834-05-15
@@ -2632,8 +2745,10 @@ fi	O	_	_	_	_	_	_	_	NoSpaceAfter
 four	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 ]	O	_	_	_	_	_	_	_	EndOfSentence
+
 SOMERSETSHIRE	B-LOC	_	_	_	_	_	Q23157	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Delightful	O	_	_	_	_	_	_	_	
 Residence	O	_	_	_	_	_	_	_	
 in	O	_	_	_	_	_	_	_	
@@ -2644,6 +2759,7 @@ Vicinity	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Taunton	B-LOC	_	_	_	_	_	Q845619	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 TO	O	_	_	_	_	_	_	_	
 BE	O	_	_	_	_	_	_	_	
 SOLD	O	_	_	_	_	_	_	_	
@@ -2651,6 +2767,7 @@ BY	O	_	_	_	_	_	_	_
 PRIVATE	O	_	_	_	_	_	_	_	
 CONTRACT	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 WHETLEIGH	B-BUILDING	_	_	_	_	_	NIL	_	
 LODGE	I-BUILDING	_	_	_	_	_	NIL	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -2706,6 +2823,7 @@ Tithe-free	O	_	_	_	_	_	_	_	NoSpaceAfter
 and	O	_	_	_	_	_	_	_	
 a	O	_	_	_	_	_	_	_	
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 \	O	_	_	_	_	_	_	_	NoSpaceAfter
 leadow	O	_	_	_	_	_	_	_	
 in	O	_	_	_	_	_	_	_	
@@ -2722,6 +2840,7 @@ estimation	O	_	_	_	_	_	_	_	NoSpaceAfter
 five	O	_	_	_	_	_	_	_	
 Acres	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 House	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -2788,6 +2907,7 @@ in	O	_	_	_	_	_	_	_
 excellent	O	_	_	_	_	_	_	_	
 repair	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 House	O	_	_	_	_	_	_	_	
 stands	O	_	_	_	_	_	_	_	
@@ -2805,6 +2925,7 @@ variety	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 prospect	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Lands	O	_	_	_	_	_	_	_	
 are	O	_	_	_	_	_	_	_	
@@ -2820,6 +2941,7 @@ fee-simple	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 a	O	_	_	_	_	_	_	_	
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 A	O	_	_	_	_	_	_	_	
 Purchaser	O	_	_	_	_	_	_	_	
 may	O	_	_	_	_	_	_	_	
@@ -2837,6 +2959,7 @@ at	O	_	_	_	_	_	_	_
 a	O	_	_	_	_	_	_	_	
 valuation	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 (	O	_	_	_	_	_	_	_	NoSpaceAfter
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 -	O	_	_	_	_	_	_	_	
@@ -2865,12 +2988,14 @@ post-paid	O	_	_	_	_	_	_	_	NoSpaceAfter
 to	O	_	_	_	_	_	_	_	
 Messrs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 R	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 ’	O	_	_	_	_	_	_	_	NoSpaceAfter
 and	O	_	_	_	_	_	_	_	
 E	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Beadow	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Solicitors	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -2878,6 +3003,7 @@ Solicitors	O	_	_	_	_	_	_	_	NoSpaceAfter
 Taunton	B-LOC	_	_	_	_	_	Q845619	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 ■	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 10814760_Dorchester1860
 # hipe2022:date = 1867-10-17
@@ -2901,12 +3027,15 @@ Taunton	B-LOC	_	_	_	_	_	Q845619	_	NoSpaceAfter
 # topres19th:place_publication = Dorchester
 SOMERSETSHIRE	B-LOC	_	_	_	_	_	Q23157	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 YEOVIL	B-LOC	_	_	_	_	_	Q550110	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Charge	O	_	_	_	_	_	_	_	
 op	O	_	_	_	_	_	_	_	
 Embezzlement	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 On	O	_	_	_	_	_	_	_	
 Saturday	O	_	_	_	_	_	_	_	
@@ -2934,6 +3063,7 @@ Western	O	_	_	_	_	_	_	_
 Railway	O	_	_	_	_	_	_	_	
 Company	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Prisoner	O	_	_	_	_	_	_	_	
 was	O	_	_	_	_	_	_	_	
 in	O	_	_	_	_	_	_	_	
@@ -2958,6 +3088,7 @@ money	O	_	_	_	_	_	_	_
 from	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Rowe	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 iron	O	_	_	_	_	_	_	_	
@@ -2973,6 +3104,7 @@ accounted	O	_	_	_	_	_	_	_
 for	O	_	_	_	_	_	_	_	
 it	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 He	O	_	_	_	_	_	_	_	
 was	O	_	_	_	_	_	_	_	
 remanded	O	_	_	_	_	_	_	_	
@@ -2984,10 +3116,12 @@ to	O	_	_	_	_	_	_	_
 other	O	_	_	_	_	_	_	_	
 charges	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 A	O	_	_	_	_	_	_	_	
 Mad	O	_	_	_	_	_	_	_	
 Freak	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 A	O	_	_	_	_	_	_	_	
 night	O	_	_	_	_	_	_	_	
@@ -3020,6 +3154,7 @@ a	O	_	_	_	_	_	_	_
 neighbouring	O	_	_	_	_	_	_	_	
 town	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 driver	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -3049,6 +3184,7 @@ in	O	_	_	_	_	_	_	_
 strong	O	_	_	_	_	_	_	_	
 drink	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Temp	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 midnight	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -3105,6 +3241,7 @@ not	O	_	_	_	_	_	_	_
 instantly	O	_	_	_	_	_	_	_	
 stop	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Trembling	O	_	_	_	_	_	_	_	
 in	O	_	_	_	_	_	_	_	
 every	O	_	_	_	_	_	_	_	
@@ -3121,6 +3258,7 @@ Fenian	O	_	_	_	_	_	_	_
 to	O	_	_	_	_	_	_	_	
 alight	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 man	O	_	_	_	_	_	_	_	
 with	O	_	_	_	_	_	_	_	
@@ -3160,6 +3298,7 @@ of	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 road	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 He	O	_	_	_	_	_	_	_	
 had	O	_	_	_	_	_	_	_	
 previously	O	_	_	_	_	_	_	_	
@@ -3179,6 +3318,7 @@ the	O	_	_	_	_	_	_	_
 usual	O	_	_	_	_	_	_	_	
 gratuity	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 10815043_Dorchester1860
 # hipe2022:date = 1867-04-11
@@ -3204,6 +3344,7 @@ Naval	O	_	_	_	_	_	_	_
 and	O	_	_	_	_	_	_	_	
 Military	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Lord	O	_	_	_	_	_	_	_	
 Stanley	O	_	_	_	_	_	_	_	
 has	O	_	_	_	_	_	_	_	
@@ -3220,6 +3361,7 @@ satisfaction	O	_	_	_	_	_	_	_
 from	O	_	_	_	_	_	_	_	
 Spain	B-LOC	_	_	_	_	_	Q29	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Mediterranean	B-LOC	_	_	_	_	_	Q4918	_	
 squadron	O	_	_	_	_	_	_	_	
@@ -3240,6 +3382,7 @@ Cadiz	B-LOC	_	_	_	_	_	Q15682	_
 without	O	_	_	_	_	_	_	_	
 delay	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 dog	O	_	_	_	_	_	_	_	
 "	O	_	_	_	_	_	_	_	
@@ -3274,6 +3417,7 @@ on	O	_	_	_	_	_	_	_
 Sunday	O	_	_	_	_	_	_	_	
 last	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 animal	O	_	_	_	_	_	_	_	
 was	O	_	_	_	_	_	_	_	
@@ -3307,6 +3451,7 @@ ribbon	O	_	_	_	_	_	_	_
 aud	O	_	_	_	_	_	_	_	
 medal	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 report	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -3334,6 +3479,7 @@ of	O	_	_	_	_	_	_	_
 Lord	O	_	_	_	_	_	_	_	
 Elcho	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Amongst	O	_	_	_	_	_	_	_	
 other	O	_	_	_	_	_	_	_	
 recommendations	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -3353,6 +3499,7 @@ men	O	_	_	_	_	_	_	_
 in	O	_	_	_	_	_	_	_	
 camp	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 They	O	_	_	_	_	_	_	_	
 consider	O	_	_	_	_	_	_	_	
 that	O	_	_	_	_	_	_	_	
@@ -3397,6 +3544,7 @@ the	O	_	_	_	_	_	_	_
 current	O	_	_	_	_	_	_	_	
 year	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 As	O	_	_	_	_	_	_	_	
 regards	O	_	_	_	_	_	_	_	
 fi	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -3435,6 +3583,7 @@ have	O	_	_	_	_	_	_	_
 to	O	_	_	_	_	_	_	_	
 perform	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 It	O	_	_	_	_	_	_	_	
 is	O	_	_	_	_	_	_	_	
 therefore	O	_	_	_	_	_	_	_	
@@ -3474,6 +3623,7 @@ to	O	_	_	_	_	_	_	_
 l	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 10848013_Dorchester1830
 # hipe2022:date = 1830-06-10
 # hipe2022:language = en
@@ -3496,6 +3646,7 @@ l	O	_	_	_	_	_	_	_	NoSpaceAfter
 # topres19th:place_publication = Dorchester
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 ISAAC	O	_	_	_	_	_	_	_	
 GEORGE	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -3525,6 +3676,7 @@ of	O	_	_	_	_	_	_	_
 that	O	_	_	_	_	_	_	_	
 establishment	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 LOBE	O	_	_	_	_	_	_	_	
 INSURANCE	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -3538,6 +3690,7 @@ hill	I-STREET	_	_	_	_	_	Q1782039	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 London	B-LOC	_	_	_	_	_	Q84	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Established	O	_	_	_	_	_	_	_	
 1303	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
@@ -3580,15 +3733,18 @@ most	O	_	_	_	_	_	_	_
 extensive	O	_	_	_	_	_	_	_	
 Losses	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Joseph	O	_	_	_	_	_	_	_	
 Dor	O	_	_	_	_	_	_	_	
 in	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Chairman	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Thomas	O	_	_	_	_	_	_	_	
 Coles	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -3598,35 +3754,44 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 Deputy	O	_	_	_	_	_	_	_	
 Chairman	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 William	O	_	_	_	_	_	_	_	
 Abbott	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Matthew	O	_	_	_	_	_	_	_	
 laacke	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Llias	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Raymond	O	_	_	_	_	_	_	_	
 Barker	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 John	O	_	_	_	_	_	_	_	
 Latham	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 M	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 D	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Thomas	O	_	_	_	_	_	_	_	
 Barrow	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 John	O	_	_	_	_	_	_	_	
 Neave	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -3637,24 +3802,29 @@ Birch	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 William	O	_	_	_	_	_	_	_	
 Phillimore	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Jonathan	O	_	_	_	_	_	_	_	
 Chapman	O	_	_	_	_	_	_	_	NoSpaceAfter
 -	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 John	O	_	_	_	_	_	_	_	
 Poynder	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Sir	O	_	_	_	_	_	_	_	
 C	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Cockerell	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 litn	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -3662,50 +3832,60 @@ litn	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 M	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 P	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Philip	O	_	_	_	_	_	_	_	
 Ripley	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Boyce	O	_	_	_	_	_	_	_	
 Combe	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Henry	O	_	_	_	_	_	_	_	
 Howies	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 John	O	_	_	_	_	_	_	_	
 Fairlie	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Robert	O	_	_	_	_	_	_	_	
 Saunders	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 George	O	_	_	_	_	_	_	_	
 Fraser	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Sir	O	_	_	_	_	_	_	_	
 Walter	O	_	_	_	_	_	_	_	
 Stirling	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Bart	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 George	O	_	_	_	_	_	_	_	
 Carr	O	_	_	_	_	_	_	_	
 Glyn	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Janies	O	_	_	_	_	_	_	_	
 Stuart	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -3714,25 +3894,31 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 M	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 P	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Edward	O	_	_	_	_	_	_	_	
 Goldsuiid	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Edward	O	_	_	_	_	_	_	_	
 Vauz	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Isaac	O	_	_	_	_	_	_	_	
 L	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Goldsmid	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Farming	O	_	_	_	_	_	_	_	
 Stock	O	_	_	_	_	_	_	_	
 Insured	O	_	_	_	_	_	_	_	
@@ -3741,6 +3927,7 @@ on	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Farm	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Hates	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Conditions	O	_	_	_	_	_	_	_	
@@ -3764,6 +3951,7 @@ Agent	O	_	_	_	_	_	_	_	NoSpaceAfter
 :	O	_	_	_	_	_	_	_	NoSpaceAfter
 —	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 10870005_Dorchester1860
 # hipe2022:date = 1866-07-19
 # hipe2022:language = en
@@ -3786,11 +3974,14 @@ Agent	O	_	_	_	_	_	_	_	NoSpaceAfter
 # topres19th:place_publication = Dorchester
 DEVONSHIRE	B-LOC	_	_	_	_	_	Q23156	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 EXETER	B-LOC	_	_	_	_	_	Q134672	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Ecclesiastical	O	_	_	_	_	_	_	_	
 Commission	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 Five	O	_	_	_	_	_	_	_	
 clergymen	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -3822,10 +4013,13 @@ against	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Rev	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 T	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 B	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Simpson	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 incumbent	O	_	_	_	_	_	_	_	
@@ -3836,8 +4030,10 @@ Teignmoutb	I-LOC	_	_	_	_	_	Q531311	_	NoSpaceAfter
 by	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 T	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Flamank	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 one	O	_	_	_	_	_	_	_	
@@ -3864,6 +4060,7 @@ of	O	_	_	_	_	_	_	_
 giving	O	_	_	_	_	_	_	_	
 light	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Second	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 mixing	O	_	_	_	_	_	_	_	
@@ -3883,6 +4080,7 @@ tbe	O	_	_	_	_	_	_	_
 Holy	O	_	_	_	_	_	_	_	
 Communion	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Third	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 after	O	_	_	_	_	_	_	_	
@@ -3900,6 +4098,7 @@ above	O	_	_	_	_	_	_	_
 his	O	_	_	_	_	_	_	_	
 head	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Fourth	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 when	O	_	_	_	_	_	_	_	
@@ -3927,6 +4126,7 @@ at	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 side	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Fifth	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 omitting	O	_	_	_	_	_	_	_	
@@ -3949,6 +4149,7 @@ our	O	_	_	_	_	_	_	_
 Lord	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 "	O	_	_	_	_	_	_	_	EndOfSentence
+
 After	O	_	_	_	_	_	_	_	
 taking	O	_	_	_	_	_	_	_	
 evidence	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -3957,10 +4158,12 @@ and	O	_	_	_	_	_	_	_
 hearing	O	_	_	_	_	_	_	_	
 Dr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Stephens	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Dr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Deane	O	_	_	_	_	_	_	_	
 pro	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
@@ -3990,6 +4193,7 @@ further	O	_	_	_	_	_	_	_
 proceedings	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 33967_Poole1860
 # hipe2022:date = 1865-03-16
 # hipe2022:language = en
@@ -4016,6 +4220,7 @@ Act	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	NoSpaceAfter
 lBBl	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Jo	O	_	_	_	_	_	_	_	
 lIN	O	_	_	_	_	_	_	_	
 BUG	O	_	_	_	_	_	_	_	
@@ -4135,6 +4340,7 @@ in	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Bankruptcy	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 At	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 meeting	O	_	_	_	_	_	_	_	
@@ -4167,6 +4373,7 @@ estate	O	_	_	_	_	_	_	_
 and	O	_	_	_	_	_	_	_	
 effects	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 All	O	_	_	_	_	_	_	_	
 persons	O	_	_	_	_	_	_	_	
 having	O	_	_	_	_	_	_	_	
@@ -4204,6 +4411,7 @@ the	O	_	_	_	_	_	_	_
 Registrar	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 3580048_Manchester1820
 # hipe2022:date = 1825-01-08
 # hipe2022:language = en
@@ -4228,6 +4436,7 @@ THE	O	_	_	_	_	_	_	_
 MANCHESTER	B-LOC	_	_	_	_	_	Q18125	_	
 COURIER	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 SaTurtjat	O	_	_	_	_	_	_	_	NoSpaceAfter
 )	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -4239,6 +4448,7 @@ arn	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 1825	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 ~	O	_	_	_	_	_	_	_	NoSpaceAfter
 Thb	O	_	_	_	_	_	_	_	
 Courier	O	_	_	_	_	_	_	_	
@@ -4300,6 +4510,7 @@ the	O	_	_	_	_	_	_	_
 year	O	_	_	_	_	_	_	_	
 preceding	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 In	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 Ex	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -4313,6 +4524,7 @@ increase	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 1,150,8161	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Excise	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -4339,6 +4551,7 @@ or	O	_	_	_	_	_	_	_
 less	O	_	_	_	_	_	_	_	
 improving	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 increase	O	_	_	_	_	_	_	_	
 on	O	_	_	_	_	_	_	_	
@@ -4362,6 +4575,7 @@ quarter	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 lb23	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Allowing	O	_	_	_	_	_	_	_	
 for	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -4391,6 +4605,7 @@ Quarter	O	_	_	_	_	_	_	_
 is	O	_	_	_	_	_	_	_	
 140,0001	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 To	O	_	_	_	_	_	_	_	
 this	O	_	_	_	_	_	_	_	
 increase	O	_	_	_	_	_	_	_	
@@ -4404,6 +4619,7 @@ the	O	_	_	_	_	_	_	_
 Austrian	O	_	_	_	_	_	_	_	
 repayment	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Setting	O	_	_	_	_	_	_	_	
 that	O	_	_	_	_	_	_	_	
 item	O	_	_	_	_	_	_	_	
@@ -4435,6 +4651,7 @@ improvement	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 912,0071	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 If	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 various	O	_	_	_	_	_	_	_	
@@ -4505,6 +4722,7 @@ flourishing	O	_	_	_	_	_	_	_
 condition	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 3580130_Manchester1820
 # hipe2022:date = 1825-02-05
 # hipe2022:language = en
@@ -4530,6 +4748,7 @@ FIRE	O	_	_	_	_	_	_	_
 IN	O	_	_	_	_	_	_	_	
 LONDON	B-LOC	_	_	_	_	_	Q84	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 On	O	_	_	_	_	_	_	_	
 Saturday	O	_	_	_	_	_	_	_	
 mornjng	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -4550,6 +4769,7 @@ of	O	_	_	_	_	_	_	_
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 "	O	_	_	_	_	_	_	_	EndOfSentence
+
 Roland	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 occupied	O	_	_	_	_	_	_	_	
@@ -4637,6 +4857,7 @@ and	O	_	_	_	_	_	_	_
 terrific	O	_	_	_	_	_	_	_	
 appearance	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 destructive	O	_	_	_	_	_	_	_	
 conflagration	O	_	_	_	_	_	_	_	
@@ -4667,6 +4888,7 @@ premises	O	_	_	_	_	_	_	_
 ot	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Hazard	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 a	O	_	_	_	_	_	_	_	
@@ -4686,6 +4908,7 @@ with	O	_	_	_	_	_	_	_
 great	O	_	_	_	_	_	_	_	
 fury	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 A	O	_	_	_	_	_	_	_	
 vast	O	_	_	_	_	_	_	_	
 number	O	_	_	_	_	_	_	_	
@@ -4751,6 +4974,7 @@ buildings	O	_	_	_	_	_	_	_
 escaped	O	_	_	_	_	_	_	_	
 destruction	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 We	O	_	_	_	_	_	_	_	
 hear	O	_	_	_	_	_	_	_	
 not	O	_	_	_	_	_	_	_	
@@ -4764,6 +4988,7 @@ house	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Roland	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
@@ -4778,11 +5003,13 @@ of	O	_	_	_	_	_	_	_
 Mrs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Groves	O	_	_	_	_	_	_	_	
 is	O	_	_	_	_	_	_	_	
 entirely	O	_	_	_	_	_	_	_	
 useless	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Of	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 former	O	_	_	_	_	_	_	_	
@@ -4803,6 +5030,7 @@ conipje	O	_	_	_	_	_	_	_	NoSpaceAfter
 ejy	O	_	_	_	_	_	_	_	
 gutted	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Considerable	O	_	_	_	_	_	_	_	
 damage	O	_	_	_	_	_	_	_	
 has	O	_	_	_	_	_	_	_	
@@ -4819,6 +5047,7 @@ situated	O	_	_	_	_	_	_	_
 in	O	_	_	_	_	_	_	_	
 Piccadilly	B-STREET	_	_	_	_	_	Q1124023	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 It	O	_	_	_	_	_	_	_	
 is	O	_	_	_	_	_	_	_	
 a	O	_	_	_	_	_	_	_	
@@ -4848,6 +5077,7 @@ nt	O	_	_	_	_	_	_	_
 occurring	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 3691413_Manchester1830
 # hipe2022:date = 1837-11-25
 # hipe2022:language = en
@@ -4871,6 +5101,7 @@ occurring	O	_	_	_	_	_	_	_	NoSpaceAfter
 CONSERVATIVE	O	_	_	_	_	_	_	_	
 DINNERS	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Wakefield	B-LOC	_	_	_	_	_	Q216638	_	
 Operative	O	_	_	_	_	_	_	_	
 Conservative	O	_	_	_	_	_	_	_	
@@ -4893,6 +5124,7 @@ house	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Joseph	O	_	_	_	_	_	_	_	
 Patrick	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -4909,8 +5141,10 @@ dinner	O	_	_	_	_	_	_	_
 was	O	_	_	_	_	_	_	_	
 provided	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 John	O	_	_	_	_	_	_	_	
 Waterall	O	_	_	_	_	_	_	_	
 presided	O	_	_	_	_	_	_	_	
@@ -4955,6 +5189,7 @@ nature	O	_	_	_	_	_	_	_	NoSpaceAfter
 Leeds	O	_	_	_	_	_	_	_	
 Intelligencer	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Conservative	O	_	_	_	_	_	_	_	
 Demonstration	O	_	_	_	_	_	_	_	
 at	O	_	_	_	_	_	_	_	
@@ -5018,8 +5253,10 @@ for	O	_	_	_	_	_	_	_
 sometime	O	_	_	_	_	_	_	_	
 past	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 George	O	_	_	_	_	_	_	_	
 Hirst	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -5040,27 +5277,35 @@ vice-chairman	O	_	_	_	_	_	_	_
 were	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 E	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Teale	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Yates	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 S	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Cooper	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Wood	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 At	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 principal	O	_	_	_	_	_	_	_	
@@ -5078,6 +5323,7 @@ we	O	_	_	_	_	_	_	_
 observed	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Alderman	O	_	_	_	_	_	_	_	
 Hall	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -5105,8 +5351,10 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 T	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 E	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Upton	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5123,6 +5371,7 @@ several	O	_	_	_	_	_	_	_
 other	O	_	_	_	_	_	_	_	
 gentlemen	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 About	O	_	_	_	_	_	_	_	
 250	O	_	_	_	_	_	_	_	
 persons	O	_	_	_	_	_	_	_	
@@ -5131,10 +5380,12 @@ down	O	_	_	_	_	_	_	_
 to	O	_	_	_	_	_	_	_	
 dinner	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 Leeds	O	_	_	_	_	_	_	_	
 Intelligencer	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Tewkesbury	B-LOC	_	_	_	_	_	Q1000717	_	
 Conservative	O	_	_	_	_	_	_	_	
 Dinner—On	O	_	_	_	_	_	_	_	
@@ -5196,8 +5447,10 @@ Dowdeswell	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 William	O	_	_	_	_	_	_	_	
 Dowdeswell	O	_	_	_	_	_	_	_	
 was	O	_	_	_	_	_	_	_	
@@ -5213,6 +5466,7 @@ by	O	_	_	_	_	_	_	_
 Sir	O	_	_	_	_	_	_	_	
 A	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Lechmere	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Bart	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5226,18 +5480,23 @@ by	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Hon	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Wm	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Coventry	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Among	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 company	O	_	_	_	_	_	_	_	
 were	O	_	_	_	_	_	_	_	
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 W	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Martin	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5245,13 +5504,16 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Rev	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 George	O	_	_	_	_	_	_	_	
 Turberville	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 E	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 G	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Stone	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5265,36 +5527,47 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Revs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 A	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Luders	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 A	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 B	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Lechmere	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 R	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 L	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Freer	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 R	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Hepworth	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 F	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Foxton	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 I	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Prosser	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Sermon	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5302,10 +5575,13 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 I	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 M	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 P	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Hopton	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5313,8 +5589,10 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 E	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Barnes	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5322,8 +5600,10 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 W	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 S	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Evans	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5331,6 +5611,7 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Moore	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5338,6 +5619,7 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 A	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Sproule	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5350,6 +5632,7 @@ gentlemen	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 distinction	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 vice-president	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -5359,6 +5642,7 @@ table	O	_	_	_	_	_	_	_
 was	O	_	_	_	_	_	_	_	
 A	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Sutherland	O	_	_	_	_	_	_	_	
 Graeme	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -5368,10 +5652,12 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 and	O	_	_	_	_	_	_	_	
 Messrs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Higginson	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Petley	O	_	_	_	_	_	_	_	
 filled	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -5382,6 +5668,7 @@ the	O	_	_	_	_	_	_	_
 other	O	_	_	_	_	_	_	_	
 two	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 large	O	_	_	_	_	_	_	_	
 room	O	_	_	_	_	_	_	_	
@@ -5410,6 +5697,7 @@ dinner—Worcestershire	O	_	_	_	_	_	_	_
 Guardian	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 3896766_Manchester1830
 # hipe2022:date = 1839-04-13
 # hipe2022:language = en
@@ -5437,6 +5725,7 @@ PRIVATE	O	_	_	_	_	_	_	_
 CORRESPONDENT	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 )	O	_	_	_	_	_	_	_	EndOfSentence
+
 London	B-LOC	_	_	_	_	_	Q84	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Friday	O	_	_	_	_	_	_	_	
@@ -5445,6 +5734,7 @@ Morning	O	_	_	_	_	_	_	_	NoSpaceAfter
 April	O	_	_	_	_	_	_	_	
 12	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 I	O	_	_	_	_	_	_	_	
 am	O	_	_	_	_	_	_	_	
 happy	O	_	_	_	_	_	_	_	
@@ -5468,6 +5758,7 @@ the	O	_	_	_	_	_	_	_
 whigs	O	_	_	_	_	_	_	_	
 decay	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 It	O	_	_	_	_	_	_	_	
 appears	O	_	_	_	_	_	_	_	
 now	O	_	_	_	_	_	_	_	
@@ -5513,6 +5804,7 @@ refrain	O	_	_	_	_	_	_	_
 from	O	_	_	_	_	_	_	_	
 voting	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 names	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -5527,10 +5819,12 @@ to	O	_	_	_	_	_	_	_
 be	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Grote	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Leader	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Sir	O	_	_	_	_	_	_	_	
@@ -5539,16 +5833,19 @@ Molesworth	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Swynfen	O	_	_	_	_	_	_	_	
 Jervis	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Fielden	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Wakley	O	_	_	_	_	_	_	_	NoSpaceAfter
 ;	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
@@ -5562,14 +5859,17 @@ names	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Harvey	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Duncombe	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Hume	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 General	O	_	_	_	_	_	_	_	
@@ -5578,11 +5878,13 @@ Johnson	O	_	_	_	_	_	_	_	NoSpaceAfter
 and	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Williams	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 Coventry	B-LOC	_	_	_	_	_	Q6225	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 But	O	_	_	_	_	_	_	_	
 I	O	_	_	_	_	_	_	_	
 believe	O	_	_	_	_	_	_	_	
@@ -5623,6 +5925,7 @@ at	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 utmost	O	_	_	_	_	_	_	_	NoSpaceAfter
 ?	O	_	_	_	_	_	_	_	EndOfSentence
+
 and	O	_	_	_	_	_	_	_	
 if	O	_	_	_	_	_	_	_	
 this	O	_	_	_	_	_	_	_	
@@ -5640,6 +5943,7 @@ will	O	_	_	_	_	_	_	_
 but	O	_	_	_	_	_	_	_	
 commence	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 They	O	_	_	_	_	_	_	_	
 are	O	_	_	_	_	_	_	_	
 certain	O	_	_	_	_	_	_	_	
@@ -5703,6 +6007,7 @@ and	O	_	_	_	_	_	_	_
 triumphantly	O	_	_	_	_	_	_	_	
 resisted	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Their	O	_	_	_	_	_	_	_	
 only	O	_	_	_	_	_	_	_	
 course	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5739,6 +6044,7 @@ then	O	_	_	_	_	_	_	_
 to	O	_	_	_	_	_	_	_	
 resign	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Three	O	_	_	_	_	_	_	_	
 months	O	_	_	_	_	_	_	_	
 is	O	_	_	_	_	_	_	_	
@@ -5756,6 +6062,7 @@ their	O	_	_	_	_	_	_	_
 miserable	O	_	_	_	_	_	_	_	
 existence	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 You	O	_	_	_	_	_	_	_	
 w	O	_	_	_	_	_	_	_	
 ill	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5777,6 +6084,7 @@ of	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 country	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Even	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 town	O	_	_	_	_	_	_	_	
@@ -5787,6 +6095,7 @@ created	O	_	_	_	_	_	_	_
 are	O	_	_	_	_	_	_	_	
 silent	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 In	O	_	_	_	_	_	_	_	
 Edinburgh	B-LOC	_	_	_	_	_	Q23436	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -5817,6 +6126,7 @@ the	O	_	_	_	_	_	_	_
 ministerial	O	_	_	_	_	_	_	_	
 policy	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Where	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 then	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -5828,6 +6138,7 @@ look	O	_	_	_	_	_	_	_
 or	O	_	_	_	_	_	_	_	
 aid	O	_	_	_	_	_	_	_	
 ?	O	_	_	_	_	_	_	_	EndOfSentence
+
 Why	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 to	O	_	_	_	_	_	_	_	
@@ -5840,6 +6151,7 @@ the	O	_	_	_	_	_	_	_
 repealers	O	_	_	_	_	_	_	_	
 there	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Elsewhere	O	_	_	_	_	_	_	_	
 they	O	_	_	_	_	_	_	_	
 have	O	_	_	_	_	_	_	_	
@@ -5857,6 +6169,7 @@ hath	O	_	_	_	_	_	_	_
 fallen	O	_	_	_	_	_	_	_	NoSpaceAfter
 !	O	_	_	_	_	_	_	_	NoSpaceAfter
 "	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	NoSpaceAfter
 "	O	_	_	_	_	_	_	_	
 death	O	_	_	_	_	_	_	_	
@@ -5912,6 +6225,7 @@ carrying	O	_	_	_	_	_	_	_
 their	O	_	_	_	_	_	_	_	
 candidate	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 If	O	_	_	_	_	_	_	_	
 so	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -5933,6 +6247,7 @@ next	O	_	_	_	_	_	_	_
 general	O	_	_	_	_	_	_	_	
 election	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Verily	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 they	O	_	_	_	_	_	_	_	
@@ -5941,6 +6256,7 @@ have	O	_	_	_	_	_	_	_
 their	O	_	_	_	_	_	_	_	
 reward	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Nothing	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 interest	O	_	_	_	_	_	_	_	
@@ -5977,6 +6293,7 @@ else	O	_	_	_	_	_	_	_
 equally	O	_	_	_	_	_	_	_	
 Hat	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 I	O	_	_	_	_	_	_	_	
 understand	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -5987,6 +6304,7 @@ expected	O	_	_	_	_	_	_	_
 till	O	_	_	_	_	_	_	_	
 Wednesday	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 If	O	_	_	_	_	_	_	_	
 it	O	_	_	_	_	_	_	_	
 occur	O	_	_	_	_	_	_	_	
@@ -6021,6 +6339,7 @@ who	O	_	_	_	_	_	_	_
 voted	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 3897770_Manchester1830
 # hipe2022:date = 1839-01-05
 # hipe2022:language = en
@@ -6044,6 +6363,7 @@ voted	O	_	_	_	_	_	_	_	NoSpaceAfter
 THE	O	_	_	_	_	_	_	_	
 CHURCH	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 GnEAT	O	_	_	_	_	_	_	_	
 PItOTESTANT	O	_	_	_	_	_	_	_	
 MEETING	O	_	_	_	_	_	_	_	
@@ -6093,6 +6413,7 @@ formed	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 it	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 We	O	_	_	_	_	_	_	_	
 sincerely	O	_	_	_	_	_	_	_	
 rejoice	O	_	_	_	_	_	_	_	
@@ -6110,6 +6431,7 @@ up	O	_	_	_	_	_	_	_
 to	O	_	_	_	_	_	_	_	
 us	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Before	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 meeting	O	_	_	_	_	_	_	_	
@@ -6154,6 +6476,7 @@ of	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 proceedings	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Altogether	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 we	O	_	_	_	_	_	_	_	
@@ -6189,6 +6512,7 @@ results	O	_	_	_	_	_	_	_	NoSpaceAfter
 Ulster	B-LOC	_	_	_	_	_	Q93195	_	
 Timet	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Lord	O	_	_	_	_	_	_	_	
 Bishop	O	_	_	_	_	_	_	_	
@@ -6226,6 +6550,7 @@ his	O	_	_	_	_	_	_	_
 lordships	O	_	_	_	_	_	_	_	
 diocese	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 late	O	_	_	_	_	_	_	_	
 Countess	O	_	_	_	_	_	_	_	
@@ -6277,6 +6602,7 @@ the	O	_	_	_	_	_	_	_
 episcopal	O	_	_	_	_	_	_	_	
 church	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 In	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 application	O	_	_	_	_	_	_	_	
@@ -6302,8 +6628,10 @@ being	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Rev	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Fyvie	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Inverness	B-LOC	_	_	_	_	_	Q160493	_	NoSpaceAfter
@@ -6330,12 +6658,15 @@ Shetland	B-LOC	_	_	_	_	_	Q47134	_
 being	O	_	_	_	_	_	_	_	
 included	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 lnverness	B-LOC	_	_	_	_	_	Q160493	_	
 Courier	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mrs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Lawrence	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -6368,6 +6699,7 @@ church	O	_	_	_	_	_	_	_	NoSpaceAfter
 at	O	_	_	_	_	_	_	_	
 Wakefield	B-LOC	_	_	_	_	_	Q216638	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Lord	O	_	_	_	_	_	_	_	
 Dynevor	O	_	_	_	_	_	_	_	
 has	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -6442,6 +6774,7 @@ Carmarthen	B-LOC	_	_	_	_	_	Q835835	_
 Journal	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 3986886_Manchester1860
 # hipe2022:date = 1867-12-18
 # hipe2022:language = en
@@ -6466,6 +6799,7 @@ MEETINGS	O	_	_	_	_	_	_	_
 OF	O	_	_	_	_	_	_	_	
 CREDITORS	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 At	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 Manchester	B-BUILDING	_	_	_	_	_	NIL	_	
@@ -6476,16 +6810,20 @@ Athenaeum	B-BUILDING	_	_	_	_	_	Q6747276	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 George-street	B-STREET	_	_	_	_	_	NIL	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Before	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Commissioner	O	_	_	_	_	_	_	_	
 Jemmett	O	_	_	_	_	_	_	_	
 Wednesday	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 December	O	_	_	_	_	_	_	_	
 18	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Proudfoot	O	_	_	_	_	_	_	_	
 Patrick	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -6511,20 +6849,24 @@ discharge	O	_	_	_	_	_	_	_
 Before	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Registrar	O	_	_	_	_	_	_	_	
 Murray	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Wednesday	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 December	O	_	_	_	_	_	_	_	
 18	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Clayton	O	_	_	_	_	_	_	_	
 Richard	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 commission	O	_	_	_	_	_	_	_	
 agent	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Manchester	B-LOC	_	_	_	_	_	Q18125	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 adj	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -6573,6 +6915,7 @@ for	O	_	_	_	_	_	_	_
 discharge	O	_	_	_	_	_	_	_	
 1	O	_	_	_	_	_	_	_	NoSpaceAfter
 !	O	_	_	_	_	_	_	_	EndOfSentence
+
 Ford	O	_	_	_	_	_	_	_	
 John	O	_	_	_	_	_	_	_	
 P	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -6597,14 +6940,17 @@ discharge	O	_	_	_	_	_	_	_
 Before	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Registrar	O	_	_	_	_	_	_	_	
 Macrae	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Thursday	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 December	O	_	_	_	_	_	_	_	
 19	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Smith	O	_	_	_	_	_	_	_	
 John	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -6677,6 +7023,7 @@ Friday	O	_	_	_	_	_	_	_	NoSpaceAfter
 December	O	_	_	_	_	_	_	_	
 20	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mellor	O	_	_	_	_	_	_	_	
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
@@ -6696,6 +7043,7 @@ meeting	O	_	_	_	_	_	_	_
 Wood	O	_	_	_	_	_	_	_	
 R	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 P	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -6703,6 +7051,7 @@ out	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 business	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Cheetham	B-LOC	_	_	_	_	_	Q2015708	_	
 Hill	I-LOC	_	_	_	_	_	Q2015708	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -6714,6 +7063,7 @@ meeting	O	_	_	_	_	_	_	_
 Leake	O	_	_	_	_	_	_	_	
 A	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 H	O	_	_	_	_	_	_	_	
 ,	O	_	_	_	_	_	_	_	
 ironfounder	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -6750,6 +7100,7 @@ li	O	_	_	_	_	_	_	_
 Hulme	O	_	_	_	_	_	_	_	
 W	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 C	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 fishmonger	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -6855,6 +7206,7 @@ December	O	_	_	_	_	_	_	_
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Macrae	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Registrar	O	_	_	_	_	_	_	_	
@@ -6862,6 +7214,7 @@ of	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 day	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 3987617_Manchester1860
 # hipe2022:date = 1867-10-21
@@ -6934,6 +7287,7 @@ his	O	_	_	_	_	_	_	_
 sh	O	_	_	_	_	_	_	_	
 year	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 late	O	_	_	_	_	_	_	_	
 Lord	O	_	_	_	_	_	_	_	
@@ -6950,6 +7304,7 @@ the	O	_	_	_	_	_	_	_
 Right	O	_	_	_	_	_	_	_	
 Hon	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Charles	O	_	_	_	_	_	_	_	
 Abbot	O	_	_	_	_	_	_	_	
 raised	O	_	_	_	_	_	_	_	
@@ -6995,6 +7350,7 @@ of	O	_	_	_	_	_	_	_
 fifteen	O	_	_	_	_	_	_	_	
 years	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 late	O	_	_	_	_	_	_	_	
 lord	O	_	_	_	_	_	_	_	
@@ -7042,6 +7398,7 @@ return	O	_	_	_	_	_	_	_
 to	O	_	_	_	_	_	_	_	
 England	B-LOC	_	_	_	_	_	Q21	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 At	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 time	O	_	_	_	_	_	_	_	
@@ -7087,6 +7444,7 @@ of	O	_	_	_	_	_	_	_
 naval	O	_	_	_	_	_	_	_	
 administration	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 As	O	_	_	_	_	_	_	_	
 a	O	_	_	_	_	_	_	_	
 politician	O	_	_	_	_	_	_	_	
@@ -7142,6 +7500,7 @@ of	O	_	_	_	_	_	_	_
 his	O	_	_	_	_	_	_	_	
 opponents	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 During	O	_	_	_	_	_	_	_	
 Lord	O	_	_	_	_	_	_	_	
 Derbys	O	_	_	_	_	_	_	_	
@@ -7177,6 +7536,7 @@ and	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 public	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 In	O	_	_	_	_	_	_	_	
 1836	O	_	_	_	_	_	_	_	
 he	O	_	_	_	_	_	_	_	
@@ -7184,6 +7544,7 @@ married	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Hon	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Elizabeth	O	_	_	_	_	_	_	_	
 Susan	O	_	_	_	_	_	_	_	
 Law	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -7201,6 +7562,7 @@ Justice	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 England	B-LOC	_	_	_	_	_	Q21	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 In	O	_	_	_	_	_	_	_	
 private	O	_	_	_	_	_	_	_	
 life	O	_	_	_	_	_	_	_	
@@ -7209,9 +7571,11 @@ was	O	_	_	_	_	_	_	_
 universally	O	_	_	_	_	_	_	_	
 esteemed	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 Standard	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 4425427_Manchester1830
 # hipe2022:date = 1830-01-23
@@ -7240,6 +7604,7 @@ THE	O	_	_	_	_	_	_	_
 LATE	O	_	_	_	_	_	_	_	
 RIOTS	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Yesterday	O	_	_	_	_	_	_	_	
 an	O	_	_	_	_	_	_	_	
 inquiry	O	_	_	_	_	_	_	_	
@@ -7254,8 +7619,10 @@ Room	I-BUILDING	_	_	_	_	_	NIL	_	NoSpaceAfter
 before	O	_	_	_	_	_	_	_	
 T	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 B	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Addison	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Ksq	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -7296,6 +7663,7 @@ of	O	_	_	_	_	_	_	_
 May	O	_	_	_	_	_	_	_	
 last	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 persons	O	_	_	_	_	_	_	_	
 claiming	O	_	_	_	_	_	_	_	
@@ -7304,6 +7672,7 @@ compensation	O	_	_	_	_	_	_	_	NoSpaceAfter
 are	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Whittaker	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 as	O	_	_	_	_	_	_	_	
@@ -7313,6 +7682,7 @@ the	O	_	_	_	_	_	_	_
 late	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Marshall	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -7324,6 +7694,7 @@ occupied	O	_	_	_	_	_	_	_
 by	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Parker	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 in	O	_	_	_	_	_	_	_	
@@ -7331,27 +7702,33 @@ Dyche-street	B-STREET	_	_	_	_	_	NIL	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 St	B-STREET	_	_	_	_	_	NIL	_	NoSpaceAfter
 .	I-STREET	_	_	_	_	_	NIL	_	EndOfSentence
+
 Georges-road	B-STREET	_	_	_	_	_	NIL	_	NoSpaceAfter
 ;	O	_	_	_	_	_	_	_	
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Parker	O	_	_	_	_	_	_	_	
 himself	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Guest	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Harbottle	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Twiss	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 first	O	_	_	_	_	_	_	_	
 case	O	_	_	_	_	_	_	_	
@@ -7363,6 +7740,7 @@ that	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Whittaker	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 who	O	_	_	_	_	_	_	_	
@@ -7381,6 +7759,7 @@ occupied	O	_	_	_	_	_	_	_
 by	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Parker	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 on	O	_	_	_	_	_	_	_	
@@ -7423,11 +7802,13 @@ claimant	O	_	_	_	_	_	_	_	NoSpaceAfter
 and	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Aglionby	O	_	_	_	_	_	_	_	
 for	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 hundred	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	
 Birchall	O	_	_	_	_	_	_	_	
 also	O	_	_	_	_	_	_	_	
@@ -7438,6 +7819,7 @@ of	O	_	_	_	_	_	_	_
 tbe	O	_	_	_	_	_	_	_	
 county	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 sum	O	_	_	_	_	_	_	_	
 claimed	O	_	_	_	_	_	_	_	
@@ -7445,10 +7827,12 @@ by	O	_	_	_	_	_	_	_
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Whittaker	O	_	_	_	_	_	_	_	
 was	O	_	_	_	_	_	_	_	
 £3090	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 After	O	_	_	_	_	_	_	_	
 an	O	_	_	_	_	_	_	_	
 opening	O	_	_	_	_	_	_	_	
@@ -7456,6 +7840,7 @@ address	O	_	_	_	_	_	_	_
 by	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Courtenay	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 in	O	_	_	_	_	_	_	_	
@@ -7496,6 +7881,7 @@ of	O	_	_	_	_	_	_	_
 damage	O	_	_	_	_	_	_	_	
 sustained	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 claimants	O	_	_	_	_	_	_	_	
 case	O	_	_	_	_	_	_	_	
@@ -7506,6 +7892,7 @@ through	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Aglionby	O	_	_	_	_	_	_	_	
 addressed	O	_	_	_	_	_	_	_	
 tbe	O	_	_	_	_	_	_	_	
@@ -7530,11 +7917,13 @@ of	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 claim	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 He	O	_	_	_	_	_	_	_	
 then	O	_	_	_	_	_	_	_	
 called	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 BeUhOuse	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 jun	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -7542,8 +7931,10 @@ jun	O	_	_	_	_	_	_	_	NoSpaceAfter
 and	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 R	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Lane	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 both	O	_	_	_	_	_	_	_	
@@ -7572,6 +7963,7 @@ claimed	O	_	_	_	_	_	_	_
 by	O	_	_	_	_	_	_	_	
 £340	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 assessor	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -7611,6 +8003,7 @@ to	O	_	_	_	_	_	_	_
 be	O	_	_	_	_	_	_	_	
 awarded	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 jury	O	_	_	_	_	_	_	_	
 after	O	_	_	_	_	_	_	_	
@@ -7633,6 +8026,7 @@ sum	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 £2050	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 inquiry	O	_	_	_	_	_	_	_	
 lasted	O	_	_	_	_	_	_	_	
@@ -7649,6 +8043,7 @@ in	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 afternoon	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 court	O	_	_	_	_	_	_	_	
 then	O	_	_	_	_	_	_	_	
@@ -7682,6 +8077,7 @@ New	B-BUILDING	_	_	_	_	_	NIL	_
 Bailey	I-BUILDING	_	_	_	_	_	NIL	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 4593758_Manchester1860
 # hipe2022:date = 1862-11-29
 # hipe2022:language = en
@@ -7704,6 +8100,7 @@ Bailey	I-BUILDING	_	_	_	_	_	NIL	_	NoSpaceAfter
 # topres19th:place_publication = Manchester
 GREECE	B-LOC	_	_	_	_	_	Q41	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	NoSpaceAfter
 "	O	_	_	_	_	_	_	_	
 latest	O	_	_	_	_	_	_	_	
@@ -7761,6 +8158,7 @@ influence	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 election	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 elections	O	_	_	_	_	_	_	_	
 to	O	_	_	_	_	_	_	_	
@@ -7781,6 +8179,7 @@ the	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 December	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Several	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -7797,6 +8196,7 @@ a	O	_	_	_	_	_	_	_
 brilliant	O	_	_	_	_	_	_	_	
 ovation	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Tranquillitycontinues	O	_	_	_	_	_	_	_	
 to	O	_	_	_	_	_	_	_	
 prevail	O	_	_	_	_	_	_	_	
@@ -7804,6 +8204,7 @@ thiOiUhout	O	_	_	_	_	_	_	_
 tbe	O	_	_	_	_	_	_	_	
 country	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Athens	B-LOC	_	_	_	_	_	Q1524	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Nov	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -7844,6 +8245,7 @@ any	O	_	_	_	_	_	_	_
 undue	O	_	_	_	_	_	_	_	
 influence	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 revolutionary	O	_	_	_	_	_	_	_	
 party	O	_	_	_	_	_	_	_	
@@ -7860,6 +8262,7 @@ to	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 government	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Times	O	_	_	_	_	_	_	_	
 has	O	_	_	_	_	_	_	_	
@@ -7876,6 +8279,7 @@ Nov	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 23	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 A	O	_	_	_	_	_	_	_	
 great	O	_	_	_	_	_	_	_	
 demonstration	O	_	_	_	_	_	_	_	
@@ -7884,6 +8288,7 @@ made	O	_	_	_	_	_	_	_
 last	O	_	_	_	_	_	_	_	
 night	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 A	O	_	_	_	_	_	_	_	
 large	O	_	_	_	_	_	_	_	
 crowd	O	_	_	_	_	_	_	_	
@@ -7915,10 +8320,12 @@ depart	O	_	_	_	_	_	_	_
 until	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Scarlett	O	_	_	_	_	_	_	_	
 addressed	O	_	_	_	_	_	_	_	
 them	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Thanking	O	_	_	_	_	_	_	_	
 them	O	_	_	_	_	_	_	_	
 for	O	_	_	_	_	_	_	_	
@@ -7955,6 +8362,7 @@ wishes	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 England	B-LOC	_	_	_	_	_	Q21	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 crowd	O	_	_	_	_	_	_	_	
 then	O	_	_	_	_	_	_	_	
@@ -7966,6 +8374,7 @@ orderly	O	_	_	_	_	_	_	_
 manner	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 "	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 4609190_Manchester1860
 # hipe2022:date = 1866-07-03
@@ -7990,9 +8399,11 @@ manner	O	_	_	_	_	_	_	_	NoSpaceAfter
 ELECTION	O	_	_	_	_	_	_	_	
 INTELLIGENCE	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Dublin	B-LOC	_	_	_	_	_	Q1761	_	
 University	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 We	O	_	_	_	_	_	_	_	
 have	O	_	_	_	_	_	_	_	
@@ -8002,10 +8413,13 @@ stating	O	_	_	_	_	_	_	_
 that	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 H	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 E	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Chatterton	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 will	O	_	_	_	_	_	_	_	
@@ -8028,6 +8442,7 @@ a	O	_	_	_	_	_	_	_
 vacancy	O	_	_	_	_	_	_	_	
 occurring	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 There	O	_	_	_	_	_	_	_	
 are	O	_	_	_	_	_	_	_	
 now	O	_	_	_	_	_	_	_	
@@ -8037,10 +8452,13 @@ in	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 field—Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 E	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Walsh	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Q.C	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -8052,13 +8470,16 @@ Grogan	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Chatterton	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 R	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Longtield	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 —	O	_	_	_	_	_	_	_	
@@ -8070,6 +8491,7 @@ Practices	O	_	_	_	_	_	_	_
 at	O	_	_	_	_	_	_	_	
 Elections	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 A	O	_	_	_	_	_	_	_	
 return	O	_	_	_	_	_	_	_	
@@ -8097,6 +8519,7 @@ elections	O	_	_	_	_	_	_	_
 since	O	_	_	_	_	_	_	_	
 1852	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Six	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 these	O	_	_	_	_	_	_	_	
@@ -8114,6 +8537,7 @@ three	O	_	_	_	_	_	_	_
 in	O	_	_	_	_	_	_	_	
 1859	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 total	O	_	_	_	_	_	_	_	
 expenses	O	_	_	_	_	_	_	_	
@@ -8158,6 +8582,7 @@ printing	O	_	_	_	_	_	_	_
 and	O	_	_	_	_	_	_	_	
 stationery	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Eight	O	_	_	_	_	_	_	_	
 prosecutions	O	_	_	_	_	_	_	_	
 were	O	_	_	_	_	_	_	_	
@@ -8194,11 +8619,13 @@ course	O	_	_	_	_	_	_	_	NoSpaceAfter
 meant	O	_	_	_	_	_	_	_	
 nothing	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Helston	B-LOC	_	_	_	_	_	Q1012535	_	
 Election	O	_	_	_	_	_	_	_	
 Committee	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 The	O	_	_	_	_	_	_	_	
 Helston	B-LOC	_	_	_	_	_	Q1012535	_	
@@ -8217,6 +8644,7 @@ a	O	_	_	_	_	_	_	_
 considerable	O	_	_	_	_	_	_	_	
 time	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 After	O	_	_	_	_	_	_	_	
 disposing	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -8251,6 +8679,7 @@ be	O	_	_	_	_	_	_	_
 proceeded	O	_	_	_	_	_	_	_	
 with	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Twenty	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -8263,6 +8692,7 @@ member	O	_	_	_	_	_	_	_
 (	O	_	_	_	_	_	_	_	NoSpaceAfter
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Campbell	O	_	_	_	_	_	_	_	NoSpaceAfter
 )	O	_	_	_	_	_	_	_	
 are	O	_	_	_	_	_	_	_	
@@ -8280,6 +8710,7 @@ recorded	O	_	_	_	_	_	_	_
 for	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Baliol	O	_	_	_	_	_	_	_	
 Brett	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -8301,6 +8732,7 @@ return	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Campbell	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 are	O	_	_	_	_	_	_	_	
@@ -8314,6 +8746,7 @@ gentleman	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 _	O	_	_	_	_	_	_	_	NoSpaceAfter
 _	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 4941186_Ashton-under-Lyne1860
 # hipe2022:date = 1869-07-17
@@ -8337,11 +8770,13 @@ _	O	_	_	_	_	_	_	_	EndOfSentence
 # topres19th:place_publication = Ashton-under-Lyne
 DENTON	B-LOC	_	_	_	_	_	Q2023476	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Free	O	_	_	_	_	_	_	_	
 Methodist	O	_	_	_	_	_	_	_	
 Mission	O	_	_	_	_	_	_	_	
 Sermons	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 Two	O	_	_	_	_	_	_	_	
 sermons	O	_	_	_	_	_	_	_	
@@ -8367,13 +8802,16 @@ by	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Rev	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Wilson	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 Manchester	B-LOC	_	_	_	_	_	Q18125	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 On	O	_	_	_	_	_	_	_	
 Monday	O	_	_	_	_	_	_	_	
 evening	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -8395,8 +8833,10 @@ the	O	_	_	_	_	_	_	_
 same	O	_	_	_	_	_	_	_	
 funds	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Councillor	O	_	_	_	_	_	_	_	
 Hill	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -8411,27 +8851,34 @@ and	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Revs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Dr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Dixon	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Waddington	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Thompson	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 G	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Hartley	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Penny	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
@@ -8441,10 +8888,12 @@ addressed	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 meeting	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Tea-party	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Entertainment	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 On	O	_	_	_	_	_	_	_	
 Saturday	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -8472,8 +8921,10 @@ of	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 school	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 John	O	_	_	_	_	_	_	_	
 Lever	O	_	_	_	_	_	_	_	
 occupied	O	_	_	_	_	_	_	_	
@@ -8489,6 +8940,7 @@ by	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Revs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 John	O	_	_	_	_	_	_	_	
 Colwell	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -8497,17 +8949,21 @@ Oldham	B-LOC	_	_	_	_	_	Q202628	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Waddington	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 G	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Hartley	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 John	O	_	_	_	_	_	_	_	
 Pickstone	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -8517,6 +8973,7 @@ Hyde	B-LOC	_	_	_	_	_	Q2080165	_	NoSpaceAfter
 and	O	_	_	_	_	_	_	_	
 others	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 A	O	_	_	_	_	_	_	_	
 very	O	_	_	_	_	_	_	_	
 good	O	_	_	_	_	_	_	_	
@@ -8542,6 +8999,7 @@ the	O	_	_	_	_	_	_	_
 chapel	O	_	_	_	_	_	_	_	
 choir	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 About	O	_	_	_	_	_	_	_	
 170	O	_	_	_	_	_	_	_	
 sat	O	_	_	_	_	_	_	_	
@@ -8549,6 +9007,7 @@ down	O	_	_	_	_	_	_	_
 to	O	_	_	_	_	_	_	_	
 tea	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 5378394_Manchester1820
 # hipe2022:date = 1824-05-11
@@ -8577,11 +9036,13 @@ Monday	O	_	_	_	_	_	_	_	NoSpaceAfter
 s	O	_	_	_	_	_	_	_	
 Posts	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 LONDON—May	B-LOC	_	_	_	_	_	Q84	_	
 8	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 1824	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Committee	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -8611,6 +9072,7 @@ I	O	_	_	_	_	_	_	_	NoSpaceAfter
 evais	O	_	_	_	_	_	_	_	
 Loan	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Drawing-Room	O	_	_	_	_	_	_	_	
 which	O	_	_	_	_	_	_	_	
@@ -8653,6 +9115,7 @@ as	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 l.ith	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Affair	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 Honour	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -8662,6 +9125,7 @@ Honour	O	_	_	_	_	_	_	_	NoSpaceAfter
 Tenth	O	_	_	_	_	_	_	_	
 Hutson	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 In	O	_	_	_	_	_	_	_	
 consequence	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -8671,6 +9135,7 @@ delivered	O	_	_	_	_	_	_	_
 from	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Battier	O	_	_	_	_	_	_	_	
 (	O	_	_	_	_	_	_	_	NoSpaceAfter
 late	O	_	_	_	_	_	_	_	
@@ -8700,8 +9165,10 @@ miles	O	_	_	_	_	_	_	_
 from	O	_	_	_	_	_	_	_	
 town	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Battier	O	_	_	_	_	_	_	_	
 was	O	_	_	_	_	_	_	_	
 attended	O	_	_	_	_	_	_	_	
@@ -8721,10 +9188,13 @@ Hardinge	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Bart	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 M	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 P	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 pistols	O	_	_	_	_	_	_	_	
 having	O	_	_	_	_	_	_	_	
@@ -8748,6 +9218,7 @@ ire	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Battier	O	_	_	_	_	_	_	_	
 (	O	_	_	_	_	_	_	_	NoSpaceAfter
 as	O	_	_	_	_	_	_	_	
@@ -8769,6 +9240,7 @@ in	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 pan	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Noble	O	_	_	_	_	_	_	_	
 Marquis	O	_	_	_	_	_	_	_	
@@ -8782,6 +9254,7 @@ red	O	_	_	_	_	_	_	_
 that	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Battier	O	_	_	_	_	_	_	_	
 should	O	_	_	_	_	_	_	_	
 be	O	_	_	_	_	_	_	_	
@@ -8796,6 +9269,7 @@ latter	O	_	_	_	_	_	_	_
 gentleman	O	_	_	_	_	_	_	_	
 refused	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 A	O	_	_	_	_	_	_	_	
 reconciliation	O	_	_	_	_	_	_	_	
 in	O	_	_	_	_	_	_	_	
@@ -8843,6 +9317,7 @@ ia	O	_	_	_	_	_	_	_
 called	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 8170742_Ashton-under-Lyne1860
 # hipe2022:date = 1864-12-10
 # hipe2022:language = en
@@ -8871,9 +9346,11 @@ ATO	O	_	_	_	_	_	_	_
 CONSULTATION	O	_	_	_	_	_	_	_	
 FEE	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 Messrs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 SMITH	O	_	_	_	_	_	_	_	
 will	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -8955,6 +9432,7 @@ treatment	O	_	_	_	_	_	_	_
 and	O	_	_	_	_	_	_	_	
 cure	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 WHO	O	_	_	_	_	_	_	_	
 TO	O	_	_	_	_	_	_	_	
 CONSULT	O	_	_	_	_	_	_	_	
@@ -9050,6 +9528,7 @@ restoration	O	_	_	_	_	_	_	_
 to	O	_	_	_	_	_	_	_	
 health	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Post	O	_	_	_	_	_	_	_	
 free	O	_	_	_	_	_	_	_	
 (	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -9070,6 +9549,7 @@ for	O	_	_	_	_	_	_	_
 one	O	_	_	_	_	_	_	_	
 stamp	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Address	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -9077,6 +9557,7 @@ J	O	_	_	_	_	_	_	_	NoSpaceAfter
 and	O	_	_	_	_	_	_	_	
 G	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Smith	O	_	_	_	_	_	_	_	
 S	O	_	_	_	_	_	_	_	
 Burton	O	_	_	_	_	_	_	_	
@@ -9091,12 +9572,14 @@ Place	I-STREET	_	_	_	_	_	NIL	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Ashton-under-Lyne	B-LOC	_	_	_	_	_	Q659803	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 cent	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 London	B-LOC	_	_	_	_	_	Q84	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 W.C	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 8199709_Ashton-under-Lyne1860
 # hipe2022:date = 1862-08-09
@@ -9120,6 +9603,7 @@ W.C	O	_	_	_	_	_	_	_	NoSpaceAfter
 # topres19th:place_publication = Ashton-under-Lyne
 NOTICE	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 REGULAR	O	_	_	_	_	_	_	_	
 WEEKLY	O	_	_	_	_	_	_	_	
@@ -9127,8 +9611,10 @@ ATTENDANCE	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 TEETH	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 TEETH	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Messrs	O	_	_	_	_	_	_	_	
 molloy	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -9172,10 +9658,12 @@ residence	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Bostock	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Chemist	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 They	O	_	_	_	_	_	_	_	
 continue	O	_	_	_	_	_	_	_	
 to	O	_	_	_	_	_	_	_	
@@ -9202,6 +9690,7 @@ usefulness	O	_	_	_	_	_	_	_
 in	O	_	_	_	_	_	_	_	
 mastication	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Their	O	_	_	_	_	_	_	_	
 method	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -9216,8 +9705,10 @@ all	O	_	_	_	_	_	_	_
 painful	O	_	_	_	_	_	_	_	
 operations	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mersrs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Molloy	O	_	_	_	_	_	_	_	NoSpaceAfter
 ’	O	_	_	_	_	_	_	_	NoSpaceAfter
 s	O	_	_	_	_	_	_	_	
@@ -9270,6 +9761,7 @@ sarnnk	O	_	_	_	_	_	_	_
 or	O	_	_	_	_	_	_	_	
 wasted	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 By	O	_	_	_	_	_	_	_	
 theuseof	O	_	_	_	_	_	_	_	
 this	O	_	_	_	_	_	_	_	
@@ -9327,6 +9819,7 @@ the	O	_	_	_	_	_	_	_
 greatest	O	_	_	_	_	_	_	_	
 ease	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Tneir	O	_	_	_	_	_	_	_	
 WHITE	O	_	_	_	_	_	_	_	
 ENAMEL	O	_	_	_	_	_	_	_	
@@ -9355,12 +9848,14 @@ for	O	_	_	_	_	_	_	_
 many	O	_	_	_	_	_	_	_	
 years	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Terms—A	O	_	_	_	_	_	_	_	
 single	O	_	_	_	_	_	_	_	
 teoth	O	_	_	_	_	_	_	_	
 from	O	_	_	_	_	_	_	_	
 ss	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Attendance	O	_	_	_	_	_	_	_	
 every	O	_	_	_	_	_	_	_	
 Saturday	O	_	_	_	_	_	_	_	
@@ -9370,6 +9865,7 @@ at	O	_	_	_	_	_	_	_
 Stamford-street	B-STREET	_	_	_	_	_	NIL	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Ashton	B-LOC	_	_	_	_	_	Q659803	_	EndOfSentence
+
 
 # hipe2022:document_id = 8201399_Ashton-under-Lyne1860
 # hipe2022:date = 1862-12-27
@@ -9400,20 +9896,25 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 J.P	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Banker	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Ashton	O	_	_	_	_	_	_	_	
 Bank	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Honorary	O	_	_	_	_	_	_	_	
 Secretaries	O	_	_	_	_	_	_	_	NoSpaceAfter
 :	O	_	_	_	_	_	_	_	
 Rev	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 F	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 H	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 WILLIAMS	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 M.A	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -9421,6 +9922,7 @@ M.A	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 ROBT	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 EVANS	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Solr	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -9429,15 +9931,20 @@ Solr	O	_	_	_	_	_	_	_	NoSpaceAfter
 and	O	_	_	_	_	_	_	_	
 W	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 A	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 HYDE	O	_	_	_	_	_	_	_	EndOfSentence
+
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 £	O	_	_	_	_	_	_	_	
 s	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 d	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Subscriptions	O	_	_	_	_	_	_	_	
 received	O	_	_	_	_	_	_	_	
 for	O	_	_	_	_	_	_	_	
@@ -9497,8 +10004,10 @@ donation	O	_	_	_	_	_	_	_	NoSpaceAfter
 0	O	_	_	_	_	_	_	_	
 Messrs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 S	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Heginbottom	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Sons	O	_	_	_	_	_	_	_	
@@ -9543,6 +10052,7 @@ the	O	_	_	_	_	_	_	_
 Honorary	O	_	_	_	_	_	_	_	
 Secretaries	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 THE	O	_	_	_	_	_	_	_	
 BOARD	O	_	_	_	_	_	_	_	
 OF	O	_	_	_	_	_	_	_	
@@ -9570,14 +10080,17 @@ articles	O	_	_	_	_	_	_	_
 Butter	O	_	_	_	_	_	_	_	
 percwt	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Cheese	O	_	_	_	_	_	_	_	
 per	O	_	_	_	_	_	_	_	
 cwt	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Sugar	O	_	_	_	_	_	_	_	
 per	O	_	_	_	_	_	_	_	
 cwt	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Syrup	O	_	_	_	_	_	_	_	
 Treacle	O	_	_	_	_	_	_	_	
 per	O	_	_	_	_	_	_	_	
@@ -9597,6 +10110,7 @@ ficacic	O	_	_	_	_	_	_	_
 per	O	_	_	_	_	_	_	_	
 cwt	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Soap	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 washing	O	_	_	_	_	_	_	_	
@@ -9608,16 +10122,19 @@ scouring	O	_	_	_	_	_	_	_	NoSpaceAfter
 per	O	_	_	_	_	_	_	_	
 cwt	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 S	O	_	_	_	_	_	_	_	NoSpaceAfter
 °	O	_	_	_	_	_	_	_	NoSpaceAfter
 da	O	_	_	_	_	_	_	_	
 per	O	_	_	_	_	_	_	_	
 cwt	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Currants	O	_	_	_	_	_	_	_	
 per	O	_	_	_	_	_	_	_	
 doz	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Raisins	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 large	O	_	_	_	_	_	_	_	
@@ -9630,10 +10147,12 @@ small	O	_	_	_	_	_	_	_
 per	O	_	_	_	_	_	_	_	
 doz	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Rice	O	_	_	_	_	_	_	_	
 per	O	_	_	_	_	_	_	_	
 cwt	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Barley	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 best	O	_	_	_	_	_	_	_	
@@ -9641,6 +10160,7 @@ pearl	O	_	_	_	_	_	_	_
 per	O	_	_	_	_	_	_	_	
 cwt	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Sago	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 large	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -9654,15 +10174,18 @@ fine	O	_	_	_	_	_	_	_	NoSpaceAfter
 per	O	_	_	_	_	_	_	_	
 cwt	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Arrowroot	O	_	_	_	_	_	_	_	
 Tea	O	_	_	_	_	_	_	_	
 per	O	_	_	_	_	_	_	_	
 lb	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Coffee	O	_	_	_	_	_	_	_	
 per	O	_	_	_	_	_	_	_	
 lb	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Good	O	_	_	_	_	_	_	_	
 Beef	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
@@ -9670,22 +10193,26 @@ good	O	_	_	_	_	_	_	_
 Mutton	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Bread	O	_	_	_	_	_	_	_	
 per	O	_	_	_	_	_	_	_	
 lb	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Flour	O	_	_	_	_	_	_	_	
 per	O	_	_	_	_	_	_	_	
 sack	O	_	_	_	_	_	_	_	
 or	O	_	_	_	_	_	_	_	
 load	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Meal	O	_	_	_	_	_	_	_	
 per	O	_	_	_	_	_	_	_	
 sack	O	_	_	_	_	_	_	_	
 or	O	_	_	_	_	_	_	_	
 load	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 House	O	_	_	_	_	_	_	_	
 Coal	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
@@ -9696,6 +10223,7 @@ mixed	O	_	_	_	_	_	_	_	NoSpaceAfter
 per	O	_	_	_	_	_	_	_	
 ton	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Samples	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -9723,8 +10251,10 @@ addressed	O	_	_	_	_	_	_	_
 to	O	_	_	_	_	_	_	_	
 H	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 T	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Damton	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -9732,6 +10262,7 @@ Esq	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Hon	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Sec	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -9753,6 +10284,7 @@ December	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 1862	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Board	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -9767,6 +10299,7 @@ the	O	_	_	_	_	_	_	_
 lowest	O	_	_	_	_	_	_	_	
 tenders	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Forms	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 tender	O	_	_	_	_	_	_	_	
@@ -9776,6 +10309,7 @@ had	O	_	_	_	_	_	_	_
 on	O	_	_	_	_	_	_	_	
 application	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 By	O	_	_	_	_	_	_	_	
 order	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -9784,6 +10318,7 @@ KELSALL	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Sec	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Clje	O	_	_	_	_	_	_	_	
 Sbljton	O	_	_	_	_	_	_	_	NoSpaceAfter
 :	O	_	_	_	_	_	_	_	
@@ -9791,6 +10326,7 @@ Sbljton	O	_	_	_	_	_	_	_	NoSpaceAfter
 Stalgkxbgf	O	_	_	_	_	_	_	_	
 morte	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 8241288_Manchester1820
 # hipe2022:date = 1823-03-11
@@ -9820,6 +10356,7 @@ r	O	_	_	_	_	_	_	_
 Care	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 ”	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 A	O	_	_	_	_	_	_	_	
 short	O	_	_	_	_	_	_	_	
@@ -9870,8 +10407,10 @@ was	O	_	_	_	_	_	_	_
 in	O	_	_	_	_	_	_	_	
 child-bed	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 W	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 who	O	_	_	_	_	_	_	_	
@@ -9897,6 +10436,7 @@ to	O	_	_	_	_	_	_	_
 pay	O	_	_	_	_	_	_	_	
 him	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 countryman	O	_	_	_	_	_	_	_	
 answered	O	_	_	_	_	_	_	_	
@@ -9917,8 +10457,10 @@ be	O	_	_	_	_	_	_	_
 bis	O	_	_	_	_	_	_	_	
 reward	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 W	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 consequently	O	_	_	_	_	_	_	_	
@@ -9941,6 +10483,7 @@ under	O	_	_	_	_	_	_	_
 his	O	_	_	_	_	_	_	_	
 hands	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Soon	O	_	_	_	_	_	_	_	
 after	O	_	_	_	_	_	_	_	
 her	O	_	_	_	_	_	_	_	
@@ -9948,6 +10491,7 @@ death	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 \	O	_	_	_	_	_	_	_	NoSpaceAfter
 V	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
@@ -9968,6 +10512,7 @@ account	O	_	_	_	_	_	_	_
 against	O	_	_	_	_	_	_	_	
 him	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 man	O	_	_	_	_	_	_	_	
 appeared	O	_	_	_	_	_	_	_	
@@ -9979,6 +10524,7 @@ inquired	O	_	_	_	_	_	_	_
 for	O	_	_	_	_	_	_	_	
 what	O	_	_	_	_	_	_	_	NoSpaceAfter
 ?	O	_	_	_	_	_	_	_	EndOfSentence
+
 On	O	_	_	_	_	_	_	_	
 being	O	_	_	_	_	_	_	_	
 informed	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -10002,6 +10548,7 @@ cure	O	_	_	_	_	_	_	_
 my	O	_	_	_	_	_	_	_	
 wife	O	_	_	_	_	_	_	_	NoSpaceAfter
 ?	O	_	_	_	_	_	_	_	EndOfSentence
+
 *	O	_	_	_	_	_	_	_	
 “	O	_	_	_	_	_	_	_	
 N	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -10084,6 +10631,7 @@ and	O	_	_	_	_	_	_	_
 walked	O	_	_	_	_	_	_	_	
 away	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 /	O	_	_	_	_	_	_	_	NoSpaceAfter
 hr	O	_	_	_	_	_	_	_	
 mint	O	_	_	_	_	_	_	_	
@@ -10095,6 +10643,7 @@ nn	O	_	_	_	_	_	_	_	NoSpaceAfter
 u-a	O	_	_	_	_	_	_	_	
 re	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 The	O	_	_	_	_	_	_	_	
 following	O	_	_	_	_	_	_	_	
@@ -10122,6 +10671,7 @@ her	O	_	_	_	_	_	_	_
 other	O	_	_	_	_	_	_	_	
 advantages	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Great	B-LOC	_	_	_	_	_	Q23666	_	
 Britain	I-LOC	_	_	_	_	_	Q23666	_	
 possesses	O	_	_	_	_	_	_	_	
@@ -10131,6 +10681,7 @@ article	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 hardware	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Some	O	_	_	_	_	_	_	_	
 time	O	_	_	_	_	_	_	_	
 ago	O	_	_	_	_	_	_	_	
@@ -10195,6 +10746,7 @@ the	O	_	_	_	_	_	_	_
 noble	O	_	_	_	_	_	_	_	
 visitor	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 At	O	_	_	_	_	_	_	_	
 length	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -10233,6 +10785,7 @@ that	O	_	_	_	_	_	_	_
 bin	O	_	_	_	_	_	_	_	
 e	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 proprietor	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -10273,6 +10826,7 @@ suffer	O	_	_	_	_	_	_	_
 no	O	_	_	_	_	_	_	_	
 damage	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 It	O	_	_	_	_	_	_	_	
 was	O	_	_	_	_	_	_	_	
 accordingly	O	_	_	_	_	_	_	_	
@@ -10317,9 +10871,11 @@ where	O	_	_	_	_	_	_	_
 they	O	_	_	_	_	_	_	_	
 stood	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 London	B-LOC	_	_	_	_	_	Q84	_	
 Drinking	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 —	O	_	_	_	_	_	_	_	NoSpaceAfter
 lt	O	_	_	_	_	_	_	_	
 is	O	_	_	_	_	_	_	_	
@@ -10356,6 +10912,7 @@ the	O	_	_	_	_	_	_	_
 metropolis	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 8254267_Manchester1800
 # hipe2022:date = 1808-03-15
 # hipe2022:language = en
@@ -10389,6 +10946,7 @@ GAZETTE	O	_	_	_	_	_	_	_	NoSpaceAfter
 March	O	_	_	_	_	_	_	_	
 8,1S03	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Admiralty-Office	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 March	O	_	_	_	_	_	_	_	
@@ -10396,6 +10954,7 @@ March	O	_	_	_	_	_	_	_
 ,	O	_	_	_	_	_	_	_	
 1808	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Copy	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 a	O	_	_	_	_	_	_	_	
@@ -10410,8 +10969,10 @@ Cochrane	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 K	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 B	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Commander	O	_	_	_	_	_	_	_	
 in	O	_	_	_	_	_	_	_	
 Chief	O	_	_	_	_	_	_	_	
@@ -10433,8 +10994,10 @@ tbe	O	_	_	_	_	_	_	_
 Honourable	O	_	_	_	_	_	_	_	
 W	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 IV	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Pole	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 dated	O	_	_	_	_	_	_	_	
@@ -10451,6 +11014,7 @@ Tortola	B-LOC	_	_	_	_	_	Q827604	_	NoSpaceAfter
 January	O	_	_	_	_	_	_	_	
 5	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 SIR	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 I	O	_	_	_	_	_	_	_	
@@ -10482,6 +11046,7 @@ of	O	_	_	_	_	_	_	_
 a	O	_	_	_	_	_	_	_	
 privateer	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 I	O	_	_	_	_	_	_	_	
 have	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -10492,13 +11057,16 @@ be	O	_	_	_	_	_	_	_	NoSpaceAfter
 &	O	_	_	_	_	_	_	_	NoSpaceAfter
 c	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 (	O	_	_	_	_	_	_	_	NoSpaceAfter
 Signed	O	_	_	_	_	_	_	_	NoSpaceAfter
 )	O	_	_	_	_	_	_	_	
 ALEX	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 COCHRANE	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 His	O	_	_	_	_	_	_	_	
 Majesty	O	_	_	_	_	_	_	_	
 Sloop	O	_	_	_	_	_	_	_	
@@ -10571,29 +11139,35 @@ of	O	_	_	_	_	_	_	_
 fiftyfive	O	_	_	_	_	_	_	_	
 men	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 I	O	_	_	_	_	_	_	_	
 have	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 &	O	_	_	_	_	_	_	_	NoSpaceAfter
 c	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 (	O	_	_	_	_	_	_	_	NoSpaceAfter
 Signed	O	_	_	_	_	_	_	_	NoSpaceAfter
 )	O	_	_	_	_	_	_	_	
 JOSEPH	O	_	_	_	_	_	_	_	
 SPEAR	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Hon	O	_	_	_	_	_	_	_	
 Sir	O	_	_	_	_	_	_	_	
 Alex	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Cochrane	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 K	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 B	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Reja	O	_	_	_	_	_	_	_	
 Admiral	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -10602,6 +11176,7 @@ White	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 fcrV	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Admiralty-Office	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 March	O	_	_	_	_	_	_	_	
@@ -10609,6 +11184,7 @@ March	O	_	_	_	_	_	_	_
 ,	O	_	_	_	_	_	_	_	
 1808	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Extract	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 a	O	_	_	_	_	_	_	_	
@@ -10628,10 +11204,13 @@ to	O	_	_	_	_	_	_	_
 tbe	O	_	_	_	_	_	_	_	
 Hon	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 W	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 W	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Pole	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 dated	O	_	_	_	_	_	_	_	
@@ -10642,6 +11221,7 @@ tic	O	_	_	_	_	_	_	_
 Ath	O	_	_	_	_	_	_	_	
 instant	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 I	O	_	_	_	_	_	_	_	
 beg	O	_	_	_	_	_	_	_	
 leave	O	_	_	_	_	_	_	_	
@@ -10668,6 +11248,7 @@ Bart	O	_	_	_	_	_	_	_	NoSpaceAfter
 and	O	_	_	_	_	_	_	_	
 K	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 B	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 acquainting	O	_	_	_	_	_	_	_	
@@ -10691,6 +11272,7 @@ twenty	O	_	_	_	_	_	_	_
 eight	O	_	_	_	_	_	_	_	
 men	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Extract	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 a	O	_	_	_	_	_	_	_	
@@ -10720,6 +11302,7 @@ Bart	O	_	_	_	_	_	_	_
 and	O	_	_	_	_	_	_	_	
 K	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 B	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 dated	O	_	_	_	_	_	_	_	
@@ -10731,6 +11314,7 @@ March	O	_	_	_	_	_	_	_	NoSpaceAfter
 -	O	_	_	_	_	_	_	_	NoSpaceAfter
 08	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 His	O	_	_	_	_	_	_	_	
 Majestys	O	_	_	_	_	_	_	_	
 sloop	O	_	_	_	_	_	_	_	
@@ -10749,6 +11333,7 @@ Islands	I-LOC	_	_	_	_	_	NIL	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 LAraira	O	_	_	_	_	_	_	_	NoSpaceAfter
 !	O	_	_	_	_	_	_	_	EndOfSentence
+
 Gantheaume	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 French	O	_	_	_	_	_	_	_	
@@ -10773,6 +11358,7 @@ taken	O	_	_	_	_	_	_	_
 any	O	_	_	_	_	_	_	_	
 thing	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 8254528_Manchester1800
 # hipe2022:date = 1808-11-08
@@ -10799,12 +11385,14 @@ the	O	_	_	_	_	_	_	_
 LONDON	O	_	_	_	_	_	_	_	
 GAZETTE	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 No	O	_	_	_	_	_	_	_	NoSpaceAfter
 *	O	_	_	_	_	_	_	_	NoSpaceAfter
 -	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
 1808	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Admiralty-Office	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 November	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -10814,6 +11402,7 @@ November	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 IS08	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Copy	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 a	O	_	_	_	_	_	_	_	
@@ -10857,6 +11446,7 @@ October	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 1808	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 SIR	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 I	O	_	_	_	_	_	_	_	
@@ -10883,6 +11473,7 @@ order	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 on	O	_	_	_	_	_	_	_	
 !	O	_	_	_	_	_	_	_	EndOfSentence
+
 the	O	_	_	_	_	_	_	_	
 29th	O	_	_	_	_	_	_	_	
 instant	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -10892,6 +11483,7 @@ island	O	_	_	_	_	_	_	_
 bearing	O	_	_	_	_	_	_	_	
 E	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 I	O	_	_	_	_	_	_	_	
 N	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	
@@ -10961,6 +11553,7 @@ very	O	_	_	_	_	_	_	_
 considerable	O	_	_	_	_	_	_	_	
 value	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Having	O	_	_	_	_	_	_	_	
 deceived	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -11064,6 +11657,7 @@ merchant	O	_	_	_	_	_	_	_
 vessel	O	_	_	_	_	_	_	_	
 sale	O	_	_	_	_	_	_	_	
 !	O	_	_	_	_	_	_	_	EndOfSentence
+
 to	O	_	_	_	_	_	_	_	
 this	O	_	_	_	_	_	_	_	
 place	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -11076,6 +11670,7 @@ ol	O	_	_	_	_	_	_	_
 her	O	_	_	_	_	_	_	_	
 destination	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Jena	O	_	_	_	_	_	_	_	
 was	O	_	_	_	_	_	_	_	
@@ -11097,6 +11692,7 @@ taken	O	_	_	_	_	_	_	_
 any	O	_	_	_	_	_	_	_	
 thing	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 I	O	_	_	_	_	_	_	_	
 have	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -11107,13 +11703,16 @@ be	O	_	_	_	_	_	_	_	NoSpaceAfter
 &	O	_	_	_	_	_	_	_	NoSpaceAfter
 c	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 (	O	_	_	_	_	_	_	_	NoSpaceAfter
 Signed	O	_	_	_	_	_	_	_	NoSpaceAfter
 )	O	_	_	_	_	_	_	_	
 ROBT	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 FORBES	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 8258341_Manchester1780
 # hipe2022:date = 1783-04-15
@@ -11152,13 +11751,16 @@ GAZETTE	O	_	_	_	_	_	_	_	NoSpaceAfter
 April	O	_	_	_	_	_	_	_	
 8	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 St	B-LOC	_	_	_	_	_	Q124234	_	NoSpaceAfter
 .	I-LOC	_	_	_	_	_	Q124234	_	EndOfSentence
+
 Jamess	B-LOC	_	_	_	_	_	Q124234	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 April	O	_	_	_	_	_	_	_	
 7	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 THIS	O	_	_	_	_	_	_	_	
 Day	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -11192,11 +11794,13 @@ the	O	_	_	_	_	_	_	_
 Board	O	_	_	_	_	_	_	_	
 accordingly	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Whitehall	B-LOC	_	_	_	_	_	Q214820	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 April	O	_	_	_	_	_	_	_	
 8	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 King	O	_	_	_	_	_	_	_	
 has	O	_	_	_	_	_	_	_	
@@ -11282,6 +11886,7 @@ ther.unto	O	_	_	_	_	_	_	_
 refpeflLiyely	O	_	_	_	_	_	_	_	
 belonging	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 KaBf	O	_	_	_	_	_	_	_	
 ht	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -11315,6 +11920,7 @@ and	O	_	_	_	_	_	_	_
 Laid	O	_	_	_	_	_	_	_	
 Forces	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 St	B-LOC	_	_	_	_	_	Q124234	_	NoSpaceAfter
 ,	I-LOC	_	_	_	_	_	Q124234	_	
 Jamess	I-LOC	_	_	_	_	_	Q124234	_	NoSpaceAfter
@@ -11322,6 +11928,7 @@ Jamess	I-LOC	_	_	_	_	_	Q124234	_	NoSpaceAfter
 April	O	_	_	_	_	_	_	_	
 7	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 King	O	_	_	_	_	_	_	_	
 was	O	_	_	_	_	_	_	_	
@@ -11347,6 +11954,7 @@ City	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 Carlifle	B-LOC	_	_	_	_	_	Q192896	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 8261428_Manchester1780
 # hipe2022:date = 1788-10-28
@@ -11628,12 +12236,15 @@ other	O	_	_	_	_	_	_	_
 fpecial	O	_	_	_	_	_	_	_	
 Adairs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 J	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 KAY	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Solicitor	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 
 # hipe2022:document_id = 8265247_Manchester1800
 # hipe2022:date = 1804-06-12
@@ -11660,6 +12271,7 @@ Sundays	O	_	_	_	_	_	_	_
 Mondays	O	_	_	_	_	_	_	_	
 Posts	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 From	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
 LONDON	B-LOC	_	_	_	_	_	Q84	_	
@@ -11668,6 +12280,7 @@ GAZETTE	O	_	_	_	_	_	_	_	NoSpaceAfter
 June	O	_	_	_	_	_	_	_	
 9	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Qu	O	_	_	_	_	_	_	_	NoSpaceAfter
 /	O	_	_	_	_	_	_	_	NoSpaceAfter
 ten	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -11679,6 +12292,7 @@ Paace	O	_	_	_	_	_	_	_	NoSpaceAfter
 Jim	O	_	_	_	_	_	_	_	
 6	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 THIS	O	_	_	_	_	_	_	_	
 day	O	_	_	_	_	_	_	_	
 (	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -11838,6 +12452,7 @@ tO	O	_	_	_	_	_	_	_
 hit	O	_	_	_	_	_	_	_	
 Mljefly	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 His	O	_	_	_	_	_	_	_	
 Mtjefty	O	_	_	_	_	_	_	_	
 basing	O	_	_	_	_	_	_	_	
@@ -11893,6 +12508,7 @@ command	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 admi	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 (	O	_	_	_	_	_	_	_	NoSpaceAfter
 tittered	O	_	_	_	_	_	_	_	
 to	O	_	_	_	_	_	_	_	
@@ -11955,6 +12571,7 @@ ami	O	_	_	_	_	_	_	_
 foreign	O	_	_	_	_	_	_	_	
 plantations	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Hi	O	_	_	_	_	_	_	_	NoSpaceAfter
 *	O	_	_	_	_	_	_	_	
 Mijeliy	O	_	_	_	_	_	_	_	
@@ -11966,6 +12583,7 @@ appoint	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 RfHon	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Edward	O	_	_	_	_	_	_	_	
 Earl	O	_	_	_	_	_	_	_	
 ol	O	_	_	_	_	_	_	_	
@@ -12005,6 +12623,7 @@ allegiance	O	_	_	_	_	_	_	_
 and	O	_	_	_	_	_	_	_	
 fupremacy	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 His	O	_	_	_	_	_	_	_	
 Majefty	O	_	_	_	_	_	_	_	
 hating	O	_	_	_	_	_	_	_	
@@ -12015,8 +12634,10 @@ appoint	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Rt	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Hon	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Geotge	O	_	_	_	_	_	_	_	
 Talbot	O	_	_	_	_	_	_	_	
 Lord	O	_	_	_	_	_	_	_	
@@ -12058,6 +12679,7 @@ and	O	_	_	_	_	_	_	_
 fupretnacy	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
 
+
 # hipe2022:document_id = 9703_Poole1860
 # hipe2022:date = 1860-12-20
 # hipe2022:language = en
@@ -12083,16 +12705,19 @@ SURRENDER	O	_	_	_	_	_	_	_
 OF	O	_	_	_	_	_	_	_	
 PEKIN	B-LOC	_	_	_	_	_	Q956	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 THE	O	_	_	_	_	_	_	_	
 WAR	O	_	_	_	_	_	_	_	
 IN	O	_	_	_	_	_	_	_	
 CHINA	B-LOC	_	_	_	_	_	Q148	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 FLIGHT	O	_	_	_	_	_	_	_	
 OF	O	_	_	_	_	_	_	_	
 THE	O	_	_	_	_	_	_	_	
 ESIPEKOft	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Chinese	O	_	_	_	_	_	_	_	
 mail	O	_	_	_	_	_	_	_	
@@ -12111,6 +12736,7 @@ shores	O	_	_	_	_	_	_	_
 from	O	_	_	_	_	_	_	_	
 China	B-LOC	_	_	_	_	_	Q148	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Pekin	B-LOC	_	_	_	_	_	Q956	_	
 has	O	_	_	_	_	_	_	_	
 fallen	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -12140,6 +12766,7 @@ the	O	_	_	_	_	_	_	_
 Imperial	B-LOC	_	_	_	_	_	Q956	_	
 capital	I-LOC	_	_	_	_	_	Q956	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 following	O	_	_	_	_	_	_	_	
 are	O	_	_	_	_	_	_	_	
@@ -12198,6 +12825,7 @@ the	O	_	_	_	_	_	_	_
 highest	O	_	_	_	_	_	_	_	
 importance	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Two	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
 the	O	_	_	_	_	_	_	_	
@@ -12209,13 +12837,16 @@ in	O	_	_	_	_	_	_	_
 our	O	_	_	_	_	_	_	_	
 hands	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Harry	O	_	_	_	_	_	_	_	
 Parkes	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Mr	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Loch	O	_	_	_	_	_	_	_	
 have	O	_	_	_	_	_	_	_	
 been	O	_	_	_	_	_	_	_	
@@ -12227,6 +12858,7 @@ by	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 Chinese	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 army	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -12237,6 +12869,7 @@ in	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 field	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 Emperor	O	_	_	_	_	_	_	_	
 has	O	_	_	_	_	_	_	_	
@@ -12244,12 +12877,14 @@ tied	O	_	_	_	_	_	_	_
 to	O	_	_	_	_	_	_	_	
 Tartary	B-LOC	_	_	_	_	_	Q83971	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Pekin	B-LOC	_	_	_	_	_	Q956	_	
 hos	O	_	_	_	_	_	_	_	
 submitted	O	_	_	_	_	_	_	_	
 to	O	_	_	_	_	_	_	_	
 us	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 wintering	O	_	_	_	_	_	_	_	
 of	O	_	_	_	_	_	_	_	
@@ -12267,6 +12902,7 @@ now	O	_	_	_	_	_	_	_
 resolved	O	_	_	_	_	_	_	_	
 on	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 In	O	_	_	_	_	_	_	_	
 our	O	_	_	_	_	_	_	_	
 lastOvedand	O	_	_	_	_	_	_	_	
@@ -12306,6 +12942,7 @@ bad	O	_	_	_	_	_	_	_
 been	O	_	_	_	_	_	_	_	
 taken	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 There	O	_	_	_	_	_	_	_	
 does	O	_	_	_	_	_	_	_	
 not	O	_	_	_	_	_	_	_	
@@ -12324,6 +12961,7 @@ from	O	_	_	_	_	_	_	_
 the	O	_	_	_	_	_	_	_	
 ?	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 2	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	NoSpaceAfter
 tid	O	_	_	_	_	_	_	_	
@@ -12409,6 +13047,7 @@ affording	O	_	_	_	_	_	_	_
 immense	O	_	_	_	_	_	_	_	
 spoil	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 chief	O	_	_	_	_	_	_	_	
 share	O	_	_	_	_	_	_	_	
@@ -12472,6 +13111,7 @@ French	O	_	_	_	_	_	_	_
 and	O	_	_	_	_	_	_	_	
 English	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Some	O	_	_	_	_	_	_	_	
 privates	O	_	_	_	_	_	_	_	
 are	O	_	_	_	_	_	_	_	
@@ -12486,6 +13126,7 @@ about	O	_	_	_	_	_	_	_
 30.000	O	_	_	_	_	_	_	_	
 francs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 entire	O	_	_	_	_	_	_	_	
 British	O	_	_	_	_	_	_	_	
@@ -12505,6 +13146,7 @@ about	O	_	_	_	_	_	_	_
 90,1100	O	_	_	_	_	_	_	_	
 dollars	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Nest	O	_	_	_	_	_	_	_	
 day	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	NoSpaceAfter
@@ -12522,6 +13164,7 @@ prisoners	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 Messrs	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 Parkes	O	_	_	_	_	_	_	_	
 and	O	_	_	_	_	_	_	_	
 Loeb	O	_	_	_	_	_	_	_	
@@ -12567,6 +13210,7 @@ capital	O	_	_	_	_	_	_	_
 of	O	_	_	_	_	_	_	_	
 China	B-LOC	_	_	_	_	_	Q148	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+
 The	O	_	_	_	_	_	_	_	
 siege	O	_	_	_	_	_	_	_	
 guns	O	_	_	_	_	_	_	_	
@@ -12620,6 +13264,7 @@ oominand	O	_	_	_	_	_	_	_
 Haan	O	_	_	_	_	_	_	_	
 QUAITERS	O	_	_	_	_	_	_	_	
 !	O	_	_	_	_	_	_	_	EndOfSentence
+
 MORS	O	_	_	_	_	_	_	_	
 PtiCIN	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
@@ -12629,3 +13274,4 @@ Oct	O	_	_	_	_	_	_	_	NoSpaceAfter
 ,	O	_	_	_	_	_	_	_	
 1860	O	_	_	_	_	_	_	_	NoSpaceAfter
 .	O	_	_	_	_	_	_	_	EndOfSentence
+

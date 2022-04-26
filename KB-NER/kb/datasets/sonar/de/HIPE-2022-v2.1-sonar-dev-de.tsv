@@ -14,6 +14,7 @@ TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NEST
 Neueſte	O	_	_	_	_	_		_	_
 Mittheilungen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Verantwortlicher	O	_	_	_	_	_		_	_
 Herausgeber	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	_
@@ -23,10 +24,12 @@ H	B-PER	_	_	_	_	NIL		_	_
 .	I-PER	_	_	_	_	NIL		_	_
 Klee	I-PER	_	_	_	_	NIL		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 V	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Jahrgang	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 Dienſtag	O	_	_	_	_	_		_	_
@@ -37,16 +40,19 @@ den	O	_	_	_	_	_		_	_
 Juni	O	_	_	_	_	_		_	_
 1886	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 No	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 	O	_	_	_	_	_		_	_
 67	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Wiederaufnahme	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 parlamentariſchen	O	_	_	_	_	_		_	_
 Arbeiten	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Reichstag	B-ORG	_	_	_	_	Q160208		_	_
 nimmt	O	_	_	_	_	_		_	_
@@ -93,6 +99,7 @@ Weichſelüberſchwemmungen	O	_	_	_	_	_		_	_
 Geſchädigten	O	_	_	_	_	_		_	_
 zuſammengetreten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Arbeiten	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -125,6 +132,7 @@ geschlossen	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 können	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Bezüglich	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Dauer	O	_	_	_	_	_		_	_
@@ -139,6 +147,7 @@ nicht	O	_	_	_	_	_		_	_
 ſo	O	_	_	_	_	_		_	_
 klar	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Freilich	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 wenn	O	_	_	_	_	_		_	_
@@ -186,6 +195,7 @@ der	O	_	_	_	_	_		_	_
 Seſſion	O	_	_	_	_	_		_	_
 herbeiführen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 kennzeichnet	O	_	_	_	_	_		_	_
 ſo	O	_	_	_	_	_		_	_
@@ -248,6 +258,7 @@ des	O	_	_	_	_	_		_	_
 Landes	O	_	_	_	_	_		_	_
 gegenüberzuſtehen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jndeß	O	_	_	_	_	_		_	_
 dieſe	O	_	_	_	_	_		_	_
 Auffaſſung	O	_	_	_	_	_		_	_
@@ -297,6 +308,7 @@ unhaltbar	O	_	_	_	_	_		_	_
 erkannt	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 handelt	O	_	_	_	_	_		_	_
 ſich	O	_	_	_	_	_		_	_
@@ -327,6 +339,7 @@ Geleis	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 bringen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 wäre	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
@@ -443,6 +456,7 @@ Hände	O	_	_	_	_	_		_	_
 arbeiten	O	_	_	_	_	_		_	_
 wollten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 doch	O	_	_	_	_	_		_	_
@@ -509,6 +523,7 @@ neue	O	_	_	_	_	_		_	_
 Einnahmequellen	O	_	_	_	_	_		_	_
 erſchließen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Neben	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Branntweinſteuerfrage	O	_	_	_	_	_		_	_
@@ -543,6 +558,7 @@ Kaiſerlichen	B-ORG	_	_	_	_	Q156649		_	_
 Marine	I-ORG	_	_	_	_	Q156649		_	_
 beſchäftigen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 erſtere	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
@@ -594,6 +610,7 @@ wie	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Civilbeamten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Daß	O	_	_	_	_	_		_	_
 auch	O	_	_	_	_	_		_	_
 hier	O	_	_	_	_	_		_	_
@@ -627,6 +644,7 @@ Hebel	O	_	_	_	_	_		_	_
 einſetzen	O	_	_	_	_	_		_	_
 wird	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Geſahr	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -677,9 +695,11 @@ Seſſion	O	_	_	_	_	_		_	_
 aufgeſtellt	O	_	_	_	_	_		_	_
 haben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zwei	O	_	_	_	_	_		_	_
 Jahre	O	_	_	_	_	_		_	_
 Colonialpolitik	O	_	_	_	_	_		_	EndOfSentence
+
 Am	O	_	_	_	_	_		_	_
 23	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -726,6 +746,7 @@ Schutz	O	_	_	_	_	_		_	_
 geſtellt	O	_	_	_	_	_		_	_
 ſeien	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sieht	O	_	_	_	_	_		_	_
 man	O	_	_	_	_	_		_	_
 ab	O	_	_	_	_	_		_	_
@@ -769,6 +790,7 @@ Colonialpolitik	O	_	_	_	_	_		_	_
 bezeichnet	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 An	O	_	_	_	_	_		_	_
 jenem	O	_	_	_	_	_		_	_
 Tage	O	_	_	_	_	_		_	_
@@ -818,6 +840,7 @@ dieſe	O	_	_	_	_	_		_	_
 Politik	O	_	_	_	_	_		_	_
 bekundete	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Hiermit	O	_	_	_	_	_		_	_
 war	O	_	_	_	_	_		_	_
 aber	O	_	_	_	_	_		_	_
@@ -879,6 +902,7 @@ Acten	O	_	_	_	_	_		_	_
 gelegt	O	_	_	_	_	_		_	_
 wurde	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Heute	O	_	_	_	_	_		_	_
 nach	O	_	_	_	_	_		_	_
 zwei	O	_	_	_	_	_		_	_
@@ -893,6 +917,7 @@ erhebliche	O	_	_	_	_	_		_	_
 Fortſchritte	O	_	_	_	_	_		_	_
 hinweiſen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Geſtützt	O	_	_	_	_	_		_	_
 durch	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
@@ -972,6 +997,7 @@ und	O	_	_	_	_	_		_	_
 Erfolg	O	_	_	_	_	_		_	_
 entgegentretend	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Unſere	O	_	_	_	_	_		_	_
 Flagge	O	_	_	_	_	_		_	_
 weht	O	_	_	_	_	_		_	_
@@ -1004,6 +1030,7 @@ mit	O	_	_	_	_	_		_	_
 Waffengewalt	O	_	_	_	_	_		_	_
 einzuſchreiten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 An	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Südweſtküſte	O	_	_	_	_	_		_	_
@@ -1072,6 +1099,7 @@ und	O	_	_	_	_	_		_	_
 vielverſprechend	O	_	_	_	_	_		_	_
 lautet	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Weiter	O	_	_	_	_	_		_	_
 ſind	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -1097,6 +1125,7 @@ Witu	B-LOC	_	_	_	_	Q705598		_	_
 übernommen	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 nordöſtliche	O	_	_	_	_	_		_	_
 Theil	O	_	_	_	_	_		_	_
@@ -1140,6 +1169,7 @@ kriegeriſches	O	_	_	_	_	_		_	_
 Einſchreiten	O	_	_	_	_	_		_	_
 nöthig	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Mit	O	_	_	_	_	_		_	_
 England	B-LOC	_	_	_	_	Q21		_	_
 ,	O	_	_	_	_	_		_	_
@@ -1196,6 +1226,7 @@ fl	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 verliere	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Diese	O	_	_	_	_	_		_	_
 Summe	O	_	_	_	_	_		_	_
 {	O	_	_	_	_	_		_	_
@@ -1239,6 +1270,7 @@ geschiossen	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 sind	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Da	O	_	_	_	_	_		_	_
 dies	O	_	_	_	_	_		_	_
 bei	O	_	_	_	_	_		_	_
@@ -1265,6 +1297,7 @@ Recht	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 suchen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sie	O	_	_	_	_	_		_	_
 kann	O	_	_	_	_	_		_	_
 sich	O	_	_	_	_	_		_	_
@@ -1291,6 +1324,7 @@ vollständig	O	_	_	_	_	_		_	_
 zussichtslos	O	_	_	_	_	_		_	_
 ist	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 In	O	_	_	_	_	_		_	_
 Börsenkreisen	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
@@ -1327,6 +1361,7 @@ zu	O	_	_	_	_	_		_	_
 Markte	O	_	_	_	_	_		_	_
 trug	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Firma	O	_	_	_	_	_		_	_
 musste	O	_	_	_	_	_		_	_
@@ -1372,6 +1407,7 @@ wolle	O	_	_	_	_	_		_	_
 oder	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 neuen	O	_	_	_	_	_		_	_
 Statuten	O	_	_	_	_	_		_	_
@@ -1462,6 +1498,7 @@ Rechtlichkeit	O	_	_	_	_	_		_	_
 ausgeführt	O	_	_	_	_	_		_	_
 habe	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sie	O	_	_	_	_	_		_	_
 habe	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
@@ -1485,6 +1522,7 @@ brutal	O	_	_	_	_	_		_	_
 verletzen	O	_	_	_	_	_		_	_
 würden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Firma	O	_	_	_	_	_		_	_
 nannte	O	_	_	_	_	_		_	_
@@ -1504,6 +1542,7 @@ Enthüllungen	O	_	_	_	_	_		_	_
 wahre	O	_	_	_	_	_		_	_
 Sensation	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Gläubiger	O	_	_	_	_	_		_	_
 sagten	O	_	_	_	_	_		_	_
@@ -1522,6 +1561,7 @@ Misstrauen	O	_	_	_	_	_		_	_
 hegen	O	_	_	_	_	_		_	_
 konnte	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wenn	O	_	_	_	_	_		_	_
 Personen	O	_	_	_	_	_		_	_
 wie	O	_	_	_	_	_		_	_
@@ -1599,6 +1639,7 @@ Processen	O	_	_	_	_	_		_	_
 heraufbeschworen	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 wollte	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -1630,6 +1671,7 @@ Clienten	O	_	_	_	_	_		_	_
 ausgebeutet	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Affaire	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
@@ -1662,6 +1704,7 @@ grösste	O	_	_	_	_	_		_	_
 Aufsehen	O	_	_	_	_	_		_	_
 hervorgerufen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Allgemein	O	_	_	_	_	_		_	_
 wird	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -1706,6 +1749,7 @@ nehmen	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 müssen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 An	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 hiesigen	O	_	_	_	_	_		_	_
@@ -1739,6 +1783,7 @@ Nutzen	O	_	_	_	_	_		_	_
 machen	O	_	_	_	_	_		_	_
 müssen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Versuch	O	_	_	_	_	_		_	_
 wäre	O	_	_	_	_	_		_	_
@@ -1774,6 +1819,7 @@ wollte	O	_	_	_	_	_		_	_
 oder	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Gewiss	O	_	_	_	_	_		_	_
 soll	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
@@ -1894,6 +1940,7 @@ betr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 ‘	O	_	_	_	_	_		_	_
 Einführung	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -1942,6 +1989,7 @@ Annahme	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
 Antrages	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Durch	O	_	_	_	_	_		_	_
 denselben	O	_	_	_	_	_		_	_
 solle	O	_	_	_	_	_		_	_
@@ -1955,6 +2003,7 @@ Volksvertretung	O	_	_	_	_	_		_	_
 gegeben	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dass	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Sympathien	O	_	_	_	_	_		_	_
@@ -1977,6 +2026,7 @@ v	B-PER	_	_	_	_	Q67818		_	_
 .	I-PER	_	_	_	_	Q67818		_	_
 Boetticher	I-PER	_	_	_	_	Q67818		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Deutscher	B-ORG	_	_	_	_	Q160208		_	_
 Reichstag	I-ORG	_	_	_	_	Q160208		_	_
 .	O	_	_	_	_	_		_	_
@@ -1993,12 +2043,14 @@ Mai	O	_	_	_	_	_		_	_
 2	O	_	_	_	_	_		_	_
 Uhr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Kuppelhallle	O	_	_	_	_	_		_	_
 zur	O	_	_	_	_	_		_	_
 Aufstellung	O	_	_	_	_	_		_	_
 gelangen	O	_	_	_	_	_		_	_
 solien	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 In	O	_	_	_	_	_		_	_
 dritter	O	_	_	_	_	_		_	_
 Lesung	O	_	_	_	_	_		_	_
@@ -2039,6 +2091,7 @@ Blattes	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Reichskanzler	O	_	_	_	_	_		_	_
 habe	O	_	_	_	_	_		_	_
@@ -2067,6 +2120,7 @@ fernhalten	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 können	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Hier	O	_	_	_	_	_		_	_
 seien	O	_	_	_	_	_		_	_
 aber	O	_	_	_	_	_		_	_
@@ -2078,6 +2132,7 @@ Blätter	O	_	_	_	_	_		_	_
 betroffen	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Solche	O	_	_	_	_	_		_	_
 Vorgänge	O	_	_	_	_	_		_	_
 zeigten	O	_	_	_	_	_		_	_
@@ -2090,6 +2145,7 @@ Ausnahmebestimmungen	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 beseitigen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Elsass	B-LOC	_	_	_	_	Q155144		_	_
 -	I-LOC	_	_	_	_	Q155144		_	_
 Lothringen	I-LOC	_	_	_	_	Q155144		_	_
@@ -2115,6 +2171,7 @@ unter	O	_	_	_	_	_		_	_
 Ausnahmerecht	O	_	_	_	_	_		_	_
 stehe	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Man	O	_	_	_	_	_		_	_
 schaffe	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -2178,6 +2235,7 @@ für	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Regierung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Diese	O	_	_	_	_	_		_	_
 sei	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
@@ -2190,6 +2248,7 @@ regel	O	_	_	_	_	_		_	_
 mässigen	O	_	_	_	_	_		_	_
 Berufung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sie	O	_	_	_	_	_		_	_
 berufe	O	_	_	_	_	_		_	_
 ihn	O	_	_	_	_	_		_	_
@@ -2211,6 +2270,7 @@ ihm	O	_	_	_	_	_		_	_
 keinen	O	_	_	_	_	_		_	_
 Widerhall	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zu	O	_	_	_	_	_		_	_
 Klagen	O	_	_	_	_	_		_	_
 werde	O	_	_	_	_	_		_	_
@@ -2219,6 +2279,7 @@ wieder	O	_	_	_	_	_		_	_
 Anlass	O	_	_	_	_	_		_	_
 gegehen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Kürzlich	O	_	_	_	_	_		_	_
 seien	O	_	_	_	_	_		_	_
 erst	O	_	_	_	_	_		_	_
@@ -2260,6 +2321,7 @@ lichen	O	_	_	_	_	_		_	_
 Mittet	O	_	_	_	_	_		_	_
 gewährt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Minister	O	_	_	_	_	_		_	_
 Bosse	B-PER	_	_	_	_	Q91201		_	_
 bemerkt	O	_	_	_	_	_		_	_
@@ -2282,6 +2344,7 @@ dass	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Im	B-PER	_	_	_	_	NIL		_	_
 Walle	I-PER	_	_	_	_	NIL		_	_
 neulich	O	_	_	_	_	_		_	_
@@ -2299,6 +2362,7 @@ Corruptionsfonds	O	_	_	_	_	_		_	_
 gesprochen	O	_	_	_	_	_		_	_
 habe	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Er	O	_	_	_	_	_		_	_
 müsse	O	_	_	_	_	_		_	_
 diesen	O	_	_	_	_	_		_	_
@@ -2308,6 +2372,7 @@ das	O	_	_	_	_	_		_	_
 entschiedenste	O	_	_	_	_	_		_	_
 Zurückweisen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Im	B-PER	_	_	_	_	NIL		_	_
@@ -2329,6 +2394,7 @@ nicht	O	_	_	_	_	_		_	_
 gemeint	O	_	_	_	_	_		_	_
 habe	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wenn	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Minister	O	_	_	_	_	_		_	_
@@ -2348,6 +2414,7 @@ den	O	_	_	_	_	_		_	_
 Ausdruck	O	_	_	_	_	_		_	_
 zurückzunehmen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 v	B-PER	_	_	_	_	Q2575913		_	_
@@ -2624,6 +2691,7 @@ higst	O	_	_	_	_	_		_	_
 geholfen	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Man	O	_	_	_	_	_		_	_
 könne	O	_	_	_	_	_		_	_
 nichst	O	_	_	_	_	_		_	_
@@ -2662,6 +2730,7 @@ es	O	_	_	_	_	_		_	_
 nöthig	O	_	_	_	_	_		_	_
 ist	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Noth	O	_	_	_	_	_		_	_
 aber	O	_	_	_	_	_		_	_
@@ -2685,6 +2754,7 @@ der	O	_	_	_	_	_		_	_
 Kirche	O	_	_	_	_	_		_	_
 wegen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 gilt	O	_	_	_	_	_		_	_
 hier	O	_	_	_	_	_		_	_
@@ -2695,10 +2765,12 @@ einem	O	_	_	_	_	_		_	_
 Nothstande	O	_	_	_	_	_		_	_
 abzuhelfen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Beifall	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Schmieding	B-PER	_	_	_	_	NIL		_	_
@@ -2734,6 +2806,7 @@ Höchstgehaltsgrenze	O	_	_	_	_	_		_	_
 für	O	_	_	_	_	_		_	_
 nöthig	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dr	O	_	_	_	_	_		_	_
@@ -2775,6 +2848,7 @@ scheidende	O	_	_	_	_	_		_	_
 Bedeutung	O	_	_	_	_	_		_	_
 beilegen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Er	O	_	_	_	_	_		_	_
 giebt	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
@@ -2816,6 +2890,7 @@ Mai	O	_	_	_	_	_		_	_
 11	O	_	_	_	_	_		_	_
 Uhr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Am	O	_	_	_	_	_		_	_
 Ministertische	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	_
@@ -2850,6 +2925,7 @@ diesen	O	_	_	_	_	_		_	_
 Tagen	O	_	_	_	_	_		_	_
 erwarten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dann	O	_	_	_	_	_		_	_
 soll	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -2882,10 +2958,12 @@ wer	O	_	_	_	_	_		_	_
 *	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Beifall	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Schaffner	B-PER	_	_	_	_	NIL		_	_
@@ -2911,6 +2989,7 @@ des	O	_	_	_	_	_		_	_
 Blattes	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Politische	O	_	_	_	_	_		_	_
 Nachrichten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -2978,6 +3057,7 @@ unsicheren	O	_	_	_	_	_		_	_
 Informationen	O	_	_	_	_	_		_	_
 beruht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sollte	O	_	_	_	_	_		_	_
 ein	O	_	_	_	_	_		_	_
 socher	O	_	_	_	_	_		_	_
@@ -3021,6 +3101,7 @@ zu	O	_	_	_	_	_		_	_
 denken	O	_	_	_	_	_		_	_
 sein	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 In	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -3044,6 +3125,7 @@ der	O	_	_	_	_	_		_	_
 Orte	O	_	_	_	_	_		_	_
 fortgesetzt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Eichstätt	B-LOC	_	_	_	_	Q10491		_	_
 (	O	_	_	_	_	_		_	_
 Bayern	B-LOC	_	_	_	_	Q980		_	_
@@ -3062,6 +3144,7 @@ die	O	_	_	_	_	_		_	_
 Klasse	O	_	_	_	_	_		_	_
 versetzt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Ueber	O	_	_	_	_	_		_	_
 Köln	B-LOC	_	_	_	_	Q365		_	_
 (	O	_	_	_	_	_		_	_
@@ -3084,6 +3167,7 @@ erste	O	_	_	_	_	_		_	_
 Klasse	O	_	_	_	_	_		_	_
 rücken	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Lingens	B-PER	_	_	_	_	Q1707517		_	_
@@ -3105,12 +3189,14 @@ Erhöhung	O	_	_	_	_	_		_	_
 entschieden	O	_	_	_	_	_		_	_
 widersprochen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Köln	B-LOC	_	_	_	_	Q365		_	_
 selbst	O	_	_	_	_	_		_	_
 verlange	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 mehr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Lieber	B-PER	_	_	_	_	Q90642		_	_
@@ -3133,6 +3219,7 @@ ganze	O	_	_	_	_	_		_	_
 Vorlage	O	_	_	_	_	_		_	_
 scheitern	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Singer	B-PER	_	_	_	_	Q67212		_	_
@@ -3149,6 +3236,7 @@ zur	O	_	_	_	_	_		_	_
 Vertheilung	O	_	_	_	_	_		_	_
 gelangen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Antrag	O	_	_	_	_	_		_	_
 Lingens	B-PER	_	_	_	_	Q1707517		_	_
@@ -3203,6 +3291,7 @@ gegen	O	_	_	_	_	_		_	_
 Stimmen	O	_	_	_	_	_		_	_
 abgelehnt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Gerresheim	B-LOC	_	_	_	_	Q472141		_	_
 (	O	_	_	_	_	_		_	_
 Bezirk	O	_	_	_	_	_		_	_
@@ -3282,6 +3371,7 @@ ein	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 gereiht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Morgen	O	_	_	_	_	_		_	_
 wird	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -3304,6 +3394,7 @@ des	O	_	_	_	_	_		_	_
 Entwurfs	O	_	_	_	_	_		_	_
 beendet	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wesentliche	O	_	_	_	_	_		_	_
 Aenderungen	O	_	_	_	_	_		_	_
 wurden	O	_	_	_	_	_		_	_
@@ -3311,6 +3402,7 @@ nicht	O	_	_	_	_	_		_	_
 mehr	O	_	_	_	_	_		_	_
 beschlossen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Doch	O	_	_	_	_	_		_	_
 gelangten	O	_	_	_	_	_		_	_
 noch	O	_	_	_	_	_		_	_
@@ -3400,6 +3492,7 @@ fortdauernd	O	_	_	_	_	_		_	_
 gewährt	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 Es	O	_	_	_	_	_		_	_
 trat	O	_	_	_	_	_		_	_
@@ -3431,6 +3524,7 @@ Euler	B-PER	_	_	_	_	Q1711322		_	_
 und	O	_	_	_	_	_		_	_
 Jacobskötter	B-PER	_	_	_	_	Q1697767		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 letztere	O	_	_	_	_	_		_	_
 ist	O	_	_	_	_	_		_	_
@@ -3438,6 +3532,7 @@ zum	O	_	_	_	_	_		_	_
 Berichterstatter	O	_	_	_	_	_		_	_
 bestellt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 In	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 zweite	O	_	_	_	_	_		_	_
@@ -3512,6 +3607,7 @@ Schiedsgerichte	O	_	_	_	_	_		_	_
 aufgehoben	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 An	O	_	_	_	_	_		_	_
 Stelle	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -3535,6 +3631,7 @@ zu	O	_	_	_	_	_		_	_
 entscheiden	O	_	_	_	_	_		_	_
 haben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Da	O	_	_	_	_	_		_	_
 diese	O	_	_	_	_	_		_	_
 Anträge	O	_	_	_	_	_		_	_
@@ -3567,6 +3664,7 @@ Wichtigkeit	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 vertaugen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Diesem	O	_	_	_	_	_		_	_
 Vorschlage	O	_	_	_	_	_		_	_
 wurde	O	_	_	_	_	_		_	_
@@ -3629,6 +3727,7 @@ fortgesetzt	O	_	_	_	_	_		_	_
 # sonar:doi = https://github.com/sonar-idh/Goldstandard/tree/main/02_ocr_corrected-EL-NER
 # sonar:original_license = CC-BY 4.0
 18	O	_	_	_	_	_		_	EndOfSentence
+
 Berliner	B-ORG	_	_	_	_	Q19724822		_	_
 Börſen⸗	I-ORG	_	_	_	_	Q19724822		_	_
 Zeitung	I-ORG	_	_	_	_	Q19724822		_	_
@@ -3636,7 +3735,9 @@ Nr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 87	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 1914	O	_	_	_	_	_		_	EndOfSentence
+
 5	O	_	_	_	_	_		_	_
 %	O	_	_	_	_	_		_	_
 Prager	B-LOC	_	_	_	_	Q1085		_	_
@@ -3715,6 +3816,7 @@ Eisenwerke	I-ORG	_	_	_	_	Q522659		_	_
 ,	O	_	_	_	_	_		_	_
 5	O	_	_	_	_	_		_	_
 %	O	_	_	_	_	_		_	EndOfSentence
+
 der	O	_	_	_	_	_		_	_
 Chemischen	B-ORG	_	_	_	_	NIL		_	_
 Fabrik	I-ORG	_	_	_	_	NIL		_	_
@@ -3732,6 +3834,7 @@ Aktiengesellschaft	I-ORG	_	_	_	_	NIL		_	_
 ,	O	_	_	_	_	_		_	_
 5	O	_	_	_	_	_		_	_
 %	O	_	_	_	_	_		_	EndOfSentence
+
 der	O	_	_	_	_	_		_	_
 Deutsch	B-ORG	_	_	_	_	NIL		_	_
 -	I-ORG	_	_	_	_	NIL		_	_
@@ -3745,6 +3848,7 @@ Gesellschaft	I-ORG	_	_	_	_	NIL		_	_
 /	O	_	_	_	_	_		_	_
 2	O	_	_	_	_	_		_	_
 %	O	_	_	_	_	_		_	EndOfSentence
+
 der	O	_	_	_	_	_		_	_
 Grossen	B-ORG	_	_	_	_	Q108600166		_	_
 Berliner	I-ORG	_	_	_	_	Q108600166		_	_
@@ -3892,6 +3996,7 @@ Cie	I-ORG	_	_	_	_	NIL		_	_
 	I-ORG	_	_	_	_	NIL		_	_
 Aktiengesellschaft	I-ORG	_	_	_	_	NIL		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 laufende	O	_	_	_	_	_		_	_
 Geschäft	O	_	_	_	_	_		_	_
@@ -3899,6 +4004,7 @@ hat	O	_	_	_	_	_		_	_
 sich	O	_	_	_	_	_		_	_
 befriedigend	O	_	_	_	_	_		_	_
 entwickelt	O	_	_	_	_	_		_	EndOfSentence
+
 Leider	O	_	_	_	_	_		_	_
 hatten	O	_	_	_	_	_		_	_
 wir	O	_	_	_	_	_		_	_
@@ -3921,6 +4027,7 @@ M	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 verbuchen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abgesehen	O	_	_	_	_	_		_	_
 von	O	_	_	_	_	_		_	_
 kleineren	O	_	_	_	_	_		_	_
@@ -3964,6 +4071,7 @@ Filiale	O	_	_	_	_	_		_	_
 schwer	O	_	_	_	_	_		_	_
 geschädigt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 erwähnte	O	_	_	_	_	_		_	_
 Betrag	O	_	_	_	_	_		_	_
@@ -3980,6 +4088,7 @@ vorweg	O	_	_	_	_	_		_	_
 entnommen	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zu	O	_	_	_	_	_		_	_
 einzelnen	O	_	_	_	_	_		_	_
 Positionen	O	_	_	_	_	_		_	_
@@ -4046,6 +4155,7 @@ in	O	_	_	_	_	_		_	_
 1913	O	_	_	_	_	_		_	_
 gesteigert	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Eingang	O	_	_	_	_	_		_	_
 an	O	_	_	_	_	_		_	_
@@ -4083,6 +4193,7 @@ M	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 erhöht	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Provisions	O	_	_	_	_	_		_	_
 -	O	_	_	_	_	_		_	_
@@ -4116,6 +4227,7 @@ vorjährigen	O	_	_	_	_	_		_	_
 Höhe	O	_	_	_	_	_		_	_
 geblieben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 ist	O	_	_	_	_	_		_	_
 uns	O	_	_	_	_	_		_	_
@@ -4156,6 +4268,7 @@ mit	O	_	_	_	_	_		_	_
 sich	O	_	_	_	_	_		_	_
 brachte	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Einen	O	_	_	_	_	_		_	_
 erheblichen	O	_	_	_	_	_		_	_
 Ausfall	O	_	_	_	_	_		_	_
@@ -4170,6 +4283,7 @@ Konsortial	O	_	_	_	_	_		_	_
 Konto	O	_	_	_	_	_		_	_
 erlitten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Nach	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 bei	O	_	_	_	_	_		_	_
@@ -4211,6 +4325,7 @@ M	O	_	_	_	_	_		_	_
 im	O	_	_	_	_	_		_	_
 Vorjahre	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 In	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Hauptsache	O	_	_	_	_	_		_	_
@@ -4246,6 +4361,7 @@ ins	O	_	_	_	_	_		_	_
 Gewicht	O	_	_	_	_	_		_	_
 fällt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Ungunst	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -4272,6 +4388,7 @@ beschränkt	O	_	_	_	_	_		_	_
 geblieben	O	_	_	_	_	_		_	_
 sind	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wir	O	_	_	_	_	_		_	_
 haben	O	_	_	_	_	_		_	_
 uns	O	_	_	_	_	_		_	_
@@ -4293,6 +4410,7 @@ Schätzung	O	_	_	_	_	_		_	_
 leiten	O	_	_	_	_	_		_	_
 lassen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Grosse	O	_	_	_	_	_		_	_
 Abschreibungen	O	_	_	_	_	_		_	_
 erforderte	O	_	_	_	_	_		_	_
@@ -4308,6 +4426,7 @@ Bergwerks	O	_	_	_	_	_		_	_
 -	O	_	_	_	_	_		_	_
 Unternehmungen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 In	O	_	_	_	_	_		_	_
 Betracht	O	_	_	_	_	_		_	_
 kommt	O	_	_	_	_	_		_	_
@@ -4324,6 +4443,7 @@ der	O	_	_	_	_	_		_	_
 Internationalen	B-ORG	_	_	_	_	NIL		_	_
 Bohrgesellschaft	I-ORG	_	_	_	_	NIL		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Erhöhung	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -4352,6 +4472,7 @@ regelmässig	O	_	_	_	_	_		_	_
 wiederkehrenden	O	_	_	_	_	_		_	_
 Gehaltserhöhungen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Auch	O	_	_	_	_	_		_	_
 brachte	O	_	_	_	_	_		_	_
 uns	O	_	_	_	_	_		_	_
@@ -4364,6 +4485,7 @@ Privatangestellte	O	_	_	_	_	_		_	_
 erhöhte	O	_	_	_	_	_		_	_
 Aufwendungen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zu	O	_	_	_	_	_		_	_
 einzelnen	O	_	_	_	_	_		_	_
 Positionen	O	_	_	_	_	_		_	_
@@ -4394,6 +4516,7 @@ M	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 79	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dagegen	O	_	_	_	_	_		_	_
 erscheint	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -4412,6 +4535,7 @@ denselben	O	_	_	_	_	_		_	_
 Betrag	O	_	_	_	_	_		_	_
 vermindert	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Bestand	O	_	_	_	_	_		_	_
 an	O	_	_	_	_	_		_	_
@@ -4430,6 +4554,7 @@ M	O	_	_	_	_	_		_	_
 im	O	_	_	_	_	_		_	_
 Vorjahre	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Verminderung	O	_	_	_	_	_		_	_
 erklärt	O	_	_	_	_	_		_	_
@@ -4441,6 +4566,7 @@ unseren	O	_	_	_	_	_		_	_
 vorstehenden	O	_	_	_	_	_		_	_
 Ausführungen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Vermehrung	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -4462,6 +4588,7 @@ Anspruch	O	_	_	_	_	_		_	_
 genommen	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -4495,6 +4622,7 @@ Pfandbriefe	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	EndOfSentence
+
 2	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Ausländische	O	_	_	_	_	_		_	_
@@ -4511,6 +4639,7 @@ Anleihen	O	_	_	_	_	_		_	_
 6390768	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 05	O	_	_	_	_	_		_	EndOfSentence
+
 3	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Aktien	O	_	_	_	_	_		_	_
@@ -4522,6 +4651,7 @@ Verkehrsunternehmungen	O	_	_	_	_	_		_	_
 6466716	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 66	O	_	_	_	_	_		_	EndOfSentence
+
 4	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Aktien	O	_	_	_	_	_		_	_
@@ -4533,6 +4663,7 @@ Versicherungsgesellschaften	O	_	_	_	_	_		_	_
 1520898	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 15	O	_	_	_	_	_		_	EndOfSentence
+
 5	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Aktien	O	_	_	_	_	_		_	_
@@ -4546,6 +4677,7 @@ Gesellschalten	O	_	_	_	_	_		_	_
 10587758	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 90	O	_	_	_	_	_		_	EndOfSentence
+
 Obligationen	O	_	_	_	_	_		_	_
 industrieller	O	_	_	_	_	_		_	_
 Gesellschalten	O	_	_	_	_	_		_	_
@@ -4557,6 +4689,7 @@ Gesellschalten	O	_	_	_	_	_		_	_
 1853663	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 48	O	_	_	_	_	_		_	EndOfSentence
+
 7	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Terrainwerke	O	_	_	_	_	_		_	_
@@ -4574,6 +4707,7 @@ Terrainwerke	O	_	_	_	_	_		_	_
 2908754	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 68	O	_	_	_	_	_		_	EndOfSentence
+
 8	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Verschiedenes	O	_	_	_	_	_		_	_
@@ -4592,6 +4726,7 @@ Verschiedenes	O	_	_	_	_	_		_	_
 36604839	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 83	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 Konto	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -4614,6 +4749,7 @@ M	O	_	_	_	_	_		_	_
 im	O	_	_	_	_	_		_	_
 Vorjahre	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Auf	O	_	_	_	_	_		_	_
 unsere	O	_	_	_	_	_		_	_
 Beteiligung	O	_	_	_	_	_		_	_
@@ -4641,6 +4777,7 @@ Ergebnis	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 verzeichnen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Einnahmen	O	_	_	_	_	_		_	_
 aus	O	_	_	_	_	_		_	_
@@ -4674,6 +4811,7 @@ auf	O	_	_	_	_	_		_	_
 5	O	_	_	_	_	_		_	_
 %	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Mittelrheinischen	B-ORG	_	_	_	_	NIL		_	_
 Bank	I-ORG	_	_	_	_	NIL		_	_
 ,	O	_	_	_	_	_		_	_
@@ -4686,6 +4824,7 @@ auf	O	_	_	_	_	_		_	_
 2	O	_	_	_	_	_		_	_
 %	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Deutsch	B-ORG	_	_	_	_	Q1201864		_	_
 -	I-ORG	_	_	_	_	Q1201864		_	_
 Südamerikanischen	I-ORG	_	_	_	_	Q1201864		_	_
@@ -4715,6 +4854,7 @@ auf	O	_	_	_	_	_		_	_
 5	O	_	_	_	_	_		_	_
 %	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 beiden	O	_	_	_	_	_		_	_
 von	O	_	_	_	_	_		_	_
@@ -4747,6 +4887,7 @@ im	O	_	_	_	_	_		_	_
 Vorjahre	O	_	_	_	_	_		_	_
 verteilen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Deutsche	B-ORG	_	_	_	_	Q1112802		_	_
 Orientbank	I-ORG	_	_	_	_	Q1112802		_	_
@@ -4775,6 +4916,7 @@ fanden	O	_	_	_	_	_		_	_
 lohnende	O	_	_	_	_	_		_	_
 Beschäftigung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Bei	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Deutsch	B-ORG	_	_	_	_	Q1201864		_	_
@@ -4807,6 +4949,7 @@ gute	O	_	_	_	_	_		_	_
 Gewinne	O	_	_	_	_	_		_	_
 erzielten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 Konto	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -4827,6 +4970,7 @@ M	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
 1912	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Zugang	O	_	_	_	_	_		_	_
 betrifft	O	_	_	_	_	_		_	_
@@ -4851,6 +4995,7 @@ bezogen	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 ist	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Aus	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
 Gewinnergebnis	O	_	_	_	_	_		_	_
@@ -4871,6 +5016,7 @@ Aktiv	O	_	_	_	_	_		_	_
 Position	O	_	_	_	_	_		_	_
 vorgesehen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wir	O	_	_	_	_	_		_	_
 beantragen	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -4917,6 +5063,7 @@ M	O	_	_	_	_	_		_	_
 136325	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 32	O	_	_	_	_	_		_	EndOfSentence
+
 2	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Rückstellung	O	_	_	_	_	_		_	_
@@ -4928,6 +5075,7 @@ Wehrbeitrag	O	_	_	_	_	_		_	_
 500609	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 3	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Abschreibung	O	_	_	_	_	_		_	_
@@ -4943,6 +5091,7 @@ Bankgebäude	O	_	_	_	_	_		_	_
 300000	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 4	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Rückstellung	O	_	_	_	_	_		_	_
@@ -4958,6 +5107,7 @@ Debitoren	O	_	_	_	_	_		_	_
 3000000	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 5	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 3	O	_	_	_	_	_		_	_
@@ -4973,6 +5123,7 @@ Kapital	O	_	_	_	_	_		_	_
 4350000	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 6	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Gratifikationen	O	_	_	_	_	_		_	_
@@ -4987,6 +5138,7 @@ Beamten	O	_	_	_	_	_		_	_
 	O	_	_	_	_	_		_	_
 „	O	_	_	_	_	_		_	_
 700000	O	_	_	_	_	_		_	EndOfSentence
+
 7	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Vortrag	O	_	_	_	_	_		_	_
@@ -5005,11 +5157,14 @@ M	O	_	_	_	_	_		_	_
 280204	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 03	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	EndOfSentence
+
 M	O	_	_	_	_	_		_	_
 9266529	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 35	O	_	_	_	_	_		_	EndOfSentence
+
 Im	O	_	_	_	_	_		_	_
 Falle	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -5059,28 +5214,35 @@ Zahlstellen	O	_	_	_	_	_		_	_
 zahlbar	O	_	_	_	_	_		_	_
 sein	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 663	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Köln	B-LOC	_	_	_	_	Q365		_	_
 ,	O	_	_	_	_	_		_	_
 im	O	_	_	_	_	_		_	_
 Februar	O	_	_	_	_	_		_	_
 1914	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Direktion	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Aufſichtsräte	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Fabrikdirektor	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 664	O	_	_	_	_	_		_	_
 -	O	_	_	_	_	_		_	_
 65	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	_
 1	O	_	_	_	_	_		_	EndOfSentence
+
 Diplom⸗	O	_	_	_	_	_		_	_
 Ingenieur	O	_	_	_	_	_		_	_
 mit	O	_	_	_	_	_		_	_
@@ -5126,6 +5288,7 @@ geſtützt	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 verändern	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Off	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 u	O	_	_	_	_	_		_	_
@@ -5144,19 +5307,23 @@ a	I-LOC	_	_	_	_	Q1794		_	_
 .	I-LOC	_	_	_	_	Q1794		_	_
 M	I-LOC	_	_	_	_	Q1794		_	_
 .	I-LOC	_	_	_	_	Q1794		_	EndOfSentence
+
 Freiberg	B-LOC	_	_	_	_	Q14819		_	_
 in	O	_	_	_	_	_		_	_
 Sachsen	B-LOC	_	_	_	_	Q1202		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Für	O	_	_	_	_	_		_	_
 Industrie	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	_
 Billiges	O	_	_	_	_	_		_	_
 Land	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Billiges	O	_	_	_	_	_		_	_
 Geld	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Auskunft	O	_	_	_	_	_		_	_
 erteilt	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -5171,6 +5338,7 @@ Induſtrie	I-ORG	_	_	_	_	NIL		_	_
 88	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	_
 5	O	_	_	_	_	_		_	EndOfSentence
+
 Ingenieur	O	_	_	_	_	_		_	_
 C	B-PER	_	_	_	_	NIL		_	_
 .	I-PER	_	_	_	_	NIL		_	_
@@ -5185,8 +5353,10 @@ Sa	I-LOC	_	_	_	_	Q14819		_	_
 Weisbachſtraße	B-LOC	_	_	_	_	NIL		_	_
 16	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Beteiligung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Seit	O	_	_	_	_	_		_	_
 1897	O	_	_	_	_	_		_	_
 beſtehendes	O	_	_	_	_	_		_	_
@@ -5221,6 +5391,7 @@ mit	O	_	_	_	_	_		_	_
 Mille	O	_	_	_	_	_		_	_
 Einlage	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Verſiertem	O	_	_	_	_	_		_	_
 jüngerem	O	_	_	_	_	_		_	_
 Kaufmann	O	_	_	_	_	_		_	_
@@ -5239,6 +5410,7 @@ einer	O	_	_	_	_	_		_	_
 augenehmen	O	_	_	_	_	_		_	_
 Exiſtenz	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Ernftliche	O	_	_	_	_	_		_	_
 Reflektanten	O	_	_	_	_	_		_	_
 erhalten	O	_	_	_	_	_		_	_
@@ -5256,19 +5428,23 @@ d	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Ztg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 PANZER	B-ORG	_	_	_	_	Q2050062		_	_
 AKT	I-ORG	_	_	_	_	Q2050062		_	_
 .	I-ORG	_	_	_	_	Q2050062		_	_
 -	I-ORG	_	_	_	_	Q2050062		_	_
 GES	I-ORG	_	_	_	_	Q2050062		_	_
 .	I-ORG	_	_	_	_	Q2050062		_	EndOfSentence
+
 BERLIN	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 N	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 20	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 STAHLKAMMERN	O	_	_	_	_	_		_	EndOfSentence
+
 Ausstellungslokal	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	_
 Behrenstr	B-LOC	_	_	_	_	NIL		_	_
@@ -5282,6 +5458,7 @@ Behrenstr	B-LOC	_	_	_	_	NIL		_	_
 34	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	_
 2	O	_	_	_	_	_		_	EndOfSentence
+
 Für	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Redaktion	O	_	_	_	_	_		_	_
@@ -5293,7 +5470,9 @@ Tiedemann	I-PER	_	_	_	_	NIL		_	_
 ,	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Druck	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 „	O	_	_	_	_	_		_	_
@@ -5304,6 +5483,7 @@ Zeitung	I-ORG	_	_	_	_	Q19724822		_	_
 Druckerei	I-ORG	_	_	_	_	Q19724822		_	_
 und	I-ORG	_	_	_	_	Q19724822		_	_
 Verlag	I-ORG	_	_	_	_	Q19724822		_	EndOfSentence
+
 ,	I-ORG	_	_	_	_	Q19724822		_	_
 Geſ	I-ORG	_	_	_	_	Q19724822		_	_
 .	I-ORG	_	_	_	_	Q19724822		_	_
@@ -5316,6 +5496,7 @@ H	I-ORG	_	_	_	_	Q19724822		_	_
 ,	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	EndOfSentence
+
 Expedition	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 „	O	_	_	_	_	_		_	_
@@ -5368,8 +5549,10 @@ Lem	O	_	_	_	_	_		_	_
 Eliſabeth⸗	B-ORG	_	_	_	_	NIL		_	_
 Krankenhauſe	B-ORG	_	_	_	_	NIL		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Eeicheim	O	_	_	_	_	_		_	_
 tagich	O	_	_	_	_	_		_	EndOfSentence
+
 mu	O	_	_	_	_	_		_	_
 Außnahme	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -5380,6 +5563,7 @@ Sonn⸗	O	_	_	_	_	_		_	_
 ind	O	_	_	_	_	_		_	_
 Feiertagen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abonnementspreis	O	_	_	_	_	_		_	_
 fuͤr	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
@@ -5405,6 +5589,7 @@ Pf	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 mehr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abonnements	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 von	O	_	_	_	_	_		_	_
@@ -5425,13 +5610,16 @@ Briefträgern	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Jnſerate	O	_	_	_	_	_		_	EndOfSentence
+
 und	O	_	_	_	_	_		_	_
 unſeren	O	_	_	_	_	_		_	_
 Agenten	O	_	_	_	_	_		_	_
 im	O	_	_	_	_	_		_	_
 Kreiſe	O	_	_	_	_	_		_	_
 angenommen	O	_	_	_	_	_		_	EndOfSentence
+
 Preis	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 emfachen	O	_	_	_	_	_		_	_
@@ -5449,6 +5637,7 @@ in	O	_	_	_	_	_		_	_
 Reklametheil	O	_	_	_	_	_		_	_
 G	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 ꝑ1	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
@@ -5459,6 +5648,7 @@ D	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 joom	O	_	_	_	_	_		_	_
 ven	O	_	_	_	_	_		_	_
 faͤmmtlichen	O	_	_	_	_	_		_	_
@@ -5467,10 +5657,12 @@ Bureaus	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
 Zeitungs⸗	O	_	_	_	_	_		_	_
 Expeditionen	O	_	_	_	_	_		_	EndOfSentence
+
 Teltower	B-ORG	_	_	_	_	NIL		_	_
 Kreis	I-ORG	_	_	_	_	NIL		_	_
 -	I-ORG	_	_	_	_	NIL		_	_
 Blatt	I-ORG	_	_	_	_	NIL		_	EndOfSentence
+
 Redaktion	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 Expedition	O	_	_	_	_	_		_	_
@@ -5484,10 +5676,12 @@ Lützowftr	B-LOC	_	_	_	_	NIL		_	_
 	O	_	_	_	_	_		_	_
 87	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Täglich	O	_	_	_	_	_		_	_
 erſcheinende	O	_	_	_	_	_		_	_
 Zeitung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Fernſprech⸗	O	_	_	_	_	_		_	_
 Anſchluß	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	_
@@ -5499,10 +5693,12 @@ Nr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 671	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Nr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 G0	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 Mittwoch	O	_	_	_	_	_		_	_
@@ -5514,13 +5710,16 @@ JJ	O	_	_	_	_	_		_	_
 März	O	_	_	_	_	_		_	_
 3886	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 40	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Jahrg	O	_	_	_	_	_		_	EndOfSentence
+
 Abonnements	O	_	_	_	_	_		_	_
 pro	O	_	_	_	_	_		_	_
 Monat	O	_	_	_	_	_		_	_
 März	O	_	_	_	_	_		_	EndOfSentence
+
 erf	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
 „	O	_	_	_	_	_		_	_
@@ -5550,27 +5749,35 @@ und	O	_	_	_	_	_		_	_
 unſeren	O	_	_	_	_	_		_	_
 Spediteuren	O	_	_	_	_	_		_	_
 entgegen⸗	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Expedition	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 genömmen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Vor	O	_	_	_	_	_		_	_
 25	O	_	_	_	_	_		_	_
 Jahren	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 U	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 März	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 deutſchen	O	_	_	_	_	_		_	_
 Truppen	O	_	_	_	_	_		_	_
 räumen	O	_	_	_	_	_		_	EndOfSentence
+
 Truppen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Verſailles	B-LOC	_	_	_	_	Q621		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 General	O	_	_	_	_	_		_	_
 Stoſch	B-PER	_	_	_	_	Q86606		_	_
 verhandelt	O	_	_	_	_	_		_	_
@@ -5588,8 +5795,10 @@ oktkupirien	O	_	_	_	_	_		_	_
 Theilen	O	_	_	_	_	_		_	_
 verbleibenden	O	_	_	_	_	_		_	_
 deutſchen	O	_	_	_	_	_		_	EndOfSentence
+
 Amtliches	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -5597,6 +5806,7 @@ den	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 März	O	_	_	_	_	_		_	_
 896	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Nacht	O	_	_	_	_	_		_	_
@@ -5627,6 +5837,7 @@ muthwillig	O	_	_	_	_	_		_	_
 abgebrochen	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Für	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Ermittelung	O	_	_	_	_	_		_	_
@@ -5641,31 +5852,38 @@ von	O	_	_	_	_	_		_	_
 Mark	O	_	_	_	_	_		_	_
 aus	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Namens	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
 Kreis⸗	O	_	_	_	_	_		_	_
 Ausſchuſſes	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Stubenrauch	B-PER	_	_	_	_	Q1360930		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 U	O	_	_	_	_	_		_	EndOfSentence
+
 Jhren	O	_	_	_	_	_		_	_
 Kaiſerlichen	O	_	_	_	_	_		_	_
 Majeſtäten	O	_	_	_	_	_		_	_
 morgen	O	_	_	_	_	_		_	_
 Mittag	O	_	_	_	_	_		_	EndOfSentence
+
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 10	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 März	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Unſer	O	_	_	_	_	_		_	_
 Kaiſer	O	_	_	_	_	_		_	_
 begab	O	_	_	_	_	_		_	_
 ſich	O	_	_	_	_	_		_	_
 heute	O	_	_	_	_	_		_	_
 Vormittag	O	_	_	_	_	_		_	EndOfSentence
+
 öſterreichiſch⸗	O	_	_	_	_	_		_	_
 ungariſschen	O	_	_	_	_	_		_	_
 Miniſter	O	_	_	_	_	_		_	_
@@ -5697,6 +5915,7 @@ ungariſchen	O	_	_	_	_	_		_	_
 Botſchafters	O	_	_	_	_	_		_	_
 am	O	_	_	_	_	_		_	_
 hieſigen	O	_	_	_	_	_		_	EndOfSentence
+
 ialieniſchen	O	_	_	_	_	_		_	_
 Botſchafter	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -5706,7 +5925,9 @@ Lanza	B-PER	_	_	_	_	NIL		_	_
 ein⸗	O	_	_	_	_	_		_	_
 nehmen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Aus	O	_	_	_	_	_		_	_
 Anlaß	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -5728,6 +5949,7 @@ Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 findet	O	_	_	_	_	_		_	_
 bei	O	_	_	_	_	_		_	EndOfSentence
+
 Abends	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
 k	O	_	_	_	_	_		_	_
@@ -5739,11 +5961,15 @@ ungariſchen	O	_	_	_	_	_		_	_
 Miniſter	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
 Aeußern	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Nichtamtliches	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Rundſchau	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 dem	O	_	_	_	_	_		_	_
 fahrplanmäßigen	O	_	_	_	_	_		_	_
 Zuge	O	_	_	_	_	_		_	_
@@ -5777,6 +6003,7 @@ Artillerie⸗	O	_	_	_	_	_		_	_
 Regiments	O	_	_	_	_	_		_	_
 bei	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jm	O	_	_	_	_	_		_	_
 Laufe	O	_	_	_	_	_		_	_
 Nachmittags	O	_	_	_	_	_		_	_
@@ -5794,6 +6021,7 @@ Uhr	O	_	_	_	_	_		_	_
 30	O	_	_	_	_	_		_	_
 Min	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Hofe	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 v	B-PER	_	_	_	_	Q473847		_	_
@@ -5803,6 +6031,7 @@ Szögyenyi	I-PER	_	_	_	_	Q473847		_	_
 zu	O	_	_	_	_	_		_	_
 entſprechen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Morgen	O	_	_	_	_	_		_	_
 Abend	O	_	_	_	_	_		_	_
 wird	O	_	_	_	_	_		_	_
@@ -5818,6 +6047,7 @@ Botſchafter	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 Grafen	O	_	_	_	_	_		_	_
 Lanza	B-PER	_	_	_	_	NIL		_	EndOfSentence
+
 um	O	_	_	_	_	_		_	_
 125	O	_	_	_	_	_		_	_
 Uhr	O	_	_	_	_	_		_	_
@@ -5875,6 +6105,7 @@ geweſen	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 auch	O	_	_	_	_	_		_	_
 ferner⸗	O	_	_	_	_	_		_	EndOfSentence
+
 ſtein	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -5895,7 +6126,9 @@ Fürſtenberg	I-PER	_	_	_	_	Q1294650		_	_
 geladen	O	_	_	_	_	_		_	_
 ſind	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Graf	O	_	_	_	_	_		_	_
 Goluchowski	B-PER	_	_	_	_	Q392632		_	_
 ,	O	_	_	_	_	_		_	_
@@ -5925,7 +6158,9 @@ im	O	_	_	_	_	_		_	_
 Hotel	B-LOC	_	_	_	_	Q1630839		_	_
 Briſtol	I-LOC	_	_	_	_	Q1630839		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Zu	O	_	_	_	_	_		_	_
 ſeinem	O	_	_	_	_	_		_	_
 Beſuche	O	_	_	_	_	_		_	_
@@ -5955,6 +6190,7 @@ längerer	O	_	_	_	_	_		_	_
 Zeit	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
 Ausſicht	O	_	_	_	_	_		_	EndOfSentence
+
 öſterreich⸗	O	_	_	_	_	_		_	_
 ungariſchen	O	_	_	_	_	_		_	_
 Staatsmänner	O	_	_	_	_	_		_	_
@@ -5988,6 +6224,7 @@ gegenſeitigen	O	_	_	_	_	_		_	_
 Vertrauens	O	_	_	_	_	_		_	_
 wirkte	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wenn	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Reiſe	O	_	_	_	_	_		_	_
@@ -6024,6 +6261,7 @@ ungariſche	O	_	_	_	_	_		_	_
 Miniſter	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
 Aeußern	O	_	_	_	_	_		_	EndOfSentence
+
 deutſche	O	_	_	_	_	_		_	_
 Politik	O	_	_	_	_	_		_	_
 entſcheidenden	O	_	_	_	_	_		_	_
@@ -6043,6 +6281,7 @@ Reichspolitik	O	_	_	_	_	_		_	_
 Kaiſer	O	_	_	_	_	_		_	_
 Wilhelm	B-PER	_	_	_	_	Q2677		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 Blatt	O	_	_	_	_	_		_	_
 bezweifelt	O	_	_	_	_	_		_	_
@@ -6081,6 +6320,7 @@ ver	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 mochte	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dem	O	_	_	_	_	_		_	_
 Volke	O	_	_	_	_	_		_	_
 entſtammend	O	_	_	_	_	_		_	_
@@ -6170,6 +6410,7 @@ Europa	B-LOC	_	_	_	_	Q46		_	_
 erwieſen	O	_	_	_	_	_		_	_
 habe	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	EndOfSentence
+
 ſkehr	O	_	_	_	_	_		_	_
 Goluchowski	B-PER	_	_	_	_	Q392632		_	_
 '	O	_	_	_	_	_		_	_
@@ -6199,6 +6440,7 @@ verſtärken	O	_	_	_	_	_		_	_
 deſſen	O	_	_	_	_	_		_	_
 Streben	O	_	_	_	_	_		_	_
 es	O	_	_	_	_	_		_	EndOfSentence
+
 genommene	O	_	_	_	_	_		_	_
 Reiſe	O	_	_	_	_	_		_	_
 lebt	O	_	_	_	_	_		_	_
@@ -6213,6 +6455,7 @@ deutſchen	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 öſterreiſch⸗	O	_	_	_	_	_		_	_
 ungariſcher	O	_	_	_	_	_		_	EndOfSentence
+
 öſterreichiſch⸗	O	_	_	_	_	_		_	_
 ungariſche	O	_	_	_	_	_		_	_
 Miniſter	O	_	_	_	_	_		_	_
@@ -6229,6 +6472,7 @@ mit	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
 für	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	EndOfSentence
+
 die	O	_	_	_	_	_		_	_
 Jdeen	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -6240,9 +6484,11 @@ Verdunkelung	O	_	_	_	_	_		_	_
 klargeſtellt	O	_	_	_	_	_		_	_
 ſeien	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 perſönliche	O	_	_	_	_	_		_	_
 Ver⸗	O	_	_	_	_	_		_	EndOfSentence
+
 ühin	O	_	_	_	_	_		_	_
 bleiben	O	_	_	_	_	_		_	_
 werde	O	_	_	_	_	_		_	_
@@ -6251,10 +6497,12 @@ die	O	_	_	_	_	_		_	_
 intimen	O	_	_	_	_	_		_	_
 Be	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Verkümmerung	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 wahren	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 Bewußtſein	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -6292,6 +6540,7 @@ Element	O	_	_	_	_	_		_	_
 ihrer	O	_	_	_	_	_		_	_
 Politik	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Anſchluß	O	_	_	_	_	_		_	_
 Jtaliens	O	_	_	_	_	_		_	_
@@ -6317,6 +6566,7 @@ der	O	_	_	_	_	_		_	_
 Staatsmänner	O	_	_	_	_	_		_	_
 ſtehe	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Aus	O	_	_	_	_	_		_	_
 gleichen	O	_	_	_	_	_		_	_
 Zielen	O	_	_	_	_	_		_	_
@@ -6342,12 +6592,14 @@ ein	O	_	_	_	_	_		_	_
 momentes	O	_	_	_	_	_		_	_
 Miß	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 durch	O	_	_	_	_	_		_	_
 augenblickliche	O	_	_	_	_	_		_	_
 Zwiſchenfälle	O	_	_	_	_	_		_	_
 alterirt	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 heinen	O	_	_	_	_	_		_	_
 Schutzwall	O	_	_	_	_	_		_	_
 Ses	O	_	_	_	_	_		_	_
@@ -6376,6 +6628,7 @@ die	O	_	_	_	_	_		_	_
 aufrichtig	O	_	_	_	_	_		_	_
 gleichen	O	_	_	_	_	_		_	_
 Zielen	O	_	_	_	_	_		_	EndOfSentence
+
 bewußt	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -6399,7 +6652,9 @@ zu	O	_	_	_	_	_		_	_
 unterſchätzenden	O	_	_	_	_	_		_	_
 Werth	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 J	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 Staatsminiſterium	O	_	_	_	_	_		_	_
 trat	O	_	_	_	_	_		_	_
@@ -6422,6 +6677,7 @@ einer	O	_	_	_	_	_		_	_
 Sitzung	O	_	_	_	_	_		_	_
 zuſammen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Budgetkommiſſion	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -6480,17 +6736,21 @@ Zuſtimmung	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 verſagen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 überweiſen	O	_	_	_	_	_		_	_
 zur	O	_	_	_	_	_		_	_
 Kenntnißnahme	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 Prüfung	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	EndOfSentence
+
 E	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Wahlprüfungskommiſſion	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
 Abgeordnetenhauſes	O	_	_	_	_	_		_	EndOfSentence
+
 und	O	_	_	_	_	_		_	_
 Frhrn	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -6513,6 +6773,7 @@ der	O	_	_	_	_	_		_	_
 Königlichen	O	_	_	_	_	_		_	_
 Staatsregierung	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	EndOfSentence
+
 ſgeſchick	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
@@ -6534,6 +6795,7 @@ abhängig	O	_	_	_	_	_		_	_
 ſein	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	EndOfSentence
+
 Jm	O	_	_	_	_	_		_	_
 Gefühl	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -6563,8 +6825,10 @@ Dreibundes	B-ORG	_	_	_	_	Q153867		_	_
 der	O	_	_	_	_	_		_	_
 auch	O	_	_	_	_	_		_	_
 weiterhin	O	_	_	_	_	_		_	EndOfSentence
+
 zuſtrebe	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Alles	O	_	_	_	_	_		_	_
 deſſen	O	_	_	_	_	_		_	_
 werde	O	_	_	_	_	_		_	_
@@ -6580,6 +6844,7 @@ s	O	_	_	_	_	_		_	_
 nach	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 neuerdinas	O	_	_	_	_	_		_	EndOfSentence
+
 Abgeordnetenhauſes	O	_	_	_	_	_		_	_
 beantragt	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -6592,6 +6857,7 @@ von	O	_	_	_	_	_		_	_
 Veltheim	B-PER	_	_	_	_	Q2563069		_	_
 ,	O	_	_	_	_	_		_	_
 Jrmer	B-PER	_	_	_	_	NIL		_	EndOfSentence
+
 Beziehungen	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 Deutſchland	B-LOC	_	_	_	_	Q183		_	_
@@ -6602,6 +6868,7 @@ des	O	_	_	_	_	_		_	_
 Dreibundes	B-ORG	_	_	_	_	Q153867		_	_
 vor	O	_	_	_	_	_		_	_
 jeder	O	_	_	_	_	_		_	EndOfSentence
+
 in	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
 Wahlproteſten	O	_	_	_	_	_		_	_
@@ -6613,6 +6880,7 @@ der	O	_	_	_	_	_		_	_
 darin	O	_	_	_	_	_		_	_
 enthaltenen	O	_	_	_	_	_		_	_
 Be⸗	O	_	_	_	_	_		_	EndOfSentence
+
 bezüglich	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Quai⸗	O	_	_	_	_	_		_	_
@@ -6620,6 +6888,7 @@ Taxen⸗	O	_	_	_	_	_		_	_
 Frage	O	_	_	_	_	_		_	_
 ſtatt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 ſchwerden	O	_	_	_	_	_		_	_
 über	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
@@ -6627,10 +6896,13 @@ Verhalten	O	_	_	_	_	_		_	_
 von	O	_	_	_	_	_		_	_
 Beamten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Ausland	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jtalien	B-LOC	_	_	_	_	Q38		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 neue	O	_	_	_	_	_		_	_
 Miniſterium	O	_	_	_	_	_		_	_
@@ -6693,6 +6965,7 @@ Poſt	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 Telegraphie	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Heute	O	_	_	_	_	_		_	_
 Vormittag	O	_	_	_	_	_		_	_
 hatten	O	_	_	_	_	_		_	_
@@ -6708,8 +6981,10 @@ Feſtſetzung	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Kabinetsliſte	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Frankreich	B-LOC	_	_	_	_	Q142		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 engliſche	O	_	_	_	_	_		_	_
 Geſchwader	O	_	_	_	_	_		_	_
@@ -6728,8 +7003,10 @@ von	O	_	_	_	_	_		_	_
 Cherbourg	B-LOC	_	_	_	_	Q3667188		_	_
 angekommen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 England	B-LOC	_	_	_	_	Q21		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jm	O	_	_	_	_	_		_	_
 Unterhauſe	O	_	_	_	_	_		_	_
 erklärte	O	_	_	_	_	_		_	_
@@ -6772,6 +7049,7 @@ europäiſchen	O	_	_	_	_	_		_	_
 Mächte	O	_	_	_	_	_		_	_
 zuſammen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Politik	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -6812,8 +7090,10 @@ vertheidigt	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 könnten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 u	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Erlaß	O	_	_	_	_	_		_	_
 eines	O	_	_	_	_	_		_	_
@@ -6830,8 +7110,10 @@ in	O	_	_	_	_	_		_	_
 Abrede	O	_	_	_	_	_		_	_
 geſtellt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Spanien	B-LOC	_	_	_	_	Q29		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 Bilbao	B-LOC	_	_	_	_	Q8692		_	_
 haben	O	_	_	_	_	_		_	_
@@ -6848,6 +7130,7 @@ nordamerikaniſchen	B-LOC	_	_	_	_	Q49		_	_
 Konſulats	O	_	_	_	_	_		_	_
 wiederholt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Bei	O	_	_	_	_	_		_	_
 einem	O	_	_	_	_	_		_	_
 Zuſammenſtoß	O	_	_	_	_	_		_	_
@@ -6859,6 +7142,7 @@ und	O	_	_	_	_	_		_	_
 Ruheſtörer	O	_	_	_	_	_		_	_
 verwundet	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sonſt	O	_	_	_	_	_		_	_
 herrſcht	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
@@ -6874,8 +7158,10 @@ Frage	O	_	_	_	_	_		_	_
 ruhiger	O	_	_	_	_	_		_	_
 anſieht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Türkei	B-LOC	_	_	_	_	Q43		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Sultan	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
@@ -6905,17 +7191,21 @@ Medjidie⸗	O	_	_	_	_	_		_	_
 Ordens	O	_	_	_	_	_		_	_
 verliehen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Heute	O	_	_	_	_	_		_	_
 findet	O	_	_	_	_	_		_	_
 eine	O	_	_	_	_	_		_	_
 Beſprechung	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Botſchafter	O	_	_	_	_	_		_	EndOfSentence
+
 Mutter	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 Sohn	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Novelle	O	_	_	_	_	_		_	_
 von	O	_	_	_	_	_		_	_
 Ludwig	B-PER	_	_	_	_	Q1875223		_	_
@@ -6927,6 +7217,7 @@ Ziemßen	I-PER	_	_	_	_	Q1875223		_	_
 Fortſetzung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Um	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Mittagszeit	O	_	_	_	_	_		_	_
@@ -6951,6 +7242,7 @@ die	O	_	_	_	_	_		_	_
 Kriſis	O	_	_	_	_	_		_	_
 überſtanden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 „	O	_	_	_	_	_		_	_
 Jhr	O	_	_	_	_	_		_	_
 Mann	O	_	_	_	_	_		_	_
@@ -6976,6 +7268,7 @@ kein	O	_	_	_	_	_		_	_
 Zweifel	O	_	_	_	_	_		_	_
 mehr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Danken	O	_	_	_	_	_		_	_
 Sie	O	_	_	_	_	_		_	_
 Gott	O	_	_	_	_	_		_	_
@@ -6987,6 +7280,7 @@ ungleich	O	_	_	_	_	_		_	_
 wahrſcheinlicher	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	EndOfSentence
+
 morgen	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	_
@@ -6996,6 +7290,7 @@ mit	O	_	_	_	_	_		_	_
 blaſſen	O	_	_	_	_	_		_	_
 Lippen	O	_	_	_	_	_		_	_
 vor	O	_	_	_	_	_		_	EndOfSentence
+
 Juſtine	B-PER	_	_	_	_	NIL		_	_
 nickte	O	_	_	_	_	_		_	_
 mit	O	_	_	_	_	_		_	_
@@ -7015,6 +7310,7 @@ die	O	_	_	_	_	_		_	_
 hagere	O	_	_	_	_	_		_	_
 Wange	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 „	O	_	_	_	_	_		_	_
 Jm	O	_	_	_	_	_		_	_
 Uebrigen	O	_	_	_	_	_		_	_
@@ -7037,6 +7333,7 @@ Ruhe	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 Pflege	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 „	O	_	_	_	_	_		_	_
 Jch	O	_	_	_	_	_		_	_
 denke	O	_	_	_	_	_		_	_
@@ -7050,6 +7347,7 @@ Herr	O	_	_	_	_	_		_	_
 Phyſikus	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	EndOfSentence
+
 „	O	_	_	_	_	_		_	_
 Sie	O	_	_	_	_	_		_	_
 haben	O	_	_	_	_	_		_	_
@@ -7057,6 +7355,7 @@ haben	O	_	_	_	_	_		_	_
 nöthig	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 alte	O	_	_	_	_	_		_	_
 Mann	O	_	_	_	_	_		_	_
@@ -7072,6 +7371,7 @@ Hut	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 Stock	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 „	O	_	_	_	_	_		_	_
 Muß	O	_	_	_	_	_		_	_
 heute	O	_	_	_	_	_		_	_
@@ -7085,6 +7385,7 @@ und	O	_	_	_	_	_		_	_
 Tapezierer	O	_	_	_	_	_		_	_
 anzuweiſen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Uebermorgen	O	_	_	_	_	_		_	_
 kommt	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -7128,6 +7429,7 @@ auf	O	_	_	_	_	_		_	_
 meine	O	_	_	_	_	_		_	_
 Koſten	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 Alſo	O	_	_	_	_	_		_	_
 Gott	O	_	_	_	_	_		_	_
 befohlen	O	_	_	_	_	_		_	_
@@ -7135,6 +7437,7 @@ befohlen	O	_	_	_	_	_		_	_
 beſte	O	_	_	_	_	_		_	_
 Frau	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wenn	O	_	_	_	_	_		_	_
 nichts	O	_	_	_	_	_		_	_
 Beſonderes	O	_	_	_	_	_		_	_
@@ -7147,6 +7450,7 @@ morgen	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 nöthig	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Erwarten	O	_	_	_	_	_		_	_
 Sie	O	_	_	_	_	_		_	_
 mich	O	_	_	_	_	_		_	_
@@ -7154,6 +7458,7 @@ alſo	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	EndOfSentence
+
 Damit	O	_	_	_	_	_		_	_
 war	O	_	_	_	_	_		_	_
 er	O	_	_	_	_	_		_	_
@@ -7161,6 +7466,7 @@ zur	O	_	_	_	_	_		_	_
 Thür	O	_	_	_	_	_		_	_
 hinans	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Juſtine	B-PER	_	_	_	_	NIL		_	_
 war	O	_	_	_	_	_		_	_
 auf	O	_	_	_	_	_		_	_
@@ -7173,6 +7479,7 @@ einige	O	_	_	_	_	_		_	_
 Zeit	O	_	_	_	_	_		_	_
 regungslos	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Beim	O	_	_	_	_	_		_	_
 Schlagen	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -7182,6 +7489,7 @@ Wanduhr	O	_	_	_	_	_		_	_
 ſie	O	_	_	_	_	_		_	_
 zuſammen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 „	O	_	_	_	_	_		_	_
 Alſo	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
@@ -7220,6 +7528,7 @@ Tag	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Noch	O	_	_	_	_	_		_	_
 einen	O	_	_	_	_	_		_	_
 ſchmerzlich	O	_	_	_	_	_		_	_
@@ -7269,6 +7578,7 @@ lautlos	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
 Zimmer	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Reſt	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -7282,6 +7592,7 @@ fieberhaft	O	_	_	_	_	_		_	_
 haftender	O	_	_	_	_	_		_	_
 Arbeit	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wie	O	_	_	_	_	_		_	_
 ein	O	_	_	_	_	_		_	_
 ehrliebender	O	_	_	_	_	_		_	_
@@ -7331,6 +7642,7 @@ oft	O	_	_	_	_	_		_	_
 wieder	O	_	_	_	_	_		_	_
 trübten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Derüber	O	_	_	_	_	_		_	_
 brach	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -7349,7 +7661,9 @@ viel	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 thun	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Oft	O	_	_	_	_	_		_	_
 blieb	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -7380,6 +7694,7 @@ die	O	_	_	_	_	_		_	_
 klopfenden	O	_	_	_	_	_		_	_
 Schläfen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Ja	O	_	_	_	_	_		_	_
 recht	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	_
@@ -7392,10 +7707,12 @@ Pflege	O	_	_	_	_	_		_	_
 geſorgt	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 Vor	O	_	_	_	_	_		_	_
 allen	O	_	_	_	_	_		_	_
 Dingen	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 Müden	O	_	_	_	_	_		_	_
 Schrittes	O	_	_	_	_	_		_	_
 ging	O	_	_	_	_	_		_	_
@@ -7426,6 +7743,7 @@ Nachtwachen	O	_	_	_	_	_		_	_
 dingen	O	_	_	_	_	_		_	_
 ließ	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 warb	O	_	_	_	_	_		_	_
 ſie	O	_	_	_	_	_		_	_
@@ -7473,6 +7791,7 @@ Lohn	O	_	_	_	_	_		_	_
 im	O	_	_	_	_	_		_	_
 Voraus	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Darauf	O	_	_	_	_	_		_	_
 kehrte	O	_	_	_	_	_		_	_
 ſie	O	_	_	_	_	_		_	_
@@ -7490,6 +7809,7 @@ nach	O	_	_	_	_	_		_	_
 Hauſe	O	_	_	_	_	_		_	_
 zurück	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Frau	O	_	_	_	_	_		_	_
 am	O	_	_	_	_	_		_	_
@@ -7504,6 +7824,7 @@ am	O	_	_	_	_	_		_	_
 Krankenbett	O	_	_	_	_	_		_	_
 einnehmen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 ihrem	O	_	_	_	_	_		_	_
 ſtillen	O	_	_	_	_	_		_	_
@@ -7554,6 +7875,7 @@ ihren	O	_	_	_	_	_		_	_
 Augen	O	_	_	_	_	_		_	_
 entrannen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Doch	O	_	_	_	_	_		_	_
 erweichten	O	_	_	_	_	_		_	_
 dieſe	O	_	_	_	_	_		_	_
@@ -7603,6 +7925,7 @@ Lieber	O	_	_	_	_	_		_	_
 Herr	O	_	_	_	_	_		_	_
 Dreſemann	B-PER	_	_	_	_	NIL		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 Mein	O	_	_	_	_	_		_	_
 Mann	O	_	_	_	_	_		_	_
 kann	O	_	_	_	_	_		_	_
@@ -7619,6 +7942,7 @@ Meinige	O	_	_	_	_	_		_	_
 dazu	O	_	_	_	_	_		_	_
 thue	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 giebt	O	_	_	_	_	_		_	_
 ein	O	_	_	_	_	_		_	_
@@ -7641,6 +7965,7 @@ ihm	O	_	_	_	_	_		_	_
 doch	O	_	_	_	_	_		_	_
 ſchaffen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dazu	O	_	_	_	_	_		_	_
 aber	O	_	_	_	_	_		_	_
 muß	O	_	_	_	_	_		_	_
@@ -7656,6 +7981,7 @@ bittere	O	_	_	_	_	_		_	_
 Reiſe	O	_	_	_	_	_		_	_
 machen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 kann	O	_	_	_	_	_		_	_
 mein	O	_	_	_	_	_		_	_
@@ -7675,6 +8001,7 @@ Ahnung	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
 mir	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 So	O	_	_	_	_	_		_	_
 will	O	_	_	_	_	_		_	_
 ich	O	_	_	_	_	_		_	_
@@ -7739,6 +8066,7 @@ Stiftsſtübchen	O	_	_	_	_	_		_	_
 geſchafft	O	_	_	_	_	_		_	_
 werde	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dafür	O	_	_	_	_	_		_	_
 ſegne	O	_	_	_	_	_		_	_
 Sie	O	_	_	_	_	_		_	_
@@ -7753,6 +8081,7 @@ gauzes	O	_	_	_	_	_		_	_
 Leben	O	_	_	_	_	_		_	_
 hin	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 11	O	_	_	_	_	_		_	_
 ⏑	O	_	_	_	_	_		_	_
 &	O	_	_	_	_	_		_	_
@@ -7762,11 +8091,13 @@ wulwwmmu	O	_	_	_	_	_		_	_
 ueiümimiim	O	_	_	_	_	_		_	_
 r	O	_	_	_	_	_		_	_
 im	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Fortſetzung	O	_	_	_	_	_		_	_
 folgt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 mm	O	_	_	_	_	_		_	_
 ;	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
@@ -7776,6 +8107,7 @@ y	O	_	_	_	_	_		_	_
 	O	_	_	_	_	_		_	_
 J	O	_	_	_	_	_		_	_
 muiæ	O	_	_	_	_	_		_	EndOfSentence
+
 Worum	O	_	_	_	_	_		_	_
 ich	O	_	_	_	_	_		_	_
 auf	O	_	_	_	_	_		_	_
@@ -7784,6 +8116,7 @@ Knieen	O	_	_	_	_	_		_	_
 beten	O	_	_	_	_	_		_	_
 will	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 ſchreibt	O	_	_	_	_	_		_	_
 Jhnen	O	_	_	_	_	_		_	_
@@ -7796,9 +8129,11 @@ Sie	O	_	_	_	_	_		_	_
 wohl	O	_	_	_	_	_		_	_
 kennen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Juſtine	B-PER	_	_	_	_	NIL		_	_
 Bechthold	I-PER	_	_	_	_	NIL		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Daß	O	_	_	_	_	_		_	_
 Sie	O	_	_	_	_	_		_	_
 meinen	O	_	_	_	_	_		_	_
@@ -7821,6 +8156,7 @@ ich	O	_	_	_	_	_		_	_
 bitten	O	_	_	_	_	_		_	_
 kann	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Und	O	_	_	_	_	_		_	_
 auch	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -7833,14 +8169,17 @@ wollen	O	_	_	_	_	_		_	_
 daß	O	_	_	_	_	_		_	_
 er	O	_	_	_	_	_		_	_
 mmmer	O	_	_	_	_	_		_	EndOfSentence
+
 Namen	O	_	_	_	_	_		_	_
 hiermit	O	_	_	_	_	_		_	_
 ſchließe	O	_	_	_	_	_		_	_
 ich	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Obengenannte	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Thräne	O	_	_	_	_	_		_	_
 auf	O	_	_	_	_	_		_	_
 Thräne	O	_	_	_	_	_		_	_
@@ -7875,6 +8214,7 @@ die	O	_	_	_	_	_		_	_
 Schrift	O	_	_	_	_	_		_	_
 immerhin	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Alſo	O	_	_	_	_	_		_	_
 faltete	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -7901,6 +8241,7 @@ s	O	_	_	_	_	_		_	_
 Adreſſe	O	_	_	_	_	_		_	_
 darauf	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Rach	O	_	_	_	_	_		_	_
 dieſem	O	_	_	_	_	_		_	_
 Werk	O	_	_	_	_	_		_	_
@@ -7921,6 +8262,7 @@ zu	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 rückgelehnt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jhr	O	_	_	_	_	_		_	_
 Athem	O	_	_	_	_	_		_	_
 ging	O	_	_	_	_	_		_	_
@@ -7944,6 +8286,7 @@ faſt	O	_	_	_	_	_		_	_
 ſchwärzlichen	O	_	_	_	_	_		_	_
 Glanz	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dann	O	_	_	_	_	_		_	_
 auf	O	_	_	_	_	_		_	_
 einmal	O	_	_	_	_	_		_	_
@@ -7987,10 +8330,12 @@ mit	O	_	_	_	_	_		_	_
 heißen	O	_	_	_	_	_		_	_
 Küſſen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 „	O	_	_	_	_	_		_	_
 Mein	O	_	_	_	_	_		_	_
 Kind	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 Mein	O	_	_	_	_	_		_	_
 Herzenskind	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	_
@@ -8013,11 +8358,13 @@ Leben	O	_	_	_	_	_		_	_
 nimmer	O	_	_	_	_	_		_	_
 wiederſehen	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 Nimmer	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 nimmer	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 Denn	O	_	_	_	_	_		_	_
 ich	O	_	_	_	_	_		_	_
 hab	O	_	_	_	_	_		_	_
@@ -8033,6 +8380,7 @@ kein	O	_	_	_	_	_		_	_
 Menſch	O	_	_	_	_	_		_	_
 wiederkehrt	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 O	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 o	O	_	_	_	_	_		_	_
@@ -8057,6 +8405,7 @@ mehr	O	_	_	_	_	_		_	_
 finden	O	_	_	_	_	_		_	_
 wirſt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 erhält	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 was	O	_	_	_	_	_		_	_
@@ -8064,6 +8413,7 @@ ihm	O	_	_	_	_	_		_	_
 zukommt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 Jeſu	B-PER	_	_	_	_	Q302		_	_
 
@@ -8082,6 +8432,7 @@ Jeſu	B-PER	_	_	_	_	Q302		_	_
 Morgen⸗	O	_	_	_	_	_		_	_
 Ausgabe	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Deutſches	B-ORG	_	_	_	_	Q1205856		_	_
 Nachrichtenbüro	I-ORG	_	_	_	_	Q1205856		_	_
 G	I-ORG	_	_	_	_	Q1205856		_	_
@@ -8092,6 +8443,7 @@ b	I-ORG	_	_	_	_	Q1205856		_	_
 .	I-ORG	_	_	_	_	Q1205856		_	_
 H	I-ORG	_	_	_	_	Q1205856		_	_
 .	I-ORG	_	_	_	_	Q1205856		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
@@ -8109,6 +8461,7 @@ H	I-ORG	_	_	_	_	Q1205856		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Als	O	_	_	_	_	_		_	_
 Manuſkript	O	_	_	_	_	_		_	_
@@ -8123,15 +8476,18 @@ ohne	O	_	_	_	_	_		_	_
 Vereinbarung	O	_	_	_	_	_		_	_
 unterſagt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Ohne	O	_	_	_	_	_		_	_
 alle	O	_	_	_	_	_		_	_
 Gewähr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 4	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Jahrg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 Dienstag	O	_	_	_	_	_		_	_
@@ -8139,9 +8495,11 @@ Dienstag	O	_	_	_	_	_		_	_
 28	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dezember	O	_	_	_	_	_		_	EndOfSentence
+
 Nr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 1937	O	_	_	_	_	_		_	EndOfSentence
+
 Von	B-PER	_	_	_	_	Q213537		_	_
 Haſſell	I-PER	_	_	_	_	Q213537		_	_
 beſucht	O	_	_	_	_	_		_	_
@@ -8150,12 +8508,14 @@ Panzerſchiff	O	_	_	_	_	_		_	_
 Deutſchland	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Rom	B-LOC	_	_	_	_	Q220		_	_
 ,	O	_	_	_	_	_		_	_
 27	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dezember	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Botſchafter	O	_	_	_	_	_		_	_
 von	B-PER	_	_	_	_	Q213537		_	_
 Haſſell	I-PER	_	_	_	_	Q213537		_	_
@@ -8200,6 +8560,7 @@ Deutſchland	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	_
 begeben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Admiral	O	_	_	_	_	_		_	_
 Marſchall	B-PER	_	_	_	_	Q61998		_	_
 gab	O	_	_	_	_	_		_	_
@@ -8243,17 +8604,20 @@ mit	O	_	_	_	_	_		_	_
 Frau	O	_	_	_	_	_		_	_
 teilnahm	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Ein	O	_	_	_	_	_		_	_
 Enkel	O	_	_	_	_	_		_	_
 Muſſolinis	B-PER	_	_	_	_	Q23559		_	_
 geboren	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Rom	B-LOC	_	_	_	_	Q220		_	_
 ,	O	_	_	_	_	_		_	_
 27	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dezember	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Gemahlin	O	_	_	_	_	_		_	_
 von	O	_	_	_	_	_		_	_
@@ -8283,18 +8647,21 @@ Guido	B-PER	_	_	_	_	NIL		_	_
 erhalten	O	_	_	_	_	_		_	_
 ſoll	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jtalieniſche	O	_	_	_	_	_		_	_
 Studienkommiſſion	O	_	_	_	_	_		_	_
 geht	O	_	_	_	_	_		_	_
 nach	O	_	_	_	_	_		_	_
 Tokio	B-LOC	_	_	_	_	Q1490		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Rom	B-LOC	_	_	_	_	Q220		_	_
 ,	O	_	_	_	_	_		_	_
 27	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dezember	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Nachricht	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -8313,6 +8680,7 @@ Preſſe	O	_	_	_	_	_		_	_
 lebhafte	O	_	_	_	_	_		_	_
 Zuſtimmung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Direktor	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -8357,6 +8725,7 @@ und	O	_	_	_	_	_		_	_
 Probleme	O	_	_	_	_	_		_	_
 hätten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jtalien	B-LOC	_	_	_	_	Q38		_	_
 und	O	_	_	_	_	_		_	_
 Japan	B-LOC	_	_	_	_	Q17		_	_
@@ -8380,6 +8749,7 @@ die	O	_	_	_	_	_		_	_
 Kulturwelt	O	_	_	_	_	_		_	_
 bedrohe	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 verantwortungsbewußte	O	_	_	_	_	_		_	_
 Politik	O	_	_	_	_	_		_	_
@@ -8416,6 +8786,7 @@ niemand	O	_	_	_	_	_		_	_
 bedroht	O	_	_	_	_	_		_	_
 werde	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Trotzdem	O	_	_	_	_	_		_	_
 könne	O	_	_	_	_	_		_	_
 man	O	_	_	_	_	_		_	_
@@ -8432,6 +8803,7 @@ feindlichen	O	_	_	_	_	_		_	_
 Stimmung	O	_	_	_	_	_		_	_
 beobachten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 So	O	_	_	_	_	_		_	_
 wende	O	_	_	_	_	_		_	_
 ſich	O	_	_	_	_	_		_	_
@@ -8460,6 +8832,7 @@ amerikaniſchen	O	_	_	_	_	_		_	_
 Bauprogramme	O	_	_	_	_	_		_	_
 heranreichten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Gleichberechtigung	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -8495,6 +8868,7 @@ Demokratien	O	_	_	_	_	_		_	_
 hartnäckig	O	_	_	_	_	_		_	_
 beſtritten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Gegen	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
 Fortbeſtehen	O	_	_	_	_	_		_	_
@@ -8511,18 +8885,21 @@ entſchiedene	O	_	_	_	_	_		_	_
 Abwehr	O	_	_	_	_	_		_	_
 geboten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Eine	O	_	_	_	_	_		_	_
 Wehrformation	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 öſterreichiſchen	O	_	_	_	_	_		_	_
 Legitimiſten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wien	B-LOC	_	_	_	_	Q1741		_	_
 ,	O	_	_	_	_	_		_	_
 27	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dezember	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Legitimiſten	O	_	_	_	_	_		_	_
 haben	O	_	_	_	_	_		_	_
@@ -8545,6 +8922,7 @@ ihre	O	_	_	_	_	_		_	_
 Organiſation	O	_	_	_	_	_		_	_
 auszubauen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 Neueſte	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
@@ -8577,6 +8955,7 @@ bei	O	_	_	_	_	_		_	_
 Verſammlungen	O	_	_	_	_	_		_	_
 durchzuführen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Mit	O	_	_	_	_	_		_	_
 einbezogen	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
@@ -8584,6 +8963,7 @@ legitimiſtiſche	O	_	_	_	_	_		_	_
 ehemalige	O	_	_	_	_	_		_	_
 Soldaten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Bekanntlich	O	_	_	_	_	_		_	_
 ſind	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -8618,6 +8998,7 @@ und	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 unterhalten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 5	O	_	_	_	_	_		_	_
 Memelländer	B-PER	_	_	_	_	Q1313206		_	_
 vom	O	_	_	_	_	_		_	_
@@ -8625,12 +9006,14 @@ litauiſchen	O	_	_	_	_	_		_	_
 Staatspräſidenten	O	_	_	_	_	_		_	_
 begnadigt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Kowno	B-LOC	_	_	_	_	Q4115712		_	_
 ,	O	_	_	_	_	_		_	_
 27	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dezember	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 litauiſche	O	_	_	_	_	_		_	_
 Staatspräſident	O	_	_	_	_	_		_	_
@@ -8663,6 +9046,7 @@ und	O	_	_	_	_	_		_	_
 Lapins	B-PER	_	_	_	_	NIL		_	_
 begnadigt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Neuer	O	_	_	_	_	_		_	_
 Schlag	O	_	_	_	_	_		_	_
 gegen	O	_	_	_	_	_		_	_
@@ -8671,12 +9055,14 @@ Kirchen	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
 Sowjetrußland	B-LOC	_	_	_	_	Q2184		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Warſchau	B-LOC	_	_	_	_	Q270		_	_
 ,	O	_	_	_	_	_		_	_
 27	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dezember	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Nach	O	_	_	_	_	_		_	_
 Meldungen	O	_	_	_	_	_		_	_
 aus	O	_	_	_	_	_		_	_
@@ -8705,6 +9091,7 @@ Todesſtoß	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 verſetzen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Danach	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 eine	O	_	_	_	_	_		_	_
@@ -8739,6 +9126,7 @@ H	O	_	_	_	_	_		_	_
 erhöht	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 kann	O	_	_	_	_	_		_	_
 kein	O	_	_	_	_	_		_	_
@@ -8778,6 +9166,7 @@ Rubel	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 bezahlen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 offenbar	O	_	_	_	_	_		_	_
@@ -8804,6 +9193,7 @@ Kirchen	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 zwingen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Schwedens	B-LOC	_	_	_	_	Q34		_	_
 Wirtſchaft	O	_	_	_	_	_		_	_
 fordert	O	_	_	_	_	_		_	_
@@ -8811,12 +9201,14 @@ Handelsabkommen	O	_	_	_	_	_		_	_
 mit	O	_	_	_	_	_		_	_
 Franco	B-PER	_	_	_	_	Q29179		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Stockholm	B-LOC	_	_	_	_	Q1754		_	_
 ,	O	_	_	_	_	_		_	_
 27	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dezember	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 maßgebenden	O	_	_	_	_	_		_	_
 Organiſationen	O	_	_	_	_	_		_	_
@@ -8845,6 +9237,7 @@ Spanien	B-LOC	_	_	_	_	Q29		_	_
 verlangt	O	_	_	_	_	_		_	_
 wird	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
 Schreiben	O	_	_	_	_	_		_	_
@@ -8872,6 +9265,7 @@ und	O	_	_	_	_	_		_	_
 Schiffahrtsabkommens	O	_	_	_	_	_		_	_
 aufzunehmen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Nur	O	_	_	_	_	_		_	_
 durch	O	_	_	_	_	_		_	_
 ein	O	_	_	_	_	_		_	_
@@ -8890,6 +9284,7 @@ dem	O	_	_	_	_	_		_	_
 Markt	O	_	_	_	_	_		_	_
 wahrzunehmen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Schwere	O	_	_	_	_	_		_	_
 Verluſte	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -8897,6 +9292,7 @@ Bolſchewiſten	O	_	_	_	_	_		_	_
 bei	O	_	_	_	_	_		_	_
 Teruel	B-LOC	_	_	_	_	Q14336		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 San	B-LOC	_	_	_	_	Q10313		_	_
 Sebaſtian	I-LOC	_	_	_	_	Q10313		_	_
 ,	O	_	_	_	_	_		_	_
@@ -8904,6 +9300,7 @@ Sebaſtian	I-LOC	_	_	_	_	Q10313		_	_
 .	O	_	_	_	_	_		_	_
 Dezember	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wie	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Heeresbericht	O	_	_	_	_	_		_	_
@@ -8925,6 +9322,7 @@ Teruel	B-LOC	_	_	_	_	Q14336		_	_
 weiter	O	_	_	_	_	_		_	_
 an	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Den	O	_	_	_	_	_		_	_
 bolſchewiſtiſchen	O	_	_	_	_	_		_	_
 Horden	O	_	_	_	_	_		_	_
@@ -8933,6 +9331,7 @@ wurden	O	_	_	_	_	_		_	_
 Verluſte	O	_	_	_	_	_		_	_
 zugefügt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 nationalen	O	_	_	_	_	_		_	_
 Truppen	O	_	_	_	_	_		_	_
@@ -8941,24 +9340,28 @@ fortgeſetzt	O	_	_	_	_	_		_	_
 ihre	O	_	_	_	_	_		_	_
 Stellungen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zwei	O	_	_	_	_	_		_	_
 rote	O	_	_	_	_	_		_	_
 Flugzeuge	O	_	_	_	_	_		_	_
 wurden	O	_	_	_	_	_		_	_
 abgeſchoſſen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Kraftloſere	O	_	_	_	_	_		_	_
 bolſchewiſtiſche	O	_	_	_	_	_		_	_
 Angriffe	O	_	_	_	_	_		_	_
 bei	O	_	_	_	_	_		_	_
 Teruel	B-LOC	_	_	_	_	Q14336		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Bilbao	B-LOC	_	_	_	_	Q8692		_	_
 ,	O	_	_	_	_	_		_	_
 27	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dezember	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Auch	O	_	_	_	_	_		_	_
 am	O	_	_	_	_	_		_	_
 Montag	O	_	_	_	_	_		_	_
@@ -8980,6 +9383,7 @@ die	O	_	_	_	_	_		_	_
 Kämpfe	O	_	_	_	_	_		_	_
 an	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 nationalen	O	_	_	_	_	_		_	_
 Flieger	O	_	_	_	_	_		_	_
@@ -8994,6 +9398,7 @@ und	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Nachſchubſtraßen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sie	O	_	_	_	_	_		_	_
 brachten	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -9026,6 +9431,7 @@ werden	O	_	_	_	_	_		_	_
 merklich	O	_	_	_	_	_		_	_
 nachlaſſen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Obwohl	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Bolſchewiſten	O	_	_	_	_	_		_	_
@@ -9045,6 +9451,7 @@ müſſen	O	_	_	_	_	_		_	_
 langſam	O	_	_	_	_	_		_	_
 zurückweichen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Den	O	_	_	_	_	_		_	_
 nationalen	O	_	_	_	_	_		_	_
 Truppen	O	_	_	_	_	_		_	_
@@ -9062,6 +9469,7 @@ Höhen	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 beſetzen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Auf	O	_	_	_	_	_		_	_
 beiden	O	_	_	_	_	_		_	_
 Seiten	O	_	_	_	_	_		_	_
@@ -9071,6 +9479,7 @@ neue	O	_	_	_	_	_		_	_
 Verſtärkungen	O	_	_	_	_	_		_	_
 ein	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Generalinſpektorin	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -9092,6 +9501,7 @@ weiterem	O	_	_	_	_	_		_	_
 Ausharren	O	_	_	_	_	_		_	_
 auf	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Kommandeur	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -9126,6 +9536,7 @@ Erfolg	O	_	_	_	_	_		_	_
 führen	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Deutſche	O	_	_	_	_	_		_	_
 Teilnehmer	O	_	_	_	_	_		_	_
 am	O	_	_	_	_	_		_	_
@@ -9134,12 +9545,14 @@ nach	O	_	_	_	_	_		_	_
 Hoggar	B-LOC	_	_	_	_	Q26399		_	_
 unterweas	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Paris	B-LOC	_	_	_	_	Q90		_	_
 ,	O	_	_	_	_	_		_	_
 27	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dezember	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 deutſchen	O	_	_	_	_	_		_	_
 Flieger	O	_	_	_	_	_		_	_
@@ -9211,6 +9624,7 @@ Le	B-LOC	_	_	_	_	Q738719		_	_
 Bourget	I-LOC	_	_	_	_	Q738719		_	_
 eingetroffen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 deutſchen	O	_	_	_	_	_		_	_
 Flieger	O	_	_	_	_	_		_	_
@@ -9244,6 +9658,7 @@ nach	O	_	_	_	_	_		_	_
 Algier	B-LOC	_	_	_	_	Q3561		_	_
 ſtarten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sie	O	_	_	_	_	_		_	_
 haben	O	_	_	_	_	_		_	_
 am	O	_	_	_	_	_		_	_
@@ -9269,6 +9684,7 @@ Köln	B-LOC	_	_	_	_	Q365		_	_
 Paris	B-LOC	_	_	_	_	Q90		_	_
 zurückgelegt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 dritte	O	_	_	_	_	_		_	_
 deutſche	O	_	_	_	_	_		_	_
@@ -9335,30 +9751,38 @@ zur	O	_	_	_	_	_		_	_
 Voſſiſchen	B-ORG	_	_	_	_	Q675003		_	_
 Zeitung	I-ORG	_	_	_	_	Q675003		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 U	O	_	_	_	_	_		_	EndOfSentence
+
 Donnerſtag	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Jtorgen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 15	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 unm	O	_	_	_	_	_		_	_
 um	O	_	_	_	_	_		_	_
 munmum	O	_	_	_	_	_		_	EndOfSentence
+
 erichtl	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 	O	_	_	_	_	_		_	_
 Bekanntmachunge	O	_	_	_	_	_		_	EndOfSentence
+
 A	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Bon	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Konkurtverfahren	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Ju	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
 Kentursverfabren	O	_	_	_	_	_		_	_
@@ -9421,6 +9845,7 @@ Zimmer	O	_	_	_	_	_		_	_
 14	O	_	_	_	_	_		_	_
 neſtimutt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -9429,6 +9854,7 @@ den	O	_	_	_	_	_		_	_
 Mai	O	_	_	_	_	_		_	_
 1903	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Gerichtsſchreiker	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -9440,12 +9866,14 @@ I	I-ORG	_	_	_	_	NIL		_	_
 Abtheilung	O	_	_	_	_	_		_	_
 S1	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 p	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 Koukursvperfahren	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
 Konkurarerfabren	O	_	_	_	_	_		_	_
@@ -9536,6 +9964,7 @@ Zimmer	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 beſtim	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -9544,6 +9973,7 @@ den	O	_	_	_	_	_		_	_
 Mai	O	_	_	_	_	_		_	_
 1903	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 DOer	O	_	_	_	_	_		_	_
 Gerichtsſchreiber	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -9556,9 +9986,11 @@ Abth	O	_	_	_	_	_		_	_
 	O	_	_	_	_	_		_	_
 84	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Kon	O	_	_	_	_	_		_	_
 FrTTron	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
 Konkursverfabren	O	_	_	_	_	_		_	_
@@ -9596,8 +10028,10 @@ des	O	_	_	_	_	_		_	_
 verſtorbenen	O	_	_	_	_	_		_	_
 Verwalters	O	_	_	_	_	_		_	_
 Roſenbach	B-PER	_	_	_	_	NIL		_	EndOfSentence
+
 Fn	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Roſenbach	B-PER	_	_	_	_	NIL		_	_
 gelegten	O	_	_	_	_	_		_	_
 Schlußrechnung	O	_	_	_	_	_		_	_
@@ -9639,6 +10073,7 @@ Zimmer	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 ſtimmt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -9647,6 +10082,7 @@ den	O	_	_	_	_	_		_	_
 Mai	O	_	_	_	_	_		_	_
 1903	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Gerichtsſchreiber	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -9657,7 +10093,9 @@ I	I-ORG	_	_	_	_	NIL		_	_
 ,	O	_	_	_	_	_		_	_
 Abtheilung	O	_	_	_	_	_		_	_
 81	O	_	_	_	_	_		_	EndOfSentence
+
 RonETNTTThren	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
 Konkursverfahren	O	_	_	_	_	_		_	_
@@ -9737,6 +10175,7 @@ Zimmer	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 ſtimmt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -9745,6 +10184,7 @@ den	O	_	_	_	_	_		_	_
 Mai	O	_	_	_	_	_		_	_
 1903	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Gerichtsſchreiber	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -9754,12 +10194,14 @@ I	I-ORG	_	_	_	_	NIL		_	_
 .	I-ORG	_	_	_	_	NIL		_	_
 Abtheilung	O	_	_	_	_	_		_	_
 81	O	_	_	_	_	_		_	EndOfSentence
+
 &	O	_	_	_	_	_		_	_
 onkr	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 TTfhren	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 Konkursverfahren	O	_	_	_	_	_		_	_
 über	O	_	_	_	_	_		_	_
@@ -9805,6 +10247,7 @@ iſt	O	_	_	_	_	_		_	_
 aufgekoben	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -9813,6 +10256,7 @@ den	O	_	_	_	_	_		_	_
 Mai	O	_	_	_	_	_		_	_
 1903	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Gerichtsſchreiber	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -9823,10 +10267,13 @@ I	I-ORG	_	_	_	_	NIL		_	_
 Abtheilung	O	_	_	_	_	_		_	_
 81	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 mmmmmu	O	_	_	_	_	_		_	EndOfSentence
+
 Steckbriefs⸗	O	_	_	_	_	_		_	_
 Erneuerung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 gegen	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -9884,6 +10331,7 @@ Steckbrief	O	_	_	_	_	_		_	_
 wird	O	_	_	_	_	_		_	_
 erneuert	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 ,	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -9892,15 +10340,18 @@ den	O	_	_	_	_	_		_	_
 Mai	O	_	_	_	_	_		_	_
 1903	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Königliches	B-ORG	_	_	_	_	Q1802817		_	_
 Landgericht	I-ORG	_	_	_	_	Q1802817		_	_
 I	I-ORG	_	_	_	_	Q1802817		_	_
 .	I-ORG	_	_	_	_	Q1802817		_	_
 Unterſuchungsrichter	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Steckbrief⸗	O	_	_	_	_	_		_	_
 Erledigung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 von	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
@@ -9976,6 +10427,7 @@ Steckbrief	O	_	_	_	_	_		_	_
 wird	O	_	_	_	_	_		_	_
 zurückgenommen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -9984,18 +10436,21 @@ den	O	_	_	_	_	_		_	_
 Mai	O	_	_	_	_	_		_	_
 1903	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Königl	B-ORG	_	_	_	_	NIL		_	_
 .	I-ORG	_	_	_	_	NIL		_	_
 	I-ORG	_	_	_	_	NIL		_	_
 Staatsanwaltſchaft	I-ORG	_	_	_	_	NIL		_	_
 I	I-ORG	_	_	_	_	NIL		_	_
 .	I-ORG	_	_	_	_	NIL		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Handelsregiſter	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
 Königlichen	B-ORG	_	_	_	_	NIL		_	_
@@ -10004,11 +10459,13 @@ I	I-ORG	_	_	_	_	NIL		_	_
 .	I-ORG	_	_	_	_	NIL		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Abtheilung	O	_	_	_	_	_		_	_
 A	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Am	O	_	_	_	_	_		_	_
 2	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -10047,6 +10504,7 @@ Berlin	B-LOC	_	_	_	_	Q64		_	_
 Offene	O	_	_	_	_	_		_	_
 Handelsgeſellſchaft	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Kaufmann	O	_	_	_	_	_		_	_
 Adolf	B-PER	_	_	_	_	NIL		_	_
@@ -10063,6 +10521,7 @@ baftender	O	_	_	_	_	_		_	_
 Geiellſchafter	O	_	_	_	_	_		_	_
 eingetreten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Gefellſchaft	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
@@ -10073,6 +10532,7 @@ April	O	_	_	_	_	_		_	_
 1903	O	_	_	_	_	_		_	_
 begonnen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Uebergang	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -10089,6 +10549,7 @@ Gefellſchaft	O	_	_	_	_	_		_	_
 nt	O	_	_	_	_	_		_	_
 ausgeſchloffen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Bei	O	_	_	_	_	_		_	_
 No	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -10112,7 +10573,9 @@ Kommanditiſten	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 erböht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 um	O	_	_	_	_	_		_	EndOfSentence
+
 Bei	O	_	_	_	_	_		_	_
 No	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -10137,11 +10600,13 @@ richtig	O	_	_	_	_	_		_	_
 Johann	B-PER	_	_	_	_	NIL		_	_
 Köpke	I-PER	_	_	_	_	NIL		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Firmeninhaber	O	_	_	_	_	_		_	_
 heißt	O	_	_	_	_	_		_	_
 Johann	B-PER	_	_	_	_	NIL		_	_
 Köpke	I-PER	_	_	_	_	NIL		_	_
 .NIL*|Q1403026O	O	_	_	_	_	_		_	EndOfSentence
+
 Bei	O	_	_	_	_	_		_	_
 No	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -10166,6 +10631,7 @@ auf	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 geloͤſt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Kaufmann	O	_	_	_	_	_		_	_
 Andre	B-PER	_	_	_	_	NIL		_	_
@@ -10179,9 +10645,11 @@ Alleininhaber	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Firma	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 memm	O	_	_	_	_	_		_	_
 WümT	O	_	_	_	_	_		_	_
 wunu	O	_	_	_	_	_		_	EndOfSentence
+
 Bei	O	_	_	_	_	_		_	_
 No	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -10213,6 +10681,7 @@ Kaufmann	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Prokura	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -10221,6 +10690,7 @@ Girke	I-PER	_	_	_	_	NIL		_	_
 iſt	O	_	_	_	_	_		_	_
 erloſchen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Bei	O	_	_	_	_	_		_	_
 Ro	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -10240,6 +10710,7 @@ Schöneberg	B-LOC	_	_	_	_	Q313189		_	_
 Offeue	O	_	_	_	_	_		_	_
 Handelsgeſellſchaft	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Jngenieur	O	_	_	_	_	_		_	_
 Erich	B-PER	_	_	_	_	Q15808394		_	_
@@ -10248,7 +10719,9 @@ Bibow	I-PER	_	_	_	_	Q15808394		_	_
 zu	O	_	_	_	_	_		_	_
 Schöneberg	B-LOC	_	_	_	_	Q313189		_	_
 iſt	O	_	_	_	_	_		_	EndOfSentence
+
 ]	O	_	_	_	_	_		_	EndOfSentence
+
 in	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
 Geithäft	O	_	_	_	_	_		_	_
@@ -10260,6 +10733,7 @@ Geſell	O	_	_	_	_	_		_	_
 ſchafter	O	_	_	_	_	_		_	_
 eingetreten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Geſellſchaft	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
@@ -10308,6 +10782,7 @@ Maſien	O	_	_	_	_	_		_	_
 bineintragzen	O	_	_	_	_	_		_	_
 will	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Uder	O	_	_	_	_	_		_	_
 wichtige	O	_	_	_	_	_		_	_
 Beſtimmungen	O	_	_	_	_	_		_	_
@@ -10335,6 +10810,7 @@ QLont	O	_	_	_	_	_		_	_
 geſprecken	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Viel	O	_	_	_	_	_		_	_
 faches	O	_	_	_	_	_		_	_
@@ -10345,6 +10821,7 @@ bört	O	_	_	_	_	_		_	_
 links	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Darauf	O	_	_	_	_	_		_	_
 raht	O	_	_	_	_	_		_	_
 wirklich	O	_	_	_	_	_		_	_
@@ -10368,6 +10845,7 @@ eſetze	O	_	_	_	_	_		_	_
 Heiterken	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wenn	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Kirche	O	_	_	_	_	_		_	_
@@ -10390,6 +10868,7 @@ der	O	_	_	_	_	_		_	_
 ebe	O	_	_	_	_	_		_	_
 einkommen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Michts	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 gefaͤbrlicher	O	_	_	_	_	_		_	_
@@ -10404,6 +10883,7 @@ Umarmun	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Kirche	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Geiterkeit	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
@@ -10411,6 +10891,7 @@ Beifal	O	_	_	_	_	_		_	_
 links	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Herr	O	_	_	_	_	_		_	_
 Bachem	B-PER	_	_	_	_	Q1730406		_	_
 tat	O	_	_	_	_	_		_	_
@@ -10425,6 +10906,7 @@ gleichen	O	_	_	_	_	_		_	_
 Waffen	O	_	_	_	_	_		_	_
 kampifen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Verzichten	O	_	_	_	_	_		_	_
 Sie	O	_	_	_	_	_		_	_
 erit	O	_	_	_	_	_		_	_
@@ -10456,6 +10938,7 @@ mit	O	_	_	_	_	_		_	_
 diefer	O	_	_	_	_	_		_	_
 Materie	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Vorlaͤufig	O	_	_	_	_	_		_	_
 bitte	O	_	_	_	_	_		_	_
 ich	O	_	_	_	_	_		_	_
@@ -10476,6 +10959,7 @@ Reichstagsdebatten	O	_	_	_	_	_		_	_
 hinein	O	_	_	_	_	_		_	_
 zuwerten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zut	O	_	_	_	_	_		_	_
 Bejeit	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	_
@@ -10503,6 +10987,7 @@ alle	O	_	_	_	_	_		_	_
 Katholiken	O	_	_	_	_	_		_	_
 zufrieden	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 Heiterteit	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	_
@@ -10512,6 +10997,7 @@ Zhnen	O	_	_	_	_	_		_	_
 gern	O	_	_	_	_	_		_	_
 belfen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Ade	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
 dieier	O	_	_	_	_	_		_	_
@@ -10543,6 +11029,7 @@ aller	O	_	_	_	_	_		_	_
 Echärit	O	_	_	_	_	_		_	_
 entgegeutreten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 bitte	O	_	_	_	_	_		_	_
 Sie	O	_	_	_	_	_		_	_
@@ -10565,6 +11052,7 @@ Teteranz	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 Gewiffenefreiheit	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 ebtz	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -10581,6 +11069,7 @@ und	O	_	_	_	_	_		_	_
 Natl	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 v	B-PER	_	_	_	_	Q96133		_	_
@@ -10614,6 +11103,7 @@ aller	O	_	_	_	_	_		_	_
 Landeskirche	O	_	_	_	_	_		_	_
 mnichten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wir	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -10621,6 +11111,7 @@ Antraz	O	_	_	_	_	_		_	_
 einfach	O	_	_	_	_	_		_	_
 ablehnen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Beifa	O	_	_	_	_	_		_	_
 bei	O	_	_	_	_	_		_	_
@@ -10628,6 +11119,7 @@ den	O	_	_	_	_	_		_	_
 Rpk	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Arg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 	O	_	_	_	_	_		_	_
@@ -10669,6 +11161,7 @@ auit	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 rerurteilen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zbt	O	_	_	_	_	_		_	_
 Antrag	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -10693,6 +11186,7 @@ Kirche	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
 Deutſchland	B-LOC	_	_	_	_	Q183		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Sehr	O	_	_	_	_	_		_	_
 richtig	O	_	_	_	_	_		_	_
@@ -10701,6 +11195,7 @@ linkt	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 rechtt	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Wenn	O	_	_	_	_	_		_	_
 Sie	O	_	_	_	_	_		_	_
 Jhre	O	_	_	_	_	_		_	_
@@ -10725,6 +11220,7 @@ Jhrer	O	_	_	_	_	_		_	_
 Seite	O	_	_	_	_	_		_	_
 haben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Uder	O	_	_	_	_	_		_	_
 wenn	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -10746,6 +11242,7 @@ der	O	_	_	_	_	_		_	_
 katholiſchen	O	_	_	_	_	_		_	_
 Kirche	O	_	_	_	_	_		_	_
 anwenden	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Kaͤlle	O	_	_	_	_	_		_	_
 ſtaatsbürgerlicher	O	_	_	_	_	_		_	_
@@ -10768,6 +11265,7 @@ nicht	O	_	_	_	_	_		_	_
 rerdenken	O	_	_	_	_	_		_	_
 koͤnnen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Auf	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Einzelbeiten	O	_	_	_	_	_		_	_
@@ -10778,6 +11276,7 @@ der	O	_	_	_	_	_		_	_
 Kommiſſion	O	_	_	_	_	_		_	_
 eingeben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sovlel	O	_	_	_	_	_		_	_
 kann	O	_	_	_	_	_		_	_
 ich	O	_	_	_	_	_		_	_
@@ -10806,6 +11305,7 @@ Deutſchland	B-LOC	_	_	_	_	Q83		_	_
 zu	O	_	_	_	_	_		_	_
 ſchaffen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Schneider	O	_	_	_	_	_		_	_
 man	O	_	_	_	_	_		_	_
 dieſe	O	_	_	_	_	_		_	_
@@ -10829,6 +11329,7 @@ auch	O	_	_	_	_	_		_	_
 ſinananzien	O	_	_	_	_	_		_	_
 trennen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Hoört	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	_
@@ -10841,6 +11342,7 @@ Beifal	O	_	_	_	_	_		_	_
 lints	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Aber	O	_	_	_	_	_		_	_
 wir	O	_	_	_	_	_		_	_
 wollen	O	_	_	_	_	_		_	_
@@ -10864,6 +11366,7 @@ rundlage	O	_	_	_	_	_		_	_
 geſchaffen	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Las	O	_	_	_	_	_		_	_
 laäßzt	O	_	_	_	_	_		_	_
 ſich	O	_	_	_	_	_		_	_
@@ -10873,6 +11376,7 @@ aber	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 machen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Miemand	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
 dieſem	O	_	_	_	_	_		_	_
@@ -10899,6 +11403,7 @@ entvaͤlt	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 dorautſehen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Deshalb	O	_	_	_	_	_		_	_
 muſſen	O	_	_	_	_	_		_	_
 wir	O	_	_	_	_	_		_	_
@@ -10907,6 +11412,7 @@ zweiten	O	_	_	_	_	_		_	_
 Teil	O	_	_	_	_	_		_	_
 ablehnen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 rate	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -10928,11 +11434,13 @@ anderer	O	_	_	_	_	_		_	_
 Form	O	_	_	_	_	_		_	_
 wiederzubringen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 ueifan	O	_	_	_	_	_		_	_
 links	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Blumenthal	B-PER	_	_	_	_	Q86689		_	_
@@ -10965,6 +11473,7 @@ Ketracht	O	_	_	_	_	_		_	_
 kemmen	O	_	_	_	_	_		_	_
 koͤnnen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 benrune	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -10994,6 +11503,7 @@ der	O	_	_	_	_	_		_	_
 Eutwicklung	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 daͤuke	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
@@ -11029,6 +11539,7 @@ einmal	O	_	_	_	_	_		_	_
 machen	O	_	_	_	_	_		_	_
 koͤnnen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Geiterk	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -11048,6 +11559,7 @@ Zentrumsantrag	O	_	_	_	_	_		_	_
 nichts	O	_	_	_	_	_		_	_
 Staatsgefährliches	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wit	O	_	_	_	_	_		_	_
 koͤnnen	O	_	_	_	_	_		_	_
 unſere	O	_	_	_	_	_		_	_
@@ -11083,10 +11595,12 @@ wird	O	_	_	_	_	_		_	_
 oder	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Heiterkeit	O	_	_	_	_	_		_	_
 linke	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 fann	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
@@ -11117,9 +11631,11 @@ technijche	O	_	_	_	_	_		_	_
 Schwieriakeiten	O	_	_	_	_	_		_	_
 ſtoßen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 EStuͤrmiſche	O	_	_	_	_	_		_	_
 Heiterkeit	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Man	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
@@ -11129,6 +11645,7 @@ den	O	_	_	_	_	_		_	_
 Gottesläſterungsparagraphen	O	_	_	_	_	_		_	_
 dvorgehalten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 mag	O	_	_	_	_	_		_	_
 einem	O	_	_	_	_	_		_	_
@@ -11153,6 +11670,7 @@ iſt	O	_	_	_	_	_		_	_
 laftern	O	_	_	_	_	_		_	_
 koͤnne	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Sehr	O	_	_	_	_	_		_	_
 wahr	O	_	_	_	_	_		_	_
@@ -11161,6 +11679,7 @@ und	O	_	_	_	_	_		_	_
 Heiterkeit	O	_	_	_	_	_		_	_
 linket	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 über	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Staat	O	_	_	_	_	_		_	_
@@ -11186,11 +11705,13 @@ als	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Gottesläſterung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Schallende	O	_	_	_	_	_		_	_
 Heiterkeit	O	_	_	_	_	_		_	_
 links	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Bachem	B-PER	_	_	_	_	Q1730406		_	_
@@ -11202,6 +11723,7 @@ dem	O	_	_	_	_	_		_	_
 Jutoleranzantrag⸗	O	_	_	_	_	_		_	_
 geſprochen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 iß	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
@@ -11211,10 +11733,12 @@ in	O	_	_	_	_	_		_	_
 ſeinet	O	_	_	_	_	_		_	_
 Kede	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Große	O	_	_	_	_	_		_	_
 Heiterkeit	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 würde	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -11229,6 +11753,7 @@ des	O	_	_	_	_	_		_	_
 ſtaatskirchlichen	O	_	_	_	_	_		_	_
 Konzeſſtenaweſeni	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Sebr	O	_	_	_	_	_		_	_
 richtis	O	_	_	_	_	_		_	_
@@ -11238,6 +11763,7 @@ Heiterkeit	O	_	_	_	_	_		_	_
 linta	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Seden	O	_	_	_	_	_		_	_
 Sie	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -11248,6 +11774,7 @@ katholiſchen	O	_	_	_	_	_		_	_
 Kirche	O	_	_	_	_	_		_	_
 an	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 Da	O	_	_	_	_	_		_	_
 tat	O	_	_	_	_	_		_	_
 man	O	_	_	_	_	_		_	_
@@ -11274,6 +11801,7 @@ ge	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 funden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Franzoſen	O	_	_	_	_	_		_	_
 haben	O	_	_	_	_	_		_	_
@@ -11298,6 +11826,7 @@ Tat	O	_	_	_	_	_		_	_
 auen	O	_	_	_	_	_		_	_
 umjetzen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Damit	O	_	_	_	_	_		_	_
 find	O	_	_	_	_	_		_	_
 ſie	O	_	_	_	_	_		_	_
@@ -11309,6 +11838,7 @@ voraut	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 lenanaen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wir	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 auch	O	_	_	_	_	_		_	_
@@ -11323,9 +11853,11 @@ Zentrum	B-ORG	_	_	_	_	Q157537		_	_
 darin	O	_	_	_	_	_		_	_
 rorananeht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Heiterkeit	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 ſtimme	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
@@ -11338,6 +11870,7 @@ freie	O	_	_	_	_	_		_	_
 Keligionkubung	O	_	_	_	_	_		_	_
 fordert	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Für	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 elaſtiſchen	O	_	_	_	_	_		_	_
@@ -11352,12 +11885,14 @@ ader	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 ſtimmen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Was	O	_	_	_	_	_		_	_
 heint	O	_	_	_	_	_		_	_
 denn	O	_	_	_	_	_		_	_
 freie	O	_	_	_	_	_		_	_
 Keliatonkübung	O	_	_	_	_	_		_	_
 ?	O	_	_	_	_	_		_	EndOfSentence
+
 Da	O	_	_	_	_	_		_	_
 koͤnnte	O	_	_	_	_	_		_	_
 ja	O	_	_	_	_	_		_	_
@@ -11368,9 +11903,11 @@ oͤffentlich	O	_	_	_	_	_		_	_
 taufen	O	_	_	_	_	_		_	_
 wollen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Geiterkeit	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Wie	O	_	_	_	_	_		_	_
 ſoll	O	_	_	_	_	_		_	_
 denn	O	_	_	_	_	_		_	_
@@ -11378,6 +11915,7 @@ da	O	_	_	_	_	_		_	_
 entichieden	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 ?	O	_	_	_	_	_		_	EndOfSentence
+
 Denken	O	_	_	_	_	_		_	_
 Sie	O	_	_	_	_	_		_	_
 dech	O	_	_	_	_	_		_	_
@@ -11403,23 +11941,28 @@ haben	O	_	_	_	_	_		_	_
 bineinlegen	O	_	_	_	_	_		_	_
 laſien	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 BGeifall	O	_	_	_	_	_		_	_
 lints	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Hitrauf	O	_	_	_	_	_		_	_
 vertaat	O	_	_	_	_	_		_	_
 ſich	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
 Haus	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 u	O	_	_	_	_	_		_	EndOfSentence
+
 t	O	_	_	_	_	_		_	_
 folgen	O	_	_	_	_	_		_	_
 verſönliche	O	_	_	_	_	_		_	_
 Bemerkungen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dr	O	_	_	_	_	_		_	_
@@ -11451,15 +11994,18 @@ die	O	_	_	_	_	_		_	_
 Macht	O	_	_	_	_	_		_	_
 haͤtten	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	EndOfSentence
+
 u	O	_	_	_	_	_		_	_
 ⏑	O	_	_	_	_	_		_	_
 J	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 den	O	_	_	_	_	_		_	_
 Religionkunterricht	O	_	_	_	_	_		_	_
 verbieten	O	_	_	_	_	_		_	_
 wuͤrden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zu	O	_	_	_	_	_		_	_
 dieſer	O	_	_	_	_	_		_	_
 Unterſtellung	O	_	_	_	_	_		_	_
@@ -11472,6 +12018,7 @@ gerinaſten	O	_	_	_	_	_		_	_
 Grund	O	_	_	_	_	_		_	_
 gegeben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 habe	O	_	_	_	_	_		_	_
 mich	O	_	_	_	_	_		_	_
@@ -11494,6 +12041,7 @@ Schulen	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 uͤberweiſen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Freiherr	O	_	_	_	_	_		_	_
@@ -11543,6 +12091,7 @@ Gruͤnden	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 verbieten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dr	O	_	_	_	_	_		_	_
@@ -11599,12 +12148,14 @@ dilligen	O	_	_	_	_	_		_	_
 ihre	O	_	_	_	_	_		_	_
 Kinder	O	_	_	_	_	_		_	_
 fernzuhalten	O	_	_	_	_	_		_	EndOfSentence
+
 Alles	O	_	_	_	_	_		_	_
 andere	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 eine	O	_	_	_	_	_		_	_
 Unterſrellung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Frhr	O	_	_	_	_	_		_	_
@@ -11646,6 +12197,7 @@ eben	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Chriſtliche	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dr	O	_	_	_	_	_		_	_
@@ -11707,6 +12259,7 @@ etwas	O	_	_	_	_	_		_	_
 unterſtelt	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Machite	O	_	_	_	_	_		_	_
 Einung	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	_
@@ -11714,6 +12267,7 @@ Donnerttag	O	_	_	_	_	_		_	_
 1	O	_	_	_	_	_		_	_
 Uhr	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Cagesordunng	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	_
 DEclenniger	O	_	_	_	_	_		_	_
@@ -11792,15 +12346,19 @@ Echluß	O	_	_	_	_	_		_	_
 on	O	_	_	_	_	_		_	_
 uUrt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 u	O	_	_	_	_	_		_	EndOfSentence
+
 Landtagsverhandlungen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abgeordnetenhaus	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 13	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Sitzung	O	_	_	_	_	_		_	_
@@ -11809,9 +12367,11 @@ vom	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Januar	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zortietung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	EndOfSentence
+
 Um	O	_	_	_	_	_		_	_
 Miniſtertiſch	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	_
@@ -11819,6 +12379,7 @@ v	B-PER	_	_	_	_	Q71757		_	_
 .	I-PER	_	_	_	_	Q71757		_	_
 Podbielski	I-PER	_	_	_	_	Q71757		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Taneerdnunñ	O	_	_	_	_	_		_	_
 :	O	_	_	_	_	_		_	_
 Zweite	O	_	_	_	_	_		_	_
@@ -11829,11 +12390,13 @@ der	O	_	_	_	_	_		_	_
 landwirtſchaftlichen	O	_	_	_	_	_		_	_
 Verwaltung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Geim	O	_	_	_	_	_		_	_
 Kapitel	O	_	_	_	_	_		_	_
 „	O	_	_	_	_	_		_	_
 Landwirtſchaftliche	O	_	_	_	_	_		_	_
 Lehranſtalten	O	_	_	_	_	_		_	EndOfSentence
+
 tet	O	_	_	_	_	_		_	_
 Miniſter	O	_	_	_	_	_		_	_
 v	B-PER	_	_	_	_	Q71757		_	_
@@ -11847,6 +12410,7 @@ Tichen	O	_	_	_	_	_		_	_
 Winterichnlen	O	_	_	_	_	_		_	_
 berrer	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 vehrer	O	_	_	_	_	_		_	_
 an	O	_	_	_	_	_		_	_
@@ -11861,6 +12425,7 @@ aͤlteren	O	_	_	_	_	_		_	_
 Landwirte	O	_	_	_	_	_		_	_
 rerden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Ju	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Winterſchulen	O	_	_	_	_	_		_	_
@@ -11879,6 +12444,7 @@ genügend	O	_	_	_	_	_		_	_
 vorbereite	O	_	_	_	_	_		_	_
 ufind	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Tie	O	_	_	_	_	_		_	_
 Regierung	O	_	_	_	_	_		_	_
 wird	O	_	_	_	_	_		_	_
@@ -11892,10 +12458,12 @@ Wainterichulen	O	_	_	_	_	_		_	_
 lebbaft	O	_	_	_	_	_		_	_
 unterſtutzen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 GBeifan	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Johanſſen	B-PER	_	_	_	_	NIL		_	_
@@ -11924,6 +12492,7 @@ nicht	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
 Plön	B-LOC	_	_	_	_	Q497060		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zum	O	_	_	_	_	_		_	_
 mindeſten	O	_	_	_	_	_		_	_
 iclite	O	_	_	_	_	_		_	_
@@ -11940,10 +12509,12 @@ Plön	B-LOC	_	_	_	_	Q497060		_	_
 rerlegt	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Beiran	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Kindler	B-PER	_	_	_	_	NIL		_	_
@@ -11981,6 +12552,7 @@ die	O	_	_	_	_	_		_	_
 denken	O	_	_	_	_	_		_	_
 kekaͤmrft	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 int	O	_	_	_	_	_		_	_
 nur	O	_	_	_	_	_		_	_
@@ -12002,6 +12574,7 @@ Braxis	O	_	_	_	_	_		_	_
 überſet	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Jnſtitute	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -12024,6 +12597,7 @@ andere	O	_	_	_	_	_		_	_
 Länder	O	_	_	_	_	_		_	_
 gererden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wunſchenzwert	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 eine	O	_	_	_	_	_		_	_
@@ -12055,11 +12629,13 @@ Vollbnahrung	O	_	_	_	_	_		_	_
 mittel	O	_	_	_	_	_		_	_
 find	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Betrall	O	_	_	_	_	_		_	_
 linta	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Hirt	B-PER	_	_	_	_	NIL		_	_
@@ -12086,6 +12662,7 @@ im	O	_	_	_	_	_		_	_
 naͤchiten	O	_	_	_	_	_		_	_
 ttat	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dr	O	_	_	_	_	_		_	_
@@ -12115,6 +12692,7 @@ Heſſen⸗	B-LOC	_	_	_	_	Q693356		_	_
 Naſſau	I-LOC	_	_	_	_	Q693356		_	_
 regeit	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 ach	O	_	_	_	_	_		_	_
 dieſem	O	_	_	_	_	_		_	_
 Geie	O	_	_	_	_	_		_	_
@@ -12139,6 +12717,7 @@ Fortbildungaſchulen	O	_	_	_	_	_		_	_
 einzerichtet	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 fönnte	O	_	_	_	_	_		_	_
 aver	O	_	_	_	_	_		_	_
@@ -12149,6 +12728,7 @@ noch	O	_	_	_	_	_		_	_
 vielmehr	O	_	_	_	_	_		_	_
 geicheben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 TDazu	O	_	_	_	_	_		_	_
 munen	O	_	_	_	_	_		_	_
 wir	O	_	_	_	_	_		_	_
@@ -12178,9 +12758,11 @@ Mittel	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 ſorgen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 GBeifal	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dr	O	_	_	_	_	_		_	_
@@ -12212,6 +12794,7 @@ in	O	_	_	_	_	_		_	_
 Heſſen⸗	B-LOC	_	_	_	_	Q693356		_	_
 Naſſau	I-LOC	_	_	_	_	Q693356		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Glattfelter	B-PER	_	_	_	_	Q60842540		_	_
@@ -12229,6 +12812,7 @@ der	O	_	_	_	_	_		_	_
 laͤndlichen	O	_	_	_	_	_		_	_
 Fortbildungsſchulen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Miniſter	O	_	_	_	_	_		_	_
 v	B-PER	_	_	_	_	Q71757		_	_
 .	I-PER	_	_	_	_	Q71757		_	_
@@ -12287,6 +12871,7 @@ fordern	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 muffen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 E	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 gut	O	_	_	_	_	_		_	_
@@ -12300,6 +12885,7 @@ einen	O	_	_	_	_	_		_	_
 Berfuch	O	_	_	_	_	_		_	_
 machen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Di	O	_	_	_	_	_		_	_
 verhandenen	O	_	_	_	_	_		_	_
 Fiſchereianſtalten	O	_	_	_	_	_		_	_
@@ -12310,6 +12896,7 @@ find	O	_	_	_	_	_		_	_
 wir	O	_	_	_	_	_		_	_
 gern	O	_	_	_	_	_		_	_
 bereit	O	_	_	_	_	_		_	EndOfSentence
+
 Uber	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
 Stand	O	_	_	_	_	_		_	_
@@ -12327,6 +12914,7 @@ Zebrnar	O	_	_	_	_	_		_	_
 eine	O	_	_	_	_	_		_	_
 Denkichrift	O	_	_	_	_	_		_	_
 zugeben	O	_	_	_	_	_		_	EndOfSentence
+
 Jm	O	_	_	_	_	_		_	_
 Bezirk	O	_	_	_	_	_		_	_
 Kaſſel	B-LOC	_	_	_	_	Q7890		_	_
@@ -12348,6 +12936,7 @@ ren	O	_	_	_	_	_		_	_
 nur	O	_	_	_	_	_		_	_
 73	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wir	O	_	_	_	_	_		_	_
 ſodten	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
@@ -12358,6 +12947,7 @@ zu	O	_	_	_	_	_		_	_
 Landwiriſchattsichulen	O	_	_	_	_	_		_	_
 machen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Diefe	O	_	_	_	_	_		_	_
 Rortbildungéſchulen	O	_	_	_	_	_		_	_
 ſellen	O	_	_	_	_	_		_	_
@@ -12379,6 +12969,7 @@ Schule	O	_	_	_	_	_		_	_
 gelernt	O	_	_	_	_	_		_	_
 baben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Einrichtung	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -12388,6 +12979,7 @@ keinen	O	_	_	_	_	_		_	_
 dauernden	O	_	_	_	_	_		_	_
 Nutzen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wir	O	_	_	_	_	_		_	_
 muüſſen	O	_	_	_	_	_		_	_
 aber	O	_	_	_	_	_		_	_
@@ -12407,6 +12999,7 @@ die	O	_	_	_	_	_		_	_
 Landwirtſchaftskammern	O	_	_	_	_	_		_	_
 find	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Richtung	O	_	_	_	_	_		_	_
@@ -12418,6 +13011,7 @@ Wandel	O	_	_	_	_	_		_	_
 geſchafft	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Mit	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Einrichtung	O	_	_	_	_	_		_	_
@@ -12443,6 +13037,7 @@ für	O	_	_	_	_	_		_	_
 ſie	O	_	_	_	_	_		_	_
 ban	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Mein	O	_	_	_	_	_		_	_
 Herzenswunſch	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
@@ -12464,6 +13059,7 @@ profrerierendes	O	_	_	_	_	_		_	_
 Gewerbe	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 eb	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -12471,6 +13067,7 @@ nabiter	O	_	_	_	_	_		_	_
 Beifaſ	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Abg	O	_	_	_	_	_		_	_
 
 # hipe2022:document_id = 27646518_1892-07-05_21_335_005
@@ -12491,6 +13088,7 @@ des	I-ORG	_	_	_	_	Q455014		_	_
 Berliner	I-ORG	_	_	_	_	Q455014		_	_
 Tageblatts	I-ORG	_	_	_	_	Q455014		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Nummer	O	_	_	_	_	_		_	_
 335	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -12505,9 +13103,11 @@ Dienſtag	O	_	_	_	_	_		_	_
 Juli	O	_	_	_	_	_		_	_
 1892	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Beiblatt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 &	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 fragebogen	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -12515,16 +13115,20 @@ Börsen	O	_	_	_	_	_		_	_
 -	O	_	_	_	_	_		_	_
 Enquete	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 XJJ	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Hamnuolagumaulon	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Fortſetzung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 *	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Wie	O	_	_	_	_	_		_	_
 jedes	O	_	_	_	_	_		_	_
 Monopol	O	_	_	_	_	_		_	_
@@ -12585,6 +13189,7 @@ ihnen	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 nachſtanden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 war	O	_	_	_	_	_		_	_
 vorauzzuſehen	O	_	_	_	_	_		_	_
@@ -12647,6 +13252,7 @@ Hintergrund	O	_	_	_	_	_		_	_
 gedrängt	O	_	_	_	_	_		_	_
 wurdt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Vergeblich	O	_	_	_	_	_		_	_
 waren	O	_	_	_	_	_		_	_
 ſeine	O	_	_	_	_	_		_	_
@@ -12662,6 +13268,7 @@ malelei	O	_	_	_	_	_		_	_
 blühte	O	_	_	_	_	_		_	_
 weiter	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 gab	O	_	_	_	_	_		_	_
 ſchlechterdings	O	_	_	_	_	_		_	_
@@ -12723,6 +13330,7 @@ Praxis	O	_	_	_	_	_		_	_
 darüber	O	_	_	_	_	_		_	_
 hinweg	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Und	O	_	_	_	_	_		_	_
 da	O	_	_	_	_	_		_	_
 ez	O	_	_	_	_	_		_	_
@@ -12745,6 +13353,7 @@ Pfuſchmakler	O	_	_	_	_	_		_	_
 ſeinen	O	_	_	_	_	_		_	_
 Platz	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Bei	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Verathung	O	_	_	_	_	_		_	_
@@ -12770,6 +13379,7 @@ geſchaffen	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 mußte	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zwei	O	_	_	_	_	_		_	_
 poliſirung	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -12791,6 +13401,7 @@ die	O	_	_	_	_	_		_	_
 verſteckte	O	_	_	_	_	_		_	_
 Privatmakelei	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 andere	O	_	_	_	_	_		_	_
 Partei	O	_	_	_	_	_		_	_
@@ -12841,6 +13452,7 @@ nicht	O	_	_	_	_	_		_	_
 lange	O	_	_	_	_	_		_	_
 warten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Mangel	O	_	_	_	_	_		_	_
 au	O	_	_	_	_	_		_	_
@@ -12856,6 +13468,7 @@ ihnen	O	_	_	_	_	_		_	_
 obliegenden	O	_	_	_	_	_		_	_
 Angelegenheiten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dieſe	O	_	_	_	_	_		_	_
 Unluſt	O	_	_	_	_	_		_	_
 auf	O	_	_	_	_	_		_	_
@@ -12880,6 +13493,7 @@ die	O	_	_	_	_	_		_	_
 wirthſchaftliche	O	_	_	_	_	_		_	_
 Beweglichkeit	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dieſe	O	_	_	_	_	_		_	_
 Um	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
@@ -12895,6 +13509,7 @@ des	O	_	_	_	_	_		_	_
 Maklers	O	_	_	_	_	_		_	_
 richtete	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 kam	O	_	_	_	_	_		_	_
 ferner	O	_	_	_	_	_		_	_
@@ -12951,6 +13566,7 @@ als	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 erkennen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Mag	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
 Geſetz	O	_	_	_	_	_		_	_
@@ -12960,6 +13576,7 @@ noch	O	_	_	_	_	_		_	_
 ſehr	O	_	_	_	_	_		_	_
 nahmme	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Beſtimmungen	O	_	_	_	_	_		_	_
 unſeres	O	_	_	_	_	_		_	_
@@ -12987,6 +13604,7 @@ Verpflich	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 ſtungen	O	_	_	_	_	_		_	_
 beibehalten	O	_	_	_	_	_		_	EndOfSentence
+
 gewahrt	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 ihnen	O	_	_	_	_	_		_	_
@@ -13004,6 +13622,7 @@ offiziellen	O	_	_	_	_	_		_	_
 Stellung	O	_	_	_	_	_		_	_
 ergeben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jm	O	_	_	_	_	_		_	_
 Uebrigen	O	_	_	_	_	_		_	_
 aber	O	_	_	_	_	_		_	_
@@ -13056,6 +13675,7 @@ auf	O	_	_	_	_	_		_	_
 Geſchäftsvermittlung	O	_	_	_	_	_		_	_
 zuzuerkennen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Von	O	_	_	_	_	_		_	_
 diezer	O	_	_	_	_	_		_	_
 letzteren	O	_	_	_	_	_		_	_
@@ -13110,6 +13730,7 @@ Kommiſſionär	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 machen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sie	O	_	_	_	_	_		_	_
 dürfen	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
@@ -13125,6 +13746,7 @@ und	O	_	_	_	_	_		_	_
 Handlungsgehilfen	O	_	_	_	_	_		_	_
 ſtehen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sie	O	_	_	_	_	_		_	_
 dürfen	O	_	_	_	_	_		_	_
 Jweſenden	O	_	_	_	_	_		_	_
@@ -13145,6 +13767,7 @@ täglich	O	_	_	_	_	_		_	_
 einzutragen	O	_	_	_	_	_		_	_
 Jhat	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Nach	O	_	_	_	_	_		_	_
 Abſchluß	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -13159,6 +13782,7 @@ lihm	O	_	_	_	_	_		_	_
 unterzeichnete	O	_	_	_	_	_		_	_
 Schlußnote	O	_	_	_	_	_		_	_
 zuzuftellen	O	_	_	_	_	_		_	EndOfSentence
+
 bei	O	_	_	_	_	_		_	_
 Geſchäften	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -13169,6 +13793,7 @@ traten	O	_	_	_	_	_		_	_
 ſich	O	_	_	_	_	_		_	_
 gegeniiber	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 eine	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -13220,6 +13845,7 @@ aber	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 berührt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 J	O	_	_	_	_	_		_	_
 Dieſen	O	_	_	_	_	_		_	_
 Pflichten	O	_	_	_	_	_		_	_
@@ -13228,6 +13854,7 @@ gewiſſe	O	_	_	_	_	_		_	_
 Kechte	O	_	_	_	_	_		_	_
 gegenüber	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 be	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
@@ -13290,6 +13917,7 @@ des	O	_	_	_	_	_		_	_
 Maklergeſchäfts	O	_	_	_	_	_		_	_
 vereinigen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sie	O	_	_	_	_	_		_	_
 dürfen	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
@@ -13350,6 +13978,7 @@ Monopols	O	_	_	_	_	_		_	_
 rechtlich	O	_	_	_	_	_		_	_
 unmöglich	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Pflichten	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -13360,6 +13989,7 @@ Handelsmaklern	O	_	_	_	_	_		_	_
 durch	O	_	_	_	_	_		_	_
 zegennehmen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Poſitiv	O	_	_	_	_	_		_	_
 verpflichtet	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
@@ -13387,6 +14017,7 @@ der	O	_	_	_	_	_		_	_
 Gegenpartei	O	_	_	_	_	_		_	_
 zuzuſtellen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Als	O	_	_	_	_	_		_	_
 Strafe	O	_	_	_	_	_		_	_
 für	O	_	_	_	_	_		_	_
@@ -13407,6 +14038,7 @@ und	O	_	_	_	_	_		_	_
 dauernde	O	_	_	_	_	_		_	_
 Dienſtentlaſſung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Giltigkeit	O	_	_	_	_	_		_	_
 verbotswidrig	O	_	_	_	_	_		_	_
@@ -13427,6 +14059,7 @@ und	O	_	_	_	_	_		_	_
 Effekten	O	_	_	_	_	_		_	_
 zugetheilt	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	EndOfSentence
+
 der	O	_	_	_	_	_		_	_
 Kursz	O	_	_	_	_	_		_	_
 wird	O	_	_	_	_	_		_	_
@@ -13453,6 +14086,7 @@ abgeſchlonenen	O	_	_	_	_	_		_	_
 Operationen	O	_	_	_	_	_		_	_
 beſtimmt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jm	O	_	_	_	_	_		_	_
 Uebrigen	O	_	_	_	_	_		_	_
 kann	O	_	_	_	_	_		_	_
@@ -13475,6 +14109,7 @@ Waaren	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 Handelspapieren	O	_	_	_	_	_		_	_
 abzuhalten	O	_	_	_	_	_		_	EndOfSentence
+
 dieſe	O	_	_	_	_	_		_	_
 Befugniß	O	_	_	_	_	_		_	_
 i	O	_	_	_	_	_		_	_
@@ -13488,6 +14123,7 @@ in	O	_	_	_	_	_		_	_
 Preußen	B-LOC	_	_	_	_	Q38872		_	_
 zugelanden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 Privileg	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -13532,6 +14168,7 @@ Richters	O	_	_	_	_	_		_	_
 erfetzt	O	_	_	_	_	_		_	_
 orden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Seine	O	_	_	_	_	_		_	_
 Siellung	O	_	_	_	_	_		_	_
 als	O	_	_	_	_	_		_	_
@@ -13542,6 +14179,7 @@ ihm	O	_	_	_	_	_		_	_
 damit	O	_	_	_	_	_		_	_
 tlommemn	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 uu	O	_	_	_	_	_		_	_
 iumeu	O	_	_	_	_	_		_	_
 unnmt	O	_	_	_	_	_		_	_
@@ -13555,6 +14193,7 @@ Verhältniſſe	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
 Maklerthums	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 wor	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 hiervon	O	_	_	_	_	_		_	_
@@ -13595,6 +14234,7 @@ Wurdigunß	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 unterziehen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Schlut	O	_	_	_	_	_		_	_
 folaot	O	_	_	_	_	_		_	_
@@ -13615,6 +14255,7 @@ d	O	_	_	_	_	_		_	_
 Bl	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 2u	O	_	_	_	_	_		_	EndOfSentence
+
 Dieſe	O	_	_	_	_	_		_	_
 Vorſchrift	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
@@ -13640,6 +14281,7 @@ v	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 1864	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Usris	O	_	_	_	_	_		_	_
 un	O	_	_	_	_	_		_	_
 laniel	O	_	_	_	_	_		_	_
@@ -13648,6 +14290,7 @@ Linge	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Textitinduutrio	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
 erſten	O	_	_	_	_	_		_	_
@@ -13655,6 +14298,7 @@ vier	O	_	_	_	_	_		_	_
 mittelbare	O	_	_	_	_	_		_	_
 Eiſenbahnverbindung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Tonnen	O	_	_	_	_	_		_	_
 (	O	_	_	_	_	_		_	_
 1891	O	_	_	_	_	_		_	_
@@ -13679,6 +14323,7 @@ To	O	_	_	_	_	_		_	_
 Tounen	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dadurch	O	_	_	_	_	_		_	_
 haben	O	_	_	_	_	_		_	_
 ſich	O	_	_	_	_	_		_	_
@@ -13717,6 +14362,7 @@ in	O	_	_	_	_	_		_	_
 London	B-LOC	_	_	_	_	Q84		_	_
 1c	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Rechnet	O	_	_	_	_	_		_	_
 man	O	_	_	_	_	_		_	_
 hierzu	O	_	_	_	_	_		_	_
@@ -13738,6 +14384,7 @@ unterwegs	O	_	_	_	_	_		_	_
 befindlichen	O	_	_	_	_	_		_	_
 Quanten	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	EndOfSentence
+
 Tonnen	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -13745,6 +14392,7 @@ Ausfuhr	O	_	_	_	_	_		_	_
 12655	O	_	_	_	_	_		_	_
 To	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 geſammten	O	_	_	_	_	_		_	_
 Vorräthe	O	_	_	_	_	_		_	_
@@ -13801,6 +14449,7 @@ Rückſtänden	O	_	_	_	_	_		_	_
 entſtammt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Sprit	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -13843,6 +14492,7 @@ erhobene	O	_	_	_	_	_		_	_
 Tranſitftener	O	_	_	_	_	_		_	_
 fortfällt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Bei	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
 Alkohol	O	_	_	_	_	_		_	_
@@ -13870,6 +14520,7 @@ Speziallägern	O	_	_	_	_	_		_	_
 herhoben	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 ausländifchen	O	_	_	_	_	_		_	_
 Weine	O	_	_	_	_	_		_	_
@@ -13900,6 +14551,7 @@ hinausgehenden	O	_	_	_	_	_		_	_
 Grad	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	EndOfSentence
+
 Dieſe	O	_	_	_	_	_		_	_
 Steuer	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
@@ -13924,6 +14576,7 @@ natürlich	O	_	_	_	_	_		_	_
 ganz	O	_	_	_	_	_		_	_
 unabhängig	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Hio	O	_	_	_	_	_		_	_
 Möheitiſanri	O	_	_	_	_	_		_	_
 G	B-ORG	_	_	_	_	NIL		_	_
@@ -13961,6 +14614,7 @@ iimen	O	_	_	_	_	_		_	_
 -	O	_	_	_	_	_		_	_
 Registen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Einutragungen	O	_	_	_	_	_		_	_
 vom	O	_	_	_	_	_		_	_
 2	O	_	_	_	_	_		_	_
@@ -13969,10 +14623,12 @@ vom	O	_	_	_	_	_		_	_
 Juli	O	_	_	_	_	_		_	_
 1892	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Firma	O	_	_	_	_	_		_	_
 Gebrüder	B-ORG	_	_	_	_	NIL		_	_
 Scheller	I-ORG	_	_	_	_	NIL		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Vollmacht	O	_	_	_	_	_		_	_
 dez	O	_	_	_	_	_		_	_
@@ -13981,11 +14637,13 @@ iſt	O	_	_	_	_	_		_	_
 er⸗	O	_	_	_	_	_		_	_
 loſchet	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 Firma	O	_	_	_	_	_		_	_
 Gebrüder	B-ORG	_	_	_	_	NIL		_	_
 Beſas	I-ORG	_	_	_	_	NIL		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Juhaber	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -13995,6 +14653,7 @@ Beſas	I-PER	_	_	_	_	NIL		_	_
 zu	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 Firma	O	_	_	_	_	_		_	_
 Max	B-ORG	_	_	_	_	NIL		_	_
@@ -14010,6 +14669,7 @@ iſt	O	_	_	_	_	_		_	_
 ausqſchieden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 Firma	O	_	_	_	_	_		_	_
 Emil	B-ORG	_	_	_	_	NIL		_	_
@@ -14027,17 +14687,20 @@ Wichert	I-PER	_	_	_	_	NIL		_	_
 zu	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 Firma	O	_	_	_	_	_		_	_
 Julius	B-ORG	_	_	_	_	NIL		_	_
 Hablo	I-ORG	_	_	_	_	NIL		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jnhaber	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Baukier	O	_	_	_	_	_		_	_
 Antiguariat	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Juhaber	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -14047,8 +14710,10 @@ Heinrich	I-PER	_	_	_	_	NIL		_	_
 zu	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 August	B-PER	_	_	_	_	NIL		_	_
 Jabu	I-PER	_	_	_	_	NIL		_	EndOfSentence
+
 Jnbaber	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -14075,6 +14740,7 @@ Fran	B-LOC	_	_	_	_	NIL		_	_
 /	O	_	_	_	_	_		_	_
 61	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Utr⸗	O	_	_	_	_	_		_	_
 foͤnlich	O	_	_	_	_	_		_	_
 haftender	O	_	_	_	_	_		_	_
@@ -14090,6 +14756,7 @@ Freymark	I-PER	_	_	_	_	NIL		_	_
 zu	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 Firma	O	_	_	_	_	_		_	_
 Flach	B-ORG	_	_	_	_	NIL		_	_
@@ -14124,10 +14791,12 @@ Raahmel	I-PER	_	_	_	_	NIL		_	_
 in	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 Firma	O	_	_	_	_	_		_	_
 Hendrichs	B-ORG	_	_	_	_	NIL		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 J	B-PER	_	_	_	_	NIL		_	_
 .	I-PER	_	_	_	_	NIL		_	_
 J	I-PER	_	_	_	_	NIL		_	_
@@ -14144,6 +14813,7 @@ Hendrichs	I-PER	_	_	_	_	NIL		_	_
 zu	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 Zirna	O	_	_	_	_	_		_	_
 E	B-ORG	_	_	_	_	NIL		_	_
@@ -14155,21 +14825,25 @@ Lindner	I-ORG	_	_	_	_	NIL		_	_
 zu	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 Firma	O	_	_	_	_	_		_	_
 Hermann	B-ORG	_	_	_	_	NIL		_	_
 Schwabach	I-ORG	_	_	_	_	NIL		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jnhaber	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Kaufmann	O	_	_	_	_	_		_	_
 !	O	_	_	_	_	_		_	EndOfSentence
+
 Hermann	B-PER	_	_	_	_	NIL		_	_
 Schwabach	I-PER	_	_	_	_	NIL		_	_
 zu	O	_	_	_	_	_		_	_
 Berlin	B-LOC	_	_	_	_	Q64		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dem	O	_	_	_	_	_		_	_
 A	B-PER	_	_	_	_	NIL		_	_
 
@@ -14192,6 +14866,7 @@ Beiblätter	O	_	_	_	_	_		_	_
 weſen	O	_	_	_	_	_		_	_
 ſein	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 und	O	_	_	_	_	_		_	_
 Agitationen	O	_	_	_	_	_		_	_
 wuͤrden	O	_	_	_	_	_		_	_
@@ -14213,6 +14888,7 @@ Franzoſen	O	_	_	_	_	_		_	_
 herrſchen	O	_	_	_	_	_		_	_
 müſie	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Loubet	B-PER	_	_	_	_	Q169502		_	_
 ſchloiz	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -14244,18 +14920,22 @@ Grunde	O	_	_	_	_	_		_	_
 verkuüpft	O	_	_	_	_	_		_	_
 lei	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 u	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 A	O	_	_	_	_	_		_	EndOfSentence
+
 Paris	B-LOC	_	_	_	_	Q90		_	_
 ,	O	_	_	_	_	_		_	_
 6	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 April	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Privat⸗	O	_	_	_	_	_		_	_
 Telegramm	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 antireviſioniſtiſchen	O	_	_	_	_	_		_	_
 Abendblätter	O	_	_	_	_	_		_	_
@@ -14300,6 +14980,7 @@ und	O	_	_	_	_	_		_	_
 Bertulus	B-PER	_	_	_	_	Q57973987		_	_
 liige	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Tem	O	_	_	_	_	_		_	_
 Courrier	B-ORG	_	_	_	_	NIL		_	_
 du	I-ORG	_	_	_	_	NIL		_	_
@@ -14322,10 +15003,12 @@ Senat	O	_	_	_	_	_		_	_
 geſtellt	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Kleine	O	_	_	_	_	_		_	_
 potitiſche	O	_	_	_	_	_		_	_
 Nachrichten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Generalkapitän	O	_	_	_	_	_		_	_
 von	O	_	_	_	_	_		_	_
@@ -14346,6 +15029,7 @@ Bewegung	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 berathen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 „	O	_	_	_	_	_		_	_
 Imparcial	B-ORG	_	_	_	_	NIL		_	_
@@ -14363,7 +15047,9 @@ Thatigteit	O	_	_	_	_	_		_	_
 ent⸗	O	_	_	_	_	_		_	_
 wickeln	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Aus	O	_	_	_	_	_		_	_
 Kanea	B-LOC	_	_	_	_	NIL		_	_
 iſt	O	_	_	_	_	_		_	_
@@ -14378,8 +15064,10 @@ nach	O	_	_	_	_	_		_	_
 England	B-LOC	_	_	_	_	Q21		_	_
 abgegangen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Koloniales	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Kiantſchau	B-LOC	_	_	_	_	Q675321		_	_
 ,	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -14396,6 +15084,7 @@ reges	O	_	_	_	_	_		_	_
 Jutereſſe	O	_	_	_	_	_		_	_
 entgegengebracht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 zeigt	O	_	_	_	_	_		_	_
 ſich	O	_	_	_	_	_		_	_
@@ -14426,6 +15115,7 @@ Stellen	O	_	_	_	_	_		_	_
 gerichtet	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Vielfach	O	_	_	_	_	_		_	_
 ſind	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -14466,6 +15156,7 @@ Reichsmarineamt	B-ORG	_	_	_	_	Q879785		_	_
 ,	O	_	_	_	_	_		_	_
 weitergeben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Es	O	_	_	_	_	_		_	_
 kann	O	_	_	_	_	_		_	_
 daher	O	_	_	_	_	_		_	_
@@ -14492,6 +15183,7 @@ Reichsmarineamt	B-ORG	_	_	_	_	Q879785		_	_
 zu	O	_	_	_	_	_		_	_
 wenden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Bedarf	O	_	_	_	_	_		_	_
 an	O	_	_	_	_	_		_	_
@@ -14515,6 +15207,7 @@ findet	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 ſtatt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Von	O	_	_	_	_	_		_	_
 ernſten	O	_	_	_	_	_		_	_
 Unruhen	O	_	_	_	_	_		_	_
@@ -14534,6 +15227,7 @@ London	B-LOC	_	_	_	_	Q84		_	_
 zu	O	_	_	_	_	_		_	_
 berichten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dieſelben	O	_	_	_	_	_		_	_
 ſeien	O	_	_	_	_	_		_	_
 ausgebrochen	O	_	_	_	_	_		_	_
@@ -14552,6 +15246,7 @@ des	O	_	_	_	_	_		_	_
 Landes	O	_	_	_	_	_		_	_
 vorgingen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Nach	O	_	_	_	_	_		_	_
 Erkundigungen	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -14601,7 +15296,9 @@ von	O	_	_	_	_	_		_	_
 Kamerun	B-LOC	_	_	_	_	Q668294		_	_
 ist	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Deutſchland	B-LOC	_	_	_	_	Q183		_	EndOfSentence
+
 Neue	O	_	_	_	_	_		_	_
 Vorſchriften	O	_	_	_	_	_		_	_
 über	O	_	_	_	_	_		_	_
@@ -14624,6 +15321,7 @@ im	O	_	_	_	_	_		_	_
 Marineverordnungsblatt	O	_	_	_	_	_		_	_
 veröffentlicht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Aenderungen	O	_	_	_	_	_		_	_
 beziehen	O	_	_	_	_	_		_	_
@@ -14667,6 +15365,7 @@ zur	O	_	_	_	_	_		_	_
 zweiten	O	_	_	_	_	_		_	_
 Hauptprüfung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Am	O	_	_	_	_	_		_	_
 Mittwoch	O	_	_	_	_	_		_	_
 traten	O	_	_	_	_	_		_	_
@@ -14707,6 +15406,7 @@ die	O	_	_	_	_	_		_	_
 Kanalvorlage	O	_	_	_	_	_		_	_
 zuſammen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Während	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -14735,6 +15435,7 @@ langerſehnte	O	_	_	_	_	_		_	_
 Ziel	O	_	_	_	_	_		_	_
 erreicht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Bekanntlich	O	_	_	_	_	_		_	_
 waren	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
@@ -14746,6 +15447,7 @@ Stellen	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 aufgenommen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Um	O	_	_	_	_	_		_	_
 dieſen	O	_	_	_	_	_		_	_
 Beamten	O	_	_	_	_	_		_	_
@@ -14779,6 +15481,7 @@ hinter	O	_	_	_	_	_		_	_
 ſich	O	_	_	_	_	_		_	_
 haben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Hiernach	O	_	_	_	_	_		_	_
 betragen	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -14800,6 +15503,7 @@ ab	O	_	_	_	_	_		_	_
 4	O	_	_	_	_	_		_	_
 Mark	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 An	O	_	_	_	_	_		_	_
 Orten	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -14822,6 +15526,7 @@ Mark	O	_	_	_	_	_		_	_
 Tagegelder	O	_	_	_	_	_		_	_
 gezahlt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Poſtkaſſen	O	_	_	_	_	_		_	_
 ſind	O	_	_	_	_	_		_	_
@@ -14832,6 +15537,7 @@ Anweifung	O	_	_	_	_	_		_	_
 verſehen	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
 Poſträthen	O	_	_	_	_	_		_	_
@@ -14855,6 +15561,7 @@ zur	O	_	_	_	_	_		_	_
 Auszahlung	O	_	_	_	_	_		_	_
 gelangt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 «	O	_	_	_	_	_		_	_
 Wie	O	_	_	_	_	_		_	_
 feinerzeit	O	_	_	_	_	_		_	_
@@ -14909,6 +15616,7 @@ zu	O	_	_	_	_	_		_	_
 verſagen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	EndOfSentence
+
 Diefer	O	_	_	_	_	_		_	_
 Beſchluß	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
@@ -14964,6 +15672,7 @@ hervorgehoben	O	_	_	_	_	_		_	_
 ſein	O	_	_	_	_	_		_	_
 moge	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Aus	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
 Großherzogthum	B-LOC	_	_	_	_	Q20135		_	_
@@ -15065,6 +15774,7 @@ Verfügung	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 ſtellen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zur	O	_	_	_	_	_		_	_
 Erweiterung	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -15107,6 +15817,7 @@ Alsfeld	B-LOC	_	_	_	_	Q488314		_	_
 000	O	_	_	_	_	_		_	_
 Mark	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zum	O	_	_	_	_	_		_	_
 Bau	O	_	_	_	_	_		_	_
 eines	O	_	_	_	_	_		_	_
@@ -15127,6 +15838,7 @@ find	O	_	_	_	_	_		_	_
 Mark	O	_	_	_	_	_		_	_
 vorgefehen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 „	O	_	_	_	_	_		_	_
 Alz	O	_	_	_	_	_		_	_
 Nachfolger	O	_	_	_	_	_		_	_
@@ -15171,6 +15883,7 @@ in	O	_	_	_	_	_		_	_
 Ausſicht	O	_	_	_	_	_		_	_
 genommen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Herr	O	_	_	_	_	_		_	_
 v	B-PER	_	_	_	_	Q77113		_	_
 .	I-PER	_	_	_	_	Q77113		_	_
@@ -15195,7 +15908,9 @@ Mitglied	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
 Reichstages	B-ORG	_	_	_	_	Q160208		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 ]	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 württembergiſchen	O	_	_	_	_	_		_	_
@@ -15233,6 +15948,7 @@ der	O	_	_	_	_	_		_	_
 Bahnen	O	_	_	_	_	_		_	_
 aufzugeben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Abgabe	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -15247,6 +15963,7 @@ Erwägung	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Staatsregierung	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Betreffs	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
 Gebrauchs	O	_	_	_	_	_		_	_
@@ -15276,6 +15993,7 @@ Bedenken	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 habe	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Nur	O	_	_	_	_	_		_	_
 kei	O	_	_	_	_	_		_	_
 dabei	O	_	_	_	_	_		_	_
@@ -15326,6 +16044,7 @@ keinen	O	_	_	_	_	_		_	_
 Anſtoß	O	_	_	_	_	_		_	_
 nehmen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Sollte	O	_	_	_	_	_		_	_
 in	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -15356,6 +16075,7 @@ Erlaubniß	O	_	_	_	_	_		_	_
 zurückzuziehen	O	_	_	_	_	_		_	_
 fein	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
@@ -15365,9 +16085,11 @@ fein	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Parlamentariſche	O	_	_	_	_	_		_	_
 Nachrichten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dem	O	_	_	_	_	_		_	_
 im	O	_	_	_	_	_		_	_
 Landtage	O	_	_	_	_	_		_	_
@@ -15440,6 +16162,7 @@ Angeſtellten	O	_	_	_	_	_		_	_
 unmöglich	O	_	_	_	_	_		_	_
 machen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Mitglieder	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -15457,6 +16180,7 @@ der	O	_	_	_	_	_		_	_
 Staatsſchuldenverwaltung	O	_	_	_	_	_		_	_
 zuſammengetreten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 dieſer	O	_	_	_	_	_		_	_
 Beſprechung	O	_	_	_	_	_		_	_
@@ -15477,6 +16201,7 @@ Unebenmäßigkeiten	O	_	_	_	_	_		_	_
 ſtattgefunden	O	_	_	_	_	_		_	_
 haben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Demnächſt	O	_	_	_	_	_		_	_
 ſind	O	_	_	_	_	_		_	_
 alle	O	_	_	_	_	_		_	_
@@ -15499,6 +16224,7 @@ genauen	O	_	_	_	_	_		_	_
 Nachprüfung	O	_	_	_	_	_		_	_
 unterzogen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Kommiſſion	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
@@ -15554,7 +16280,9 @@ zu	O	_	_	_	_	_		_	_
 machen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 “	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Staatsſchuld	O	_	_	_	_	_		_	_
 betrug	O	_	_	_	_	_		_	_
@@ -15574,6 +16302,7 @@ Mark	O	_	_	_	_	_		_	_
 74	O	_	_	_	_	_		_	_
 Pf	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zur	O	_	_	_	_	_		_	_
 Beſtreitung	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -15591,6 +16320,7 @@ Pf	O	_	_	_	_	_		_	_
 nöthig	O	_	_	_	_	_		_	_
 geweſen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 An	O	_	_	_	_	_		_	_
 laufenden	O	_	_	_	_	_		_	_
 und	O	_	_	_	_	_		_	_
@@ -15621,6 +16351,7 @@ Pf	O	_	_	_	_	_		_	_
 rückſtändig	O	_	_	_	_	_		_	_
 geblieben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zur	O	_	_	_	_	_		_	_
 weiteren	O	_	_	_	_	_		_	_
 Tilgung	O	_	_	_	_	_		_	_
@@ -15652,25 +16383,30 @@ Pf	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 verfügbar	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Telegramme	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
 Berliner	B-ORG	_	_	_	_	Q455014		_	_
 Tageblatts	I-ORG	_	_	_	_	Q455014		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Klagenfurt	B-LOC	_	_	_	_	Q41753		_	_
 ,	O	_	_	_	_	_		_	_
 6	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 April	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 W	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 T	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 B	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Landtag	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Anläßlich	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Verhandlung	O	_	_	_	_	_		_	_
@@ -15692,6 +16428,7 @@ allgemeine	O	_	_	_	_	_		_	_
 politiſche	O	_	_	_	_	_		_	_
 Lage	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Nachdem	O	_	_	_	_	_		_	_
 mehrere	O	_	_	_	_	_		_	_
 Redner	O	_	_	_	_	_		_	_
@@ -15725,6 +16462,7 @@ Landtages	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
 anerkenne	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Schließlich	O	_	_	_	_	_		_	_
 wird	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -15739,12 +16477,14 @@ gegen	O	_	_	_	_	_		_	_
 Stimmen	O	_	_	_	_	_		_	_
 angenommen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Rachod	B-LOC	_	_	_	_	NIL		_	_
 ,	O	_	_	_	_	_		_	_
 6	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 April	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 W	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 T	O	_	_	_	_	_		_	_
@@ -15752,6 +16492,7 @@ T	O	_	_	_	_	_		_	_
 B	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Von	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
 an	O	_	_	_	_	_		_	_
@@ -15764,6 +16505,7 @@ find	O	_	_	_	_	_		_	_
 verhaftet	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wegen	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Verhaftung	O	_	_	_	_	_		_	_
@@ -15783,6 +16525,7 @@ die	O	_	_	_	_	_		_	_
 Arbeit	O	_	_	_	_	_		_	_
 ein	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Anlaß	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Revolte	O	_	_	_	_	_		_	_
@@ -15795,12 +16538,14 @@ Lohnerhöhung	O	_	_	_	_	_		_	_
 einer	O	_	_	_	_	_		_	_
 Fabrik	O	_	_	_	_	_		_	_
 ge	O	_	_	_	_	_		_	EndOfSentence
+
 Hamburg	B-LOC	_	_	_	_	Q1055		_	_
 ,	O	_	_	_	_	_		_	_
 6	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 April	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 W	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 T	O	_	_	_	_	_		_	_
@@ -15808,6 +16553,7 @@ T	O	_	_	_	_	_		_	_
 B	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Vor	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
 hieſigen	O	_	_	_	_	_		_	_
@@ -15827,6 +16573,7 @@ Bulgaria	O	_	_	_	_	_		_	_
 zugeſtoßen	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Vorſitzende	O	_	_	_	_	_		_	_
 ſtellte	O	_	_	_	_	_		_	_
@@ -15866,6 +16613,7 @@ Weiſe	O	_	_	_	_	_		_	_
 ausgeſagt	O	_	_	_	_	_		_	_
 hatten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Schließlich	O	_	_	_	_	_		_	_
 wurde	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
@@ -15879,17 +16627,21 @@ techniſcher	O	_	_	_	_	_		_	_
 Gutachten	O	_	_	_	_	_		_	_
 abzuwarten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 ?	O	_	_	_	_	_		_	_
 ?	O	_	_	_	_	_		_	EndOfSentence
+
 Görtin	B-LOC	_	_	_	_	NIL		_	_
 ,	O	_	_	_	_	_		_	_
 6	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 April	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Privat⸗	O	_	_	_	_	_		_	_
 Telegramm	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Zum	O	_	_	_	_	_		_	_
 Nachfolger	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
@@ -15911,12 +16663,14 @@ Noſtiz	I-PER	_	_	_	_	Q1508607		_	_
 gewählt	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Mentone	B-LOC	_	_	_	_	NIL		_	_
 ,	O	_	_	_	_	_		_	_
 6	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 April	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 W	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
@@ -15924,6 +16678,7 @@ T	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 B	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Heute	O	_	_	_	_	_		_	_
 Vormittag	O	_	_	_	_	_		_	_
 fand	O	_	_	_	_	_		_	_
@@ -15947,6 +16702,7 @@ errichteten	O	_	_	_	_	_		_	_
 Denkmals	O	_	_	_	_	_		_	_
 ſtatt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Biſchof	O	_	_	_	_	_		_	_
 von	O	_	_	_	_	_		_	_
@@ -15985,6 +16741,7 @@ Denkmal	O	_	_	_	_	_		_	_
 errichtet	O	_	_	_	_	_		_	_
 habe	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Viele	O	_	_	_	_	_		_	_
 Kränze	O	_	_	_	_	_		_	_
 uurden	O	_	_	_	_	_		_	_
@@ -15993,6 +16750,7 @@ dem	O	_	_	_	_	_		_	_
 Denkmal	O	_	_	_	_	_		_	_
 niedergelegt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jm	O	_	_	_	_	_		_	_
 Namen	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
@@ -16020,6 +16778,7 @@ Verdienſte	O	_	_	_	_	_		_	_
 erworben	O	_	_	_	_	_		_	_
 haben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Von	O	_	_	_	_	_		_	_
 dem	O	_	_	_	_	_		_	_
 Kaiſer	O	_	_	_	_	_		_	_
@@ -16035,7 +16794,9 @@ gehaltenes	O	_	_	_	_	_		_	_
 Danktelegramm	O	_	_	_	_	_		_	_
 ein	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 x	O	_	_	_	_	_		_	EndOfSentence
+
 Bauma	B-LOC	_	_	_	_	Q67145		_	_
 (	O	_	_	_	_	_		_	_
 Schweiz	B-LOC	_	_	_	_	Q39		_	_
@@ -16044,10 +16805,12 @@ Schweiz	B-LOC	_	_	_	_	Q39		_	_
 .	O	_	_	_	_	_		_	_
 April	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 (	O	_	_	_	_	_		_	_
 Privat⸗	O	_	_	_	_	_		_	_
 Telegramm	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Leiche	O	_	_	_	_	_		_	_
 Guyer	B-PER	_	_	_	_	Q117516		_	_
@@ -16097,12 +16860,14 @@ Handelswelt	O	_	_	_	_	_		_	_
 feierlich	O	_	_	_	_	_		_	_
 beerdigt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Konſtantinopel	B-LOC	_	_	_	_	Q16869		_	_
 ,	O	_	_	_	_	_		_	_
 6	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 April	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 W	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 T	O	_	_	_	_	_		_	_
@@ -16110,6 +16875,7 @@ T	O	_	_	_	_	_		_	_
 B	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Zeit	O	_	_	_	_	_		_	_
@@ -16132,22 +16898,26 @@ der	O	_	_	_	_	_		_	_
 Peſt	O	_	_	_	_	_		_	_
 geſtorben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Wien	B-LOC	_	_	_	_	Q1741		_	_
 .	O	_	_	_	_	_		_	_
 6	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 April	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 W	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 T	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 B	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 In	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 heutigen	O	_	_	_	_	_		_	_
@@ -16181,6 +16951,7 @@ Montangesellschaft	I-ORG	_	_	_	_	Q298821		_	_
 gelöst	O	_	_	_	_	_		_	_
 ware	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 bestehenden	O	_	_	_	_	_		_	_
 Verhältnisse	O	_	_	_	_	_		_	_
@@ -16191,6 +16962,7 @@ Weise	O	_	_	_	_	_		_	_
 alferirt	O	_	_	_	_	_		_	_
 worqen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Bezüglich	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 Bemangelung	O	_	_	_	_	_		_	_
@@ -16209,6 +16981,7 @@ eine	O	_	_	_	_	_		_	_
 kongtante	O	_	_	_	_	_		_	_
 gewesen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Seitens	O	_	_	_	_	_		_	_
 des	O	_	_	_	_	_		_	_
 Verwaltungsrathes	O	_	_	_	_	_		_	_
@@ -16220,6 +16993,7 @@ Zusage	O	_	_	_	_	_		_	_
 gemacht	O	_	_	_	_	_		_	_
 vorden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Inſolge	O	_	_	_	_	_		_	_
 der	O	_	_	_	_	_		_	_
 eingetretenen	O	_	_	_	_	_		_	_
@@ -16241,8 +17015,10 @@ Montangesellschaſt	I-ORG	_	_	_	_	Q298821		_	_
 abgestossen	O	_	_	_	_	_		_	_
 worden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Zürich	B-LOC	_	_	_	_	Q72		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 6	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 April	O	_	_	_	_	_		_	_
@@ -16251,6 +17027,7 @@ April	O	_	_	_	_	_		_	_
 Privat⸗	O	_	_	_	_	_		_	_
 Telegramm	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Nach	O	_	_	_	_	_		_	_
 authentischen	O	_	_	_	_	_		_	_
 Mittheilungen	O	_	_	_	_	_		_	_
@@ -16267,12 +17044,15 @@ Todes	O	_	_	_	_	_		_	_
 Guyer	B-PER	_	_	_	_	Q117516		_	_
 Zellers	I-PER	_	_	_	_	Q117516		_	_
 unbegrundet	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Weiterführung	O	_	_	_	_	_		_	_
 ist	O	_	_	_	_	_		_	_
 gesiehert	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 O	O	_	_	_	_	_		_	EndOfSentence
+
 Wien	B-LOC	_	_	_	_	Q1741		_	_
 .	O	_	_	_	_	_		_	_
 
@@ -16291,19 +17071,24 @@ Wien	B-LOC	_	_	_	_	Q1741		_	_
 No	O	_	_	_	_	_		_	_
 49	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Provinzial	B-ORG	_	_	_	_	Q1757859		_	_
 -	I-ORG	_	_	_	_	Q1757859		_	_
 Correſpondenz	I-ORG	_	_	_	_	Q1757859		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 6	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	_
 Dezember	O	_	_	_	_	_		_	_
 1876	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 um	O	_	_	_	_	_		_	EndOfSentence
+
 Vierzehuter	O	_	_	_	_	_		_	_
 Jahrgang	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Vor	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
 letzten	O	_	_	_	_	_		_	_
@@ -16312,6 +17097,7 @@ Entſcheidungen	O	_	_	_	_	_		_	_
 die	O	_	_	_	_	_		_	_
 Juſtizgeſetze	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Der	O	_	_	_	_	_		_	_
 Reichstag	B-ORG	_	_	_	_	Q160208		_	_
 iſt	O	_	_	_	_	_		_	_
@@ -16342,6 +17128,7 @@ entſcheidenden	O	_	_	_	_	_		_	_
 Entſchließungen	O	_	_	_	_	_		_	_
 ermöglicht	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 großen	O	_	_	_	_	_		_	_
 Geſetze	O	_	_	_	_	_		_	_
@@ -16402,6 +17189,7 @@ gewaltigen	O	_	_	_	_	_		_	_
 Arbeit	O	_	_	_	_	_		_	_
 handelt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wenn	O	_	_	_	_	_		_	_
 man	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
@@ -16467,6 +17255,7 @@ auf	O	_	_	_	_	_		_	_
 ſich	O	_	_	_	_	_		_	_
 nehmen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jn	O	_	_	_	_	_		_	_
 ſolchem	O	_	_	_	_	_		_	_
 Sinne	O	_	_	_	_	_		_	_
@@ -16575,6 +17364,7 @@ Ziels	O	_	_	_	_	_		_	_
 geboten	O	_	_	_	_	_		_	_
 iſt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Nicht	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
 daß	O	_	_	_	_	_		_	_
@@ -16635,6 +17425,7 @@ Leben	O	_	_	_	_	_		_	_
 führen	O	_	_	_	_	_		_	_
 helfen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 ganze	O	_	_	_	_	_		_	_
 bisherige	O	_	_	_	_	_		_	_
@@ -16712,6 +17503,7 @@ Entgegenkommens	O	_	_	_	_	_		_	_
 anſehen	O	_	_	_	_	_		_	_
 werden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Um	O	_	_	_	_	_		_	_
 ſo	O	_	_	_	_	_		_	_
 mehr	O	_	_	_	_	_		_	_
@@ -16742,6 +17534,7 @@ walten	O	_	_	_	_	_		_	_
 laſſen	O	_	_	_	_	_		_	_
 werde	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Aus	O	_	_	_	_	_		_	_
 mehrfachen	O	_	_	_	_	_		_	_
 Aeußerungen	O	_	_	_	_	_		_	_
@@ -16815,6 +17608,7 @@ mehr	O	_	_	_	_	_		_	_
 Einfluß	O	_	_	_	_	_		_	_
 einzuräumen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Von	O	_	_	_	_	_		_	_
 dieſem	O	_	_	_	_	_		_	_
 Standpunkte	O	_	_	_	_	_		_	_
@@ -16888,6 +17682,7 @@ die	O	_	_	_	_	_		_	_
 Geſammtvereinbarung	O	_	_	_	_	_		_	_
 unterordnen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Das	O	_	_	_	_	_		_	_
 deutſche	O	_	_	_	_	_		_	_
 Volk	O	_	_	_	_	_		_	_
@@ -16951,6 +17746,7 @@ politi	O	_	_	_	_	_		_	_
 Parteibedenken	O	_	_	_	_	_		_	_
 einſetzen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
@@ -16964,6 +17760,7 @@ einſetzen	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Deutſchlands	B-LOC	_	_	_	_	Q183		_	_
 Stellung	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
@@ -16973,6 +17770,7 @@ zur	O	_	_	_	_	_		_	_
 orientaliſchen	O	_	_	_	_	_		_	_
 Frage	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Aus	O	_	_	_	_	_		_	_
 den	O	_	_	_	_	_		_	_
 Erklärungen	O	_	_	_	_	_		_	_
@@ -17032,6 +17830,7 @@ zu	O	_	_	_	_	_		_	_
 entrichten	O	_	_	_	_	_		_	_
 ſind	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Dieſe	O	_	_	_	_	_		_	_
 Maßregel	O	_	_	_	_	_		_	_
 ,	O	_	_	_	_	_		_	_
@@ -17077,6 +17876,7 @@ Reiches	I-ORG	_	_	_	_	Q1206012		_	_
 zu	O	_	_	_	_	_		_	_
 ſchädigen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 richte	O	_	_	_	_	_		_	_
 daher	O	_	_	_	_	_		_	_
@@ -17166,6 +17966,7 @@ ein	O	_	_	_	_	_		_	_
 Mittel	O	_	_	_	_	_		_	_
 wüßte	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 hatte	O	_	_	_	_	_		_	_
 einen	O	_	_	_	_	_		_	_
@@ -17187,6 +17988,7 @@ Regierung	O	_	_	_	_	_		_	_
 thun	O	_	_	_	_	_		_	_
 könne	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 bin	O	_	_	_	_	_		_	_
 aber	O	_	_	_	_	_		_	_
@@ -17241,6 +18043,7 @@ Verlegenheit	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 verſetzen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 bin	O	_	_	_	_	_		_	_
 mit	O	_	_	_	_	_		_	_
@@ -17274,6 +18077,7 @@ zurück	O	_	_	_	_	_		_	_
 kehren	O	_	_	_	_	_		_	_
 müſſen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 muß	O	_	_	_	_	_		_	_
 bedauern	O	_	_	_	_	_		_	_
@@ -17300,6 +18104,7 @@ könnte	O	_	_	_	_	_		_	_
 ſie	O	_	_	_	_	_		_	_
 überzeugen	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 So	O	_	_	_	_	_		_	_
 lange	O	_	_	_	_	_		_	_
 ſich	O	_	_	_	_	_		_	_
@@ -17355,6 +18160,7 @@ ohne	O	_	_	_	_	_		_	_
 Erfolg	O	_	_	_	_	_		_	_
 erſtreben	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wir	O	_	_	_	_	_		_	_
 koͤnnen	O	_	_	_	_	_		_	_
 jetzt	O	_	_	_	_	_		_	_
@@ -17394,9 +18200,11 @@ etwas	O	_	_	_	_	_		_	_
 zu	O	_	_	_	_	_		_	_
 thun	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	EndOfSentence
+
 Wenn	O	_	_	_	_	_		_	_
 wir	O	_	_	_	_	_		_	_
 uns	O	_	_	_	_	_		_	_
@@ -17444,6 +18252,7 @@ nicht	O	_	_	_	_	_		_	_
 durchzubringen	O	_	_	_	_	_		_	_
 ſein	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Er	O	_	_	_	_	_		_	_
 hat	O	_	_	_	_	_		_	_
 vielleicht	O	_	_	_	_	_		_	_
@@ -17469,6 +18278,7 @@ Retorſionsmitteln	O	_	_	_	_	_		_	_
 vollſtändig	O	_	_	_	_	_		_	_
 gelähmt	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 weiß	O	_	_	_	_	_		_	_
 aber	O	_	_	_	_	_		_	_
@@ -17499,6 +18309,7 @@ Bundesrathes	B-ORG	_	_	_	_	Q464602		_	_
 finden	O	_	_	_	_	_		_	_
 könnte	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Wenn	O	_	_	_	_	_		_	_
 das	O	_	_	_	_	_		_	_
 von	O	_	_	_	_	_		_	_
@@ -17522,6 +18333,7 @@ mit	O	_	_	_	_	_		_	_
 Zumuthungen	O	_	_	_	_	_		_	_
 zufrieden	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 wüßte	O	_	_	_	_	_		_	_
 nicht	O	_	_	_	_	_		_	_
@@ -17608,6 +18420,7 @@ Wilna	B-LOC	_	_	_	_	Q216		_	_
 laſſen	O	_	_	_	_	_		_	_
 müßte	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Unſer	O	_	_	_	_	_		_	_
 Zwiſchenhandel	O	_	_	_	_	_		_	_
 würde	O	_	_	_	_	_		_	_
@@ -17636,6 +18449,7 @@ einen	O	_	_	_	_	_		_	_
 Kampfzoll	O	_	_	_	_	_		_	_
 betrachten	O	_	_	_	_	_		_	_
 .	O	_	_	_	_	_		_	EndOfSentence
+
 Jch	O	_	_	_	_	_		_	_
 bin	O	_	_	_	_	_		_	_
 weit	O	_	_	_	_	_		_	_
@@ -17676,12 +18490,14 @@ dem	O	_	_	_	_	_		_	_
 Auslande	O	_	_	_	_	_		_	_
 als	O	_	_	_	_	_		_	_
 Einer	O	_	_	_	_	_		_	EndOfSentence
+
 1	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 —	O	_	_	_	_	_		_	_
 9	O	_	_	_	_	_		_	_
 )	O	_	_	_	_	_		_	EndOfSentence
+
 Die	O	_	_	_	_	_		_	_
 Rede	O	_	_	_	_	_		_	_
 liegt	O	_	_	_	_	_		_	_
