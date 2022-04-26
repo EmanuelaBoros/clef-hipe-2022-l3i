@@ -271,8 +271,8 @@ akin	O	O	O	O	O	O	O	O	O
 to	O	O	O	O	O	O	O	O	O
 Paris	B-object	O	B-object.manuscr	O	O	O	O	O	LED0.00
 A	I-object	O	I-object.manuscr	O	O	O	O	O	NoSpaceAfter|LED0.00
-.	I-object	O	I-object.manuscr	O	O	O	O	O	EndOfSentence
-|LED0.00
+.	I-object	O	I-object.manuscr	O	O	O	O	O	EndOfSentence|LED0.00
+
 The	O	O	O	O	O	O	O	O	O
 first	O	O	O	O	O	O	O	O	O
 Juntine	O	O	O	O	O	O	O	O	O
@@ -415,8 +415,7 @@ until	O	O	O	O	O	O	O	O	O
 Brunck	B-pers	O	B-pers.editor	O	O	O	Q454469	O	LED0.00
 (	O	O	O	O	O	O	O	O	NoSpaceAfter
 Stras	B-loc	O	B-loc	O	O	O	Q6602	O	NoSpaceAfter|LED0.00
--	I-loc	O	I-loc	O	O	O	Q6602	O	EndOfSentence
-|LED0.00
+-	I-loc	O	I-loc	O	O	O	Q6602	O	EndOfSentence|LED0.00
 
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/cu31924087948174_0016.xmi
 # hipe2022:license = CC-BY
@@ -1980,8 +1979,8 @@ in	O	O	O	O	O	O	O	O	O
 Plato	B-pers	O	B-pers.author	O	O	O	Q859	O	InPrimaryReference|NoSpaceAfter|LED0.00
 ,	O	O	O	O	O	O	O	O	InPrimaryReference
 Soph	B-work	O	B-work.primlit	O	O	O	Q471715	O	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-work	O	I-work.primlit	O	O	O	Q471715	O	EndOfSentence
-|InPrimaryReference|LED0.00
+.	I-work	O	I-work.primlit	O	O	O	Q471715	O	EndOfSentence|InPrimaryReference|LED0.00
+
 230	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|LED0.00
 B	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.00
 ,	O	O	O	O	O	O	O	O	O
@@ -4015,8 +4014,8 @@ v	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
 I	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
 .	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|LED0.00
 2	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
-.	O	O	O	O	O	O	O	O	EndOfSentence
-|InSecondaryReference
+.	O	O	O	O	O	O	O	O	EndOfSentence|InSecondaryReference
+
 942	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 φρονεῖν	O	O	O	O	O	O	O	O	NoSpaceAfter
@@ -9213,8 +9212,8 @@ T	I-work	O	I-work.primlit	O	O	O	Q148643	O	NoSpaceAfter|LED0.00
 .	I-work	O	I-work.primlit	O	O	O	Q148643	O	NoSpaceAfter|LED0.00
 ,	O	O	O	O	O	O	O	O	O
 Trach	B-work	O	B-work.primlit	O	O	O	Q945342	O	NoSpaceAfter|LED0.00
-.	I-work	O	I-work.primlit	O	O	O	Q945342	O	EndOfSentence
-|LED0.00
+.	I-work	O	I-work.primlit	O	O	O	Q945342	O	EndOfSentence|LED0.00
+
 In	O	O	O	O	O	O	O	O	O
 11	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.27
 .	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|LED0.27
@@ -9789,8 +9788,8 @@ infr	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 6go	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|LED0.29
 ff	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.29
-.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence
-|InPrimaryReference|LED0.29
+.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence|InPrimaryReference|LED0.29
+
 5	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 κυνηγετοῦντα	O	O	O	O	O	O	O	O	NoSpaceAfter
@@ -10453,8 +10452,8 @@ L	I-work	O	I-work.seclit	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
 p	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
 .	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|LED0.00
 10	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
-.	O	O	O	O	O	O	O	O	EndOfSentence
-|InSecondaryReference
+.	O	O	O	O	O	O	O	O	EndOfSentence|InSecondaryReference
+
 38	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 ἢ	O	O	O	O	O	O	O	O	O
@@ -11996,8 +11995,8 @@ and	O	O	O	O	O	O	O	O	InSecondaryReference
 5	B-scope	O	B-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.40
 ,	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|LED0.40
 v	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.40
-.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence
-|InSecondaryReference|LED0.40
+.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence|InSecondaryReference|LED0.40
+
 go	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 Athena	B-pers	O	B-pers.myth	O	O	O	Q37122	O	LED0.00
@@ -12359,8 +12358,8 @@ infr	O	O	O	O	O	O	O	O	NoSpaceAfter
 ,	O	O	O	O	O	O	O	O	O
 237	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|LED0.00
 ff	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence
-|InPrimaryReference|LED0.00
+.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence|InPrimaryReference|LED0.00
+
 101	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 elev	O	O	O	O	O	O	O	O	NoSpaceAfter
@@ -13751,8 +13750,8 @@ il	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.08
 .	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|LED0.08
 55	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|LED0.08
 foll	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.08
-.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence
-|InPrimaryReference|LED0.08
+.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence|InPrimaryReference|LED0.08
+
 Here	O	O	O	O	O	O	O	O	NoSpaceAfter
 ,	O	O	O	O	O	O	O	O	O
 as	O	O	O	O	O	O	O	O	O
@@ -14017,8 +14016,8 @@ Cp	O	O	O	O	O	O	O	O	NoSpaceAfter
 Pind	B-pers	O	B-pers.author	O	O	O	Q134929	O	InPrimaryReference|NoSpaceAfter|LED0.00
 .	I-pers	O	I-pers.author	O	O	O	Q134929	O	InPrimaryReference|LED0.00
 Nem	B-work	O	B-work.primlit	O	O	O	Q27214182	O	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-work	O	I-work.primlit	O	O	O	Q27214182	O	EndOfSentence
-|InPrimaryReference|LED0.00
+.	I-work	O	I-work.primlit	O	O	O	Q27214182	O	EndOfSentence|InPrimaryReference|LED0.00
+
 8	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.00
 ,	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|LED0.00
 26	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.00
@@ -15195,8 +15194,7 @@ ibid	B-work	O	B-work.seclit	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
 p	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
 .	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|LED0.00
 77	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
-.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence
-|InSecondaryReference|LED0.00
+.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence|InSecondaryReference|LED0.00
 179	I-scope	O	I-scope	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
 .	O	O	O	O	O	O	O	O	O
 ἢ	O	O	O	O	O	O	O	O	NoSpaceAfter
@@ -20715,8 +20713,8 @@ note	O	O	O	O	O	O	O	O	O
 on	O	O	O	O	O	O	O	O	O
 405	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|LED0.00
 foll	I-scope	O	I-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence
-|InPrimaryReference|LED0.00
+.	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence|InPrimaryReference|LED0.00
+
 For	O	O	O	O	O	O	O	O	O
 μέγα	O	O	O	O	O	O	O	O	NoSpaceAfter
 ,	O	O	O	O	O	O	O	O	O
@@ -20811,8 +20809,7 @@ following	O	O	O	O	O	O	O	O	NoSpaceAfter
 cp	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 EL	B-work	O	B-work.primlit	O	O	O	Q733444	O	InPrimaryReference|LED0.67
-254	B-scope	O	B-scope	O	O	O	O	O	EndOfSentence
-|InPrimaryReference|LED0.00
+254	B-scope	O	B-scope	O	O	O	O	O	EndOfSentence|InPrimaryReference|LED0.00
 
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/cu31924087948174_0079.xmi
 # hipe2022:license = CC-BY
@@ -23645,8 +23642,8 @@ on	I-work	O	I-work.seclit	O	O	O	O	O	InSecondaryReference|LED0.00
 L	I-work	O	I-work.seclit	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
 .	I-work	O	I-work.seclit	O	O	O	O	O	InSecondaryReference|NoSpaceAfter|LED0.00
 §53	B-scope	O	B-scope	O	O	O	O	O	InSecondaryReference|LED0.36
-p99	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence
-|InSecondaryReference|LED0.36
+p99	I-scope	O	I-scope	O	O	O	O	O	EndOfSentence|InSecondaryReference|LED0.36
+
 910	O	O	O	O	O	O	O	O	NoSpaceAfter
 .	O	O	O	O	O	O	O	O	O
 ὦμοι	O	O	O	O	O	O	O	O	O
@@ -28915,8 +28912,7 @@ Aesch	B-pers	O	B-pers.author	O	O	O	Q40939	O	InPrimaryReference|NoSpaceAfter|LED0
 .	I-pers	O	I-pers.author	O	O	O	Q40939	O	InPrimaryReference|LED0.00
 Ag	B-work	O	B-work.primlit	O	O	O	Q3320792	O	InPrimaryReference|NoSpaceAfter|LED0.00
 .	I-work	O	I-work.primlit	O	O	O	Q3320792	O	InPrimaryReference|LED0.00
-1611	B-scope	O	B-scope	O	O	O	O	O	EndOfSentence
-|InPrimaryReference|LED0.00
+1611	B-scope	O	B-scope	O	O	O	O	O	EndOfSentence|InPrimaryReference|LED0.00
 
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/sophoclesplaysa05campgoog_0105.xmi
 # hipe2022:license = CC-BY
@@ -29933,8 +29929,8 @@ El	B-work	O	B-work.primlit	O	O	O	Q540161	O	InPrimaryReference|NoSpaceAfter|LED0.
 τὸν	O	O	O	O	O	O	O	O	InPrimaryReference
 ἄγχιστον	O	O	O	O	O	O	O	O	InPrimaryReference|NoSpaceAfter
 )	O	O	O	O	O	O	O	O	InPrimaryReference|NoSpaceAfter
-.	O	O	O	O	O	O	O	O	EndOfSentence
-|InPrimaryReference
+.	O	O	O	O	O	O	O	O	EndOfSentence|InPrimaryReference
+
 68	O	O	O	O	O	O	O	O	O
 μένοιμ	O	O	O	O	O	O	O	O	NoSpaceAfter
 ’	O	O	O	O	O	O	O	O	O
@@ -30010,8 +30006,8 @@ and	O	O	O	O	O	O	O	O	O
 Tr	B-work	O	B-work.primlit	O	O	O	Q945342	O	InPrimaryReference|NoSpaceAfter|LED0.00
 .	I-work	O	I-work.primlit	O	O	O	Q945342	O	InPrimaryReference|LED0.00
 734	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.00
-.	O	O	O	O	O	O	O	O	EndOfSentence
-|InPrimaryReference
+.	O	O	O	O	O	O	O	O	EndOfSentence|InPrimaryReference
+
 For	O	O	O	O	O	O	O	O	O
 ἤθελον	O	O	O	O	O	O	O	O	O
 without	O	O	O	O	O	O	O	O	O
@@ -31919,8 +31915,8 @@ sc	O	O	O	O	O	O	O	O	NoSpaceAfter
 O	B-work	O	B-work.primlit	O	O	O	Q148643	O	InPrimaryReference|NoSpaceAfter|LED0.00
 .	I-work	O	I-work.primlit	O	O	O	Q148643	O	InPrimaryReference|LED0.00
 T	I-work	O	I-work.primlit	O	O	O	Q148643	O	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-work	O	I-work.primlit	O	O	O	Q148643	O	EndOfSentence
-|InPrimaryReference|LED0.00
+.	I-work	O	I-work.primlit	O	O	O	Q148643	O	EndOfSentence|InPrimaryReference|LED0.00
+
 461	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|LED0.00
 κἂν	O	O	O	O	O	O	O	O	O
 λάβης	O	O	O	O	O	O	O	O	O
@@ -32069,8 +32065,8 @@ El	B-work	O	B-work.primlit	O	O	O	Q733444	O	InPrimaryReference|NoSpaceAfter|LED0.
 O	B-work	O	B-work.primlit	O	O	O	Q294001	O	InPrimaryReference|NoSpaceAfter|LED0.00
 .	I-work	O	I-work.primlit	O	O	O	Q294001	O	InPrimaryReference|LED0.00
 C	I-work	O	I-work.primlit	O	O	O	Q294001	O	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-work	O	I-work.primlit	O	O	O	Q294001	O	EndOfSentence
-|InPrimaryReference|LED0.00
+.	I-work	O	I-work.primlit	O	O	O	Q294001	O	EndOfSentence|InPrimaryReference|LED0.00
+
 1687	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|LED0.00
 δύσοιστον	O	O	O	O	O	O	O	O	O
 ἕξομεν	O	O	O	O	O	O	O	O	O

@@ -606,7 +606,6 @@ Pers	B-work	_	B-work.primlit	_	_	O	Q788458	_	InPrimaryReference|NoSpaceAfter|LED
 887	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
 .	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/cu31924087948174_0028.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = en
@@ -996,7 +995,6 @@ value	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	NoSpaceAfter
 ’	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/cu31924087948174_0034.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = en
@@ -1335,7 +1333,6 @@ the	O	_	O	_	_	O	_	_	_
 dragging	O	_	O	_	_	O	_	_	_
 of	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/cu31924087948174_0072.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = en
@@ -1559,7 +1556,6 @@ and	O	_	O	_	_	O	_	_	_
 .	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/cu31924087948174_0076.xmi
 # hipe2022:license = CC-BY
@@ -1989,7 +1985,6 @@ to	O	_	O	_	_	O	_	_	_
 βλέTew	O	_	O	_	_	O	_	_	NoSpaceAfter
 εἰς	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/cu31924087948174_0080.xmi
 # hipe2022:license = CC-BY
@@ -2559,7 +2554,6 @@ of	O	_	O	_	_	O	_	_	_
 ἐπεντύνοντ᾽	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/cu31924087948174_0081.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = en
@@ -2992,7 +2986,6 @@ act	O	_	O	_	_	O	_	_	_
 of	O	_	O	_	_	O	_	_	_
 all	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/cu31924087948174_0082.xmi
 # hipe2022:license = CC-BY
@@ -4217,7 +4210,6 @@ who	O	_	O	_	_	O	_	_	_
 has	O	_	O	_	_	O	_	_	_
 watched	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/cu31924087948174_0084.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = en
@@ -4739,9 +4731,8 @@ and	O	_	O	_	_	O	_	_	InSecondaryReference
 5	B-scope	_	B-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.00
 .	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|LED0.00
 v	I-scope	_	I-scope	_	_	O	_	_	InSecondaryReference|NoSpaceAfter|LED0.00
-.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence
+.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence|InSecondaryReference|LED0.00
 
-|InSecondaryReference|LED0.00
 504	O	_	O	_	_	O	_	_	NoSpaceAfter
 .	O	_	O	_	_	O	_	_	_
 κἀμὲ	O	_	O	_	_	O	_	_	_
@@ -4776,7 +4767,6 @@ terrible	O	_	O	_	_	O	_	_	NoSpaceAfter
 matters	O	_	O	_	_	O	_	_	_
 little	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/cu31924087948174_0145.xmi
 # hipe2022:license = CC-BY
@@ -5291,7 +5281,6 @@ EL	B-work	_	B-work.primlit	_	_	O	Q733444	_	InPrimaryReference|LED0.67
 τιμωρούμενοι	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	EndOfSentence
 
-
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/sophoclesplaysa05campgoog_0098.xmi
 # hipe2022:license = CC-BY
 # hipe2022:language = en
@@ -5687,9 +5676,8 @@ Eea2	O	_	O	_	_	O	_	_	_
 :	O	_	O	_	_	O	_	_	NoSpaceAfter
 4	O	_	O	_	_	O	_	_	_
 1296	B-scope	_	B-scope	_	_	O	_	_	InPrimaryReference|NoSpaceAfter|LED0.00
-.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence
+.	I-scope	_	I-scope	_	_	O	_	_	EndOfSentence|LED0.00
 
-|LED0.00
 Remark	O	_	O	_	_	O	_	_	_
 εὖ	O	_	O	_	_	O	_	_	_
 as	O	_	O	_	_	O	_	_	_
@@ -5898,7 +5886,6 @@ acc	O	_	O	_	_	O	_	_	NoSpaceAfter
 ,	O	_	O	_	_	O	_	_	_
 as	O	_	O	_	_	O	_	_	_
 with	O	_	O	_	_	O	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/sophoclesplaysa05campgoog_0106.xmi
 # hipe2022:license = CC-BY
@@ -6506,7 +6493,6 @@ O	B-work	_	B-work.primlit	_	_	O	Q148643	_	InPrimaryReference|NoSpaceAfter|LED0.4
 ,	O	_	O	_	_	O	_	_	_
 |	O	_	O	_	_	O	_	_	_
 καὶ	O	_	O	_	_	O	_	_	EndOfSentence
-
 
 # hipe2022:original_source = data/preparation/corpus/en/retokenized/sophoclesplaysa05campgoog_0288.xmi
 # hipe2022:license = CC-BY
