@@ -18,7 +18,8 @@ from fastNLP.core import logger, Vocabulary
 from fastNLP.io.file_utils import PRETRAINED_BERT_MODEL_DIR
 #from fastNLP.modules.encoder.bert import BertModel
 #from fastNLP.modules.tokenizer import BertTokenizer
-from transformers import AutoTokenizer, AutoModel
+from transformers import AutoTokenizer, AutoModel, AutoModelForSequenceClassification
+
 
 class BertEmbedding(ContextualEmbedding):
 
@@ -173,8 +174,25 @@ class _BertWordModel(nn.Module):
       
         self.tokenizer = AutoTokenizer.from_pretrained(model_dir_or_name)#, additional_special_tokens=additional_special_tokens)
         self.encoder = AutoModel.from_pretrained(model_dir_or_name)
-
-#        import pdb;pdb.set_trace()
+        
+#        config = AdapterConfig.load("pfeiffer")
+#        
+#        self.encoder.load_adapter("ner/conll2003@ukp", config=config, 
+#                                  with_head=False)
+#        self.encoder.load_adapter("AdapterHub/roberta-base-pf-conll2003", config=config, 
+#                                  with_head=False, source="hf")
+#        self.encoder.load_adapter("AdapterHub/bert-base-uncased-pf-conll2003", config=config, 
+#                                  with_head=False, source="hf")
+#        
+#        # set adapter names
+#        adapter_names = [
+#            ["mnli", "rte", "mrpc"]
+#        ]
+#
+#        # add fusion layer and set it to be trained
+#        self.encoder.add_fusion(adapter_names[0], "static", {"regularization": False})
+      
+        #        import pdb;pdb.set_trace()
         self._max_position_embeddings = self.encoder.config.max_position_embeddings
 #        encoder_layer_number = len(self.encoder.encoder.layer)
 #        import pdb;pdb.set_trace()
@@ -299,11 +317,6 @@ class _BertWordModel(nn.Module):
                 token_type_ids = torch.zeros_like(word_pieces)
 
         item = self.encoder(input_ids=word_pieces, token_type_ids=token_type_ids, attention_mask=attn_masks, output_hidden_states=True)
-        #item = self.encoder(input_ids=word_pieces, attention_mask=attn_masks, output_hidden_states=True)
-        
-        #try:
-        #    bert_outputs, pooled_cls = item[0], item[1]
-        #except:
         _, pooled_cls, bert_outputs = item[0], item[1], item[2]
         
 #        import pdb;pdb.set_trace()
@@ -412,7 +425,7 @@ class _BertWordPieceModel(nn.Module):
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_dir_or_name)
         self.encoder = AutoModel.from_pretrained(model_dir_or_name)
-        
+
 #        encoder_layer_number = len(self.encoder.encoder.layer)
 #        encoder_layer_number = self.encoder.encoder.config.num_hidden_layers
         encoder_layer_number = self.encoder.config.num_hidden_layers
