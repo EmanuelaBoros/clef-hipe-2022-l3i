@@ -44,7 +44,7 @@ def _read_conll(path, encoding='utf-8',sep=None, indexes=None, dropna=True):
     with open(path, 'r', encoding=encoding) as f:
         sample = []
         doc = []
-        start = next(f).strip()
+#        start = next(f).strip()
         
         data = []
         # if start != '':
@@ -52,6 +52,9 @@ def _read_conll(path, encoding='utf-8',sep=None, indexes=None, dropna=True):
             
         for line_idx, line in enumerate(f, 1):
             line = line.strip()
+            
+#            if 'StartOfContext' in line:
+#                doc.append(line)
             # import pdb;pdb.set_trace()
             if ('DOCSTART' in line) or ('# hipe' in line) or ("TOKEN" in line):
                 continue
@@ -60,7 +63,16 @@ def _read_conll(path, encoding='utf-8',sep=None, indexes=None, dropna=True):
                     try:
                         res = parse_conll(sample)
                         sample = []
-                        data.append([line_idx, res])
+                        
+                        if 'StartOfContext' in res[-1]:
+                            sentence = [x[:res[-1].index('StartOfContext')] for x in res]
+                            context = [x[res[-1].index('StartOfContext')+1:] for x in res]
+                        else:
+                            sentence = res
+                            context = res
+#                        data.append([line_idx, res])
+                        data.append([line_idx, sentence, context, res])
+#                        import pdb;pdb.set_trace()
 
                     except Exception:
                         if dropna:
@@ -75,7 +87,15 @@ def _read_conll(path, encoding='utf-8',sep=None, indexes=None, dropna=True):
         if len(sample) > 0:
             try:
                 res = parse_conll(sample)
-                data.append([line_idx, res])
+                if 'StartOfContext' in res[-1]:
+                    sentence = [x[:res[-1].index('StartOfContext')] for x in res]
+                    context = [x[res[-1].index('StartOfContext')+1:] for x in res]
+                else:
+                    sentence = res
+                    context = res
+                
+#                        data.append([line_idx, res])
+                data.append([line_idx, sentence, context, res])
 
             except Exception as e:
                 if dropna:
@@ -219,10 +239,10 @@ class NERLoader(Loader):
     def __init__(self, sep=' ', dropna=True):
         super(NERLoader, self).__init__()
         headers = [
-            'raw_words', 'target', 'target1', 'target2', 'target3', 'target4', 'target5' 
+            'raw_words', 'target', 'target1', 'target2', 'target3', 'target4', 'target5', 'type'
         ]
         # TODO: This needs to be changed if the data format is different or the order of the elements in the file is different
-        indexes = [0, 1, 2, 3, 4, 5, 6]#, 5, 6, 7]
+        indexes = [0, 1, 2, 3, 4, 5, 6, -1]#, 5, 6, 7]
         if not isinstance(headers, (list, tuple)):
             raise TypeError(
                 'invalid headers: {}, should be list of strings'.format(headers))
@@ -243,15 +263,9 @@ class NERLoader(Loader):
 #        for idx, data in _read_conll(path, indexes=self.indexes, dropna=self.dropna):
         idx = 0
         for element in _read_conll(path, indexes=self.indexes, dropna=self.dropna):
-            idx, data = element
-            # import pdb;pdb.set_trace()
-#            print(data)
-            # if data[0][0] == '#' and data[1][0] == '--':
-            #     continue
-            # if data[0][0] == '#':
-            #     data[0] = data[0][1:]
-            #     data[1] = data[1][1:]
-            #print('-**************************-', len(data[0]), data)
+            idx, data, context, data_and_context = element
+            
+#            import pdb;pdb.set_trace()
             if len(data[0]) < 1:
                 continue
             #print('-**************************-', data)
@@ -296,9 +310,10 @@ class NERLoader(Loader):
 #            import pdb;pdb.set_trace()
             idx += 1
             #doc = list(map(list, zip(*doc)))
-            ins = {h: data[i] for i, h in enumerate(self.headers)}
+            ins = {h: data[i] for i, h in enumerate(self.headers[:-1])}
            
-             #ins['doc'] = doc[0]
+#            import pdb;pdb.set_trace()
+            ins['doc'] = context[0]
 
             #matches = subfinder(ins['doc'], ins['raw_words'])
             #for match in matches:
@@ -345,35 +360,35 @@ def _indexize(data_bundle, input_field_names=Const.INPUT, target_field_names=Con
     if isinstance(target_field_names, str):
         target_field_names = [target_field_names]
 
- #   if vocabulary is None:
- #       src_vocab = Vocabulary()
+    if vocabulary is None:
+        src_vocab = Vocabulary()
 
+#    import pdb;pdb.set_trace()
     for input_field_name in input_field_names:
-        if vocabulary is None:
-            src_vocab = Vocabulary()
+#        if vocabulary is None:
+#            src_vocab = Vocabulary()
 
-            src_vocab.from_dataset(*[ds for name, ds in data_bundle.iter_datasets() if 'train' in name],
+        src_vocab.from_dataset(*[ds for name, ds in data_bundle.iter_datasets() if 'train' in name],
                                    field_name=input_field_name,
                                    no_create_entry_dataset=[ds for name, ds in data_bundle.iter_datasets()
                                                             if ('train' not in name) and (ds.has_field(input_field_name))]
                                    )
 
-        else:
-            src_vocab = vocabulary
-    #            
+#        else:
+#            src_vocab = vocabulary
+            
         src_vocab.index_dataset(
             *data_bundle.datasets.values(), field_name=input_field_name)
             
         data_bundle.set_vocab(src_vocab, input_field_name)
-#    import pdb;pdb.set_trace()
     #print(src_vocab)
     for target_field_name in target_field_names:
         tgt_vocab = Vocabulary(unknown=None, padding=None)
-        tgt_vocab.from_dataset(*[ds for name, ds in data_bundle.iter_datasets() if 'train' in name],
+        tgt_vocab.from_dataset(*[ds for name, ds in data_bundle.iter_datasets() ],
                                field_name=target_field_name,
-                               no_create_entry_dataset=[ds for name, ds in data_bundle.iter_datasets()
-                                                        if ('train' not in name) and (ds.has_field(target_field_name))]
-                               )
+                               no_create_entry_dataset=[ds for name, ds in data_bundle.iter_datasets()])
+#                                                        if ('train' not in name) and (ds.has_field(target_field_name))]
+                               
         if len(tgt_vocab._no_create_word) > 0:
             warn_msg = f"There are {len(tgt_vocab._no_create_word)} `{target_field_name}` labels" \
                        f" in {[name for name in data_bundle.datasets.keys() if 'train' not in name]} " \
@@ -381,7 +396,7 @@ def _indexize(data_bundle, input_field_names=Const.INPUT, target_field_names=Con
                        f"These label(s) are {tgt_vocab._no_create_word}"
             print(warn_msg)
         #print(tgt_vocab)
-        #import pdb;pdb.set_trace()
+#        import pdb;pdb.set_trace()
         tgt_vocab.index_dataset(*[ds for ds in data_bundle.datasets.values() if ds.has_field(target_field_name)], field_name=target_field_name)
         data_bundle.set_vocab(tgt_vocab, target_field_name)
 
@@ -411,27 +426,29 @@ class DataReader(Pipe):
         _add_words_field(data_bundle, lower=self.lower)
 
         if self.word_shape:
-            data_bundle.apply_field(
-                word_shape, field_name='raw_words', new_field_name='word_shapes')
+            data_bundle.apply_field(word_shape, field_name='raw_words', new_field_name='word_shapes')
             data_bundle.set_input('word_shapes')
-        #import pdb;pdb.set_trace()
+
+#        import pdb;pdb.set_trace()
+
         data_bundle.apply_field(lambda chars: [''.join(['0' if c.isdigit() else c for c in char]) for char in chars],
                                 field_name=Const.INPUT, new_field_name=Const.INPUT)
 
         #print(self.vocabulary)
-        #import pdb;pdb.set_trace()
-        _indexize(data_bundle, input_field_names=[Const.INPUT], target_field_names=['target', 'target1', 'target2', 'target3', 'target4', 'target5'], vocabulary=self.vocabulary)
+        _indexize(data_bundle, input_field_names=[Const.INPUT, 'doc'], target_field_names=['target', 'target1', 'target2', 'target3', 'target4', 'target5'], 
+                  vocabulary=self.vocabulary)
         #_indexize(data_bundle, target_field_names=['target'], vocabulary=self.vocabulary)
-        input_fields = [Const.TARGET, Const.INPUT, Const.INPUT_LEN, 'target1', 'target2', 'target3', 'target4', 'target5']
+        input_fields = [Const.TARGET, Const.INPUT, Const.INPUT_LEN, 'target1', 'target2', 'target3', 'target4', 'target5', 'doc']
         # input_fields = [Const.TARGET, Const.INPUT, Const.INPUT_LEN] # 'target4', 'target5', 'target6'
         target_fields = [Const.TARGET, Const.INPUT_LEN, 'target1', 'target2', 'target3', 'target4', 'target5']
 
+#        import pdb;pdb.set_trace()
         for name, dataset in data_bundle.datasets.items():
             dataset.add_seq_len(Const.INPUT)
 
         data_bundle.set_input(*input_fields)
         data_bundle.set_target(*target_fields)
-        #import pdb;pdb.set_trace()
+
         return data_bundle
 
     def process_from_file(self, paths) -> DataBundle:

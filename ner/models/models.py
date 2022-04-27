@@ -14,28 +14,6 @@ from fastNLP.embeddings.utils import get_embeddings
 from fastNLP.modules.decoder.mlp import MLP
 
 
-class BiLSTMSentiment(nn.Module):
-    def __init__(self, init_embed,
-                 num_classes,
-                 hidden_dim=256,
-                 num_layers=1,
-                 nfc=128):
-        super(BiLSTMSentiment,self).__init__()
-        self.embed = get_embeddings(init_embed)
-        self.lstm = LSTM(input_size=self.embed.embedding_dim, hidden_size=hidden_dim, num_layers=num_layers, bidirectional=True)
-        self.mlp = MLP(size_layer=[hidden_dim*2, nfc, num_classes])
-
-    def forward(self, words):
-        x_emb = self.embed(words)
-        output, _ = self.lstm(x_emb)
-        output = self.mlp(torch.max(output, dim=1)[0])
-        return {C.OUTPUT: output}
-
-    def predict(self, words):
-        output = self(words)
-        _, predict = output[C.OUTPUT].max(dim=1)
-        return {C.OUTPUT: predict}
-
 class StackedTransformersCRF(nn.Module):
     def __init__(self, tag_vocabs, embed, embed_doc, num_layers, d_model, n_head, feedforward_dim, dropout,
                  after_norm=True, attn_type='adatrans',  bi_embed=None,
@@ -61,6 +39,8 @@ class StackedTransformersCRF(nn.Module):
             
 #            linear = nn.Linear(768, len(tag_vocabs[i]))
             linear = nn.Linear(1536, len(tag_vocabs[i]))
+#            linear = nn.Linear(9216, len(tag_vocabs[i]))
+            
 #            linear = nn.Linear(1792, len(tag_vocabs[i]))
             self.out_fcs.append(linear)
             
@@ -71,21 +51,22 @@ class StackedTransformersCRF(nn.Module):
             self.crfs.append(crf)
             
         
-        self.in_fc = nn.Linear(embed_size, d_model)
-        self.in_fc_doc = nn.Linear(embed_size, d_model)
+        self.in_fc = nn.Linear(9216, d_model)
+        self.in_fc_doc = nn.Linear(9216, d_model)
 #        self.in_fc_doc_flip = nn.Linear(d_model, d_model)
 
         self.transformer = TransformerEncoder(num_layers, d_model, n_head, feedforward_dim, dropout,
                                               after_norm=after_norm, attn_type=attn_type,
                                               scale=scale, dropout_attn=dropout_attn,
                                               pos_embed=pos_embed)
-
+        self.transformer.requires_grad = True
 #        n_heads = 12# 
 #        head_dims = 128
         self.transformer_doc = TransformerEncoder(num_layers, d_model, n_head, feedforward_dim, dropout,
                                               after_norm=after_norm, attn_type=attn_type,
                                               scale=scale, dropout_attn=dropout_attn,
                                               pos_embed=pos_embed)
+        
         self.self_attn = MultiHeadAttn(d_model, n_head)
         
         hidden_dim = 512
@@ -96,6 +77,19 @@ class StackedTransformersCRF(nn.Module):
         
         self.fc_dropout = nn.Dropout(fc_dropout)
         self.fc_dropout_doc = nn.Dropout(fc_dropout)
+        
+        
+        self.linear_bottleneck1 = nn.Linear(1536, 6144)
+        self.linear_bottleneck2 = nn.Linear(6144, 1536)
+        
+        adapter_size = 6144
+        
+        self.bottleneck = nn.Sequential(nn.Linear(d_model, adapter_size),
+                                 nn.ReLU(),
+                                 nn.Dropout(dropout),
+                                 nn.Linear(adapter_size, d_model),
+                                 nn.Dropout(dropout))
+        self.norm = nn.LayerNorm(d_model)
         
     def _mean_pooler(self, encoding):
         return encoding.mean(dim=1)
@@ -149,39 +143,65 @@ class StackedTransformersCRF(nn.Module):
         mask = words.ne(0)
         words = self.embed(words)
         
+        mask_doc = doc.ne(0)
+        words_doc = self.embed(doc)
+
         torch.cuda.empty_cache()
         targets = [target, target1, target2, target3, target4, target5]
 
         chars = self.in_fc(words)
+        chars_doc = self.in_fc_doc(words_doc)
         
-#        print('chars', chars.shape)
+#        print('doc', doc.shape)
+
         chars = self.transformer(chars, mask)
-#        print('chars', chars.shape)
+        
+        doc = self.fc_dropout(self.transformer_doc(chars_doc, mask_doc))
+#        print('doc', doc.shape)
 
         words = self.fc_dropout(chars)
 #        print('words', words.shape)
         torch.cuda.empty_cache()
         
+        joker = self._pooler(doc, 'mean').unsqueeze(1)
+#        joker = self.bottleneck(joker)
+#        joker = self.norm(joker)
+        
+        words = torch.cat([words, joker], 1)
+        
+#        import pdb;pdb.set_trace()
         logits = []
         for i in range(len(targets)):
+#            import pdb;pdb.set_trace()
             logits.append(F.log_softmax(self.out_fcs[i](words), dim=-1))
 
         torch.cuda.empty_cache()
 
+        joker_mask = torch.zeros((words.shape[0], 1)).bool().to('cuda')
+        joker_mask = torch.cat([mask, joker_mask], 1)
+                
         if target is not None:
             losses = []
             for i in range(len(targets)):
-                losses.append(self.crfs[i](logits[i], targets[i], mask))
+            
+                joker_targets = torch.zeros((targets[i].shape[0], 1)).to('cuda')
+                joker_targets = torch.cat([targets[i], joker_targets], 1)
+                
+                losses.append(self.crfs[i](logits[i], joker_targets, joker_mask))
+#                losses.append(self.crfs[i](logits[i], targets[i], mask))
 
             return {'loss': sum(losses)}
         else:
             results = {}
             for i in range(len(targets)):
                 if i == 0:
-                    results['pred'] = self.crfs[i].viterbi_decode(logits[i], mask)[0]
+                    results['pred'] = self.crfs[i].viterbi_decode(logits[i], joker_mask)[0][:,:-1]
+#                    results['pred'] = self.crfs[i].viterbi_decode(logits[i], mask)[0]
                 else:
-                    results['pred' + str(i)] = torch.argmax(logits[i], 2)
+                    results['pred' + str(i)] = torch.argmax(logits[i], 2)[:,:-1]
+#                    results['pred' + str(i)] = torch.argmax(logits[i], 2)
                     # results['pred' + str(i)] = self.crfs[i].viterbi_decode(logits[i], mask)[0]
+#                import pdb;pdb.set_trace()
             return results
 
     def forward(self, words, doc=None, target=None, target1=None, target2=None, target3=None, target4=None, target5=None, target6=None, seq_len=None):
