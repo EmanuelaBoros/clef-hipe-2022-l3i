@@ -136,7 +136,7 @@ def main():
     with open(args.in_file, 'r') as f:
         lines = f.readlines()
 
-    out_file = args.in_file.replace(".tsv", ".kb2")
+    out_file = args.in_file.replace(".tsv", ".kbs")
     sentences = utils.process_sentences(lines)
     batch_size = 10
     k = 10

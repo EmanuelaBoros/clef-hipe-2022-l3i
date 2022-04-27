@@ -63,7 +63,7 @@ def parse_arguments():
 
     return parser.parse_args()
 
-def search_in_graph(entity_ids, lan, k=10):
+def search_in_graph(sentence, entity_ids, lan, k=10):
 
     founded_entity = False
     index = 0
@@ -85,6 +85,10 @@ def search_in_graph(entity_ids, lan, k=10):
         else:
             index += 1
 
+    if len(response["hits"]["hits"]) == 0:
+        print(sentence)
+        print(entity_ids)
+        exit()
     entity_text_vector = response["hits"]["hits"][0]["_source"]["entity_vector"]
 
     url = f"{ES}/{lan + INDEX_NAME_GRAPH}/_knn_search"
@@ -164,14 +168,14 @@ def search_batch(queries, lan, model, k):
     print("Searching batch")
     s_t = time.time()
     for i, sentence in tqdm(enumerate(queries)):
-        response = search_sentence(vectors[i], lan, model, 15)
+        response = search_sentence(vectors[i], lan, model, 25)
         #score = response['hits']['hits'][0]['_score']
         #entity_id = response['hits']['hits'][0]['fields']['entity_id'][0]
         entity_ids = []
         for hit in response['hits']['hits']:
             entity_ids.append(hit["fields"]["entity_id"][0])
 
-        response = search_in_graph(entity_ids, lan, 15)
+        response = search_in_graph(sentence, entity_ids, lan, 25)
         tmp_contexts = retrieve_entity_texts(response)[:k]
         #tmp_contexts[0]["score"] = score
         contexts.append(tmp_contexts)
