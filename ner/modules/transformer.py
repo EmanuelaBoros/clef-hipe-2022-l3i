@@ -57,18 +57,19 @@ class MultiHeadAttn(nn.Module):
 
         return v
 
+class Adapter(nn.Module):
+    
+    def __init__(self, d_model, feedforward_dim):
+    
+        self.ff1 = nn.Linear(d_model, feedforward_dim)
+        self.ff2 = nn.Linear(feedforward_dim, d_model)
+        
+    def forward(self, x, mask):
+        import pdb;pdb.set_trace()
 
 class TransformerLayer(nn.Module):
     def __init__(self, d_model, self_attn, feedforward_dim, after_norm, dropout):
-        """
 
-        :param int d_model: 一般512之类的
-        :param self_attn: self attention模块，输入为x:batch_size x max_len x d_model, mask:batch_size x max_len, 输出为
-            batch_size x max_len x d_model
-        :param int feedforward_dim: FFN中间层的dimension的大小
-        :param bool after_norm: norm的位置不一样，如果为False，则embedding可以直接连到输出
-        :param float dropout: 一共三个位置的dropout的大小
-        """
         super().__init__()
 
         self.norm1 = nn.LayerNorm(d_model)
@@ -83,14 +84,11 @@ class TransformerLayer(nn.Module):
                                  nn.Dropout(dropout),
                                  nn.Linear(feedforward_dim, d_model),
                                  nn.Dropout(dropout))
-
+#        self.adapter = Adapter(d_model, feedforward_dim)
+        
     def forward(self, x, mask):
-        """
-
-        :param x: batch_size x max_len x hidden_size
-        :param mask: batch_size x max_len, 为0的地方为pad
-        :return: batch_size x max_len x hidden_size
-        """
+        
+        
         residual = x
         if not self.after_norm:
             x = self.norm1(x)
@@ -99,6 +97,7 @@ class TransformerLayer(nn.Module):
         x = x + residual
         if self.after_norm:
             x = self.norm1(x)
+        
         residual = x
         if not self.after_norm:
             x = self.norm2(x)
@@ -106,6 +105,9 @@ class TransformerLayer(nn.Module):
         x = residual + x
         if self.after_norm:
             x = self.norm2(x)
+        
+#        self.adapter(x, mask)
+        
         return x
 
 

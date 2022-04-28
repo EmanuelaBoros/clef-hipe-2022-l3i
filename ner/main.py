@@ -11,7 +11,6 @@ from embeddings import CamembertEmbedding
 from fastNLP.embeddings import StackEmbedding#, BertEmbedding
 from fastNLP.embeddings import CNNCharEmbedding
 from embeddings import BertEmbedding
-from embeddings import XLMRobertaEmbedding, RobertaEmbedding
 from fastNLP.embeddings import StaticEmbedding, LSTMCharEmbedding, ElmoEmbedding
 from modules.TransformerEmbedding import TransformerCharEmbed
 import os
@@ -137,79 +136,49 @@ def load_data(paths, load_embed=True):
         encoding_type=encoding_type).process_from_file(paths)
 
     if load_embed:
-        if args.language != 'french':
-            
-            
-            embed = BertEmbedding(data.get_vocab('words'), model_dir_or_name=args.pre_trained_model,
-                        pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5', 
-                        include_cls_sep=False, dropout=0.2, auto_truncate=True,
-                      word_dropout=0.01)
-            
-#            embed = RobertaEmbedding(data.get_vocab('words'), model_dir_or_name='bert-base-multilingual-uncased',
-#                        pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5', 
-#                        include_cls_sep=False, dropout=0.5, auto_truncate=True,
-#                      word_dropout=0.01)
-
-#            embed = BertEmbedding(vocab=data.get_vocab(
-#                'words'), model_dir_or_name=args.pre_trained_model,
-#                requires_grad=True, layers='0,-1,-2,-3,-4,-5', auto_truncate=True)
-            
-#            embed = TransformersEmbedding(data.get_vocab('words'), model_dir_or_name=args.pre_trained_model,
-#                        pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5', 
-#                        include_cls_sep=False, dropout=0.5, auto_truncate=True,
-#                      word_dropout=0.01)
-            
-#            from transformers import ElectraModel, ElectraTokenizer
-#            model = ElectraModel.from_pretrained(args.pre_trained_model)
-#            tokenizer = ElectraTokenizer.from_pretrained(args.pre_trained_model)
-#
-#            embed = TransformersEmbedding(vocab=data.get_vocab(
-#                'words'), model_dir_or_name=args.pre_trained_model, model=model, tokenizer=tokenizer,
-#                requires_grad=True, layers='0,-1,-2,-3,-4,-5', auto_truncate=True)
-            
-            # char_type = args.attn_type #'adatrans'
-          # monsoon-nlp/hindi-bert            
-            #embed_large1 = BertEmbedding(data.get_vocab('words'), model_dir_or_name='bert-base-chinese',#sagorsarker/bangla-bert-base', #neuralspace-reverie/indic-transformers-te-bert',#ai4bharat/indic-bert', #google/bigbird-roberta-large',
-             #                              pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5',
-             #                                                      include_cls_sep=False, dropout=0.2, auto_truncate=True,
-             #                                                                            word_dropout=0.01)
-
-            #embed_large = BertEmbedding(data.get_vocab('words'), model_dir_or_name='bert-base-multilingual-uncased', #sentence-transformers/paraphrase-xlm-r-multilingual-v1',#google/bigbird-roberta-large',#sentence-transformers/paraphrase-xlm-r-multilingual-v1', #google/bigbird-roberta-large',
-            #            pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5', 
-            #            include_cls_sep=False, dropout=0.2, auto_truncate=True,
-            #          word_dropout=0.01)
-# #dbmdz/bert-base-german-uncased
-#             embed = BertEmbedding(data.get_vocab('words'), model_dir_or_name=args.pre_trained_model, #flax-community/roberta-hindi', #xlm-roberta-large',
-#                         pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5',
-#                         include_cls_sep=False, dropout=0.5, auto_truncate=True,
-#                       word_dropout=0.01)
-
-            embed2 = BertEmbedding(data.get_vocab('words'), model_dir_or_name='nghuyong/ernie-1.0', # dbmdz/bert-base-german-uncased',#google/bigbird-roberta-large', #dslim/bert-large-NER',
-                        pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5', 
-                        include_cls_sep=False, dropout=0.2, auto_truncate=True,
-                      word_dropout=0.01)
-            
-#            char_CNNCharEmbedding = CNNCharEmbedding(vocab=data.get_vocab('words'), embed_size=30, char_emb_size=30, filter_nums=[30],
-#                                          kernel_sizes=[3], word_dropout=0, dropout=0.3, pool_method='max'
-#                                          , include_word_start_end=False, min_char_freq=2)
+#        if args.language != 'french':
 #            
-#            char_TransformerCharEmbed = TransformerCharEmbed(vocab=data.get_vocab('words'), embed_size=30, char_emb_size=30, word_dropout=0,
-#                     dropout=0.3, pool_method='max', activation='relu',
-#                     min_char_freq=2, requires_grad=True, include_word_start_end=False,
-#                     char_attn_type=char_type, char_n_head=3, char_dim_ffn=60, char_scale=char_type=='naive',
-#                     char_dropout=0.15, char_after_norm=True)
+#        embed_french = BertEmbedding(data.get_vocab('words'), model_dir_or_name='dbmdz/bert-base-french-europeana-cased',
+#                    pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5', 
+#                    include_cls_sep=False, dropout=0.2, auto_truncate=True,
+#                  word_dropout=0.01)
+        embed_french = CamembertEmbedding(data.get_vocab('words'), model_dir_or_name='camembert/camembert-large',
+                    pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5', 
+                    include_cls_sep=False, dropout=0.2, auto_truncate=True,
+                  word_dropout=0.01)
 
-            embed = StackEmbedding([embed, embed2], dropout=0.0, word_dropout=0.02)
-#            embed = BertEmbedding(vocab=data.get_vocab('words'), model_dir_or_name=args.pre_trained_model, 
-#                requires_grad=True, layers='0,-1,-2,-3,-4,-5', auto_truncate=True)
-#            word_embed = BertEmbedding(vocab=data.get_vocab('doc'), model_dir_or_name=args.pre_trained_model,
-#                requires_grad=True, layers='0,-1,-2,-3,-4,-5', #auto_truncate=True,
-#                pool_method='last', include_cls_sep=False, dropout=0.5,
-#                      word_dropout=0.01)
-        else:
-            embed = CamembertEmbedding(vocab=data.get_vocab(
-                'words'), model_dir_or_name=args.pre_trained_model, requires_grad=True, layers='0',
-                auto_truncate=True)
+#        embed_german = BertEmbedding(data.get_vocab('words'), model_dir_or_name='dbmdz/bert-base-german-europeana-cased',
+#                    pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5', 
+#                    include_cls_sep=False, dropout=0.2, auto_truncate=True,
+#                  word_dropout=0.01)
+        
+        # False
+        # True
+
+        embed_ner_french = CamembertEmbedding(data.get_vocab('words'), model_dir_or_name="Jean-Baptiste/camembert-ner",
+                    pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5', 
+                    include_cls_sep=False, dropout=0.2, auto_truncate=True,
+                  word_dropout=0.01)
+#        
+#        embed_ner_german = BertEmbedding(data.get_vocab('words'), model_dir_or_name='fhswf/bert_de_ner',
+#                    pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5', 
+#                    include_cls_sep=False, dropout=0.2, auto_truncate=True,
+#                  word_dropout=0.01)
+        
+#        embed_multi = BertEmbedding(data.get_vocab('words'), model_dir_or_name='bert-base-multilingual-cased',
+#                    pool_method='last', requires_grad=False, layers='0,-1,-2,-3,-4,-5', 
+#                    include_cls_sep=False, dropout=0.2, auto_truncate=True,
+#                  word_dropout=0.01)
+#        
+#        
+        #dslim/bert-large-NER
+        #dbmdz/bert-base-german-europeana-cased
+
+#        embed = StackEmbedding([embed_french, embed_german, embed_multi, 
+#                                embed_ner_french, embed_ner_german], dropout=0.0, word_dropout=0.02)
+        embed = StackEmbedding([embed_french, embed_ner_french], dropout=0.0, word_dropout=0.02)
+#        else:
+        
             # embed_large = CamembertEmbedding(vocab=data.get_vocab(
             #     'doc'), model_dir_or_name=args.pre_trained_model, requires_grad=True, layers='0',
             #     auto_truncate=True)
@@ -218,7 +187,7 @@ def load_data(paths, load_embed=True):
     return data
 
 
-data_bundle, embed , embed_doc = load_data(paths, load_embed=True)
+data_bundle, embed, embed_doc = load_data(paths, load_embed=True)
 print(data_bundle.get_dataset('test')[:10])
 
 #import pdb;pdb.set_trace()
@@ -319,7 +288,7 @@ def main():
     if warmup_steps > 0:
         warmup_callback = WarmupCallback(warmup_steps, schedule='linear')
         callbacks.append(warmup_callback)
-    callbacks.extend([clip_callback, checkpoint_callback, evaluate_callback])
+    callbacks.extend([clip_callback, checkpoint_callback])#, evaluate_callback])
 
     if not args.do_eval:
         trainer = Trainer(data_bundle.get_dataset('train'), model, optimizer,

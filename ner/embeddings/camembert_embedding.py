@@ -220,11 +220,14 @@ class _CamembertWordModel(nn.Module):
             word_pieces[batch_indexes,
                         word_pieces_lengths + 1] = self._sep_index
             token_type_ids = torch.zeros_like(word_pieces)
-        bert_outputs, pooled_cls = self.encoder(
-            input_ids=word_pieces, token_type_ids=token_type_ids, attention_mask=attn_masks)
 
-        bert_outputs = [bert_outputs]
-        self.layers = [0]
+        item = self.encoder(input_ids=word_pieces, token_type_ids=token_type_ids, attention_mask=attn_masks, output_hidden_states=True)
+        _, pooled_cls, bert_outputs = item[0], item[1], item[2]
+        
+
+#        import pdb;pdb.set_trace()
+#        bert_outputs = [bert_outputs]
+#        self.layers = [0]
 
         if self.include_cls_sep:
             s_shift = 1
