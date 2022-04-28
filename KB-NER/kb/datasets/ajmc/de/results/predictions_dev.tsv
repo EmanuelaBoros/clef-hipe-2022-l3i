@@ -239,11 +239,11 @@ operire	O	O	O	O	O	O	_	_	_
 velare	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 wie	O	O	O	O	O	O	_	_	_
-Sokrates	S-pers	O	B-pers.other	O	O	O	_	_	_
+Sokrates	S-pers	O	B-pers.author	O	O	O	_	_	_
 bei	O	O	O	O	O	O	_	_	_
 Plato	S-pers	O	B-pers.author	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Kyros	S-pers	O	B-pers.other	O	O	O	_	_	_
+Kyros	S-pers	O	B-pers.author	O	O	O	_	_	_
 Xen	B-pers	O	B-pers.author	O	O	O	_	_	_
 .	E-pers	O	I-pers.author	O	O	O	_	_	_
 Gyr	B-work	O	B-work.primlit	O	O	O	_	_	_
@@ -1221,7 +1221,7 @@ Idnis	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 mit	O	O	O	O	O	O	_	_	_
 Herm	B-pers	O	B-pers.editor	O	O	O	_	_	_
-.	E-pers	O	I-pers.editor	O	O	O	_	_	_
+.	E-pers	O	B-pers.editor	O	O	O	_	_	_
 μηνῶν	O	O	O	O	O	O	_	_	_
 ἄν	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -2081,7 +2081,7 @@ Achilleus	S-pers	O	B-pers.myth	O	O	O	_	_	_
 Sophokles	S-pers	O	B-pers.author	O	O	O	_	_	_
 auf	O	O	O	O	O	O	_	_	_
 seinen	O	O	O	O	O	O	_	_	_
-Aias	S-work	O	B-work.primlit	O	O	O	_	_	_
+Aias	S-pers	O	B-pers.myth	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 8	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -3182,8 +3182,8 @@ Athener	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 Athenatempels	S-loc	O	B-loc	O	O	B-pers.myth	_	_	_
 auf	O	O	O	O	O	O	_	_	_
-Kap	B-loc	O	B-loc	O	O	O	_	_	_
-Sunion	E-loc	O	I-loc	O	O	O	_	_	_
+Kap	S-loc	O	B-loc	O	O	O	_	_	_
+Sunion	S-loc	O	B-loc	O	O	O	_	_	_
 anſichtig	O	O	O	O	O	O	_	_	_
 wurde	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -3235,7 +3235,7 @@ Adnräs	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 Athena	B-pers	O	B-pers.myth	O	O	O	_	_	_
-Promachos	E-pers	O	I-pers.myth	O	O	O	_	_	_
+Promachos	E-pers	O	B-loc	O	O	O	_	_	_
 auf	O	O	O	O	O	O	_	_	_
 der	O	O	O	O	O	O	_	_	_
 Akropolis	S-loc	O	B-loc	O	O	O	_	_	_
@@ -3757,7 +3757,7 @@ Thäter	O	O	O	O	O	O	_	_	_
 gehört	O	O	O	O	O	O	_	_	_
 und	O	O	O	O	O	O	_	_	_
 Odyſſeus	S-pers	O	B-pers.myth	O	O	O	_	_	_
-iſt	O	O	O	O	O	O	_	_	_
+iſt	S-pers	O	B-pers.myth	O	O	O	_	_	_
 als	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 
@@ -3765,8 +3765,8 @@ als	O	O	O	O	O	O	_	_	_
 ὕλην	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 490	B-scope	O	B-scope	O	O	O	_	_	_
-ff	E-scope	O	I-scope	O	O	O	_	_	_
-.	O	O	O	O	O	O	_	_	_
+ff	I-scope	O	I-scope	O	O	O	_	_	_
+.	E-scope	O	O	O	O	O	_	_	_
 
 200	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
