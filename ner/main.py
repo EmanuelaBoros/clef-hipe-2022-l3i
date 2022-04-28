@@ -142,7 +142,7 @@ def load_data(paths, load_embed=True):
 #                    pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5', 
 #                    include_cls_sep=False, dropout=0.2, auto_truncate=True,
 #                  word_dropout=0.01)
-        embed_french = CamembertEmbedding(data.get_vocab('words'), model_dir_or_name='camembert/camembert-large',
+        embed_french = BertEmbedding(data.get_vocab('words'), model_dir_or_name=args.pre_trained_model,
                     pool_method='last', requires_grad=True, layers='0,-1,-2,-3,-4,-5', 
                     include_cls_sep=False, dropout=0.2, auto_truncate=True,
                   word_dropout=0.01)
