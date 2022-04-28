@@ -56,7 +56,7 @@ def _read_conll(path, encoding='utf-8',sep=None, indexes=None, dropna=True):
 #            if 'StartOfContext' in line:
 #                doc.append(line)
             # import pdb;pdb.set_trace()
-            if ('DOCSTART' in line) or ('# hipe' in line) or ("TOKEN" in line):
+            if ('DOCSTART' in line) or ('# hipe' in line) or ('# ajmc' in line)  or ("TOKEN" in line):
                 continue
             elif line == '':
                 if len(sample):
