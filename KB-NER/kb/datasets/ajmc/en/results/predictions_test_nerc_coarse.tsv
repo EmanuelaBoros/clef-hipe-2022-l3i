@@ -1,0 +1,29 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+predictions_test	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0.86	0.885	0.872				368	60	48
+predictions_test	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	DATE	0	0.0	0				0	0	5
+predictions_test	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	LOC	1.0	0.667	0.8				2	0	1
+predictions_test	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PERS	0.851	0.923	0.886				120	21	10
+predictions_test	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	SCOPE	0.884	0.895	0.89				145	19	17
+predictions_test	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	WORK	0.835	0.871	0.852				101	20	15
+predictions_test	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	ALL	0.801	0.825	0.813				343	85	73
+predictions_test	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	DATE	0	0.0	0				0	0	5
+predictions_test	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	LOC	1.0	0.667	0.8				2	0	1
+predictions_test	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	PERS	0.837	0.908	0.871				118	23	12
+predictions_test	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	SCOPE	0.78	0.79	0.785				128	36	34
+predictions_test	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	WORK	0.785	0.819	0.802				95	26	21
+predictions_test	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL	0.86	0.885	0.872	0.0	0.0	0.0			
+predictions_test	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	DATE		0.0				0.0			
+predictions_test	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	LOC	1.0	0.667	0.8	0.0	0.0	0.0			
+predictions_test	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PERS	0.851	0.923	0.886	0.0	0.0	0.0			
+predictions_test	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	SCOPE	0.884	0.895	0.89	0.0	0.0	0.0			
+predictions_test	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	WORK	0.835	0.871	0.852	0.0	0.0	0.0			
+predictions_test	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ALL	0.801	0.825	0.813	0.0	0.0	0.0			
+predictions_test	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	DATE		0.0				0.0			
+predictions_test	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	LOC	1.0	0.667	0.8	0.0	0.0	0.0			
+predictions_test	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PERS	0.837	0.908	0.871	0.0	0.0	0.0			
+predictions_test	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	SCOPE	0.78	0.79	0.785	0.0	0.0	0.0			
+predictions_test	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	WORK	0.785	0.819	0.802	0.0	0.0	0.0			
+predictions_test	NE-COARSE-METO-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0	0	0				0	0	0
+predictions_test	NE-COARSE-METO-micro-strict-TIME-ALL-LED-ALL	ALL	0	0	0				0	0	0
+predictions_test	NE-COARSE-METO-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL									
+predictions_test	NE-COARSE-METO-macro_doc-strict-TIME-ALL-LED-ALL	ALL									
