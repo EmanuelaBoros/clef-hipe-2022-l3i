@@ -14,6 +14,7 @@ import nltk.data
 #### FOR GERMAN WIKI ####
 
 ST_MODEL = 'paraphrase-multilingual-MiniLM-L12-v2'
+PARA_FILE = "./dumps/de_all_paragraphs.pickle"
 ES = "http://localhost:9200"
 HEADERS = {"content-type": "application/json;charset=UTF-8"}
 LAN = "de"
@@ -25,6 +26,10 @@ LANMAP = {"en": "english", "de": "german", "fr": "french", "fi": "finnish", "sv"
 print(f"Loading Sentence transformer {ST_MODEL}...")
 embedder = SentenceTransformer(ST_MODEL)
 print("Sentence transformer loaded !")
+
+print(f"Loading paragraph map {PARA_FILE}...")
+all_paragraphs = pickle.load(open(PARA_FILE, "rb"))
+print("Loaded !")
 
 
 parser = argparse.ArgumentParser()
@@ -116,8 +121,10 @@ def write_kb(queries, responses, out_file, lang_tok):
                 fields = hit['fields']
                 title = fields['title'][0]
                 text = fields['text'][0]
-                paragraph = fields['paragraph'][0]
-                paragraph = parse_paragraph(paragraph)
+                paragraph_id = fields['paragraph'][0]
+                paragraph = all_paragraphs[paragraph_id]
+                #already parsed when creating the .jsonl
+                #paragraph = parse_paragraph(paragraph)
                 sentences = tokenizer.tokenize(paragraph)
                 register = f"{text}\t{score}\t{title}\t{sentences[0]}\n"
                 #register = f"{text}\t{paragraph}\t{title}\t{score}\t{url}\n"
@@ -130,7 +137,7 @@ def main():
     with open(args.in_file, 'r') as f:
         lines = f.readlines()
 
-    out_file = args.in_file.replace(".tsv", ".kbo")
+    out_file = args.in_file.replace(".tsv", ".kbd")
     sentences = utils.process_sentences(lines)
     batch_size = 10
     k = 10
