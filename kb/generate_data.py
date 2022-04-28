@@ -8,39 +8,37 @@ from sentence_transformers import SentenceTransformer
 import time
 import argparse
 import utils
+import nltk.data
+
 ST_MODEL = 'paraphrase-multilingual-MiniLM-L12-v2'
 ES = "http://localhost:9200"
 HEADERS = {"content-type": "application/json;charset=UTF-8"}
 LAN = "fr"
+LAN_T = "fr"
 INDEX_NAME = "wiki_v1"
+
+LANMAP = {"en": "english", "de": "german", "fr": "french", "fi": "finnish", "sv": "swedish"}
 
 print(f"Loading Sentence transformer {ST_MODEL}...")
 embedder = SentenceTransformer(ST_MODEL)
 print("Sentence transformer loaded !")
 
 
-def parse_arguments():
-    """Returns a command line parser
+parser = argparse.ArgumentParser()
+parser.add_argument("-i", "--in_file",
+                    dest="in_file",
+                    help="""Path to tsv file.""",
+                    type=str,
+                    default="../KB-NER/kb/datasets/ajmc/fr/HIPE-2022-v2.1-ajmc-train-fr-all.tsv")
+parser.add_argument("-l", "--lan",
+                    default=LAN,
+                    type=str)
+parser.add_argument("-t", "--lan_t",
+                    default=LAN_T,
+                    type=str)
+args = parser.parse_args()
 
-    Returns
-    ----------
-    argparse.Namespace
-
-    """
-
-    parser = argparse.ArgumentParser()
-
-    parser.add_argument("-i", "--in_file",
-                        dest="in_file",
-                        help="""Path to tsv file.""",
-                        type=str,
-                        default="/home/cgonzale/clef-hipe-2022-l3i/KB-NER/kb/datasets/hipe2020/fr/HIPE-2022-v2.1-hipe2020-dev-fr.tsv")
-    parser.add_argument("-l", "--lan",
-                        default=LAN,
-                        type=str)
-
-    return parser.parse_args()
-
+tokenizer = nltk.data.load(f"tokenizers/punkt/{LANMAP[args.lan_t]}.pickle")
 
 def search_batch(queries, lan, k):
     vectors = vectorize_batch(queries).tolist()
@@ -78,8 +76,7 @@ def search_sentence(vector, lan, k=10):
         "fields": [
             "text",
             "paragraph",
-            "title",
-            "url"
+            "title"
         ]
     }
     query_txt = json.dumps(query, ensure_ascii=False) + "\n"
@@ -103,11 +100,12 @@ def batch_iter(sentences, size=50):
 
 def parse_paragraph(paragraph):
 
-    return re.sub(r"<e:([\w'’\-.:|() ^>]+)>([\w’\-.:|()' ]+)</e>", "<e> \g<1> </e>", paragraph)
+    return re.sub(r"<e:([\w'’\-.:|()*+ ^>]+)>([\w'’\-.:|()*+ ]+)</e>", "<e> \g<1> </e>", paragraph)
 
 
-def write_kb(queries, responses, out_file):
+def write_kb(queries, responses, out_file, lang_tok):
 
+    tokenizer = nltk.data.load(f"tokenizers/punkt/{LANMAP[lang_tok]}.pickle")
     with open(out_file, "a") as f:
         for i, query in enumerate(queries):
             f.write(f"Q:\t{query}")
@@ -116,28 +114,28 @@ def write_kb(queries, responses, out_file):
                 fields = hit['fields']
                 title = fields['title'][0]
                 text = fields['text'][0]
-                url = fields['url'][0]
                 paragraph = fields['paragraph'][0]
                 paragraph = parse_paragraph(paragraph)
-                register = f"{text}\t{score}\t{title}\t{paragraph}\n"
+                sentences = tokenizer.tokenize(paragraph)
+                register = f"{text}\t{score}\t{title}\t{sentences[0]}\n"
                 #register = f"{text}\t{paragraph}\t{title}\t{score}\t{url}\n"
                 f.write(register)
 
 
 def main():
-    args = parse_arguments()
+
     lan = args.lan
     with open(args.in_file, 'r') as f:
         lines = f.readlines()
 
-    out_file = args.in_file.replace(".tsv", ".kb")
+    out_file = args.in_file.replace(".tsv", ".kbo")
     sentences = utils.process_sentences(lines)
     batch_size = 10
     k = 10
     for i, queries in tqdm(enumerate(batch_iter(sentences, batch_size))):
         print(f"{i*batch_size}/{len(sentences)}")
         queries, responses = search_batch(queries, lan, k)
-        write_kb(queries, responses, out_file)
+        write_kb(queries, responses, out_file, args.lan_t)
 
 
 if __name__ == '__main__':

@@ -211,7 +211,9 @@ def write_kb(queries, contexts, out_file):
                 entity_text = context["entity_text"].replace("\n","")
                 entity_id = context["entity_id"]
                 sentence = entity_text.split(".")[0]
-                register = f"{sentence}\t{score}\t{entity_id}\t{entity_text}\n"
+                #register = f"{sentence}\t{score}\t{entity_id}\t{entity_text}\n"
+                #simple context just first sentence
+                register = f"{sentence}\t{score}\t{entity_id}\t{sentence}\n"
                 f.write(register)
 
 
@@ -222,7 +224,7 @@ def main():
     with open(args.in_file, 'r') as f:
         lines = f.readlines()
 
-    out_file = args.in_file.replace(".tsv", ".kb")
+    out_file = args.in_file.replace(".tsv", ".kbg")
     sentences = utils.process_sentences(lines)
     batch_size = 25
     k = 10
