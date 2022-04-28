@@ -97,7 +97,7 @@ for title in tqdm.tqdm(db.titles()):
                 #p_id_acc += 1
             except Exception as e:
                 print(e)
-    p_id_acc += 1
+        p_id_acc += 1
     #print(p_id_acc)
     #if p_id_acc >= 10:
     #    break
