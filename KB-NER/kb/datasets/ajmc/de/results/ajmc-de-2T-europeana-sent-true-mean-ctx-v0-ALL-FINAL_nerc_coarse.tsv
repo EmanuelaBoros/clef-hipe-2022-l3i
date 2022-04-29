@@ -1,9 +1,0 @@
-System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
-ajmc-de-2t-europeana-sent-true-mean-ctx-v0-all-final	NE-COARSE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0	0	0				0	0	0
-ajmc-de-2t-europeana-sent-true-mean-ctx-v0-all-final	NE-COARSE-LIT-micro-strict-TIME-ALL-LED-ALL	ALL	0	0	0				0	0	0
-ajmc-de-2t-europeana-sent-true-mean-ctx-v0-all-final	NE-COARSE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL									
-ajmc-de-2t-europeana-sent-true-mean-ctx-v0-all-final	NE-COARSE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ALL									
-ajmc-de-2t-europeana-sent-true-mean-ctx-v0-all-final	NE-COARSE-METO-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0	0	0				0	0	0
-ajmc-de-2t-europeana-sent-true-mean-ctx-v0-all-final	NE-COARSE-METO-micro-strict-TIME-ALL-LED-ALL	ALL	0	0	0				0	0	0
-ajmc-de-2t-europeana-sent-true-mean-ctx-v0-all-final	NE-COARSE-METO-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL									
-ajmc-de-2t-europeana-sent-true-mean-ctx-v0-all-final	NE-COARSE-METO-macro_doc-strict-TIME-ALL-LED-ALL	ALL									

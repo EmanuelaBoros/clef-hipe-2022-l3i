@@ -1,0 +1,41 @@
+System	Evaluation	Label	P	R	F1	F1_std	P_std	R_std	TP	FP	FN
+predictions_test	NE-FINE-COMP-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0	0	0				0	0	0
+predictions_test	NE-FINE-COMP-micro-strict-TIME-ALL-LED-ALL	ALL	0	0	0				0	0	0
+predictions_test	NE-FINE-COMP-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL									
+predictions_test	NE-FINE-COMP-macro_doc-strict-TIME-ALL-LED-ALL	ALL									
+predictions_test	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0.822	0.859	0.84				336	73	55
+predictions_test	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PERS.AUTHOR	0.692	0.692	0.692				36	16	16
+predictions_test	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PERS.EDITOR	0.1	0.077	0.087				1	9	12
+predictions_test	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PERS.MYTH	0.895	0.739	0.81				17	2	6
+predictions_test	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	PERS.OTHER	0.871	0.771	0.818				27	4	8
+predictions_test	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	SCOPE	0.862	0.959	0.908				162	26	7
+predictions_test	NE-FINE-LIT-micro-fuzzy-TIME-ALL-LED-ALL	WORK.PRIMLIT	0.853	0.939	0.894				93	16	6
+predictions_test	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	ALL	0.733	0.767	0.75				300	109	91
+predictions_test	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	PERS.AUTHOR	0.673	0.673	0.673				35	17	17
+predictions_test	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	PERS.EDITOR	0.1	0.077	0.087				1	9	12
+predictions_test	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	PERS.MYTH	0.895	0.739	0.81				17	2	6
+predictions_test	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	PERS.OTHER	0.839	0.743	0.788				26	5	9
+predictions_test	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	SCOPE	0.75	0.834	0.79				141	47	28
+predictions_test	NE-FINE-LIT-micro-strict-TIME-ALL-LED-ALL	WORK.PRIMLIT	0.734	0.808	0.769				80	29	19
+predictions_test	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL	0.822	0.859	0.84	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PERS.AUTHOR	0.692	0.692	0.692	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PERS.EDITOR	0.1	0.077	0.087	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PERS.MYTH	0.895	0.739	0.81	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	PERS.OTHER	0.871	0.771	0.818	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	SCOPE	0.862	0.959	0.908	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-fuzzy-TIME-ALL-LED-ALL	WORK.PRIMLIT	0.853	0.939	0.894	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	ALL	0.733	0.767	0.75	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PERS.AUTHOR	0.673	0.673	0.673	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PERS.EDITOR	0.1	0.077	0.087	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PERS.MYTH	0.895	0.739	0.81	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	PERS.OTHER	0.839	0.743	0.788	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	SCOPE	0.75	0.834	0.79	0.0	0.0	0.0			
+predictions_test	NE-FINE-LIT-macro_doc-strict-TIME-ALL-LED-ALL	WORK.PRIMLIT	0.734	0.808	0.769	0.0	0.0	0.0			
+predictions_test	NE-FINE-METO-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0	0	0				0	0	0
+predictions_test	NE-FINE-METO-micro-strict-TIME-ALL-LED-ALL	ALL	0	0	0				0	0	0
+predictions_test	NE-FINE-METO-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL									
+predictions_test	NE-FINE-METO-macro_doc-strict-TIME-ALL-LED-ALL	ALL									
+predictions_test	NE-NESTED-micro-fuzzy-TIME-ALL-LED-ALL	ALL	0	0	0				0	0	0
+predictions_test	NE-NESTED-micro-strict-TIME-ALL-LED-ALL	ALL	0	0	0				0	0	0
+predictions_test	NE-NESTED-macro_doc-fuzzy-TIME-ALL-LED-ALL	ALL									
+predictions_test	NE-NESTED-macro_doc-strict-TIME-ALL-LED-ALL	ALL									

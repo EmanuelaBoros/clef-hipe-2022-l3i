@@ -494,7 +494,7 @@ v	B-scope	O	B-scope	O	O	O	_	_	_
 τραύματι	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 εἰ	B-scope	O	B-scope	O	O	O	_	_	_
-4071	E-scope	O	B-scope	O	O	O	_	_	_
+4071	E-scope	O	I-scope	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 -	O	O	O	O	O	O	_	_	_
@@ -505,8 +505,8 @@ v	B-scope	O	B-scope	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Οἵ	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-Αἰπεὶρ	B-work	O	O	O	O	O	_	_	_
-.	E-work	O	O	O	O	O	_	_	_
+Αἰπεὶρ	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
 456	S-scope	O	B-scope	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
@@ -524,7 +524,7 @@ v	B-scope	O	B-scope	O	O	O	_	_	_
 sur	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 vers	B-scope	O	B-scope	O	O	O	_	_	_
-203	E-scope	O	I-scope	O	O	O	_	_	_
+203	E-scope	O	B-scope	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 324	O	O	O	O	O	O	_	_	_
@@ -532,7 +532,7 @@ vers	B-scope	O	B-scope	O	O	O	_	_	_
 Ἀψόφντος	O	O	O	O	O	O	_	_	_
 χωχυμάτων	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-51	O	O	O	O	O	O	_	_	_
+51	S-scope	O	B-scope	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 5	O	O	O	O	O	O	_	_	_
 ſaire	O	O	O	O	O	O	_	_	_
@@ -700,7 +700,7 @@ Anabase	S-work	O	B-work.primlit	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ἵ	B-scope	O	B-scope	O	O	O	_	_	_
 ,	I-scope	O	I-scope	O	O	O	_	_	_
-v	I-scope	O	I-scope	O	O	O	_	_	_
+v	I-scope	O	B-scope	O	O	O	_	_	_
 ,	I-scope	O	I-scope	O	O	O	_	_	_
 9	E-scope	O	I-scope	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
@@ -752,8 +752,8 @@ fatex	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 ἐφαίνετο	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-ν	B-work	O	O	O	O	O	_	_	_
-.	E-work	O	O	O	O	O	_	_	_
+ν	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
 680	S-scope	O	B-scope	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -882,9 +882,9 @@ Cf	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 64	S-scope	O	B-scope	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-ἀδι	S-work	O	B-scope	O	O	O	_	_	_
-,	O	O	O	O	O	O	_	_	_
-772	S-scope	O	B-scope	O	O	O	_	_	_
+ἀδι	B-scope	O	B-scope	O	O	O	_	_	_
+,	I-scope	O	I-scope	O	O	O	_	_	_
+772	E-scope	O	I-scope	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 —	O	O	O	O	O	O	_	_	_
@@ -1024,7 +1024,7 @@ fait	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 εἰ	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-21	S-scope	O	B-scope	O	O	O	_	_	_
+21	S-scope	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 35/	O	O	O	O	O	O	_	_	_
@@ -1084,7 +1084,7 @@ Schneidewin	S-pers	O	B-pers.other	O	O	O	_	_	_
 ‘Appoyriotæç	O	O	O	O	O	O	_	_	_
 Ever	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-Dindorf	S-pers	O	B-pers.editor	O	O	O	_	_	_
+Dindorf	S-pers	O	B-pers.other	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 «	O	O	O	O	O	O	_	_	_
 Per	O	O	O	O	O	O	_	_	_
@@ -1478,9 +1478,9 @@ volente	O	O	O	O	O	O	_	_	_
 Cf	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 vers	B-scope	O	B-scope	O	O	O	_	_	_
-766	E-scope	O	I-scope	O	O	O	_	_	_
-,	O	O	O	O	O	O	_	_	_
-779	S-scope	O	B-scope	O	O	O	_	_	_
+766	I-scope	O	B-scope	O	O	O	_	_	_
+,	I-scope	O	I-scope	O	O	O	_	_	_
+779	E-scope	O	I-scope	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 OEd	B-work	O	B-work.primlit	O	O	O	_	_	_
 .	I-work	O	I-work.primlit	O	O	O	_	_	_
@@ -1667,12 +1667,12 @@ udχιμός	O	O	O	O	O	O	_	_	_
 φοροῦσα	O	O	O	O	O	O	_	_	_
 τοὔνομα	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-Οἱ	S-pers	O	B-pers.author	O	O	O	_	_	_
+Οἱ	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 “	B-work	O	B-work.primlit	O	O	O	_	_	_
 πεὶρ	I-work	O	B-work.primlit	O	O	O	_	_	_
-.	E-work	O	I-work.primlit	O	O	O	_	_	_
-11	S-scope	O	B-scope	O	O	O	_	_	_
+.	E-work	O	I-scope	O	O	O	_	_	_
+11	S-scope	O	I-scope	O	O	O	_	_	_
 }	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 OEd	B-work	O	B-work.primlit	O	O	O	_	_	_
@@ -1797,8 +1797,8 @@ datif	O	O	O	O	O	O	_	_	_
 ἐξεπίστασθαι	O	O	O	O	O	O	_	_	_
 δοκῶ	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-Οἵ	B-work	O	O	O	O	O	_	_	_
-.	E-work	O	I-work.primlit	O	O	O	_	_	_
+Οἵ	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
 748	S-scope	O	B-scope	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 Τοσοῦτον	O	O	O	O	O	O	_	_	_
@@ -1908,9 +1908,9 @@ Cf	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 ΟΕὠ	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-R	B-work	O	B-scope	O	O	O	_	_	_
-.	E-work	O	I-work.primlit	O	O	O	_	_	_
-4134	S-scope	O	B-scope	O	O	O	_	_	_
+R	B-scope	O	B-scope	O	O	O	_	_	_
+.	I-scope	O	I-scope	O	O	O	_	_	_
+4134	E-scope	O	B-scope	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 Πρὸ	O	O	O	O	O	O	_	_	_
 τοῦ	O	O	O	O	O	O	_	_	_
@@ -1975,8 +1975,8 @@ jam	O	O	O	O	O	O	_	_	_
 factum	O	O	O	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-C	O	O	O	O	O	O	_	_	_
-.	O	O	O	O	O	O	_	_	_
+C	B-work	O	B-work.primlit	O	O	O	_	_	_
+.	E-work	O	I-work.primlit	O	O	O	_	_	_
 Trachin	B-work	O	B-work.primlit	O	O	O	_	_	_
 .	E-work	O	I-work.primlit	O	O	O	_	_	_
 41409	S-scope	O	B-scope	O	O	O	_	_	_
@@ -1989,7 +1989,7 @@ xèx	O	O	O	O	O	O	_	_	_
 rôvôe	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Eur	B-work	O	B-pers.author	O	O	O	_	_	_
-.	I-work	O	I-work.primlit	O	O	O	_	_	_
+.	I-work	O	I-pers.author	O	O	O	_	_	_
 Médée	E-work	O	B-work.primlit	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 459	S-scope	O	B-scope	O	O	O	_	_	_
@@ -2200,8 +2200,8 @@ alicubi	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 "Ἔθρεψεν	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-Οἴ	B-work	O	B-work.primlit	O	O	O	_	_	_
-.	E-work	O	I-work.primlit	O	O	O	_	_	_
+Οἴ	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
 v	B-scope	O	B-scope	O	O	O	_	_	_
 .	I-scope	O	I-scope	O	O	O	_	_	_
 603	E-scope	O	I-scope	O	O	O	_	_	_
@@ -2395,7 +2395,7 @@ moderne	O	O	O	O	O	O	_	_	_
 στόματος	O	O	O	O	O	O	_	_	_
 τῆς	O	O	O	O	O	O	_	_	_
 μα"χαίρας.	O	O	O	O	O	O	_	_	_
-652	O	O	O	O	O	O	_	_	_
+652	O	O	B-scope	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 658	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -2645,7 +2645,7 @@ etc	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 γάμος	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-ΟΕά	B-work	O	O	O	O	O	_	_	_
+ΟΕά	B-work	O	B-work.primlit	O	O	O	_	_	_
 .	I-work	O	I-work.primlit	O	O	O	_	_	_
 Roi	E-work	O	I-work.primlit	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -2655,7 +2655,7 @@ Roi	E-work	O	I-work.primlit	O	O	O	_	_	_
 etc	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-Schneidewiu	S-pers	O	B-pers.other	O	O	O	_	_	_
+Schneidewiu	S-pers	O	B-pers.author	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ]	O	O	O	O	O	O	_	_	_
 
@@ -2803,7 +2803,7 @@ qUcrv	O	O	O	O	O	O	_	_	_
 plus	O	O	O	O	O	O	_	_	_
 baut	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-vers42	S-scope	O	I-scope	O	O	O	_	_	_
+vers42	S-scope	O	B-scope	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 Trachin	B-work	O	B-work.primlit	O	O	O	_	_	_
@@ -2845,7 +2845,7 @@ usiζον	O	O	O	O	O	O	_	_	_
 ΟΕ	O	O	O	O	O	O	_	_	_
 4	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-(	O	O	I-work.primlit	O	O	O	_	_	_
+(	O	O	O	O	O	O	_	_	_
 οἱ	B-work	O	B-work.primlit	O	O	O	_	_	_
 .	E-work	O	I-work.primlit	O	O	O	_	_	_
 698	S-scope	O	B-scope	O	O	O	_	_	_
@@ -2854,7 +2854,7 @@ usiζον	O	O	O	O	O	O	_	_	_
 Cf	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 “	B-work	O	B-work.primlit	O	O	O	_	_	_
-πεὶρ	I-work	O	I-work.primlit	O	O	O	_	_	_
+πεὶρ	I-work	O	B-work.primlit	O	O	O	_	_	_
 .	E-work	O	I-work.primlit	O	O	O	_	_	_
 168	S-scope	O	B-scope	O	O	O	_	_	_
 Trachin	B-work	O	B-work.primlit	O	O	O	_	_	_
@@ -2937,8 +2937,8 @@ Philoct	B-work	O	B-work.primlit	O	O	O	_	_	_
 μηδέν	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 [	O	O	O	O	O	O	_	_	_
-δοἰιπεϊάεν	O	O	O	O	O	O	_	_	_
-η	S-pers	O	O	O	O	O	_	_	_
+δοἰιπεϊάεν	S-pers	O	B-pers.other	O	O	O	_	_	_
+η	S-pers	O	B-pers.other	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ]	O	O	O	O	O	O	_	_	_
 
@@ -2960,8 +2960,8 @@ Cf	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 OEd	B-work	O	B-work.primlit	O	O	O	_	_	_
 .	I-work	O	I-work.primlit	O	O	O	_	_	_
-Rot	I-work	O	I-work.primlit	O	O	O	_	_	_
-,	E-work	O	I-work.primlit	O	O	O	_	_	_
+Rot	E-work	O	I-work.primlit	O	O	O	_	_	_
+,	O	O	O	O	O	O	_	_	_
 146	S-scope	O	B-scope	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
@@ -3061,7 +3061,7 @@ répondant	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
 réponse)à	O	O	O	O	O	O	_	_	_
-Athéua	S-pers	O	B-pers.myth	O	O	O	_	_	_
+Athéua	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
 al	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
@@ -3100,7 +3100,7 @@ comparatifs	O	O	O	O	O	O	_	_	_
 cf	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Phil	B-work	O	B-work.primlit	O	O	O	_	_	_
-,	E-work	O	I-work.primlit	O	O	O	_	_	_
+,	E-work	O	I-scope	O	O	O	_	_	_
 683	S-scope	O	B-scope	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 Matthiæ	S-pers	O	B-pers.author	O	O	O	_	_	_
@@ -3143,9 +3143,9 @@ Colone	E-work	O	I-work.primlit	O	O	O	_	_	_
 Αὐδῶ	O	O	O	O	O	O	_	_	_
 σιωπᾶν	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-70	S-scope	O	B-scope	O	O	O	_	_	_
-.	O	O	O	O	O	O	_	_	_
-ν	B-work	O	B-work.primlit	O	O	O	_	_	_
+70	O	O	B-scope	O	O	O	_	_	_
+.	O	O	I-work.primlit	O	O	O	_	_	_
+ν	B-work	O	I-work.primlit	O	O	O	_	_	_
 .	E-work	O	I-work.primlit	O	O	O	_	_	_
 4680	S-scope	O	B-scope	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
@@ -3222,11 +3222,11 @@ Tù	O	O	O	O	O	O	_	_	_
 λυπεῖ	O	O	O	O	O	O	_	_	_
 με	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-ΡῬΙυΐωγασο	S-pers	O	B-pers.author	O	O	O	_	_	_
+ΡῬΙυΐωγασο	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Λέαγίαε	S-work	O	B-work.primlit	O	O	O	_	_	_
-,	O	O	O	O	O	O	_	_	_
-χχνι	S-scope	O	B-scope	O	O	O	_	_	_
+Λέαγίαε	B-scope	O	B-scope	O	O	O	_	_	_
+,	I-scope	O	O	O	O	O	_	_	_
+χχνι	E-scope	O	B-scope	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 Γενέσθαι	O	O	O	O	O	O	_	_	_
 τὸν	O	O	O	O	O	O	_	_	_
@@ -3336,7 +3336,7 @@ postea	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 «	O	O	O	O	O	O	_	_	_
-codem	B-work	O	B-work.primlit	O	O	O	_	_	_
+codem	B-work	O	B-pers.author	O	O	O	_	_	_
 capite	E-work	O	I-work.primlit	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 p	B-scope	O	B-scope	O	O	O	_	_	_
@@ -3739,7 +3739,7 @@ ad	O	O	O	O	O	O	_	_	_
 Οἵ	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ξι	B-work	O	O	O	O	O	_	_	_
-.	E-work	O	I-work.primlit	O	O	O	_	_	_
+.	E-work	O	O	O	O	O	_	_	_
 4374	S-scope	O	B-scope	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 Phil	B-work	O	B-work.primlit	O	O	O	_	_	_
@@ -3773,7 +3773,7 @@ El	B-work	O	B-work.primlit	O	O	O	_	_	_
 .	E-work	O	I-work.primlit	O	O	O	_	_	_
 20	S-scope	O	B-scope	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Ὡοῖε	O	O	O	O	O	O	_	_	_
+Ὡοῖε	O	O	B-scope	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Δηλοῖ	O	O	O	O	O	O	_	_	_
 ὁφυίϊναυϊ	O	O	O	O	O	O	_	_	_
@@ -3879,11 +3879,11 @@ adjectif	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 comme	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
-vers	O	O	O	O	O	O	_	_	_
-444	S-scope	O	B-scope	O	O	O	_	_	_
+vers	B-scope	O	B-scope	O	O	O	_	_	_
+444	E-scope	O	I-scope	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-d’Ancigone	S-pers	O	B-work.primlit	O	O	O	_	_	_
+d’Ancigone	S-work	O	B-work.primlit	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 Λευνχῆς	O	O	O	O	O	O	_	_	_
 χιόνος	O	O	O	O	O	O	_	_	_
@@ -3900,7 +3900,7 @@ Cf	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 49	S-scope	O	B-scope	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-noie	O	O	O	O	O	O	_	_	_
+noie	O	O	I-scope	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 —	O	O	O	O	O	O	_	_	_
@@ -3954,7 +3954,7 @@ Dindurf	S-pers	O	B-pers.other	O	O	O	_	_	_
 Ἐφίεθ᾽	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Aux	O	O	O	O	O	O	_	_	_
-vers	B-scope	O	B-scope	O	O	O	_	_	_
+vers	B-scope	O	O	O	O	O	_	_	_
 560	E-scope	O	I-scope	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 suivants	O	O	O	O	O	O	_	_	_
@@ -4009,9 +4009,9 @@ plus	O	O	O	O	O	O	_	_	_
 baut	O	O	B-work.primlit	O	O	O	_	_	_
 41	S-scope	O	B-scope	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-441	S-scope	O	B-scope	O	O	O	_	_	_
-,	O	O	O	O	O	O	_	_	_
-222	S-scope	O	B-scope	O	O	O	_	_	_
+441	B-scope	O	B-scope	O	O	O	_	_	_
+,	I-scope	O	I-scope	O	O	O	_	_	_
+222	E-scope	O	B-scope	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 —	O	O	O	O	O	O	_	_	_
@@ -4184,9 +4184,9 @@ Agarnemnon	S-work	O	B-work.primlit	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 Prométhée	S-work	O	B-work.primlit	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-762	S-scope	O	B-scope	O	O	O	_	_	_
-et	O	O	I-scope	O	O	O	_	_	_
-921	S-scope	O	B-scope	O	O	O	_	_	_
+762	B-scope	O	B-scope	O	O	O	_	_	_
+et	I-scope	O	I-scope	O	O	O	_	_	_
+921	E-scope	O	I-scope	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
@@ -4260,7 +4260,7 @@ Schneidewin	S-pers	O	B-pers.other	O	O	O	_	_	_
 ἀντέστη	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ſScbneidewin.]	O	O	O	O	O	O	_	_	_
-1135	S-scope	O	B-scope	O	O	O	_	_	_
+1135	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Kdérmmç	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -4380,7 +4380,7 @@ koc	O	O	O	O	O	O	_	_	_
 peccatum	O	O	O	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-Dobrée	S-pers	O	O	O	O	O	_	_	_
+Dobrée	O	O	O	O	O	O	_	_	_
 sous	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 entend	O	O	O	O	O	O	_	_	_
@@ -4488,7 +4488,7 @@ Antigune	S-work	O	B-work.primlit	O	O	O	_	_	_
 τινα	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 lec	O	O	O	O	O	O	_	_	_
-.	O	O	I-scope	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
 8δ8	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 —	O	O	O	O	O	O	_	_	_
@@ -4514,7 +4514,7 @@ raison	O	O	O	O	O	O	_	_	_
 cf	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 {	O	O	O	O	O	O	_	_	_
-hüœc&œ	S-work	O	I-work.primlit	O	O	O	_	_	_
+hüœc&œ	O	O	I-work.primlit	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 1430	S-scope	O	B-scope	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
@@ -4535,7 +4535,7 @@ oùxé	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 Evros	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-Génitif	O	O	B-work.primlit	O	O	O	_	_	_
+Génitif	S-work	O	B-work.primlit	O	O	O	_	_	_
 absolu,	O	O	O	O	O	O	_	_	_
 4553	S-scope	O	B-scope	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -4544,7 +4544,7 @@ absolu,	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 εἶ	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-Οἵ	S-pers	O	B-pers.author	O	O	O	_	_	_
+Οἵ	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 OEdipe	B-work	O	B-work.primlit	O	O	O	_	_	_
 Roi	E-work	O	I-work.primlit	O	O	O	_	_	_
@@ -4648,7 +4648,7 @@ date	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Οἵ	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-ΕἾ	B-work	O	B-work.primlit	O	O	O	_	_	_
+ΕἾ	B-work	O	O	O	O	O	_	_	_
 .	E-work	O	I-work.primlit	O	O	O	_	_	_
 4013	S-scope	O	B-scope	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
@@ -4803,7 +4803,7 @@ vertitar	O	O	O	O	O	O	_	_	_
 Cf	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Earipidem	B-work	O	B-pers.author	O	O	O	_	_	_
-,	E-work	O	O	O	O	O	_	_	_
+,	E-work	O	I-work.primlit	O	O	O	_	_	_
 in	B-work	O	B-work.primlit	O	O	O	_	_	_
 Hippolyto	E-work	O	B-work.primlit	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -4877,7 +4877,7 @@ Hésychins	S-pers	O	O	O	O	O	_	_	_
 Oédesc	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Xph[ess.	O	O	O	O	O	O	_	_	_
-Suidas	S-pers	O	O	O	O	O	_	_	_
+Suidas	S-pers	O	B-pers.author	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
 mot	O	O	O	O	O	O	_	_	_
@@ -4951,7 +4951,7 @@ rétablie	O	O	O	O	O	O	_	_	_
 par	O	O	O	O	O	O	_	_	_
 Wunder	S-pers	O	B-pers.other	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
-vers	B-scope	O	O	O	O	O	_	_	_
+vers	B-scope	O	B-scope	O	O	O	_	_	_
 607	E-scope	O	I-scope	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
@@ -5291,7 +5291,7 @@ Démosthène	S-pers	O	B-pers.author	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 εἰιᾶρ	B-scope	O	B-scope	O	O	O	_	_	_
 .	I-scope	O	I-scope	O	O	O	_	_	_
-χ	E-scope	O	B-scope	O	O	O	_	_	_
+χ	E-scope	O	I-scope	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 Ὑπὲρ	O	O	O	O	O	O	_	_	_
 δὲ	O	O	O	O	O	O	_	_	_
@@ -5303,7 +5303,7 @@ Démosthène	S-pers	O	B-pers.author	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 εἰ	O	O	O	O	O	O	_	_	_
 Contre	O	O	O	O	O	O	_	_	_
-Androtion	S-work	O	B-work.primlit	O	O	O	_	_	_
+Androtion	S-pers	O	B-work.primlit	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 chap	B-scope	O	B-scope	O	O	O	_	_	_
 .	I-scope	O	I-scope	O	O	O	_	_	_
@@ -5461,7 +5461,7 @@ Eyyo	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-536	O	O	O	O	O	O	_	_	_
+536	O	O	B-scope	O	O	O	_	_	_
 εἰ	O	O	O	O	O	O	_	_	_
 oo7	S-scope	O	B-scope	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
@@ -5498,7 +5498,7 @@ Eipoz	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 ἀργυρόηλον	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-Ηοπιὲδτο	O	O	O	O	O	O	_	_	_
+Ηοπιὲδτο	S-pers	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Iliade	S-work	O	B-work.primlit	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -5533,7 +5533,7 @@ Cf	O	O	O	O	O	O	_	_	_
 πρὸς	O	O	O	O	O	O	_	_	_
 ναοῖς	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-ΟΕά	B-work	O	O	O	O	O	_	_	_
+ΟΕά	B-work	O	B-work.primlit	O	O	O	_	_	_
 .	I-work	O	I-work.primlit	O	O	O	_	_	_
 Roi	E-work	O	I-work.primlit	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
