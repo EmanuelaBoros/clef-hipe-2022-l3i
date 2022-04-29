@@ -23,7 +23,6 @@ Edd	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 LA	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
 Jahnl	S-pers	O	O	O	O	O	NIL	_	_
-
 1454	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ἂρ	O	O	O	O	O	O	_	_	_
@@ -37,7 +36,6 @@ Edd	B-pers	O	I-scope	O	O	O	NIL	_	_
 ἄρ᾽	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1456	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 εἰωθότωσ	O	O	O	O	O	O	_	_	_
@@ -46,7 +44,6 @@ OL	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 εἰωθότοσ	S-scope	O	O	O	O	O	NIL	_	_
 A	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1460	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 αὐτῶν	O	O	O	O	O	O	_	_	_
@@ -55,7 +52,6 @@ OL	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 αὐτὸν	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Vat	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ac	O	O	O	O	O	O	_	_	_
@@ -75,7 +71,6 @@ not	O	O	O	O	O	O	_	_	_
 known	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1469	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 τοι	O	O	O	O	O	O	_	_	_
@@ -86,7 +81,6 @@ Edd	B-pers	O	I-scope	O	O	O	NIL	_	_
 re	O	O	O	O	O	O	_	_	_
 LA	O	O	B-work.primlit	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1505	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 χρῆν	O	O	O	O	O	O	_	_	_
@@ -98,7 +92,6 @@ LA	O	O	B-work.primlit	O	O	O	_	_	_
 ἐχρῆν	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1508	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 παθὸν	O	O	O	O	O	O	_	_	_
@@ -107,7 +100,6 @@ OL	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 παθὼν	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 all	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -139,7 +131,6 @@ L	O	O	O	O	O	O	_	_	_
 against	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 A	O	O	O	O	O	O	_	_	_
 few	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -210,7 +201,6 @@ O	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 '	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 These	O	O	O	O	O	O	_	_	_
 illustrate	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -219,7 +209,6 @@ accuracy	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 3	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 From	O	O	O	O	O	O	_	_	_
@@ -256,7 +245,6 @@ which	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 belongs	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 list	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -329,7 +317,6 @@ O	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 s	O	O	O	O	O	O	_	_	_
 original	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 many	O	O	O	O	O	O	_	_	_
 places	O	O	O	O	O	O	_	_	_
@@ -388,7 +375,6 @@ A	O	O	O	O	O	O	_	_	_
 has	O	O	O	O	O	O	_	_	_
 gathered	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 4	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Certain	O	O	O	O	O	O	_	_	_
@@ -425,7 +411,6 @@ that	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 following	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -453,7 +438,6 @@ A	O	O	O	O	O	O	_	_	_
 s	O	O	O	O	O	O	_	_	_
 famiiy®	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 A	O	O	O	O	O	O	_	_	_
 very	O	O	O	O	O	O	_	_	_
 few	O	O	O	O	O	O	_	_	_
@@ -466,7 +450,6 @@ orthography	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
 omitted	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ¢	O	O	O	O	O	O	_	_	_
 Punished	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -524,7 +507,6 @@ cogn	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 acc	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 infr	O	O	O	O	O	O	_	_	_
@@ -548,7 +530,6 @@ infr	O	O	O	O	O	O	_	_	_
 ,	I-scope	O	I-scope	O	O	O	NIL	_	_
 3	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 183	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 φρενόθεν	O	O	O	O	O	O	_	_	_
@@ -575,7 +556,6 @@ not	O	O	O	O	O	O	_	_	_
 from	O	O	O	O	O	O	_	_	_
 within	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Ajax	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 could	O	O	O	O	O	O	_	_	_
 not	O	O	O	O	O	O	_	_	_
@@ -589,7 +569,6 @@ do	O	O	O	O	O	O	_	_	_
 this	O	O	O	O	O	O	_	_	_
 thing	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 gods	O	O	O	O	O	O	_	_	_
 must	O	O	O	O	O	O	_	_	_
@@ -602,7 +581,6 @@ senses	O	O	O	O	O	O	_	_	_
 ὦλεσαν	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 183	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 5	O	O	O	O	O	O	_	_	_
@@ -624,7 +602,6 @@ far	O	O	O	O	O	O	_	_	_
 wrong	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -660,7 +637,6 @@ each	O	O	O	O	O	O	_	_	_
 case	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 185	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ἐν	O	O	O	O	O	O	_	_	_
@@ -673,7 +649,6 @@ assault	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 flocks	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 participle	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -685,7 +660,6 @@ with	O	O	O	O	O	O	_	_	_
 πειρᾶσθαι	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Ant	B-work	O	B-work.primlit	O	O	O	NIL	_	_
@@ -698,7 +672,6 @@ Ant	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 ἐπεξέρχει	O	O	O	O	O	O	_	_	_
 θρασύς	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 186	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ἧκον	O	O	O	O	O	O	_	_	_
@@ -720,7 +693,6 @@ have	O	O	O	O	O	O	_	_	_
 come	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 For	O	O	O	O	O	O	_	_	_
 this	O	O	O	O	O	O	_	_	_
 use	O	O	O	O	O	O	_	_	_
@@ -758,7 +730,6 @@ Ag	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 ἂν	O	O	O	O	O	O	_	_	_
 ἀλάστωρ	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 These	O	O	O	O	O	O	_	_	_
 words	O	O	O	O	O	O	_	_	_
 develop	O	O	O	O	O	O	_	_	_
@@ -791,7 +762,6 @@ his	O	O	O	O	O	O	_	_	_
 own	O	O	O	O	O	O	_	_	_
 impulse	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 may	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
@@ -806,7 +776,6 @@ is	O	O	O	O	O	O	_	_	_
 upon	O	O	O	O	O	O	_	_	_
 him	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 This	O	O	O	O	O	O	_	_	_
 possibility	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -823,7 +792,6 @@ is	O	O	O	O	O	O	_	_	_
 really	O	O	O	O	O	O	_	_	_
 uilty	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ἀλλά	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
@@ -844,7 +812,6 @@ may	O	O	O	O	O	O	_	_	_
 be	O	O	O	O	O	O	_	_	_
 untrue!	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 Zeus	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 and	O	O	O	O	O	O	_	_	_
 Phoebus	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
@@ -880,7 +847,6 @@ by	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Argives	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Or	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
 2	O	O	O	O	O	O	_	_	_
@@ -906,7 +872,6 @@ spread	O	O	O	O	O	O	_	_	_
 by	O	O	O	O	O	O	_	_	_
 Argives	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 188	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 9	O	O	O	O	O	O	_	_	_
@@ -933,7 +898,6 @@ false	O	O	O	O	O	O	_	_	_
 means	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 190	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 τῶ	O	O	O	O	O	O	_	_	_
@@ -950,7 +914,6 @@ article	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 continued	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Essay	B-work	O	B-work.seclit	O	O	O	NIL	_	_
 on	I-work	O	I-work.seclit	O	O	O	NIL	_	_
 L	I-work	O	I-work.seclit	O	O	O	NIL	_	_
@@ -963,7 +926,6 @@ p	I-scope	O	I-scope	O	O	O	NIL	_	_
 33	I-scope	O	I-scope	O	O	O	NIL	_	_
 ὁ	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 standing	O	O	O	O	O	O	_	_	_
 reproach	O	O	O	O	O	O	_	_	_
@@ -1001,7 +963,6 @@ by	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
 enemies	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 especially	O	O	O	O	O	O	_	_	_
@@ -1058,7 +1019,6 @@ granddaughter	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 Erechtheus	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 101	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 μὴ	O	O	O	O	O	O	_	_	_
@@ -1102,7 +1062,6 @@ p	I-scope	O	I-scope	O	O	O	NIL	_	_
 .	I-scope	O	I-scope	O	O	O	NIL	_	_
 23	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ‘Do	O	O	O	O	O	O	_	_	_
 not	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
@@ -1112,7 +1071,6 @@ incur	O	O	O	O	O	O	_	_	_
 reproach	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 ἐφάλοις	O	O	O	O	O	O	_	_	_
 κλισίαις	O	O	O	O	O	O	_	_	_
 ὄμμ᾽	O	O	O	O	O	O	_	_	_
@@ -1134,7 +1092,6 @@ the	O	O	O	O	O	O	_	_	_
 sea	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 Epic	O	O	O	O	O	O	_	_	_
 word	O	O	O	O	O	O	_	_	_
@@ -1146,7 +1103,6 @@ the	O	O	O	O	O	O	_	_	_
 Lyric	O	O	O	O	O	O	_	_	_
 measures	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 We	O	O	O	O	O	O	_	_	_
 had	O	O	O	O	O	O	_	_	_
 σκηναῖς	O	O	O	O	O	O	_	_	_
@@ -1159,7 +1115,6 @@ supr	O	O	O	O	O	O	_	_	_
 1	B-scope	O	B-scope	O	O	O	NIL	_	_
 3	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 dative	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -1180,7 +1135,6 @@ supr	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 167	S-scope	O	B-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ἔχων	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
@@ -1205,7 +1159,6 @@ the	O	O	O	O	O	O	_	_	_
 tents	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 .	O	O	O	O	O	O	_	_	_
 ἀλλ᾽	O	O	O	O	O	O	_	_	_
 ἄνα	O	O	O	O	O	O	_	_	_
@@ -1259,7 +1212,6 @@ quarrelsome	O	O	O	O	O	O	_	_	_
 repose	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 Chorus	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
@@ -1310,7 +1262,6 @@ a	O	O	O	O	O	O	_	_	_
 difficult	O	O	O	O	O	O	_	_	_
 word	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 inactivity	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -1357,7 +1308,6 @@ danger	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 him	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 force	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -1423,7 +1373,6 @@ the	O	O	O	O	O	O	_	_	_
 heart	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
-
 (	O	O	O	O	O	O	_	_	_
 2	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
@@ -1451,7 +1400,6 @@ with	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Trojans	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 196	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ἄταν	O	O	O	O	O	O	_	_	_
@@ -1468,7 +1416,6 @@ the	O	O	O	O	O	O	_	_	_
 sky	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Eur	B-pers	O	B-pers.author	O	O	O	NIL	_	_
@@ -1483,7 +1430,6 @@ Phoen	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 ddiov	O	O	O	O	O	O	_	_	_
 φλέγέι	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 image	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -1496,7 +1442,6 @@ the	O	O	O	O	O	O	_	_	_
 following	O	O	O	O	O	O	_	_	_
 lines	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 197	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 200	O	O	O	O	O	O	_	_	_
@@ -1509,7 +1454,6 @@ lines	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 difficult	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 elision	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -1529,7 +1473,6 @@ are	O	O	O	O	O	O	_	_	_
 doubtful	O	O	O	O	O	O	_	_	_
 points	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 can	O	O	O	O	O	O	_	_	_
 hardly	O	O	O	O	O	O	_	_	_
@@ -1547,7 +1490,6 @@ for	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 long	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 καχαζόντων	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 rightly	O	O	O	O	O	O	_	_	_
@@ -1568,7 +1510,6 @@ the	O	O	O	O	O	O	_	_	_
 following	O	O	O	O	O	O	_	_	_
 scheme	O	O	O	O	O	O	_	_	_
 —	O	O	O	O	O	O	_	_	_
-
 ἐχθρῶν	O	O	O	O	O	O	_	_	_
 δ᾽	O	O	O	O	O	O	_	_	_
 ὕβρις	O	O	O	O	O	O	_	_	_
@@ -1588,7 +1529,6 @@ scheme	O	O	O	O	O	O	_	_	_
 ἄχος	O	O	O	O	O	O	_	_	_
 ἕστακεν	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 But	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 difficulties	O	O	O	O	O	O	_	_	_
@@ -1602,7 +1542,6 @@ we	O	O	O	O	O	O	_	_	_
 may	O	O	O	O	O	O	_	_	_
 venture	O	O	O	O	O	O	_	_	_
 —	O	O	O	O	O	O	_	_	_
-
 ἐχθρῶν	O	O	O	O	O	O	_	_	_
 δ᾽	O	O	O	O	O	O	_	_	_
 ὕβρις	O	O	O	O	O	O	_	_	_
@@ -1621,7 +1560,6 @@ venture	O	O	O	O	O	O	_	_	_
 ἄχος	O	O	O	O	O	O	_	_	_
 ἔστακεν	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Glycon	S-pers	O	B-pers.author	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
 Epitrit	B-work	O	B-work.primlit	O	O	O	NIL	_	_
@@ -1671,7 +1609,6 @@ out	O	O	O	O	O	O	_	_	_
 VE	O	O	O	O	O	O	_	_	_
 VAN	O	O	O	O	O	O	_	_	_
 Sati	O	O	O	O	O	O	_	_	_
-
 197	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ὧδἼ	O	O	O	O	O	O	_	_	_
@@ -1687,7 +1624,6 @@ supr	O	O	O	O	O	O	_	_	_
 -	I-scope	O	I-scope	O	O	O	NIL	_	_
 53	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 198	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ebavépors	O	O	O	O	O	O	_	_	_
@@ -1697,7 +1633,6 @@ favouring	O	O	O	O	O	O	_	_	_
 breezes	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 As	O	O	O	O	O	O	_	_	_
 applied	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
@@ -1749,7 +1684,6 @@ it	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 strength	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 11	B-work	O	B-work.primlit	O	O	O	NIL	_	_
@@ -1776,7 +1710,6 @@ obpeos	O	O	O	O	O	O	_	_	_
 καίεται	O	O	O	O	O	O	_	_	_
 ὕλη	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 200	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ἐμοὶ	O	O	O	O	O	O	_	_	_
@@ -1796,7 +1729,6 @@ be	O	O	O	O	O	O	_	_	_
 removed	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 201	O	O	O	O	O	O	_	_	_
 foll	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -1835,7 +1767,6 @@ half	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 truth	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Tecmessa	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 whose	O	O	O	O	O	O	_	_	_
@@ -1861,7 +1792,6 @@ before	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 hut	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 They	O	O	O	O	O	O	_	_	_
 learn	O	O	O	O	O	O	_	_	_
 from	O	O	O	O	O	O	_	_	_
@@ -1872,7 +1802,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 calamity	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 She	O	O	O	O	O	O	_	_	_
 learns	O	O	O	O	O	O	_	_	_
 from	O	O	O	O	O	O	_	_	_
@@ -1882,7 +1811,6 @@ extent	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Schol	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 διδάσκει	O	O	O	O	O	O	_	_	_
@@ -1915,7 +1843,6 @@ Alas	O	O	O	O	O	O	_	_	_
 ἀγνοούμενον	O	O	O	O	O	O	_	_	_
 μανθάνει	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 202	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 γενεᾶς	O	O	O	O	O	O	_	_	_
@@ -1936,7 +1863,6 @@ born	O	O	O	O	O	O	_	_	_
 Erechtheidae	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 Salaminians	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
@@ -1960,7 +1886,6 @@ the	O	O	O	O	O	O	_	_	_
 Athenian	O	O	O	O	O	O	_	_	_
 people	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 203	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ἔχομεν	O	O	O	O	O	O	_	_	_
@@ -1991,7 +1916,6 @@ infr	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 210	S-scope	O	B-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 204	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 τηλόθεν	O	O	O	O	O	O	_	_	_
@@ -2002,7 +1926,6 @@ Sc	O	O	O	O	O	O	_	_	_
 or	O	O	O	O	O	O	_	_	_
 σκοπουμένου	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 O	B-work	O	B-work.primlit	O	O	O	NIL	_	_
@@ -2015,7 +1938,6 @@ T	I-work	O	I-work.primlit	O	O	O	NIL	_	_
 παρῆμεν	O	O	O	O	O	O	_	_	_
 ἔγγύθεν	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 word	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -2027,7 +1949,6 @@ joined	O	O	O	O	O	O	_	_	_
 with	O	O	O	O	O	O	_	_	_
 κηδόμενοι	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Salamis	S-loc	O	B-loc	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 which	O	O	O	O	O	O	_	_	_
@@ -2048,7 +1969,6 @@ notwithstanding	O	O	O	O	O	O	_	_	_
 centred	O	O	O	O	O	O	_	_	_
 there	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-
 205	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ὃ	O	O	O	O	O	O	_	_	_
@@ -2066,7 +1986,6 @@ in	O	O	O	O	O	O	_	_	_
 might	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 Various	O	O	O	O	O	O	_	_	_
 compounds	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -2114,7 +2033,6 @@ infr	O	O	O	O	O	O	_	_	_
 κἀξομοιοῦσθαι	O	O	O	O	O	O	_	_	_
 φύσιν	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 See	O	O	O	O	O	O	_	_	_
 also	O	O	O	O	O	O	_	_	_
 infr	O	O	O	O	O	O	_	_	_
@@ -2128,7 +2046,6 @@ infr	O	O	O	O	O	O	_	_	_
 ἐν	O	O	O	O	O	O	_	_	_
 Άρει	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Others	O	O	O	O	O	O	_	_	_
 would	O	O	O	O	O	O	_	_	_
 render	O	O	O	O	O	O	_	_	_
@@ -2154,7 +2071,6 @@ as	O	O	O	O	O	O	_	_	_
 εὐρέας	O	O	O	O	O	O	_	_	_
 duovs	O	O	O	O	O	O	_	_	_
 1	O	O	O	O	O	O	_	_	_
-
 206	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 θολερῷ	O	O	O	O	O	O	_	_	_
@@ -2168,7 +2084,6 @@ turbid	O	O	O	O	O	O	_	_	_
 storm	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 darkened	O	O	O	O	O	O	_	_	_
 mind	O	O	O	O	O	O	_	_	_
@@ -2199,7 +2114,6 @@ of	O	O	O	O	O	O	_	_	_
 <dirty	O	O	O	O	O	O	_	_	_
 weather	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Ant	B-work	O	B-work.primlit	O	O	O	NIL	_	_
@@ -2250,7 +2164,6 @@ Prom	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 κύμασιν	O	O	O	O	O	O	_	_	_
 ἄτης	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 207	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 κεῖται	O	O	O	O	O	O	_	_	_
@@ -2259,7 +2172,6 @@ Prom	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 overthrown	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Plat	B-pers	O	B-pers.author	O	O	O	NIL	_	_
@@ -2281,7 +2193,6 @@ A	E-scope	O	I-scope	O	O	O	NIL	_	_
 δεῖ	O	O	O	O	O	O	_	_	_
 σφάλλεσθαι	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 νοσήσαϑ	O	O	O	O	O	O	_	_	_
 ]	O	O	O	O	O	O	_	_	_
 ‘	O	O	O	O	O	O	_	_	_
@@ -2298,7 +2209,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 stroke	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 208	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 *	O	O	O	O	O	O	_	_	_
@@ -2317,7 +2227,6 @@ night	O	O	O	O	O	O	_	_	_
 experienced	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 This	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 Triclinius	S-pers	O	B-pers.editor	O	O	O	NIL	_	_
@@ -2331,7 +2240,6 @@ sc	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 καταστάσεως	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-
 As	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -2340,7 +2248,6 @@ of	O	O	O	O	O	O	_	_	_
 other	O	O	O	O	O	O	_	_	_
 feminine	O	O	O	O	O	O	_	_	_
 words	O	O	O	O	O	O	_	_	_
-
 used	O	O	O	O	O	O	_	_	_
 substantively	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -2354,12 +2261,10 @@ supplying	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 ellipse	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Lobeck	S-pers	O	B-pers.author	O	O	O	NIL	_	_
 prefers	O	O	O	O	O	O	_	_	_
 ὥρας	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Ajax	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 ’	O	O	O	O	O	O	_	_	_
 condition	O	O	O	O	O	O	_	_	_
@@ -2380,7 +2285,6 @@ during	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 night	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
-
 210	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Τελεύταντος	O	O	O	O	O	O	_	_	_
@@ -2405,7 +2309,6 @@ in	O	O	O	O	O	O	_	_	_
 Jambic	O	O	O	O	O	O	_	_	_
 verse	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Others	O	O	O	O	O	O	_	_	_
 read	O	O	O	O	O	O	_	_	_
 Φρυγίοιο	O	O	O	O	O	O	_	_	_
@@ -2430,7 +2333,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 line	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 211	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 λέχος	O	O	O	O	O	O	_	_	_
@@ -2447,7 +2349,6 @@ cogn	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 acc	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 212	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 στέρξας	O	O	O	O	O	O	_	_	_
@@ -2467,7 +2368,6 @@ to	O	O	O	O	O	O	_	_	_
 thee	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 mariners	O	O	O	O	O	O	_	_	_
 accept	O	O	O	O	O	O	_	_	_
@@ -2490,7 +2390,6 @@ bride	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
 him	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 For	O	O	O	O	O	O	_	_	_
 ἀνέχει	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -2540,7 +2439,6 @@ a	O	O	O	O	O	O	_	_	_
 similar	O	O	O	O	O	O	_	_	_
 force	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 For	O	O	O	O	O	O	_	_	_
 cognate	O	O	O	O	O	O	_	_	_
 uses	O	O	O	O	O	O	_	_	_
@@ -2561,7 +2459,6 @@ P	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 .	I-scope	O	I-scope	O	O	O	NIL	_	_
 163	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 213	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 “	O	O	O	O	O	O	_	_	_
@@ -2581,7 +2478,6 @@ to	O	O	O	O	O	O	_	_	_
 know	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-
 ὑπό	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 comp	O	O	O	O	O	O	_	_	_
@@ -2611,7 +2507,6 @@ Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ὑποκρίνομαι	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-
 215	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 wados	O	O	O	O	O	O	_	_	_
@@ -2636,7 +2531,6 @@ supr	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 209	S-scope	O	B-scope	O	O	O	Q950230	_	_
 .	O	O	O	O	O	O	_	_	_
-
 217	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 vikrepos	O	O	O	O	O	O	_	_	_
@@ -2657,7 +2551,6 @@ p	I-scope	O	I-scope	O	O	O	NIL	_	_
 .	I-scope	O	I-scope	O	O	O	NIL	_	_
 36	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 218	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 τοιαῦτ᾽	O	O	O	O	O	O	_	_	_
@@ -2683,7 +2576,6 @@ L	I-work	O	I-work.seclit	O	O	O	NIL	_	_
 a	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 220	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 χρηστήρια	O	O	O	O	O	O	_	_	_
@@ -2708,7 +2600,6 @@ the	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 madness	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-
 ¢Offerings	O	O	O	O	O	O	_	_	_
 demanded	O	O	O	O	O	O	_	_	_
 by	O	O	O	O	O	O	_	_	_
@@ -2716,7 +2607,6 @@ his	O	O	O	O	O	O	_	_	_
 rage	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 221	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 32	O	O	O	O	O	O	_	_	_
@@ -2739,7 +2629,6 @@ the	O	O	O	O	O	O	_	_	_
 following	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 —	O	O	O	O	O	O	_	_	_
-
 ro	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 vou	O	O	O	O	O	O	_	_	_
@@ -2791,14 +2680,12 @@ Id	O	O	O	O	O	O	_	_	_
 τςξυυ	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 πυυπυπύποποο	O	O	O	O	O	O	_	_	_
-
 221	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ἀνδρὸς	O	O	O	O	O	O	_	_	_
 αἴθονοΞ	O	O	O	O	O	O	_	_	_
 ]	O	O	O	O	O	O	_	_	_
 Concerning	O	O	O	O	O	O	_	_	_
-
 the	O	O	O	O	O	O	_	_	_
 epic	O	O	O	O	O	O	_	_	_
 style	O	O	O	O	O	O	_	_	_
@@ -2811,7 +2698,6 @@ variation	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 meaning	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Goodly	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
@@ -2861,7 +2747,6 @@ Tapaxas	O	O	O	O	O	O	_	_	_
 καὶ	O	O	O	O	O	O	_	_	_
 φωνάς	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ©	O	O	O	O	O	O	_	_	_
 The	O	O	O	O	O	O	_	_	_
 horned	O	O	O	O	O	O	_	_	_
@@ -2873,7 +2758,6 @@ of	O	O	O	O	O	O	_	_	_
 goats	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 376	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 “	O	O	O	O	O	O	_	_	_
@@ -2886,7 +2770,6 @@ flowing	O	O	O	O	O	O	_	_	_
 blood	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 ἐρεμνόν	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 another	O	O	O	O	O	O	_	_	_
@@ -2928,7 +2811,6 @@ surrounded	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 act	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 377	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ὅπως	O	O	O	O	O	O	_	_	_
@@ -2956,7 +2838,6 @@ might	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 379	O	O	O	O	O	O	_	_	_
 foll	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -2968,7 +2849,6 @@ towards	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Atreidae	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 He	O	O	O	O	O	O	_	_	_
 now	O	O	O	O	O	O	_	_	_
 breaks	O	O	O	O	O	O	_	_	_
@@ -2976,7 +2856,6 @@ forth	O	O	O	O	O	O	_	_	_
 against	O	O	O	O	O	O	_	_	_
 Odysseus	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 379	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 πάνθ᾽	O	O	O	O	O	O	_	_	_
@@ -3006,7 +2885,6 @@ Phil	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 ψυχή	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 κιτιλι	O	O	O	O	O	O	_	_	_
-
 38ι	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 κακοπινέστατον	O	O	O	O	O	O	_	_	_
@@ -3023,7 +2901,6 @@ the	O	O	O	O	O	O	_	_	_
 host	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 So	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Scholiast	O	O	O	O	O	O	_	_	_
@@ -3047,7 +2924,6 @@ continual	O	O	O	O	O	O	_	_	_
 base	O	O	O	O	O	O	_	_	_
 practices	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Musgrave	S-pers	O	B-pers.author	O	O	O	NIL	_	_
 suggested	O	O	O	O	O	O	_	_	_
 an	O	O	O	O	O	O	_	_	_
@@ -3084,7 +2960,6 @@ mawrdAn	O	O	O	O	O	O	_	_	_
 from	O	O	O	O	O	O	_	_	_
 ἀλέω	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 earlier	O	O	O	O	O	O	_	_	_
 explanation	O	O	O	O	O	O	_	_	_
@@ -3120,7 +2995,6 @@ gl	O	O	O	O	O	O	_	_	_
 Pall	S-scope	O	B-work.primlit	O	O	O	Q1532489	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -3140,7 +3014,6 @@ Ag	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 βροτῶν	O	O	O	O	O	O	_	_	_
 dar	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 error	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -3157,7 +3030,6 @@ arms	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 Achilles	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 382	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 dyes	O	O	O	O	O	O	_	_	_
@@ -3166,7 +3038,6 @@ dyes	O	O	O	O	O	O	_	_	_
 prolong	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 383	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ξὺν	O	O	O	O	O	O	_	_	_
@@ -3202,7 +3073,6 @@ particle	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 connexion	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 But	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 asyndeton	O	O	O	O	O	O	_	_	_
@@ -3227,7 +3097,6 @@ or	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 tears	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 ‘Laughter	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 sorrow	O	O	O	O	O	O	_	_	_
@@ -3274,7 +3143,6 @@ the	O	O	O	O	O	O	_	_	_
 opposite	O	O	O	O	O	O	_	_	_
 effect	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Trach	B-work	O	B-work.primlit	O	O	O	NIL	_	_
@@ -3297,7 +3165,6 @@ foll	I-scope	O	I-scope	O	O	O	NIL	_	_
 στροφάδες	O	O	O	O	O	O	_	_	_
 κέλευθοι	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 384	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 The	O	O	O	O	O	O	_	_	_
@@ -3327,7 +3194,6 @@ having	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
 supplied	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 Triclinian	O	O	O	O	O	O	_	_	_
 reading	O	O	O	O	O	O	_	_	_
@@ -3350,7 +3216,6 @@ MS	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 authority	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Ajax	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 prays	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
@@ -3371,7 +3236,6 @@ may	O	O	O	O	O	O	_	_	_
 avenge	O	O	O	O	O	O	_	_	_
 himself	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 infr	O	O	O	O	O	O	_	_	_
@@ -3416,7 +3280,6 @@ foll	I-scope	O	I-scope	O	O	O	NIL	_	_
 kr	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 This	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 more	O	O	O	O	O	O	_	_	_
@@ -3426,7 +3289,6 @@ an	O	O	O	O	O	O	_	_	_
 aposiopesis	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 ὀδυρόμενον	O	O	O	O	O	O	_	_	_
-
 but	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -3440,7 +3302,6 @@ is	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 question	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 can	O	O	O	O	O	O	_	_	_
 e	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
@@ -3456,7 +3317,6 @@ What	O	O	O	O	O	O	_	_	_
 fortune	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 549	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 κἀξομοιοῦσθαν	O	O	O	O	O	O	_	_	_
@@ -3475,7 +3335,6 @@ by	O	O	O	O	O	O	_	_	_
 mine	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 For	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 change	O	O	O	O	O	O	_	_	_
@@ -3495,7 +3354,6 @@ p	I-scope	O	I-scope	O	O	O	NIL	_	_
 65	I-scope	O	I-scope	O	O	O	NIL	_	_
 d	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 552	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 kal	O	O	O	O	O	O	_	_	_
@@ -3518,7 +3376,6 @@ good	O	O	O	O	O	O	_	_	_
 or	O	O	O	O	O	O	_	_	_
 evil	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 553	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 That	O	O	O	O	O	O	_	_	_
@@ -3531,7 +3388,6 @@ this	O	O	O	O	O	O	_	_	_
 misery	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 554	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 This	O	O	O	O	O	O	_	_	_
@@ -3562,7 +3418,6 @@ of	O	O	O	O	O	O	_	_	_
 this	O	O	O	O	O	O	_	_	_
 passage	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 probably	O	O	O	O	O	O	_	_	_
@@ -3583,7 +3438,6 @@ Greek	O	O	O	O	O	O	_	_	_
 tragic	O	O	O	O	O	O	_	_	_
 poetry	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 556	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 7	O	O	O	O	O	O	_	_	_
@@ -3604,7 +3458,6 @@ of	O	O	O	O	O	O	_	_	_
 showing	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 same	O	O	O	O	O	O	_	_	_
 construction	O	O	O	O	O	O	_	_	_
@@ -3625,7 +3478,6 @@ Phil	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 ἐκκλέψεις	O	O	O	O	O	O	_	_	_
 λέγων	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 £57	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ἐν	O	O	O	O	O	O	_	_	_
@@ -3646,7 +3498,6 @@ supr	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 note	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 558	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 κούφοις	O	O	O	O	O	O	_	_	_
@@ -3668,7 +3519,6 @@ a	O	O	O	O	O	O	_	_	_
 sheltered	O	O	O	O	O	O	_	_	_
 spot	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Plants	O	O	O	O	O	O	_	_	_
 were	O	O	O	O	O	O	_	_	_
 supposed	O	O	O	O	O	O	_	_	_
@@ -3678,7 +3528,6 @@ upon	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 air	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Dio	S-pers	O	B-pers.author	O	O	O	Q786369	_	_
 Chrys	B-pers	O	B-pers.author	O	O	O	NIL	_	_
 .	E-pers	O	I-pers.author	O	O	O	NIL	_	_
@@ -3726,7 +3575,6 @@ foll	I-scope	O	I-scope	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 κιτιλ	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-
 559	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 χαρμονήν	O	O	O	O	O	O	_	_	_
@@ -3747,7 +3595,6 @@ p	I-scope	O	I-scope	O	O	O	NIL	_	_
 25	I-scope	O	I-scope	O	O	O	NIL	_	_
 d	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 562	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 τοῖον	O	O	O	O	O	O	_	_	_
@@ -3765,7 +3612,6 @@ p	I-scope	O	I-scope	O	O	O	NIL	_	_
 ,	I-scope	O	I-scope	O	O	O	NIL	_	_
 3	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 absence	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -3796,7 +3642,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 future	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ἀμφί	O	O	O	O	O	O	_	_	_
 σοι	O	O	O	O	O	O	_	_	_
 ]	O	O	O	O	O	O	_	_	_
@@ -3811,7 +3656,6 @@ in	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 etc	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 563	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 τροφῆς	O	O	O	O	O	O	_	_	_
@@ -3844,7 +3688,6 @@ p	I-scope	O	I-scope	O	O	O	NIL	_	_
 ,	I-scope	O	I-scope	O	O	O	NIL	_	_
 3	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ἔμπα	O	O	O	O	O	O	_	_	_
 kel	O	O	O	O	O	O	_	_	_
 ]	O	O	O	O	O	O	_	_	_
@@ -3875,7 +3718,6 @@ N	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 κιτιλ	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-
 δρᾶν	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ποιεῖν	O	O	O	O	O	O	_	_	_
@@ -3917,7 +3759,6 @@ n	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 28	O	O	O	O	O	O	_	_	_
 τρανές	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -3943,7 +3784,6 @@ to	O	O	O	O	O	O	_	_	_
 pierce	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 adj	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -3974,7 +3814,6 @@ El	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 758	S-scope	O	B-scope	O	O	O	Q2180642	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 form	O	O	O	O	O	O	_	_	_
 τρανός	O	O	O	O	O	O	_	_	_
@@ -4003,7 +3842,6 @@ B	B-date	O	I-date	O	O	O	NIL	_	_
 C	E-date	O	I-date	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
-
 De	S-pers	O	B-pers.author	O	O	O	NIL	_	_
 Comp	B-pers	O	B-pers.author	O	O	O	NIL	_	_
 .	E-pers	O	I-pers.author	O	O	O	NIL	_	_
@@ -4075,7 +3913,6 @@ C	E-scope	O	I-scope	O	O	O	NIL	_	_
 ἀεί	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 24	O	O	O	O	O	O	_	_	_
 θελοντής	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -4103,7 +3940,6 @@ Od	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 .	I-scope	O	I-scope	O	O	O	NIL	_	_
 292	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 On	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 other	O	O	O	O	O	O	_	_	_
@@ -4159,7 +3995,6 @@ p	B-scope	O	B-scope	O	O	O	NIL	_	_
 20	E-scope	O	I-scope	O	O	O	NIL	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Similarly	O	O	O	O	O	O	_	_	_
 ἐθελήμων	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -4190,7 +4025,6 @@ Rhod	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 .	I-scope	O	I-scope	O	O	O	NIL	_	_
 557	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 ragio	O	O	O	O	O	O	_	_	_
 iambics	O	O	O	O	O	O	_	_	_
@@ -4226,7 +4060,6 @@ Ph	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 145	S-scope	O	B-scope	O	O	O	NIL	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 If	O	O	O	O	O	O	_	_	_
 θελοντής	O	O	O	O	O	O	_	_	_
 were	O	O	O	O	O	O	_	_	_
@@ -4249,7 +4082,6 @@ justify	O	O	O	O	O	O	_	_	_
 its	O	O	O	O	O	O	_	_	_
 rejection	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 But	O	O	O	O	O	O	_	_	_
 where	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -4311,7 +4143,6 @@ P	I-work	O	I-work.primlit	O	O	O	NIL	_	_
 ’	O	O	O	O	O	O	_	_	_
 ὑπέζευγμαι	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 26	O	O	O	O	O	O	_	_	_
 t	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -4344,7 +4175,6 @@ Tr	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 .	E-work	O	I-work.primlit	O	O	O	NIL	_	_
 94	S-scope	O	B-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 From	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 cognate	O	O	O	O	O	O	_	_	_
@@ -4367,7 +4197,6 @@ a	O	O	O	O	O	O	_	_	_
 human	O	O	O	O	O	O	_	_	_
 hand	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 military	O	O	O	O	O	O	_	_	_
 sense	O	O	O	O	O	O	_	_	_
@@ -4398,7 +4227,6 @@ less	O	O	O	O	O	O	_	_	_
 fitting	O	O	O	O	O	O	_	_	_
 here	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 -	O	O	O	O	O	O	_	_	_
 αὐτοῖς	O	O	O	O	O	O	_	_	_
 ποιμνίον	O	O	O	O	O	O	_	_	_
@@ -4412,7 +4240,6 @@ fr	O	O	B-scope	O	O	O	_	_	_
 αὐτοῖσιν	O	O	O	O	O	O	_	_	_
 ὅπλοις	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 idiom	O	O	O	O	O	O	_	_	_
 occurs	O	O	O	O	O	O	_	_	_
@@ -4503,7 +4330,6 @@ Helen	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 1267	S-scope	O	B-scope	O	O	O	Q2032928	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Eur	B-pers	O	B-pers.author	O	O	O	NIL	_	_
@@ -4532,7 +4358,6 @@ out	O	O	O	O	O	O	_	_	_
 at	O	O	O	O	O	O	_	_	_
 dawn	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Common	O	O	O	O	O	O	_	_	_
 rumour	O	O	O	O	O	O	_	_	_
 at	O	O	O	O	O	O	_	_	_
@@ -4541,7 +4366,6 @@ pointed	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 Ajax	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Then	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 ὀπτήρ	O	O	O	O	O	O	_	_	_
@@ -4573,7 +4397,6 @@ by	O	O	O	O	O	O	_	_	_
 304	E-scope	O	I-scope	O	O	O	NIL	_	_
 compared	O	O	O	O	O	O	_	_	_
 with	O	O	O	O	O	O	_	_	_
-
 νέμει	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 cp	O	O	O	O	O	O	_	_	_
@@ -4620,7 +4443,6 @@ MSS	O	O	O	O	O	O	_	_	_
 αὐτὸν	O	O	O	O	O	O	_	_	_
 τρέπει	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 This	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 one	O	O	O	O	O	O	_	_	_
@@ -4662,7 +4484,6 @@ on	O	O	O	O	O	O	_	_	_
 ,	I-scope	O	I-scope	O	O	O	NIL	_	_
 61	E-scope	O	I-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 29	O	O	O	O	O	O	_	_	_
 τς	O	O	O	O	O	O	_	_	_
 placed	O	O	O	O	O	O	_	_	_
@@ -4688,7 +4509,6 @@ Of	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 .	E-work	O	I-scope	O	O	O	NIL	_	_
 14	S-scope	O	B-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 44	O	O	O	O	O	O	_	_	_
 καὶ	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
@@ -4731,7 +4551,6 @@ n	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 46	O	O	O	O	O	O	_	_	_
 κἂν	O	O	O	O	O	O	_	_	_
 ἐξεπράξατ	O	O	O	O	O	O	_	_	_
@@ -4755,7 +4574,6 @@ schol	O	O	O	O	O	O	_	_	_
 κατημέλησα	O	O	O	O	O	O	_	_	_
 ἐγώ	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Ph	B-work	O	B-work.primlit	O	O	O	NIL	_	_
@@ -4772,7 +4590,6 @@ Ph	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 δρώμεν	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 answer	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -4836,7 +4653,6 @@ n	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 46	O	O	O	O	O	O	_	_	_
 ποίαισι	O	O	O	O	O	O	_	_	_
 κ	O	O	O	O	O	O	_	_	_
@@ -4866,7 +4682,6 @@ to	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 44	S-scope	O	B-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ‘What	O	O	O	O	O	O	_	_	_
 were	O	O	O	O	O	O	_	_	_
 these	O	O	O	O	O	O	_	_	_
@@ -4906,7 +4721,6 @@ mad	O	O	O	O	O	O	_	_	_
 enterprise	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 For	O	O	O	O	O	O	_	_	_
 ταῖσδε	O	O	O	O	O	O	_	_	_
 combined	O	O	O	O	O	O	_	_	_
@@ -4924,7 +4738,6 @@ Ph	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 ’	O	O	O	O	O	O	_	_	_
 ἔπος	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
-
 47	O	O	O	O	O	O	_	_	_
 νύκτρ	O	O	O	O	O	O	_	_	_
 κ	O	O	O	O	O	O	_	_	_
@@ -4957,7 +4770,6 @@ shared	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
 secret	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 48	O	O	O	O	O	O	_	_	_
 ᾖ	O	O	O	O	O	O	_	_	_
 κα	O	O	O	O	O	O	_	_	_
@@ -5024,7 +4836,6 @@ Agamemnon	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 and	O	O	O	O	O	O	_	_	_
 Menelais	S-pers	O	B-pers.myth	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 (	O	O	O	O	O	O	_	_	_
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -5041,7 +4852,6 @@ Pans	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 στρατηγίδα	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 phrase	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -5055,13 +4865,11 @@ to	O	O	O	O	O	O	_	_	_
 στρατηγῶν	O	O	O	O	O	O	_	_	_
 πύλαις	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 721	O	O	O	O	O	O	_	_	_
 στρατήγιον	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 n	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 But	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 since	O	O	O	O	O	O	_	_	_
@@ -5097,7 +4905,6 @@ of	O	O	O	O	O	O	_	_	_
 chiefs	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 If	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 two	O	O	O	O	O	O	_	_	_
@@ -5151,7 +4958,6 @@ chiefs	O	O	O	O	O	O	_	_	_
 δισσοστρατηγίσιν	O	O	O	O	O	O	_	_	_
 πύλαις	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 But	O	O	O	O	O	O	_	_	_
 such	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
@@ -5161,7 +4967,6 @@ of	O	O	O	O	O	O	_	_	_
 seems	O	O	O	O	O	O	_	_	_
 impossible	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Could	O	O	O	O	O	O	_	_	_
 δισσὰ	O	O	O	O	O	O	_	_	_
 ἀδελφῶν	O	O	O	O	O	O	_	_	_
@@ -5182,7 +4987,6 @@ two	O	O	O	O	O	O	_	_	_
 brothers	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
-
 60	O	O	O	O	O	O	_	_	_
 καὶ	O	O	O	O	O	O	_	_	_
 πῶς	O	O	O	O	O	O	_	_	_
@@ -5202,13 +5006,11 @@ C	I-work	O	I-work.primlit	O	O	O	NIL	_	_
 .	E-work	O	I-work.primlit	O	O	O	NIL	_	_
 263	S-scope	O	B-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Join	O	O	O	O	O	O	_	_	_
 ἐπέσχε	O	O	O	O	O	O	_	_	_
 with	O	O	O	O	O	O	_	_	_
 φόνου	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 word	O	O	O	O	O	O	_	_	_
 μαιμῶσαν	O	O	O	O	O	O	_	_	_
@@ -5237,7 +5039,6 @@ Lycophron	S-pers	O	B-pers.author	O	O	O	NIL	_	_
 διψῶσαν	O	O	O	O	O	O	_	_	_
 φόνου	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-
 a	O	O	O	O	O	O	_	_	_
 reminiscence	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -5282,7 +5083,6 @@ adesp	O	O	O	O	O	O	_	_	_
 διψῶσαν	O	O	O	O	O	O	_	_	_
 φόνου	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 61	O	O	O	O	O	O	_	_	_
 ἐγώ	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -5312,7 +5112,6 @@ heavy	O	O	O	O	O	O	_	_	_
 upon	O	O	O	O	O	O	_	_	_
 him	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Cp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 643	S-scope	O	B-scope	O	O	O	NIL	_	_
@@ -5344,7 +5143,6 @@ El	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 τῶν	O	O	O	O	O	O	_	_	_
 δυσφόρων	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-
 μὴ	O	O	O	O	O	O	_	_	_
 τὸ	O	O	O	O	O	O	_	_	_
 μηδὲν	O	O	O	O	O	O	_	_	_
@@ -5433,7 +5231,6 @@ T	I-work	O	I-work.primlit	O	O	O	NIL	_	_
 κάκην	O	O	O	O	O	O	_	_	_
 κεκτήσομαι	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 fut	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -5464,7 +5261,6 @@ I	B-scope	O	B-scope	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
 μισθόν	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 fut	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -5487,7 +5283,6 @@ now	O	O	O	O	O	O	_	_	_
 convinced)	O	O	O	O	O	O	_	_	_
 wrong	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 could	O	O	O	O	O	O	_	_	_
 mean	O	O	O	O	O	O	_	_	_
@@ -5517,7 +5312,6 @@ very	O	O	O	O	O	O	_	_	_
 forced	O	O	O	O	O	O	_	_	_
 one	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Further	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 there	O	O	O	O	O	O	_	_	_
@@ -5552,7 +5346,6 @@ from	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ἄρνυμαι	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 276	O	O	B-scope	O	O	O	_	_	_
 ἔνβον	O	O	O	O	O	O	_	_	_
 ἀρκείῳ	O	O	O	O	O	O	_	_	_
@@ -5593,7 +5386,6 @@ T	E-work	O	I-work.primlit	O	O	O	NIL	_	_
 ’	O	O	O	O	O	O	_	_	_
 ἐγώ	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 77	O	O	O	O	O	O	_	_	_
 τί	O	O	O	O	O	O	_	_	_
 μὴ	O	O	O	O	O	O	_	_	_
@@ -5619,7 +5411,6 @@ Suppl	B-work	O	B-work.primlit	O	O	O	NIL	_	_
 χθονί	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 ‖	O	O	O	O	O	O	_	_	_
-
 τί	O	O	O	O	O	O	_	_	_
 μὴ	O	O	O	O	O	O	_	_	_
 γένηται	O	O	O	O	O	O	_	_	_
@@ -5651,7 +5442,6 @@ cp	O	O	O	O	O	O	_	_	_
 πλὴν	O	O	O	O	O	O	_	_	_
 ὅδε	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
-
 78	O	O	O	O	O	O	_	_	_
 ἐχθρός	O	O	O	O	O	O	_	_	_
 yι	O	O	O	O	O	O	_	_	_
@@ -5671,7 +5461,6 @@ now	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 frenzied	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ‘Yes	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
@@ -5688,7 +5477,6 @@ is	O	O	O	O	O	O	_	_	_
 still	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 That	O	O	O	O	O	O	_	_	_
 enmity	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -5708,7 +5496,6 @@ than	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 godes	O	O	O	O	O	O	_	_	_
 suggests	O	O	O	O	O	O	_	_	_
@@ -5751,7 +5538,6 @@ by	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
 action	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 30	O	O	O	O	O	O	_	_	_
 ἐμο	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
@@ -5768,7 +5554,6 @@ on	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 pronoun	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
-
 22	O	O	O	O	O	O	_	_	_
 φρονοῦντα	O	O	O	O	O	O	_	_	_
 γὰρ	O	O	O	O	O	O	_	_	_
@@ -5840,7 +5625,6 @@ p	B-scope	O	B-scope	O	O	O	NIL	_	_
 λόγον	O	O	O	O	O	O	_	_	_
 ἔπιφερόμενον	O	O	O	O	O	O	_	_	_
 τοῦτον	O	O	O	O	O	O	_	_	_
-
 strophe	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 unless	O	O	O	O	O	O	_	_	_
@@ -5852,7 +5636,6 @@ which	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 unnecessary	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1197	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 “	O	O	O	O	O	O	_	_	_
@@ -5869,7 +5652,6 @@ i	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 e	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 toil	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -5882,7 +5664,6 @@ of	O	O	O	O	O	O	_	_	_
 other	O	O	O	O	O	O	_	_	_
 toils	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1199	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 1201	O	O	O	O	O	O	_	_	_
@@ -5913,7 +5694,6 @@ the	O	O	O	O	O	O	_	_	_
 cup	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 negatives	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
@@ -5944,7 +5724,6 @@ sc	O	O	O	O	O	O	_	_	_
 ταῖς	O	O	O	O	O	O	_	_	_
 κύλιξιν	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 κύλιξ	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
@@ -5971,7 +5750,6 @@ wine	O	O	O	O	O	O	_	_	_
 from	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1201	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 τέρψιν	O	O	O	O	O	O	_	_	_
@@ -5995,7 +5773,6 @@ accusative	O	O	O	O	O	O	_	_	_
 with	O	O	O	O	O	O	_	_	_
 tavety	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-
 1202	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 4	O	O	O	O	O	O	_	_	_
@@ -6027,7 +5804,6 @@ pleasant	O	O	O	O	O	O	_	_	_
 rest	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 1205	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 The	O	O	O	O	O	O	_	_	_
@@ -6040,7 +5816,6 @@ acme	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 privation	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1206	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ἀμέριμνος	O	O	O	O	O	O	_	_	_
@@ -6096,7 +5871,6 @@ no	O	O	O	O	O	O	_	_	_
 interest	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 life!	O	O	O	O	O	O	_	_	_
-
 For	O	O	O	O	O	O	_	_	_
 μέριμνα	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
@@ -6153,7 +5927,6 @@ also	O	O	O	O	O	O	_	_	_
 μεριμνῶν	O	O	O	O	O	O	_	_	_
 ποῖον	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
-
 1208	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 9	O	O	O	O	O	O	_	_	_
@@ -6182,7 +5955,6 @@ iis	O	O	O	O	O	O	_	_	_
 ἔνθηρον	O	O	O	O	O	O	_	_	_
 τρίχα	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1210	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Avypds	O	O	O	O	O	O	_	_	_
@@ -6204,7 +5976,6 @@ i	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 e	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 raindrops	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
@@ -6223,7 +5994,6 @@ this	O	O	O	O	O	O	_	_	_
 miserable	O	O	O	O	O	O	_	_	_
 country	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 μνήματα	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 accusative	O	O	O	O	O	O	_	_	_
@@ -6233,7 +6003,6 @@ to	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 sentence	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1211	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 3	O	O	O	O	O	O	_	_	_
@@ -6257,7 +6026,6 @@ of	O	O	O	O	O	O	_	_	_
 war	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 For	O	O	O	O	O	O	_	_	_
 this	O	O	O	O	O	O	_	_	_
 genitive	O	O	O	O	O	O	_	_	_

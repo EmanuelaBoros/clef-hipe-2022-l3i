@@ -1,10 +1,9 @@
 TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NESTED	NEL-LIT	NEL-METO	MISC
 FROM	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
-VIRGINIA	O	O	O	O	O	O	_	_	_
-PAPER	O	O	O	O	O	O	_	_	_
+VIRGINIA	B-pers	O	O	O	O	O	NIL	_	_
+PAPER	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 To	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
 EXCELLENCY	O	O	O	O	O	O	_	_	_
@@ -12,18 +11,16 @@ the	O	O	O	O	O	O	_	_	_
 GOVERNOR	O	O	O	O	O	O	_	_	_
 GINIA	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
-NEW	B-loc	O	O	O	O	O	NIL	_	_
--	I-loc	O	O	O	O	O	NIL	_	_
-YORK	E-loc	O	O	O	O	O	NIL	_	_
+NEW	O	O	O	O	O	O	_	_	_
+-	O	O	O	O	O	O	_	_	_
+YORK	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-SEPT	B-loc	O	O	O	O	O	NIL	_	_
-.	E-loc	O	O	O	O	O	NIL	_	_
-28	B-time	O	O	O	O	O	NIL	_	_
+SEPT	B-time	O	O	O	O	O	NIL	_	_
+.	I-time	O	O	O	O	O	NIL	_	_
+28	I-time	O	O	O	O	O	NIL	_	_
 ,	I-time	O	O	O	O	O	NIL	_	_
 1780	E-time	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 SIR	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 W	O	O	O	O	O	O	_	_	_
@@ -89,7 +86,6 @@ of	O	O	O	O	O	O	_	_	_
 our	O	O	O	O	O	O	_	_	_
 country	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 By	O	O	O	O	O	O	_	_	_
 perufing	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -130,7 +126,6 @@ by	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Legiflature	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 We	O	O	O	O	O	O	_	_	_
 fltall	O	O	O	O	O	O	_	_	_
 tranfmit	O	O	O	O	O	O	_	_	_
@@ -179,7 +174,6 @@ the	O	O	O	O	O	O	_	_	_
 enfuing	O	O	O	O	O	O	_	_	_
 meeting	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 We	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -217,7 +211,6 @@ LEE	O	O	O	O	O	O	_	_	_
 WILLIAM	B-pers	O	O	O	O	O	Q471060	_	_
 GRAYSON	E-pers	O	O	O	O	O	Q471060	_	_
 .	O	O	O	O	O	O	_	_	_
-
 PRESIDENT	O	O	O	O	O	O	_	_	_
 SULL	O	O	O	O	O	O	_	_	_
 IVAN	S-loc	O	O	O	O	O	NIL	_	_
@@ -225,12 +218,10 @@ IVAN	S-loc	O	O	O	O	O	NIL	_	_
 s	O	O	O	O	O	O	_	_	_
 MESSAGE	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 To	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Hon	B-pers	O	O	O	O	O	NIL	_	_
 .	E-pers	O	O	O	O	O	NIL	_	_
-
 Senate	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 House	O	O	O	O	O	O	_	_	_
@@ -252,7 +243,7 @@ Hampshire	E-loc	O	O	O	O	O	NIL	_	_
 Gentlemen	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 H	O	O	O	O	O	O	_	_	_
-HVING	S-pers	O	O	O	O	O	NIL	_	_
+HVING	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
 informed	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -317,7 +308,6 @@ the	O	O	O	O	O	O	_	_	_
 two	O	O	O	O	O	O	_	_	_
 offices	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 But	O	O	O	O	O	O	_	_	_
 as	O	O	O	O	O	O	_	_	_
 fome	O	O	O	O	O	O	_	_	_
@@ -427,7 +417,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 land	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 people	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -516,9 +505,9 @@ the	O	O	O	O	O	O	_	_	_
 Confti	O	O	O	O	O	O	_	_	_
 union	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-the	B-loc	B-org	O	O	O	O	Q30	Q30	_
-United	I-loc	I-org	O	O	O	O	Q30	Q30	_
-States	E-loc	I-org	O	O	O	O	Q30	Q30	_
+the	B-org	B-org	O	O	O	O	Q30	_	_
+United	I-org	I-org	O	O	O	O	Q30	_	_
+States	E-org	I-org	O	O	O	O	Q30	Q30	_
 ,	O	O	O	O	O	O	_	_	_
 by	O	O	O	O	O	O	_	_	_
 virtue	O	O	O	O	O	O	_	_	_
@@ -527,7 +516,6 @@ enacted	O	O	O	O	O	O	_	_	_
 by	O	O	O	O	O	O	_	_	_
 yourfelves	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 appointed	O	O	O	O	O	O	_	_	_
@@ -553,7 +541,6 @@ the	O	O	O	O	O	O	_	_	_
 Federal	B-org	O	O	O	O	O	NIL	_	_
 Court	E-org	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 My	O	O	O	O	O	O	_	_	_
 own	O	O	O	O	O	O	_	_	_
 inclinations	O	O	O	O	O	O	_	_	_
@@ -605,7 +592,6 @@ me	O	O	O	O	O	O	_	_	_
 with	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 well	O	O	O	O	O	O	_	_	_
 knew	O	O	O	O	O	O	_	_	_
@@ -685,7 +671,6 @@ them	O	O	O	O	O	O	_	_	_
 before	O	O	O	O	O	O	_	_	_
 you	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 alfo	O	O	O	O	O	O	_	_	_
 confidered	O	O	O	O	O	O	_	_	_
@@ -808,7 +793,6 @@ Legifla	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 ture	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Gentlemen	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 You	O	O	O	O	O	O	_	_	_
@@ -869,15 +853,14 @@ effort	O	O	O	O	O	O	_	_	_
 againfl	O	O	O	O	O	O	_	_	_
 me	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
-Prefident	O	O	O	O	O	O	_	_	_
-and	O	O	O	O	O	O	_	_	_
-Senate	O	O	O	O	O	O	_	_	_
+Prefident	B-org	O	O	O	O	O	NIL	_	_
+and	I-org	O	O	O	O	O	NIL	_	_
+Senate	E-org	O	O	O	O	O	NIL	_	_
 of	O	O	O	O	O	O	_	_	_
-the	B-loc	O	O	O	O	O	Q30	_	_
-United	I-loc	O	O	O	O	O	Q30	_	_
-States	E-loc	O	O	O	O	O	Q30	_	_
+the	B-org	O	O	O	O	O	Q30	_	_
+United	I-org	O	O	O	O	O	Q30	_	_
+States	E-org	O	O	O	O	O	Q30	_	_
 were	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 at	O	O	O	O	O	O	_	_	_
@@ -963,9 +946,9 @@ with	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Prefident	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-the	B-loc	O	O	O	O	O	Q30	_	_
-United	I-loc	O	O	O	O	O	Q30	_	_
-States	E-loc	O	O	O	O	O	Q30	_	_
+the	B-org	O	O	O	O	O	Q30	_	_
+United	I-org	O	O	O	O	O	Q30	_	_
+States	E-org	O	O	O	O	O	Q30	_	_
 ,	O	O	O	O	O	O	_	_	_
 who	O	O	O	O	O	O	_	_	_
 knew	O	O	O	O	O	O	_	_	_
@@ -1004,7 +987,6 @@ of	O	O	O	O	O	O	_	_	_
 Federal	O	O	O	O	O	O	_	_	_
 Judge	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 know	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -1068,7 +1050,6 @@ in	O	O	O	O	O	O	_	_	_
 their	O	O	O	O	O	O	_	_	_
 conduB	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -1077,15 +1058,12 @@ honour	O	O	O	O	O	O	_	_	_
 &	O	O	O	O	O	O	_	_	_
 c	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 &	O	O	O	O	O	O	_	_	_
 c	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
-JOHN	B-pers	O	B-pers.ind	O	O	O	Q2305687	_	_
+JOHN	B-pers	O	O	O	O	O	Q2305687	_	_
 SULLIVAN	E-pers	O	O	O	O	O	Q2305687	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Dec	B-time	O	O	O	O	O	NIL	_	_
 .	I-time	O	O	O	O	O	NIL	_	_
 29	I-time	O	O	O	O	O	NIL	_	_
@@ -1094,14 +1072,12 @@ Dec	B-time	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
 _	O	O	O	O	O	O	_	_	_
 _	O	O	O	O	O	O	_	_	_
-
 LONDON	S-loc	O	O	O	O	O	Q84	_	_
 ,	O	O	O	O	O	O	_	_	_
 Dec	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 31	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 official	O	O	O	O	O	O	_	_	_
 account	O	O	O	O	O	O	_	_	_
@@ -1118,7 +1094,6 @@ is	O	O	O	O	O	O	_	_	_
 as	O	O	O	O	O	O	_	_	_
 under	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 dated	O	O	O	O	O	O	_	_	_
@@ -1127,7 +1102,6 @@ the	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 December	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 “	O	O	O	O	O	O	_	_	_
 At	O	O	O	O	O	O	_	_	_
 length	O	O	O	O	O	O	_	_	_
@@ -1145,7 +1119,7 @@ joo	O	O	O	O	O	O	_	_	_
 brave	O	O	O	O	O	O	_	_	_
 Patriots	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-Brufiels	O	O	O	O	O	O	_	_	_
+Brufiels	S-org	O	O	O	O	O	NIL	_	_
 have	O	O	O	O	O	O	_	_	_
 dared	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
@@ -1156,7 +1130,6 @@ with	O	O	O	O	O	O	_	_	_
 6poo	O	O	O	O	O	O	_	_	_
 Aullrains	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 action	O	O	O	O	O	O	_	_	_
 commencedyelterday	O	O	O	O	O	O	_	_	_
@@ -1170,7 +1143,6 @@ o	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
 clock	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 firft	O	O	O	O	O	O	_	_	_
 attenpt	O	O	O	O	O	O	_	_	_
@@ -1196,7 +1168,6 @@ the	O	O	O	O	O	O	_	_	_
 different	O	O	O	O	O	O	_	_	_
 converts	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 General	B-pers	O	O	O	O	O	NIL	_	_
 D	I-pers	O	O	O	O	O	NIL	_	_
 ’	I-pers	O	O	O	O	O	NIL	_	_
@@ -1219,7 +1190,6 @@ negociate	O	O	O	O	O	O	_	_	_
 an	O	O	O	O	O	O	_	_	_
 armifiice	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 About	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
 even	O	O	O	O	O	O	_	_	_
@@ -1230,11 +1200,11 @@ clock	O	O	O	O	O	O	_	_	_
 8co	O	O	O	O	O	O	_	_	_
 men	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-Benden	B-loc	O	O	O	O	O	NIL	_	_
--	I-loc	O	O	O	O	O	NIL	_	_
-D	I-loc	O	O	O	O	O	NIL	_	_
-’	I-loc	O	O	O	O	O	NIL	_	_
-Aloft	E-loc	O	O	O	O	O	NIL	_	_
+Benden	B-pers	O	O	O	O	O	NIL	_	_
+-	I-pers	O	O	O	O	O	NIL	_	_
+D	I-pers	O	O	O	O	O	NIL	_	_
+’	I-pers	O	O	O	O	O	NIL	_	_
+Aloft	E-pers	O	O	O	O	O	NIL	_	_
 entered	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 city	O	O	O	O	O	O	_	_	_
@@ -1249,12 +1219,11 @@ they	O	O	O	O	O	O	_	_	_
 planted	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Grand	B-loc	O	O	O	O	O	NIL	_	_
-Pa	I-loc	O	O	O	O	O	NIL	_	_
-¬	I-loc	O	O	O	O	O	NIL	_	_
-lace	E-loc	O	O	O	O	O	NIL	_	_
+Grand	O	O	O	O	O	O	_	_	_
+Pa	O	O	O	O	O	O	_	_	_
+¬	O	O	O	O	O	O	_	_	_
+lace	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 About	O	O	O	O	O	O	_	_	_
 ten	O	O	O	O	O	O	_	_	_
 o	O	O	O	O	O	O	_	_	_
@@ -1292,7 +1261,6 @@ in	O	O	O	O	O	O	_	_	_
 lhe	O	O	O	O	O	O	_	_	_
 Bafleville	S-loc	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 This	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -1311,7 +1279,6 @@ for	O	O	O	O	O	O	_	_	_
 its	O	O	O	O	O	O	_	_	_
 victory	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 Patriots	O	O	O	O	O	O	_	_	_
 no	O	O	O	O	O	O	_	_	_
@@ -1326,7 +1293,6 @@ the	O	O	O	O	O	O	_	_	_
 whole	O	O	O	O	O	O	_	_	_
 detatchment	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 To	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 number	O	O	O	O	O	O	_	_	_
@@ -1375,7 +1341,6 @@ obotlt	O	O	O	O	O	O	_	_	_
 Auftrians	O	O	O	O	O	O	_	_	_
 prifoners	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 About	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 fame	O	O	O	O	O	O	_	_	_
@@ -1431,7 +1396,6 @@ ammunition	O	O	O	O	O	O	_	_	_
 &	O	O	O	O	O	O	_	_	_
 c	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 To	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 wards	O	O	O	O	O	O	_	_	_
@@ -1439,8 +1403,8 @@ noon	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 they	O	O	O	O	O	O	_	_	_
 attacked	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-Park	O	O	O	O	O	O	_	_	_
+the	B-loc	O	O	O	O	O	Q7756136	_	_
+Park	E-loc	O	O	O	O	O	Q7756136	_	_
 and	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Pal	B-loc	O	O	O	O	O	NIL	_	_
@@ -1463,7 +1427,6 @@ pieces	O	O	O	O	O	O	_	_	_
 or	O	O	O	O	O	O	_	_	_
 cannon	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 After	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 very	O	O	O	O	O	O	_	_	_
@@ -1527,7 +1490,6 @@ Porte	B-loc	O	O	O	O	O	NIL	_	_
 de	I-loc	O	O	O	O	O	NIL	_	_
 Namur	E-loc	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 But	O	O	O	O	O	O	_	_	_
 as	O	O	O	O	O	O	_	_	_
 all	O	O	O	O	O	O	_	_	_
@@ -1560,7 +1522,6 @@ without	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 city	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Already	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 we	O	O	O	O	O	O	_	_	_
@@ -1580,7 +1541,6 @@ no	O	O	O	O	O	O	_	_	_
 houfes	O	O	O	O	O	O	_	_	_
 plundered	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 For	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Gazstte	O	O	O	O	O	O	_	_	_
@@ -1603,10 +1563,8 @@ of	I-pers	O	O	O	O	O	NIL	_	_
 the	I-pers	O	O	O	O	O	NIL	_	_
 Unit	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 !	O	O	O	O	O	_	_	_	_
-
-States	O	O	O	O	O	O	_	_	_
+States	S-loc	O	O	O	O	O	Q30	_	_
 ,	O	O	O	O	O	O	_	_	_
 Philad	S-loc	O	O	O	O	O	Q510324	_	_
 :	O	O	O	O	O	O	_	_	_
@@ -1615,7 +1573,6 @@ July	B-time	O	O	O	O	O	NIL	_	_
 ,	I-time	O	O	O	O	O	NIL	_	_
 1800	E-time	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 AS	O	O	O	O	O	O	_	_	_
 you	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
@@ -1623,13 +1580,13 @@ a	O	O	O	O	O	O	_	_	_
 candidate	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Supreme	O	O	O	O	O	O	_	_	_
--	O	O	O	O	O	O	_	_	_
-Magistracy	O	O	O	O	O	O	_	_	_
-ot	O	O	O	O	O	O	_	_	_
-the	B-loc	O	O	O	O	O	Q30	_	_
-United	I-loc	O	O	O	O	O	Q30	_	_
-States	E-loc	O	O	O	O	O	Q30	_	_
+Supreme	B-org	O	O	O	O	O	NIL	_	_
+-	I-org	O	O	O	O	O	NIL	_	_
+Magistracy	I-org	O	O	O	O	O	NIL	_	_
+ot	I-org	O	O	O	O	O	NIL	_	_
+the	I-org	O	O	O	O	O	NIL	_	_
+United	I-org	O	O	O	O	O	NIL	_	_
+States	E-org	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 know	O	O	O	O	O	O	_	_	_
@@ -1653,7 +1610,6 @@ of	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
 country	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 —	O	O	O	O	O	O	_	_	_
 Had	O	O	O	O	O	O	_	_	_
 you	O	O	O	O	O	O	_	_	_
@@ -1745,7 +1701,6 @@ from	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 world	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 But	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 as	O	O	O	O	O	O	_	_	_
@@ -1811,7 +1766,6 @@ dearest	O	O	O	O	O	O	_	_	_
 interest	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 my	O	O	O	O	O	O	_	_	_
@@ -1847,7 +1801,7 @@ services	O	O	O	O	O	O	_	_	_
 you	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 rendered	O	O	O	O	O	O	_	_	_
-America	S-loc	B-org	O	O	O	O	Q30	Q30	_
+America	S-loc	O	O	O	O	O	Q30	_	_
 in	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 course	O	O	O	O	O	O	_	_	_
@@ -1896,7 +1850,6 @@ of	O	O	O	O	O	O	_	_	_
 our	O	O	O	O	O	O	_	_	_
 country	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Nature	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Sir	O	O	O	O	O	O	_	_	_
@@ -1970,7 +1923,6 @@ to	O	O	O	O	O	O	_	_	_
 political	O	O	O	O	O	O	_	_	_
 concerns	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 But	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
@@ -2015,7 +1967,6 @@ and	O	O	O	O	O	O	_	_	_
 absolutely	O	O	O	O	O	O	_	_	_
 indispensable	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 —	O	O	O	O	O	O	_	_	_
 Your	O	O	O	O	O	O	_	_	_
 fortitude	O	O	O	O	O	O	_	_	_
@@ -2133,7 +2084,6 @@ to	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
 country	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Let	O	O	O	O	O	O	_	_	_
 me	O	O	O	O	O	O	_	_	_
 conjure	O	O	O	O	O	O	_	_	_
@@ -2179,7 +2129,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Presidency	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 You	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
@@ -2242,7 +2191,6 @@ to	O	O	O	O	O	O	_	_	_
 your	O	O	O	O	O	O	_	_	_
 grave	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Remember	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Sir	O	O	O	O	O	O	_	_	_
@@ -2308,12 +2256,11 @@ immi	O	O	O	O	O	O	_	_	_
 nent	O	O	O	O	O	O	_	_	_
 danger	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 When	O	O	O	O	O	O	_	_	_
-Governor	B-pers	O	O	O	O	O	NIL	_	_
--	I-pers	O	O	O	O	O	NIL	_	_
-os	I-pers	O	O	O	O	O	NIL	_	_
-Virginia	E-pers	O	O	O	O	O	NIL	_	_
+Governor	O	O	O	O	O	O	_	_	_
+-	O	O	O	O	O	O	_	_	_
+os	O	O	O	O	O	O	_	_	_
+Virginia	S-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 you	O	O	O	O	O	O	_	_	_
 sled	O	O	O	O	O	O	_	_	_
@@ -2336,7 +2283,6 @@ ment	O	O	O	O	O	O	_	_	_
 by	O	O	O	O	O	O	_	_	_
 Congress	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 A	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -2366,7 +2312,6 @@ firmness	O	O	O	O	O	O	_	_	_
 or	O	O	O	O	O	O	_	_	_
 patriotism	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 But	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Sir	O	O	O	O	O	O	_	_	_
@@ -2435,7 +2380,6 @@ to	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 crime	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 But	O	O	O	O	O	O	_	_	_
 I	O	O	O	O	O	O	_	_	_
 will	O	O	O	O	O	O	_	_	_
@@ -2473,10 +2417,8 @@ for	O	O	O	O	O	O	_	_	_
 her	O	O	O	O	O	O	_	_	_
 ruin	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 COLUMBUS	S-loc	O	B-loc.adm.town	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 District	B-loc	O	O	O	O	O	NIL	_	_
 of	I-loc	O	O	O	O	O	NIL	_	_
 Pennsylvania	E-loc	O	O	O	O	O	NIL	_	_
@@ -2500,7 +2442,6 @@ twenty	O	O	O	O	O	O	_	_	_
 fif	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 h	O	O	O	O	O	O	_	_	_
 year	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -2559,8 +2500,8 @@ County	O	O	O	O	O	O	_	_	_
 courts	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Fifth	O	O	O	O	O	O	_	_	_
-Circuit	O	O	O	O	O	O	_	_	_
+Fifth	B-org	O	O	O	O	O	NIL	_	_
+Circuit	E-org	O	O	O	O	O	NIL	_	_
 and	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -2596,30 +2537,29 @@ the	I-pers	O	O	O	O	O	NIL	_	_
 Courts	I-pers	O	O	O	O	O	NIL	_	_
 of	I-pers	O	O	O	O	O	NIL	_	_
 Common	I-pers	O	O	O	O	O	NIL	_	_
-Pleas	E-pers	O	O	O	O	O	NIL	_	_
-of	O	O	O	O	O	O	_	_	_
-me	O	O	O	O	O	O	_	_	_
-Fifth	O	O	O	O	O	O	_	_	_
-Cir	O	O	O	O	O	O	_	_	_
-¬	O	O	O	O	O	O	_	_	_
-cuit	O	O	O	O	O	O	_	_	_
-of	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-State	B-loc	O	O	O	O	O	NIL	_	_
-of	I-loc	O	O	O	O	O	NIL	_	_
-Pennlylvann	E-loc	O	O	O	O	O	NIL	_	_
+Pleas	I-pers	O	O	O	O	O	NIL	_	_
+of	I-pers	O	O	O	O	O	NIL	_	_
+me	I-pers	O	O	O	O	O	NIL	_	_
+Fifth	I-pers	O	O	O	O	O	NIL	_	_
+Cir	I-pers	O	O	O	O	O	NIL	_	_
+¬	I-pers	O	O	O	O	O	NIL	_	_
+cuit	I-pers	O	O	O	O	O	NIL	_	_
+of	I-pers	O	O	O	O	O	NIL	_	_
+the	I-pers	O	O	O	O	O	NIL	_	_
+State	I-pers	O	O	O	O	O	NIL	_	_
+of	I-pers	O	O	O	O	O	NIL	_	_
+Pennlylvann	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 conformity	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 act	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-Congress	B-org	O	O	O	O	O	NIL	_	_
-of	I-org	O	O	O	O	O	NIL	_	_
-the	I-org	O	O	O	O	O	NIL	_	_
+Congress	O	O	O	O	O	O	_	_	_
+of	O	O	O	O	O	O	_	_	_
+the	B-org	O	O	O	O	O	NIL	_	_
 Uni	I-org	O	O	O	O	O	NIL	_	_
 ¬	I-org	O	O	O	O	O	NIL	_	_
 ted	I-org	O	O	O	O	O	NIL	_	_
@@ -2656,7 +2596,6 @@ times	O	O	O	O	O	O	_	_	_
 therein	O	O	O	O	O	O	_	_	_
 mentioned	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 "	O	O	O	O	O	O	_	_	_
 D.C	B-pers	O	O	O	O	O	NIL	_	_
 *	I-pers	O	O	O	O	O	NIL	_	_
@@ -2667,7 +2606,7 @@ of	O	O	O	O	O	O	_	_	_
 lie	O	O	O	O	O	O	_	_	_
 DiJtriEl	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-Peonsyl	O	O	O	O	O	O	_	_	_
+Peonsyl	S-loc	O	O	O	O	O	NIL	_	_
 v	O	O	O	O	O	O	_	_	_
 aoisA	O	O	O	O	O	O	_	_	_
 The	O	O	O	O	O	O	_	_	_
@@ -2677,7 +2616,6 @@ is	O	O	O	O	O	O	_	_	_
 now	O	O	O	O	O	O	_	_	_
 pohlsshcd	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 will	O	O	O	O	O	O	_	_	_
 be	O	O	O	O	O	O	_	_	_
@@ -2692,20 +2630,16 @@ Mr	B-pers	O	O	O	O	O	NIL	_	_
 Dobson	I-pers	O	O	O	O	O	NIL	_	_
 Bookseller	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 July	O	O	O	O	O	O	_	_	_
 23	O	O	O	O	O	O	_	_	_
-
 (	O	O	O	O	O	O	_	_	_
 No	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 26	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
-
 Translation	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Hereford	B-loc	O	O	O	O	O	NIL	_	_
 street	E-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -2716,7 +2650,6 @@ Sept	B-time	O	O	O	O	O	NIL	_	_
 1800	E-time	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 “	O	O	O	O	O	O	_	_	_
 My	O	O	O	O	O	O	_	_	_
 Lord	O	O	O	O	O	O	_	_	_
@@ -2753,7 +2686,6 @@ address	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 roe	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 principles	O	O	O	O	O	O	_	_	_
 contained	O	O	O	O	O	O	_	_	_
@@ -2832,7 +2764,6 @@ previously	O	O	O	O	O	O	_	_	_
 receiving	O	O	O	O	O	O	_	_	_
 furthcrinstroctiona	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 therefore	O	O	O	O	O	O	_	_	_
@@ -2863,7 +2794,6 @@ delay	O	O	O	O	O	O	_	_	_
 as	O	O	O	O	O	O	_	_	_
 possible	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -2873,7 +2803,6 @@ be	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 8cc	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 (	O	O	O	O	O	O	_	_	_
 Signed	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
@@ -2882,7 +2811,6 @@ OTTO	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-
 TO	O	O	O	O	O	O	_	_	_
 BE	O	O	O	O	O	O	_	_	_
 RENTED	O	O	O	O	O	O	_	_	_
@@ -2912,8 +2840,8 @@ Col	B-pers	O	O	O	O	O	NIL	_	_
 Thomas	I-pers	O	O	O	O	O	NIL	_	_
 Duff	I-pers	O	O	O	O	O	NIL	_	_
 ,	I-pers	O	O	O	O	O	NIL	_	_
-Esq	I-pers	O	O	O	O	O	NIL	_	_
-.	E-pers	O	O	O	O	O	NIL	_	_
+Esq	E-pers	O	O	O	O	O	NIL	_	_
+.	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 village	B-loc	O	O	O	O	O	NIL	_	_
@@ -2970,7 +2898,6 @@ now	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 consf	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 derable	O	O	O	O	O	O	_	_	_
 forwardness	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -3010,7 +2937,6 @@ state	B-loc	O	O	O	O	O	NIL	_	_
 of	I-loc	O	O	O	O	O	NIL	_	_
 Delaware	E-loc	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 has	O	O	O	O	O	O	_	_	_
 every	O	O	O	O	O	O	_	_	_
@@ -3027,16 +2953,13 @@ barn	O	O	O	O	O	O	_	_	_
 stabling	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 other	O	O	O	O	O	O	_	_	_
 houses	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 See	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 tec	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 —	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 handsome	O	O	O	O	O	O	_	_	_
@@ -3083,7 +3006,6 @@ to	O	O	O	O	O	O	_	_	_
 apply	O	O	O	O	O	O	_	_	_
 them	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 There	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
 also	O	O	O	O	O	O	_	_	_
@@ -3092,9 +3014,9 @@ ac	O	O	O	O	O	O	_	_	_
 *	O	O	O	O	O	O	_	_	_
 rs	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-first	O	O	O	O	O	O	_	_	_
-rate	O	O	O	O	O	O	_	_	_
-Marsh	S-loc	O	O	O	O	O	NIL	_	_
+first	B-loc	O	O	O	O	O	NIL	_	_
+rate	I-loc	O	O	O	O	O	NIL	_	_
+Marsh	E-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 now	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
@@ -3108,7 +3030,6 @@ from	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 town	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 terms	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -3140,7 +3061,6 @@ s	E-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 Wilmington	S-loc	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 N	B-pers	O	O	O	O	O	NIL	_	_
 .	E-pers	O	O	O	O	O	NIL	_	_
 Bi—No	O	O	O	O	O	O	_	_	_
@@ -3156,7 +3076,6 @@ fiom	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 oilier	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Wilmington	S-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 Dec	O	O	O	O	O	O	_	_	_
@@ -3167,18 +3086,14 @@ th	O	O	O	O	O	O	_	_	_
 1	O	O	O	O	O	O	_	_	_
 80	O	O	O	O	O	O	_	_	_
 !	O	O	O	O	O	O	_	_	_
-
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 tf	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
-
 LATEST	O	O	O	O	O	O	_	_	_
 FROM	O	O	O	O	O	O	_	_	_
 SPAIN	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Captain	B-pers	O	O	O	O	O	NIL	_	_
 Taylor	E-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -3236,9 +3151,9 @@ e	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 opposite	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-city	B-loc	O	O	O	O	O	NIL	_	_
-of	I-loc	O	O	O	O	O	NIL	_	_
-Cadiz	E-loc	O	O	O	O	O	NIL	_	_
+city	O	O	O	O	O	O	_	_	_
+of	O	O	O	O	O	O	_	_	_
+Cadiz	S-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 where	O	O	O	O	O	O	_	_	_
 they	O	O	O	O	O	O	_	_	_
@@ -3246,7 +3161,6 @@ were	O	O	O	O	O	O	_	_	_
 fortifying	O	O	O	O	O	O	_	_	_
 themselves	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 They	O	O	O	O	O	O	_	_	_
 had	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
@@ -3269,7 +3183,6 @@ but	O	O	O	O	O	O	_	_	_
 without	O	O	O	O	O	O	_	_	_
 success	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 A	O	O	O	O	O	O	_	_	_
 flag	O	O	O	O	O	O	_	_	_
 had	O	O	O	O	O	O	_	_	_
@@ -3291,13 +3204,12 @@ and	O	O	O	O	O	O	_	_	_
 friend	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 king	B-pers	O	O	O	O	O	NIL	_	_
-Joseph	E-pers	O	O	O	O	O	NIL	_	_
-—	O	O	O	O	O	O	_	_	_
+Joseph	I-pers	O	O	O	O	O	NIL	_	_
+—	E-pers	O	O	O	O	O	NIL	_	_
 tire	O	O	O	O	O	O	_	_	_
 answer	O	O	O	O	O	O	_	_	_
 re	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 turned	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -3314,7 +3226,6 @@ king	O	O	O	O	O	O	_	_	_
 but	O	O	O	O	O	O	_	_	_
 Ferdinand	S-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 junta	O	O	O	O	O	O	_	_	_
 were	O	O	O	O	O	O	_	_	_
@@ -3332,7 +3243,6 @@ place	O	O	O	O	O	O	_	_	_
 called	O	O	O	O	O	O	_	_	_
 Iliea	S-loc	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 French	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
@@ -3359,7 +3269,6 @@ number	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 17	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 British	B-pers	O	O	O	O	O	NIL	_	_
 admiral	I-pers	O	O	O	O	O	NIL	_	_
@@ -3385,8 +3294,7 @@ the	O	O	O	O	O	O	_	_	_
 principal	O	O	O	O	O	O	_	_	_
 direction	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
-Cadiz	S-pers	O	O	O	O	O	NIL	_	_
+Cadiz	S-loc	O	O	O	O	O	NIL	_	_
 being	O	O	O	O	O	O	_	_	_
 so	O	O	O	O	O	O	_	_	_
 much	O	O	O	O	O	O	_	_	_
@@ -3413,7 +3321,6 @@ at	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 stand	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 ship	O	O	O	O	O	O	_	_	_
 Philadelphia	O	O	O	O	O	O	_	_	_
@@ -3435,14 +3342,12 @@ Phila	B-loc	O	O	O	O	O	NIL	_	_
 ¬	I-loc	O	O	O	O	O	NIL	_	_
 delphia	E-loc	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Genuine	B-pers	O	O	O	O	O	NIL	_	_
 Lee	E-pers	O	O	O	O	O	NIL	_	_
 ’	O	O	O	O	O	O	_	_	_
 s	O	O	O	O	O	O	_	_	_
 Elixir	O	O	O	O	O	O	_	_	_
 !	O	O	O	O	O	O	_	_	_
-
 1	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 sovereign	O	O	O	O	O	O	_	_	_
@@ -3453,7 +3358,6 @@ Colds	O	O	O	O	O	O	_	_	_
 obstinate	O	O	O	O	O	O	_	_	_
 Coughs	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Catarrhs	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Asthmas	O	O	O	O	O	O	_	_	_
@@ -3578,13 +3482,11 @@ coughse	O	O	O	O	O	O	_	_	_
 &	O	O	O	O	O	O	_	_	_
 c	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 of	O	O	O	O	O	O	_	_	_
 being	O	O	O	O	O	O	_	_	_
 immediately	O	O	O	O	O	O	_	_	_
 relieved	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 For	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 information	O	O	O	O	O	O	_	_	_
@@ -3608,7 +3510,7 @@ ual	O	O	O	O	O	O	_	_	_
 antic	O	O	O	O	O	O	_	_	_
 qualities	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-LEE	O	O	O	O	O	O	_	_	_
+LEE	S-pers	O	O	O	O	O	NIL	_	_
 ’	O	O	O	O	O	O	_	_	_
 S	O	O	O	O	O	O	_	_	_
 ELIXIR	O	O	O	O	O	O	_	_	_
@@ -3639,7 +3541,6 @@ and	O	O	O	O	O	O	_	_	_
 strict	O	O	O	O	O	O	_	_	_
 veracity	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 From	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 follow	O	O	O	O	O	O	_	_	_
@@ -3672,12 +3573,11 @@ with	O	O	O	O	O	O	_	_	_
 ease	O	O	O	O	O	O	_	_	_
 removed	O	O	O	O	O	O	_	_	_
 by	O	O	O	O	O	O	_	_	_
-LEE	O	O	O	O	O	O	_	_	_
-’	O	O	O	O	O	O	_	_	_
-S	O	O	O	O	O	O	_	_	_
-ELIXIR	O	O	O	O	O	O	_	_	_
+LEE	B-pers	O	O	O	O	O	NIL	_	_
+’	I-pers	O	O	O	O	O	NIL	_	_
+S	I-pers	O	O	O	O	O	NIL	_	_
+ELIXIR	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 To	O	O	O	O	O	O	_	_	_
 Parents	O	O	O	O	O	O	_	_	_
 who	O	O	O	O	O	O	_	_	_
@@ -3745,14 +3645,11 @@ in	O	O	O	O	O	O	_	_	_
 taking	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Messrs	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 7	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
-
 .	O	O	O	O	O	_	_	_	_
-
 Lee	B-pers	O	O	O	O	O	NIL	_	_
 Sr	I-pers	O	O	O	O	O	NIL	_	_
 Son	E-pers	O	O	O	O	O	NIL	_	_
@@ -3803,7 +3700,6 @@ post	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
 efliuns	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 For	O	O	O	O	O	O	_	_	_
 ■	O	O	O	O	O	O	_	_	_
 pwards	O	O	O	O	O	O	_	_	_
@@ -3875,8 +3771,8 @@ Mr	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Vance	E-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
-178	O	O	O	O	O	O	_	_	_
-Market	B-loc	O	O	O	O	O	NIL	_	_
+178	B-loc	O	O	O	O	O	NIL	_	_
+Market	I-loc	O	O	O	O	O	NIL	_	_
 -	I-loc	O	O	O	O	O	NIL	_	_
 street	E-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -3905,7 +3801,6 @@ state	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 health	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Any	O	O	O	O	O	O	_	_	_
 informa	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
@@ -3916,7 +3811,6 @@ given	O	O	O	O	O	O	_	_	_
 by	O	O	O	O	O	O	_	_	_
 me	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 George	B-pers	O	O	O	O	O	NIL	_	_
 Harwcod	E-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -3925,7 +3819,6 @@ street	E-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 Baltimore	S-loc	O	O	O	O	O	Q5092	_	_
 .	O	O	O	O	O	O	_	_	_
-
 "	O	O	O	O	O	O	_	_	_
 Caius	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -3936,7 +3829,6 @@ BY	O	O	O	O	O	O	_	_	_
 AUTHORITY	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ]	O	O	O	O	O	O	_	_	_
-
 AN	O	O	O	O	O	O	_	_	_
 ACT	O	O	O	O	O	O	_	_	_
 FartllerY	O	O	O	O	O	O	_	_	_
@@ -3966,7 +3858,6 @@ States	E-loc	O	O	O	O	O	Q30	_	_
 .	O	O	O	O	O	O	_	_	_
 *	O	O	O	O	O	O	_	_	_
 *	O	O	O	O	O	O	_	_	_
-
 "	O	O	O	O	O	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
 L	O	O	O	O	O	O	_	_	_
@@ -3981,11 +3872,11 @@ of	I-org	O	O	O	O	O	NIL	_	_
 U	I-org	O	O	O	O	O	NIL	_	_
 Representatives	E-org	O	O	O	O	O	NIL	_	_
 of	O	O	O	O	O	O	_	_	_
-the	B-loc	O	O	O	O	O	NIL	_	_
-United	I-loc	I-org	O	O	O	O	NIL	NIL	_
-States	I-loc	I-org	O	O	O	O	NIL	NIL	_
-oj	I-loc	O	O	O	O	O	NIL	_	_
-America	E-loc	O	O	O	O	O	NIL	_	_
+the	O	O	O	O	O	O	_	_	_
+United	B-loc	O	O	O	O	O	Q30	_	_
+States	E-loc	O	O	O	O	O	Q30	_	_
+oj	O	O	O	O	O	O	_	_	_
+America	S-loc	O	O	O	O	O	Q30	_	_
 ,	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 Congress	O	O	O	O	O	O	_	_	_
@@ -4007,7 +3898,7 @@ the	O	O	O	O	O	O	_	_	_
 present	O	O	O	O	O	O	_	_	_
 session	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-Congress	O	O	O	O	O	O	_	_	_
+Congress	S-org	O	O	O	O	O	Q11268	_	_
 ,	O	O	O	O	O	O	_	_	_
 enti	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
@@ -4027,8 +3918,8 @@ the	O	O	O	O	O	O	_	_	_
 inhabitants	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-United	B-org	O	O	O	O	O	NIL	_	_
-Stares	E-org	O	O	O	O	O	NIL	_	_
+United	B-loc	O	O	O	O	O	NIL	_	_
+Stares	E-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
 a3	O	O	O	O	O	O	_	_	_
@@ -4095,7 +3986,6 @@ the	O	O	O	O	O	O	_	_	_
 form	O	O	O	O	O	O	_	_	_
 following	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
-
 “	O	O	O	O	O	O	_	_	_
 L	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
@@ -4212,7 +4102,6 @@ form	O	O	O	O	O	O	_	_	_
 following	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 “	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
@@ -4296,7 +4185,7 @@ the	O	O	O	O	O	O	_	_	_
 several	O	O	O	O	O	O	_	_	_
 acts	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-Congress	O	O	O	O	O	O	_	_	_
+Congress	S-org	O	O	O	O	O	Q11268	_	_
 providing	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -4309,8 +4198,8 @@ the	O	O	O	O	O	O	_	_	_
 inhabitants	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-United	O	O	O	O	O	O	_	_	_
-Slates	O	O	O	O	O	O	_	_	_
+United	B-loc	O	O	O	O	O	NIL	_	_
+Slates	E-loc	O	O	O	O	O	NIL	_	_
 ;	O	O	O	O	O	O	_	_	_
 according	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
@@ -4321,12 +4210,10 @@ my	O	O	O	O	O	O	_	_	_
 ability	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 Sec	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 2	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 And	O	O	O	O	O	O	_	_	_
 be	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
@@ -4394,7 +4281,6 @@ an	O	O	O	O	O	O	_	_	_
 account	O	O	O	O	O	O	_	_	_
 oi	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 he	O	O	O	O	O	O	_	_	_
 several	O	O	O	O	O	O	_	_	_
 manufactu	O	O	O	O	O	O	_	_	_
@@ -4403,7 +4289,6 @@ ring	O	O	O	O	O	O	_	_	_
 establishments	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 nd	O	O	O	O	O	O	_	_	_
 manufactures	O	O	O	O	O	O	_	_	_
 with	O	O	O	O	O	O	_	_	_
@@ -4417,7 +4302,6 @@ territories	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 divisions	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 said	O	O	O	O	O	O	_	_	_
 assistants	O	O	O	O	O	O	_	_	_
@@ -4464,8 +4348,8 @@ to	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Secretary	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-the	B-org	O	O	O	O	O	NIL	_	_
-Treasury	E-org	O	O	O	O	O	NIL	_	_
+the	O	O	O	O	O	O	_	_	_
+Treasury	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 at	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -4532,7 +4416,6 @@ provided	O	O	O	O	O	O	_	_	_
 by	O	O	O	O	O	O	_	_	_
 law	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 J	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 B	I-pers	O	O	O	O	O	NIL	_	_
@@ -4546,7 +4429,6 @@ House	I-pers	O	O	O	O	O	NIL	_	_
 of	I-pers	O	O	O	O	O	NIL	_	_
 Representatives	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 John	B-pers	O	O	O	O	O	NIL	_	_
 Gaillard	I-pers	O	O	O	O	O	NIL	_	_
 ,	I-pers	O	O	O	O	O	NIL	_	_
@@ -4558,31 +4440,27 @@ Senate	E-pers	O	O	O	O	O	NIL	_	_
 pro	O	O	O	O	O	O	_	_	_
 tem	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 May	B-time	O	O	O	O	O	NIL	_	_
 1	I-time	O	O	O	O	O	NIL	_	_
 ,	I-time	O	O	O	O	O	NIL	_	_
 1810	E-time	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Approved	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 JAMES	B-pers	O	O	O	O	O	NIL	_	_
 MADISON	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ALEX	O	O	O	O	O	O	_	_	_
 VNDKIA	O	O	O	O	O	O	_	_	_
 BATHS	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Mrs	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 M	I-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
-Garner	E-pers	O	O	O	O	O	NIL	_	_
-H	O	O	O	O	O	O	_	_	_
-AVING	O	O	O	O	O	O	_	_	_
+Garner	I-pers	O	O	O	O	O	NIL	_	_
+H	I-pers	O	O	O	O	O	NIL	_	_
+AVING	E-pers	O	O	O	O	O	NIL	_	_
 rented	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 place	O	O	O	O	O	O	_	_	_
@@ -4594,10 +4472,10 @@ Theatre	O	O	O	O	O	O	_	_	_
 formerly	O	O	O	O	O	O	_	_	_
 occupied	O	O	O	O	O	O	_	_	_
 by	O	O	O	O	O	O	_	_	_
-Tho	B-pers	O	O	O	O	O	NIL	_	_
-¬	I-pers	O	O	O	O	O	NIL	_	_
-mas	I-pers	O	O	O	O	O	NIL	_	_
-Shields	E-pers	O	O	O	O	O	NIL	_	_
+Tho	B-loc	O	O	O	O	O	NIL	_	_
+¬	I-loc	O	O	O	O	O	NIL	_	_
+mas	I-loc	O	O	O	O	O	NIL	_	_
+Shields	E-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 which	O	O	O	O	O	O	_	_	_
@@ -4624,7 +4502,6 @@ the	O	O	O	O	O	O	_	_	_
 10th	O	O	O	O	O	O	_	_	_
 inst	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 in	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 style	O	O	O	O	O	O	_	_	_
@@ -4681,7 +4558,6 @@ can	O	O	O	O	O	O	_	_	_
 be	O	O	O	O	O	O	_	_	_
 adopted	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 She	O	O	O	O	O	O	_	_	_
 will	O	O	O	O	O	O	_	_	_
 only	O	O	O	O	O	O	_	_	_
@@ -4750,9 +4626,7 @@ lor	O	O	O	O	O	O	_	_	_
 their	O	O	O	O	O	O	_	_	_
 use	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 .	O	O	O	O	O	_	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 price	O	O	O	O	O	O	_	_	_
 having	O	O	O	O	O	O	_	_	_
@@ -4785,7 +4659,6 @@ will	O	O	O	O	O	O	_	_	_
 their	O	O	O	O	O	O	_	_	_
 custom	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 —	O	O	O	O	O	O	_	_	_
 The	O	O	O	O	O	O	_	_	_
 season	O	O	O	O	O	O	_	_	_
@@ -4800,7 +4673,6 @@ th	O	O	O	O	O	O	_	_	_
 day	O	O	O	O	O	O	_	_	_
 o	O	O	O	O	O	O	_	_	_
 !	O	O	O	O	O	O	_	_	_
-
 May	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
@@ -4812,7 +4684,6 @@ day	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 October	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Strangers	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 others	O	O	O	O	O	O	_	_	_
@@ -4859,13 +4730,10 @@ leave	O	O	O	O	O	O	_	_	_
 their	O	O	O	O	O	O	_	_	_
 names	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 may	O	O	O	O	O	O	_	_	_
 I	O	O	O	O	O	O	_	_	_
-
-IRELAXD	S-loc	O	B-loc.adm.town	O	O	O	NIL	_	_
+IRELAXD	S-loc	O	B-loc.adm.reg	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 Cork	S-loc	O	O	O	O	O	Q162475	_	_
 papers	O	O	O	O	O	O	_	_	_
@@ -4891,7 +4759,6 @@ vicinity	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 CharTevillc	S-loc	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Nightly	O	O	O	O	O	O	_	_	_
 association	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
@@ -4955,17 +4822,15 @@ tak	O	O	O	O	O	O	_	_	_
 land	O	O	O	O	O	O	_	_	_
 there	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 TO	O	O	O	O	O	O	_	_	_
 THE	O	O	O	O	O	O	_	_	_
 Cultivators	O	O	O	O	O	O	_	_	_
 oftlieSul	O	O	O	O	O	O	_	_	_
 THE	O	O	O	O	O	O	_	_	_
-AMERICA	O	O	O	O	O	O	_	_	_
-*	O	O	O	O	O	O	_	_	_
-FARMER	O	O	O	O	O	O	_	_	_
+AMERICA	B-prod	O	O	O	O	O	NIL	_	_
+*	I-prod	O	O	O	O	O	NIL	_	_
+FARMER	E-prod	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 T	O	O	O	O	O	O	_	_	_
 HE	O	O	O	O	O	O	_	_	_
 first	O	O	O	O	O	O	_	_	_
@@ -4978,13 +4843,12 @@ FARMER	E-prod	O	O	O	O	O	Q5435513	_	_
 was	O	O	O	O	O	O	_	_	_
 issued	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
-the	B-time	O	O	O	O	O	NIL	_	_
-2d	I-time	O	O	O	O	O	NIL	_	_
+the	O	O	O	O	O	O	_	_	_
+2d	B-time	O	O	O	O	O	NIL	_	_
 of	I-time	O	O	O	O	O	NIL	_	_
 April	I-time	O	O	O	O	O	NIL	_	_
 1819	E-time	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 may	O	O	O	O	O	O	_	_	_
 now	O	O	O	O	O	O	_	_	_
@@ -5079,7 +4943,6 @@ Farmer	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 devoted	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 takes	O	O	O	O	O	O	_	_	_
 no	O	O	O	O	O	O	_	_	_
@@ -5098,7 +4961,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 day	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 Farmer	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -5107,7 +4969,6 @@ weekly	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 -	O	O	O	O	O	O	_	_	_
 heel	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -5139,7 +5000,6 @@ preserved	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 volumes	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Each	O	O	O	O	O	O	_	_	_
 volume	O	O	O	O	O	O	_	_	_
 will	O	O	O	O	O	O	_	_	_
@@ -5210,9 +5070,7 @@ the	O	O	O	O	O	O	_	_	_
 Baltimore	O	O	O	O	O	O	_	_	_
 market	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 .	O	O	O	O	O	_	_	_	_
-
 Terms	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 subscription	O	O	O	O	O	O	_	_	_
@@ -5229,7 +5087,6 @@ paid	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 advance	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 But	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -5251,7 +5108,6 @@ number	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 guaranteed	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 That	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -5275,7 +5131,6 @@ shalljiave	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
 received	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 As	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Editor	O	O	O	O	O	O	_	_	_
@@ -5305,7 +5160,6 @@ furnish	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 paper	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 To	O	O	O	O	O	O	_	_	_
 those	O	O	O	O	O	O	_	_	_
 who	O	O	O	O	O	O	_	_	_
@@ -5378,7 +5232,6 @@ for	O	O	O	O	O	O	_	_	_
 12	O	O	O	O	O	O	_	_	_
 dollars	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 To	O	O	O	O	O	O	_	_	_
 shew	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
@@ -5406,7 +5259,6 @@ stablish	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 ed	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 and	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
@@ -5418,13 +5270,13 @@ the	O	O	O	O	O	O	_	_	_
 encou	O	O	O	O	O	O	_	_	_
 ragementof	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Agriculturists	O	O	O	O	O	O	_	_	_
-of	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-Unit	B-org	O	O	O	O	O	NIL	_	_
-;	I-org	O	O	O	O	O	NIL	_	_
-d	I-org	O	O	O	O	O	NIL	_	_
-States	E-org	O	O	O	O	O	NIL	_	_
+Agriculturists	B-org	O	O	O	O	O	NIL	_	_
+of	I-org	O	O	O	O	O	NIL	_	_
+the	I-org	O	O	O	O	O	NIL	_	_
+Unit	E-org	O	O	O	O	O	NIL	_	_
+;	O	O	O	O	O	O	_	_	_
+d	O	O	O	O	O	O	_	_	_
+States	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 following	O	O	O	O	O	O	_	_	_
@@ -5440,18 +5292,17 @@ might	O	O	O	O	O	O	_	_	_
 be	O	O	O	O	O	O	_	_	_
 offered	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Extract	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 letter	O	O	O	O	O	O	_	_	_
 from	O	O	O	O	O	O	_	_	_
 Governor	B-pers	O	O	O	O	O	NIL	_	_
-Lloyd	E-pers	O	O	O	O	O	NIL	_	_
-,	O	O	O	O	O	O	_	_	_
-»	O	O	O	O	O	O	_	_	_
-•	O	O	O	O	O	O	_	_	_
-ho	O	O	O	O	O	O	_	_	_
+Lloyd	I-pers	O	O	O	O	O	NIL	_	_
+,	I-pers	O	O	O	O	O	NIL	_	_
+»	I-pers	O	O	O	O	O	NIL	_	_
+•	I-pers	O	O	O	O	O	NIL	_	_
+ho	E-pers	O	O	O	O	O	NIL	_	_
 is	O	O	O	O	O	O	_	_	_
 acknowledged	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
@@ -5473,7 +5324,6 @@ the	O	O	O	O	O	O	_	_	_
 United	B-loc	O	O	O	O	O	Q30	_	_
 States	E-loc	O	O	O	O	O	Q30	_	_
 .	O	O	O	O	O	O	_	_	_
-
 “	O	O	O	O	O	O	_	_	_
 The	O	O	O	O	O	O	_	_	_
 Farmer	O	O	O	O	O	O	_	_	_
@@ -5595,23 +5445,19 @@ by	O	O	O	O	O	O	_	_	_
 reading	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 Respectfully	O	O	O	O	O	O	_	_	_
 th	O	O	O	O	O	O	_	_	_
 friend	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ROB	B-pers	O	O	O	O	O	NIL	_	_
 .	E-pers	O	O	O	O	O	NIL	_	_
-
-MOORE	S-loc	O	B-loc.adm.reg	O	O	O	Q2499856	_	_
+MOORE	S-loc	O	B-loc.adm.town	O	O	O	Q2499856	_	_
 .	O	O	O	O	O	O	_	_	_
-
-NEWECHOTA	B-loc	O	O	O	O	O	NIL	_	_
--	I-loc	O	O	O	O	O	NIL	_	_
-FEBRUARY	E-loc	O	O	O	O	O	NIL	_	_
+NEWECHOTA	O	O	O	O	O	O	_	_	_
+-	O	O	O	O	O	O	_	_	_
+FEBRUARY	O	O	O	O	O	O	_	_	_
 3,1880	S-time	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 From	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 letter	O	O	O	O	O	O	_	_	_
@@ -5656,7 +5502,6 @@ is	O	O	O	O	O	O	_	_	_
 gaining	O	O	O	O	O	O	_	_	_
 ground	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 There	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
@@ -5673,7 +5518,6 @@ excitement	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 extending	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Meetings	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
@@ -5704,7 +5548,6 @@ will	O	O	O	O	O	O	_	_	_
 be	O	O	O	O	O	O	_	_	_
 held	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 From	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 abstract	O	O	O	O	O	O	_	_	_
@@ -5723,8 +5566,8 @@ question	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 referring	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-New	B-loc	O	O	O	O	O	Q60	_	_
-York	E-loc	O	O	O	O	O	Q60	_	_
+New	O	O	O	O	O	O	_	_	_
+York	O	O	O	O	O	O	_	_	_
 memorial	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -5761,9 +5604,8 @@ before	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 consideration	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-Congress	O	O	O	O	O	O	_	_	_
+Congress	S-org	O	O	O	O	O	Q11268	_	_
 ,	O	O	O	O	O	O	_	_	_
-
 Washington	S-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 January	B-time	O	O	O	O	O	NIL	_	_
@@ -5773,7 +5615,6 @@ January	B-time	O	O	O	O	O	NIL	_	_
 -	O	O	O	O	O	O	_	_	_
 Gentlemen	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Your	O	O	O	O	O	O	_	_	_
 letter	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -5785,7 +5626,6 @@ re	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 ceived	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 We	O	O	O	O	O	O	_	_	_
 feel	O	O	O	O	O	O	_	_	_
 highly	O	O	O	O	O	O	_	_	_
@@ -5825,7 +5665,7 @@ trea	O	O	O	O	O	O	_	_	_
 ties	O	O	O	O	O	O	_	_	_
 with	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Cherokee	O	O	O	O	O	O	_	_	_
+Cherokee	S-pers	O	O	O	O	O	NIL	_	_
 and	O	O	O	O	O	O	_	_	_
 other	O	O	O	O	O	O	_	_	_
 na	O	O	O	O	O	O	_	_	_
@@ -5840,7 +5680,6 @@ approba	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 tion	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 vindicating	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -5911,7 +5750,6 @@ race	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 men	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 now	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 remnant	O	O	O	O	O	O	_	_	_
@@ -5936,7 +5774,6 @@ incumbent	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
 us	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 as	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 representa	O	O	O	O	O	O	_	_	_
@@ -5947,7 +5784,6 @@ a	O	O	O	O	O	O	_	_	_
 free	O	O	O	O	O	O	_	_	_
 people	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 We	O	O	O	O	O	O	_	_	_
 beg	O	O	O	O	O	O	_	_	_
 you	O	O	O	O	O	O	_	_	_
@@ -5975,7 +5811,6 @@ re	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 fer	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 We	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -5987,21 +5822,19 @@ obedient	O	O	O	O	O	O	_	_	_
 servants	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
-SPENCER	B-pers	O	O	O	O	O	NIL	_	_
-HENRY	I-pers	O	O	O	O	O	NIL	_	_
-R	I-pers	O	O	O	O	O	NIL	_	_
-.	I-pers	O	O	O	O	O	NIL	_	_
-STORRS	E-pers	O	O	O	O	O	NIL	_	_
+SPENCER	O	O	O	O	O	O	_	_	_
+HENRY	O	O	O	O	O	O	_	_	_
+R	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
+STORRS	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
 From	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Chariest	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 n	O	O	O	O	O	O	_	_	_
-Mercury	S-prod	O	O	O	O	O	Q165745	_	_
+Mercury	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Nothing	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 doing	O	O	O	O	O	O	_	_	_
@@ -6027,17 +5860,13 @@ fists	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 &	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 c	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 &	O	O	O	O	O	O	_	_	_
 c	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 See	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 sup	O	O	O	O	O	O	_	_	_
@@ -6074,7 +5903,6 @@ and	O	O	O	O	O	O	_	_	_
 drag	O	O	O	O	O	O	_	_	_
 out	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 There	O	O	O	O	O	O	_	_	_
 has	O	O	O	O	O	O	_	_	_
 as	O	O	O	O	O	O	_	_	_
@@ -6095,7 +5923,6 @@ iu	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 lobby	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 Senate	O	O	O	O	O	O	_	_	_
 has	O	O	O	O	O	O	_	_	_
@@ -6188,14 +6015,13 @@ will	O	O	O	O	O	O	_	_	_
 31	O	O	O	O	O	O	_	_	_
 r	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Clay	S-pers	O	O	O	O	O	NIL	_	_
 disturb	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 harmony	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-Senate	O	O	O	O	O	O	_	_	_
+the	B-org	O	O	O	O	O	Q66096	_	_
+Senate	E-org	O	O	O	O	O	Q66096	_	_
 ,	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 rutile	O	O	O	O	O	O	_	_	_
@@ -6212,7 +6038,6 @@ such	O	O	O	O	O	O	_	_	_
 discordant	O	O	O	O	O	O	_	_	_
 scrapes	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
-
 From	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Otmndagiia	S-prod	O	O	O	O	O	NIL	_	_
@@ -6224,7 +6049,6 @@ A	I-prod	O	O	O	O	O	NIL	_	_
 )	O	O	O	O	O	O	_	_	_
 Standard	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 plan	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
@@ -6275,10 +6099,9 @@ MIL	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 LIONS	O	O	O	O	O	O	_	_	_
 OF	O	O	O	O	O	O	_	_	_
-DOLLARS	O	O	O	O	O	O	_	_	_
+DOLLARS	S-loc	O	O	O	O	O	NIL	_	_
 aunually	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Gen	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Harrison	E-pers	O	O	O	O	O	NIL	_	_
@@ -6305,7 +6128,6 @@ of	O	O	O	O	O	O	_	_	_
 Ihe	O	O	O	O	O	O	_	_	_
 President	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 On	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 3d	O	O	O	O	O	O	_	_	_
@@ -6350,7 +6172,6 @@ discipline	O	O	O	O	O	O	_	_	_
 ofthe	O	O	O	O	O	O	_	_	_
 militia	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 And	O	O	O	O	O	O	_	_	_
 furthermore	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -6375,7 +6196,6 @@ no	O	O	O	O	O	O	_	_	_
 change	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 Of	O	O	O	O	O	O	_	_	_
 course	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -6421,9 +6241,8 @@ a	O	O	O	O	O	O	_	_	_
 repot	O	O	O	O	O	O	_	_	_
 t	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
-Congress	O	O	O	O	O	O	_	_	_
+Congress	S-org	O	O	O	O	O	Q11268	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Now	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 when	O	O	O	O	O	O	_	_	_
@@ -6473,19 +6292,15 @@ approval	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 Mr	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
-Yan	E-pers	O	O	O	O	O	NIL	_	_
-!	O	O	O	O	O	O	_	_	_
-
-Buren	S-pers	O	O	O	O	O	NIL	_	_
+Yan	I-pers	O	O	O	O	O	NIL	_	_
+!	E-pers	O	O	O	O	O	NIL	_	_
+Buren	S-loc	O	I-pers.ind	O	O	O	Q188201	_	_
 .	O	O	O	O	O	O	_	_	_
-
 •	O	O	O	O	O	_	_	_	_
-
 From	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Pennsylvanian	O	O	O	O	O	O	_	_	_
-.	O	O	O	O	O	O	_	_	_
-
+Pennsylvanian	B-prod	O	O	O	O	O	NIL	_	_
+.	E-prod	O	O	O	O	O	NIL	_	_
 Harrisburg	S-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 June	B-time	O	O	O	O	O	NIL	_	_
@@ -6493,7 +6308,6 @@ June	B-time	O	O	O	O	O	NIL	_	_
 ,	I-time	O	O	O	O	O	NIL	_	_
 1S40	E-time	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Gentlemen	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 —	O	O	O	O	O	O	_	_	_
@@ -6509,7 +6323,6 @@ the	O	O	O	O	O	O	_	_	_
 17th	O	O	O	O	O	O	_	_	_
 iust	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ,	O	O	O	O	O	O	_	_	_
 as	O	O	O	O	O	O	_	_	_
 well	O	O	O	O	O	O	_	_	_
@@ -6526,7 +6339,6 @@ dated	O	O	O	O	O	O	_	_	_
 16th	O	O	O	O	O	O	_	_	_
 inst	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ,	O	O	O	O	O	O	_	_	_
 tender	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
@@ -6564,7 +6376,6 @@ ture	O	O	O	O	O	O	_	_	_
 from	O	O	O	O	O	O	_	_	_
 Philadelphia	S-loc	O	O	O	O	O	Q1345	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
@@ -6627,7 +6438,6 @@ meri	O	O	O	O	O	O	_	_	_
 torious	O	O	O	O	O	O	_	_	_
 services	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ”	O	O	O	O	O	O	_	_	_
 I	O	O	O	O	O	O	_	_	_
 cannot	O	O	O	O	O	O	_	_	_
@@ -6702,7 +6512,6 @@ with	O	O	O	O	O	O	_	_	_
 unanimous	O	O	O	O	O	O	_	_	_
 approval	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 would	O	O	O	O	O	O	_	_	_
 be	O	O	O	O	O	O	_	_	_
@@ -6722,7 +6531,6 @@ look	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
 this	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Some	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -6781,7 +6589,6 @@ aud	O	O	O	O	O	O	_	_	_
 other	O	O	O	O	O	O	_	_	_
 countries	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 How	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 then	O	O	O	O	O	O	_	_	_
@@ -6821,7 +6628,6 @@ upon	O	O	O	O	O	O	_	_	_
 different	O	O	O	O	O	O	_	_	_
 individuals	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
-
 At	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 time	O	O	O	O	O	O	_	_	_
@@ -6846,7 +6652,6 @@ on	O	O	O	O	O	O	_	_	_
 all	O	O	O	O	O	O	_	_	_
 sides	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 An	O	O	O	O	O	O	_	_	_
 overwhelming	O	O	O	O	O	O	_	_	_
 public	O	O	O	O	O	O	_	_	_
@@ -6966,7 +6771,6 @@ great	O	O	O	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
 weight	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Such	O	O	O	O	O	O	_	_	_
 were	O	O	O	O	O	O	_	_	_
 some	O	O	O	O	O	O	_	_	_
@@ -6998,7 +6802,6 @@ been	O	O	O	O	O	O	_	_	_
 fully	O	O	O	O	O	O	_	_	_
 realized	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 met	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -7053,7 +6856,6 @@ of	O	O	O	O	O	O	_	_	_
 my	O	O	O	O	O	O	_	_	_
 station	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1	O	O	O	O	O	O	_	_	_
 assert	O	O	O	O	O	O	_	_	_
 no	O	O	O	O	O	O	_	_	_
@@ -7097,7 +6899,6 @@ can	O	O	O	O	O	O	_	_	_
 deprive	O	O	O	O	O	O	_	_	_
 me	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Forming	O	O	O	O	O	O	_	_	_
 ps	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -7159,7 +6960,6 @@ subject	O	O	O	O	O	O	_	_	_
 at	O	O	O	O	O	O	_	_	_
 all	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Iu	O	O	O	O	O	O	_	_	_
 several	O	O	O	O	O	O	_	_	_
 Distances	O	O	O	O	O	O	_	_	_
@@ -7197,7 +6997,6 @@ tive	O	O	O	O	O	O	_	_	_
 action	O	O	O	O	O	O	_	_	_
 whatever	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Iu	O	O	O	O	O	O	_	_	_
 such	O	O	O	O	O	O	_	_	_
 cases	O	O	O	O	O	O	_	_	_
@@ -7237,7 +7036,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 law	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 7	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
 he	O	O	O	O	O	O	_	_	_
@@ -7260,7 +7058,6 @@ of	O	O	O	O	O	O	_	_	_
 this	O	O	O	O	O	O	_	_	_
 description	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 thought	O	O	O	O	O	O	_	_	_
 at	O	O	O	O	O	O	_	_	_
@@ -7337,7 +7134,6 @@ becomiug	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 law	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -7443,7 +7239,6 @@ clothed	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Executive	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 regarded	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
@@ -7463,7 +7258,6 @@ could	O	O	O	O	O	O	_	_	_
 be	O	O	O	O	O	O	_	_	_
 viewed	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Accord	O	O	O	O	O	O	_	_	_
 inw	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
@@ -7486,7 +7280,6 @@ compromise	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
 inostlmbjects	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 No	O	O	O	O	O	O	_	_	_
 one	O	O	O	O	O	O	_	_	_
 co	O	O	O	O	O	O	_	_	_
@@ -7515,7 +7308,6 @@ part	O	O	O	O	O	O	_	_	_
 ofthe	O	O	O	O	O	O	_	_	_
 others	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 All	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
 either	O	O	O	O	O	O	_	_	_
@@ -7574,7 +7366,6 @@ sion	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 compromise	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 This	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -7606,7 +7397,6 @@ harmony	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 goodwill	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 7	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
@@ -7669,7 +7459,6 @@ of	O	O	O	O	O	O	_	_	_
 this	O	O	O	O	O	O	_	_	_
 commonwealth	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 took	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
@@ -7718,7 +7507,6 @@ to	O	O	O	O	O	O	_	_	_
 adopt	O	O	O	O	O	O	_	_	_
 them	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 am	O	O	O	O	O	O	_	_	_
 gratified	O	O	O	O	O	O	_	_	_
@@ -7765,9 +7553,8 @@ Democratic	O	O	O	O	O	O	_	_	_
 members	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Senate	O	O	O	O	O	O	_	_	_
+Senate	S-org	O	O	O	O	O	Q66096	_	_
 .	O	O	O	O	O	O	_	_	_
-
 They	O	O	O	O	O	O	_	_	_
 failed	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -7799,7 +7586,6 @@ the	O	O	O	O	O	O	_	_	_
 next	O	O	O	O	O	O	_	_	_
 election	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 If	O	O	O	O	O	O	_	_	_
 they	O	O	O	O	O	O	_	_	_
 do	O	O	O	O	O	O	_	_	_
@@ -7817,7 +7603,6 @@ done	O	O	O	O	O	O	_	_	_
 my	O	O	O	O	O	O	_	_	_
 duty	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Upon	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 candid	O	O	O	O	O	O	_	_	_
@@ -7853,7 +7638,6 @@ has	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
 accomplished	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Measures	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
@@ -7925,7 +7709,6 @@ and	O	O	O	O	O	O	_	_	_
 rigidly	O	O	O	O	O	O	_	_	_
 enforced	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 7	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 he	O	O	O	O	O	O	_	_	_
@@ -7957,7 +7740,6 @@ on	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
 subject	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 seems	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
@@ -7997,7 +7779,6 @@ at	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
 end	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 7	O	O	O	O	O	O	_	_	_
 he	O	O	O	O	O	O	_	_	_
 precise	O	O	O	O	O	O	_	_	_
@@ -8031,7 +7812,6 @@ our	O	O	O	O	O	O	_	_	_
 real	O	O	O	O	O	O	_	_	_
 condition	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 All	O	O	O	O	O	O	_	_	_
 thepecuniary	O	O	O	O	O	O	_	_	_
 responsibilities	O	O	O	O	O	O	_	_	_
@@ -8063,7 +7843,6 @@ recommended	O	O	O	O	O	O	_	_	_
 or	O	O	O	O	O	O	_	_	_
 pursued	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 YY	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
 e	O	O	O	O	O	O	_	_	_
@@ -8074,7 +7853,6 @@ as	O	O	O	O	O	O	_	_	_
 they	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 YY	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 e	O	O	O	O	O	O	_	_	_
@@ -8147,7 +7925,6 @@ very	O	O	O	O	O	O	_	_	_
 little	O	O	O	O	O	O	_	_	_
 regard	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 7	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 he	O	O	O	O	O	O	_	_	_
@@ -8190,7 +7967,6 @@ the	O	O	O	O	O	O	_	_	_
 public	O	O	O	O	O	O	_	_	_
 man	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 assures	O	O	O	O	O	O	_	_	_
 him	O	O	O	O	O	O	_	_	_
@@ -8222,7 +7998,6 @@ to	O	O	O	O	O	O	_	_	_
 promote	O	O	O	O	O	O	_	_	_
 them	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Even	O	O	O	O	O	O	_	_	_
 though	O	O	O	O	O	O	_	_	_
 those	O	O	O	O	O	O	_	_	_
@@ -8244,7 +8019,6 @@ pe	O	O	O	O	O	O	_	_	_
 culiar	O	O	O	O	O	O	_	_	_
 sentiments	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Differing	O	O	O	O	O	O	_	_	_
 iu	O	O	O	O	O	O	_	_	_
 mere	O	O	O	O	O	O	_	_	_
@@ -8266,8 +8040,8 @@ public	O	O	O	O	O	O	_	_	_
 policy	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-democratic	O	O	O	O	O	O	_	_	_
-party	O	O	O	O	O	O	_	_	_
+democratic	B-org	O	O	O	O	O	NIL	_	_
+party	E-org	O	O	O	O	O	NIL	_	_
 of	O	O	O	O	O	O	_	_	_
 Pennsylvania	S-loc	O	O	O	O	O	Q1400	_	_
 entertaius	O	O	O	O	O	O	_	_	_
@@ -8280,7 +8054,6 @@ system	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 opinion	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
@@ -8303,7 +8076,6 @@ all	O	O	O	O	O	O	_	_	_
 good	O	O	O	O	O	O	_	_	_
 government	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Recent	O	O	O	O	O	O	_	_	_
 experience	O	O	O	O	O	O	_	_	_
 has	O	O	O	O	O	O	_	_	_
@@ -8327,7 +8099,6 @@ the	O	O	O	O	O	O	_	_	_
 democratic	O	O	O	O	O	O	_	_	_
 cause	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 trust	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -8351,7 +8122,6 @@ illustrate	O	O	O	O	O	O	_	_	_
 this	O	O	O	O	O	O	_	_	_
 truth	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 am	O	O	O	O	O	O	_	_	_
 certain	O	O	O	O	O	O	_	_	_
@@ -8423,9 +8193,9 @@ the	O	O	O	O	O	O	_	_	_
 cherished	O	O	O	O	O	O	_	_	_
 principles	O	O	O	O	O	O	_	_	_
 which	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-democratic	O	O	O	O	O	O	_	_	_
-party	O	O	O	O	O	O	_	_	_
+the	B-org	O	O	O	O	O	NIL	_	_
+democratic	I-org	O	O	O	O	O	NIL	_	_
+party	E-org	O	O	O	O	O	NIL	_	_
 of	O	O	O	O	O	O	_	_	_
 Pennsylvania	S-loc	O	O	O	O	O	Q1400	_	_
 has	O	O	O	O	O	O	_	_	_
@@ -8433,7 +8203,6 @@ ever	O	O	O	O	O	O	_	_	_
 held	O	O	O	O	O	O	_	_	_
 dear	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Please	O	O	O	O	O	O	_	_	_
 accept	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -8452,14 +8221,11 @@ regard	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 consideration	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 DAVID	O	O	O	O	O	O	_	_	_
 It	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 PORTER	S-pers	O	B-pers.ind	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Interesting	O	O	O	O	O	O	_	_	_
 Correspondence	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -8472,33 +8238,28 @@ Cita	I-org	O	O	O	O	O	NIL	_	_
 Co	I-org	O	O	O	O	O	NIL	_	_
 .	E-org	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
-A	B-loc	O	O	O	O	O	NIL	_	_
-'	I-loc	O	O	O	O	O	NIL	_	_
-a	I-loc	O	O	O	O	O	NIL	_	_
-.	E-loc	O	O	O	O	O	NIL	_	_
-
+A	B-pers	O	O	O	O	O	NIL	_	_
+'	I-pers	O	O	O	O	O	NIL	_	_
+a	I-pers	O	O	O	O	O	NIL	_	_
+.	E-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 31n	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Van	B-pers	O	B-pers.ind	O	O	O	NIL	_	_
 Buren	E-pers	O	I-pers.ind	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Elisabeth	B-loc	O	O	O	O	O	NIL	_	_
 City	I-loc	O	O	O	O	O	NIL	_	_
 County	E-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 Ea	B-loc	O	O	O	O	O	NIL	_	_
 .	E-loc	O	O	O	O	O	NIL	_	_
-
 June	B-time	O	O	O	O	O	NIL	_	_
 12	I-time	O	O	O	O	O	NIL	_	_
 ,	I-time	O	O	O	O	O	NIL	_	_
 1840	E-time	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Dear	O	O	O	O	O	O	_	_	_
 Sir	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
@@ -8557,7 +8318,6 @@ the	O	O	O	O	O	O	_	_	_
 public	O	O	O	O	O	O	_	_	_
 mind	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Prompted	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 not	O	O	O	O	O	O	_	_	_
@@ -8608,7 +8368,6 @@ ques	O	O	O	O	O	O	_	_	_
 tions	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 viz	O	O	O	O	O	O	_	_	_
-
 :	O	O	O	O	O	O	_	_	_
 1	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -8667,7 +8426,6 @@ of	O	O	O	O	O	O	_	_	_
 iheir	O	O	O	O	O	O	_	_	_
 slaves	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
-
 2	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Do	O	O	O	O	O	O	_	_	_
@@ -8711,7 +8469,6 @@ such	O	O	O	O	O	O	_	_	_
 an	O	O	O	O	O	O	_	_	_
 institution	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
-
 3	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Are	O	O	O	O	O	O	_	_	_
@@ -8724,9 +8481,7 @@ entire	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Tariff	O	O	O	O	O	O	_	_	_
 Compromise	O	O	O	O	O	O	_	_	_
-
 ?	O	O	O	O	O	_	_	_	_
-
 4	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 YA	O	O	O	O	O	O	_	_	_
@@ -8760,7 +8515,6 @@ $	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 c	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 5	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -8780,7 +8534,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 militia	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
-
 J	O	O	O	O	O	O	_	_	_
 he	O	O	O	O	O	O	_	_	_
 preceding	O	O	O	O	O	O	_	_	_
@@ -8794,7 +8547,6 @@ to	O	O	O	O	O	O	_	_	_
 Nlr	B-pers	O	O	O	O	O	NIL	_	_
 Harrison	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Ut	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 lieving	O	O	O	O	O	O	_	_	_
@@ -8852,9 +8604,7 @@ servants	O	O	O	O	O	O	_	_	_
 JOHN	B-pers	O	O	O	O	O	NIL	_	_
 I	I-pers	O	O	O	O	O	NIL	_	_
 ?	E-pers	O	O	O	O	O	NIL	_	_
-
 .	O	O	O	O	O	_	_	_	_
-
 CARY	S-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 A	B-pers	O	O	O	O	O	NIL	_	_
@@ -8880,10 +8630,8 @@ A	I-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 CARY	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Hon	B-pers	O	B-pers.ind	O	B-comp.title	O	NIL	_	_
 .	E-pers	O	I-pers.ind	O	I-comp.title	O	NIL	_	_
-
 M	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Van	I-pers	O	O	O	O	O	NIL	_	_
@@ -8898,7 +8646,6 @@ It	I-pers	O	O	O	O	O	NIL	_	_
 '	I-pers	O	O	O	O	O	NIL	_	_
 asliington	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 THE	O	O	O	O	O	O	_	_	_
 HEW	O	O	O	O	O	O	_	_	_
 COUNTY	O	O	O	O	O	O	_	_	_
@@ -8908,9 +8655,8 @@ AND	O	O	O	O	O	O	_	_	_
 *	O	O	O	O	O	O	_	_	_
 SCHOOL	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-HOUSE	S-loc	O	O	O	O	O	NIL	_	_
+HOUSE	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Tlie	O	O	O	O	O	O	_	_	_
 new	O	O	O	O	O	O	_	_	_
 county	O	O	O	O	O	O	_	_	_
@@ -8933,7 +8679,6 @@ for	O	O	O	O	O	O	_	_	_
 public	O	O	O	O	O	O	_	_	_
 patronage	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Its	O	O	O	O	O	O	_	_	_
 entire	O	O	O	O	O	O	_	_	_
 length	O	O	O	O	O	O	_	_	_
@@ -8973,7 +8718,6 @@ on	O	O	O	O	O	O	_	_	_
 each	O	O	O	O	O	O	_	_	_
 side	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 bridge	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
@@ -8985,7 +8729,6 @@ of	O	O	O	O	O	O	_	_	_
 this	O	O	O	O	O	O	_	_	_
 city	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Mr	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Auberton	E-pers	O	O	O	O	O	NIL	_	_
@@ -9016,7 +8759,6 @@ first	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 February	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 school	O	O	O	O	O	O	_	_	_
 building	O	O	O	O	O	O	_	_	_
@@ -9075,7 +8817,6 @@ floor	O	O	O	O	O	O	_	_	_
 feet	O	O	O	O	O	O	_	_	_
 square	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 front	O	O	O	O	O	O	_	_	_
 porch	O	O	O	O	O	O	_	_	_
@@ -9098,7 +8839,6 @@ of	O	O	O	O	O	O	_	_	_
 scroll	O	O	O	O	O	O	_	_	_
 work	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 cupola	O	O	O	O	O	O	_	_	_
 or	O	O	O	O	O	O	_	_	_
@@ -9113,7 +8853,6 @@ very	O	O	O	O	O	O	_	_	_
 neatly	O	O	O	O	O	O	_	_	_
 finished	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 height	O	O	O	O	O	O	_	_	_
 from	O	O	O	O	O	O	_	_	_
@@ -9134,7 +8873,6 @@ is	O	O	O	O	O	O	_	_	_
 feet	O	O	O	O	O	O	_	_	_
 high	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 structure	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -9149,7 +8887,6 @@ cost	O	O	O	O	O	O	_	_	_
 about	O	O	O	O	O	O	_	_	_
 $3000	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 '	O	O	O	O	O	O	_	_	_
 Mr	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
@@ -9188,13 +8925,11 @@ given	O	O	O	O	O	O	_	_	_
 entire	O	O	O	O	O	O	_	_	_
 satisfaction	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 A	O	O	O	O	O	O	_	_	_
 Bit	O	O	O	O	O	O	_	_	_
 oT	O	O	O	O	O	O	_	_	_
 Daring	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 A	O	O	O	O	O	O	_	_	_
 Western	O	O	O	O	O	O	_	_	_
 paper	O	O	O	O	O	O	_	_	_
@@ -9215,7 +8950,6 @@ bers	O	O	O	O	O	O	_	_	_
 in	B-time	O	O	O	O	O	NIL	_	_
 1866	E-time	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 stage	O	O	O	O	O	O	_	_	_
 coming	O	O	O	O	O	O	_	_	_
@@ -9224,7 +8958,6 @@ Nevada	S-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 Col	B-pers	O	O	O	O	O	NIL	_	_
 .	E-pers	O	O	O	O	O	NIL	_	_
-
 ,	O	O	O	O	O	O	_	_	_
 had	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
@@ -9240,7 +8973,6 @@ treasure	O	O	O	O	O	O	_	_	_
 box	O	O	O	O	O	O	_	_	_
 taken	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 A	O	O	O	O	O	O	_	_	_
 party	O	O	O	O	O	O	_	_	_
 set	O	O	O	O	O	O	_	_	_
@@ -9249,7 +8981,6 @@ for	O	O	O	O	O	O	_	_	_
 its	O	O	O	O	O	O	_	_	_
 recovery	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Yenard	S-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 armed	O	O	O	O	O	O	_	_	_
@@ -9280,14 +9011,12 @@ rug	O	O	O	O	O	O	_	_	_
 ged	O	O	O	O	O	O	_	_	_
 region	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 hills	O	O	O	O	O	O	_	_	_
 hung	O	O	O	O	O	O	_	_	_
 steep	O	O	O	O	O	O	_	_	_
 above	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 waters	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -9318,7 +9047,6 @@ other	O	O	O	O	O	O	_	_	_
 sounds	O	O	O	O	O	O	_	_	_
 audible	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Yenard	S-pers	O	O	O	O	O	NIL	_	_
 attempted	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
@@ -9332,7 +9060,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 fall	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 He	O	O	O	O	O	O	_	_	_
 walked	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
@@ -9343,7 +9070,6 @@ to	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 rock	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Above	O	O	O	O	O	O	_	_	_
 him	O	O	O	O	O	O	_	_	_
 rose	O	O	O	O	O	O	_	_	_
@@ -9361,7 +9087,6 @@ two	O	O	O	O	O	O	_	_	_
 smaller	O	O	O	O	O	O	_	_	_
 rocks	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Between	O	O	O	O	O	O	_	_	_
 these	O	O	O	O	O	O	_	_	_
 latter	O	O	O	O	O	O	_	_	_
@@ -9377,7 +9102,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Titan	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 His	O	O	O	O	O	O	_	_	_
 position	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
@@ -9389,7 +9113,6 @@ up	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 alley	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 At	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 base	O	O	O	O	O	O	_	_	_
@@ -9416,7 +9139,6 @@ drawing	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
 revolver	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Venard	S-pers	O	O	O	O	O	NIL	_	_
 leveled	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
@@ -9429,7 +9151,6 @@ twenty	O	O	O	O	O	O	_	_	_
 feet	O	O	O	O	O	O	_	_	_
 distant	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 At	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 same	O	O	O	O	O	O	_	_	_
@@ -9452,7 +9173,6 @@ of	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 rock	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 There	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 no	O	O	O	O	O	O	_	_	_
@@ -9462,7 +9182,6 @@ change	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
 aim	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 He	O	O	O	O	O	O	_	_	_
 fired	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
@@ -9476,7 +9195,6 @@ through	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 heart	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 other	O	O	O	O	O	O	_	_	_
 robber	O	O	O	O	O	O	_	_	_
@@ -9501,7 +9219,6 @@ over	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 top	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Venard	S-pers	O	O	O	O	O	NIL	_	_
 covered	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -9509,7 +9226,7 @@ spot	O	O	O	O	O	O	_	_	_
 with	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
 unerring	O	O	O	O	O	O	_	_	_
-Henry	O	O	O	O	O	O	_	_	_
+Henry	S-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 when	O	O	O	O	O	O	_	_	_
@@ -9530,7 +9247,6 @@ with	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 bullet	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 There	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 yet	O	O	O	O	O	O	_	_	_
@@ -9544,7 +9260,6 @@ to	O	O	O	O	O	O	_	_	_
 be	O	O	O	O	O	O	_	_	_
 seen	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 His	O	O	O	O	O	O	_	_	_
 pistol	O	O	O	O	O	O	_	_	_
 might	O	O	O	O	O	O	_	_	_
@@ -9558,7 +9273,6 @@ pointing	O	O	O	O	O	O	_	_	_
 at	O	O	O	O	O	O	_	_	_
 Yenard	S-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 latter	O	O	O	O	O	O	_	_	_
 clambered	O	O	O	O	O	O	_	_	_
@@ -9570,7 +9284,6 @@ in	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
 den	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 He	O	O	O	O	O	O	_	_	_
 found	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -9600,7 +9313,6 @@ the	O	O	O	O	O	O	_	_	_
 missing	O	O	O	O	O	O	_	_	_
 robber	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 He	O	O	O	O	O	O	_	_	_
 found	O	O	O	O	O	O	_	_	_
 him	O	O	O	O	O	O	_	_	_
@@ -9617,7 +9329,6 @@ or	O	O	O	O	O	O	_	_	_
 more	O	O	O	O	O	O	_	_	_
 ahead	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Ve	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 nard	O	O	O	O	O	O	_	_	_
@@ -9627,7 +9338,6 @@ the	O	O	O	O	O	O	_	_	_
 robber	O	O	O	O	O	O	_	_	_
 fell	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Another	O	O	O	O	O	O	_	_	_
 bullet	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -9640,7 +9350,6 @@ down	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 hill—dead	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 TUB	O	O	O	O	O	O	_	_	_
 SCHOOL	O	O	O	O	O	O	_	_	_
 BOARD	O	O	O	O	O	O	_	_	_
@@ -9679,7 +9388,6 @@ get	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 school	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 majority	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -9713,7 +9421,6 @@ in	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
 direction	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 W	O	O	O	O	O	O	_	_	_
 «	O	O	O	O	O	O	_	_	_
 believe	O	O	O	O	O	O	_	_	_
@@ -9737,7 +9444,6 @@ to	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 people	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Mr	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Lees	E-pers	O	O	O	O	O	NIL	_	_
@@ -9792,7 +9498,6 @@ ot	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 people	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 We	O	O	O	O	O	O	_	_	_
 do	O	O	O	O	O	O	_	_	_
 not	O	O	O	O	O	O	_	_	_
@@ -9839,7 +9544,6 @@ day	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
 ladies	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 point	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -9909,7 +9613,6 @@ emphatically	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 no	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 If	O	O	O	O	O	O	_	_	_
 our	O	O	O	O	O	O	_	_	_
 county	O	O	O	O	O	O	_	_	_
@@ -9935,7 +9638,6 @@ instead	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 one	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Could	O	O	O	O	O	O	_	_	_
 we	O	O	O	O	O	O	_	_	_
 see	O	O	O	O	O	O	_	_	_
@@ -9987,7 +9689,6 @@ gentle	O	O	O	O	O	O	_	_	_
 man	O	O	O	O	O	O	_	_	_
 teacher	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 assertion	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
@@ -10016,7 +9717,6 @@ is	O	O	O	O	O	O	_	_	_
 basely	O	O	O	O	O	O	_	_	_
 false	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 We	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 made	O	O	O	O	O	O	_	_	_
@@ -10049,7 +9749,6 @@ prejudiced	O	O	O	O	O	O	_	_	_
 against	O	O	O	O	O	O	_	_	_
 her	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 We	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
 not	O	O	O	O	O	O	_	_	_
@@ -10080,7 +9779,6 @@ to	O	O	O	O	O	O	_	_	_
 get	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 A	O	O	O	O	O	O	_	_	_
 little	O	O	O	O	O	O	_	_	_
 over	O	O	O	O	O	O	_	_	_
@@ -10088,10 +9786,10 @@ a	O	O	O	O	O	O	_	_	_
 year	O	O	O	O	O	O	_	_	_
 ago	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Stur	B-prod	O	O	O	O	O	NIL	_	_
-¬	I-prod	O	O	O	O	O	NIL	_	_
-geon	I-prod	O	O	O	O	O	NIL	_	_
-Lendcr	E-prod	O	O	O	O	O	NIL	_	_
+Stur	B-pers	O	O	O	O	O	NIL	_	_
+¬	I-pers	O	O	O	O	O	NIL	_	_
+geon	I-pers	O	O	O	O	O	NIL	_	_
+Lendcr	E-pers	O	O	O	O	O	NIL	_	_
 published	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 very	O	O	O	O	O	O	_	_	_
@@ -10109,12 +9807,10 @@ White	E-pers	O	O	O	O	O	NIL	_	_
 to	O	O	O	O	O	O	_	_	_
 Robt	B-pers	O	O	O	O	O	NIL	_	_
 .	E-pers	O	O	O	O	O	NIL	_	_
-
 L	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Winn	I-pers	O	O	O	O	O	NIL	_	_
 .	E-pers	O	O	O	O	O	NIL	_	_
-
 Miss	O	O	O	O	O	O	_	_	_
 White.at	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -10124,14 +9820,12 @@ was	O	O	O	O	O	O	_	_	_
 engaged	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 both	O	O	O	O	O	O	_	_	_
-Chas	O	O	O	O	O	O	_	_	_
-.	O	O	O	O	O	O	_	_	_
-
+Chas	B-pers	O	O	O	O	O	NIL	_	_
+.	E-pers	O	O	O	O	O	NIL	_	_
 and	O	O	O	O	O	O	_	_	_
 Robt	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
-Winn	S-pers	O	O	O	O	O	NIL	_	_
+Winn	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 two	O	O	O	O	O	O	_	_	_
 brothers	O	O	O	O	O	O	_	_	_
@@ -10150,10 +9844,8 @@ was	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 wbichest	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Robt	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ,	O	O	O	O	O	O	_	_	_
 however	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -10164,7 +9856,6 @@ the	O	O	O	O	O	O	_	_	_
 successful	O	O	O	O	O	O	_	_	_
 suitor	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 young	O	O	O	O	O	O	_	_	_
 couple	O	O	O	O	O	O	_	_	_
@@ -10178,9 +9869,8 @@ agree	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 faithless	B-pers	O	O	O	O	O	NIL	_	_
-Robt	E-pers	O	O	O	O	O	NIL	_	_
-.	O	O	O	O	O	O	_	_	_
-
+Robt	I-pers	O	O	O	O	O	NIL	_	_
+.	E-pers	O	O	O	O	O	NIL	_	_
 left	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
 Texas	S-loc	O	O	O	O	O	Q1439	_	_
@@ -10215,7 +9905,6 @@ grounJs	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 desertion	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 pros	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
@@ -10263,19 +9952,17 @@ tbe	O	O	O	O	O	O	_	_	_
 first	O	O	O	O	O	O	_	_	_
 place	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 firm	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 Geo	B-pers	O	O	O	O	O	NIL	_	_
 .	E-pers	O	O	O	O	O	NIL	_	_
-
-D	B-pers	O	O	O	O	O	NIL	_	_
-.	I-pers	O	O	O	O	O	NIL	_	_
-Barnard	E-pers	O	O	O	O	O	NIL	_	_
-iSr	B-org	O	O	O	O	O	NIL	_	_
-Co	I-org	O	O	O	O	O	NIL	_	_
-.	E-org	O	O	O	O	O	NIL	_	_
+D	B-org	O	O	O	O	O	NIL	_	_
+.	I-org	O	O	O	O	O	NIL	_	_
+Barnard	I-org	O	O	O	O	O	NIL	_	_
+iSr	I-org	O	O	O	O	O	NIL	_	_
+Co	E-org	O	O	O	O	O	NIL	_	_
+.	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 St	B-loc	O	O	O	O	O	NIL	_	_
@@ -10344,7 +10031,6 @@ is	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 Democrat	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 We	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
@@ -10361,8 +10047,8 @@ Messrs	B-org	O	O	O	O	O	NIL	_	_
 .	I-org	O	O	O	O	O	NIL	_	_
 Barnard	I-org	O	O	O	O	O	NIL	_	_
 &	I-org	O	O	O	O	O	NIL	_	_
-Co	I-org	O	O	O	O	O	NIL	_	_
-.	E-org	O	O	O	O	O	NIL	_	_
+Co	E-org	O	O	O	O	O	NIL	_	_
+.	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
 not	O	O	O	O	O	O	_	_	_
 uni	O	O	O	O	O	O	_	_	_
@@ -10372,7 +10058,6 @@ in	O	O	O	O	O	O	_	_	_
 their	O	O	O	O	O	O	_	_	_
 prices	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 For	O	O	O	O	O	O	_	_	_
 instance	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -10394,7 +10079,6 @@ county	E-loc	O	O	O	O	O	NIL	_	_
 for	O	O	O	O	O	O	_	_	_
 $17	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 St	B-loc	O	O	O	O	O	NIL	_	_
 .	I-loc	O	O	O	O	O	NIL	_	_
@@ -10437,7 +10121,6 @@ very	O	O	O	O	O	O	_	_	_
 same	O	O	O	O	O	O	_	_	_
 book	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 We	O	O	O	O	O	O	_	_	_
 presume	O	O	O	O	O	O	_	_	_
 their	O	O	O	O	O	O	_	_	_
@@ -10468,7 +10151,6 @@ capture	O	O	O	O	O	O	_	_	_
 an	O	O	O	O	O	O	_	_	_
 order	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 If	O	O	O	O	O	O	_	_	_
 Democratic	O	O	O	O	O	O	_	_	_
 county	O	O	O	O	O	O	_	_	_
@@ -10496,14 +10178,12 @@ ronize	O	O	O	O	O	O	_	_	_
 Democratic	O	O	O	O	O	O	_	_	_
 firms	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Curiosities	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Postage	O	O	O	O	O	O	_	_	_
 Stamp	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 There	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
 about	O	O	O	O	O	O	_	_	_
@@ -10523,15 +10203,14 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 world	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 museum	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Berlin	S-loc	O	O	O	O	O	Q64	_	_
-post	B-org	O	O	O	O	O	NIL	_	_
--	I-org	O	O	O	O	O	NIL	_	_
-cfllce	E-org	O	O	O	O	O	NIL	_	_
+Berlin	B-loc	O	O	O	O	O	NIL	_	_
+post	I-loc	O	O	O	O	O	NIL	_	_
+-	I-loc	O	O	O	O	O	NIL	_	_
+cfllce	E-loc	O	O	O	O	O	NIL	_	_
 alone	O	O	O	O	O	O	_	_	_
 contains	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
@@ -10564,7 +10243,6 @@ Africa	S-loc	O	O	O	O	O	Q15	_	_
 and	O	O	O	O	O	O	_	_	_
 Australia	S-loc	O	O	O	O	O	Q408	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 emblems	O	O	O	O	O	O	_	_	_
 upon	O	O	O	O	O	O	_	_	_
@@ -10597,7 +10275,6 @@ devices	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 legends	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
@@ -10639,7 +10316,6 @@ being	O	O	O	O	O	O	_	_	_
 philatelists	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 Upon	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 printed	O	O	O	O	O	O	_	_	_
@@ -10682,7 +10358,6 @@ and	O	O	O	O	O	O	_	_	_
 many	O	O	O	O	O	O	_	_	_
 presidents	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 M	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Pliillippe	I-pers	O	O	O	O	O	NIL	_	_
@@ -10730,7 +10405,6 @@ Paris	S-loc	O	O	O	O	O	Q90	_	_
 for	O	O	O	O	O	O	_	_	_
 150.000	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 England	S-loc	O	O	O	O	O	Q21	_	_
 and	O	O	O	O	O	O	_	_	_
@@ -10752,7 +10426,6 @@ instead	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 iron	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 shoe	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -10783,7 +10456,6 @@ a	O	O	O	O	O	O	_	_	_
 chemical	O	O	O	O	O	O	_	_	_
 process	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 said	O	O	O	O	O	O	_	_	_
@@ -10803,16 +10475,13 @@ the	O	O	O	O	O	O	_	_	_
 iron	O	O	O	O	O	O	_	_	_
 shoe	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 AGRICULTURE	O	O	O	O	O	O	_	_	_
 ON	O	O	O	O	O	O	_	_	_
-THE	O	O	O	O	O	O	_	_	_
-YUKON	S-loc	O	O	O	O	O	NIL	_	_
+THE	B-loc	O	O	O	O	O	NIL	_	_
+YUKON	E-loc	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Wheut	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Vr	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
 jet	O	O	O	O	O	O	_	_	_
@@ -10828,7 +10497,6 @@ Will	O	O	O	O	O	O	_	_	_
 Grow	O	O	O	O	O	O	_	_	_
 There	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Vice	B-pers	O	O	O	O	O	NIL	_	_
 Consul	I-pers	O	O	O	O	O	NIL	_	_
 Morrison	E-pers	O	O	O	O	O	NIL	_	_
@@ -10856,7 +10524,6 @@ of	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
 day	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 which	O	O	O	O	O	O	_	_	_
 reads	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
@@ -10894,7 +10561,6 @@ fully	O	O	O	O	O	O	_	_	_
 grown	O	O	O	O	O	O	_	_	_
 here	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 As	O	O	O	O	O	O	_	_	_
 far	O	O	O	O	O	O	_	_	_
 as	O	O	O	O	O	O	_	_	_
@@ -10904,7 +10570,6 @@ obser	O	O	O	O	O	O	_	_	_
 vations	O	O	O	O	O	O	_	_	_
 go	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 the	O	O	O	O	O	O	_	_	_
 climate	O	O	O	O	O	O	_	_	_
 here	O	O	O	O	O	O	_	_	_
@@ -10933,7 +10598,6 @@ states	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 America	S-loc	O	O	O	O	O	Q30	_	_
 .	O	O	O	O	O	O	_	_	_
-
 From	O	O	O	O	O	O	_	_	_
 my	O	O	O	O	O	O	_	_	_
 ex	O	O	O	O	O	O	_	_	_
@@ -10945,7 +10609,6 @@ last	O	O	O	O	O	O	_	_	_
 two	O	O	O	O	O	O	_	_	_
 years	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 1	O	O	O	O	O	O	_	_	_
 see	O	O	O	O	O	O	_	_	_
 no	O	O	O	O	O	O	_	_	_
@@ -10965,7 +10628,6 @@ vegetables	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 grains	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 As	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
 flowers	O	O	O	O	O	O	_	_	_
@@ -10984,7 +10646,6 @@ will	O	O	O	O	O	O	_	_	_
 do	O	O	O	O	O	O	_	_	_
 well	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 coming	O	O	O	O	O	O	_	_	_
 year	O	O	O	O	O	O	_	_	_
@@ -11022,7 +10683,6 @@ the	O	O	O	O	O	O	_	_	_
 hardy	O	O	O	O	O	O	_	_	_
 perennials	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Small	O	O	O	O	O	O	_	_	_
 fruit	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -11032,10 +10692,8 @@ straw	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 berries	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 currants	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 blackberries	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 raspberries	O	O	O	O	O	O	_	_	_
@@ -11043,7 +10701,6 @@ should	O	O	O	O	O	O	_	_	_
 do	O	O	O	O	O	O	_	_	_
 well	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Currants	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 raspberries	O	O	O	O	O	O	_	_	_
@@ -11057,14 +10714,11 @@ crow	O	O	O	O	O	O	_	_	_
 wild	O	O	O	O	O	O	_	_	_
 here	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ”	O	O	O	O	O	_	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 Shirt	O	O	O	O	O	O	_	_	_
 Waist	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Very	O	O	O	O	O	O	_	_	_
 inviting	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
@@ -11111,7 +10765,6 @@ and	O	O	O	O	O	O	_	_	_
 fine	O	O	O	O	O	O	_	_	_
 llannels	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 We	O	O	O	O	O	O	_	_	_
 shall	O	O	O	O	O	O	_	_	_
 wear	O	O	O	O	O	O	_	_	_
@@ -11145,7 +10798,6 @@ suc	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 cessors	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 A	O	O	O	O	O	O	_	_	_
 pretty	O	O	O	O	O	O	_	_	_
 feature	O	O	O	O	O	O	_	_	_
@@ -11162,7 +10814,6 @@ sim	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 plicity	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 human	O	O	O	O	O	O	_	_	_
 form	O	O	O	O	O	O	_	_	_
@@ -11186,7 +10837,6 @@ arc	O	O	O	O	O	O	_	_	_
 no	O	O	O	O	O	O	_	_	_
 more	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Even	O	O	O	O	O	O	_	_	_
 those	O	O	O	O	O	O	_	_	_
 professing	O	O	O	O	O	O	_	_	_
@@ -11219,7 +10869,6 @@ down	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 back	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Red	O	O	O	O	O	O	_	_	_
 dotted	O	O	O	O	O	O	_	_	_
 swiss	O	O	O	O	O	O	_	_	_
@@ -11260,7 +10909,6 @@ shaped	O	O	O	O	O	O	_	_	_
 pearl	O	O	O	O	O	O	_	_	_
 buttons	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 close	O	O	O	O	O	O	_	_	_
 sleeves	O	O	O	O	O	O	_	_	_
@@ -11287,7 +10935,6 @@ and	O	O	O	O	O	O	_	_	_
 Valenciennes	O	O	O	O	O	O	_	_	_
 lace	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Another	O	O	O	O	O	O	_	_	_
 style	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
@@ -11311,7 +10958,6 @@ tucking	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 inserting	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Ibis	O	O	O	O	O	O	_	_	_
 Is	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -11343,7 +10989,6 @@ could	O	O	O	O	O	O	_	_	_
 make	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Madras	O	O	O	O	O	O	_	_	_
 waists	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -11385,7 +11030,6 @@ on	O	O	O	O	O	O	_	_	_
 each	O	O	O	O	O	O	_	_	_
 side	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 These	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
 also	O	O	O	O	O	O	_	_	_
@@ -11401,7 +11045,6 @@ of	O	O	O	O	O	O	_	_	_
 narrow	O	O	O	O	O	O	_	_	_
 lace	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Large	O	O	O	O	O	O	_	_	_
 collars	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
@@ -11417,7 +11060,6 @@ shown	O	O	O	O	O	O	_	_	_
 at	O	O	O	O	O	O	_	_	_
 all	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 There	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 every	O	O	O	O	O	O	_	_	_
@@ -11437,7 +11079,6 @@ be	O	O	O	O	O	O	_	_	_
 sweetly	O	O	O	O	O	O	_	_	_
 cleanly	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Her	O	O	O	O	O	O	_	_	_
 waists	O	O	O	O	O	O	_	_	_
 say	O	O	O	O	O	O	_	_	_
@@ -11469,7 +11110,6 @@ for	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
 reason	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 One	O	O	O	O	O	O	_	_	_
 feature	O	O	O	O	O	O	_	_	_
 which	O	O	O	O	O	O	_	_	_
@@ -11500,7 +11140,6 @@ In	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 back	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 only	O	O	O	O	O	O	_	_	_
 semblance	O	O	O	O	O	O	_	_	_
@@ -11527,7 +11166,6 @@ over	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 sleeves	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 backs	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -11547,7 +11185,6 @@ with	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 front	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 There	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
 stiff	O	O	O	O	O	O	_	_	_
@@ -11584,7 +11221,6 @@ around	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 neck	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 th	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 aikiunrtrri	O	O	O	O	O	O	_	_	_
@@ -11599,7 +11235,6 @@ York	E-loc	O	O	O	O	O	Q60	_	_
 nnti	O	O	O	O	O	O	_	_	_
 Chicago	S-loc	O	O	O	O	O	Q1297	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Philadelphia	S-loc	O	O	O	O	O	Q1345	_	_
 ,	O	O	O	O	O	O	_	_	_
 June	O	O	O	O	O	O	_	_	_
@@ -11626,7 +11261,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 convention	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 As	O	O	O	O	O	O	_	_	_
 soon	O	O	O	O	O	O	_	_	_
 as	O	O	O	O	O	O	_	_	_
@@ -11761,18 +11395,16 @@ to	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 day	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Colonel	B-pers	O	O	O	O	O	NIL	_	_
 '	I-pers	O	O	O	O	O	NIL	_	_
-Dick	E-pers	O	O	O	O	O	NIL	_	_
-of	O	O	O	O	O	O	_	_	_
-Ohio	S-loc	O	O	O	O	O	Q1397	_	_
+Dick	I-pers	O	O	O	O	O	NIL	_	_
+of	I-pers	O	O	O	O	O	NIL	_	_
+Ohio	E-pers	O	O	O	O	O	NIL	_	_
 was	O	O	O	O	O	O	_	_	_
 elected	O	O	O	O	O	O	_	_	_
 temporary	O	O	O	O	O	O	_	_	_
 secretary	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Chairman	B-pers	O	O	O	O	O	NIL	_	_
 Ilanna	I-pers	O	O	O	O	O	NIL	_	_
 i	E-pers	O	O	O	O	O	NIL	_	_
@@ -11816,7 +11448,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 chairman	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 headquarters	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -11843,7 +11474,6 @@ campaign	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 181X5	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Just	O	O	O	O	O	O	_	_	_
 before	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -11888,7 +11518,6 @@ for	O	O	O	O	O	O	_	_	_
 four	O	O	O	O	O	O	_	_	_
 years	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 |	O	O	O	O	O	O	_	_	_
@@ -11896,10 +11525,9 @@ place	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 II	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
-L	B-org	O	O	O	O	O	NIL	_	_
-.	I-org	O	O	O	O	O	NIL	_	_
-Swords	E-org	O	O	O	O	O	NIL	_	_
+L	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
+Swords	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 New	B-loc	O	O	O	O	O	Q60	_	_
 York	E-loc	O	O	O	O	O	Q60	_	_
@@ -11909,7 +11537,6 @@ re	O	O	O	O	O	O	_	_	_
 >	O	O	O	O	O	O	_	_	_
 signed	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Ckaii	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 innu	O	O	O	O	O	O	_	_	_
@@ -11945,13 +11572,11 @@ C	I-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Payne	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Wisconsin	S-loc	O	O	O	O	O	NIL	_	_
 :	O	O	O	O	O	O	_	_	_
 Joseph	B-pers	O	O	O	O	O	NIL	_	_
 Manley	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Maine	S-loc	O	O	O	O	O	NIL	_	_
 :	O	O	O	O	O	O	_	_	_
 N	B-pers	O	O	O	O	O	NIL	_	_
@@ -11965,9 +11590,8 @@ Virginia	E-loc	O	O	O	O	O	NIL	_	_
 ;	O	O	O	O	O	O	_	_	_
 Harry	B-pers	O	O	O	O	O	NIL	_	_
 I	I-pers	O	O	O	O	O	NIL	_	_
->	I-pers	O	O	O	O	O	NIL	_	_
-.	E-pers	O	O	O	O	O	NIL	_	_
-
+>	E-pers	O	O	O	O	O	NIL	_	_
+.	O	O	O	O	O	O	_	_	_
 New	B-loc	O	O	O	O	O	NIL	_	_
 ,	I-loc	O	O	O	O	O	NIL	_	_
 Indiana	E-loc	O	O	O	O	O	NIL	_	_
@@ -11978,10 +11602,8 @@ L	I-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Slump	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Idaho	S-loc	O	B-loc.adm.reg	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 expected	O	O	O	O	O	O	_	_	_
@@ -12011,17 +11633,14 @@ Ohio	S-loc	O	O	O	O	O	Q1397	_	_
 July	O	O	O	O	O	O	_	_	_
 12tli	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
-HANNA	S-loc	O	O	O	O	O	Q263324	_	_
+HANNA	O	O	O	O	O	O	_	_	_
 RE	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 ELECTED	O	O	O	O	O	O	_	_	_
-CHAIRMAN	S-loc	O	O	O	O	O	Q1195172	_	_
-
+CHAIRMAN	S-pers	O	O	O	O	O	NIL	_	_
 FOREIGN	O	O	O	O	O	O	_	_	_
 WORDS	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Soma	O	O	O	O	O	O	_	_	_
 General	O	O	O	O	O	O	_	_	_
 Rule	O	O	O	O	O	O	_	_	_
@@ -12035,7 +11654,6 @@ Pro	O	O	O	O	O	O	_	_	_
 nouncing	O	O	O	O	O	O	_	_	_
 Them	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Many	O	O	O	O	O	O	_	_	_
 foreign	O	O	O	O	O	O	_	_	_
 words	O	O	O	O	O	O	_	_	_
@@ -12065,7 +11683,6 @@ rules	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 English	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 There	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -12100,7 +11717,6 @@ to	O	O	O	O	O	O	_	_	_
 warrant	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 pro	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
@@ -12127,7 +11743,6 @@ the	O	O	O	O	O	O	_	_	_
 foreign	O	O	O	O	O	O	_	_	_
 languages	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 Latin	O	O	O	O	O	O	_	_	_
 two	O	O	O	O	O	O	_	_	_
@@ -12146,7 +11761,6 @@ as	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 diphthong	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 There	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
 as	O	O	O	O	O	O	_	_	_
@@ -12162,7 +11776,6 @@ in	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 word	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 (	O	O	O	O	O	O	_	_	_
 Si	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
@@ -12197,10 +11810,9 @@ Vahg	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 ner	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
-Wagner	S-pers	O	B-pers.ind	O	O	O	NIL	_	_
+Wagner	S-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
-
 Tlie	O	O	O	O	O	O	_	_	_
 same	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -12225,7 +11837,6 @@ lan	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 guages	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 letter	O	O	O	O	O	O	_	_	_
 i	O	O	O	O	O	O	_	_	_
@@ -12251,7 +11862,6 @@ of	O	O	O	O	O	O	_	_	_
 long	O	O	O	O	O	O	_	_	_
 e	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 (	O	O	O	O	O	O	_	_	_
 Peek	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
@@ -12267,7 +11877,7 @@ an	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 ko	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
-Bianco	S-pers	O	O	O	O	O	NIL	_	_
+Bianco	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 It	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -12279,12 +11889,11 @@ ee	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 os	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
-Dios	S-pers	O	O	O	O	O	NIL	_	_
+Dios	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Sp	B-pers	O	O	O	O	O	NIL	_	_
-.	E-pers	O	O	O	O	O	NIL	_	_
+Sp	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Latin	O	O	O	O	O	O	_	_	_
@@ -12314,7 +11923,6 @@ the	O	O	O	O	O	O	_	_	_
 long	O	O	O	O	O	O	_	_	_
 sound	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Tlie	O	O	O	O	O	O	_	_	_
 letter	O	O	O	O	O	O	_	_	_
 c	O	O	O	O	O	O	_	_	_
@@ -12337,7 +11945,6 @@ sound	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 eh	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 (	O	O	O	O	O	O	_	_	_
 Viu	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
@@ -12347,7 +11954,6 @@ for	O	O	O	O	O	O	_	_	_
 Vinci	S-pers	O	B-pers.ind	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
-
 Final	O	O	O	O	O	O	_	_	_
 consonants	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
@@ -12357,14 +11963,12 @@ nearly	O	O	O	O	O	O	_	_	_
 always	O	O	O	O	O	O	_	_	_
 silent	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 (	O	O	O	O	O	O	_	_	_
 Pah	O	O	O	O	O	O	_	_	_
 for	O	O	O	O	O	O	_	_	_
 Pas	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
-
 So	O	O	O	O	O	O	_	_	_
 also	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -12381,7 +11985,6 @@ placed	O	O	O	O	O	O	_	_	_
 above	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 aecentiMl	O	O	O	O	O	O	_	_	_
 e	O	O	O	O	O	O	_	_	_
@@ -12401,7 +12004,6 @@ close	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 syllables	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
@@ -12415,7 +12017,6 @@ in	O	O	O	O	O	O	_	_	_
 English	O	O	O	O	O	O	_	_	_
 words	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 All	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 them	O	O	O	O	O	O	_	_	_
@@ -12450,7 +12051,6 @@ is	O	O	O	O	O	O	_	_	_
 often	O	O	O	O	O	O	_	_	_
 done	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 French	O	O	O	O	O	O	_	_	_
 make	O	O	O	O	O	O	_	_	_
@@ -12475,7 +12075,6 @@ difficult	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 acquire	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 nasal	O	O	O	O	O	O	_	_	_
 vowel	O	O	O	O	O	O	_	_	_
@@ -12490,7 +12089,6 @@ consonant—m	O	O	O	O	O	O	_	_	_
 or	O	O	O	O	O	O	_	_	_
 n	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 consonant	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -12508,7 +12106,6 @@ to	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 vowel	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 pronunciation	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -12530,14 +12127,12 @@ ster	O	O	O	O	O	O	_	_	_
 s	O	O	O	O	O	O	_	_	_
 dictionary	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Is	O	O	O	O	O	O	_	_	_
 sa	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 loug	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 should	O	O	O	O	O	O	_	_	_
 be	O	O	O	O	O	O	_	_	_
@@ -12572,10 +12167,9 @@ tin	O	O	O	O	O	O	_	_	_
 nasal	O	O	O	O	O	O	_	_	_
 sound	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
-Della	B-pers	O	O	O	O	O	NIL	_	_
-Pringle	E-pers	O	O	O	O	O	NIL	_	_
-Coining	O	O	O	O	O	O	_	_	_
+Della	B-org	O	O	O	O	O	NIL	_	_
+Pringle	I-org	O	O	O	O	O	NIL	_	_
+Coining	E-org	O	O	O	O	O	NIL	_	_
 The	O	O	O	O	O	O	_	_	_
 famous	O	O	O	O	O	O	_	_	_
 Della	B-org	O	O	O	O	O	NIL	_	_
@@ -12599,9 +12193,7 @@ Feb	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 21	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 .	O	O	O	O	O	_	_	_	_
-
 Miss	B-pers	O	O	O	O	O	NIL	_	_
 Pringle	E-pers	O	O	O	O	O	NIL	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -12626,7 +12218,6 @@ the	O	O	O	O	O	O	_	_	_
 \	O	O	O	O	O	O	_	_	_
 west	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Seventy	O	O	O	O	O	O	_	_	_
 straight	O	O	O	O	O	O	_	_	_
 weeks	O	O	O	O	O	O	_	_	_
@@ -12653,10 +12244,9 @@ one	O	O	O	O	O	O	_	_	_
 single	O	O	O	O	O	O	_	_	_
 failure	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Miss	B-pers	O	O	O	O	O	NIL	_	_
-Pringle	I-pers	O	O	O	O	O	NIL	_	_
-j	E-pers	O	O	O	O	O	NIL	_	_
+Pringle	E-pers	O	O	O	O	O	NIL	_	_
+j	O	O	O	O	O	O	_	_	_
 has	O	O	O	O	O	O	_	_	_
 selected	O	O	O	O	O	O	_	_	_
 “	O	O	O	O	O	O	_	_	_
@@ -12708,7 +12298,6 @@ play	O	O	O	O	O	O	_	_	_
 Faust	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 Miss	B-pers	O	O	O	O	O	NIL	_	_
 Pringle	E-pers	O	O	O	O	O	NIL	_	_
 carries	O	O	O	O	O	O	_	_	_
@@ -12734,7 +12323,6 @@ ance	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 promised	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Many	O	O	O	O	O	O	_	_	_
 pleasing	O	O	O	O	O	O	_	_	_
 spe	O	O	O	O	O	O	_	_	_
@@ -12757,7 +12345,6 @@ away	O	O	O	O	O	O	_	_	_
 Friday	O	O	O	O	O	O	_	_	_
 night	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Popular	O	O	O	O	O	O	_	_	_
 prices	O	O	O	O	O	O	_	_	_
 2	O	O	O	O	O	O	_	_	_
@@ -12771,7 +12358,6 @@ cents	O	O	O	O	O	O	_	_	_
 will	O	O	O	O	O	O	_	_	_
 prevail	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Tickets	O	O	O	O	O	O	_	_	_
 at	O	O	O	O	O	O	_	_	_
 Watt	S-pers	O	O	O	O	O	NIL	_	_
@@ -12781,18 +12367,16 @@ Phar	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 macy	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Why	O	O	O	O	O	O	_	_	_
 does	O	O	O	O	O	O	_	_	_
-Great	O	O	O	O	O	O	_	_	_
-Britian	O	O	O	O	O	O	_	_	_
+Great	B-org	O	O	O	O	O	NIL	_	_
+Britian	E-org	O	O	O	O	O	NIL	_	_
 buy	O	O	O	O	O	O	_	_	_
 its	O	O	O	O	O	O	_	_	_
 oatmeal	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 us	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
-
 Certainly	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
 seems	O	O	O	O	O	O	_	_	_
@@ -12815,8 +12399,8 @@ yet	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 every	O	O	O	O	O	O	_	_	_
 year	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-Quaker	B-org	O	O	O	O	O	Q2699694	_	_
+the	B-org	O	O	O	O	O	Q2699694	_	_
+Quaker	I-org	O	O	O	O	O	Q2699694	_	_
 Oats	I-org	O	O	O	O	O	Q2699694	_	_
 Company	E-org	O	O	O	O	O	Q2699694	_	_
 sends	O	O	O	O	O	O	_	_	_
@@ -12898,7 +12482,6 @@ desirable	O	O	O	O	O	O	_	_	_
 foreign	O	O	O	O	O	O	_	_	_
 trade	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 How	O	O	O	O	O	O	_	_	_
 well	O	O	O	O	O	O	_	_	_
 he	O	O	O	O	O	O	_	_	_
@@ -12917,10 +12500,9 @@ re	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 ports	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
-Quaker	O	O	O	O	O	O	_	_	_
-Oats	O	O	O	O	O	O	_	_	_
+Quaker	B-loc	O	O	O	O	O	NIL	_	_
+Oats	E-loc	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 This	O	O	O	O	O	O	_	_	_
 brand	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -12937,14 +12519,11 @@ and	O	O	O	O	O	O	_	_	_
 delicious	O	O	O	O	O	O	_	_	_
 flavor	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 51	O	O	O	O	O	_	_	_	_
-
 Whitman	S-pers	O	O	O	O	O	NIL	_	_
 Defeated	O	O	O	O	O	O	_	_	_
 Twice	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Washington	B-org	O	O	O	O	O	NIL	_	_
 State	I-org	O	O	O	O	O	NIL	_	_
 College	E-org	O	O	O	O	O	NIL	_	_
@@ -12960,7 +12539,6 @@ college	E-org	O	O	O	O	O	Q7996609	_	_
 this	O	O	O	O	O	O	_	_	_
 week	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 games	O	O	O	O	O	O	_	_	_
 were	O	O	O	O	O	O	_	_	_
@@ -12980,7 +12558,6 @@ o	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 clock	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Wednesday	O	O	O	O	O	O	_	_	_
 W	B-org	O	O	O	O	O	NIL	_	_
 .	I-org	O	O	O	O	O	NIL	_	_
@@ -12999,9 +12576,9 @@ to	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 Thursday	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-State	O	O	O	O	O	O	_	_	_
-College	O	O	O	O	O	O	_	_	_
-team	O	O	O	O	O	O	_	_	_
+State	B-org	O	O	O	O	O	NIL	_	_
+College	I-org	O	O	O	O	O	NIL	_	_
+team	E-org	O	O	O	O	O	NIL	_	_
 again	O	O	O	O	O	O	_	_	_
 won	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -13012,7 +12589,6 @@ being	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 1	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Both	O	O	O	O	O	O	_	_	_
 games	O	O	O	O	O	O	_	_	_
 were	O	O	O	O	O	O	_	_	_
@@ -13031,9 +12607,7 @@ of	O	O	O	O	O	O	_	_	_
 enthusiastic	O	O	O	O	O	O	_	_	_
 rooters	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 .	O	O	O	O	O	_	_	_	_
-
 Whitman	S-pers	O	O	O	O	O	NIL	_	_
 ’	O	O	O	O	O	O	_	_	_
 s	O	O	O	O	O	O	_	_	_
@@ -13051,7 +12625,6 @@ Friday	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 Saturday	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Registration	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 Light	O	O	O	O	O	O	_	_	_
@@ -13073,7 +12646,6 @@ tion	O	O	O	O	O	O	_	_	_
 September	O	O	O	O	O	O	_	_	_
 13	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 estimated	O	O	O	O	O	O	_	_	_
@@ -13083,7 +12655,6 @@ are	O	O	O	O	O	O	_	_	_
 at	O	O	O	O	O	O	_	_	_
 least	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 600	O	O	O	O	O	O	_	_	_
 qualified	O	O	O	O	O	O	_	_	_
 voters	O	O	O	O	O	O	_	_	_
@@ -13114,12 +12685,11 @@ will	O	O	O	O	O	O	_	_	_
 be	O	O	O	O	O	O	_	_	_
 obtained	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
-Tomor	O	O	O	O	O	O	_	_	_
-¬	O	O	O	O	O	O	_	_	_
-row	O	O	O	O	O	O	_	_	_
-morning	O	O	O	O	O	O	_	_	_
-Clerk	B-pers	O	O	O	O	O	NIL	_	_
+Tomor	B-pers	O	O	O	O	O	NIL	_	_
+¬	I-pers	O	O	O	O	O	NIL	_	_
+row	I-pers	O	O	O	O	O	NIL	_	_
+morning	I-pers	O	O	O	O	O	NIL	_	_
+Clerk	I-pers	O	O	O	O	O	NIL	_	_
 Henry	E-pers	O	O	O	O	O	NIL	_	_
 will	O	O	O	O	O	O	_	_	_
 take	O	O	O	O	O	O	_	_	_
@@ -13129,8 +12699,8 @@ to	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 office	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-Tweed	B-org	O	O	O	O	O	NIL	_	_
-Amos	E-org	O	O	O	O	O	NIL	_	_
+Tweed	B-loc	O	O	O	O	O	NIL	_	_
+Amos	E-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -13150,7 +12720,6 @@ the	O	O	O	O	O	O	_	_	_
 primary	O	O	O	O	O	O	_	_	_
 election	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 An	O	O	O	O	O	O	_	_	_
 effort	O	O	O	O	O	O	_	_	_
 will	O	O	O	O	O	O	_	_	_
@@ -13177,18 +12746,14 @@ from	O	O	O	O	O	O	_	_	_
 8	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 m	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 to	O	O	O	O	O	O	_	_	_
 8	O	O	O	O	O	O	_	_	_
 p	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 m	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ,	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 accommodate	O	O	O	O	O	O	_	_	_
@@ -13205,18 +12770,15 @@ during	O	O	O	O	O	O	_	_	_
 working	O	O	O	O	O	O	_	_	_
 hours	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
-B	B-pers	O	B-pers.ind.articleauthor	O	O	O	NIL	_	_
-.	I-pers	O	I-pers.ind.articleauthor	O	O	O	NIL	_	_
+B	B-pers	O	O	O	O	O	NIL	_	_
+.	I-pers	O	O	O	O	O	NIL	_	_
 M	I-pers	O	O	O	O	O	NIL	_	_
-.	I-pers	O	I-pers.ind.articleauthor	O	O	O	NIL	_	_
+.	I-pers	O	O	O	O	O	NIL	_	_
 JOHNSON	I-pers	O	O	O	O	O	NIL	_	_
-MFG	I-pers	O	O	O	O	O	NIL	_	_
-.	E-pers	O	O	O	O	O	NIL	_	_
-
-CO	B-pers	O	O	O	O	O	NIL	_	_
-.	E-pers	O	O	O	O	O	NIL	_	_
-
+MFG	E-pers	O	O	O	O	O	NIL	_	_
+.	O	O	O	O	O	O	_	_	_
+CO	B-loc	O	O	O	O	O	NIL	_	_
+.	E-loc	O	O	O	O	O	NIL	_	_
 A	O	O	O	O	O	O	_	_	_
 new	O	O	O	O	O	O	_	_	_
 manufacturing	O	O	O	O	O	O	_	_	_
@@ -13259,7 +12821,6 @@ organized	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 Jackson	S-loc	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 An	O	O	O	O	O	O	_	_	_
 applica	O	O	O	O	O	O	_	_	_
 tion	O	O	O	O	O	O	_	_	_
@@ -13296,7 +12857,6 @@ Johnson	I-org	O	O	O	O	O	NIL	_	_
 Manufacturing	I-org	O	O	O	O	O	NIL	_	_
 Company	E-org	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 industry	O	O	O	O	O	O	_	_	_
 will	O	O	O	O	O	O	_	_	_
@@ -13330,7 +12890,6 @@ M	I-pers	O	O	O	O	O	NIL	_	_
 Johnson	E-pers	O	O	O	O	O	NIL	_	_
 yesterday	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 plant	O	O	O	O	O	O	_	_	_
 will	O	O	O	O	O	O	_	_	_
@@ -13351,7 +12910,6 @@ travel	O	O	O	O	O	O	_	_	_
 ng	O	O	O	O	O	O	_	_	_
 salesmen	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Mr	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Johnson	E-pers	O	O	O	O	O	NIL	_	_
@@ -13383,8 +12941,8 @@ and	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 stockholders	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-Jackson	B-org	O	O	O	O	O	NIL	_	_
+the	B-org	O	O	O	O	O	NIL	_	_
+Jackson	I-org	O	O	O	O	O	NIL	_	_
 corporation	E-org	O	O	O	O	O	NIL	_	_
 believe	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
@@ -13399,17 +12957,14 @@ under	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
 direction	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 —	O	O	O	O	O	O	_	_	_
 Jack	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 son	O	O	O	O	O	O	_	_	_
 Sun	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 NOTICE	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 By	O	O	O	O	O	O	_	_	_
 virtue	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -13430,7 +12985,6 @@ Putnam	I-pers	O	O	O	O	O	NIL	_	_
 County	E-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ennessee	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 dated	O	O	O	O	O	O	_	_	_
@@ -13438,7 +12992,6 @@ on	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 6tU	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 day	B-time	O	O	O	O	O	NIL	_	_
 of	I-time	O	O	O	O	O	NIL	_	_
 January	I-time	O	O	O	O	O	NIL	_	_
@@ -13549,7 +13102,6 @@ K	I-org	O	O	O	O	O	NIL	_	_
 .	I-org	O	O	O	O	O	NIL	_	_
 Co	E-org	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ;	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -13613,7 +13165,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 case	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 This	O	O	O	O	O	O	_	_	_
 Jan	B-time	O	O	O	O	O	NIL	_	_
 .	I-time	O	O	O	O	O	NIL	_	_
@@ -13621,7 +13172,6 @@ Jan	B-time	O	O	O	O	O	NIL	_	_
 ,	I-time	O	O	O	O	O	NIL	_	_
 1920	E-time	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 L	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 F	I-pers	O	O	O	O	O	NIL	_	_
@@ -13630,7 +13180,6 @@ MILLER	I-pers	O	O	O	O	O	NIL	_	_
 ,	I-pers	O	O	O	O	O	NIL	_	_
 Sheriff	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 GAINESBORO	S-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 ROUTE	O	O	O	O	O	O	_	_	_
@@ -13659,7 +13208,6 @@ a	O	O	O	O	O	O	_	_	_
 law	O	O	O	O	O	O	_	_	_
 suit	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Old	B-pers	O	O	O	O	O	NIL	_	_
 Tim	E-pers	O	O	O	O	O	NIL	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -13673,7 +13221,6 @@ in	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 courts	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Cookeville	S-loc	O	O	O	O	O	NIL	_	_
 has	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -13682,7 +13229,6 @@ lawyers	O	O	O	O	O	O	_	_	_
 at	O	O	O	O	O	O	_	_	_
 all	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Everything	O	O	O	O	O	O	_	_	_
 else	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -13690,7 +13236,6 @@ up	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 date	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Any	O	O	O	O	O	O	_	_	_
 kind	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -13711,7 +13256,6 @@ ment	O	O	O	O	O	O	_	_	_
 or	O	O	O	O	O	O	_	_	_
 lime	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Jenkins	B-org	O	O	O	O	O	NIL	_	_
 &	I-org	O	O	O	O	O	NIL	_	_
 Darwin	I-org	O	O	O	O	O	NIL	_	_
@@ -13744,7 +13288,6 @@ to	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 date	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
@@ -13758,7 +13301,6 @@ some	O	O	O	O	O	O	_	_	_
 farm	O	O	O	O	O	O	_	_	_
 tools	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Jere	B-pers	O	O	O	O	O	NIL	_	_
 Whitson	E-pers	O	O	O	O	O	NIL	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -13766,10 +13308,9 @@ hard	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 beat	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
-Wei	O	O	O	O	O	O	_	_	_
-,	O	O	O	O	O	O	_	_	_
-R	B-org	O	O	O	O	O	NIL	_	_
+Wei	B-org	O	O	O	O	O	NIL	_	_
+,	I-org	O	O	O	O	O	NIL	_	_
+R	I-org	O	O	O	O	O	NIL	_	_
 .	I-org	O	O	O	O	O	NIL	_	_
 P	I-org	O	O	O	O	O	NIL	_	_
 .	I-org	O	O	O	O	O	NIL	_	_
@@ -13801,7 +13342,6 @@ by	O	O	O	O	O	O	_	_	_
 my	O	O	O	O	O	O	_	_	_
 place	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 tried	O	O	O	O	O	O	_	_	_
@@ -13818,10 +13358,8 @@ find	O	O	O	O	O	O	_	_	_
 them	O	O	O	O	O	O	_	_	_
 o	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 k	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 As	O	O	O	O	O	O	_	_	_
 I	O	O	O	O	O	O	_	_	_
 stated	O	O	O	O	O	O	_	_	_
@@ -13849,7 +13387,6 @@ out	O	O	O	O	O	O	_	_	_
 any	O	O	O	O	O	O	_	_	_
 news	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 saw	O	O	O	O	O	O	_	_	_
 lots	O	O	O	O	O	O	_	_	_
@@ -13870,7 +13407,6 @@ but	O	O	O	O	O	O	_	_	_
 little	O	O	O	O	O	O	_	_	_
 time	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Say	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 you	O	O	O	O	O	O	_	_	_
@@ -13881,7 +13417,6 @@ guys	O	O	O	O	O	O	_	_	_
 Casto	B-pers	O	O	O	O	O	NIL	_	_
 Jditchell	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Lon	B-pers	O	O	O	O	O	NIL	_	_
 Morelock	E-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -13905,7 +13440,6 @@ my	O	O	O	O	O	O	_	_	_
 old	O	O	O	O	O	O	_	_	_
 customers	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
-
 O	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 K	O	O	O	O	O	O	_	_	_
@@ -13913,7 +13447,6 @@ K	O	O	O	O	O	O	_	_	_
 I	O	O	O	O	O	O	_	_	_
 hope	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Say	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 fel	O	O	O	O	O	O	_	_	_
@@ -13935,12 +13468,10 @@ county	O	O	O	O	O	O	_	_	_
 seat	O	O	O	O	O	O	_	_	_
 again	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 How	O	O	O	O	O	O	_	_	_
 about	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
-
 If	O	O	O	O	O	O	_	_	_
 I	O	O	O	O	O	O	_	_	_
 do	O	O	O	O	O	O	_	_	_
@@ -13954,7 +13485,6 @@ trade	O	O	O	O	O	O	_	_	_
 Bob	B-pers	O	O	O	O	O	NIL	_	_
 Maggart	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 understand	O	O	O	O	O	O	_	_	_
 you	O	O	O	O	O	O	_	_	_
@@ -13965,14 +13495,12 @@ killed	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 France	S-loc	O	O	O	O	O	Q142	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 am	O	O	O	O	O	O	_	_	_
 glad	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 that	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 guess	O	O	O	O	O	O	_	_	_
 I	O	O	O	O	O	O	_	_	_
@@ -14001,11 +13529,11 @@ months	O	O	O	O	O	O	_	_	_
 Gainesboro	B-loc	O	O	O	O	O	NIL	_	_
 ,	I-loc	O	O	O	O	O	NIL	_	_
 Tenn	I-loc	O	O	O	O	O	NIL	_	_
-.	I-loc	O	O	O	O	O	NIL	_	_
-,	I-loc	O	O	O	O	O	NIL	_	_
-R	I-loc	O	O	O	O	O	NIL	_	_
-.	I-loc	O	O	O	O	O	NIL	_	_
-3	E-loc	O	O	O	O	O	NIL	_	_
+.	E-loc	O	O	O	O	O	NIL	_	_
+,	O	O	O	O	O	O	_	_	_
+R	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
+3	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 as	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -14024,7 +13552,6 @@ are	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 too	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Say	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Mansfield	B-pers	O	O	O	O	O	NIL	_	_
@@ -14044,7 +13571,6 @@ you	O	O	O	O	O	O	_	_	_
 used	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
-
 If	O	O	O	O	O	O	_	_	_
 everybody	O	O	O	O	O	O	_	_	_
 wants	O	O	O	O	O	O	_	_	_
@@ -14083,7 +13609,6 @@ A	I-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 RAWLEY	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 CRIMSON	O	O	O	O	O	O	_	_	_
 CLOVER	O	O	O	O	O	O	_	_	_
 I	O	O	O	O	O	O	_	_	_
@@ -14152,10 +13677,8 @@ up	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 soil	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Now	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 am	O	O	O	O	O	O	_	_	_
 not	O	O	O	O	O	O	_	_	_
@@ -14178,7 +13701,6 @@ wish	O	O	O	O	O	O	_	_	_
 I	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 I	O	O	O	O	O	O	_	_	_
 would	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
@@ -14235,7 +13757,6 @@ had	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 experience	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 A	O	O	O	O	O	O	_	_	_
 few	O	O	O	O	O	O	_	_	_
 things	O	O	O	O	O	O	_	_	_
@@ -14260,7 +13781,6 @@ seed	O	O	O	O	O	O	_	_	_
 bed	O	O	O	O	O	O	_	_	_
 well	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Make	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 seed	O	O	O	O	O	O	_	_	_
@@ -14278,7 +13798,6 @@ to	O	O	O	O	O	O	_	_	_
 20	O	O	O	O	O	O	_	_	_
 lbs	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 of	O	O	O	O	O	O	_	_	_
 se6d	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
@@ -14310,9 +13829,7 @@ ap	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 plied	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 .	O	O	O	O	O	_	_	_	_
-
 Either	O	O	O	O	O	O	_	_	_
 get	O	O	O	O	O	O	_	_	_
 some	O	O	O	O	O	O	_	_	_
@@ -14351,7 +13868,6 @@ the	O	O	O	O	O	O	_	_	_
 bright	O	O	O	O	O	O	_	_	_
 sunlight	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 After	O	O	O	O	O	O	_	_	_
 applying	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -14381,7 +13897,6 @@ evening	O	O	O	O	O	O	_	_	_
 or	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 a	O	O	O	O	O	O	_	_	_
 cloudy	O	O	O	O	O	O	_	_	_
 day	O	O	O	O	O	O	_	_	_
@@ -14392,7 +13907,6 @@ followig	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 seeding	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 this	O	O	O	O	O	O	_	_	_
 way	O	O	O	O	O	O	_	_	_
@@ -14401,7 +13915,6 @@ inoculation	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 ffectlve	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Apply	O	O	O	O	O	O	_	_	_
 when	O	O	O	O	O	O	_	_	_
 seeding	O	O	O	O	O	O	_	_	_
@@ -14422,7 +13935,6 @@ to	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 acre	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Tn	O	O	O	O	O	O	_	_	_
 this	O	O	O	O	O	O	_	_	_
 way	O	O	O	O	O	O	_	_	_
@@ -14447,7 +13959,6 @@ and	O	O	O	O	O	O	_	_	_
 stores	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 the	O	O	O	O	O	O	_	_	_
 soil	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -14462,7 +13973,6 @@ the	O	O	O	O	O	O	_	_	_
 crimson	O	O	O	O	O	O	_	_	_
 clover	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 *	O	O	O	O	O	O	_	_	_
 If	O	O	O	O	O	O	_	_	_
 you	O	O	O	O	O	O	_	_	_
@@ -14493,7 +14003,6 @@ the	O	O	O	O	O	O	_	_	_
 crimson	O	O	O	O	O	O	_	_	_
 clover	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 It	O	O	O	O	O	O	_	_	_
 will	O	O	O	O	O	O	_	_	_
 fur	O	O	O	O	O	O	_	_	_
@@ -14508,7 +14017,6 @@ hold	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 clover	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Hoping	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 see	O	O	O	O	O	O	_	_	_
@@ -14547,21 +14055,17 @@ hear	O	O	O	O	O	O	_	_	_
 from	O	O	O	O	O	O	_	_	_
 you	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 *	O	O	O	O	O	O	_	_	_
 W	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 G	I-pers	O	O	O	O	O	NIL	_	_
-.	I-pers	O	O	O	O	O	NIL	_	_
-ADSMOND	E-pers	O	O	O	O	O	NIL	_	_
+.	E-pers	O	O	O	O	O	NIL	_	_
+ADSMOND	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Co	B-org	O	O	O	O	O	NIL	_	_
 .	E-org	O	O	O	O	O	NIL	_	_
-
 Agent	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 BRIGHT	O	O	O	O	O	O	_	_	_
 COLORED	O	O	O	O	O	O	_	_	_
 WRAPS	O	O	O	O	O	O	_	_	_
@@ -14617,7 +14121,6 @@ on	O	O	O	O	O	O	_	_	_
 play	O	O	O	O	O	O	_	_	_
 suits	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 bu	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
@@ -14657,7 +14160,6 @@ of	O	O	O	O	O	O	_	_	_
 traffic	O	O	O	O	O	O	_	_	_
 danger	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Motoriste	O	O	O	O	O	O	_	_	_
 otten	O	O	O	O	O	O	_	_	_
 fall	O	O	O	O	O	O	_	_	_
@@ -14695,7 +14197,6 @@ coat	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 red	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 orange	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 bright	O	O	O	O	O	O	_	_	_
@@ -14717,13 +14218,11 @@ ac	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 cident	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 played	O	O	O	O	O	O	_	_	_
 unusual	O	O	O	O	O	O	_	_	_
 public	O	O	O	O	O	O	_	_	_
 spirit	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 community	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -14761,7 +14260,6 @@ free	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 cost	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Buying	O	O	O	O	O	O	_	_	_
 lumber	O	O	O	O	O	O	_	_	_
 cheap	O	O	O	O	O	O	_	_	_
@@ -14829,7 +14327,6 @@ their	O	O	O	O	O	O	_	_	_
 125	O	O	O	O	O	O	_	_	_
 pupils	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 There	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 about	O	O	O	O	O	O	_	_	_
@@ -14839,7 +14336,6 @@ cn	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 building	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 C	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 P	I-pers	O	O	O	O	O	NIL	_	_
@@ -14850,10 +14346,9 @@ is	O	O	O	O	O	O	_	_	_
 principal	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Buxton	S-loc	O	O	O	O	O	NIL	_	_
+Buxton	O	O	O	O	O	O	_	_	_
 school	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 students	O	O	O	O	O	O	_	_	_
 are	O	O	O	O	O	O	_	_	_
@@ -14882,7 +14377,6 @@ B	I-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Williams	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 —	O	O	O	O	O	O	_	_	_
 D	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
@@ -14930,7 +14424,6 @@ worth	O	O	O	O	O	O	_	_	_
 about	O	O	O	O	O	O	_	_	_
 $6,000	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 fire	O	O	O	O	O	O	_	_	_
 originated	O	O	O	O	O	O	_	_	_
@@ -14950,10 +14443,9 @@ school	O	O	O	O	O	O	_	_	_
 had	O	O	O	O	O	O	_	_	_
 closed	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
-Citi	B-pers	O	O	O	O	O	NIL	_	_
-¬	I-pers	O	O	O	O	O	NIL	_	_
-zens	E-pers	O	O	O	O	O	NIL	_	_
+Citi	O	O	O	O	O	O	_	_	_
+¬	O	O	O	O	O	O	_	_	_
+zens	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 who	O	O	O	O	O	O	_	_	_
 rallied	O	O	O	O	O	O	_	_	_
@@ -15013,7 +14505,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 furniture	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Buxton	S-loc	O	O	O	O	O	NIL	_	_
 people	O	O	O	O	O	O	_	_	_
 had	O	O	O	O	O	O	_	_	_
@@ -15032,12 +14523,11 @@ and	O	O	O	O	O	O	_	_	_
 dis	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 1	O	O	O	O	O	O	_	_	_
-
 CLEARING	O	O	O	O	O	O	_	_	_
 UP	O	O	O	O	O	O	_	_	_
 THE	O	O	O	O	O	O	_	_	_
-EDENTON	O	O	O	O	O	O	_	_	_
-CENSUS	O	O	O	O	O	O	_	_	_
+EDENTON	B-org	O	O	O	O	O	NIL	_	_
+CENSUS	E-org	O	O	O	O	O	NIL	_	_
 COUNT	O	O	O	O	O	O	_	_	_
 Edentonians	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
@@ -15102,7 +14592,6 @@ a	O	O	O	O	O	O	_	_	_
 new	O	O	O	O	O	O	_	_	_
 enumeration	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 efTia	O	O	O	O	O	O	_	_	_
@@ -15118,7 +14607,6 @@ this	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 cla	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 s	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 id	O	O	O	O	O	O	_	_	_
@@ -15130,7 +14618,6 @@ and	O	O	O	O	O	O	_	_	_
 press	O	O	O	O	O	O	_	_	_
 ballyhoo	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Edentonians	O	O	O	O	O	O	_	_	_
 have	O	O	O	O	O	O	_	_	_
 been	O	O	O	O	O	O	_	_	_
@@ -15238,7 +14725,6 @@ give	O	O	O	O	O	O	_	_	_
 us	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 "	O	O	O	O	O	O	_	_	_
-
 Bui	O	O	O	O	O	O	_	_	_
 it	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
@@ -15254,8 +14740,8 @@ of	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 representative	O	O	O	O	O	O	_	_	_
 ol	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-District	B-org	O	O	O	O	O	NIL	_	_
+the	B-org	O	O	O	O	O	NIL	_	_
+District	I-org	O	O	O	O	O	NIL	_	_
 Supervisor	I-org	O	O	O	O	O	NIL	_	_
 '	I-org	O	O	O	O	O	NIL	_	_
 s	I-org	O	O	O	O	O	NIL	_	_
@@ -15439,7 +14925,6 @@ conti	O	O	O	O	O	O	_	_	_
 aiy	O	O	O	O	O	O	_	_	_
 notwithstanding	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 First	O	O	O	O	O	O	_	_	_
 American	O	O	O	O	O	O	_	_	_
 Artist	O	O	O	O	O	O	_	_	_
@@ -15498,8 +14983,8 @@ spec	O	O	O	O	O	O	_	_	_
 ial	O	O	O	O	O	O	_	_	_
 invitation	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-His	O	O	O	O	O	O	_	_	_
-Excellency	B-pers	O	O	O	O	O	NIL	_	_
+His	B-pers	O	O	O	O	O	NIL	_	_
+Excellency	I-pers	O	O	O	O	O	NIL	_	_
 ,	I-pers	O	O	O	O	O	NIL	_	_
 Dumarsaix	I-pers	O	O	O	O	O	NIL	_	_
 Estime	I-pers	O	O	O	O	O	NIL	_	_
@@ -15511,7 +14996,6 @@ Republic	I-pers	O	O	O	O	O	NIL	_	_
 of	I-pers	O	O	O	O	O	NIL	_	_
 Haiti	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 She	O	O	O	O	O	O	_	_	_
 was	O	O	O	O	O	O	_	_	_
 chosen	O	O	O	O	O	O	_	_	_
@@ -15540,7 +15024,6 @@ his	O	O	O	O	O	O	_	_	_
 1	O	O	O	O	O	O	_	_	_
 tory	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Before	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Fiist	O	O	O	O	O	O	_	_	_
@@ -15549,7 +15032,6 @@ of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 Republic	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Madam	B-pers	O	O	O	O	O	NIL	_	_
 Estine	E-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -15612,7 +15094,6 @@ to	O	O	O	O	O	O	_	_	_
 our	O	O	O	O	O	O	_	_	_
 country	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Miss	B-pers	O	O	O	O	O	NIL	_	_
 Mor	I-pers	O	O	O	O	O	NIL	_	_
 ¬	I-pers	O	O	O	O	O	NIL	_	_
@@ -15644,7 +15125,6 @@ ed	O	O	O	O	O	O	_	_	_
 high	O	O	O	O	O	O	_	_	_
 praise	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Florida	B-org	O	O	O	O	O	NIL	_	_
 Court	E-org	O	O	O	O	O	NIL	_	_
 Sidesteps	O	O	O	O	O	O	_	_	_
@@ -15669,7 +15149,6 @@ University	B-org	O	O	O	O	O	Q501758	_	_
 of	I-org	O	O	O	O	O	Q501758	_	_
 Florida	E-org	O	O	O	O	O	Q501758	_	_
 .	O	O	O	O	O	O	_	_	_
-
 By	O	O	O	O	O	O	_	_	_
 unanimous	O	O	O	O	O	O	_	_	_
 vote	O	O	O	O	O	O	_	_	_
@@ -15681,10 +15160,10 @@ a	O	O	O	O	O	O	_	_	_
 plan	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-state	O	O	O	O	O	O	_	_	_
-board	O	O	O	O	O	O	_	_	_
-of	O	O	O	O	O	O	_	_	_
-control	O	O	O	O	O	O	_	_	_
+state	B-org	O	O	O	O	O	NIL	_	_
+board	I-org	O	O	O	O	O	NIL	_	_
+of	I-org	O	O	O	O	O	NIL	_	_
+control	E-org	O	O	O	O	O	NIL	_	_
 to	O	O	O	O	O	O	_	_	_
 enroll	O	O	O	O	O	O	_	_	_
 all	O	O	O	O	O	O	_	_	_
@@ -15799,8 +15278,8 @@ shec	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 policy	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-state	B-loc	O	O	O	O	O	Q812	_	_
+the	B-loc	O	O	O	O	O	Q812	_	_
+state	I-loc	O	O	O	O	O	Q812	_	_
 of	I-loc	O	O	O	O	O	Q812	_	_
 Florida	E-loc	O	O	O	O	O	Q812	_	_
 that	O	O	O	O	O	O	_	_	_
@@ -15837,7 +15316,6 @@ schools	O	O	O	O	O	O	_	_	_
 alike	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 There	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
 no	O	O	O	O	O	O	_	_	_
@@ -15864,7 +15342,7 @@ carriers	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 which	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Southland	O	O	O	O	O	O	_	_	_
+Southland	S-loc	O	O	O	O	O	NIL	_	_
 adheres	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 so	O	O	O	O	O	O	_	_	_
@@ -15878,8 +15356,8 @@ states	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 notably	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-Texas	B-loc	O	O	O	O	O	NIL	_	_
-Arkansas	E-loc	O	O	O	O	O	NIL	_	_
+Texas	O	O	O	O	O	O	_	_	_
+Arkansas	S-loc	O	O	O	O	O	Q1612	_	_
 ,	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 Oklahoma	S-loc	O	O	O	O	O	Q1649	_	_
@@ -15899,8 +15377,8 @@ to	O	O	O	O	O	O	_	_	_
 abide	O	O	O	O	O	O	_	_	_
 by	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Supreme	B-org	O	O	O	O	O	Q11201	_	_
-Court	E-org	O	O	O	O	O	Q11201	_	_
+Supreme	O	O	O	O	O	O	_	_	_
+Court	O	O	O	O	O	O	_	_	_
 ruling	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 admitting	O	O	O	O	O	O	_	_	_
@@ -15922,8 +15400,8 @@ the	O	O	O	O	O	O	_	_	_
 learnea	O	O	O	O	O	O	_	_	_
 judges	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-the	B-org	O	O	O	O	O	NIL	_	_
-Florida	I-org	O	O	O	O	O	NIL	_	_
+the	O	O	O	O	O	O	_	_	_
+Florida	B-org	O	O	O	O	O	NIL	_	_
 Supreme	I-org	O	O	O	O	O	NIL	_	_
 Court	E-org	O	O	O	O	O	NIL	_	_
 have	O	O	O	O	O	O	_	_	_
@@ -16029,7 +15507,6 @@ all	O	O	O	O	O	O	_	_	_
 men	O	O	O	O	O	O	_	_	_
 alike	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 THIS	O	O	O	O	O	O	_	_	_
 ‘	O	O	O	O	O	O	_	_	_
 ♦	O	O	O	O	O	O	_	_	_
@@ -16043,8 +15520,8 @@ the	O	O	O	O	O	O	_	_	_
 unanimous	O	O	O	O	O	O	_	_	_
 decision	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-Florida	B-org	O	O	O	O	O	NIL	_	_
+the	B-org	O	O	O	O	O	NIL	_	_
+Florida	I-org	O	O	O	O	O	NIL	_	_
 Supreme	I-org	O	O	O	O	O	NIL	_	_
 Court	E-org	O	O	O	O	O	NIL	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -16113,7 +15590,6 @@ Court	E-org	O	O	O	O	O	NIL	_	_
 s	O	O	O	O	O	O	_	_	_
 decision	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ‘	O	O	O	O	O	O	_	_	_
 What	O	O	O	O	O	O	_	_	_
 fools	O	O	O	O	O	O	_	_	_
@@ -16121,11 +15597,9 @@ some	O	O	O	O	O	O	_	_	_
 mortals	O	O	O	O	O	O	_	_	_
 be	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 ”	O	O	O	O	O	_	_	_	_
-
-Housewives	O	O	O	O	O	O	_	_	_
-League	O	O	O	O	O	O	_	_	_
+Housewives	B-org	O	O	O	O	O	NIL	_	_
+League	E-org	O	O	O	O	O	NIL	_	_
 Hold	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 Convention	O	O	O	O	O	O	_	_	_
@@ -16146,10 +15620,8 @@ T	B-org	O	O	O	O	O	NIL	_	_
 iskegee	I-org	O	O	O	O	O	NIL	_	_
 Institute	E-org	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Ala	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 under	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 theme	O	O	O	O	O	O	_	_	_
@@ -16165,7 +15637,6 @@ Mid	O	O	O	O	O	O	_	_	_
 Century	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 opening	O	O	O	O	O	O	_	_	_
 meeting	O	O	O	O	O	O	_	_	_
@@ -16187,7 +15658,6 @@ De	I-pers	O	O	O	O	O	NIL	_	_
 ¬	I-pers	O	O	O	O	O	NIL	_	_
 troit	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Mich	B-loc	O	O	O	O	O	NIL	_	_
 .	E-loc	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -16204,7 +15674,6 @@ S	I-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Bibb	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Mrs	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 E	I-pers	O	O	O	O	O	NIL	_	_
@@ -16213,16 +15682,15 @@ R	I-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Naggles	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Iota	O	O	O	O	O	O	_	_	_
 Phi	O	O	O	O	O	O	_	_	_
 Lambda	O	O	O	O	O	O	_	_	_
 sorority	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Tuskegee	O	O	O	O	O	O	_	_	_
-In	O	O	O	O	O	O	_	_	_
-¬	O	O	O	O	O	O	_	_	_
-stitute	O	O	O	O	O	O	_	_	_
+Tuskegee	B-org	O	O	O	O	O	NIL	_	_
+In	I-org	O	O	O	O	O	NIL	_	_
+¬	I-org	O	O	O	O	O	NIL	_	_
+stitute	E-org	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 welcomed	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -16230,7 +15698,6 @@ Leagu.e	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
 Tuskegee	S-loc	O	O	O	O	O	Q1420011	_	_
 .	O	O	O	O	O	O	_	_	_
-
 followed	O	O	O	O	O	O	_	_	_
 by	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
@@ -16254,7 +15721,6 @@ accomp	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 panist	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 addressing	O	O	O	O	O	O	_	_	_
 the	B-org	O	O	O	O	O	Q2467722	_	_
@@ -16267,8 +15733,8 @@ explained	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 purpose	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-League	O	O	O	O	O	O	_	_	_
+the	B-org	O	O	O	O	O	Q2467722	_	_
+League	E-org	O	O	O	O	O	Q2467722	_	_
 ,	O	O	O	O	O	O	_	_	_
 its	O	O	O	O	O	O	_	_	_
 achievements	O	O	O	O	O	O	_	_	_
@@ -16283,7 +15749,6 @@ com	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 munity	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 knowing	O	O	O	O	O	O	_	_	_
 its	O	O	O	O	O	O	_	_	_
 national	O	O	O	O	O	O	_	_	_
@@ -16291,7 +15756,6 @@ pos	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 sibilities	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 president	O	O	O	O	O	O	_	_	_
 pointed	O	O	O	O	O	O	_	_	_
@@ -16331,10 +15795,10 @@ part	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 growing	O	O	O	O	O	O	_	_	_
-Negro	O	O	O	O	O	O	_	_	_
-busi	O	O	O	O	O	O	_	_	_
-¬	O	O	O	O	O	O	_	_	_
-nesses	O	O	O	O	O	O	_	_	_
+Negro	B-org	O	O	O	O	O	NIL	_	_
+busi	I-org	O	O	O	O	O	NIL	_	_
+¬	I-org	O	O	O	O	O	NIL	_	_
+nesses	E-org	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
 She	O	O	O	O	O	O	_	_	_
 stated	O	O	O	O	O	O	_	_	_
@@ -16344,10 +15808,10 @@ pool	O	O	O	O	O	O	_	_	_
 buying	O	O	O	O	O	O	_	_	_
 would	O	O	O	O	O	O	_	_	_
 help	O	O	O	O	O	O	_	_	_
-Negro	O	O	O	O	O	O	_	_	_
-busi	O	O	O	O	O	O	_	_	_
-¬	O	O	O	O	O	O	_	_	_
-nesses	O	O	O	O	O	O	_	_	_
+Negro	B-org	O	O	O	O	O	NIL	_	_
+busi	I-org	O	O	O	O	O	NIL	_	_
+¬	I-org	O	O	O	O	O	NIL	_	_
+nesses	E-org	O	O	O	O	O	NIL	_	_
 to	O	O	O	O	O	O	_	_	_
 expand	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -16366,8 +15830,8 @@ in	O	O	O	O	O	O	_	_	_
 his	O	O	O	O	O	O	_	_	_
 address	O	O	O	O	O	O	_	_	_
 to	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-Business	B-org	O	O	O	O	O	NIL	_	_
+the	B-org	O	O	O	O	O	NIL	_	_
+Business	I-org	O	O	O	O	O	NIL	_	_
 and	I-org	O	O	O	O	O	NIL	_	_
 Housewives	I-org	O	O	O	O	O	NIL	_	_
 League	E-org	O	O	O	O	O	NIL	_	_
@@ -16398,8 +15862,8 @@ been	O	O	O	O	O	O	_	_	_
 carried	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
 by	O	O	O	O	O	O	_	_	_
-the	O	O	O	O	O	O	_	_	_
-Housewives	B-org	O	O	O	O	O	NIL	_	_
+the	B-org	O	O	O	O	O	NIL	_	_
+Housewives	I-org	O	O	O	O	O	NIL	_	_
 League	E-org	O	O	O	O	O	NIL	_	_
 for	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -16461,7 +15925,6 @@ grow	O	O	O	O	O	O	_	_	_
 strong	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 Mrs	B-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Fuqua	E-pers	O	O	O	O	O	NIL	_	_
@@ -16509,7 +15972,6 @@ pro	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 moted	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Among	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
 guests	O	O	O	O	O	O	_	_	_
@@ -16523,15 +15985,14 @@ F	I-pers	O	O	O	O	O	NIL	_	_
 .	I-pers	O	O	O	O	O	NIL	_	_
 Thomas	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
-Birming	B-pers	O	O	O	O	O	NIL	_	_
-¬	I-pers	O	O	O	O	O	NIL	_	_
-ham	I-pers	O	O	O	O	O	NIL	_	_
-,	I-pers	O	O	O	O	O	NIL	_	_
-Ala	I-pers	O	O	O	O	O	NIL	_	_
-.	I-pers	O	O	O	O	O	NIL	_	_
-,	I-pers	O	O	O	O	O	NIL	_	_
-a	I-pers	O	O	O	O	O	NIL	_	_
+Birming	B-loc	O	O	O	O	O	NIL	_	_
+¬	I-loc	O	O	O	O	O	NIL	_	_
+ham	I-loc	O	O	O	O	O	NIL	_	_
+,	I-loc	O	O	O	O	O	NIL	_	_
+Ala	I-loc	O	O	O	O	O	NIL	_	_
+.	E-loc	O	O	O	O	O	NIL	_	_
+,	O	O	O	O	O	O	_	_	_
+a	B-pers	O	O	O	O	O	NIL	_	_
 rug	I-pers	O	O	O	O	O	NIL	_	_
 and	I-pers	O	O	O	O	O	NIL	_	_
 mattress	I-pers	O	O	O	O	O	NIL	_	_
@@ -16544,18 +16005,15 @@ Freddvo	I-pers	O	O	O	O	O	NIL	_	_
 S	I-pers	O	O	O	O	O	NIL	_	_
 Henderson	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Atlanta	B-loc	O	O	O	O	O	NIL	_	_
 ,	I-loc	O	O	O	O	O	NIL	_	_
 Ga	I-loc	O	O	O	O	O	NIL	_	_
 .	E-loc	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 a	B-pers	O	O	O	O	O	NIL	_	_
 fashion	I-pers	O	O	O	O	O	NIL	_	_
 designer	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 In	O	O	O	O	O	O	_	_	_
 stressing	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -16599,7 +16057,6 @@ instead	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
 cases	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 This	O	O	O	O	O	O	_	_	_
 will	O	O	O	O	O	O	_	_	_
 in	O	O	O	O	O	O	_	_	_
@@ -16659,7 +16116,6 @@ need	O	O	O	O	O	O	_	_	_
 ¬	O	O	O	O	O	O	_	_	_
 ed	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Egg	O	O	O	O	O	O	_	_	_
 Producers	O	O	O	O	O	O	_	_	_
 Asked	O	O	O	O	O	O	_	_	_
@@ -16687,7 +16143,6 @@ making	O	O	O	O	O	O	_	_	_
 final	O	O	O	O	O	O	_	_	_
 plans	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 “	O	O	O	O	O	O	_	_	_
 We	O	O	O	O	O	O	_	_	_
 want	O	O	O	O	O	O	_	_	_
@@ -16722,12 +16177,11 @@ saiil	O	O	O	O	O	O	_	_	_
 Marvin	B-pers	O	O	O	O	O	NIL	_	_
 Lewis	I-pers	O	O	O	O	O	NIL	_	_
 ,	I-pers	O	O	O	O	O	NIL	_	_
-chairman	I-pers	O	O	O	O	O	NIL	_	_
-of	I-pers	O	O	O	O	O	NIL	_	_
-the	I-pers	O	O	O	O	O	NIL	_	_
-committee	E-pers	O	O	O	O	O	NIL	_	_
+chairman	E-pers	O	O	O	O	O	NIL	_	_
+of	O	O	O	O	O	O	_	_	_
+the	O	O	O	O	O	O	_	_	_
+committee	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 |	O	O	O	O	O	O	_	_	_
 “	O	O	O	O	O	O	_	_	_
 That	O	O	O	O	O	O	_	_	_
@@ -16740,7 +16194,6 @@ eggs	O	O	O	O	O	O	_	_	_
 too	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 "	O	O	O	O	O	O	_	_	_
-
 Money	O	O	O	O	O	O	_	_	_
 raised	O	O	O	O	O	O	_	_	_
 through	O	O	O	O	O	O	_	_	_
@@ -16847,7 +16300,6 @@ said	O	O	O	O	O	O	_	_	_
 Chairman	B-pers	O	O	O	O	O	NIL	_	_
 Lewis	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 “	O	O	O	O	O	O	_	_	_
 Ye	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
@@ -16945,7 +16397,6 @@ Atlantic	I-loc	O	O	O	O	O	NIL	_	_
 coast	E-loc	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
 ”	O	O	O	O	O	O	_	_	_
-
 Other	O	O	O	O	O	O	_	_	_
 members	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
@@ -16969,23 +16420,21 @@ and	O	O	O	O	O	O	_	_	_
 Evunder	B-pers	O	O	O	O	O	NIL	_	_
 Arnette	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Loris	B-org	O	O	O	O	O	NIL	_	_
 Scouts	E-org	O	O	O	O	O	NIL	_	_
 Win	O	O	O	O	O	O	_	_	_
-Camporee	S-pers	O	O	O	O	O	NIL	_	_
+Camporee	O	O	O	O	O	O	_	_	_
 Top	O	O	O	O	O	O	_	_	_
 Honor	O	O	O	O	O	O	_	_	_
 WINNERS	O	O	O	O	O	O	_	_	_
 —	O	O	O	O	O	O	_	_	_
 Members	O	O	O	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-Boy	O	O	O	O	O	O	_	_	_
-Scout	O	O	O	O	O	O	_	_	_
-Troop	O	O	O	O	O	O	_	_	_
-843	O	O	O	O	O	O	_	_	_
+Boy	B-org	O	O	O	O	O	NIL	_	_
+Scout	I-org	O	O	O	O	O	NIL	_	_
+Troop	I-org	O	O	O	O	O	NIL	_	_
+843	E-org	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 »	O	O	O	O	O	O	_	_	_
 »	O	O	O	O	O	O	_	_	_
 ho	O	O	O	O	O	O	_	_	_
@@ -17013,7 +16462,6 @@ down	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 road	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 lads	O	O	O	O	O	O	_	_	_
 won	O	O	O	O	O	O	_	_	_
@@ -17037,7 +16485,6 @@ and	O	O	O	O	O	O	_	_	_
 individual	O	O	O	O	O	O	_	_	_
 cooking	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 troop	O	O	O	O	O	O	_	_	_
 is	O	O	O	O	O	O	_	_	_
@@ -17050,11 +16497,10 @@ Bap	I-org	O	O	O	O	O	NIL	_	_
 tist	I-org	O	O	O	O	O	NIL	_	_
 Church	E-org	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
-Boy	O	O	O	O	O	O	_	_	_
-Scout	O	O	O	O	O	O	_	_	_
-Troop	O	O	O	O	O	O	_	_	_
-843	O	O	O	O	O	O	_	_	_
+Boy	B-org	O	O	O	O	O	NIL	_	_
+Scout	I-org	O	O	O	O	O	NIL	_	_
+Troop	I-org	O	O	O	O	O	NIL	_	_
+843	E-org	O	O	O	O	O	NIL	_	_
 of	O	O	O	O	O	O	_	_	_
 Loris	S-loc	O	O	O	O	O	Q368623	_	_
 won	O	O	O	O	O	O	_	_	_
@@ -17062,10 +16508,10 @@ top	O	O	O	O	O	O	_	_	_
 honors	O	O	O	O	O	O	_	_	_
 at	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
-Horry	O	O	O	O	O	O	_	_	_
-District	O	O	O	O	O	O	_	_	_
-Scout	O	O	O	O	O	O	_	_	_
-Camporee	O	O	O	O	O	O	_	_	_
+Horry	B-org	O	O	O	O	O	NIL	_	_
+District	I-org	O	O	O	O	O	NIL	_	_
+Scout	I-org	O	O	O	O	O	NIL	_	_
+Camporee	E-org	O	O	O	O	O	NIL	_	_
 March	O	O	O	O	O	O	_	_	_
 25	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
@@ -17074,8 +16520,8 @@ at	O	O	O	O	O	O	_	_	_
 Clear	B-loc	O	O	O	O	O	NIL	_	_
 Pond	E-loc	O	O	O	O	O	NIL	_	_
 between	O	O	O	O	O	O	_	_	_
-(	O	O	O	O	O	O	_	_	_
-Conway	S-loc	O	O	O	O	O	NIL	_	_
+(	B-loc	O	O	O	O	O	NIL	_	_
+Conway	E-loc	O	O	O	O	O	NIL	_	_
 and	O	O	O	O	O	O	_	_	_
 Myrtle	B-loc	O	O	O	O	O	NIL	_	_
 Beach	E-loc	O	O	O	O	O	NIL	_	_
@@ -17118,7 +16564,6 @@ indi	O	O	O	O	O	O	_	_	_
 vidual	O	O	O	O	O	O	_	_	_
 cooking	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-
 Friday	O	O	O	O	O	O	_	_	_
 night	O	O	O	O	O	O	_	_	_
 the	O	O	O	O	O	O	_	_	_
@@ -17155,7 +16600,6 @@ Air	I-pers	O	O	O	O	O	NIL	_	_
 Force	I-pers	O	O	O	O	O	NIL	_	_
 Base	E-pers	O	O	O	O	O	NIL	_	_
 .	O	O	O	O	O	O	_	_	_
-
 The	O	O	O	O	O	O	_	_	_
 Loris	S-org	O	O	O	O	O	Q368623	_	_
 troop	O	O	O	O	O	O	_	_	_
@@ -17183,10 +16627,10 @@ Francis	B-pers	O	O	O	O	O	NIL	_	_
 Ragan	E-pers	O	O	O	O	O	NIL	_	_
 ,	O	O	O	O	O	O	_	_	_
 George	B-pers	O	O	O	O	O	NIL	_	_
-Rent	I-pers	O	O	O	O	O	NIL	_	_
-/	E-pers	O	O	O	O	O	NIL	_	_
+Rent	E-pers	O	O	O	O	O	NIL	_	_
+/	O	O	O	O	O	O	_	_	_
 and	O	O	O	O	O	O	_	_	_
 George	B-pers	O	O	O	O	O	NIL	_	_
-Lav	I-pers	O	O	O	O	O	NIL	_	_
-.	E-pers	O	O	O	O	O	NIL	_	_
+Lav	E-pers	O	O	O	O	O	NIL	_	_
+.	O	O	O	O	O	O	_	_	_
 
