@@ -1,10 +1,10 @@
 TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NESTED	NEL-LIT	NEL-METO	MISC
-G	B-loc	O	B-pers.ind.articleauthor	O	O	O	_	_	_
-R	I-loc	O	I-loc.adm.nat	O	O	O	_	_	_
-E	I-loc	O	I-loc.adm.nat	O	O	O	_	_	_
-E	I-loc	O	I-loc.adm.nat	O	O	O	_	_	_
-F	I-loc	O	I-loc.adm.nat	O	O	O	_	_	_
-E	E-loc	O	I-loc.adm.nat	O	O	O	_	_	_
+G	O	O	O	O	O	O	_	_	_
+R	O	O	O	O	O	O	_	_	_
+E	O	O	O	O	O	O	_	_	_
+E	O	O	O	O	O	O	_	_	_
+F	O	O	O	O	O	O	_	_	_
+E	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 1	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -46,10 +46,10 @@ admis	O	O	O	O	O	O	_	_	_
 par	O	O	O	O	O	O	_	_	_
 arrêt	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Conseil	O	O	O	O	O	O	_	_	_
-d	O	O	I-org.adm	O	O	O	_	_	_
-'	O	O	I-org.adm	O	O	O	_	_	_
-Etat	O	O	O	O	O	O	_	_	_
+Conseil	B-org	O	B-org.adm	O	O	O	_	_	_
+d	I-org	O	I-org.adm	O	I-comp.name	O	_	_	_
+'	I-org	O	I-org.adm	O	I-comp.name	O	_	_	_
+Etat	E-org	O	I-org.adm	O	O	O	_	_	_
 du	B-time	O	B-time.date.abs	O	O	O	_	_	_
 5	I-time	O	I-time.date.abs	O	O	O	_	_	_
 décembre	I-time	O	I-time.date.abs	O	O	O	_	_	_
@@ -104,8 +104,8 @@ ia	O	O	O	O	O	O	_	_	_
 noble	O	O	O	O	O	O	_	_	_
 justice	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Landeron	B-org	O	B-org.ent	O	O	O	_	_	_
-O	E-org	O	I-org.ent	O	O	O	_	_	_
+Landeron	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
+O	E-loc	O	I-org.ent	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 mer	O	O	O	O	O	O	_	_	_
@@ -178,7 +178,7 @@ de	O	O	O	O	O	O	_	_	_
 forclusion	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-X	O	O	O	O	O	O	_	_	_
+X	O	O	I-pers.ind	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 En	O	O	O	O	O	O	_	_	_
 vertu	O	O	O	O	O	O	_	_	_
@@ -214,13 +214,13 @@ l	O	O	O	O	O	O	_	_	_
 honorable	O	O	O	O	O	O	_	_	_
 cour	O	O	O	O	O	O	_	_	_
 dé	O	O	O	O	O	O	_	_	_
-justice	O	O	I-org.adm	O	O	O	_	_	_
+justice	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Val	B-loc	O	B-loc.adm.town	O	O	B-loc.adm.town	_	_	_
--	I-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
-de	I-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
--	I-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
-Travers	E-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
+Val	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
+-	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+-	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+Travers	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
@@ -399,9 +399,9 @@ engage	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 Magistrat	O	O	O	O	O	O	_	_	_
 rie	O	O	O	O	O	O	_	_	_
-.	O	O	I-org.adm	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
 
-Neuchatel	S-loc	O	B-loc.adm.town	B-org.ent	O	O	_	_	_
+Neuchatel	S-loc	B-org	B-loc.adm.town	B-org.ent	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 renvoyer	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
@@ -461,7 +461,7 @@ masse	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 biens	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-nommé	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
+nommé	B-pers	O	B-pers.ind	O	B-comp.qualifier	O	_	_	_
 Jean	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 '	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 "	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
@@ -530,7 +530,7 @@ ville	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-,	O	O	O	O	O	O	_	_	_
+,	O	O	I-time.date.abs	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 ,	O	O	O	O	O	O	_	_	_
@@ -553,7 +553,7 @@ que	O	O	O	O	O	O	_	_	_
 tenoit	O	O	O	O	O	O	_	_	_
 feu	O	O	O	O	O	O	_	_	_
 Mlle	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
-.	E-pers	O	I-pers.ind	O	O	O	_	_	_
+.	E-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 
 Eckard	S-pers	O	I-pers.ind	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
@@ -872,7 +872,7 @@ maître	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 charpentier	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 à	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 Couve	I-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.town	_	_	_
-t	E-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.town	_	_	_
+t	E-pers	O	I-pers.ind	O	I-comp.function	I-loc.adm.town	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 '	O	O	O	O	O	O	_	_	_
@@ -950,12 +950,12 @@ grandeurs	O	O	O	O	O	O	_	_	_
 M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 Fa	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
-vre	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+vre	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
 négociant	E-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
-sur	O	O	O	O	O	O	_	_	_
+sur	O	O	I-pers.ind	O	I-comp.function	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-place	O	O	I-pers.ind	O	I-comp.function	O	_	_	_
+place	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 reçu	O	O	O	O	O	O	_	_	_
@@ -994,7 +994,7 @@ modique	O	O	O	O	O	O	_	_	_
 2	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Le	O	O	O	O	O	O	_	_	_
-sieur	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
+sieur	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 Quartier	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 O	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 ^	I-pers	O	I-pers.ind	O	O	O	_	_	_
@@ -1136,7 +1136,7 @@ de	O	O	O	O	O	O	_	_	_
 Neuchatel	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 O	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
-Chaumont	E-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Chaumont	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 un	O	O	O	O	O	O	_	_	_
 petit	O	O	O	O	O	O	_	_	_
@@ -1194,7 +1194,7 @@ Compagnie	B-org	O	B-org.ent	O	O	O	_	_	_
 des	I-org	O	I-org.ent	O	O	O	_	_	_
 Marchands	I-org	O	I-org.ent	O	O	O	_	_	_
 de	I-org	O	I-org.ent	O	O	O	_	_	_
-Neuchatel	E-org	O	I-org.adm	O	O	B-loc.adm.town	_	_	_
+Neuchatel	E-org	O	I-org.ent	O	O	B-loc.adm.town	_	_	_
 offre	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 prête	O	O	O	O	O	O	_	_	_
@@ -1230,19 +1230,19 @@ Gigaud	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 membre	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 du	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 petit	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-Conseti	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-;	O	O	O	O	O	O	_	_	_
-son	O	O	O	O	O	O	_	_	_
-procureur	O	O	O	O	O	O	_	_	_
+Conseti	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+;	I-pers	O	I-pers.ind	O	O	O	_	_	_
+son	I-pers	O	O	O	O	O	_	_	_
+procureur	E-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 soit	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 Ghatenay	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
-du	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-grand	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-Conseil	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+du	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+grand	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+Conseil	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 son	O	O	O	O	O	O	_	_	_
 receveur	O	O	O	O	O	O	_	_	_
@@ -1254,9 +1254,9 @@ M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 le	I-pers	O	I-pers.ind	O	O	O	_	_	_
 greffier	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 Péter	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
-,	I-pers	O	I-pers.ind	O	O	O	_	_	_
-son	I-pers	O	I-pers.ind	O	O	O	_	_	_
-secrétaire	E-pers	O	O	O	B-comp.function	O	_	_	_
+,	I-pers	O	O	O	O	O	_	_	_
+son	I-pers	O	O	O	O	O	_	_	_
+secrétaire	E-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 eu	O	O	O	O	O	O	_	_	_
 présentant	O	O	O	O	O	O	_	_	_
@@ -1360,8 +1360,8 @@ l	O	O	O	O	O	O	_	_	_
 honorable	O	O	O	O	O	O	_	_	_
 Justice	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-la	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
-Chaux	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+la	O	O	B-loc.adm.town	O	O	O	_	_	_
+Chaux	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
@@ -1431,17 +1431,17 @@ et	O	O	O	O	O	O	_	_	_
 naître	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
 dit	O	O	O	O	O	O	_	_	_
-Henri	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
+Henri	B-pers	O	B-pers.ind	O	O	O	_	_	_
 Jean	I-pers	O	I-pers.ind	O	O	O	_	_	_
 -	I-pers	O	I-pers.ind	O	O	O	_	_	_
-Maire	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+Maire	E-pers	O	I-pers.ind	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 Reine	S-pers	O	B-pers.ind	O	O	O	_	_	_
 née	O	O	O	O	O	O	_	_	_
 Robert	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
 -	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-Nicoud	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+Nicoud	E-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 mari	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
@@ -1525,11 +1525,11 @@ forclusion	O	O	O	O	O	O	_	_	_
 *	O	O	O	O	O	O	_	_	_
 Greffe	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-la	O	O	O	O	O	O	_	_	_
-Chaux	O	O	O	O	O	O	_	_	_
--	O	O	O	O	O	O	_	_	_
-de	O	O	O	O	O	O	_	_	_
-Fonds	O	O	O	O	O	O	_	_	_
+la	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Chaux	I-loc	O	B-loc.adm.town	O	O	O	_	_	_
+-	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+Fonds	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 jft	O	O	O	O	O	O	_	_	_
@@ -1548,9 +1548,9 @@ feu	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 sieur	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
 cap	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
-itaine	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
--	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
-lieutenant	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
+itaine	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+-	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+lieutenant	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 Jaques	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 Henri	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 Boûrquin	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
@@ -1571,8 +1571,8 @@ résidante	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 paroissienne	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-la	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
-Cote	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+la	O	O	B-loc.adm.town	O	O	O	_	_	_
+Cote	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 aux	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
@@ -1616,9 +1616,9 @@ Cousandièr	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
 "	I-pers	O	I-pers.ind	O	O	O	_	_	_
 maire	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
-du	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-dit	I-pers	O	O	O	O	O	_	_	_
-lieu	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+du	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+dit	O	O	O	O	O	O	_	_	_
+lieu	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -1695,10 +1695,10 @@ H	I-pers	O	I-pers.ind	O	O	O	_	_	_
 .	E-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 
 -	B-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-F	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+F	I-pers	O	I-pers.ind	O	O	O	_	_	_
 .	E-pers	O	I-pers.ind	O	O	O	_	_	_
 
-JEAHJAQUET	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
+JEAHJAQUET	B-pers	O	B-pers.ind.articleauthor	O	B-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
 greffier	E-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -1718,7 +1718,7 @@ sieur	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
 Charles	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 -	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 Henri	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-vêpre	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+vêpre	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
@@ -1751,7 +1751,7 @@ hôpitalier	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-damé	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
+damé	B-pers	O	B-pers.ind	O	O	O	_	_	_
 Susanne	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 Petitpierre	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
@@ -1781,7 +1781,7 @@ Juil	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-let	O	O	I-pers.ind	O	O	O	_	_	_
+let	O	O	O	O	O	O	_	_	_
 dernier	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
@@ -1817,12 +1817,12 @@ par	O	O	O	O	O	O	_	_	_
 devant	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 noble	O	O	O	O	O	O	_	_	_
-Cour	O	O	O	O	O	O	_	_	_
--	O	O	O	O	O	O	_	_	_
-de	O	O	O	O	O	O	_	_	_
--	O	O	O	O	O	O	_	_	_
-'	O	O	O	O	O	O	_	_	_
-Justice	O	O	O	O	O	O	_	_	_
+Cour	B-org	O	B-org.adm	O	O	O	_	_	_
+-	I-org	O	O	O	O	O	_	_	_
+de	I-org	O	I-org.adm	O	O	O	_	_	_
+-	I-org	O	I-org.adm	O	O	O	_	_	_
+'	I-org	O	I-org.adm	O	O	O	_	_	_
+Justice	E-org	O	I-org.adm	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Neuchatel	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
@@ -1901,15 +1901,15 @@ de	O	O	O	O	O	O	_	_	_
 feu	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-ancien	O	O	O	O	B-comp.function	O	_	_	_
-d	O	O	O	O	O	O	_	_	_
-'	O	O	O	O	O	O	_	_	_
-é	O	O	O	O	O	O	_	_	_
-glise	O	O	O	O	O	O	_	_	_
-Jonas	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
+ancien	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
+d	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+'	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+é	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+glise	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+Jonas	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 Bes	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-6	I-pers	O	I-loc.adm.town	O	I-comp.name	O	_	_	_
-on	E-pers	O	I-loc.adm.town	O	I-comp.name	O	_	_	_
+6	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+on	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
@@ -1948,8 +1948,8 @@ Henri	B-pers	O	B-pers.ind	O	O	O	_	_	_
 Favre	E-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Villard	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
-O	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
+Villard	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+O	O	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 sa	O	O	O	O	O	O	_	_	_
@@ -2074,9 +2074,9 @@ de	O	O	O	O	O	O	_	_	_
 forclusion	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-Greffe	O	O	B-pers.ind	O	O	O	_	_	_
+Greffe	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Valangin	S-loc	O	I-pers.ind	O	O	O	_	_	_
+Valangin	S-pers	O	B-pers.ind	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 >	O	O	O	O	O	O	_	_	_
@@ -2086,7 +2086,7 @@ Marianne	B-pers	O	B-pers.ind	O	O	O	_	_	_
 Perrenoud	E-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-la	O	O	B-loc.adm.town	O	O	O	_	_	_
+la	O	O	O	O	O	O	_	_	_
 Sagne	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 fille	O	O	O	O	O	O	_	_	_
@@ -2404,8 +2404,8 @@ sur	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 place	B-loc	O	B-loc.oro	O	O	O	_	_	_
 d	I-loc	O	I-loc.oro	O	O	O	_	_	_
-'	I-loc	O	I-loc.oro	O	O	O	_	_	_
-Yverdon	E-loc	O	I-loc.oro	O	B-comp.name	B-loc.adm.town	_	_	_
+'	I-loc	O	O	O	O	O	_	_	_
+Yverdon	E-loc	O	B-loc.adm.town	O	O	B-loc.adm.town	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
@@ -2500,9 +2500,9 @@ Par	O	O	O	O	O	O	_	_	_
 permission	O	O	O	O	O	O	_	_	_
 obtenue	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-M	O	O	O	O	B-comp.title	O	_	_	_
-.	O	O	I-pers.ind	O	I-comp.title	O	_	_	_
-"	O	O	I-pers.ind	O	O	O	_	_	_
+M	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
+"	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 Quaire	O	O	O	O	O	O	_	_	_
@@ -2515,8 +2515,8 @@ montes	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 le	O	O	O	O	O	O	_	_	_
-O	B-pers	O	O	O	B-comp.title	O	_	_	_
-?	E-pers	O	I-pers.ind	O	O	O	_	_	_
+O	O	O	O	O	O	O	_	_	_
+?	O	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 
 3	O	O	O	O	O	O	_	_	_
 Septembre	O	O	O	O	O	O	_	_	_
@@ -2552,9 +2552,9 @@ nant	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 située	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
-Plan	O	O	B-loc.adm.town	O	O	O	_	_	_
-de	O	O	O	O	O	O	_	_	_
-Serriere	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Plan	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
+de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+Serriere	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 entre	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
@@ -2564,8 +2564,8 @@ chemin	O	O	O	O	O	O	_	_	_
 dû	O	O	O	O	O	O	_	_	_
 dit	O	O	O	O	O	O	_	_	_
 Serriere	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
-d	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-'	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+d	I-loc	O	O	O	O	O	_	_	_
+'	I-loc	O	O	O	O	O	_	_	_
 ubère	E-loc	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
@@ -2664,7 +2664,7 @@ devant	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 maison	O	O	O	O	O	O	_	_	_
 De	O	O	O	O	O	O	_	_	_
-Charriera	S-pers	O	B-pers.ind	O	O	O	_	_	_
+Charriera	S-pers	O	B-pers.coll	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
 bas	O	O	O	O	O	O	_	_	_
@@ -3031,8 +3031,8 @@ J	O	O	O	O	O	O	_	_	_
 J	I-pers	O	I-pers.ind	O	O	O	_	_	_
 .	E-pers	O	I-pers.ind	O	O	O	_	_	_
 
-PERNET	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
-,	I-pers	O	I-pers.ind	O	O	O	_	_	_
+PERNET	B-pers	O	B-pers.ind.articleauthor	O	B-comp.name	O	_	_	_
+,	I-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 greffier	E-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
@@ -3042,8 +3042,8 @@ A	O	O	O	O	O	O	_	_	_
 VENDRE	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-IX	O	O	O	O	O	O	_	_	_
-.	O	O	O	O	O	O	_	_	_
+IX	B-pers	O	I-pers.ind	O	B-comp.title	O	_	_	_
+.	E-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 
 M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
@@ -3075,7 +3075,7 @@ vin	O	O	O	O	O	O	_	_	_
 blanc	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-1802	S-time	O	I-time.date.abs	O	O	O	_	_	_
+1802	S-time	O	B-time.date.abs	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 T	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
@@ -3143,8 +3143,8 @@ OFFICIELS	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Noble	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
-et	I-pers	O	I-pers.ind	O	O	O	_	_	_
-vertueux	I-pers	O	B-pers.ind	O	B-comp.qualifier	O	_	_	_
+et	I-pers	O	O	O	O	O	_	_	_
+vertueux	I-pers	O	I-pers.ind	O	B-comp.qualifier	O	_	_	_
 César	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 d	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 '	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
@@ -3232,11 +3232,11 @@ forclusion	O	O	O	O	O	O	_	_	_
 Parord	S-pers	O	B-pers.ind	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-F	B-pers	O	B-pers.ind.articleauthor	O	O	O	_	_	_
-.	I-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
-C	I-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
-'	I-pers	O	I-pers.ind	O	O	O	_	_	_
-LtRC	E-pers	O	I-org.adm	O	O	O	_	_	_
+F	B-org	O	B-pers.ind.articleauthor	O	O	O	_	_	_
+.	I-org	O	I-org.ent	O	O	O	_	_	_
+C	I-org	O	I-org.ent	O	O	O	_	_	_
+'	I-org	O	I-org.adm	O	O	O	_	_	_
+LtRC	E-org	O	I-org.adm	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 £	O	O	O	O	O	O	_	_	_
 ffier	O	O	O	O	O	O	_	_	_
@@ -3250,9 +3250,9 @@ biens	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 AL	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 Fiançois	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
-.	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+.	E-pers	O	O	O	O	O	_	_	_
 
-Racle	S-pers	O	B-pers.ind	O	O	O	_	_	_
+Racle	S-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 Neuveville	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
@@ -3267,7 +3267,7 @@ Berne	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 publié	O	O	O	O	O	O	_	_	_
 l	B-time	O	B-time.date.abs	O	O	O	_	_	_
-'	I-time	O	B-time.date.abs	O	O	O	_	_	_
+'	I-time	O	I-time.date.abs	O	O	O	_	_	_
 année	I-time	O	I-time.date.abs	O	O	O	_	_	_
 1824	E-time	O	I-time.date.abs	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -3295,13 +3295,13 @@ O	I-time	O	I-time.date.abs	O	O	O	_	_	_
 ?	E-time	O	I-time.date.abs	O	O	O	_	_	_
 
 ,	O	O	O	O	O	O	_	_	_
-AlAL	B-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
-Millier	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+AlAL	S-org	O	I-pers.ind	O	I-comp.title	O	_	_	_
+Millier	S-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Sivary	S-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
-père	O	O	I-org.ent	O	O	O	_	_	_
-et	O	O	O	O	O	O	_	_	_
-Comp	O	O	O	O	O	O	_	_	_
+Sivary	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
+père	I-pers	O	I-pers.coll	O	O	O	_	_	_
+et	I-pers	O	O	O	O	O	_	_	_
+Comp	E-pers	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 Fribourg	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
@@ -3365,9 +3365,9 @@ ville	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 Berne	E-loc	O	I-loc.adm.town	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Al	B-pers	O	O	O	O	O	_	_	_
-Al	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
-.	E-pers	O	O	O	O	O	_	_	_
+Al	O	O	O	O	O	O	_	_	_
+Al	O	O	O	O	I-comp.title	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
 notifians	O	O	O	O	O	O	_	_	_
 ont	O	O	O	O	O	O	_	_	_
@@ -3467,9 +3467,9 @@ L	O	O	O	O	O	O	_	_	_
 râpes	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 pour	O	O	O	O	O	O	_	_	_
-L	O	O	O	O	O	O	_	_	_
-.	O	O	I-time.date.abs	O	O	O	_	_	_
-2947	S-time	O	B-time.date.abs	O	O	O	_	_	_
+L	B-time	O	B-time.date.abs	O	O	O	_	_	_
+.	I-time	O	I-time.date.abs	O	O	O	_	_	_
+2947	E-time	O	I-time.date.abs	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 <	O	O	O	O	O	O	_	_	_
@@ -3643,7 +3643,7 @@ ci	O	O	O	O	O	O	_	_	_
 devant	O	O	O	O	O	O	_	_	_
 négociant	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
-Berne	S-loc	O	B-loc.adm.town	O	O	B-loc.adm.town	_	_	_
+Berne	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 absent	O	O	O	O	O	O	_	_	_
@@ -3720,7 +3720,7 @@ l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 autorisation	O	O	O	O	O	O	_	_	_
 juri	O	O	O	O	O	O	_	_	_
-O	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
+O	B-pers	O	B-pers.ind	O	O	O	_	_	_
 .	E-pers	O	I-pers.ind	O	O	O	_	_	_
 
 tique	O	O	O	O	O	O	_	_	_
@@ -3728,7 +3728,7 @@ de	O	O	O	O	O	O	_	_	_
 Al	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	E-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 
-Freudenreich	B-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+Freudenreich	B-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
 lieutenant	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 d	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
@@ -3757,7 +3757,7 @@ les	O	O	O	O	O	O	_	_	_
 Notifians	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-signéKocH	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
+signéKocH	B-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
 avocat	E-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -3771,7 +3771,7 @@ MM	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 les	I-pers	O	I-pers.ind	O	O	O	_	_	_
 Quatre	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 -	I-pers	O	O	O	I-comp.name	O	_	_	_
-Ministraux	E-pers	O	O	O	O	O	_	_	_
+Ministraux	E-pers	O	O	O	I-comp.name	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 ,	O	O	O	O	O	O	_	_	_
@@ -4150,7 +4150,7 @@ et	O	O	O	O	O	O	_	_	_
 président	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
 de	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 la	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-Commission	I-pers	O	I-pers.ind	O	I-comp.function	B-org.ent	_	_	_
+Commission	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 de	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 santé	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
@@ -4158,7 +4158,7 @@ G	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 .	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 
 -	B-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-F	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+F	I-pers	O	I-pers.ind	O	O	O	_	_	_
 .	E-pers	O	I-pers.ind	O	O	O	_	_	_
 
 GALLOT	S-pers	O	B-pers.ind	O	O	O	_	_	_
@@ -4181,13 +4181,13 @@ hoirie	O	O	O	O	O	O	_	_	_
 titulaire	O	O	O	O	O	O	_	_	_
 dé	O	O	O	O	O	O	_	_	_
 M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
-la	I-pers	O	I-pers.ind	O	O	O	_	_	_
-grand	I-pers	O	O	O	O	O	_	_	_
+la	I-pers	O	O	O	O	O	_	_	_
+grand	I-pers	O	I-pers.ind	O	O	O	_	_	_
 baillive	I-pers	O	I-pers.ind	O	O	O	_	_	_
 de	I-pers	O	I-pers.ind	O	O	O	_	_	_
-Gingins	I-pers	O	I-pers.ind	O	O	O	_	_	_
+Gingins	I-pers	O	B-loc.adm.town	O	O	B-loc.adm.town	_	_	_
 -	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-Chevilly	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+Chevilly	E-pers	O	I-pers.ind	O	O	O	_	_	_
 née	O	O	O	O	O	O	_	_	_
 Pillichody	S-pers	O	B-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -4262,7 +4262,7 @@ trouver	O	O	O	O	O	O	_	_	_
 St	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 .	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 
-Jean	S-pers	O	I-pers.ind	O	O	O	_	_	_
+Jean	S-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
 jours	O	O	O	O	O	O	_	_	_
 indiqués	O	O	O	O	O	O	_	_	_
@@ -4288,11 +4288,11 @@ Donné	O	O	O	O	O	O	_	_	_
 avec	O	O	O	O	O	O	_	_	_
 permission	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Seigneur	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
+Seigneur	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
 Fischer	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-O	O	O	O	O	O	O	_	_	_
-giand	O	O	O	O	O	O	_	_	_
+O	O	O	I-pers.ind	O	O	O	_	_	_
+giand	O	O	I-pers.ind	O	O	O	_	_	_
 baillif	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 Cerlier	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
@@ -4328,7 +4328,7 @@ mois	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 sur	O	O	O	O	O	O	_	_	_
 fa	O	O	O	O	O	O	_	_	_
-montagne	O	O	O	O	O	O	_	_	_
+montagne	O	O	B-loc.phys.geo	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 AL	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 le	I-pers	O	I-pers.ind	O	O	O	_	_	_
@@ -4453,7 +4453,7 @@ au	O	O	O	O	O	O	_	_	_
 plaid	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Côte	O	O	O	O	O	O	_	_	_
+Côte	S-loc	O	B-loc.phys.geo	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 Auvernier	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -4513,7 +4513,7 @@ ordres	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
 Gouvernement	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Aîons	B-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+Aîons	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
 d	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 '	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 Ivernois	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
@@ -4542,7 +4542,7 @@ de	O	O	O	O	O	O	_	_	_
 St	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 .	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 
-Biaise	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Biaise	S-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 Vendredi	O	O	O	O	O	O	_	_	_
@@ -4681,8 +4681,8 @@ L	O	O	O	O	O	O	_	_	_
 auberge	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Croix	B-loc	O	B-loc.oro	O	O	O	_	_	_
--	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+Croix	B-loc	O	O	O	O	O	_	_	_
+-	I-loc	O	I-loc.oro	O	O	O	_	_	_
 d	I-loc	O	O	O	O	O	_	_	_
 '	I-loc	O	O	O	O	O	_	_	_
 or	E-loc	O	O	O	O	O	_	_	_
@@ -4731,7 +4731,7 @@ de	O	O	O	O	O	O	_	_	_
 cette	O	O	O	O	O	O	_	_	_
 vente	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-kîger	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+kîger	S-loc	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 qui	O	O	O	O	O	O	_	_	_
 occupe	O	O	O	O	O	O	_	_	_
@@ -4767,8 +4767,8 @@ dans	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 logement	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-St	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
-.	E-pers	O	I-pers.ind	O	O	O	_	_	_
+St	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
+.	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 
 Jean	S-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -4898,7 +4898,7 @@ Conversations	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 Lexicon	B-pers	O	B-pers.ind	O	O	O	_	_	_
 de	I-pers	O	I-pers.ind	O	O	O	_	_	_
-Brockhaus	E-pers	O	I-pers.ind	O	O	B-loc.adm.town	_	_	_
+Brockhaus	E-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 10	O	O	O	O	O	O	_	_	_
 vol	O	O	O	O	O	O	_	_	_
@@ -4907,10 +4907,10 @@ vol	O	O	O	O	O	O	_	_	_
 Histoire	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 O	B-pers	O	B-pers.ind	O	O	O	_	_	_
-Gilbas	I-pers	O	I-pers.ind	O	O	O	_	_	_
-de	I-pers	O	I-pers.ind	O	O	O	_	_	_
-Santillane	E-pers	O	I-pers.ind	O	O	B-loc.adm.town	_	_	_
-O	O	O	O	O	O	O	_	_	_
+Gilbas	E-pers	O	I-pers.ind	O	O	O	_	_	_
+de	O	O	O	O	O	O	_	_	_
+Santillane	B-pers	O	B-loc.adm.town	O	O	O	_	_	_
+O	E-pers	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 par	O	O	O	O	O	O	_	_	_
 LeSage	S-pers	O	B-pers.ind	O	O	O	_	_	_
@@ -4982,14 +4982,14 @@ avis	O	O	O	O	O	O	_	_	_
 Chez	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 Sieur	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
-Quinche	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+Quinche	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
-instituteur	E-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
+instituteur	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
+,	I-pers	O	I-pers.ind	O	O	O	_	_	_
+maison	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+Prince	E-pers	O	I-org.ent	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-maison	B-loc	O	B-loc.fac	O	O	O	_	_	_
-Prince	E-loc	O	I-loc.fac	O	B-comp.name	O	_	_	_
-,	O	O	I-loc.add.phys	O	O	O	_	_	_
-place	B-loc	O	B-loc.oro	O	O	O	_	_	_
+place	B-loc	O	B-loc.oro	O	B-comp.name	O	_	_	_
 des	I-loc	O	I-loc.oro	O	O	O	_	_	_
 Halles	E-loc	O	I-loc.oro	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -5038,7 +5038,7 @@ barreau	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Chez	O	O	O	O	O	O	_	_	_
 AL	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
-Jn	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+Jn	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 .	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 
 -	B-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
@@ -5120,7 +5120,7 @@ l	O	O	O	O	O	O	_	_	_
 aune	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
-grosdeNaples	S-loc	O	B-loc.adm.sup	O	O	O	_	_	_
+grosdeNaples	O	O	O	O	O	O	_	_	_
 nuances	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 mode	O	O	O	O	O	O	_	_	_
@@ -5282,7 +5282,7 @@ dits	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
 crêpe	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Chine	S-loc	O	O	O	O	O	_	_	_
+Chine	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 bordures	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -5420,9 +5420,9 @@ de	O	O	O	O	O	O	_	_	_
 Al	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	E-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 
-Aleuron	B-pers	O	B-pers.ind	O	O	O	_	_	_
--	I-pers	O	I-pers.ind	O	O	O	_	_	_
-Perret	E-pers	O	I-pers.ind	O	O	O	_	_	_
+Aleuron	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
+-	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+Perret	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
 faubourg	O	O	O	O	O	O	_	_	_
@@ -5473,7 +5473,7 @@ tems	O	O	O	O	O	O	_	_	_
 O	B-pers	O	B-pers.ind.articleauthor	O	O	O	_	_	_
 ig	I-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 O	I-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
-.	E-pers	O	O	O	O	O	_	_	_
+.	E-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 
 A	O	O	O	O	O	O	_	_	_
 bas	O	O	O	O	O	O	_	_	_
@@ -5508,7 +5508,7 @@ beau	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 bon	O	O	O	O	O	O	_	_	_
 café	O	O	O	O	O	O	_	_	_
-Havanne	S-loc	O	B-org.ent	O	O	O	_	_	_
+Havanne	S-org	O	B-org.ent	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 <	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
@@ -5552,7 +5552,7 @@ adr	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 AI	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 "	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
--	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
+-	I-pers	O	I-pers.ind	O	O	O	_	_	_
 Jeanrenaud	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 -	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 Racle	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
@@ -5648,7 +5648,7 @@ de	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 Luze	E-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.town	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 aux	O	O	O	O	O	O	_	_	_
-Prés	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Prés	B-loc	O	B-loc.phys.geo	O	O	O	_	_	_
 de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 O	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 Reuse	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
@@ -5694,8 +5694,8 @@ adr	O	O	O	O	O	O	_	_	_
 
 à	O	O	O	O	O	O	_	_	_
 Marti	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
-,	O	O	O	O	O	O	_	_	_
-sellier	O	O	O	O	O	O	_	_	_
+,	O	O	I-loc.adm.town	O	O	O	_	_	_
+sellier	S-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 près	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -5712,7 +5712,7 @@ ville	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-lithographie	O	O	B-org.ent	O	O	O	_	_	_
+lithographie	O	O	O	O	O	O	_	_	_
 Gagnebin	S-pers	O	B-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
@@ -5754,8 +5754,8 @@ Palerme	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
 chea	O	O	O	O	O	O	_	_	_
-Al	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
-Wittnauer	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+Al	B-pers	O	B-pers.ind	O	O	O	_	_	_
+Wittnauer	E-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
@@ -5914,9 +5914,9 @@ adr	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 au	O	O	O	O	O	O	_	_	_
-château	O	O	O	O	O	O	_	_	_
-de	O	O	I-loc.fac	O	O	O	_	_	_
-Vaumarcus	S-loc	O	I-loc.fac	O	O	O	_	_	_
+château	B-loc	O	B-loc.fac	O	O	O	_	_	_
+de	I-loc	O	I-loc.fac	O	O	O	_	_	_
+Vaumarcus	E-loc	O	I-loc.fac	O	B-comp.name	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 2	O	O	O	O	O	O	_	_	_
@@ -5985,7 +5985,7 @@ qualités	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 tels	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
-Champagne	O	O	B-loc.adm.reg	O	O	O	_	_	_
+Champagne	O	O	O	O	O	O	_	_	_
 blanc	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 rosé	O	O	O	O	O	O	_	_	_
@@ -5993,7 +5993,7 @@ rosé	O	O	O	O	O	O	_	_	_
 Bourgogne	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 mousseux	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Pomard	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Pomard	S-loc	O	B-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Madère	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -6033,9 +6033,9 @@ d	O	O	O	O	O	O	_	_	_
 
 29	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-AlAL	B-org	O	B-org.ent	O	O	O	_	_	_
-Pettavel	I-org	O	B-pers.ind	O	B-comp.name	O	_	_	_
-frères	E-org	O	I-org.ent	O	O	O	_	_	_
+AlAL	B-pers	O	B-pers.ind	O	O	O	_	_	_
+Pettavel	I-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
+frères	E-pers	O	I-pers.coll	O	O	O	_	_	_
 viennent	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 recevoir	O	O	O	O	O	O	_	_	_
@@ -6043,8 +6043,8 @@ de	O	O	O	O	O	O	_	_	_
 superbe	O	O	O	O	O	O	_	_	_
 colle	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-O	B-loc	O	B-org.ent	O	O	O	_	_	_
-Cologne	E-loc	O	B-loc.adm.town	O	O	O	_	_	_
+O	O	O	O	O	O	O	_	_	_
+Cologne	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 huiles	O	O	O	O	O	O	_	_	_
@@ -6095,7 +6095,7 @@ Steiner	E-pers	O	I-pers.ind	O	O	O	_	_	_
 maison	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 AI	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
-.	E-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
+.	E-pers	O	I-pers.ind	O	O	O	_	_	_
 
 DeLuzc	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
@@ -6109,7 +6109,7 @@ Croix	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 du	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-marché	E-loc	O	O	O	O	O	_	_	_
+marché	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 six	O	O	O	O	O	O	_	_	_
 chaises	O	O	O	O	O	O	_	_	_
@@ -6155,9 +6155,9 @@ Aug	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 
 L	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-Ecuyer	B-prod	O	B-pers.ind	O	O	O	_	_	_
--	I-prod	O	I-prod.media	O	O	O	_	_	_
-Pœllon	E-prod	O	I-prod.media	O	O	B-loc.adm.town	_	_	_
+Ecuyer	B-pers	O	B-pers.ind	O	O	O	_	_	_
+-	I-pers	O	I-pers.ind	O	O	O	_	_	_
+Pœllon	E-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 conseil	O	O	O	O	O	O	_	_	_
@@ -6259,7 +6259,7 @@ le	O	O	O	O	O	O	_	_	_
 tribunal	O	O	O	O	O	O	_	_	_
 civil	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Locle	S-loc	O	I-org.adm	O	O	O	_	_	_
+Locle	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ayant	O	O	O	O	O	O	_	_	_
 prononcé	O	O	O	O	O	O	_	_	_
@@ -6391,7 +6391,7 @@ tribunal	O	O	O	O	O	O	_	_	_
 civil	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
 district	B-loc	O	O	O	O	O	_	_	_
-du	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+du	I-loc	O	O	O	O	O	_	_	_
 Locle	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 par	O	O	O	O	O	O	_	_	_
@@ -6420,11 +6420,11 @@ O	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 Edouard	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 Uuguenin	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 -	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-Witillcmiii	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-,	O	O	O	O	O	O	_	_	_
-du	O	O	O	O	O	O	_	_	_
-Locle	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
-,	B-pers	O	I-pers.ind	O	O	O	_	_	_
+Witillcmiii	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+,	I-pers	O	I-pers.ind	O	O	O	_	_	_
+du	I-pers	O	O	O	O	O	_	_	_
+Locle	I-pers	O	B-loc.adm.town	O	O	O	_	_	_
+,	I-pers	O	I-pers.ind	O	O	O	_	_	_
 fabricant	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 d	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 '	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
@@ -6469,7 +6469,7 @@ du	O	O	O	O	O	O	_	_	_
 tribunal	O	O	O	O	O	O	_	_	_
 civil	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Locle	S-loc	O	O	O	O	O	_	_	_
+Locle	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 dès	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
@@ -6662,7 +6662,7 @@ du	O	O	O	O	O	O	_	_	_
 tribunal	O	O	O	O	O	O	_	_	_
 civil	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Locle	O	O	O	O	O	O	_	_	_
+Locle	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 dès	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
@@ -6776,8 +6776,8 @@ Le	O	O	O	O	O	O	_	_	_
 tribunal	O	O	O	O	O	O	_	_	_
 civil	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-la	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
-Chaux	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+la	O	O	B-loc.adm.town	O	O	O	_	_	_
+Chaux	B-loc	O	B-loc.adm.town	O	O	B-loc.adm.town	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
 de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
@@ -6855,8 +6855,8 @@ justice	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 paix	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-la	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
-Chaux	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+la	O	O	B-loc.adm.town	O	O	O	_	_	_
+Chaux	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
@@ -6895,7 +6895,7 @@ de	O	O	O	O	O	O	_	_	_
 se	O	O	O	O	O	O	_	_	_
 rencontrer	O	O	O	O	O	O	_	_	_
 le	B-time	O	B-time.date.abs	O	O	O	_	_	_
-samedi	I-time	O	B-time.date.abs	O	O	O	_	_	_
+samedi	I-time	O	I-time.date.abs	O	O	O	_	_	_
 29	I-time	O	I-time.date.abs	O	O	O	_	_	_
 mai	I-time	O	I-time.date.abs	O	O	O	_	_	_
 1858	E-time	O	I-time.date.abs	O	O	O	_	_	_
@@ -6914,8 +6914,8 @@ hôtel	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 ville	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-la	O	O	B-loc.adm.town	O	O	O	_	_	_
-de	B-loc	O	I-loc.adm.town	O	O	O	_	_	_
+la	O	O	O	O	O	O	_	_	_
+de	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 Fonds	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -6951,11 +6951,11 @@ avril	I-time	O	I-time.date.abs	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 tribunal	O	O	B-org.adm	O	O	O	_	_	_
 civil	O	O	O	O	O	O	_	_	_
-de	O	O	I-org.adm	O	O	O	_	_	_
-la	B-loc	O	I-org.adm	O	O	O	_	_	_
-Chaux	I-loc	O	I-org.adm	O	O	B-loc.adm.town	_	_	_
+de	O	O	O	O	O	O	_	_	_
+la	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Chaux	I-loc	O	B-loc.adm.town	O	O	B-loc.adm.town	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
-de	I-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
+de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
 Fonds	E-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -6985,10 +6985,10 @@ de	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 doreurs	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 à	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 la	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-Chaux	B-loc	O	B-loc.adm.town	O	I-comp.function	B-loc.adm.town	_	_	_
--	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+Chaux	B-loc	O	I-pers.ind	O	I-comp.function	B-loc.adm.town	_	_	_
+-	I-loc	O	I-loc.adm.town	O	I-comp.function	I-loc.adm.town	_	_	_
 de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
--	I-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
+-	I-loc	O	I-loc.adm.town	O	I-comp.function	I-loc.adm.town	_	_	_
 Fonds	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 masse	O	O	O	O	O	O	_	_	_
@@ -7024,8 +7024,8 @@ greffe	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
 tribunal	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-la	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
-Chaux	I-loc	O	B-loc.adm.town	O	O	O	_	_	_
+la	O	O	B-loc.adm.town	O	O	O	_	_	_
+Chaux	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
@@ -7069,8 +7069,8 @@ hôtel	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 ville	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-la	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
-Chaux	I-loc	O	B-loc.adm.town	O	O	O	_	_	_
+la	O	O	B-loc.adm.town	O	O	O	_	_	_
+Chaux	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
@@ -7117,7 +7117,7 @@ masse	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
 décret	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-ci	O	O	B-pers.ind	O	B-comp.function	O	_	_	_
+ci	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 |	O	O	O	O	O	O	_	_	_
 toyen	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
@@ -7127,8 +7127,8 @@ François	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 Duvanel	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 O	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
-négociant	E-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
-,	O	O	I-pers.ind	O	O	O	_	_	_
+négociant	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
+,	E-pers	O	I-pers.ind	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 1	O	O	B-loc.adm.town	O	O	O	_	_	_
 Brot	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
@@ -7212,34 +7212,34 @@ cn	O	O	O	O	O	O	_	_	_
 dé	O	O	O	O	O	O	_	_	_
 i	O	O	O	O	O	O	_	_	_
 toyen	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
-Henri	I-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
+Henri	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 -	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 François	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-Duvanel	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-,	O	O	O	O	O	O	_	_	_
-né	O	O	O	O	O	O	_	_	_
-,	B-time	O	O	O	O	O	_	_	_
-,	I-time	O	I-time.date.abs	O	O	O	_	_	_
-T	I-time	O	I-time.date.abs	O	O	O	_	_	_
->	I-time	O	I-time.date.abs	O	O	O	_	_	_
-.	E-time	O	I-time.date.abs	O	O	O	_	_	_
+Duvanel	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+,	I-pers	O	I-pers.ind	O	O	O	_	_	_
+né	I-pers	O	O	O	O	O	_	_	_
+,	I-pers	O	O	O	O	O	_	_	_
+,	I-pers	O	O	O	O	O	_	_	_
+T	I-pers	O	B-loc.adm.nat	O	O	O	_	_	_
+>	I-pers	O	I-time.date.abs	O	O	O	_	_	_
+.	E-pers	O	I-time.date.abs	O	O	O	_	_	_
 
 .	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 T	B-org	O	I-pers.ind	O	O	O	_	_	_
-.	E-org	O	I-pers.ind	O	O	O	_	_	_
+.	E-org	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 .	B-pers	O	I-pers.ind	O	O	O	_	_	_
--	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+-	I-pers	O	I-pers.ind	O	O	O	_	_	_
 O	I-pers	O	I-pers.ind	O	O	O	_	_	_
 .	E-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 
 .	O	O	O	O	O	_	_	_	_
 
-O	B-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
+O	B-pers	O	B-pers.ind.articleauthor	O	O	O	_	_	_
 .	E-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 
 .	O	O	O	O	O	O	_	_	_
@@ -7260,8 +7260,8 @@ f	O	O	O	O	O	O	_	_	_
 Ot	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 velies	O	O	O	O	O	O	_	_	_
-O	O	O	O	O	O	O	_	_	_
-.	O	O	O	O	O	O	_	_	_
+O	B-pers	O	O	O	O	O	_	_	_
+.	E-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 
 Grande	B-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.nat	O	O	O	_	_	_
@@ -7537,7 +7537,7 @@ clans	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 vallée	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 du	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
-Rhône	E-loc	O	I-loc.phys.geo	O	B-comp.name	B-loc.phys.hydro	_	_	_
+Rhône	E-loc	O	I-loc.adm.reg	O	O	B-loc.phys.hydro	_	_	_
 et	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 ravagé	O	O	O	O	O	O	_	_	_
@@ -7643,8 +7643,8 @@ personnes	O	O	O	O	O	O	_	_	_
 toutes	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
 Haul	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
--	I-loc	O	I-loc.phys.geo	O	O	O	_	_	_
-Valaîs	E-loc	O	I-loc.phys.geo	O	O	O	_	_	_
+-	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
+Valaîs	E-loc	O	I-loc.adm.reg	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 quitté	O	O	O	O	O	O	_	_	_
@@ -8468,7 +8468,7 @@ d	O	O	O	O	O	O	_	_	_
 impatience	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-ROKE	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+ROKE	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 12	O	O	O	O	O	O	_	_	_
@@ -8526,8 +8526,8 @@ basilique	O	O	O	O	O	O	_	_	_
 vatieane	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
 St	B-loc	O	B-loc.fac	O	O	O	_	_	_
--	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-Pierre	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
+-	I-loc	O	I-loc.fac	O	O	O	_	_	_
+Pierre	E-loc	O	I-loc.fac	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
@@ -8937,7 +8937,7 @@ la	O	O	O	O	O	O	_	_	_
 flotte	O	O	O	O	O	O	_	_	_
 anglaise	O	O	O	O	O	O	_	_	_
 sur	O	O	O	O	O	O	_	_	_
-nople	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+nople	O	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 alin	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -9092,8 +9092,8 @@ moins	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 voix	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-canton	B-loc	O	B-loc.adm.reg	B-org.adm	O	O	_	_	_
-de	I-loc	O	I-loc.adm.reg	I-org.adm	O	O	_	_	_
+canton	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
+de	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
 Schwytz	E-loc	O	I-loc.adm.reg	O	B-comp.name	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
@@ -9105,7 +9105,7 @@ par	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 office	O	O	O	O	O	O	_	_	_
-fédéral	O	O	O	O	O	O	_	_	_
+fédéral	O	O	I-org.adm	O	O	O	_	_	_
 idu	O	O	O	O	O	O	_	_	_
 lait	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -9374,7 +9374,7 @@ avec	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 connivence	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Berne	S-loc	O	B-loc.adm.town	B-org.adm	O	O	_	_	_
+Berne	S-loc	B-org	B-loc.adm.town	B-org.adm	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
@@ -9402,7 +9402,7 @@ journal	O	O	O	O	O	O	_	_	_
 hebdomadaire	O	O	O	O	O	O	_	_	_
 «	O	O	O	O	O	O	_	_	_
 Lo	B-prod	O	B-prod.media	O	O	O	_	_	_
-Journal	I-prod	O	I-prod.media	O	O	O	_	_	_
+Journal	I-prod	O	B-prod.media	O	O	O	_	_	_
 des	I-prod	O	I-prod.media	O	O	O	_	_	_
 Hellènes	E-prod	O	I-prod.media	O	O	O	_	_	_
 »	O	O	O	O	O	O	_	_	_
@@ -9432,7 +9432,7 @@ revanche	O	O	O	O	O	O	_	_	_
 e	O	O	O	O	O	O	_	_	_
 constantiniste	O	O	O	O	O	O	_	_	_
 «	O	O	O	O	O	O	_	_	_
-Echo	B-prod	O	I-prod.media	O	B-comp.name	O	_	_	_
+Echo	B-prod	O	B-prod.media	O	B-comp.name	O	_	_	_
 de	I-prod	O	I-prod.media	O	O	O	_	_	_
 Grèce	E-prod	O	I-prod.media	O	O	B-loc.adm.nat	_	_	_
 î	O	O	O	O	O	O	_	_	_
@@ -9583,10 +9583,10 @@ et	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 O	B-org	O	B-org.ent	O	O	O	_	_	_
 O	I-org	O	I-org.ent	O	O	O	_	_	_
-etall	I-org	O	I-org.ent	O	O	O	_	_	_
+etall	I-org	O	O	O	O	O	_	_	_
 O	I-org	O	I-org.ent	O	O	O	_	_	_
-O	I-org	O	I-org.ent	O	I-comp.name	O	_	_	_
-O	I-org	O	I-org.ent	O	O	O	_	_	_
+O	I-org	O	O	O	O	O	_	_	_
+O	I-org	O	O	O	O	O	_	_	_
 .	E-org	O	I-org.ent	O	O	O	_	_	_
 
 —	O	O	O	O	O	O	_	_	_
@@ -9636,7 +9636,7 @@ intermédiaire	O	O	O	O	O	O	_	_	_
 entre	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-Entente	O	O	B-org.adm	O	O	O	_	_	_
+Entente	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
 industriels	O	O	O	O	O	O	_	_	_
@@ -9717,7 +9717,7 @@ E	I-org	O	I-org.ent	O	O	O	_	_	_
 G	I-org	O	I-org.ent	O	O	O	_	_	_
 .	I-org	O	I-org.ent	O	O	O	_	_	_
 de	I-org	O	I-org.ent	O	O	O	_	_	_
-Berlin	E-org	O	I-org.ent	O	O	B-loc.adm.town	_	_	_
+Berlin	E-org	O	B-loc.adm.town	O	O	B-loc.adm.town	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Cette	O	O	O	O	O	O	_	_	_
@@ -9911,9 +9911,9 @@ il	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 —	O	O	O	O	O	O	_	_	_
 Du	O	O	O	O	O	O	_	_	_
-z	B-prod	O	B-prod.media	O	O	O	_	_	_
-Démocrate	E-prod	O	I-prod.media	O	O	O	_	_	_
-»	O	O	I-prod.media	O	O	O	_	_	_
+z	O	O	O	O	O	O	_	_	_
+Démocrate	S-prod	O	B-prod.media	O	O	O	_	_	_
+»	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 Nous	O	O	O	O	O	O	_	_	_
 apprenons	O	O	O	O	O	O	_	_	_
@@ -10027,7 +10027,7 @@ du	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 département	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 de	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 l	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-'	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+'	I-pers	O	I-pers.ind	O	I-comp.function	I-org.ent	_	_	_
 économie	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 publique	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -10338,7 +10338,7 @@ voilà	O	O	O	O	O	O	_	_	_
 
 Lorsqu	O	O	O	O	O	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
-'	O	O	B-time.date.abs	O	O	O	_	_	_
+'	O	O	O	O	O	O	_	_	_
 en	B-time	O	B-time.date.abs	O	O	O	_	_	_
 1915	E-time	O	I-time.date.abs	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -10584,7 +10584,7 @@ des	O	O	O	O	O	O	_	_	_
 lessiveuses	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-ville	O	O	B-loc.adm.town	O	O	O	_	_	_
+ville	O	O	O	O	O	O	_	_	_
 fédérale	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 décidé	O	O	O	O	O	O	_	_	_
@@ -10855,15 +10855,15 @@ Le	O	O	O	O	O	O	_	_	_
 taurillon	O	O	O	O	O	O	_	_	_
 <	O	O	O	O	O	O	_	_	_
 Castor	O	O	O	O	O	O	_	_	_
-O	O	O	O	O	O	O	_	_	_
+O	O	O	O	O	I-comp.name	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 Mme	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
-veuve	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
-Gremaud	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
-,	I-pers	O	I-pers.ind	O	O	O	_	_	_
-Riaz	E-pers	O	B-loc.adm.town	O	O	O	_	_	_
+veuve	I-pers	O	I-pers.ind	O	O	O	_	_	_
+Gremaud	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+,	O	O	O	O	O	O	_	_	_
+Riaz	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 été	O	O	O	O	O	O	_	_	_
@@ -11046,7 +11046,7 @@ envergure	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 un	O	O	O	O	O	O	_	_	_
 réfractaire	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
-turc	I-pers	O	O	O	O	O	_	_	_
+turc	I-pers	O	I-pers.ind	O	O	O	_	_	_
 nommé	I-pers	O	I-pers.ind	O	O	O	_	_	_
 Seni	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
@@ -11308,7 +11308,7 @@ M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 Ryser	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-Jura	B-loc	O	B-loc.adm.reg	O	O	B-loc.adm.reg	_	_	_
+Jura	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 bernois	E-loc	O	I-loc.adm.reg	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 dit	O	O	O	O	O	O	_	_	_
@@ -11362,7 +11362,7 @@ M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 Hirter	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-Berne	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Berne	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 rappelle	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
@@ -11559,7 +11559,7 @@ M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 Platten	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-Zurich	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Zurich	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
@@ -12051,7 +12051,7 @@ un	O	O	O	O	O	O	_	_	_
 pré	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-ambule	S-pers	O	I-pers.ind	O	O	O	_	_	_
+ambule	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 une	O	O	O	O	O	O	_	_	_
 allusion	O	O	O	O	O	O	_	_	_
@@ -12352,16 +12352,16 @@ Une	O	O	O	O	O	O	_	_	_
 nouvelle	O	O	O	O	O	O	_	_	_
 affaire	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Szen	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
-O	I-loc	O	O	O	O	O	_	_	_
--	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-f	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-O	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-o	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-.	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-tl	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-.	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-ard	E-loc	O	O	O	O	O	_	_	_
+Szen	S-loc	O	B-org.ent	O	O	O	_	_	_
+O	O	O	O	O	O	O	_	_	_
+-	O	O	O	O	O	O	_	_	_
+f	O	O	O	O	O	O	_	_	_
+O	O	O	O	O	O	O	_	_	_
+o	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
+tl	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
+ard	O	O	O	O	O	O	_	_	_
 î	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 BELGRADE	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
@@ -12386,7 +12386,7 @@ Novosti	E-prod	O	I-prod.media	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-.	O	O	B-loc.adm.town	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
 Zagreb	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 annonce	O	O	O	O	O	O	_	_	_
@@ -12520,7 +12520,7 @@ places	O	O	O	O	O	O	_	_	_
 pour	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 match	O	O	O	O	O	O	_	_	_
-lande	S-loc	O	B-loc.adm.nat	B-org.ent	O	O	_	_	_
+lande	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 Uruguay	S-loc	B-org	B-loc.adm.nat	B-org.ent	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -12873,7 +12873,7 @@ pista	O	O	O	O	O	O	_	_	_
 Le	O	O	O	O	O	O	_	_	_
 meurtre	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Toujquet	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Toujquet	S-loc	O	B-loc.oro	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 PARIS	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -13030,7 +13030,7 @@ tre	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 de	B-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-iTntérieur	E-pers	O	I-pers.ind	O	I-comp.function	I-org.ent	_	_	_
+iTntérieur	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 intervint	O	O	O	O	O	O	_	_	_
 énergiquemènt	O	O	O	O	O	O	_	_	_
@@ -13132,7 +13132,7 @@ et	O	O	O	O	O	O	_	_	_
 Eielson	S-pers	O	B-pers.ind	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 Copenhague	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
--	O	O	B-loc.adm.town	O	O	O	_	_	_
+-	O	O	O	O	O	O	_	_	_
 COPENHAGUE	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 29	O	O	O	O	O	O	_	_	_
@@ -13143,7 +13143,7 @@ Havas	S-org	O	B-org.ent.pressagency	O	O	O	_	_	_
 
 —	O	O	O	O	O	O	_	_	_
 Les	O	O	O	O	O	O	_	_	_
-aviateur	O	O	B-pers.ind	O	O	O	_	_	_
+aviateur	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Wilkins	S-pers	O	B-pers.ind	O	O	O	_	_	_
@@ -13183,8 +13183,8 @@ enquête	O	O	O	O	O	O	_	_	_
 Japonaise	O	O	O	O	O	O	_	_	_
 dans	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-Chantoung	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
--	O	O	O	O	O	O	_	_	_
+Chantoung	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
+-	E-loc	O	O	O	O	O	_	_	_
 PARIS	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 29	O	O	O	O	O	O	_	_	_
@@ -13198,7 +13198,7 @@ Le	O	O	O	O	O	O	_	_	_
 «	O	O	O	O	O	O	_	_	_
 Petit	B-prod	O	B-prod.media	O	O	O	_	_	_
 Journal	E-prod	O	I-prod.media	O	O	O	_	_	_
-O	O	O	I-prod.media	O	O	O	_	_	_
+O	O	O	O	O	O	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
 i	O	O	O	O	O	O	_	_	_
 publie	O	O	O	O	O	O	_	_	_
@@ -13225,7 +13225,7 @@ gouvernement	O	O	O	O	O	O	_	_	_
 jl	O	O	O	O	O	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
-ponais	O	O	O	O	O	O	_	_	_
+ponais	O	O	I-org.adm	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 une	O	O	O	O	O	O	_	_	_
@@ -13266,11 +13266,11 @@ d	O	O	O	O	O	O	_	_	_
 envoyer	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-S	B-org	O	B-org.adm	B-org.adm	O	O	_	_	_
-.	I-org	O	I-org.adm	O	O	O	_	_	_
-<	I-org	O	I-org.adm	O	O	O	_	_	_
-LN	I-org	O	I-org.adm	O	O	O	_	_	_
-.	E-org	O	I-org.adm	O	O	O	_	_	_
+S	B-org	O	B-org.ent	O	O	O	_	_	_
+.	I-org	O	I-org.ent	O	O	O	_	_	_
+<	I-org	O	I-org.ent	O	O	O	_	_	_
+LN	I-org	O	I-org.ent	O	O	O	_	_	_
+.	E-org	O	I-org.ent	O	O	O	_	_	_
 
 Les	O	O	O	O	O	O	_	_	_
 pattes	O	O	O	O	O	O	_	_	_
@@ -13278,8 +13278,8 @@ des	O	O	O	O	O	O	_	_	_
 oies	O	O	O	O	O	O	_	_	_
 Les	O	O	O	O	O	O	_	_	_
 «	O	O	O	O	O	O	_	_	_
-Annales	B-prod	O	B-prod.media	O	O	O	_	_	_
-coloniales	E-prod	O	I-prod.media	O	O	O	_	_	_
+Annales	O	O	O	O	O	O	_	_	_
+coloniales	O	O	O	O	O	O	_	_	_
 >	O	O	O	O	O	O	_	_	_
 françaises	O	O	O	O	O	O	_	_	_
 fournissent	O	O	O	O	O	O	_	_	_
@@ -13451,8 +13451,8 @@ frapper	O	O	O	O	O	O	_	_	_
 dans	O	O	O	O	O	O	_	_	_
 vos	O	O	O	O	O	O	_	_	_
 mains	O	O	O	O	O	O	_	_	_
-O	O	O	O	O	O	O	_	_	_
-.	O	O	O	O	O	O	_	_	_
+O	B-pers	O	B-pers.ind	O	O	O	_	_	_
+.	E-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 
 .	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -13530,7 +13530,7 @@ l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 entreprise	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
-frères	B-org	O	B-org.ent	O	O	O	_	_	_
+frères	B-org	O	I-org.ent	O	O	O	_	_	_
 Bretscher	E-org	O	I-org.ent	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 fabrique	O	O	O	O	O	O	_	_	_
@@ -13771,7 +13771,7 @@ entièrement	O	O	O	O	O	O	_	_	_
 détruits	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-MURI	S-pers	O	B-pers.ind.articleauthor	O	O	O	_	_	_
+MURI	S-pers	O	B-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 
 14	O	O	O	O	O	O	_	_	_
@@ -13965,7 +13965,7 @@ L	O	O	O	O	O	O	_	_	_
 exposition	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 Sièrre	B-pers	O	B-pers.ind	O	O	O	_	_	_
-SIERRE	E-pers	O	B-pers.ind	O	O	O	_	_	_
+SIERRE	E-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 
 14	O	O	O	O	O	O	_	_	_
@@ -14097,7 +14097,7 @@ nom	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 autorités	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Sierre	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Sierre	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 il	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
@@ -14133,7 +14133,7 @@ ep	O	O	O	O	O	O	_	_	_
 auto	O	O	O	O	O	O	_	_	_
 dans	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-Val	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Val	B-loc	O	B-loc.phys.geo	O	O	O	_	_	_
 d	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 '	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 Anniviers	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
@@ -14355,7 +14355,7 @@ machine	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 RÉPUBLIQUE	B-loc	O	B-loc.adm.nat	O	O	O	_	_	_
-HELVÉTIQUE	E-loc	O	I-loc.adm.nat	O	O	O	_	_	_
+HELVÉTIQUE	E-loc	O	I-org.adm	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 JOURNAL	O	O	O	O	O	O	_	_	_
@@ -14486,9 +14486,9 @@ fecdnde	O	O	O	O	O	O	_	_	_
 tranfgreflîon	O	O	O	O	O	O	_	_	_
 ^	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-Tribunal	B-org	O	B-org.adm	O	O	O	_	_	_
-de	I-org	O	I-org.adm	O	O	O	_	_	_
-Gantori	E-org	O	I-org.adm	O	O	O	_	_	_
+Tribunal	O	O	B-org.adm	O	O	O	_	_	_
+de	O	O	O	O	O	O	_	_	_
+Gantori	S-loc	O	I-org.adm	O	O	O	_	_	_
 condamnera	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 refractaire	O	O	O	O	O	O	_	_	_
@@ -14550,7 +14550,7 @@ prifon	O	O	O	O	O	O	_	_	_
 parle	O	O	O	O	O	O	_	_	_
 tribunal	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Canton	O	O	O	O	O	O	_	_	_
+Canton	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 !	O	O	O	O	O	O	_	_	_
 
 S	O	O	O	O	O	O	_	_	_
@@ -14574,9 +14574,9 @@ public	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
 
-i	B-time	O	I-time.date.abs	O	O	O	_	_	_
-5	E-time	O	I-time.date.abs	O	O	O	_	_	_
-:	O	O	I-time.date.abs	O	O	O	_	_	_
+i	O	O	O	O	O	O	_	_	_
+5	O	O	O	O	O	O	_	_	_
+:	O	O	O	O	O	O	_	_	_
 >	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 La	O	O	O	O	O	O	_	_	_
@@ -14734,7 +14734,7 @@ re	O	O	O	O	O	O	_	_	_
 »	O	O	O	O	O	O	_	_	_
 i	O	O	O	O	O	O	_	_	_
 Tome	O	O	O	O	O	O	_	_	_
-Ut	O	O	I-pers.ind.articleauthor	O	O	O	_	_	_
+Ut	O	O	O	O	O	O	_	_	_
 
 Suisse	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -14744,8 +14744,8 @@ dépèche	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 S	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
-A	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
-.	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
+A	I-pers	O	I-pers.ind	O	O	O	_	_	_
+.	I-pers	O	I-pers.ind	O	O	O	_	_	_
 le	I-pers	O	I-pers.ind	O	O	O	_	_	_
 prince	I-pers	O	I-pers.ind	O	B-comp.title	O	_	_	_
 ds	I-pers	O	I-pers.ind	O	O	O	_	_	_
@@ -14768,14 +14768,14 @@ S	O	O	O	O	O	O	_	_	_
 E	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 M	O	O	O	O	O	O	_	_	_
-.	O	O	O	O	I-comp.title	O	_	_	_
-l	O	O	I-pers.ind	O	O	O	_	_	_
-'	O	O	I-pers.ind	O	O	O	_	_	_
-avoyer	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
-de	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-V	I-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.town	_	_	_
-/	I-pers	O	I-pers.ind	O	I-comp.function	I-loc.adm.town	_	_	_
-aueville	I-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.town	_	_	_
+.	O	O	O	O	O	O	_	_	_
+l	O	O	O	O	O	O	_	_	_
+'	O	O	O	O	O	O	_	_	_
+avoyer	O	O	O	O	O	O	_	_	_
+de	O	O	O	O	O	O	_	_	_
+V	B-pers	O	B-loc.adm.town	O	I-comp.function	O	_	_	_
+/	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+aueville	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
 président	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 de	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
@@ -14804,11 +14804,11 @@ commissaire	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 suisse	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 pour	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 les	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-rentes	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-sur	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+rentes	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+sur	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 Mont	B-loc	O	B-loc.phys.geo	O	O	B-loc.adm.town	_	_	_
-de	I-loc	O	I-loc.adm.town	O	O	I-org.ent	_	_	_
+de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 Milan	E-loc	O	I-loc.adm.town	O	O	B-loc.adm.town	_	_	_
 :	O	O	O	O	O	O	_	_	_
 
@@ -15093,7 +15093,7 @@ le	I-pers	O	I-pers.ind	O	O	O	_	_	_
 conseiller	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 Luthy	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Soleure	S-loc	O	I-pers.ind	O	O	O	_	_	_
+Soleure	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
 arrivé	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
@@ -15131,7 +15131,7 @@ résultat	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 puisque	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-canton	B-loc	B-org	B-loc.adm.reg	B-org.adm	O	O	_	_	_
+canton	B-loc	O	B-loc.adm.reg	B-org.adm	O	O	_	_	_
 de	I-loc	I-org	I-loc.adm.reg	I-org.adm	O	O	_	_	_
 Bâle	E-loc	I-org	I-loc.adm.reg	I-org.adm	B-comp.name	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
@@ -15205,9 +15205,9 @@ fers	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 A	O	O	O	O	O	O	_	_	_
-St	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
+St	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 .	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-Gall	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
+Gall	E-loc	O	I-loc.adm.reg	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 grand	O	O	O	O	O	O	_	_	_
@@ -15344,7 +15344,7 @@ suicides	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 A	O	O	O	O	O	O	_	_	_
-Genève	S-loc	O	B-loc.adm.reg	B-org.adm	O	O	_	_	_
+Genève	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 conseil	O	O	O	O	O	O	_	_	_
@@ -15398,8 +15398,8 @@ farineux	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
 Bâ	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
-'	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
-e	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+'	S-loc	O	I-loc.adm.town	O	O	O	_	_	_
+e	S-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 société	O	O	O	O	O	O	_	_	_
@@ -15754,12 +15754,12 @@ mort	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 S	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-M	O	O	O	O	I-comp.title	O	_	_	_
-.	O	O	I-pers.ind	O	I-comp.title	O	_	_	_
-le	O	O	I-pers.ind	O	O	O	_	_	_
-rni	O	O	O	O	B-comp.title	O	_	_	_
+M	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
+le	O	O	O	O	O	O	_	_	_
+rni	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Suède	S-loc	O	B-loc.adm.nat	O	B-comp.name	O	_	_	_
+Suède	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 vivement	O	O	O	O	O	O	_	_	_
 affecté	O	O	O	O	O	O	_	_	_
@@ -15921,7 +15921,7 @@ femand	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 celui	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Genève	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Genève	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 un	O	O	O	O	O	O	_	_	_
 sujet	O	O	O	O	O	O	_	_	_
 capable	O	O	O	O	O	O	_	_	_
@@ -15967,7 +15967,7 @@ M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 le	I-pers	O	I-pers.ind	O	O	O	_	_	_
 baron	I-pers	O	I-pers.ind	O	B-comp.title	O	_	_	_
 de	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
-Vitrolles	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+Vitrolles	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 cessera	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 faire	O	O	O	O	O	O	_	_	_
@@ -16137,7 +16137,7 @@ affaire	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 -	O	O	I-pers.ind	O	O	O	_	_	_
-jH	B-pers	O	B-pers.ind	O	O	O	_	_	_
+jH	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	E-pers	O	I-pers.ind	O	O	O	_	_	_
 
 Canuel	S-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
@@ -16159,7 +16159,7 @@ ancien	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 fcii	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 oMiïhonévBes	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 ^	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-ûeV	I-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.town	_	_	_
+ûeV	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 '	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 OBCren	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 prévôt	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
@@ -16238,7 +16238,7 @@ Kent	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 duc	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Clarence	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
+Clarence	S-loc	O	B-loc.adm.reg	O	O	B-loc.adm.town	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Le	O	O	O	O	O	O	_	_	_
@@ -16762,7 +16762,7 @@ lui	O	O	O	O	O	O	_	_	_
 Chris	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 '	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-tophe	E-loc	O	B-loc.adm.town	O	O	O	_	_	_
+tophe	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
@@ -16802,16 +16802,16 @@ par	O	O	O	O	O	O	_	_	_
 Boyer	S-pers	O	B-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
-^	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
+M	B-pers	O	O	O	B-comp.title	O	_	_	_
+^	I-pers	O	O	O	I-comp.title	O	_	_	_
 le	I-pers	O	I-pers.ind	O	O	O	_	_	_
 cardinal	I-pers	O	I-pers.ind	O	B-comp.title	O	_	_	_
 duc	I-pers	O	I-pers.ind	O	B-comp.title	O	_	_	_
 de	I-pers	O	I-pers.ind	O	O	O	_	_	_
-Bayane	I-pers	O	I-pers.ind	O	B-comp.name	B-loc.adm.town	_	_	_
+Bayane	I-pers	O	I-pers.ind	O	I-comp.name	B-loc.adm.town	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
 pair	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
-de	I-pers	O	O	O	I-comp.function	O	_	_	_
+de	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 France	E-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.nat	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
@@ -17043,9 +17043,9 @@ d	O	O	O	O	O	O	_	_	_
 adresser	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-princesse	O	O	O	O	O	O	_	_	_
-de	O	O	O	O	O	O	_	_	_
-Beira	S-loc	O	I-pers.ind	O	B-comp.name	O	_	_	_
+princesse	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
+de	I-pers	O	I-pers.ind	O	O	O	_	_	_
+Beira	E-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 sa	O	O	O	O	O	O	_	_	_
 sœur	O	O	O	O	O	O	_	_	_
@@ -17193,8 +17193,8 @@ et	O	O	O	O	O	O	_	_	_
 notamment	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 lieutenant	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
-du	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-curé	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+du	I-pers	O	I-pers.ind	O	O	O	_	_	_
+curé	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 Mérino	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 sont	O	O	O	O	O	O	_	_	_
@@ -17211,7 +17211,7 @@ leurs	O	O	O	O	O	O	_	_	_
 services	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 ddn	B-pers	O	B-pers.ind	O	O	O	_	_	_
-Miguel	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+Miguel	E-pers	O	I-pers.ind	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Le	O	O	O	O	O	O	_	_	_
@@ -17313,9 +17313,9 @@ Portugal	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 FRANCE	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-CHAMBRE	O	O	O	O	O	O	_	_	_
-DES	O	O	I-org.adm	O	O	O	_	_	_
-DÉPUTÉS	O	O	O	O	O	O	_	_	_
+CHAMBRE	B-org	O	B-org.adm	O	O	O	_	_	_
+DES	I-org	O	I-org.adm	O	O	O	_	_	_
+DÉPUTÉS	E-org	O	I-org.adm	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
@@ -17339,8 +17339,8 @@ budget	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 §	O	O	O	O	O	O	_	_	_
 dépenses	O	O	O	O	O	O	_	_	_
-pour	B-time	O	B-time.date.abs	O	O	O	_	_	_
-!	E-time	O	I-time.date.abs	O	O	O	_	_	_
+pour	O	O	O	O	O	O	_	_	_
+!	O	O	O	O	O	O	_	_	_
 
 829	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
@@ -17578,7 +17578,7 @@ venait	O	O	O	O	O	O	_	_	_
 éclater	O	O	O	O	O	O	_	_	_
 contre	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Suisse	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
+Suisse	S-loc	B-org	B-loc.adm.nat	B-org.adm	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 elle	O	O	O	O	O	O	_	_	_
 aurait	O	O	O	O	O	O	_	_	_
@@ -17590,8 +17590,8 @@ ses	O	O	O	O	O	O	_	_	_
 régimens	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-M	O	O	O	O	B-comp.title	O	_	_	_
-.	O	O	O	O	I-comp.title	O	_	_	_
+M	O	O	O	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 ministre	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -17668,7 +17668,7 @@ passé	O	O	O	O	O	O	_	_	_
 
 M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
-de	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+de	I-pers	O	I-pers.ind	O	O	O	_	_	_
 Conny	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 défendu	O	O	O	O	O	O	_	_	_
@@ -17917,7 +17917,7 @@ cent	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 —	O	O	O	O	O	O	_	_	_
-Ducats	S-pers	O	B-pers.ind	O	O	O	_	_	_
+Ducats	S-pers	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 76.50	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -18047,8 +18047,8 @@ particulières	O	O	O	O	O	O	_	_	_
 
 M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
-Blanche	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
-.	O	O	O	O	O	O	_	_	_
+Blanche	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+.	E-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 
 -	B-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 nay	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
@@ -18056,8 +18056,8 @@ entr	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 autres	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-sujet	O	O	O	O	B-comp.function	O	_	_	_
-anglais	O	O	I-pers.ind	O	I-comp.function	O	_	_	_
+sujet	O	O	O	O	O	O	_	_	_
+anglais	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 été	O	O	O	O	O	O	_	_	_
@@ -18367,7 +18367,7 @@ juin	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 La	O	O	O	O	O	O	_	_	_
-Dièle	O	O	B-org.adm	O	O	O	_	_	_
+Dièle	S-org	O	B-org.adm	O	O	O	_	_	_
 termine	O	O	O	O	O	O	_	_	_
 dans	O	O	O	O	O	O	_	_	_
 celte	O	O	O	O	O	O	_	_	_
@@ -18427,9 +18427,9 @@ du	O	O	O	O	O	O	_	_	_
 projet	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-Neuchâld	S-loc	O	B-loc.adm.town	B-org.ent	O	O	_	_	_
+Neuchâld	S-loc	O	I-pers.ind	O	O	O	_	_	_
 SI	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
-.	E-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
+.	E-pers	O	I-pers.ind	O	O	O	_	_	_
 
 Gonzalve	B-pers	O	B-pers.ind	O	O	O	_	_	_
 -	I-pers	O	I-pers.ind	O	O	O	_	_	_
@@ -18862,7 +18862,7 @@ incessamment	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-Europe	S-loc	O	B-loc.adm.sup	B-org.adm	O	O	_	_	_
+Europe	S-loc	B-org	B-loc.adm.sup	B-org.adm	O	O	_	_	_
 comme	O	O	O	O	O	O	_	_	_
 un	O	O	O	O	O	O	_	_	_
 Etat	O	O	O	O	O	O	_	_	_
@@ -18893,9 +18893,9 @@ une	O	O	O	O	O	O	_	_	_
 constituante	O	O	O	O	O	O	_	_	_
 fédérale	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
-fiàle	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
--	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-ville	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
+fiàle	O	O	O	O	O	O	_	_	_
+-	O	O	O	O	O	O	_	_	_
+ville	O	O	O	O	O	O	_	_	_
 convient	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
@@ -19093,8 +19093,8 @@ référendum	O	O	O	O	O	O	_	_	_
 Dans	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 canton	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
-de	I-loc	O	I-loc.adm.reg	I-org.adm	O	O	_	_	_
-Vaud	E-loc	O	I-loc.adm.reg	I-org.adm	B-comp.name	O	_	_	_
+de	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
+Vaud	E-loc	O	I-loc.adm.reg	O	B-comp.name	O	_	_	_
 on	O	O	O	O	O	O	_	_	_
 considérai	O	O	O	O	O	O	_	_	_
 !	O	O	O	O	O	O	_	_	_
@@ -19156,7 +19156,7 @@ capable	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 dissoudre	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-Sonderbund	S-org	O	B-org.adm	O	O	O	_	_	_
+Sonderbund	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 s	O	O	O	O	O	O	_	_	_
@@ -19220,7 +19220,7 @@ sous	O	O	O	O	O	O	_	_	_
 réserve	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 ratification	O	O	O	O	O	O	_	_	_
-Palais	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Palais	S-loc	O	B-loc.adm.town	B-org.ent	O	O	_	_	_
 vole	O	O	O	O	O	O	_	_	_
 également	O	O	O	O	O	O	_	_	_
 sous	O	O	O	O	O	O	_	_	_
@@ -19329,13 +19329,13 @@ et	O	O	O	O	O	O	_	_	_
 Zug	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-Neuchâlel	S-loc	B-org	B-loc.adm.reg	B-org.adm	O	O	_	_	_
+Neuchâlel	S-loc	O	B-loc.adm.reg	B-org.adm	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Bàle	B-loc	O	B-loc.adm.reg	B-org.adm	O	O	_	_	_
--	I-loc	I-org	I-loc.adm.reg	I-org.adm	O	O	_	_	_
-ville	E-loc	I-org	I-loc.adm.reg	I-org.adm	O	O	_	_	_
+-	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
+ville	E-loc	O	I-loc.adm.reg	O	O	O	_	_	_
 cl	O	O	O	O	O	O	_	_	_
-Vaud	S-loc	B-org	B-loc.adm.reg	B-org.adm	O	O	_	_	_
+Vaud	S-loc	O	B-loc.adm.reg	B-org.adm	O	O	_	_	_
 prennent	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 référendum	O	O	O	O	O	O	_	_	_
@@ -19349,7 +19349,7 @@ projet	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Uri	S-loc	B-org	B-loc.adm.reg	B-org.adm	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Unlerwalden	S-loc	B-org	B-loc.adm.reg	B-org.adm	O	O	_	_	_
+Unlerwalden	S-loc	O	B-loc.adm.reg	B-org.adm	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 Appenzell	B-loc	B-org	B-loc.adm.reg	B-org.adm	O	O	_	_	_
 -	I-loc	I-org	I-loc.adm.reg	I-org.adm	O	O	_	_	_
@@ -19402,7 +19402,7 @@ celte	O	O	O	O	O	O	_	_	_
 proposition	O	O	O	O	O	O	_	_	_
 adhèrent	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
-Bàle	B-loc	B-org	B-loc.adm.reg	B-org.adm	O	O	_	_	_
+Bàle	B-loc	O	B-loc.adm.reg	B-org.adm	O	O	_	_	_
 -	I-loc	I-org	I-loc.adm.reg	I-org.adm	O	O	_	_	_
 ville	E-loc	I-org	I-loc.adm.reg	I-org.adm	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -19932,7 +19932,7 @@ députés	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 président	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Vororl	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Vororl	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 qui	O	O	O	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
 appelé	O	O	O	O	O	O	_	_	_
@@ -19953,8 +19953,8 @@ députés	O	O	O	O	O	O	_	_	_
 MM	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	E-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 
-'	B-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
-Ochsenbeinet	I-pers	O	B-pers.ind	O	O	O	_	_	_
+'	O	O	I-pers.ind	O	I-comp.title	O	_	_	_
+Ochsenbeinet	B-pers	O	B-pers.ind	O	O	O	_	_	_
 Tiller	E-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ont	O	O	O	O	O	O	_	_	_
@@ -20005,7 +20005,7 @@ de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 République	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
-Saxe	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
+Saxe	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Avec	O	O	O	O	O	O	_	_	_
 lui	O	O	O	O	O	O	_	_	_
@@ -20226,7 +20226,7 @@ campagne	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 celui	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-JNeyruz	S-loc	O	B-pers.ind	O	O	O	_	_	_
+JNeyruz	S-pers	O	B-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 fçga	O	O	O	O	O	O	_	_	_
 une	O	O	O	O	O	O	_	_	_
@@ -20431,12 +20431,12 @@ législative	O	O	O	O	O	O	_	_	_
 Huit	O	O	O	O	O	O	_	_	_
 députés	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-district	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
+district	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 de	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
 la	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
-St	I-loc	O	I-loc.adm.town	O	B-comp.name	O	_	_	_
--	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-Gine	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
+St	I-loc	O	B-loc.adm.reg	O	O	O	_	_	_
+-	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
+Gine	E-loc	O	I-loc.adm.reg	O	O	O	_	_	_
 qui	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 dans	O	O	O	O	O	O	_	_	_
@@ -20659,8 +20659,8 @@ Jaquemot	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 imprimeur	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 dé	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 la	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-Voix	I-pers	O	I-pers.ind	O	I-comp.function	B-org.ent	_	_	_
-Catholique	E-pers	O	I-pers.ind	O	I-comp.function	I-org.ent	_	_	_
+Voix	I-pers	O	B-prod.media	O	I-comp.function	B-org.ent	_	_	_
+Catholique	E-pers	O	I-prod.media	O	I-comp.function	I-org.ent	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Le	O	O	O	O	O	O	_	_	_
@@ -20698,9 +20698,9 @@ de	O	O	O	O	O	O	_	_	_
 guerre	O	O	O	O	O	O	_	_	_
 imposés	O	O	O	O	O	O	_	_	_
 aux	O	O	O	O	O	O	_	_	_
-cantons	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
-du	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
-Sonderbund	E-loc	O	I-loc.adm.reg	O	B-comp.name	O	_	_	_
+cantons	O	O	O	O	O	O	_	_	_
+du	O	O	I-loc.adm.reg	O	O	O	_	_	_
+Sonderbund	S-org	O	I-loc.adm.reg	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Le	O	O	O	O	O	O	_	_	_
@@ -20809,18 +20809,18 @@ proteslanle	O	O	O	O	O	O	_	_	_
 T	O	O	O	O	O	O	_	_	_
 —	O	O	O	O	O	O	_	_	_
 A	O	O	O	O	O	O	_	_	_
-Schwylz	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Schwylz	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-Fœhn	S-loc	O	O	O	O	O	_	_	_
+Fœhn	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ce	O	O	O	O	O	O	_	_	_
 ventsi	O	O	O	O	O	O	_	_	_
 redoutédesbaleliersdulae	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
-des	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
+des	I-loc	O	O	O	O	O	_	_	_
 Quatre	I-loc	O	I-loc.phys.geo	O	B-comp.name	O	_	_	_
--	I-loc	O	I-loc.adm.reg	O	I-comp.name	O	_	_	_
-Cantons	E-loc	O	I-loc.phys.geo	O	I-comp.name	O	_	_	_
+-	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
+Cantons	E-loc	O	I-loc.adm.reg	O	I-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 causé	O	O	O	O	O	O	_	_	_
@@ -20881,23 +20881,23 @@ douloureuse	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Henri	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
-Zschokke	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-,	I-pers	O	I-pers.ind	O	O	O	_	_	_
-cet	I-pers	O	I-pers.ind	O	O	O	_	_	_
-aimable	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
-et	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-infatigable	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-écrivain	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-,	I-pers	O	I-pers.ind	O	O	O	_	_	_
-l	I-pers	O	I-pers.ind	O	O	O	_	_	_
-'	I-pers	O	I-pers.ind	O	O	O	_	_	_
-ami	I-pers	O	O	O	I-comp.function	O	_	_	_
-et	I-pers	O	I-pers.ind	O	O	O	_	_	_
-l	I-pers	O	I-pers.ind	O	O	O	_	_	_
-'	I-pers	O	I-pers.ind	O	O	O	_	_	_
-instituteur	I-pers	O	O	O	I-comp.function	O	_	_	_
-du	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-peuple	E-pers	O	O	O	I-comp.function	O	_	_	_
+Zschokke	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+,	O	O	I-pers.ind	O	O	O	_	_	_
+cet	O	O	I-pers.ind	O	O	O	_	_	_
+aimable	O	O	O	O	O	O	_	_	_
+et	O	O	O	O	O	O	_	_	_
+infatigable	O	O	O	O	O	O	_	_	_
+écrivain	O	O	I-pers.ind	O	I-comp.function	O	_	_	_
+,	O	O	O	O	O	O	_	_	_
+l	O	O	O	O	O	O	_	_	_
+'	O	O	O	O	O	O	_	_	_
+ami	O	O	O	O	O	O	_	_	_
+et	O	O	O	O	O	O	_	_	_
+l	O	O	O	O	O	O	_	_	_
+'	O	O	O	O	O	O	_	_	_
+instituteur	O	O	O	O	O	O	_	_	_
+du	O	O	O	O	O	O	_	_	_
+peuple	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
 décédé	O	O	O	O	O	O	_	_	_
@@ -21205,7 +21205,7 @@ nationale	O	O	O	O	O	O	_	_	_
 honneur	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-France	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
+France	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 qui	O	O	O	O	O	O	_	_	_
 ont	O	O	O	O	O	O	_	_	_
@@ -21414,7 +21414,7 @@ importants	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 districts	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Trachselwald	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Trachselwald	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 Signau	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
@@ -21523,10 +21523,10 @@ probablement	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-hôtel	O	O	O	O	O	O	_	_	_
-de	O	O	O	O	O	O	_	_	_
-la	O	O	O	O	O	O	_	_	_
-Monnaie	O	O	O	O	O	O	_	_	_
+hôtel	B-loc	O	B-loc.fac	O	O	O	_	_	_
+de	I-loc	O	I-loc.fac	O	O	O	_	_	_
+la	I-loc	O	I-loc.fac	O	O	O	_	_	_
+Monnaie	E-loc	O	I-loc.fac	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 —	O	O	O	O	O	O	_	_	_
@@ -21539,12 +21539,12 @@ Zurich	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-bataillon	B-org	O	B-org.ent	O	O	O	_	_	_
-Fiih	E-org	O	I-org.ent	O	B-comp.name	O	_	_	_
+bataillon	B-pers	O	B-org.ent	O	O	O	_	_	_
+Fiih	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Sl	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
--	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+Sl	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
+-	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
 Gall	E-loc	O	I-loc.adm.reg	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 après	O	O	O	O	O	O	_	_	_
@@ -21937,7 +21937,7 @@ rue	B-loc	O	B-loc.oro	O	O	O	_	_	_
 Giudeca	E-loc	O	I-loc.oro	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-faubourg	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
+faubourg	B-loc	O	B-loc.oro	O	O	O	_	_	_
 Zaera	E-loc	O	I-loc.oro	O	B-comp.name	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
@@ -22113,7 +22113,7 @@ MM	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 
 A	B-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-Diernwachter	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+Diernwachter	E-pers	O	I-pers.ind	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 Henri	B-pers	O	B-pers.ind	O	O	O	_	_	_
 lirunner	E-pers	O	I-pers.ind	O	O	O	_	_	_
@@ -22233,7 +22233,7 @@ autres	O	O	O	O	O	O	_	_	_
 par	O	O	O	O	O	O	_	_	_
 celui	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Berne	S-loc	O	B-loc.adm.reg	B-org.adm	O	O	_	_	_
+Berne	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
@@ -22369,7 +22369,7 @@ créance	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
 président	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Vorort	S-org	O	B-org.ent	O	O	O	_	_	_
+Vorort	S-loc	O	B-org.ent	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 avoir	O	O	O	O	O	O	_	_	_
 captivé	O	O	O	O	O	O	_	_	_
@@ -22396,7 +22396,7 @@ avait	O	O	O	O	O	O	_	_	_
 manifestées	O	O	O	O	O	O	_	_	_
 envers	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Suisse	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
+Suisse	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 était	O	O	O	O	O	O	_	_	_
 retourné	O	O	O	O	O	O	_	_	_
@@ -22481,7 +22481,7 @@ aplanir	O	O	O	O	O	O	_	_	_
 Dès	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Confédération	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
+Confédération	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 été	O	O	O	O	O	O	_	_	_
 saisie	O	O	O	O	O	O	_	_	_
@@ -22533,7 +22533,7 @@ contre	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 gouvernement	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Tessin	S-loc	O	B-loc.adm.reg	B-org.adm	O	O	_	_	_
+Tessin	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 coupable	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -22594,7 +22594,7 @@ nature	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 satisfaire	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Confédération	O	O	O	O	O	O	_	_	_
+Confédération	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
 el	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 ne	O	O	O	O	O	O	_	_	_
@@ -22969,11 +22969,11 @@ ancien	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 commissaire	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 fédéral	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 dans	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-le	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-canton	I-pers	O	B-loc.adm.reg	O	I-comp.function	B-loc.adm.reg	_	_	_
-d	I-pers	O	I-loc.adm.reg	O	O	I-loc.adm.town	_	_	_
-'	I-pers	O	I-loc.adm.reg	O	O	I-loc.adm.town	_	_	_
-Uri	E-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.town	_	_	_
+le	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+canton	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
+d	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
+'	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
+Uri	E-loc	O	I-loc.adm.reg	O	I-comp.function	I-loc.adm.town	_	_	_
 et	O	O	I-pers.ind	O	I-comp.function	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 Neuchàtel	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
@@ -23384,7 +23384,7 @@ au	O	O	O	O	O	O	_	_	_
 château	B-loc	O	B-loc.fac	O	O	O	_	_	_
 d	I-loc	O	I-loc.fac	O	O	O	_	_	_
 '	I-loc	O	I-loc.fac	O	O	O	_	_	_
-Eliolles	E-loc	O	I-loc.fac	O	B-comp.name	O	_	_	_
+Eliolles	E-loc	O	I-loc.fac	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 confirmé	O	O	O	O	O	O	_	_	_
@@ -23401,7 +23401,7 @@ de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 question	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
-Principautés	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
+Principautés	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 On	O	O	O	O	O	O	_	_	_
@@ -23742,7 +23742,7 @@ salons	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 lecture	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Galignani	S-org	O	B-org.ent	O	O	O	_	_	_
+Galignani	S-prod	O	B-prod.media	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 C	O	O	O	O	O	O	_	_	_
@@ -25163,7 +25163,7 @@ de	O	O	O	O	O	O	_	_	_
 Paris	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 adressée	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
-Nord	S-prod	O	B-prod.media	O	O	O	_	_	_
+Nord	S-prod	O	B-prod.media	B-org.adm	O	O	_	_	_
 lui	O	O	O	O	O	O	_	_	_
 donne	O	O	O	O	O	O	_	_	_
 un	O	O	O	O	O	O	_	_	_
@@ -25432,7 +25432,7 @@ travaux	O	O	O	O	O	O	_	_	_
 
 Le	O	O	O	O	O	O	_	_	_
 Bulletin	O	O	O	O	O	O	_	_	_
-international	O	O	O	O	O	O	_	_	_
+international	O	O	I-prod.media	O	O	O	_	_	_
 croit	O	O	O	O	O	O	_	_	_
 être	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
@@ -25939,7 +25939,7 @@ pour	O	O	O	O	O	O	_	_	_
 causes	O	O	O	O	O	O	_	_	_
 diverses	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-2529	O	O	B-time.date.abs	O	O	O	_	_	_
+2529	S-time	O	B-time.date.abs	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Le	O	O	O	O	O	O	_	_	_
@@ -26038,7 +26038,7 @@ exemple	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 district	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-Gumbinnen	E-loc	O	I-loc.adm.town	O	B-comp.name	O	_	_	_
+Gumbinnen	E-loc	O	B-loc.adm.town	O	B-comp.name	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Les	O	O	O	O	O	O	_	_	_
 rapports	O	O	O	O	O	O	_	_	_
@@ -26258,7 +26258,7 @@ diviser	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
-Gallicie	S-loc	O	B-loc.adm.reg	B-org.adm	O	O	_	_	_
+Gallicie	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
 deux	O	O	O	O	O	O	_	_	_
 parties	O	O	O	O	O	O	_	_	_
@@ -26268,7 +26268,7 @@ parties	O	O	O	O	O	O	_	_	_
 Le	O	O	O	O	O	O	_	_	_
 comte	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 de	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
-Taaffe	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+Taaffe	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 présenté	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
@@ -26390,11 +26390,11 @@ Europe	S-loc	O	B-loc.adm.sup	O	O	O	_	_	_
 
 —	O	O	O	O	O	O	_	_	_
 La	O	O	O	O	O	O	_	_	_
-Chambre	B-org	O	B-org.adm	O	O	O	_	_	_
-des	I-org	O	I-org.adm	O	O	O	_	_	_
-députés	E-org	O	I-org.adm	O	O	O	_	_	_
+Chambre	O	O	O	O	O	O	_	_	_
+des	O	O	O	O	O	O	_	_	_
+députés	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Peslh	S-loc	O	I-org.adm	O	O	O	_	_	_
+Peslh	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 adopté	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -26636,7 +26636,7 @@ le	O	O	O	O	O	O	_	_	_
 départ	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 la	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
-Havane	E-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Havane	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 une	O	O	O	O	O	O	_	_	_
@@ -26699,7 +26699,7 @@ tomber	O	O	O	O	O	O	_	_	_
 
 Depuis	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
-'	O	O	O	O	O	O	_	_	_
+'	O	O	I-time.date.abs	O	O	O	_	_	_
 hiver	O	O	O	O	O	O	_	_	_
 de	B-time	O	B-time.date.abs	O	O	O	_	_	_
 1829	E-time	O	I-time.date.abs	O	O	O	_	_	_
@@ -26822,7 +26822,7 @@ du	O	O	O	O	O	O	_	_	_
 tunnel	B-loc	O	B-loc.oro	O	O	O	_	_	_
 de	I-loc	O	I-loc.oro	O	O	O	_	_	_
 la	I-loc	O	I-loc.oro	O	O	O	_	_	_
-Cornallaz	E-loc	O	I-loc.oro	O	B-comp.name	B-loc.adm.town	_	_	_
+Cornallaz	E-loc	O	I-loc.oro	O	O	B-loc.adm.town	_	_	_
 contre	O	O	O	O	O	O	_	_	_
 un	O	O	O	O	O	O	_	_	_
 amas	O	O	O	O	O	O	_	_	_
@@ -26840,9 +26840,9 @@ précède	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 gare	B-loc	O	B-loc.fac	O	O	O	_	_	_
 de	I-loc	O	I-loc.oro	O	O	O	_	_	_
-Chexbi	I-loc	O	I-loc.oro	O	B-comp.name	B-loc.adm.town	_	_	_
+Chexbi	I-loc	O	I-loc.oro	O	O	O	_	_	_
 '	I-loc	O	I-loc.oro	O	O	O	_	_	_
-es	E-loc	O	I-loc.fac	O	O	O	_	_	_
+es	E-loc	O	I-loc.oro	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Ce	O	O	O	O	O	O	_	_	_
@@ -26888,7 +26888,7 @@ arrêté	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 gare	B-loc	O	B-loc.fac	O	O	O	_	_	_
 de	I-loc	O	I-loc.fac	O	O	O	_	_	_
-Chexbres	E-loc	O	I-loc.fac	O	B-comp.name	O	_	_	_
+Chexbres	E-loc	O	I-loc.fac	O	O	B-loc.adm.town	_	_	_
 et	O	O	O	O	O	O	_	_	_
 n	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
@@ -27049,8 +27049,8 @@ singulière	O	O	O	O	O	O	_	_	_
 dans	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 vallée	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
-du	I-loc	O	I-loc.phys.geo	O	O	O	_	_	_
-Rhône	E-loc	O	I-loc.phys.geo	O	B-comp.name	B-loc.phys.hydro	_	_	_
+du	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
+Rhône	E-loc	O	I-loc.adm.reg	O	B-comp.name	B-loc.phys.hydro	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 circulation	O	O	O	O	O	O	_	_	_
@@ -27289,7 +27289,7 @@ S	I-org	O	I-org.ent	O	B-comp.name	O	_	_	_
 
 -	B-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 O	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-.	E-pers	O	I-pers.ind	O	O	O	_	_	_
+.	E-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 
 ,	O	O	O	O	O	O	_	_	_
 ainsi	O	O	O	O	O	O	_	_	_
@@ -27525,12 +27525,12 @@ M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 Linard	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
-républicain	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
-et	I-pers	O	I-pers.ind	O	O	O	_	_	_
-patronné	I-pers	O	I-pers.ind	O	O	O	_	_	_
-par	I-pers	O	O	O	I-comp.function	O	_	_	_
-le	I-pers	O	O	O	O	O	_	_	_
-ministère	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+républicain	E-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
+et	O	O	I-pers.ind	O	O	O	_	_	_
+patronné	O	O	I-pers.ind	O	O	O	_	_	_
+par	O	O	O	O	I-comp.function	O	_	_	_
+le	O	O	O	O	O	O	_	_	_
+ministère	O	O	I-pers.ind	O	I-comp.function	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
@@ -27764,7 +27764,7 @@ et	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
 royalistes	O	O	O	O	O	O	_	_	_
 nuance	O	O	O	O	O	O	_	_	_
-Arthur	B-pers	O	B-pers.ind	O	O	O	_	_	_
+Arthur	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
 Meyer	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 entendent	O	O	O	O	O	O	_	_	_
 s	O	O	O	O	O	O	_	_	_
@@ -27782,7 +27782,7 @@ de	O	O	O	O	O	O	_	_	_
 MM	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	E-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 
-Laguerre	S-pers	O	B-pers.ind	O	O	O	_	_	_
+Laguerre	S-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Michelin	S-pers	O	B-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -28181,8 +28181,8 @@ la	O	O	O	O	O	O	_	_	_
 démolition	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Chapelle	O	O	O	O	O	O	_	_	_
-expiatoire	O	O	O	O	O	O	_	_	_
+Chapelle	B-loc	O	B-loc.fac	O	O	O	_	_	_
+expiatoire	E-loc	O	I-loc.fac	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Cette	O	O	O	O	O	O	_	_	_
@@ -28206,7 +28206,7 @@ ancien	O	O	O	O	O	O	_	_	_
 préfet	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Seine	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
+Seine	S-loc	O	I-pers.ind	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Reste	O	O	O	O	O	O	_	_	_
@@ -28378,7 +28378,7 @@ criminelle	O	O	O	O	O	O	_	_	_
 NOUVELLES	O	O	O	O	O	O	_	_	_
 DES	O	O	O	O	O	O	_	_	_
 GANTONS	O	O	O	O	O	O	_	_	_
-BERNE	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+BERNE	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 —	O	O	O	O	O	O	_	_	_
@@ -28418,8 +28418,8 @@ décidé	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 demander	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
-Grand	O	O	O	O	O	O	_	_	_
-Conseil	O	O	I-org.adm	O	O	O	_	_	_
+Grand	B-org	O	B-org.adm	O	O	O	_	_	_
+Conseil	E-org	O	I-org.adm	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 par	O	O	O	O	O	O	_	_	_
 voie	O	O	O	O	O	O	_	_	_
@@ -28797,7 +28797,7 @@ levée	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 boucliers	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
-Loècherands	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Loècherands	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
 faisant	O	O	O	O	O	O	_	_	_
@@ -28905,8 +28905,8 @@ couru	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
 vélodrome	B-loc	O	B-loc.fac	O	O	O	_	_	_
 de	I-loc	O	I-loc.fac	O	O	O	_	_	_
-la	I-loc	O	B-loc.adm.town	O	O	O	_	_	_
-Jonction	E-loc	O	I-loc.fac	O	O	O	_	_	_
+la	I-loc	O	I-loc.fac	O	O	O	_	_	_
+Jonction	E-loc	O	I-loc.fac	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 championnat	O	O	O	O	O	O	_	_	_
@@ -28990,8 +28990,8 @@ Législation	O	O	O	O	O	O	_	_	_
 —	O	O	O	O	O	O	_	_	_
 L	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-éditeur	B-org	O	B-org.ent	O	O	O	_	_	_
-Kreis	E-org	O	I-org.ent	O	B-comp.name	O	_	_	_
+éditeur	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
+Kreis	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 Bâle	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
@@ -29009,8 +29009,8 @@ du	O	O	O	O	O	O	_	_	_
 grand	O	O	O	O	O	O	_	_	_
 ouvrage	O	O	O	O	O	O	_	_	_
 Die	O	O	O	O	O	O	_	_	_
-Schweizerische	B-prod	O	I-prod.media	O	O	O	_	_	_
-Gesetzgebung	E-prod	O	I-prod.media	O	O	O	_	_	_
+Schweizerische	O	O	O	O	O	O	_	_	_
+Gesetzgebung	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 par	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
@@ -29121,7 +29121,7 @@ chemin	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 fer	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-la	B-loc	O	B-loc.phys.hydro	O	O	O	_	_	_
+la	B-loc	O	I-loc.phys.hydro	O	O	O	_	_	_
 Bernina	E-loc	O	B-loc.phys.hydro	O	O	B-loc.adm.town	_	_	_
 ont	O	O	O	O	O	O	_	_	_
 pu	O	O	O	O	O	O	_	_	_
@@ -29148,8 +29148,8 @@ l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 hospice	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-la	B-loc	O	O	O	O	O	_	_	_
-Bernina	E-loc	O	I-loc.fac	O	B-comp.name	O	_	_	_
+la	O	O	O	O	O	O	_	_	_
+Bernina	S-org	O	I-loc.fac	O	B-comp.name	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Le	O	O	O	O	O	O	_	_	_
@@ -29339,7 +29339,7 @@ Righi	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Sœntis	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Gothard	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Gothard	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Pilate	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
@@ -29889,7 +29889,7 @@ ouest	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-Avre	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Avre	S-loc	O	B-loc.phys.hydro	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
 dépit	O	O	O	O	O	O	_	_	_
@@ -30007,8 +30007,8 @@ dans	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 région	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-la	B-loc	O	O	O	O	O	_	_	_
-BoveHe	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
+la	O	O	O	O	O	O	_	_	_
+BoveHe	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Communiqué	O	O	O	O	O	O	_	_	_
 britannique	O	O	O	O	O	O	_	_	_
@@ -30094,7 +30094,7 @@ d	O	O	O	O	O	O	_	_	_
 ©	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 forêt	O	O	O	O	O	O	_	_	_
-de	O	O	O	O	O	O	_	_	_
+de	O	O	I-loc.phys.geo	O	O	O	_	_	_
 Nleppe	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
@@ -30404,7 +30404,7 @@ sont	O	O	O	O	O	O	_	_	_
 celles	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
 Mont	B-loc	O	B-loc.phys.geo	O	O	O	_	_	_
-Kemmel	E-loc	O	I-loc.phys.geo	O	B-comp.name	O	_	_	_
+Kemmel	E-loc	O	I-loc.phys.geo	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Les	O	O	O	O	O	O	_	_	_
@@ -30482,8 +30482,8 @@ Les	O	O	O	O	O	O	_	_	_
 renseignements	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
-de	B-pers	O	B-pers.coll	O	O	O	_	_	_
-Sandes	E-pers	O	I-pers.coll	O	O	O	_	_	_
+de	O	O	B-pers.coll	O	O	O	_	_	_
+Sandes	S-pers	O	B-pers.ind	O	O	O	_	_	_
 sont	O	O	O	O	O	O	_	_	_
 échangés	O	O	O	O	O	O	_	_	_
 entre	O	O	O	O	O	O	_	_	_
@@ -30688,7 +30688,7 @@ dans	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 région	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Kemmel	S-loc	O	B-loc.phys.geo	O	O	O	_	_	_
+Kemmel	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 •	O	O	O	O	O	O	_	_	_
@@ -30719,7 +30719,7 @@ le	O	O	O	O	O	O	_	_	_
 canal	B-loc	O	B-loc.phys.hydro	O	O	O	_	_	_
 de	I-loc	O	I-loc.phys.hydro	O	O	O	_	_	_
 La	I-loc	O	I-loc.phys.hydro	O	O	B-loc.adm.town	_	_	_
-Bassée	E-loc	O	I-loc.phys.hydro	O	O	B-loc.adm.town	_	_	_
+Bassée	E-loc	O	I-loc.phys.hydro	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 sur	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
@@ -30751,7 +30751,7 @@ nuit	O	O	O	O	O	O	_	_	_
 Entre	O	O	O	O	O	O	_	_	_
 t	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-Ancre	S-loc	O	B-loc.phys.hydro	O	O	O	_	_	_
+Ancre	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 Somme	S-loc	O	B-loc.phys.hydro	O	O	O	_	_	_
@@ -30979,7 +30979,7 @@ garde	O	O	O	O	O	O	_	_	_
 
 Devant	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-port	B-loc	O	O	O	O	O	_	_	_
+port	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 Pola	E-loc	O	I-loc.adm.town	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -31072,7 +31072,7 @@ des	O	O	O	O	O	O	_	_	_
 travailleurs	O	O	O	O	O	O	_	_	_
 sur	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-Pasubio	S-loc	O	B-loc.phys.geo	O	O	O	_	_	_
+Pasubio	S-loc	O	B-loc.phys.hydro	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Nous	O	O	O	O	O	O	_	_	_
@@ -31083,10 +31083,10 @@ trains	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-gare	B-loc	O	B-loc.fac	O	O	O	_	_	_
-de	I-loc	O	I-loc.fac	O	O	O	_	_	_
-Pri	I-loc	O	B-loc.adm.town	O	B-comp.name	O	_	_	_
-molano	E-loc	O	I-loc.fac	O	B-comp.name	B-loc.adm.town	_	_	_
+gare	O	O	O	O	O	O	_	_	_
+de	O	O	O	O	O	O	_	_	_
+Pri	B-loc	O	B-loc.adm.town	O	B-comp.name	O	_	_	_
+molano	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ainsi	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
@@ -31104,10 +31104,10 @@ et	O	O	O	O	O	O	_	_	_
 dans	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 *	O	O	O	O	O	O	_	_	_
-dépression	O	O	O	O	O	O	_	_	_
-d	O	O	O	O	O	O	_	_	_
-'	O	O	O	O	O	O	_	_	_
-Alano	S-loc	O	B-loc.phys.geo	O	O	O	_	_	_
+dépression	B-loc	O	B-loc.phys.geo	O	O	O	_	_	_
+d	I-loc	O	I-loc.phys.geo	O	O	O	_	_	_
+'	I-loc	O	I-loc.phys.geo	O	O	O	_	_	_
+Alano	E-loc	O	I-loc.phys.geo	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Le	O	O	O	O	O	O	_	_	_
@@ -31465,7 +31465,7 @@ ou	O	O	O	O	O	O	_	_	_
 indirecte	O	O	O	O	O	O	_	_	_
 assurée	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
-Moscou	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Moscou	S-loc	O	B-loc.adm.town	B-org.adm	O	O	_	_	_
 ne	O	O	O	O	O	O	_	_	_
 fera	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
@@ -31706,7 +31706,7 @@ ici	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 plan	O	O	O	O	O	O	_	_	_
-Dawes	S-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
+Dawes	S-pers	O	B-pers.ind	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 été	O	O	O	O	O	O	_	_	_
 exécuté	O	O	O	O	O	O	_	_	_
@@ -31811,7 +31811,7 @@ l	O	O	O	O	O	O	_	_	_
 immortelle	O	O	O	O	O	O	_	_	_
 découverte	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Harvey	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Harvey	S-pers	O	B-pers.ind	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Mais	O	O	O	O	O	O	_	_	_
@@ -31928,8 +31928,8 @@ maintenant	O	O	O	O	O	O	_	_	_
 exporter	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
 Grande	B-loc	O	B-loc.adm.nat	O	O	O	_	_	_
--	I-loc	O	I-loc.adm.nat	I-org.adm	O	O	_	_	_
-Bretagne	E-loc	O	I-loc.adm.nat	I-org.adm	O	O	_	_	_
+-	I-loc	O	I-loc.adm.nat	O	O	O	_	_	_
+Bretagne	E-loc	O	I-loc.adm.nat	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 marchandises	O	O	O	O	O	O	_	_	_
 pour	O	O	O	O	O	O	_	_	_
@@ -32264,7 +32264,7 @@ vendu	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-Italie	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
+Italie	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 en	B-time	O	B-time.date.abs	O	O	O	_	_	_
 4	I-time	O	I-time.date.abs	O	O	O	_	_	_
 *	I-time	O	I-time.date.abs	O	O	O	_	_	_
@@ -32367,7 +32367,7 @@ avenir	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-Italie	S-loc	B-org	B-loc.adm.nat	B-org.adm	O	O	_	_	_
+Italie	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
 une	O	O	O	O	O	O	_	_	_
 plus	O	O	O	O	O	O	_	_	_
 grande	O	O	O	O	O	O	_	_	_
@@ -32448,7 +32448,7 @@ s	O	O	O	O	O	O	_	_	_
 investir	O	O	O	O	O	O	_	_	_
 dans	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Péninsule	S-loc	O	B-loc.adm.sup	O	O	O	_	_	_
+Péninsule	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Dès	O	O	O	O	O	O	_	_	_
@@ -32648,7 +32648,7 @@ de	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 axe	O	O	O	O	O	O	_	_	_
-Berlin	S-loc	O	B-loc.adm.town	B-org.adm	O	O	_	_	_
+Berlin	S-loc	B-org	B-loc.adm.town	B-org.adm	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 Rome	S-loc	O	B-loc.adm.town	B-org.adm	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -32723,7 +32723,7 @@ dans	O	O	O	O	O	O	_	_	_
 I	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 «	O	O	O	O	O	O	_	_	_
-Information	B-prod	O	I-prod.media	O	O	O	_	_	_
+Information	B-prod	O	B-prod.media	O	O	O	_	_	_
 Diplomatique	E-prod	O	I-prod.media	O	O	O	_	_	_
 »	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
@@ -32837,7 +32837,7 @@ Fe	O	O	O	O	O	O	_	_	_
 ipire	O	O	O	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-Ethiopie	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
+Ethiopie	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 par	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
@@ -32870,7 +32870,7 @@ de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 terre	O	O	O	O	O	O	_	_	_
 vaudoise	O	O	O	O	O	O	_	_	_
-AIGLE	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+AIGLE	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 —	O	O	O	O	O	O	_	_	_
@@ -32994,8 +32994,8 @@ fr	O	O	O	O	O	O	_	_	_
 29	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
--	B-time	O	I-time.date.abs	O	O	O	_	_	_
-iOO	E-time	O	I-time.date.abs	O	O	O	_	_	_
+-	O	O	I-time.date.abs	O	O	O	_	_	_
+iOO	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 dont	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
@@ -33276,16 +33276,16 @@ Deladoey	E-pers	O	I-pers.ind	O	O	O	_	_	_
 Ecole	B-org	O	B-org.ent	O	O	O	_	_	_
 primaire	E-org	O	I-org.ent	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-1933	O	O	O	O	O	O	_	_	_
+1933	S-time	O	B-time.date.abs	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 C	B-pers	O	B-pers.ind	O	O	O	_	_	_
 .	I-pers	O	I-pers.ind	O	O	O	_	_	_
 Chevillard	E-pers	O	I-pers.ind	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-Collège	O	O	B-org.ent	O	O	O	_	_	_
+Collège	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-1931	O	O	O	O	O	O	_	_	_
+1931	O	O	B-time.date.abs	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 H	B-pers	O	B-pers.ind	O	O	O	_	_	_
@@ -33302,21 +33302,21 @@ chez	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
 filles	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
-Chr	B-org	O	B-org.ent	O	O	O	_	_	_
-.	E-org	O	I-pers.ind	O	O	O	_	_	_
+Chr	B-pers	O	B-org.ent	O	O	O	_	_	_
+.	E-pers	O	I-pers.ind	O	O	O	_	_	_
 
 Rouge	S-pers	O	I-pers.ind	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-Collège	S-org	O	B-org.ent	O	O	O	_	_	_
+Collège	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-1935	S-time	O	B-time.date.abs	O	O	O	_	_	_
+1935	O	O	O	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 J	B-pers	O	B-pers.ind	O	O	O	_	_	_
 .	I-pers	O	I-pers.ind	O	O	O	_	_	_
 Oberhaensli	E-pers	O	I-pers.ind	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-Collège	S-org	O	B-org.ent	O	O	O	_	_	_
+Collège	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 1936	S-time	O	B-time.date.abs	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
@@ -33414,10 +33414,10 @@ eau	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-Arsenal	B-loc	O	B-loc.fac	O	O	O	_	_	_
-fédéral	I-loc	O	O	O	O	O	_	_	_
-de	I-loc	O	I-loc.fac	O	O	O	_	_	_
-Tavalles	E-loc	O	I-loc.fac	O	O	B-loc.adm.town	_	_	_
+Arsenal	B-org	O	B-org.ent	O	O	O	_	_	_
+fédéral	E-org	O	I-org.ent	O	O	O	_	_	_
+de	O	O	O	O	O	O	_	_	_
+Tavalles	S-loc	O	B-loc.adm.town	O	O	B-loc.adm.town	_	_	_
 ;	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
@@ -33449,11 +33449,11 @@ M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 Reymond	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
 architecte	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
-à	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-La	B-loc	O	B-loc.adm.town	O	I-comp.function	B-loc.adm.town	_	_	_
-Tour	I-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
-de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-Peilz	E-loc	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
+à	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+La	I-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.town	_	_	_
+Tour	I-pers	O	I-loc.adm.town	O	I-comp.function	I-loc.adm.town	_	_	_
+de	I-pers	O	I-loc.adm.town	O	I-comp.function	I-loc.adm.town	_	_	_
+Peilz	E-pers	O	I-loc.adm.town	O	O	I-loc.adm.town	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Selon	O	O	O	O	O	O	_	_	_
@@ -33504,7 +33504,7 @@ motrices	I-org	O	I-org.ent	O	O	O	_	_	_
 de	I-org	O	I-org.ent	O	O	O	_	_	_
 l	I-org	O	I-org.ent	O	O	O	_	_	_
 '	I-org	O	I-org.ent	O	O	O	_	_	_
-Avançon	E-org	O	I-org.ent	O	O	I-loc.adm.town	_	_	_
+Avançon	E-org	O	I-org.ent	O	O	B-loc.adm.town	_	_	_
 fêlera	O	O	O	O	O	O	_	_	_
 son	O	O	O	O	O	O	_	_	_
 cinquantième	O	O	O	O	O	O	_	_	_
@@ -33514,7 +33514,7 @@ le	O	O	O	O	O	O	_	_	_
 septembre	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-RENENS	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+RENENS	S-loc	O	B-loc.adm.town	B-org.ent	O	O	_	_	_
 —	O	O	O	O	O	O	_	_	_
 Société	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
@@ -33524,7 +33524,7 @@ développement	O	O	O	O	O	O	_	_	_
 —	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
 C	B-org	O	B-org.ent.pressagency	O	O	O	_	_	_
-.	I-org	O	I-pers.ind.articleauthor	O	O	O	_	_	_
+.	I-org	O	I-org.ent.pressagency	O	O	O	_	_	_
 P	I-org	O	I-org.ent.pressagency	O	O	O	_	_	_
 .	E-org	O	I-org.ent.pressagency	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
@@ -33548,7 +33548,7 @@ Société	B-org	O	B-org.ent	O	O	O	_	_	_
 de	I-org	O	I-org.ent	O	O	O	_	_	_
 développement	I-org	O	I-org.ent	O	O	O	_	_	_
 de	I-org	O	I-org.ent	O	O	O	_	_	_
-Renens	I-org	O	B-loc.adm.town	O	O	B-loc.adm.town	_	_	_
+Renens	I-org	O	I-org.ent	O	O	B-loc.adm.town	_	_	_
 et	I-org	O	I-org.ent	O	O	O	_	_	_
 environs	E-org	O	I-org.ent	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
@@ -33561,8 +33561,8 @@ suit	O	O	O	O	O	O	_	_	_
 MM	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	E-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 
-D	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
-Dusserre	E-pers	O	I-pers.ind	O	O	O	_	_	_
+D	B-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+Dusserre	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
 Chavannes	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
@@ -33575,7 +33575,7 @@ Ecublens	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Moraz	S-pers	O	B-pers.ind	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-Crissier	S-pers	O	B-pers.ind	O	O	O	_	_	_
+Crissier	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
@@ -33584,7 +33584,7 @@ MM	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 
 Manriry	S-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Christin	S-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
+Christin	S-pers	O	B-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Clardon	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
@@ -33614,7 +33614,7 @@ autorités	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 Chavannes	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-Ecublens	S-pers	O	B-pers.ind	O	O	O	_	_	_
+Ecublens	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 Crissier	S-pers	O	B-pers.ind	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
@@ -33654,7 +33654,7 @@ extension	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-agglomération	O	O	B-loc.adm.town	O	O	O	_	_	_
+agglomération	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 Renens	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -33695,7 +33695,7 @@ du	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 Châtelard	I-loc	O	I-loc.adm.town	O	B-comp.name	O	_	_	_
 -	I-loc	O	I-loc.adm.town	O	I-comp.name	O	_	_	_
 Mon	I-loc	O	I-loc.adm.town	O	I-comp.name	O	_	_	_
--	I-loc	O	I-loc.adm.town	O	I-comp.name	O	_	_	_
+-	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 '	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 '	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 treux	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
@@ -33735,7 +33735,7 @@ l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 Etat	B-org	O	B-org.adm	O	O	O	_	_	_
 de	I-org	O	I-org.adm	O	O	O	_	_	_
-Vaud	E-org	O	I-org.adm	O	B-comp.name	O	_	_	_
+Vaud	E-org	O	I-org.adm	O	O	O	_	_	_
 pour	O	O	O	O	O	O	_	_	_
 ie	O	O	O	O	O	O	_	_	_
 paiement	O	O	O	O	O	O	_	_	_
@@ -34060,7 +34060,7 @@ régime	O	O	O	O	O	O	_	_	_
 financier	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Confédération	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
+Confédération	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 viennent	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 faire	O	O	O	O	O	O	_	_	_
@@ -34074,12 +34074,12 @@ d	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 application	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
-Département	B-org	O	B-org.adm	O	O	O	_	_	_
-fédéral	I-org	O	I-org.adm	O	O	O	_	_	_
-des	I-org	O	I-org.adm	O	O	O	_	_	_
-finances	E-org	O	I-org.adm	O	O	O	_	_	_
-et	O	O	O	O	O	O	_	_	_
+Département	O	O	B-org.adm	O	O	O	_	_	_
+fédéral	O	O	I-org.adm	O	O	O	_	_	_
 des	O	O	I-org.adm	O	O	O	_	_	_
+finances	O	O	O	O	O	O	_	_	_
+et	O	O	O	O	O	O	_	_	_
+des	O	O	O	O	O	O	_	_	_
 douanes	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
@@ -34143,7 +34143,7 @@ exonérés	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-ICHA	S-org	O	B-org.ent	O	O	O	_	_	_
+ICHA	O	O	O	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
 étendue	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -34619,7 +34619,7 @@ L	O	O	O	O	O	O	_	_	_
 appel	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-BRI	O	O	B-org.ent	O	O	O	_	_	_
+BRI	S-org	O	B-org.ent	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 été	O	O	O	O	O	O	_	_	_
 lancé	O	O	O	O	O	O	_	_	_
@@ -34748,7 +34748,7 @@ est	O	O	O	O	O	O	_	_	_
 ainsi	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-BRI	S-loc	B-org	B-loc.adm.nat	B-org.adm	O	O	_	_	_
+BRI	S-org	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 dû	O	O	O	O	O	O	_	_	_
 acheter	O	O	O	O	O	O	_	_	_
@@ -34757,11 +34757,11 @@ francs	O	O	O	O	O	O	_	_	_
 français	O	O	O	O	O	O	_	_	_
 offerts	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
-Aile	B-loc	O	B-loc.adm.reg	O	O	O	_	_	_
--	I-loc	O	I-loc.adm.nat	O	O	O	_	_	_
-,	E-loc	O	O	O	O	O	_	_	_
-magne	B-loc	O	I-loc.adm.reg	O	O	B-loc.adm.nat	_	_	_
-occidentale	E-loc	O	I-loc.adm.sup	O	O	O	_	_	_
+Aile	B-loc	O	B-loc.adm.reg	O	O	B-loc.adm.nat	_	_	_
+-	I-loc	O	I-loc.adm.reg	O	O	O	_	_	_
+,	I-loc	O	O	O	O	O	_	_	_
+magne	I-loc	O	I-loc.adm.reg	O	O	B-loc.adm.nat	_	_	_
+occidentale	E-loc	O	I-loc.adm.reg	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Les	O	O	O	O	O	O	_	_	_
@@ -34793,9 +34793,9 @@ DROITE	O	O	O	O	O	O	_	_	_
 Chez	O	O	O	O	O	O	_	_	_
 Paul	B-pers	O	B-pers.ind	O	O	O	_	_	_
 Morand	E-pers	O	I-pers.ind	O	O	O	_	_	_
-de	O	O	O	O	O	O	_	_	_
+de	O	O	I-pers.ind	O	O	O	_	_	_
 l	O	O	I-pers.ind	O	O	O	_	_	_
-'	O	O	I-pers.ind	O	O	O	_	_	_
+'	O	O	O	O	O	O	_	_	_
 Académie	B-org	O	B-org.ent	O	O	B-org.ent	_	_	_
 française	E-org	O	I-org.ent	O	O	O	_	_	_
 Etrange	O	O	O	O	O	O	_	_	_
@@ -34854,7 +34854,7 @@ avait	O	O	O	O	O	O	_	_	_
 fondé	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 «	O	O	O	O	O	O	_	_	_
-Nouvelle	B-prod	O	B-org.ent	O	O	O	_	_	_
+Nouvelle	B-prod	O	B-prod.media	O	O	O	_	_	_
 Revue	I-prod	O	I-prod.media	O	O	O	_	_	_
 Française	E-prod	O	I-org.ent	O	O	O	_	_	_
 »	O	O	O	O	O	O	_	_	_
@@ -35217,7 +35217,7 @@ bout	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 Tour	B-loc	O	B-loc.fac	O	O	O	_	_	_
-Eiffel	E-loc	O	I-loc.fac	O	B-comp.name	O	_	_	_
+Eiffel	E-loc	O	I-loc.fac	O	O	O	_	_	_
 était	O	O	O	O	O	O	_	_	_
 toujours	O	O	O	O	O	O	_	_	_
 invisible	O	O	O	O	O	O	_	_	_
@@ -35572,7 +35572,7 @@ le	O	O	O	O	O	O	_	_	_
 ménage	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-NRF	S-org	O	B-org.ent	O	O	O	_	_	_
+NRF	S-org	O	B-org.adm	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 En	O	O	O	O	O	O	_	_	_
@@ -35627,7 +35627,7 @@ principale	O	O	O	O	O	O	_	_	_
 du	O	O	O	O	O	O	_	_	_
 quartier	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 de	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
-Pucnte	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+Pucnte	I-loc	O	B-loc.adm.town	O	O	O	_	_	_
 Vjeja	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
@@ -35677,7 +35677,7 @@ cl	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 os	O	O	O	O	O	O	_	_	_
-Encartelados	S-pers	O	O	O	O	O	_	_	_
+Encartelados	S-pers	O	B-pers.ind	O	O	O	_	_	_
 »	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 litéralement	O	O	O	O	O	O	_	_	_
@@ -35723,7 +35723,7 @@ dimanche	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 là	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
-20	B-time	O	B-time.date.abs	O	O	O	_	_	_
+20	B-time	O	I-time.date.abs	O	O	O	_	_	_
 octobre	I-time	O	I-time.date.abs	O	O	O	_	_	_
 1	I-time	O	I-time.date.abs	O	O	O	_	_	_
 968	E-time	O	I-time.date.abs	O	O	O	_	_	_
@@ -35907,7 +35907,7 @@ j	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 ouvre	O	O	O	O	O	O	_	_	_
 «	O	O	O	O	O	O	_	_	_
-Le	O	O	O	O	O	O	_	_	_
+Le	O	O	B-prod.media	O	O	O	_	_	_
 Monde	O	O	O	O	O	O	_	_	_
 »	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
@@ -35957,7 +35957,7 @@ fonctionnaire	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
 de	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 !	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 
-Unesco	S-pers	O	B-pers.ind	O	O	O	_	_	_
+Unesco	S-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 Paris	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
@@ -36202,8 +36202,8 @@ Armel	B-pers	O	B-pers.ind.articleauthor	O	O	O	_	_	_
 Guerne	E-pers	O	I-pers.ind.articleauthor	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-son	B-pers	O	I-pers.ind	O	O	O	_	_	_
-adaptateur	E-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
+son	O	O	I-pers.ind	O	O	O	_	_	_
+adaptateur	O	O	O	O	B-comp.function	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 m	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
@@ -36410,8 +36410,8 @@ servi	O	O	O	O	O	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
 France	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 Albin	B-pers	O	B-org.ent	O	O	O	_	_	_
--	I-pers	O	I-org.ent	O	O	O	_	_	_
-Michel	E-pers	O	I-org.ent	O	O	O	_	_	_
+-	I-pers	O	I-pers.ind	O	O	O	_	_	_
+Michel	E-pers	O	I-pers.ind	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Celui	O	O	O	O	O	O	_	_	_
@@ -36445,8 +36445,8 @@ en	B-time	O	B-time.date.abs	O	O	O	_	_	_
 1966	E-time	O	I-time.date.abs	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-Guatémaltèque	B-org	O	B-org.ent	O	O	O	_	_	_
-Asturias	E-org	O	I-org.ent	O	O	O	_	_	_
+Guatémaltèque	B-pers	O	B-pers.ind	O	O	O	_	_	_
+Asturias	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 en	B-time	O	B-time.date.abs	O	O	O	_	_	_
 1967	E-time	O	I-time.date.abs	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
@@ -36516,8 +36516,8 @@ propres	O	O	O	O	O	O	_	_	_
 moyens	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Municipalité	B-org	O	B-loc.adm.town	O	O	O	_	_	_
-de	I-org	O	I-loc.adm.town	O	O	O	_	_	_
+Municipalité	B-org	O	O	O	O	O	_	_	_
+de	I-org	O	O	O	O	O	_	_	_
 Thonon	E-org	O	B-loc.adm.town	O	O	B-loc.adm.town	_	_	_
 reprend	O	O	O	O	O	O	_	_	_
 cette	O	O	O	O	O	O	_	_	_
@@ -36538,8 +36538,8 @@ l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 enseigne	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Centre	O	O	O	O	O	O	_	_	_
-culturel	O	O	O	O	O	O	_	_	_
+Centre	O	O	B-org.ent	O	O	O	_	_	_
+culturel	O	O	I-org.ent	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Il	O	O	O	O	O	O	_	_	_
@@ -36553,7 +36553,7 @@ on	O	O	O	O	O	O	_	_	_
 ait	O	O	O	O	O	O	_	_	_
 souhaité	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
-Thonon	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Thonon	S-loc	B-org	B-loc.adm.town	B-org.adm	O	O	_	_	_
 s	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 affranchir	O	O	O	O	O	O	_	_	_
@@ -36619,7 +36619,7 @@ cette	O	O	O	O	O	O	_	_	_
 politique	O	O	O	O	O	O	_	_	_
 approuvée	O	O	O	O	O	O	_	_	_
 par	O	O	O	O	O	O	_	_	_
-Paris	S-loc	O	B-loc.adm.town	B-org.adm	O	O	_	_	_
+Paris	S-loc	B-org	B-loc.adm.town	B-org.adm	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 On	O	O	O	O	O	O	_	_	_
@@ -36681,12 +36681,12 @@ tel	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 travers	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Normandie	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
+Normandie	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 La	O	O	O	O	O	O	_	_	_
 danse	O	O	O	O	O	O	_	_	_
 aux	O	O	O	O	O	O	_	_	_
-Champs	B-loc	O	B-loc.oro	O	O	O	_	_	_
+Champs	B-loc	O	B-loc.fac	O	O	O	_	_	_
 -	I-loc	O	I-loc.oro	O	O	O	_	_	_
 Elysées	E-loc	O	I-loc.fac	O	O	O	_	_	_
 Le	O	O	O	O	O	O	_	_	_
@@ -36719,11 +36719,11 @@ le	O	O	O	O	O	O	_	_	_
 novembre	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 The	O	O	O	O	O	O	_	_	_
-Dancer	B-org	O	I-org.ent	O	O	O	_	_	_
+Dancer	B-org	O	B-org.ent	O	O	O	_	_	_
 Theater	E-org	O	I-org.ent	O	O	O	_	_	_
 of	O	O	O	O	O	O	_	_	_
-Alwin	B-org	O	B-org.ent	O	O	O	_	_	_
-Nikoldis	E-org	O	I-org.ent	O	O	O	_	_	_
+Alwin	B-pers	O	B-org.ent	O	O	O	_	_	_
+Nikoldis	E-pers	O	I-org.ent	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 troupe	O	O	O	O	O	O	_	_	_
 américaine	O	O	O	O	O	O	_	_	_
@@ -36790,7 +36790,7 @@ soir	O	O	O	O	O	O	_	_	_
 Rétrospective	O	O	O	O	O	O	_	_	_
 pour	O	O	O	O	O	O	_	_	_
 un	O	O	O	O	O	O	_	_	_
-Américain	O	O	B-pers.ind	O	B-comp.demonym	O	_	_	_
+Américain	O	O	O	O	O	O	_	_	_
 Rauschcnberg	S-pers	O	B-pers.ind	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
@@ -36967,12 +36967,12 @@ l	O	O	O	O	O	O	_	_	_
 actualité	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 après	O	O	O	O	O	O	_	_	_
-Montand	O	O	O	O	O	O	_	_	_
+Montand	S-pers	O	B-pers.ind	O	O	O	_	_	_
 sur	O	O	O	O	O	O	_	_	_
 une	O	O	O	O	O	O	_	_	_
 rive	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-Olympia	S-pers	O	B-pers.ind	O	O	O	_	_	_
+Olympia	S-org	O	B-org.ent.pressagency	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
@@ -36982,7 +36982,7 @@ l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 autre	O	O	O	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
-Bobino	S-org	O	B-loc.adm.town	O	O	O	_	_	_
+Bobino	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 nous	O	O	O	O	O	O	_	_	_
@@ -37481,7 +37481,7 @@ les	O	O	O	O	O	O	_	_	_
 pressions	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
-USA	S-org	O	B-org.ent	O	O	O	_	_	_
+USA	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 seraient	O	O	O	O	O	O	_	_	_
 disposés	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
@@ -37500,12 +37500,12 @@ plan	O	O	O	O	O	O	_	_	_
 égyptien	O	O	O	O	O	O	_	_	_
 sur	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Cisjordanie	S-loc	O	B-loc.phys.geo	O	O	O	_	_	_
+Cisjordanie	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 Gaza	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 permettrait	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
-Israël	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
+Israël	S-loc	B-org	B-loc.adm.nat	B-org.adm	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 prendre	O	O	O	O	O	O	_	_	_
 connaissance	O	O	O	O	O	O	_	_	_
@@ -37659,9 +37659,9 @@ créer	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 société	O	O	O	O	O	O	_	_	_
 Leila	B-org	O	B-org.ent	O	O	O	_	_	_
-Film	E-org	O	I-org.ent	O	O	O	_	_	_
-SA	B-org	O	I-org.ent	O	O	O	_	_	_
-.	E-org	O	O	O	O	O	_	_	_
+Film	I-org	O	I-org.ent	O	I-comp.name	O	_	_	_
+SA	E-org	O	I-org.ent	O	O	O	_	_	_
+.	O	O	O	O	O	O	_	_	_
 
 destinée	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
@@ -37714,7 +37714,7 @@ de	O	O	O	O	O	O	_	_	_
 travail	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 Nastassia	B-pers	O	B-pers.ind	O	O	O	_	_	_
-Kinski	E-pers	O	I-loc.adm.town	O	O	O	_	_	_
+Kinski	E-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 estimant	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
@@ -37803,7 +37803,7 @@ Comité	B-org	O	B-org.ent	O	O	O	_	_	_
 International	I-org	O	I-org.ent	O	O	O	_	_	_
 de	I-org	O	I-org.ent	O	O	O	_	_	_
 la	I-org	O	I-org.ent	O	O	O	_	_	_
-Croix	I-org	O	B-org.ent	O	O	O	_	_	_
+Croix	I-org	O	I-org.ent	O	O	O	_	_	_
 -	I-org	O	I-org.ent	O	O	O	_	_	_
 Rouge	E-org	O	I-org.ent	O	O	O	_	_	_
 (	O	O	O	O	O	O	_	_	_
@@ -37916,7 +37916,7 @@ Pa	O	O	O	O	O	O	_	_	_
 !	O	O	O	O	O	O	_	_	_
 
 -	O	O	I-pers.ind	O	O	O	_	_	_
-irisien	O	O	I-pers.ind	O	I-comp.function	O	_	_	_
+irisien	O	O	I-loc.oro	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
@@ -38004,8 +38004,8 @@ l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 hôpital	O	O	O	O	O	O	_	_	_
 Saint	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
--	I-loc	O	O	O	O	O	_	_	_
-Louis	E-loc	O	O	O	O	O	_	_	_
+-	I-loc	O	I-loc.fac	O	O	O	_	_	_
+Louis	E-loc	O	I-org.ent	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Des	O	O	O	O	O	O	_	_	_
@@ -38079,7 +38079,7 @@ hautes	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 pour	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 la	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 Prusse	I-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.nat	_	_	_
-occidentale	E-pers	O	I-pers.ind	O	I-comp.function	I-org.ent	_	_	_
+occidentale	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 Depuis	O	O	O	O	O	O	_	_	_
 cinq	O	O	O	O	O	O	_	_	_
@@ -38146,7 +38146,7 @@ ancien	O	O	O	O	O	O	_	_	_
 bourreau	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-Reindel	S-pers	O	B-pers.ind	O	O	O	_	_	_
+Reindel	S-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 dans	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
@@ -38165,10 +38165,10 @@ seize	O	O	O	O	O	O	_	_	_
 né	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-dM	O	O	O	O	O	O	_	_	_
+dM	O	O	B-pers.ind.articleauthor	O	O	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
-'	O	O	O	O	O	O	_	_	_
+'	O	O	I-pers.ind	O	O	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
 aufee	O	O	O	O	O	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
@@ -38211,8 +38211,8 @@ eu	O	O	O	O	O	O	_	_	_
 Allemagne	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
 pas	O	O	O	O	O	O	_	_	_
-iJKeaz	O	O	B-pers.ind	O	O	O	_	_	_
-Schwietz	S-pers	O	I-pers.ind	O	O	O	_	_	_
+iJKeaz	O	O	O	O	O	O	_	_	_
+Schwietz	S-pers	O	B-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 bour	O	O	O	O	O	O	_	_	_
@@ -38221,17 +38221,17 @@ bour	O	O	O	O	O	O	_	_	_
 ijeau	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 Br	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
-eslasi	E-loc	O	I-pers.ind	O	O	B-loc.adm.town	_	_	_
+eslasi	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 O	B-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 Piappi	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-les	O	O	I-pers.ind	O	O	O	_	_	_
+les	O	O	O	O	O	O	_	_	_
 pliante	O	O	O	O	O	O	_	_	_
-fameux	O	O	O	O	I-comp.function	O	_	_	_
+fameux	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 Reindel	S-pers	O	B-pers.ind	O	O	O	_	_	_
-O	O	O	O	O	O	O	_	_	_
+O	O	O	B-pers.ind	O	O	O	_	_	_
 figurjal	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
 femme	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
@@ -38241,13 +38241,13 @@ JVie	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 e	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
 l	I-pers	O	I-pers.ind	O	O	O	_	_	_
-'	I-pers	O	I-pers.ind	O	O	O	_	_	_
-horrible	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
-mégère	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
-de	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-Hambour	I-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.town	_	_	_
-'	I-pers	O	I-pers.ind	O	I-comp.function	I-loc.adm.town	_	_	_
-g	E-pers	O	I-pers.ind	O	I-comp.function	B-loc.adm.town	_	_	_
+'	I-pers	O	O	O	O	O	_	_	_
+horrible	I-pers	O	O	O	O	O	_	_	_
+mégère	E-pers	O	O	O	B-comp.function	O	_	_	_
+de	O	O	O	O	O	O	_	_	_
+Hambour	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
+'	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
+g	E-loc	O	B-loc.adm.town	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 qui	O	O	O	O	O	O	_	_	_
 assassina	O	O	O	O	O	O	_	_	_
@@ -38275,8 +38275,8 @@ Mailau	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
 ,	I-pers	O	I-pers.ind	O	O	O	_	_	_
 cet	I-pers	O	I-pers.ind	O	O	O	_	_	_
 employé	E-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
-de	O	O	O	O	I-comp.function	O	_	_	_
-la	O	O	O	O	I-comp.function	O	_	_	_
+de	O	O	O	O	O	O	_	_	_
+la	O	O	O	O	O	O	_	_	_
 ville	B-loc	O	B-loc.adm.town	O	O	O	_	_	_
 d	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
 '	I-loc	O	I-loc.adm.town	O	O	O	_	_	_
@@ -38622,7 +38622,7 @@ a	O	O	O	O	O	O	_	_	_
 essayé	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 tuer	O	O	O	O	O	O	_	_	_
-O	O	O	B-pers.ind	O	O	O	_	_	_
+O	S-pers	O	B-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 gendarme	O	O	O	O	O	O	_	_	_
@@ -39018,7 +39018,7 @@ principales	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 ?	O	O	O	O	O	O	_	_	_
 
-Devinez	S-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+Devinez	S-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 :	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
@@ -39262,8 +39262,8 @@ York	E-loc	O	I-loc.adm.town	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 refusé	O	O	O	O	O	O	_	_	_
 S	O	O	O	O	O	O	_	_	_
-M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
-!	E-pers	O	I-pers.ind	O	O	O	_	_	_
+M	O	O	O	O	O	O	_	_	_
+!	O	O	O	O	O	O	_	_	_
 
 .	O	O	O	O	O	_	_	_	_
 
@@ -39669,7 +39669,7 @@ situation	O	O	O	O	O	O	_	_	_
 Les	O	O	O	O	O	O	_	_	_
 entrevues	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Godesberg	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Godesberg	S-pers	O	B-pers.ind	O	O	O	_	_	_
 y	O	O	O	O	O	O	_	_	_
 En	O	O	O	O	O	O	_	_	_
 effet	O	O	O	O	O	O	_	_	_
@@ -39684,7 +39684,7 @@ sait	O	O	O	O	O	O	_	_	_
 des	O	O	O	O	O	O	_	_	_
 conversations	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Godesberg	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
+Godesberg	S-pers	O	B-pers.ind	O	O	O	_	_	_
 est	O	O	O	O	O	O	_	_	_
 singulièrement	O	O	O	O	O	O	_	_	_
 embrouillé	O	O	O	O	O	O	_	_	_
@@ -40311,9 +40311,9 @@ Bienvenue	O	O	O	O	O	O	_	_	_
 M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 Paul	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
-CHAUDET	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
-Conseiller	B-org	O	I-org.adm	O	O	O	_	_	_
-fédéral	E-org	O	I-org.adm	O	O	O	_	_	_
+CHAUDET	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+Conseiller	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
+fédéral	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 JTour	O	O	O	O	O	O	_	_	_
 célébrer	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -40344,16 +40344,16 @@ souche	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 "	O	O	O	O	O	O	_	_	_
-Cërcîè	O	O	B-org.adm	O	O	O	_	_	_
-~	O	O	I-org.adm	O	O	O	_	_	_
+Cërcîè	O	O	O	O	O	O	_	_	_
+~	O	O	O	O	O	O	_	_	_
 "	O	O	O	O	O	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
 O	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-"	O	O	B-pers.ind	O	O	O	_	_	_
-Sapin	S-pers	O	B-pers.ind	O	O	O	_	_	_
+"	B-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
+Sapin	E-pers	O	I-pers.ind	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 fait	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
@@ -40473,9 +40473,9 @@ heure	O	O	O	O	O	O	_	_	_
 actuelle	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
-Département	O	O	O	O	O	O	_	_	_
-militaire	O	O	O	O	O	O	_	_	_
-fédéral	O	O	I-org.adm	O	O	O	_	_	_
+Département	B-org	O	B-org.adm	O	O	O	_	_	_
+militaire	I-org	O	I-org.adm	O	O	O	_	_	_
+fédéral	E-org	O	I-org.adm	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Il	O	O	O	O	O	O	_	_	_
@@ -40580,9 +40580,9 @@ permettons	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
 souhaiter	O	O	O	O	O	O	_	_	_
 au	O	O	O	O	O	O	_	_	_
-Conseiller	B-org	O	B-org.adm	O	O	O	_	_	_
-fédéral	I-org	O	I-org.adm	O	O	O	_	_	_
-Chaudet	E-org	O	I-org.adm	O	O	O	_	_	_
+Conseiller	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
+fédéral	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+Chaudet	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 une	O	O	O	O	O	O	_	_	_
 respectueuse	O	O	O	O	O	O	_	_	_
 mais	O	O	O	O	O	O	_	_	_
@@ -40662,12 +40662,12 @@ qu	O	O	O	O	O	O	_	_	_
 accompagneront	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
 Conseiller	O	O	O	O	O	O	_	_	_
-d	O	O	O	O	O	O	_	_	_
-'	O	O	O	O	O	O	_	_	_
-Etat	O	O	O	O	O	O	_	_	_
+d	O	O	O	O	I-comp.name	O	_	_	_
+'	O	O	O	O	I-comp.function	O	_	_	_
+Etat	O	O	O	O	I-comp.function	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 aux	O	O	O	O	O	O	_	_	_
-Etats	S-org	O	B-org.adm	O	O	O	_	_	_
+Etats	O	O	B-loc.adm.nat	O	I-comp.function	O	_	_	_
 Jean	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
 -	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 Louis	I-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
@@ -40749,12 +40749,12 @@ groupe	O	O	B-org.ent	O	O	O	_	_	_
 palestinien	O	O	O	O	O	O	_	_	_
 dissident	O	O	O	O	O	O	_	_	_
 Fatah	B-org	O	B-org.ent	O	B-comp.name	O	_	_	_
--	I-org	O	I-pers.ind	O	I-comp.name	O	_	_	_
+-	I-org	O	I-pers.ind	O	O	O	_	_	_
 CR	E-org	O	I-org.ent	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
 Abou	B-pers	O	B-pers.ind	O	O	O	_	_	_
-Nidal	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
+Nidal	E-pers	O	I-pers.ind	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 deux	O	O	O	O	O	O	_	_	_
 petites	O	O	O	O	O	O	_	_	_
@@ -40857,11 +40857,11 @@ Istres	S-loc	O	B-loc.adm.town	O	O	O	_	_	_
 Selon	O	O	O	O	O	O	_	_	_
 l	O	O	O	O	O	O	_	_	_
 '	O	O	O	O	O	O	_	_	_
-agence	O	O	B-org.ent.pressagency	O	O	O	_	_	_
-de	O	O	O	O	O	O	_	_	_
-presse	O	O	O	O	O	O	_	_	_
-libyenne	O	O	O	O	B-comp.demonym	O	_	_	_
-Jana	S-prod	O	I-org.ent.pressagency	O	B-comp.name	O	_	_	_
+agence	B-org	O	B-org.ent.pressagency	O	B-comp.function	O	_	_	_
+de	I-org	O	I-org.ent	O	O	O	_	_	_
+presse	I-org	O	O	O	O	O	_	_	_
+libyenne	I-org	O	O	O	B-comp.demonym	O	_	_	_
+Jana	E-org	O	I-pers.ind	O	B-comp.name	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 les	O	O	O	O	O	O	_	_	_
 deux	O	O	O	O	O	O	_	_	_
@@ -40913,10 +40913,10 @@ Bouvier	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
-Bétille	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
-(	I-pers	O	I-pers.ind	O	O	O	_	_	_
-exmari	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
-de	O	O	I-pers.ind	O	I-comp.function	O	_	_	_
+Bétille	E-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
+(	O	O	I-pers.ind	O	O	O	_	_	_
+exmari	O	O	O	O	O	O	_	_	_
+de	O	O	O	O	O	O	_	_	_
 Jacqueline	B-pers	O	B-pers.ind	O	O	O	_	_	_
 Valente	E-pers	O	I-pers.ind	O	O	O	_	_	_
 )	O	O	O	O	O	O	_	_	_
@@ -41031,9 +41031,9 @@ Valente	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 ainsi	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
 leur	O	O	O	O	O	O	_	_	_
-père	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
-,	I-pers	O	I-pers.ind	O	O	O	_	_	_
-M	I-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
+père	O	O	O	O	O	O	_	_	_
+,	O	O	I-pers.ind	O	O	O	_	_	_
+M	B-pers	O	B-pers.ind	O	B-comp.title	O	_	_	_
 .	I-pers	O	I-pers.ind	O	I-comp.title	O	_	_	_
 Pascal	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 Bétille	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
@@ -41144,7 +41144,7 @@ du	O	O	O	O	O	O	_	_	_
 Golan	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Syrie	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
+Syrie	S-loc	B-org	B-loc.adm.nat	B-org.adm	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 «	O	O	O	O	O	O	_	_	_
@@ -41185,7 +41185,7 @@ deux	O	O	O	O	O	O	_	_	_
 mois	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
-Israël	S-pers	O	B-pers.ind	B-org.adm	O	O	_	_	_
+Israël	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 affirmé	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
@@ -41204,7 +41204,7 @@ un	O	O	O	O	O	O	_	_	_
 retrait	O	O	O	O	O	O	_	_	_
 partiel	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Cisjordanie	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
+Cisjordanie	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Mais	O	O	O	O	O	O	_	_	_
@@ -41241,7 +41241,7 @@ porte	O	O	O	O	O	O	_	_	_
 -	O	O	O	O	O	O	_	_	_
 parole	O	O	O	O	O	O	_	_	_
 de	O	O	O	O	O	O	_	_	_
-Yasser	B-pers	O	B-pers.ind	O	O	O	_	_	_
+Yasser	B-pers	O	B-pers.ind	O	B-comp.name	O	_	_	_
 Arafat	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
@@ -41322,12 +41322,12 @@ des	O	O	O	O	O	O	_	_	_
 km	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-triple	O	O	O	O	O	O	_	_	_
-champion	O	O	O	O	O	O	_	_	_
-de	O	O	O	O	O	O	_	_	_
-Suisse	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
-de	O	O	I-pers.ind	O	O	O	_	_	_
-cross	O	O	O	O	O	O	_	_	_
+triple	B-pers	O	B-pers.ind	O	O	O	_	_	_
+champion	I-pers	O	I-pers.ind	O	B-comp.function	O	_	_	_
+de	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+Suisse	I-pers	O	B-loc.adm.nat	O	I-comp.function	B-loc.adm.nat	_	_	_
+de	I-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
+cross	E-pers	O	I-pers.ind	O	I-comp.function	O	_	_	_
 Stéphane	B-pers	O	B-pers.ind	O	O	O	_	_	_
 Joly	E-pers	O	I-pers.ind	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
@@ -41395,9 +41395,9 @@ km	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Le	O	O	O	O	O	O	_	_	_
-citoyen	B-pers	O	B-pers.ind	O	B-comp.function	O	_	_	_
-des	I-pers	O	I-pers.ind	O	O	O	_	_	_
-Breuleux	E-pers	O	I-loc.adm.town	O	B-comp.name	O	_	_	_
+citoyen	O	O	O	O	O	O	_	_	_
+des	O	O	O	O	O	O	_	_	_
+Breuleux	S-loc	O	I-loc.adm.town	O	O	O	_	_	_
 était	O	O	O	O	O	O	_	_	_
 encore	O	O	O	O	O	O	_	_	_
 parfaitement	O	O	O	O	O	O	_	_	_
@@ -41487,7 +41487,7 @@ a	O	O	O	O	O	O	_	_	_
 gagnée	O	O	O	O	O	O	_	_	_
 par	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-Kényan	B-pers	O	B-pers.ind	O	B-comp.demonym	O	_	_	_
+Kényan	B-pers	O	B-pers.ind	O	O	O	_	_	_
 Daid	I-pers	O	I-pers.ind	O	B-comp.name	O	_	_	_
 Mandago	E-pers	O	I-pers.ind	O	I-comp.name	O	_	_	_
 en	O	O	O	O	O	O	_	_	_
@@ -41532,8 +41532,8 @@ h	O	O	O	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 laissant	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-Kényane	B-pers	O	B-pers.ind	O	O	O	_	_	_
-Pamela	I-pers	O	B-pers.ind	O	O	O	_	_	_
+Kényane	B-pers	O	B-pers.ind	O	B-comp.demonym	O	_	_	_
+Pamela	I-pers	O	I-pers.ind	O	O	O	_	_	_
 Chepchumba	E-pers	O	I-pers.ind	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
 plus	O	O	O	O	O	O	_	_	_
@@ -41753,7 +41753,7 @@ aussi	O	O	O	O	O	O	_	_	_
 important	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-CS	S-org	O	O	O	O	O	_	_	_
+CS	S-org	O	B-org.ent	O	O	O	_	_	_
 annonce	O	O	O	O	O	O	_	_	_
 parallèlement	O	O	O	O	O	O	_	_	_
 un	O	O	O	O	O	O	_	_	_
@@ -41956,8 +41956,8 @@ degré	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Le	O	O	O	O	O	O	_	_	_
-Credit	O	O	O	O	O	O	_	_	_
-Suisse	O	O	O	O	O	O	_	_	_
+Credit	B-org	O	B-org.ent	O	O	O	_	_	_
+Suisse	E-org	O	I-org.ent	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 renoncé	O	O	O	O	O	O	_	_	_
 à	O	O	O	O	O	O	_	_	_
@@ -42068,7 +42068,7 @@ cette	O	O	O	O	O	O	_	_	_
 tendance	O	O	O	O	O	O	_	_	_
 que	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
-BNS	S-org	O	B-org.ent	O	O	O	_	_	_
+BNS	S-org	O	I-org.ent	O	O	O	_	_	_
 a	O	O	O	O	O	O	_	_	_
 participé	O	O	O	O	O	O	_	_	_
 la	O	O	O	O	O	O	_	_	_
@@ -42147,7 +42147,7 @@ signés	O	O	O	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 /	O	O	O	O	O	O	_	_	_
-ats	S-org	O	B-pers.ind.articleauthor	O	O	O	_	_	_
+ats	S-org	O	B-org.ent.pressagency	O	O	O	_	_	_
 
 «	O	O	O	O	O	O	_	_	_
 JE	O	O	O	O	O	O	_	_	_
@@ -42189,7 +42189,7 @@ Haïti	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 d	O	O	O	O	O	O	_	_	_
 ’	O	O	O	O	O	O	_	_	_
-Afrique	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
+Afrique	S-loc	O	B-loc.adm.sup	O	O	O	_	_	_
 .	O	O	O	O	O	O	_	_	_
 
 Il	O	O	O	O	O	O	_	_	_
@@ -42264,7 +42264,7 @@ les	O	O	O	O	O	O	_	_	_
 pays	O	O	O	O	O	O	_	_	_
 africains	O	O	O	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
-Haïti	S-loc	O	B-loc.adm.nat	B-org.adm	O	O	_	_	_
+Haïti	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 ,	O	O	O	O	O	O	_	_	_
 dont	O	O	O	O	O	O	_	_	_
 proviennent	O	O	O	O	O	O	_	_	_
@@ -42387,7 +42387,7 @@ Le	O	O	O	O	O	O	_	_	_
 Sénégal	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
 et	O	O	O	O	O	O	_	_	_
 le	O	O	O	O	O	O	_	_	_
-Botswana	S-loc	O	B-loc.adm.nat	O	O	O	_	_	_
+Botswana	S-loc	O	B-loc.adm.reg	O	O	O	_	_	_
 ont	O	O	O	O	O	O	_	_	_
 convoqué	O	O	O	O	O	O	_	_	_
 chacun	O	O	O	O	O	O	_	_	_
