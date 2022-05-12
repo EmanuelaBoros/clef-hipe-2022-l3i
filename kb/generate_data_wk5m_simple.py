@@ -26,6 +26,16 @@ HEADERS = {"content-type": "application/json;charset=UTF-8"}
 LAN = "en"
 INDEX_NAME_CORPUS = "wk5m_corpus"
 
+ENTITY_TIME_FILE = "/home/cgonzale/clef-hipe-2022-l3i/kb/graphvite_data/wikidata5m_temp_existing.txt"
+INTERVAL = 10
+entity_dict = dict()
+with open(ENTITY_TIME_FILE, "r") as ap:
+    entity_times = ap.read().split("\n")
+for entity_time in entity_times[:-1]:
+    e_id, e_time = entity_time.split("\t")
+    entity_dict[e_id] = int(e_time)
+
+
 print(f"Loading Sentence transformer {MODEL[modele]}...")
 embedder = SentenceTransformer(MODEL[modele]["name"])
 print("Sentence transformer loaded !")
@@ -45,8 +55,7 @@ def parse_arguments():
     parser.add_argument("-i", "--in_file",
                         dest="in_file",
                         help="""Path to tsv file.""",
-                        type=str,
-                        default="/home/cgonzale/clef-hipe-2022-l3i/KB-NER/kb/datasets/hipe2020/fr/HIPE-2022-v2.1-hipe2020-dev-fr.tsv")
+                        type=str)
     parser.add_argument("-l", "--lan",
                         default=LAN,
                         type=str)
@@ -56,6 +65,7 @@ def parse_arguments():
 
 def search_batch(queries, lan, k):
     model = modele
+    queries, years = list(zip(*queries))
     vectors = vectorize_batch(queries).tolist()
     responses = []
     print("Searching batch")
@@ -65,7 +75,7 @@ def search_batch(queries, lan, k):
     e_t = time.time()
     print(f"**TIME search batch: {e_t - s_t} [s]")
 
-    return queries, responses
+    return queries, years, responses
 
 
 def vectorize_batch(sentences):
@@ -114,11 +124,12 @@ def parse_paragraph(paragraph):
     return re.sub(r"<e:([\w'’\-.:|() ^>]+)>([\w’\-.:|()' ]+)</e>", "<e> \g<1> </e>", paragraph)
 
 
-def write_kb(queries, responses, out_file):
+def write_kb(queries, years, responses, out_file):
 
     with open(out_file, "a") as f:
         for i, query in enumerate(queries):
             f.write(f"Q:\t{query}")
+            count = 0
             for hit in responses[i]['hits']['hits']:
                 score = hit['_score']
                 fields = hit['fields']
@@ -128,7 +139,14 @@ def write_kb(queries, responses, out_file):
                 #register = f"{sentence}\t{score}\t{entity_id}\t{entity_text}\n"
                 #simple context just first sentence
                 register = f"{sentence}\t{score}\t{entity_id}\t{sentence}\n"
+                if entity_id in entity_dict:
+                    if entity_dict[entity_id] >= years[i] + INTERVAL or entity_dict[entity_id] <= years[i] - INTERVAL:
+                        print(register)
+                        continue
                 f.write(register)
+                count += 1
+                if count == 10:
+                    break
 
 
 def main():
@@ -138,14 +156,14 @@ def main():
     with open(args.in_file, 'r') as f:
         lines = f.readlines()
 
-    out_file = args.in_file.replace(".tsv", ".kbs")
-    sentences = utils.process_sentences(lines)
+    out_file = args.in_file.replace(".tsv", ".kb")
+    sentences = utils.process_sentences_time(lines)
     batch_size = 10
-    k = 10
+    k = 25
     for i, queries in tqdm(enumerate(batch_iter(sentences, batch_size))):
         print(f"{i*batch_size}/{len(sentences)}")
-        queries, responses = search_batch(queries, lan, k)
-        write_kb(queries, responses, out_file)
+        queries, years, responses = search_batch(queries, lan, k)
+        write_kb(queries, years, responses, out_file)
 
 
 if __name__ == '__main__':
