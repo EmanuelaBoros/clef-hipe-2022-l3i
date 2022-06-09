@@ -8,7 +8,8 @@ Before doing so, we need a file that contains all contexts in one, and thus:
 And then:
 
 ```
-python context_process.py --retrieval_file datasets/ajmc/en/kb/en_wk5m_simple_time/HIPE-2022-v2.1-ajmc-en.kb \
+python context_process.py \
+    --retrieval_file datasets/ajmc/en/kb/en_wk5m_simple_time/HIPE-2022-v2.1-ajmc-en.kb \
     --conll_folder datasets/ajmc/en/ \
     --lang en \
     --version 3 \
