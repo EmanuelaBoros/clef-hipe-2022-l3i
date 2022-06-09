@@ -56,7 +56,7 @@ def _read_conll(path, encoding='utf-8',sep=None, indexes=None, dropna=True):
 #            if 'StartOfContext' in line:
 #                doc.append(line)
             # import pdb;pdb.set_trace()
-            if ('DOCSTART' in line) or ('# hipe' in line) or ('# ajmc' in line)  or ("TOKEN" in line):
+            if ('DOCSTART' in line) or ('# ajmc' in line) or  ('# hipe' in line) or ("TOKEN" in line):
                 continue
             elif line == '':
                 if len(sample):
@@ -66,12 +66,31 @@ def _read_conll(path, encoding='utf-8',sep=None, indexes=None, dropna=True):
                         
                         if 'StartOfContext' in res[-1]:
                             sentence = [x[:res[-1].index('StartOfContext')] for x in res]
-                            context = [x[res[-1].index('StartOfContext')+1:] for x in res]
+                            
+                            #import pdb;pdb.set_trace()
+                            context = [x[res[-1].inde('StartOfContext')+1:] for x in res]
+                            indices = [i for i, x in enumerate(context[0]) if x == "<SEP>"]
+                            contexts = []
+                            for index_start, index_end in zip([0] + indices, indices + [len(context[0])]):
+                         
+                                contexts.append([x[index_start+1:index_end] for x in context])
+                            if len(contexts) < 10:
+                                #import pdb;pdb.set_trace()
+                                contexts += [sentence] * (10 - len(contexts))
+                             #import pdb;pdb.set_trace()
+                            if len(contexts) > 10:
+                               contexts = contexts[:10]
+                            for idx, c in enumerate(contexts):
+                                if len(contexts[idx][0]) < 1:
+                                    contexts[idx] = sentence
+                                #import pdb;pdb.set_trace()#print(idx)
                         else:
                             sentence = res
                             context = res
+                            contexts = [res] * 10
+                            #import pdb;pdb.set_trace()
 #                        data.append([line_idx, res])
-                        data.append([line_idx, sentence, context, res])
+                        data.append([line_idx, sentence, context, contexts, res])
 #                        import pdb;pdb.set_trace()
 
                     except Exception:
@@ -82,7 +101,15 @@ def _read_conll(path, encoding='utf-8',sep=None, indexes=None, dropna=True):
                             continue
                         raise ValueError('Invalid instance which ends at line: {}'.format(line_idx))
             else:
-                sample.append(line.split(sep)) if sep else sample.append(line.split())
+#                sample.append(line.split(sep)) if sep else sample.append(line.split())
+                if sep:
+                    labels = line.split(sep)
+                else:
+                    labels = line.split()
+                #if '_' in labels: print(line)
+                labels = [x if x != '_' else 'O' for x in labels]
+
+                sample.append(labels + ['O'] * (10-len(labels))) if sep else sample.append(labels + ['O'] * (10-len(labels)))
 
         if len(sample) > 0:
             try:
@@ -95,7 +122,7 @@ def _read_conll(path, encoding='utf-8',sep=None, indexes=None, dropna=True):
                     context = res
                 
 #                        data.append([line_idx, res])
-                data.append([line_idx, sentence, context, res])
+                data.append([line_idx, sentence, context, contexts, res])
 
             except Exception as e:
                 if dropna:
@@ -263,7 +290,7 @@ class NERLoader(Loader):
 #        for idx, data in _read_conll(path, indexes=self.indexes, dropna=self.dropna):
         idx = 0
         for element in _read_conll(path, indexes=self.indexes, dropna=self.dropna):
-            idx, data, context, data_and_context = element
+            idx, data, context, contexts, data_and_context = element
             
 #            import pdb;pdb.set_trace()
             if len(data[0]) < 1:
@@ -314,9 +341,11 @@ class NERLoader(Loader):
            
 #            import pdb;pdb.set_trace()
             ins['doc'] = context[0]
-
+            for i in range(len(contexts)):
+                ins['doc' + str(i)] = contexts[i][0]
             #matches = subfinder(ins['doc'], ins['raw_words'])
             #for match in matches:
+            #print(ins)
             #    ins['doc'][0:match[1]+len(ins['raw_words'])] = ['O'] * len(ins['raw_words'])
 #                ins['doc'][match[1]:match[1]+len(ins['raw_words'])] = ['O'] * len(ins['raw_words'])
             
@@ -429,16 +458,16 @@ class DataReader(Pipe):
             data_bundle.apply_field(word_shape, field_name='raw_words', new_field_name='word_shapes')
             data_bundle.set_input('word_shapes')
 
-#        import pdb;pdb.set_trace()
+        #import pdb;pdb.set_trace()
 
         data_bundle.apply_field(lambda chars: [''.join(['0' if c.isdigit() else c for c in char]) for char in chars],
                                 field_name=Const.INPUT, new_field_name=Const.INPUT)
 
         #print(self.vocabulary)
-        _indexize(data_bundle, input_field_names=[Const.INPUT, 'doc'], target_field_names=['target', 'target1', 'target2', 'target3', 'target4', 'target5'], 
+        _indexize(data_bundle, input_field_names=[Const.INPUT, 'doc', 'doc0', 'doc1', 'doc2', 'doc3', 'doc4', 'doc5', 'doc6', 'doc7', 'doc8', 'doc9'], target_field_names=['target', 'target1', 'target2', 'target3', 'target4', 'target5'], 
                   vocabulary=self.vocabulary)
         #_indexize(data_bundle, target_field_names=['target'], vocabulary=self.vocabulary)
-        input_fields = [Const.TARGET, Const.INPUT, Const.INPUT_LEN, 'target1', 'target2', 'target3', 'target4', 'target5', 'doc']
+        input_fields = [Const.TARGET, Const.INPUT, Const.INPUT_LEN, 'target1', 'target2', 'target3', 'target4', 'target5', 'doc', 'doc0', 'doc1', 'doc2', 'doc3', 'doc4', 'doc5', 'doc6', 'doc7', 'doc8', 'doc9']
         # input_fields = [Const.TARGET, Const.INPUT, Const.INPUT_LEN] # 'target4', 'target5', 'target6'
         target_fields = [Const.TARGET, Const.INPUT_LEN, 'target1', 'target2', 'target3', 'target4', 'target5']
 

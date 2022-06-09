@@ -84,7 +84,20 @@ class TransformerLayer(nn.Module):
                                  nn.Dropout(dropout),
                                  nn.Linear(feedforward_dim, d_model),
                                  nn.Dropout(dropout))
-#        self.adapter = Adapter(d_model, feedforward_dim)
+        
+        dropout = 0.1
+        adapter_size = d_model * 2
+        self.adapter1 = nn.Sequential(nn.Linear(d_model, adapter_size),
+                                 nn.ReLU(),
+                                 nn.Dropout(dropout),
+                                 nn.Linear(adapter_size, d_model),
+                                 nn.Dropout(dropout))
+
+        self.adapter2 = nn.Sequential(nn.Linear(d_model, adapter_size),
+                                 nn.ReLU(),
+                                 nn.Dropout(dropout),
+                                 nn.Linear(adapter_size, d_model),
+                                 nn.Dropout(dropout))
         
     def forward(self, x, mask):
         
@@ -94,6 +107,9 @@ class TransformerLayer(nn.Module):
             x = self.norm1(x)
 
         x = self.self_attn(x, mask)
+        
+        x = self.adapter1(x)
+        
         x = x + residual
         if self.after_norm:
             x = self.norm1(x)
@@ -102,6 +118,9 @@ class TransformerLayer(nn.Module):
         if not self.after_norm:
             x = self.norm2(x)
         x = self.ffn(x)
+        
+#        x = self.adapter1(x)
+        
         x = residual + x
         if self.after_norm:
             x = self.norm2(x)
