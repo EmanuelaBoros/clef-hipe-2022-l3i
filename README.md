@@ -3,7 +3,7 @@
 For obtaining the contexts in CoNLL format, we run `context_process.py`, as in the following example, for AJMC in English.
 Before doing so, we need a file that contains all contexts in one, and thus:
 
-`cat datasets/hipe2020/en/kb/en_wk5m_simple_time/HIPE-2022-v2.1-ajmc-train-en.kb datasets/ajmc/en/kb/en_wk5m_simple_time/HIPE-2022-v2.1-ajmc-dev-en.kb datasets/ajmc/en/kb/en_wk5m_simple_time/HIPE-2022-v2.1-ajmc-test_allmasked-en.kb > datasets/ajmc/en/kb/en_wk5m_simple_time/HIPE-2022-v2.1-ajmc-en.kb`
+`cat datasets/ajmc/en/kb/en_wk5m_simple_time/HIPE-2022-v2.1-ajmc-train-en.kb datasets/ajmc/en/kb/en_wk5m_simple_time/HIPE-2022-v2.1-ajmc-dev-en.kb datasets/ajmc/en/kb/en_wk5m_simple_time/HIPE-2022-v2.1-ajmc-test_allmasked-en.kb > datasets/ajmc/en/kb/en_wk5m_simple_time/HIPE-2022-v2.1-ajmc-en.kb`
 
 And then:
 
