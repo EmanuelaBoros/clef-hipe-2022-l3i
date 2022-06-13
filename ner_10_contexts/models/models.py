@@ -191,7 +191,7 @@ class StackedTransformersCRF(nn.Module):
         #import pdb;pdb.set_trace()
         #words = torch.cat([words, joker], 1)
         
-        #words = torch.cat([words, joker.reshape(words.shape[0], joker.shape[0], -1)], 1)
+        words = torch.cat([words, joker.reshape(words.shape[0], joker.shape[0], -1)], 1)
         
         logits = []
         for i in range(len(targets)):
@@ -212,8 +212,8 @@ class StackedTransformersCRF(nn.Module):
                 joker_targets = torch.zeros((targets[i].shape[0], 10)).to('cuda')
                 joker_targets = torch.cat([targets[i], joker_targets], 1)
 
-#                losses.append(self.crfs[i](logits[i], joker_targets, joker_mask))
-                losses.append(self.crfs[i](logits[i], targets[i], mask))
+                losses.append(self.crfs[i](logits[i], joker_targets, joker_mask))
+#                losses.append(self.crfs[i](logits[i], targets[i], mask))
 
             return {'loss': sum(losses)}
         else:
@@ -221,11 +221,11 @@ class StackedTransformersCRF(nn.Module):
             for i in range(len(targets)):
                 #import pdb;pdb.set_trace()
                 if i == 0:
-#                    results['pred'] = self.crfs[i].viterbi_decode(logits[i], joker_mask)[0][:,:-10]
-                    results['pred'] = self.crfs[i].viterbi_decode(logits[i], mask)[0]
+                    results['pred'] = self.crfs[i].viterbi_decode(logits[i], joker_mask)[0][:,:-10]
+#                    results['pred'] = self.crfs[i].viterbi_decode(logits[i], mask)[0]
                 else:
-#                    results['pred' + str(i)] = torch.argmax(logits[i], 2)[:,:-10]
-                    results['pred' + str(i)] = torch.argmax(logits[i], 2)
+                    results['pred' + str(i)] = torch.argmax(logits[i], 2)[:,:-10]
+#                    results['pred' + str(i)] = torch.argmax(logits[i], 2)
                     # results['pred' + str(i)] = self.crfs[i].viterbi_decode(logits[i], mask)[0]
 #                import pdb;pdb.set_trace()
             return results
