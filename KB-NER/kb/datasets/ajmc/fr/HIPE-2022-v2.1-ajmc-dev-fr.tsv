@@ -4,6 +4,7 @@ TOKEN	NE-COARSE-LIT	NE-COARSE-METO	NE-FINE-LIT	NE-FINE-METO	NE-FINE-COMP	NE-NEST
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0071
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -308,6 +309,7 @@ esse	O	O	O	O	O	O	O	O	EndOfSentence
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0080
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -779,6 +781,7 @@ fatex	O	O	O	O	O	O	O	O	NoSpaceAfter
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0082
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -1162,6 +1165,7 @@ a	O	O	O	O	O	O	O	O	EndOfSentence
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0084
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -1526,6 +1530,7 @@ Roi	I-work	O	I-work.primlit	O	O	O	Q148643	O	InPrimaryReference|NoSpaceAfter|LED0
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0088
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -1898,6 +1903,7 @@ xapi	O	O	O	O	O	O	O	O	O
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0096
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -2232,6 +2238,7 @@ couverts	O	O	O	O	O	O	O	O	NoSpaceAfter
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0104
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -2495,6 +2502,7 @@ XX	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.38
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0105
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -2858,6 +2866,7 @@ coneret	O	O	O	O	O	O	O	O	O
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0112
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -3338,6 +3347,7 @@ XIV	B-scope	O	B-scope	O	O	O	O	O	InPrimaryReference|NoSpaceAfter|LED0.25
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0113
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -3758,6 +3768,7 @@ agit	O	O	O	O	O	O	O	O	O
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0120
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -4013,6 +4024,7 @@ pasδῶρα	O	O	O	O	O	O	O	O	NoSpaceAfter
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0128
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -4240,6 +4252,7 @@ Agamemnon	B-work	O	B-work.primlit	O	O	O	Q3320792	O	InPrimaryReference|NoSpaceAft
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0137
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -4606,6 +4619,7 @@ lec	O	O	O	O	O	O	O	O	NoSpaceAfter
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0145
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -4942,6 +4956,7 @@ Hermana	B-pers	O	B-pers.author	O	O	O	Q77616	O	NoSpaceAfter|LED0.14
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0153
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -5110,6 +5125,7 @@ Schneidewin	B-pers	O	B-pers.author	O	O	O	Q70043	O	NoSpaceAfter|LED0.00
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0062
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
@@ -5489,6 +5505,7 @@ hui	O	O	O	O	O	O	O	O	NoSpaceAfter
 # hipe2022:language = fr
 # hipe2022:document_type = commentary
 # hipe2022:document_id = lestragdiesdeso00tourgoog_0063
+# hipe2022:date = 1867-01-01
 # hipe2022:dataset = ajmc
 # hipe2022:applicable_columns = TOKEN NE-COARSE-LIT NE-FINE-LIT NE-NESTED NEL-LIT MISC
 # ajmc:version = v0.3
