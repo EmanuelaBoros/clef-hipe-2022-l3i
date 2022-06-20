@@ -1,0 +1,9 @@
+2020-10-14 13:41:20,041 - root - INFO - Reading system response file '../DATA/ACE2005/events_marked_entities/test.tsv' and gold standard '../DATA/ACE2005/events_marked_entities/test.tsv'.
+2020-10-14 13:41:20,275 - root - INFO - Datasets imported (Gold/Predictions).
+2020-10-14 13:41:20,275 - root - INFO - Number of docs: 1	1
+2020-10-14 13:41:20,275 - root - INFO - Number of lines: 1	1
+2020-10-14 13:41:20,275 - root - INFO - Number of tokens: 18520	18520
+2020-10-14 13:41:20,275 - root - INFO - Evaluating column ['NE-COARSE-METO'] in system response file '../DATA/ACE2005/events_marked_entities/test.tsv'
+2020-10-14 13:41:20,287 - root - INFO - Evaluating on the following tags: {'Crime', 'WEA', 'GPE', 'FAC', 'Numeric', 'ORG', 'TIM', 'PER', 'LOC', 'Job_Title', 'Sentence', 'VEH'}
+2020-10-14 13:41:20,379 - root - INFO - Evaluating column ['NE-COARSE-LIT'] in system response file '../DATA/ACE2005/events_marked_entities/test.tsv'
+2020-10-14 13:41:20,394 - root - INFO - Evaluating on the following tags: {'Start_Position', 'End_Position', 'Release_Parole', 'Convict', 'Execute', 'Transfer_Ownership', 'Trial_Hearing', 'Fine', 'Nominate', 'Injure', 'Declare_Bankruptcy', 'Elect', 'Sentence', 'Extradite', 'Be_Born', 'Transport', 'Divorce', 'Meet', 'Transfer_Money', 'Phone_Write', 'Arrest_Jail', 'Marry', 'Appeal', 'Acquit', 'Sue', 'Charge_Indict', 'End_Org', 'Die', 'Start_Org', 'Demonstrate', 'Attack'}

@@ -1,0 +1,4 @@
+docopt
+numpy
+pandas
+sklearn_crfsuite
