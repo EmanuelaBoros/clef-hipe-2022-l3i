@@ -1,0 +1,36 @@
+File > KB-NER/kb/datasets/hipe2020/en/kb/en_wk5m_simple/HIPE-2022-v2.1-hipe2020-dev-en.kb
+Entities:   10443 1608620 10171068
+Overlap:      13      13      95
+File > KB-NER/kb/datasets/hipe2020/en/kb/en_wk5m_simple/HIPE-2022-v2.1-hipe2020-test_allmasked-en.kb
+Entities:    5526  817713 5184661
+Overlap:       7       7      52
+File > KB-NER/kb/datasets/hipe2020/en/kb/en_wk5m_simple/HIPE-2022-v2.1-hipe2020-train-fr-de.kb
+Entities:   92104 14164969 91096899
+Overlap:     266     266    1812
+File > KB-NER/kb/datasets/hipe2020/en/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-hipe2020-dev-en.kb
+Entities:   10443  443548 2842001
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/hipe2020/en/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-hipe2020-test_allmasked-en.kb
+Entities:    5526  232302 1490244
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/hipe2020/en/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-hipe2020-train-fr-de-all.kb
+Entities:  102547 4570952 29864599
+Overlap:      28      28     191
+File > KB-NER/kb/datasets/hipe2020/en/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-hipe2020-dev-en.kb
+Entities:   10443  443562 2842067
+Overlap:       1       1       8
+File > KB-NER/kb/datasets/hipe2020/en/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-hipe2020-test_allmasked-en.kb
+Entities:    5526  232302 1490244
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/hipe2020/en/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-hipe2020-train-fr-de-all.kb
+Entities:  102547 4571746 29870469
+Overlap:      75      75     519
+File > KB-NER/kb/datasets/hipe2020/en/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-hipe2020-dev-en.kb
+Entities:   10443  443566 2842098
+Overlap:       2       2      16
+File > KB-NER/kb/datasets/hipe2020/en/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-hipe2020-test_allmasked-en.kb
+Entities:    5526  232258 1489982
+Overlap:       1       1       9
+File > KB-NER/kb/datasets/hipe2020/en/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-hipe2020-train-fr-de-all.kb
+Entities:  102547 4571852 29872397
+Overlap:     111     111     776

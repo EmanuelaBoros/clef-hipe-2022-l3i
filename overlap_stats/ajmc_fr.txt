@@ -1,0 +1,51 @@
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple/HIPE-2022-v2.1-ajmc-dev-fr.kb
+Entities:    2020   89896  663618
+Overlap:       1       1       7
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple/HIPE-2022-v2.1-ajmc-fr.kb
+Entities:   14860  660570 4921372
+Overlap:       8       8      60
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple/HIPE-2022-v2.1-ajmc-test-allmasked-fr.kb
+Entities:    1880   84716  643412
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple/HIPE-2022-v2.1-ajmc-train-fr-all.kb
+Entities:   10960  485958 3614342
+Overlap:       7       7      53
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple/HIPE-2022-v2.1-ajmc-train-fr.kb
+Entities:    8940  396062 2950662
+Overlap:       6       6      46
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-ajmc-dev-fr.kb
+Entities:    2020   89912  663664
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-ajmc-test-allmasked-fr.kb
+Entities:    1880   84716  643412
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-ajmc-train-fr-all.kb
+Entities:    8940  396018 2950429
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-ajmc-train-fr.kb
+Entities:    8940  396018 2950429
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-ajmc-dev-fr.kb
+Entities:    2020   89912  663664
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-ajmc-test-allmasked-fr.kb
+Entities:    1880   84716  643412
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-ajmc-train-fr-all.kb
+Entities:    8940  396018 2950429
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-ajmc-train-fr.kb
+Entities:    8940  396018 2950429
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-ajmc-dev-fr.kb
+Entities:    2020   89912  663664
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-ajmc-test-allmasked-fr.kb
+Entities:    1880   84716  643412
+Overlap:       0       0       0
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-ajmc-train-fr-all.kb
+Entities:    8940  396024 2950389
+Overlap:       1       1       8
+File > KB-NER/kb/datasets/ajmc/fr/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-ajmc-train-fr.kb
+Entities:    8940  396024 2950389
+Overlap:       1       1       8

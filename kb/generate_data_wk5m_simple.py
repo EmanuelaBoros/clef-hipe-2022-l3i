@@ -140,6 +140,9 @@ def write_kb(queries, years, responses, out_file):
                 #simple context just first sentence
                 register = f"{sentence}\t{score}\t{entity_id}\t{sentence}\n"
                 if entity_id in entity_dict:
+                    #if year of entity >= (year of query + interval) OR if year of entity <= (year of query - interval)
+                    #1870 >= (1850+10= 1860) oR 1870<=  (1850-10= 1850)
+                    # 1870 >= (1850+50= 1900) oR 1870<=  (1850-50= 1800)
                     if entity_dict[entity_id] >= years[i] + INTERVAL or entity_dict[entity_id] <= years[i] - INTERVAL:
                         print(register)
                         continue

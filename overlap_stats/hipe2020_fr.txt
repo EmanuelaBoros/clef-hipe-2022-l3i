@@ -1,0 +1,75 @@
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple/HIPE-2022-v2.1-hipe2020-dev-fr-200.kb
+Entities:   13939 2131123 13577260
+Overlap:      33      33     226
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple/HIPE-2022-v2.1-hipe2020-dev-fr.kb
+Entities:   13599 2083473 13280875
+Overlap:      29      29     198
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple/HIPE-2022-v2.1-hipe2020-test_allmasked-fr.kb
+Entities:   15826 2426552 15459699
+Overlap:      35      35     230
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple/HIPE-2022-v2.1-hipe2020-test-fr-200.kb
+Entities:   13939 2131123 13577260
+Overlap:      33      33     226
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple/HIPE-2022-v2.1-hipe2020-test-fr.kb
+Entities:   13599 2083473 13280875
+Overlap:      29      29     198
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple/HIPE-2022-v2.1-hipe2020-train-fr-200.kb
+Entities:   60483 9247020 59385761
+Overlap:     137     137     973
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple/HIPE-2022-v2.1-hipe2020-train-fr.kb
+Entities:   59433 9070649 58257338
+Overlap:     136     136     969
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-hipe2020-dev-fr-200.kb
+Entities:   13939  627804 4069125
+Overlap:       2       2      17
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-hipe2020-dev-fr.kb
+Entities:   13599  612194 3970551
+Overlap:       2       2      17
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-hipe2020-test_allmasked-fr.kb
+Entities:   15826  715100 4633774
+Overlap:       3       3      18
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-hipe2020-train-fr-200-all.kb
+Entities:   74432 3336540 21774873
+Overlap:      25      25     177
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-hipe2020-train-fr-200.kb
+Entities:   60483 2708440 17703738
+Overlap:      23      23     160
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time10/HIPE-2022-v2.1-hipe2020-train-fr.kb
+Entities:   59433 2655258 17358016
+Overlap:      23      23     160
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-hipe2020-dev-fr-200.kb
+Entities:   13939  627804 4069125
+Overlap:       2       2      17
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-hipe2020-dev-fr.kb
+Entities:   13599  612194 3970551
+Overlap:       2       2      17
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-hipe2020-test_allmasked-fr.kb
+Entities:   15826  715348 4635514
+Overlap:      10      10      67
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-hipe2020-train-fr-200-all.kb
+Entities:   74432 3336988 21778221
+Overlap:      57      57     407
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-hipe2020-train-fr-200.kb
+Entities:   60483 2708888 17707088
+Overlap:      55      55     390
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time25/HIPE-2022-v2.1-hipe2020-train-fr.kb
+Entities:   59433 2655706 17361373
+Overlap:      55      55     390
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-hipe2020-dev-fr-200.kb
+Entities:   13939  627814 4069129
+Overlap:       8       8      63
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-hipe2020-dev-fr.kb
+Entities:   13599  612204 3970556
+Overlap:       8       8      63
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-hipe2020-test_allmasked-fr.kb
+Entities:   15826  715378 4635721
+Overlap:      13      13      88
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-hipe2020-train-fr-200-all.kb
+Entities:   74432 3336922 21778268
+Overlap:      80      80     579
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-hipe2020-train-fr-200.kb
+Entities:   60483 2708812 17707131
+Overlap:      72      72     516
+File > KB-NER/kb/datasets/hipe2020/fr/kb/en_wk5m_simple_time50/HIPE-2022-v2.1-hipe2020-train-fr.kb
+Entities:   59433 2655630 17361419
+Overlap:      72      72     516
