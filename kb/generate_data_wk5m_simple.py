@@ -139,6 +139,7 @@ def write_kb(queries, years, responses, out_file):
                 #register = f"{sentence}\t{score}\t{entity_id}\t{entity_text}\n"
                 #simple context just first sentence
                 register = f"{sentence}\t{score}\t{entity_id}\t{sentence}\n"
+                """ temporary filter
                 if entity_id in entity_dict:
                     #if year of entity >= (year of query + interval) OR if year of entity <= (year of query - interval)
                     #1870 >= (1850+10= 1860) oR 1870<=  (1850-10= 1850)
@@ -146,6 +147,7 @@ def write_kb(queries, years, responses, out_file):
                     if entity_dict[entity_id] >= years[i] + INTERVAL or entity_dict[entity_id] <= years[i] - INTERVAL:
                         print(register)
                         continue
+                """
                 f.write(register)
                 count += 1
                 if count == 10:
@@ -159,7 +161,7 @@ def main():
     with open(args.in_file, 'r') as f:
         lines = f.readlines()
 
-    out_file = args.in_file.replace(".tsv", ".kb10")
+    out_file = args.in_file.replace(".tsv", ".kbs")
     sentences = utils.process_sentences_time(lines)
     batch_size = 10
     k = 25
