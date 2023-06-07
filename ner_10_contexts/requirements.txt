@@ -5,6 +5,6 @@ pygoogletranslation==2.0.6
 scipy==1.7.3
 spacy==3.2.4
 spacy_langdetect==0.1.2
-torch==1.11.0
+torch==1.13.1
 tqdm==4.63.0
 transformers
