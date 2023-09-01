@@ -1,7 +1,7 @@
 typing==3.6.4
 torch==1.13.1
 flair==0.4.1
-nltk==3.5
+nltk==3.6.6
 spacy==2.1.4
 transformers
 tqdm==4.42.1
